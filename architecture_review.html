@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity — Architecture Review</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --surface-2: #1c2128;
+      --border: rgba(255,255,255,0.08);
+      --text: #e6edf3;
+      --text-dim: #7d8590;
+      --text-muted: #484f58;
+
+      --green: #2ea043;
+      --green-dim: rgba(46,160,67,0.12);
+      --green-border: rgba(46,160,67,0.35);
+
+      --yellow: #d29922;
+      --yellow-dim: rgba(210,153,34,0.12);
+      --yellow-border: rgba(210,153,34,0.35);
+
+      --red: #f85149;
+      --red-dim: rgba(248,81,73,0.12);
+      --red-border: rgba(248,81,73,0.35);
+
+      --blue: #388bfd;
+      --blue-dim: rgba(56,139,253,0.12);
+      --blue-border: rgba(56,139,253,0.35);
+
+      --teal: #39d353;
+      --orange: #e3b341;
+
+      --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+      --font-mono: 'IBM Plex Mono', monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* Background texture */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 40% at 20% 10%, rgba(56,139,253,0.05) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 50% at 80% 80%, rgba(46,160,67,0.04) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    /* Header */
+    .header {
+      margin-bottom: 48px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 32px;
+    }
+
+    .header-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--blue);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .header h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    .header-sub {
+      color: var(--text-dim);
+      font-size: 14px;
+    }
+
+    .header-meta {
+      margin-top: 20px;
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+    }
+
+    .meta-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* Stats row */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px 16px;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 28px;
+      font-weight: 700;
+      font-family: var(--font-mono);
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .stat-label {
+      font-size: 11px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .stat-card.green .stat-number { color: var(--green); }
+    .stat-card.yellow .stat-number { color: var(--yellow); }
+    .stat-card.red .stat-number { color: var(--red); }
+    .stat-card.blue .stat-number { color: var(--blue); }
+
+    /* Section headers */
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .section-badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+
+    .badge-green { background: var(--green-dim); color: var(--green); border: 1px solid var(--green-border); }
+    .badge-yellow { background: var(--yellow-dim); color: var(--yellow); border: 1px solid var(--yellow-border); }
+    .badge-red { background: var(--red-dim); color: var(--red); border: 1px solid var(--red-border); }
+    .badge-blue { background: var(--blue-dim); color: var(--blue); border: 1px solid var(--blue-border); }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    /* Cards grid */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .cards-grid.single { grid-template-columns: 1fr; }
+    .cards-grid.three { grid-template-columns: 1fr 1fr 1fr; }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px 20px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.15s;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+    }
+
+    .card.green::before { background: var(--green); }
+    .card.yellow::before { background: var(--yellow); }
+    .card.red::before { background: var(--red); }
+    .card.blue::before { background: var(--blue); }
+
+    .card:hover { border-color: rgba(255,255,255,0.15); }
+
+    .card-title {
+      font-weight: 600;
+      font-size: 13px;
+      color: var(--text);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .card-icon {
+      font-size: 15px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .card-body {
+      font-size: 13px;
+      color: var(--text-dim);
+      line-height: 1.6;
+    }
+
+    .card-body code {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 1px 5px;
+      color: var(--text);
+    }
+
+    .card-tag {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      padding: 2px 7px;
+      border-radius: 3px;
+      margin-top: 8px;
+      margin-right: 4px;
+    }
+
+    .tag-green { background: var(--green-dim); color: var(--green); }
+    .tag-yellow { background: var(--yellow-dim); color: var(--yellow); }
+    .tag-red { background: var(--red-dim); color: var(--red); }
+    .tag-blue { background: var(--blue-dim); color: var(--blue); }
+
+    /* Priority list for improvements */
+    .priority-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .priority-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px 14px 20px;
+      display: grid;
+      grid-template-columns: 32px 1fr auto;
+      align-items: start;
+      gap: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .priority-item::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px; height: 100%;
+    }
+
+    .priority-item.p1::before { background: var(--red); }
+    .priority-item.p2::before { background: var(--yellow); }
+    .priority-item.p3::before { background: var(--blue); }
+
+    .priority-num {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .priority-item.p1 .priority-num { background: var(--red-dim); color: var(--red); border: 1px solid var(--red-border); }
+    .priority-item.p2 .priority-num { background: var(--yellow-dim); color: var(--yellow); border: 1px solid var(--yellow-border); }
+    .priority-item.p3 .priority-num { background: var(--blue-dim); color: var(--blue); border: 1px solid var(--blue-border); }
+
+    .priority-content .title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .priority-content .desc {
+      font-size: 12px;
+      color: var(--text-dim);
+      line-height: 1.5;
+    }
+
+    .priority-content .desc code {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 1px 4px;
+      color: var(--text);
+    }
+
+    .priority-effort {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      padding: 2px 8px;
+      border-radius: 3px;
+      white-space: nowrap;
+      align-self: flex-start;
+      margin-top: 3px;
+    }
+
+    /* Evaluation section */
+    .eval-section {
+      background: var(--surface);
+      border: 1px solid var(--blue-border);
+      border-radius: 10px;
+      padding: 28px;
+      margin-bottom: 40px;
+    }
+
+    .eval-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .eval-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: var(--blue-dim);
+      border: 1px solid var(--blue-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .eval-header-text h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .eval-header-text p {
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-top: 2px;
+    }
+
+    .eval-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .eval-metric {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+
+    .eval-metric-name {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--blue);
+      font-weight: 500;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .eval-metric-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .eval-metric-desc {
+      font-size: 12px;
+      color: var(--text-dim);
+      line-height: 1.5;
+    }
+
+    .eval-metric-formula {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 6px 10px;
+      margin-top: 8px;
+      color: var(--teal);
+      white-space: pre;
+    }
+
+    /* Hot path diagram */
+    .hotpath {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .hotpath-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-right: 4px;
+    }
+
+    .hp-step {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hp-box {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-family: var(--font-mono);
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .hp-box.done { border-color: var(--green-border); color: var(--green); background: var(--green-dim); }
+    .hp-box.partial { border-color: var(--yellow-border); color: var(--yellow); background: var(--yellow-dim); }
+    .hp-box.todo { border-color: var(--border); color: var(--text-dim); }
+
+    .hp-arrow {
+      color: var(--text-muted);
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    /* Animations */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .anim { opacity: 0; animation: fadeUp 0.4s ease forwards; }
+    .anim-1 { animation-delay: 0.05s; }
+    .anim-2 { animation-delay: 0.1s; }
+    .anim-3 { animation-delay: 0.15s; }
+    .anim-4 { animation-delay: 0.2s; }
+    .anim-5 { animation-delay: 0.25s; }
+    .anim-6 { animation-delay: 0.3s; }
+
+    @media (max-width: 700px) {
+      .cards-grid { grid-template-columns: 1fr; }
+      .stats-row { grid-template-columns: repeat(2, 1fr); }
+      .eval-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header anim anim-1">
+    <div class="header-eyebrow">Senior Data Scientist Review · Learnity</div>
+    <h1>Architecture Review<br>Adaptive Math Learning System</h1>
+    <div class="header-sub">Микросервисная рекомендательная система по математике (grade 5–11)</div>
+    <div class="header-meta">
+      <div class="meta-item">
+        <div class="meta-dot" style="background:var(--green)"></div>
+        BKT + Decay · Profile Service
+      </div>
+      <div class="meta-item">
+        <div class="meta-dot" style="background:var(--green)"></div>
+        ZPD · Graph Service (Neo4j)
+      </div>
+      <div class="meta-item">
+        <div class="meta-dot" style="background:var(--yellow)"></div>
+        TaskBank · Retrieval · Ranking (planned)
+      </div>
+      <div class="meta-item">
+        <div class="meta-dot" style="background:var(--text-muted)"></div>
+        142 KC · 253 edges · Grades 5–11
+      </div>
+    </div>
+  </div>
+
+  <!-- Hot path status -->
+  <div class="hotpath anim anim-2">
+    <span class="hotpath-label">Hot path</span>
+    <div class="hp-step">
+      <div class="hp-box done">Profile / BKT</div>
+      <div class="hp-arrow">→</div>
+      <div class="hp-box done">Graph / ZPD</div>
+      <div class="hp-arrow">→</div>
+      <div class="hp-box todo">Retrieval</div>
+      <div class="hp-arrow">→</div>
+      <div class="hp-box todo">TaskBank</div>
+      <div class="hp-arrow">→</div>
+      <div class="hp-box todo">Ranking / IRT</div>
+      <div class="hp-arrow">→</div>
+      <div class="hp-box todo">Response</div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats-row anim anim-2">
+    <div class="stat-card green">
+      <div class="stat-number">73</div>
+      <div class="stat-label">Tests passing</div>
+    </div>
+    <div class="stat-card blue">
+      <div class="stat-number">142</div>
+      <div class="stat-label">KC Nodes</div>
+    </div>
+    <div class="stat-card blue">
+      <div class="stat-number">253</div>
+      <div class="stat-label">Graph Edges</div>
+    </div>
+    <div class="stat-card yellow">
+      <div class="stat-number">3/8</div>
+      <div class="stat-label">Services done</div>
+    </div>
+  </div>
+
+  <!-- Section 1: Strengths -->
+  <div class="section anim anim-3">
+    <div class="section-header">
+      <span class="section-badge badge-green">✓ Сильные стороны</span>
+      <span class="section-title">Что сделано правильно</span>
+    </div>
+    <div class="cards-grid">
+
+      <div class="card green">
+        <div class="card-title">
+          <span class="card-icon">🧠</span>
+          BKT с decay — правильный старт
+        </div>
+        <div class="card-body">
+          Классический BKT (L0, T, S, G) с экспоненциальным decay отдельно от <code>mastery_stored</code> — это именно то, что нужно на MVP. Не нужно нейросетей без данных. DKT/DKVMN потребует тысяч студентов, а BKT работает с единицами. Разделение <code>mastery_stored</code> / <code>mastery_effective</code> — грамотная инженерная абстракция, позволяющая менять функцию decay без миграции данных.
+          <div>
+            <span class="card-tag tag-green">interpretable</span>
+            <span class="card-tag tag-green">data-efficient</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card green">
+        <div class="card-title">
+          <span class="card-icon">🗺️</span>
+          ZPD на графе с assumed mastery
+        </div>
+        <div class="card-body">
+          <code>grade_floor = student_grade - 2</code> с автоматическим assumed mastery для пререквизитов ниже floor — это продуманное решение, избегающее проблемы «ученик застрял из-за непроверенных древних тем». <code>STRONG_PREREQ = 0.5</code> позволяет гибко строить граф, не блокируя студентов слабыми зависимостями. Чистая функция без side effects — легко тестируется.
+          <div>
+            <span class="card-tag tag-green">pedagogically sound</span>
+            <span class="card-tag tag-green">testable</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card green">
+        <div class="card-title">
+          <span class="card-icon">📐</span>
+          Таксономия по реальной программе
+        </div>
+        <div class="card-body">
+          142 KC построены по реальному школьному перечню тем 5–11 класс с корректными <code>grade_introduced</code> из CSV-таксономии. Поле <code>subject</code> (algebra/geometry/arithmetic/statistics) позволяет будущему ранжировщику балансировать темы. <code>difficulty_base</code> как float — правильный прокси до IRT-калибровки.
+          <div>
+            <span class="card-tag tag-green">curriculum-aligned</span>
+            <span class="card-tag tag-green">extensible</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card green">
+        <div class="card-title">
+          <span class="card-icon">🔌</span>
+          Чёткое разделение сервисов (SRP)
+        </div>
+        <div class="card-body">
+          Graph /zpd принимает <code>mastery</code> как параметр, не ходит в profile сам — clean SRP. Profile пишет mastery, все читают. Kafka для холодного пути позволяет replay и независимое масштабирование. Архитектура позволит добавить Retrieval между Graph и Ranking без переписывания существующих сервисов.
+          <div>
+            <span class="card-tag tag-green">loose coupling</span>
+            <span class="card-tag tag-green">event-driven</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card green">
+        <div class="card-title">
+          <span class="card-icon">🧪</span>
+          Качество тестового покрытия
+        </div>
+        <div class="card-body">
+          73 теста: unit (чистые функции BKT, ZPD) + integration (реальный PG с savepoint rollback, реальный Neo4j). Savepoint-подход в integration tests — правильно: изолирует состояние без пересоздания БД. Fixture с module scope для Neo4j seed — хорошо для скорости. Тесты обеспечивают контракт на все граничные случаи ZPD (assumed mastery, weak prereqs, grade filter).
+          <div>
+            <span class="card-tag tag-green">unit + integration</span>
+            <span class="card-tag tag-green">real DB</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card green">
+        <div class="card-title">
+          <span class="card-icon">📊</span>
+          Схема данных с частичными ответами
+        </div>
+        <div class="card-body">
+          <code>score: float [0.0–1.0]</code> вместо бинарного correct — позволяет гранулярное BKT-обновление. <code>primary_kcs / secondary_kcs</code> с разными весами (1.0/0.3) — корректно отражает реальную педагогику, где задание тренирует несколько тем. <code>distractors_map</code> → misconception_id — задел для диагностики типичных ошибок.
+          <div>
+            <span class="card-tag tag-green">non-binary feedback</span>
+            <span class="card-tag tag-green">multi-KC tasks</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Section 2: Weaknesses -->
+  <div class="section anim anim-4">
+    <div class="section-header">
+      <span class="section-badge badge-yellow">⚠ Риски</span>
+      <span class="section-title">Слабые места</span>
+    </div>
+    <div class="cards-grid">
+
+      <div class="card yellow">
+        <div class="card-title">
+          <span class="card-icon">🔢</span>
+          BKT параметры — одинаковые для всех KC
+        </div>
+        <div class="card-body">
+          В текущей реализации BKT параметры (P_T, P_S, P_G) либо глобальные, либо per-student. Но в реальности «вероятность выучить за одну попытку» у тригонометрии и у натуральных чисел кардинально разная. Без per-KC параметров BKT недо- или переоценивает прогресс. Нужна инициализация <code>p_transit</code> / <code>p_slip</code> / <code>p_guess</code> на уровне KC-ноды в Neo4j.
+          <div>
+            <span class="card-tag tag-yellow">model accuracy risk</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card yellow">
+        <div class="card-title">
+          <span class="card-icon">📉</span>
+          Decay функция — недостаточно реалистична
+        </div>
+        <div class="card-body">
+          <code>0.5 ** (days / half_life)</code> с фиксированным <code>half_life=30</code> — грубое приближение. Кривая Эббингауза нелинейна, а half_life сильно варьируется: процедурные навыки (умножение) забываются медленнее концептуальных (производная). Также отсутствует эффект спейсинга — повторение на следующий день не должно давать тот же прирост, что через неделю. Рекомендую хотя бы per-KC <code>half_life</code>.
+          <div>
+            <span class="card-tag tag-yellow">forgetting model</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card yellow">
+        <div class="card-title">
+          <span class="card-icon">🎲</span>
+          Нет exploration — чистый exploitation
+        </div>
+        <div class="card-body">
+          IRT + ZPD выбирают «оптимальное» задание детерминированно. Это exploitation без exploration: система никогда не узнает, что задание с <code>difficulty=0.6</code> плохо откалибровано, если всегда выбирает <code>difficulty=0.5</code>. Thompson Sampling или ε-greedy обязателен после накопления базовых данных. Иначе система сходится в локальный оптимум и перестаёт «видеть» новые задания.
+          <div>
+            <span class="card-tag tag-red">exploitation trap</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card yellow">
+        <div class="card-title">
+          <span class="card-icon">❄️</span>
+          Cold Start — mastery=0.5 для старых классов рискован
+        </div>
+        <div class="card-body">
+          Инициализация <code>mastery=0.5</code> для KC ниже текущего класса — смелое допущение. Ученик 8-го класса с реальным mastery=0.1 по дробям получит ZPD в 8-м классе, при этом не освоив base. 10–15 диагностических вопросов в Placement Assessment явно недостаточно для покрытия 30+ KC из предыдущих классов. Нужна адаптивная диагностика: CAT (Computerized Adaptive Testing) хотя бы на 20–30 вопросов с IRT-выбором следующего вопроса.
+          <div>
+            <span class="card-tag tag-yellow">cold start quality</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card yellow">
+        <div class="card-title">
+          <span class="card-icon">🔗</span>
+          IRT параметры — нет плана калибровки
+        </div>
+        <div class="card-body">
+          Для синтетического seed задания получат <code>irt=None</code> или прокси <code>difficulty_base</code>. Но IRT 2PL/3PL нужно калибровать на реальных ответах (минимум 200–300 студентов per item). Пока их нет — нужен явный fallback: ранжировать по <code>difficulty_base</code>, не претендуя на IRT. Иначе система даёт иллюзию точности там, где данных нет.
+          <div>
+            <span class="card-tag tag-yellow">calibration gap</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card yellow">
+        <div class="card-title">
+          <span class="card-icon">📏</span>
+          Граф — нет механизма обновления
+        </div>
+        <div class="card-body">
+          142 KC с 253 рёбрами — хорошо для MVP. Но граф статичен: нет процесса валидации корректности рёбер, нет versioning, нет механизма добавления новых KC при расширении банка заданий. Что происходит если задание тегировано KC, которой нет в графе? Нужна хотя бы schema validation при seed и проверка orphan KC при добавлении задания.
+          <div>
+            <span class="card-tag tag-yellow">graph drift risk</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card red">
+        <div class="card-title">
+          <span class="card-icon">📊</span>
+          Evaluation pipeline полностью отсутствует
+        </div>
+        <div class="card-body">
+          Нет метрик обучения, нет offline-evaluation рекомендаций, нет способа понять «система помогает?». Это блокер для production: без eval loop невозможно итерировать на модели. Подробнее — в разделе Evaluation ниже.
+          <div>
+            <span class="card-tag tag-red">critical gap</span>
+            <span class="card-tag tag-red">blocks production</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Section 3: Improvements -->
+  <div class="section anim anim-5">
+    <div class="section-header">
+      <span class="section-badge badge-blue">🔧 Улучшения</span>
+      <span class="section-title">Что стоит изменить — по приоритету</span>
+    </div>
+    <div class="priority-list">
+
+      <div class="priority-item p1">
+        <div class="priority-num">1</div>
+        <div class="priority-content">
+          <div class="title">Добавить per-KC параметры BKT в Neo4j</div>
+          <div class="desc">Сейчас P(T), P(S), P(G) либо глобальные либо не используются. Добавить <code>p_transit_default</code>, <code>p_slip_default</code>, <code>p_guess_default</code> на KC-ноду. Инициализировать разумными prior'ами по subject (geometry сложнее arithmetic → ниже p_transit). Это улучшит качество BKT без новых данных.</div>
+        </div>
+        <span class="priority-effort tag-blue card-tag">Effort: S</span>
+      </div>
+
+      <div class="priority-item p1">
+        <div class="priority-num">2</div>
+        <div class="priority-content">
+          <div class="title">Explicit IRT fallback — difficulty_base как прокси</div>
+          <div class="desc">В Ranking сервисе явно разделить два режима: <code>irt_mode</code> (если <code>irt != None</code>) и <code>difficulty_mode</code> (fallback на <code>difficulty_base</code>). Логировать режим в каждом запросе. Не смешивать — иначе невозможно понять что работает.</div>
+        </div>
+        <span class="priority-effort tag-blue card-tag">Effort: S</span>
+      </div>
+
+      <div class="priority-item p1">
+        <div class="priority-num">3</div>
+        <div class="priority-content">
+          <div class="title">Минимальный eval: логировать mastery дельту</div>
+          <div class="desc">После каждого BKT update логировать <code>mastery_before</code>, <code>mastery_after</code>, <code>kc_id</code>, <code>is_correct</code> в Kafka topic <code>mastery_events</code>. Это даст материал для offline evaluation без дополнительной работы. Позже — агрегировать в learning gain метрику.</div>
+        </div>
+        <span class="priority-effort tag-blue card-tag">Effort: S</span>
+      </div>
+
+      <div class="priority-item p2">
+        <div class="priority-num">4</div>
+        <div class="priority-content">
+          <div class="title">Thompson Sampling в Ranking — запланировать архитектурно</div>
+          <div class="desc">Не обязательно реализовывать сразу, но заложить в контракт Ranking: принимать <code>exploration_rate: float</code> (дефолт 0.0). При exploration_rate > 0 — с вероятностью ε выбирать случайное задание из ZPD вместо оптимального. Это позволит включить exploration одной конфигурацией.</div>
+        </div>
+        <span class="priority-effort tag-yellow card-tag">Effort: M</span>
+      </div>
+
+      <div class="priority-item p2">
+        <div class="priority-num">5</div>
+        <div class="priority-content">
+          <div class="title">Decay half_life — per-KC или per-subject</div>
+          <div class="desc">Добавить <code>half_life_days</code> на KC-ноду (или хотя бы на subject). Разумные дефолты: arithmetic=90d, algebra=45d, geometry=60d, statistics=30d. Это небольшое изменение, но значительно улучшает реалистичность decay без усложнения кода.</div>
+        </div>
+        <span class="priority-effort tag-yellow card-tag">Effort: S</span>
+      </div>
+
+      <div class="priority-item p2">
+        <div class="priority-num">6</div>
+        <div class="priority-content">
+          <div class="title">Placement Assessment — адаптивный выбор вопросов</div>
+          <div class="desc">Вместо фиксированных 10–15 вопросов: начать с KC среднего grade ученика, после ответа выбирать следующий вопрос по результату (правильно → сложнее, неправильно → проще). Это CAT в простейшем виде — 20 вопросов дадут точность 30-вопросного фиксированного теста. Реализуется на ZPD + простой binary search по difficulty.</div>
+        </div>
+        <span class="priority-effort tag-yellow card-tag">Effort: M</span>
+      </div>
+
+      <div class="priority-item p3">
+        <div class="priority-num">7</div>
+        <div class="priority-content">
+          <div class="title">Graph versioning + orphan KC validation</div>
+          <div class="desc">Добавить <code>graph_version</code> в Neo4j метаданные. При добавлении задания — валидировать что все KC из <code>primary_kcs</code> существуют в графе. При изменении графа — проверять что не возникает orphan KC (задания без KC в графе). Можно реализовать как pre-commit check в seed скрипте.</div>
+        </div>
+        <span class="priority-effort tag-blue card-tag">Effort: M</span>
+      </div>
+
+      <div class="priority-item p3">
+        <div class="priority-num">8</div>
+        <div class="priority-content">
+          <div class="title">Interaction log — добавить поле recommendation_source</div>
+          <div class="desc">В таблицу <code>interactions</code> добавить <code>recommendation_source: "zpd" | "placement" | "exploration" | "manual"</code>. Без этого невозможно будет разделить качество рекомендаций по типу. Нулевая стоимость сейчас, огромная ценность при анализе.</div>
+        </div>
+        <span class="priority-effort tag-blue card-tag">Effort: XS</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Section 4: Evaluation -->
+  <div class="eval-section anim anim-6">
+    <div class="eval-header">
+      <div class="eval-icon">📊</div>
+      <div class="eval-header-text">
+        <h2>Критичный пробел: Evaluation Pipeline</h2>
+        <p>Как измерять что система работает — конкретные метрики и методология</p>
+      </div>
+    </div>
+
+    <div class="eval-grid">
+
+      <div class="eval-metric">
+        <div class="eval-metric-name">Метрика 1 · Онлайн</div>
+        <div class="eval-metric-title">Learning Gain per Session</div>
+        <div class="eval-metric-desc">Средний прирост mastery_effective за одну сессию. Ключевой сигнал что рекомендации работают. Агрегировать per-KC и per-student.</div>
+        <div class="eval-metric-formula">Δmastery = mean(mastery_after - mastery_before)
+per session, per KC, per student_grade</div>
+      </div>
+
+      <div class="eval-metric">
+        <div class="eval-metric-name">Метрика 2 · Онлайн</div>
+        <div class="eval-metric-title">Retention Rate</div>
+        <div class="eval-metric-desc">mastery_effective через 7/14/30 дней после освоения KC. Сигнал качества decay модели и spaced repetition. Без этого decay-функцию нельзя калибровать.</div>
+        <div class="eval-metric-formula">retention(kc, t) = mastery_effective(t) / mastery_peak
+где t = days_since_mastered</div>
+      </div>
+
+      <div class="eval-metric">
+        <div class="eval-metric-name">Метрика 3 · Офлайн</div>
+        <div class="eval-metric-title">ZPD Precision</div>
+        <div class="eval-metric-desc">Доля заданий из ZPD, на которых ученик ответил правильно с первой попытки. Слишком высокая (>0.9) — ZPD слишком легкий. Слишком низкая (&lt;0.4) — слишком сложный. Оптимум 0.6–0.75.</div>
+        <div class="eval-metric-formula">zpd_precision = correct_first_attempt / total_zpd_tasks
+target: [0.60, 0.75]</div>
+      </div>
+
+      <div class="eval-metric">
+        <div class="eval-metric-name">Метрика 4 · Офлайн</div>
+        <div class="eval-metric-title">IRT Calibration Fit</div>
+        <div class="eval-metric-desc">После накопления 100+ ответов per task — сравнивать предсказанную вероятность правильного ответа (по IRT) с реальной. RMSE &lt; 0.1 — хорошая калибровка.</div>
+        <div class="eval-metric-formula">irt_rmse = sqrt(mean((p_irt - p_actual)^2))
+per task, min 100 responses required</div>
+      </div>
+
+      <div class="eval-metric">
+        <div class="eval-metric-name">Метрика 5 · Сигнал качества</div>
+        <div class="eval-metric-title">Time to Mastery</div>
+        <div class="eval-metric-desc">Сколько сессий/задач нужно ученику чтобы достичь mastery_effective >= 0.7 для KC. Ключевой business metric — система должна ускорять обучение vs baseline (линейный учебник).</div>
+        <div class="eval-metric-formula">ttm(kc) = sessions_until(mastery_eff >= 0.70)
+compare: recommendation_group vs control_group</div>
+      </div>
+
+      <div class="eval-metric">
+        <div class="eval-metric-name">Методология</div>
+        <div class="eval-metric-title">Что делать прямо сейчас</div>
+        <div class="eval-metric-desc">
+          1. Логировать <b>все BKT updates</b> в Kafka (mastery_before, mastery_after, kc_id, is_correct)<br><br>
+          2. Добавить <b>interaction.recommendation_source</b> в схему<br><br>
+          3. Реализовать <b>offline replay</b>: взять историю ответов, прогнать через BKT без рекомендации (случайные задания) — сравнить Δmastery<br><br>
+          4. Первый A/B: 50% студентов получают ZPD-рекомендации, 50% — random from grade. Мерять Learning Gain.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <span>Learnity · Architecture Review · 2026-03-23</span>
+    <span>Senior Data Scientist Skill</span>
+  </div>
+
+</div>
+</body>
+</html>
