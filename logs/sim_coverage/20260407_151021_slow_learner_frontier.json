@@ -1,0 +1,96 @@
+{
+  "ts": "2026-04-07T15:10:21.387139+00:00",
+  "profile": "slow_learner",
+  "grade": 8,
+  "variant": "frontier",
+  "student_id": "963c94cb-d545-4d88-b94e-f3f806d9804c",
+  "tasks_done": 200,
+  "accuracy": 0.49,
+  "plan_focus_rate": 0.435,
+  "plan_mastered_true": 0,
+  "plan_mastered_visible": 1,
+  "coverage_pct": 0.0,
+  "steps_completed": 1,
+  "plan_kcs": [
+    "kc_sqrt_simplify",
+    "kc_sqrt_function",
+    "kc_quadratic_function",
+    "kc_quadratic_eq",
+    "kc_quadratic_factoring",
+    "kc_biquadratic_eq",
+    "kc_linear_inequality",
+    "kc_absolute_value_eq",
+    "kc_area_parallelogram",
+    "kc_pythagorean_know"
+  ],
+  "plan_kc_vis_at_creation": {
+    "kc_sqrt_simplify": 0.3,
+    "kc_sqrt_function": 0.3,
+    "kc_quadratic_function": 0.3,
+    "kc_quadratic_eq": 0.3,
+    "kc_quadratic_factoring": 0.3,
+    "kc_biquadratic_eq": 0.3,
+    "kc_linear_inequality": 0.3,
+    "kc_absolute_value_eq": 0.3,
+    "kc_area_parallelogram": 0.3,
+    "kc_pythagorean_know": 0.3
+  },
+  "plan_kc_final": {
+    "kc_sqrt_simplify": {
+      "true": 0.73,
+      "vis": 0.83,
+      "tasks": 63
+    },
+    "kc_sqrt_function": {
+      "true": 0.235,
+      "vis": 0.338,
+      "tasks": 24
+    },
+    "kc_quadratic_function": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_quadratic_eq": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_quadratic_factoring": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_biquadratic_eq": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_linear_inequality": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_absolute_value_eq": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_area_parallelogram": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_pythagorean_know": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    }
+  },
+  "all_kc_tasks": {
+    "kc_divisibility": 84,
+    "kc_sqrt_simplify": 63,
+    "kc_fractions_operations": 29,
+    "kc_sqrt_function": 24
+  }
+}

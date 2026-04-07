@@ -1,0 +1,103 @@
+{
+  "ts": "2026-04-07T14:37:38.450658+00:00",
+  "profile": "fast_learner",
+  "grade": 8,
+  "variant": "count",
+  "student_id": "e49b9d0a-5bcd-4c07-95e3-ea84c1d81a1b",
+  "tasks_done": 200,
+  "accuracy": 0.81,
+  "plan_focus_rate": 0.12,
+  "plan_mastered_true": 1,
+  "plan_mastered_visible": 1,
+  "coverage_pct": 10.0,
+  "steps_completed": 0,
+  "plan_kcs": [
+    "kc_linear_eq_1var",
+    "kc_function_concept",
+    "kc_linear_function",
+    "kc_linear_function_graph",
+    "kc_linear_eq_system",
+    "kc_system_substitution",
+    "kc_system_addition",
+    "kc_powers_properties",
+    "kc_monomial",
+    "kc_polynomial"
+  ],
+  "plan_kc_vis_at_creation": {
+    "kc_linear_eq_1var": 0.75,
+    "kc_function_concept": 0.75,
+    "kc_linear_function": 0.75,
+    "kc_linear_function_graph": 0.75,
+    "kc_linear_eq_system": 0.75,
+    "kc_system_substitution": 0.75,
+    "kc_system_addition": 0.75,
+    "kc_powers_properties": 0.75,
+    "kc_monomial": 0.75,
+    "kc_polynomial": 0.75
+  },
+  "plan_kc_final": {
+    "kc_linear_eq_1var": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_function_concept": {
+      "true": 0.974,
+      "vis": 0.942,
+      "tasks": 24
+    },
+    "kc_linear_function": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_linear_function_graph": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_linear_eq_system": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_system_substitution": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_system_addition": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_powers_properties": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_monomial": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_polynomial": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    }
+  },
+  "all_kc_tasks": {
+    "kc_coordinate_plane": 40,
+    "kc_expression_simplify": 28,
+    "kc_function_concept": 24,
+    "kc_ratios_proportions": 20,
+    "kc_divisibility": 19,
+    "kc_circle_length_area": 19,
+    "kc_parallel_lines": 19,
+    "kc_fractions_operations": 18,
+    "kc_triangle_angle_sum": 5,
+    "kc_negative_numbers": 4,
+    "kc_rational_arithmetic": 4
+  }
+}

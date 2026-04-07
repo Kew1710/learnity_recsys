@@ -1,0 +1,29 @@
+# Backend (Go) — отдельный репозиторий
+backend/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/*.log
+
+# PIDs
+.pids/
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+
+# OS
+.DS_Store

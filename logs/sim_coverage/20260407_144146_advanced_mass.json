@@ -1,0 +1,103 @@
+{
+  "ts": "2026-04-07T14:41:46.077040+00:00",
+  "profile": "advanced",
+  "grade": 8,
+  "variant": "mass",
+  "student_id": "6921b5b7-8015-4f08-abca-cc9ed8072d15",
+  "tasks_done": 200,
+  "accuracy": 0.79,
+  "plan_focus_rate": 0.0,
+  "plan_mastered_true": 0,
+  "plan_mastered_visible": 0,
+  "coverage_pct": 0.0,
+  "steps_completed": 0,
+  "plan_kcs": [
+    "kc_sqrt_simplify",
+    "kc_sqrt_function",
+    "kc_quadratic_function",
+    "kc_quadratic_eq",
+    "kc_quadratic_factoring",
+    "kc_biquadratic_eq",
+    "kc_linear_inequality",
+    "kc_absolute_value_eq",
+    "kc_area_parallelogram",
+    "kc_pythagorean_know"
+  ],
+  "plan_kc_vis_at_creation": {
+    "kc_sqrt_simplify": 0.3,
+    "kc_sqrt_function": 0.3,
+    "kc_quadratic_function": 0.3,
+    "kc_quadratic_eq": 0.3,
+    "kc_quadratic_factoring": 0.3,
+    "kc_biquadratic_eq": 0.3,
+    "kc_linear_inequality": 0.3,
+    "kc_absolute_value_eq": 0.3,
+    "kc_area_parallelogram": 0.3,
+    "kc_pythagorean_know": 0.3
+  },
+  "plan_kc_final": {
+    "kc_sqrt_simplify": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_sqrt_function": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_quadratic_function": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_quadratic_eq": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_quadratic_factoring": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_biquadratic_eq": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_linear_inequality": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_absolute_value_eq": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_area_parallelogram": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_pythagorean_know": {
+      "true": 0.7,
+      "vis": 0.3,
+      "tasks": 0
+    }
+  },
+  "all_kc_tasks": {
+    "kc_negative_numbers": 37,
+    "kc_divisibility": 33,
+    "kc_coordinate_plane": 31,
+    "kc_circle_length_area": 24,
+    "kc_fractions_operations": 23,
+    "kc_linear_eq_1var": 22,
+    "kc_function_concept": 11,
+    "kc_ratios_proportions": 9,
+    "kc_expression_simplify": 4,
+    "kc_rational_arithmetic": 4,
+    "kc_parallel_lines": 2
+  }
+}

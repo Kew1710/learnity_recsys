@@ -1,0 +1,125 @@
+{
+  "ts": "2026-04-07T14:59:23.383322+00:00",
+  "profile": "fast_learner",
+  "grade": 8,
+  "variant": "count",
+  "student_id": "2d6b865a-744c-42e1-8b9f-bf5417e494f7",
+  "tasks_done": 200,
+  "accuracy": 0.705,
+  "plan_focus_rate": 0.42,
+  "plan_mastered_true": 10,
+  "plan_mastered_visible": 7,
+  "coverage_pct": 100.0,
+  "steps_completed": 10,
+  "plan_kcs": [
+    "kc_linear_eq_1var",
+    "kc_function_concept",
+    "kc_linear_function",
+    "kc_linear_function_graph",
+    "kc_linear_eq_system",
+    "kc_system_substitution",
+    "kc_system_addition",
+    "kc_powers_properties",
+    "kc_monomial",
+    "kc_polynomial"
+  ],
+  "plan_kc_vis_at_creation": {
+    "kc_linear_eq_1var": 0.75,
+    "kc_function_concept": 0.75,
+    "kc_linear_function": 0.75,
+    "kc_linear_function_graph": 0.75,
+    "kc_linear_eq_system": 0.75,
+    "kc_system_substitution": 0.75,
+    "kc_system_addition": 0.75,
+    "kc_powers_properties": 0.75,
+    "kc_monomial": 0.75,
+    "kc_polynomial": 0.75
+  },
+  "plan_kc_final": {
+    "kc_linear_eq_1var": {
+      "true": 0.867,
+      "vis": 0.7,
+      "tasks": 9
+    },
+    "kc_function_concept": {
+      "true": 0.809,
+      "vis": 0.827,
+      "tasks": 2
+    },
+    "kc_linear_function": {
+      "true": 0.857,
+      "vis": 0.815,
+      "tasks": 5
+    },
+    "kc_linear_function_graph": {
+      "true": 0.969,
+      "vis": 0.853,
+      "tasks": 20
+    },
+    "kc_linear_eq_system": {
+      "true": 0.936,
+      "vis": 0.826,
+      "tasks": 16
+    },
+    "kc_system_substitution": {
+      "true": 0.853,
+      "vis": 0.837,
+      "tasks": 4
+    },
+    "kc_system_addition": {
+      "true": 0.846,
+      "vis": 0.802,
+      "tasks": 6
+    },
+    "kc_powers_properties": {
+      "true": 0.844,
+      "vis": 0.857,
+      "tasks": 5
+    },
+    "kc_monomial": {
+      "true": 0.817,
+      "vis": 0.671,
+      "tasks": 4
+    },
+    "kc_polynomial": {
+      "true": 0.936,
+      "vis": 0.772,
+      "tasks": 13
+    }
+  },
+  "all_kc_tasks": {
+    "kc_negative_numbers": 33,
+    "kc_ratios_proportions": 21,
+    "kc_divisibility": 20,
+    "kc_linear_function_graph": 20,
+    "kc_linear_eq_system": 16,
+    "kc_polynomial": 13,
+    "kc_fractions_operations": 10,
+    "kc_linear_eq_1var": 9,
+    "kc_system_addition": 6,
+    "kc_linear_function": 5,
+    "kc_powers_properties": 5,
+    "kc_system_substitution": 4,
+    "kc_monomial": 4,
+    "kc_trig_sin_cos_tan": 4,
+    "kc_circle_length_area": 3,
+    "kc_polynomial_operations": 3,
+    "kc_function_concept": 2,
+    "kc_right_triangle_parts": 2,
+    "kc_rational_arithmetic": 2,
+    "kc_coordinate_plane": 2,
+    "kc_quadrilaterals": 2,
+    "kc_triangle_angle_sum": 2,
+    "kc_triangle_similarity": 2,
+    "kc_factoring_formulas": 1,
+    "kc_expression_simplify": 1,
+    "kc_probability_basic": 1,
+    "kc_circle_tangent": 1,
+    "kc_rational_eq": 1,
+    "kc_combinatorics_basic": 1,
+    "kc_inequality_props": 1,
+    "kc_inverse_proportion": 1,
+    "kc_algebraic_fraction_ops": 1,
+    "kc_isosceles_triangle": 1
+  }
+}
