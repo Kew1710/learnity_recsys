@@ -1,0 +1,45 @@
+{
+  "comment": "Преобразуем исходную функцию:\n$$y=(x+8)^2\\cdot e^{3-x}=(x^2+16x+64)\\cdot e^{3-x}$$\nТак как в точке максимума функции производная этой функции равна нулю, найдём сначала производную. Воспользуемся для этого формулой для нахождения производной произведения функций и формулой производной сложной функции:\n$$y'=(2x+16)\\cdot e^{3-x}+(x^2+16x+64)\\cdot (-1)\\cdot e^{3-x}=\\\\ =e^{3-x}\\cdot (2x+16-x^2-16x-64)=e^{3-x}\\cdot (-x^2-14x-48)$$\nТогда:\n$$e^{3-x}\\cdot (-x^2-14x-48)=0$$\nТак как \\(e^{3-x}>0 \\ \\forall x\\in R\\), то\n$$e^{3-x}\\cdot (-x^2-14x-48)=0\\Leftrightarrow -x^2-14x-48=0\\\\ x^2+14x+48=0\\\\ (x+6)(x+8)=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} x=-6\\\\ x=-8 \\end{array} \\right.$$\nОтметим на числовой прямой знаки производной и поведение (убывание/возрастание) функции:\nВ точке максимума производная должна менять знак, а функция из возрастающей стать убывающей, значит \\(y_{max}\\) при \\(x=-6\\).\n\nОтвет: -6.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2448,
+    "title": "12.5 Функций с экспонентой"
+  },
+  "id": 23704,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку максимума функции \\(y=(x+8)^2\\cdot e^{3-x}\\).",
+      "error_conditions": [],
+      "id": 243432,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=3542s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=3542s"
+}

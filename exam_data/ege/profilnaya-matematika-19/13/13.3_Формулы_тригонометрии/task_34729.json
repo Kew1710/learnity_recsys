@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n$$1-ctg2x=\\frac{1}{\\cos\\left(\\frac{3\\pi}{2}-2x\\right)}\\Rightarrow 1-\\frac{\\cos 2x}{\\sin 2x}=\\frac{1}{-\\sin 2x}\\Rightarrow \\frac{\\sin 2x-\\cos 2x+1}{\\sin 2x}=0\\Rightarrow \\\\ \\Rightarrow \\displaystyle \\begin{cases} \\sin 2x-\\cos 2x+1=0\\\\ \\sin 2x\\neq 0 \\end{cases} \\Rightarrow \\begin{cases} 2\\sin x\\cos x-\\left( 1-2\\sin^{2} x\\right) +1=0\\\\ \\sin 2x\\neq 0 \\end{cases} \\Rightarrow \\\\ \\displaystyle \\Rightarrow \\begin{cases} 2\\sin x\\cos x-1+2\\sin^{2} x+1=0\\\\ 2x\\neq \\pi n,n\\in \\mathbb{Z} \\end{cases} \\Rightarrow \\begin{cases} \\sin x(\\cos x+\\sin x) =0\\\\ x\\neq \\frac{\\pi n}{2} ,n\\in \\mathbb{Z} \\end{cases} \\Rightarrow \\begin{cases} \\left[ \\begin{array}{l l} \\sin x=0\\\\ \\cos x+\\sin x=0 \\end{array} \\right.\\\\ x\\neq \\frac{\\pi n}{2} ,n\\in \\mathbb{Z} \\end{cases}$$\nРассмотрим \\(\\cos x+\\sin x=0\\), если \\(\\cos x=0\\), то и \\(\\sin x=0\\), что противоречит основному тригонометрическому тождеству, значит, \\(\\cos x\\ne 0\\Rightarrow 1+tgx=0\\Rightarrow tgx=-1\\).\n$$\\displaystyle \\begin{cases} \\left[ \\begin{array}{l l} \\sin x=0\\\\ tgx=-1 \\end{array} \\right.\\\\ x\\neq \\frac{\\pi n}{2} ,n\\in \\mathbb{Z} \\end{cases} \\Rightarrow \\begin{cases} \\left[ \\begin{array}{l l} x=\\pi n,n\\in \\mathbb{Z}\\\\ x=-\\frac{\\pi }{4} +\\pi n,n\\in \\mathbb{Z} \\end{array} \\right.\\\\ x\\neq \\frac{\\pi n}{2} ,n\\in \\mathbb{Z} \\end{cases} \\Rightarrow x=-\\frac{\\pi }{4} +\\pi n,n\\in \\mathbb{Z}$$\nб) С помощью двойного неравенства отберём корни принадлежащие отрезку \\(\\left[-2\\pi;-\\frac{\\pi}{2}\\right]\\).\n$$-2\\pi\\leq -\\frac{\\pi}{4}+\\pi n\\leq -\\frac{\\pi}{2}\\Rightarrow -2\\leq -\\frac{1}{4}+n\\leq -\\frac{1}{2}\\Rightarrow -\\frac{7}{4}\\leq n\\leq -\\frac{1}{4}\\Rightarrow -1,75\\leq n\\leq -0,25$$ \\(\\Rightarrow\\) единственное значение \\(n \\in \\mathbb{\\mathbb{Z}}\\) это \\(-1\\), тогда:\nПри \\(n=-1\\! : \\dfrac{\\pi}{4}-\\pi =-\\dfrac{5\\pi}{4}\\).\n\nОтвет: а) \\(-\\frac{\\pi}{4}+\\pi n\\), \\(n\\in \\mathbb{Z}\\); б) \\(-\\frac{5\\pi}{4}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 34729,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(1-ctg 2x=\\frac{1}{\\cos\\left(\\frac{3\\pi}{2}-2x\\right)}\\).\nб) Укажите корни этого уравнения, принадлежащие промежутку \\(\\left[-2\\pi;-\\frac{\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 254368,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=MtZ0gedAxk8pjMud&t=1344"
+}

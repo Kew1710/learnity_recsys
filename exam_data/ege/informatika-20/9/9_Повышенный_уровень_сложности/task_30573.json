@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2715,
+    "title": "№9 Повышенный уровень сложности"
+  },
+  "id": 30573,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "674",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Откройте файл электронной таблицы, содержащей в каждой строке 4 натуральных числа. Выясните, сколько четверок чисел соответствует условию:\n1. Максимальное число из четвёрки чисел больше суммы оставшихся трёх чисел.\n2. Все числа в четвёрке различны.\nВ ответе укажите количество подходящих четверок.",
+      "error_conditions": [],
+      "id": 250212,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/MXB60HiAmho?feature=share&t=3733"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 28,
+    "title": "Электронные таблицы"
+  },
+  "video_link": "https://www.youtube.com/live/MXB60HiAmho?feature=share&t=3733"
+}

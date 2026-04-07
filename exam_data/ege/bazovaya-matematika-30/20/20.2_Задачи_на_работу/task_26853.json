@@ -1,0 +1,42 @@
+{
+  "comment": "Скорость заполнения бака первым насосом равна \\(\\frac{1}{18}\\) часть бака/мин., вторым - \\(\\frac{1}{24}\\) часть бака/мин., третьим - \\(\\frac{1}{36}\\) часть бака/мин.\nСкорость заполнения при совместной работе равна:\n$$\\frac{1}{18} + \\frac{1}{24} + \\frac{1}{36} = \\frac{4+3+2}{72} = \\frac{1}{8}$$\nЗначит, работая вместе, насосы наполнят бак за 8 минут.\nОтвет: 8.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2133,
+    "title": "20.2 Задачи на работу"
+  },
+  "id": 26853,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Первый насос наполняет бак за 18 минут, второй — за 24 минуты, а третий — за 36 минут. За сколько минут наполнят бак три насоса, работая одновременно?",
+      "error_conditions": [],
+      "id": 246492,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

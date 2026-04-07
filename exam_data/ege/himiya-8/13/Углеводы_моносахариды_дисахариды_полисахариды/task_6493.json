@@ -1,0 +1,42 @@
+{
+  "comment": "В реакцию с аммиачным раствором оксида серебра (реакция «серебряного зеркала») вступают альдозы – сахариды, содержащие альдегидную группу\n\nВерные варианты ответа: рибоза, мальтоза",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2829,
+    "title": "Углеводы (моносахариды, дисахариды, полисахариды)"
+  },
+  "id": 6493,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, которые вступают в реакцию с аммиачным раствором оксида серебра.\n1) рибоза\n2) сахароза\n3) фруктоза\n4) мальтоза\n5) целлюлоза",
+      "error_conditions": [],
+      "id": 73579,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Z9Ra2MdipEM?start=3101"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Z9Ra2MdipEM?start=3101"
+}

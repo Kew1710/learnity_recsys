@@ -1,0 +1,40 @@
+{
+  "comment": "$$a^2-ax-2x^2-6a+3x+9|x|=0$$\nРаскроем модуль:\n$$\\displaystyle \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 0\\\\ a^{2} -ax-2x^{2} -6a+3x+9x=0 \\end{cases}\\\\ \\begin{cases} x< 0\\\\ a^{2} -ax-2x^{2} -6a+3x-9x=0 \\end{cases} \\end{array} \\right.$$\nРешим отдельно систему \\(\\displaystyle \\begin{cases} x\\geq 0\\\\ a^{2} -ax-2x^{2} -6a+3x+9x=0 \\end{cases}\\)\n$$a^{2} -ax-2x^{2} -6a+3x+9x=0\\\\ 2x^2+x(a-12)+6a-a^2=0$$\nНам нужно, чтобы уравнение имело два неотрицательных корня\n$$\\displaystyle \\begin{cases} D >0\\\\ \\frac{c}{a} \\geq 0\\\\ -\\frac{b}{a} >0 \\end{cases}\\\\ \\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} ( a-12)^{2} -4\\cdot 2\\cdot \\left( 6a-a^{2}\\right) >0\\\\ \\frac{6a-a^{2}}{2} \\geq 0\\\\ \\frac{12-a}{2} >0 \\end{cases} \\Rightarrow \\begin{cases} a^{2} -24a+144-48a+8a^{2} >0\\\\ a( 6-a) \\geq 0\\\\ \\frac{12-a}{2} >0 \\end{cases} \\Rightarrow \\begin{cases} 9a^{2} -72a+144 >0\\\\ a\\in [ 0;6]\\\\ 12-a >0 \\end{cases} \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow \\begin{cases} ( 3a-12)^{2} >0\\\\ a\\in [ 0;6]\\\\ a< 12 \\end{cases} \\Rightarrow \\begin{cases} a\\neq 4\\\\ a\\in [ 0;6]\\\\ a< 12 \\end{cases} \\end{array}$$\nПолучаем при \\(x\\geq 0\\), \\(a\\in [0;4)\\cup (4;6]\\).\n\nРешим отдельно систему \\(\\displaystyle \\begin{cases} x< 0\\\\ a^{2} -ax-2x^{2} -6a+3x-9x=0 \\end{cases}\\)\n$$a^2-ax-2x^2-6a+3x-9x=0\\\\ 2x^2+x(a+6)+6a-a^2=0$$\nНам нужно, чтобы уравнение имело два отрицательных корня\n$$\\displaystyle \\begin{cases} D >0\\\\ \\frac{c}{a} >0\\\\ -\\frac{b}{a} < 0 \\end{cases}\\\\ \\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} ( a+6)^{2} -4\\cdot 2\\cdot \\left( 6a-a^{2}\\right) >0\\\\ \\frac{6a-a^{2}}{2} >0\\\\ \\frac{-a-6}{2} < 0 \\end{cases} \\Rightarrow \\begin{cases} a^{2} +12a+36-48a+8a^{2} >0\\\\ a( 6-a) \\geq 0\\\\ a+6 >0 \\end{cases} \\Rightarrow \\begin{cases} 9a^{2} -36a+36 >0\\\\ a\\in ( 0;6)\\\\ a >-6 \\end{cases} \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow \\begin{cases} ( 3a-6)^{2} >0\\\\ a\\in ( 0;6)\\\\ a >-6 \\end{cases} \\Rightarrow \\begin{cases} a\\neq 2\\\\ a\\in ( 0;6)\\\\ a >-6 \\end{cases} \\end{array}$$\nПолучаем при \\(x<0\\), \\(a\\in (0;2)\\cup (2;6)\\).\nТаким образом, исходное уравнение имеет ровно четыре различных решения при \\(a\\in (0;2)\\cup (2;4)\\cup (4;6)\\).\n\nОтвет: \\((0;2)\\cup (2;4)\\cup (4;6)\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2493,
+    "title": "18.4 Уравнения с параметром"
+  },
+  "id": 18003,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения параметра \\(a\\), при каждом из которых уравнение\n$$a^2-ax-2x^2-6a+3x+9|x|=0$$\nимеет ровно четыре различных решения.",
+      "error_conditions": null,
+      "id": 237853,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/watch?v=ZWT40C3iJKU&t=13665s"
+}

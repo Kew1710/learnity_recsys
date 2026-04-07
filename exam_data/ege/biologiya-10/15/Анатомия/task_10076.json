@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 124\nПояснение: лимфатические сосуды, потовые железы и подкожно-жировая клетчатка не участвуют в процессах теплообразования",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10076,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "124",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны. В теплообразовании участвуют\n1) печень\n2) мышцы\n3) лимфатические сосуды\n4) пищеварительный тракт\n5) потовые железы\n6) подкожная жировая клетчатка",
+      "error_conditions": [],
+      "id": 121882,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

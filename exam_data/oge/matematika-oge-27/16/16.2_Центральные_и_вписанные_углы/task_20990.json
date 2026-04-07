@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nЕсли из точки, лежащей вне окружности, проведены касательная и секущая, то квадрат длины касательной равен произведению секущей на ее внешнюю часть:\n\\(AK^2 = AB \\cdot AC \\)\n\\(AK = \\sqrt{AB \\cdot AC} = \\sqrt{2 \\cdot 8} = 4\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1980,
+    "title": "16.2 Центральные и вписанные углы"
+  },
+  "id": 20990,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Через точку A, лежащую вне окружности, проведены две прямые. Одна прямая касается окружности в точке K. Другая прямая пересекает окружность в точках B и C, причём AB=2, AC=8 . Найдите AK.",
+      "error_conditions": [],
+      "id": 240771,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

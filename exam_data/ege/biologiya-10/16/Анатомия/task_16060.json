@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Систола – сокращение желудочка. Во время сокращения левого желудочка кровь выбрасывается в аорту→ желудочная артерия → воротная вена печени → печеночная вена → нижняя полая вена → правое предсердие.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16060,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "421653",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Последовательность движения крови, начиная с систолы левого желудочка\n1) воротная вена печени\n2) желудочная артерия\n3) правое предсердие\n4) аорта\n5) нижняя полая вена\n6) печеночная вена",
+      "error_conditions": [],
+      "id": 235967,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

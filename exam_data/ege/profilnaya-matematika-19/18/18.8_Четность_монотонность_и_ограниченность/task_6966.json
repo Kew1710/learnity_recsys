@@ -1,0 +1,40 @@
+{
+  "comment": "Заменим \\(\\sqrt{2x-x^{2}} =t\\). Когда вводим замену, то накладываем на нее ограничения. Ограничения накладываемые на замену: \\(t\\geq 0,t\\leq 1\\) - так как это наибольшее значение данной функции (вершина параболы \\(1\\))\n$$t^{4} -4t=a^{2} -4a\\\\ f( t) =t^{4} -4t\\\\ f'( t) =4t^{3} -4 = 4( t^{3} -1) =0\\\\ t=1$$\nНарисуем числовую прямую:\n$$f( 0) =0, \\ f( 1) = -3$$ Тогда, чтобы были решения, значения правой части должны попадать в данный промежуток: $$\\left\\{ \\begin{array}{l} a^{2} -4a\\geq -3\\\\ a^{2} -4a\\leq 0 \\end{array} \\right. \\Rightarrow \\left\\{ \\begin{array}{l} a^{2} -4a+3\\geq 0\\\\ a( a-4) \\leq 0 \\end{array} \\right. \\\\ \\left\\{ \\begin{array}{l} a\\in ( -\\infty ;1] \\cup [ 3;+\\infty )\\\\ a\\in [ 0;4] \\end{array} \\right. $$\n$$ \\Rightarrow a \\in [0; 1] \\cup [3; 4] $$\nОтвет: \\([0; 1] \\cup [3; 4]\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2497,
+    "title": "18.8 Четность, монотонность и ограниченность"
+  },
+  "id": 6966,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения \\(a\\), при каждом из которых уравнение\n$$(2x-x^2)^2-4\\sqrt{2x-x^2}=a^2-4a$$\nимеет хотя бы один корень.",
+      "error_conditions": null,
+      "id": 78087,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/embed/mGnYuaSaqFo?start=2213"
+}

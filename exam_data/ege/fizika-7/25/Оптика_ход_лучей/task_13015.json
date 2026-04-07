@@ -1,0 +1,37 @@
+{
+  "comment": "Закон снеллиуса:\n$$\\frac{\\sin\\alpha}{\\sin\\varphi}=n\\Rightarrow\\alpha =\\arcsin \\left (n\\sin\\varphi\\right )=\\arcsin\\left (\\frac{4}{3}\\sin 25^\\circ\\right )=34,3^\\circ\\\\ tg=\\frac{l_1}{h}\\Rightarrow l_1=htg\\alpha\\\\ tg=\\frac{l_2}{H}\\Rightarrow l_2=Htg\\varphi\\\\ l=l_1+l_2=htg\\alpha+Htg\\varphi\\Rightarrow H=\\frac{l-htg\\alpha}{tg\\varphi}=\\frac{4-1,8 tg 34,3^\\circ}{tg 25^\\circ}=5,94~м$$\nОтвет: 5,94 м",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2637,
+    "title": "Оптика — ход лучей"
+  },
+  "id": 13015,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23725\nПловец, находящийся в бассейне на некоторой глубине, смотрит вверх и видит друга, стоящего на краю бассейна. Ступни друга находятся на уровне воды, а его голова видна пловцу под углом \\(\\varphi=25^\\circ\\) к вертикали. Чему равна глубина погружения пловца, если расстояние по горизонтали от глаз пловца до ступней друга \\(4\\) м, а его рост \\(1,8\\) м? Показатель преломления на границе раздела сред воздух – вода принять равным \\(\\frac{4}{3}\\).",
+      "error_conditions": null,
+      "id": 175004,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/DzmIg1h0jWo"
+}

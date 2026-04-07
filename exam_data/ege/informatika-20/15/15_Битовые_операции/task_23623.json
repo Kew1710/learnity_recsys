@@ -1,0 +1,45 @@
+{
+  "comment": "Python:\n\nfor A in range(1000):\nflag = True\nfor x in range(1000):\nif (((x&42 != 0) and (x & 34 == 0)) <= (not (x & A == 0))) == False:\nflag = False\nbreak\nif flag:\nprint(A)\nbreak",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2732,
+    "title": "№15 Битовые операции"
+  },
+  "id": 23623,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: DOSR2315_7\n(ДОСРОК 2023) Обозначим через m & n поразрядную конъюнкцию неотрицательных целых чисел m и n. Так, например, 14&5 = 1110_2 & 0101_2 = 0100_2 = 4.\nДля какого наименьшего неотрицательного целого числа А формула\n(( x & 42 ≠ 0) ᴧ (x & 34 = 0)) →¬ (x & A = 0)\nтождественно истинна, т.е. принимает значение 1 при любом неотрицательном целом значении переменной x?",
+      "error_conditions": [],
+      "id": 243348,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": null
+}

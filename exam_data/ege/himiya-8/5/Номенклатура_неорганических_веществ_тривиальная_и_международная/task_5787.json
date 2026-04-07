@@ -1,0 +1,42 @@
+{
+  "comment": "Гидроксид хрома(III) – Cr(OH)₃, фосфат бария – Ba₃(PO₄)₂, мрамор – CaCO₃, кремнезём – SiO₂, кремниевая кислота – H₂SiO₃\n\nА) Кислотный оксид – оксид неметалла (кроме несолеобразующих) или металла со степенью окисления +5 и выше. Подходит SiO₂\nБ) Нерастворимые соли просто проверяем по таблице растворимости. Подходит фосфат бария (Ba₃(PO₄)₂)\nВ) Одноосновная кислота – кислота, которая содержит один атома водорода (одну OH-группу. Подходит C₂H₅COOH",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2797,
+    "title": "Номенклатура неорганических веществ (тривиальная и международная)"
+  },
+  "id": 5787,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "745",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Среди предложенных формул/названий веществ, расположенных в пронумерованных ячейках, выберите формулы/названия: А) кислотного оксида; Б) нерастворимой соли; В) одноосновной кислоты.\n1\nN₂O\n\n2\nNaHCO₃\n\n3\nгидроксид\nхрома(III)\n4\nфосфат бария\n\n5\nC₂H₅COOH\n\n6\nмрамор\n\n7\nкремнезём\n\n8\nAl₂O₃\n\n9\nкремниевая\nкислота",
+      "error_conditions": [],
+      "id": 72258,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=8821"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=8821"
+}

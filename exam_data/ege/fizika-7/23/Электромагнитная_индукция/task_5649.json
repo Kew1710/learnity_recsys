@@ -1,0 +1,37 @@
+{
+  "comment": "ЭДС индукции в прямом проводнике, движущемся в однородном магнитном поле: $$|\\varepsilon_i|=Bvl\\sin\\alpha; \\sin\\alpha=1,$$\nтак как вектор магнитной индукции перпендикулярен плоскости рамки\nПо закону Ома для участка цепи:\n$$I=\\frac{|\\varepsilon_i|}{R}=\\frac{BvL}{R}=\\frac{0,1\\cdot 1\\cdot 0,1}{10}=10^{-3}=1~мА$$\nОтвет: 1 мА",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2634,
+    "title": "Электромагнитная индукция"
+  },
+  "id": 5649,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание E7CDD7\nВ заштрихованной области на рисунке действует однородное магнитное поле, направленное перпендикулярно плоскости рисунка, \\(B=0,1\\) Тл. Проволочную квадратную рамку сопротивлением \\(R=10\\) Ом и стороной \\(I=10\\) см перемещают в плоскости рисунка поступательно со скоростью \\(v=1\\) м/с. Чему равен индукционный ток \\(I\\) в рамке в состоянии \\(1\\)?",
+      "error_conditions": null,
+      "id": 72005,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "В Периодической системе металлы – элементы главных подгрупп, расположенные ниже диагонали, мысленно проведённой от бора к астату, а также все элементы побочных подгрупп\nЭлементы-металлы – K, Li, Be\nАтомный радиус элементов уменьшается при движении по периоду слева направо, при движении по группе снизу вверх. Верный порядок: K, Li, Be",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2785,
+    "title": "Закономерности изменения свойств элементов и их соединений по периодам и группам"
+  },
+  "id": 6231,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "134",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из указанных в ряду химических элементов выберите три элемента-металла.\nРасположите выбранные элементы в порядке уменьшения их атомного радиуса.\n1) K\n2) Cl\n3) Li\n4) Be\n5) P",
+      "error_conditions": [],
+      "id": 72846,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=1196"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=1196"
+}

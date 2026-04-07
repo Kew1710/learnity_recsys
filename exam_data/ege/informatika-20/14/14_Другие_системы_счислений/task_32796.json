@@ -1,0 +1,45 @@
+{
+  "comment": "Решение:\n\nmaxK = 0\nmaxX = 0\n\nfor x in range(1, 2031):\nres = 62030 + 6100 - x\nk = 0\nwhile res > 0:\nif res % 6 == 0:\nk += 1\nres //= 6\nif k > maxK:\nmaxK = k\nmaxX = x\nif k == maxK:\nmaxX = x\nprint(maxX)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1509,
+    "title": "№14 Другие системы счислений"
+  },
+  "id": 32796,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "738",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Резерв_2024) Дано арифметическое выражение, которое записали в 6-ричной системе счисления: 62030 + 6100 - x\nПеременная х обозначает неизвестное число, которое принимает значение от 1 до 2030 включительно. Необходимо найти наибольшее возможное значение х, при котором запись данного выражения в 6-ричной системе счисления имеет наибольшее возможное количество нулей.",
+      "error_conditions": [],
+      "id": 252435,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 33,
+    "title": "Системы счисления"
+  },
+  "video_link": null
+}

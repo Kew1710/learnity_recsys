@@ -1,0 +1,45 @@
+{
+  "comment": "Заметим, что параллелепипед можно разбить на два равных по объему многогранника: \\(ABCDA_1B_1\\) и \\( A_1B_1CDD_1C_1\\).\n\nТогда искомый объем равен: $$ \\frac{V_{параллелепипеда}}{2} = \\frac{5 \\cdot 4 \\cdot 3}{2} = 30$$\nОтвет: 30",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 36403,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "B прямоугольном параллелепипеде \\(ABCDA_1B_1C_1D_1\\), известно, что \\(AB = 5, BC = 4, AA_1 = 3\\). Найдите объем многогранника, вершинами которого являются точки \\(A, B, C, D, A_1, B_1\\).",
+      "error_conditions": [],
+      "id": 256053,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

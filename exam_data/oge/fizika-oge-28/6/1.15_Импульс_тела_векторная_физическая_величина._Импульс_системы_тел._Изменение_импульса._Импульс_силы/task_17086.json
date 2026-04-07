@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nИмпульс - это векторная величина, он равен \\(\\vec{p}=m\\vec{v}\\). То есть направление импульса сонаправлено направлению скорости. При движении по окружности скорость направлена по касательной к этой окружности (сонаправлено вектору 2), и такое же направление будет иметь вектор импульса",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3223,
+    "title": "1.15 Импульс тела – векторная физическая величина. Импульс системы тел. Изменение импульса. Импульс силы"
+  },
+  "id": 17086,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Тело движется по окружности с постоянной по модулю скоростью. Какому из векторов (1-4) сонаправлен вектор импульса тела в точке А?",
+      "error_conditions": [],
+      "id": 236984,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/3un1cXSzQVk"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/3un1cXSzQVk"
+}

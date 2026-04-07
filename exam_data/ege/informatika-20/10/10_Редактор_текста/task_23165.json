@@ -1,0 +1,45 @@
+{
+  "comment": "Вызовем меню замены и настроим замены по заданию. Слово «Меня», установим флажок «Только слово целиком» и флажок «Учитывая регистр».",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2717,
+    "title": "№10 Редактор текста"
+  },
+  "id": 23165,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2110_0\nС помощью текстового редактора определите, сколько раз, не считая сносок, встречается слово «Меня» с прописной буквы в тексте «Герой нашего времени».\nДругие формы слова учитывать не следует. В ответе укажите только число.",
+      "error_conditions": [],
+      "id": 242890,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 49,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 29,
+    "title": "Редактор текста"
+  },
+  "video_link": null
+}

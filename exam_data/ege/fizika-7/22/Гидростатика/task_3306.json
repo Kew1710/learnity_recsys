@@ -1,0 +1,37 @@
+{
+  "comment": "Давления на дне сосуда должны быть равны, следовательно, запишем равенство давлений в самой нижней точке трубки. Давление слева складывается из гидростатического давления жидкости и воды, давление справа – гидростатическое давление воды:\n$$ \\rho g (H - b) + \\rho_вgb = \\rho_в gh, $$\nгде \\( \\rho_в\\) – плотность воды\n$$ \\rho = \\frac{\\rho_в h - \\rho_в b }{H - b} = \\frac{1000\\cdot 0,4-1000\\cdot 0,2}{0,45-0,2} = 800~ кг/м^3$$\n\nОтвет: 800 кг/м\\(^3\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2619,
+    "title": "Гидростатика"
+  },
+  "id": 3306,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание 18172\nВ широкую \\(U\\)-образную трубку с открытыми коленами налиты неизвестная жидкость и вода (см. рисунок). На рисунке \\(b=20\\) см, \\(h=40\\) см, \\(H=45\\) см. Определите плотность неизвестной жидкости.",
+      "error_conditions": null,
+      "id": 64975,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/yUko4AwGaiU?start=7712"
+}

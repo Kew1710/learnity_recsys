@@ -1,0 +1,40 @@
+{
+  "comment": "$$E=LA\\cap BM, OC_1=\\sqrt{13}, R-середина~BA, Z-середина~ML\\\\ MA=2\\sqrt{2}, MH\\perp AB, AH=1, ZR=\\sqrt{7}, ER=\\frac{2}{3}\\sqrt{7}$$\n$$\\alpha =\\angle ERO,\\cos \\alpha =\\frac{2}{\\sqrt{7}} ,OE^{2} =1+\\frac{4\\cdot 7}{9} -\\frac{2\\cdot 2\\sqrt{7}}{3} \\cdot \\frac{2}{\\sqrt{7}} =\\frac{13}{9}\\\\ OE=\\frac{\\sqrt{13}}{3} ,ZC_{1} =\\sqrt{3} ,EZ=\\frac{\\sqrt{7}}{3} ,\\beta =\\angle EZC_{1} ,\\cos \\beta =-\\sqrt{\\frac{3}{7}}\\\\ EC_{1}^{2} =\\frac{7}{9} +3+2\\frac{\\sqrt{7}}{3} \\cdot \\frac{\\sqrt{3}\\sqrt{3}}{7} ,EC_{1}^{2} =\\frac{52}{9} ,EC_{1} =\\frac{2\\sqrt{13}}{3} ,Ч.Т.Д$$\n\\(\\angle OER\\) - искомый, \\(OF\\perp RE,OF\\perp AB\\).\nТогда \\(RE\\) - проекция \\(OE\\) на \\(BAM\\):\n$$1=\\frac{13}{9} +\\frac{4\\cdot 7}{9} -\\frac{2\\sqrt{13}}{3} \\cdot \\frac{2\\sqrt{7}}{3}\\cos \\alpha \\\\ \\frac{4\\sqrt{91}}{9}\\cos \\alpha =\\frac{32}{9} ,\\alpha =\\arccos\\frac{8}{\\sqrt{91}}$$\nОтвет: \\(\\alpha =\\arccos\\frac{8}{\\sqrt{91}}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2461,
+    "title": "14.2 Угол между прямой и плоскостью"
+  },
+  "id": 6656,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В правильной треугольной призме \\(𝐴𝐵𝐶𝐴_{1} 𝐵_{1} 𝐶_{1}\\) сторона основания равна \\(4\\), а боковое ребро равно \\(2\\). Точка \\(𝑀\\) - середина ребра \\(𝐴_{1} 𝐶_{1}\\), а точка \\(O\\) - точка пересечения диагоналей боковой грани \\(𝐴𝐵𝐵_{1} 𝐴_{1}\\).\nа) Докажите, что точка пересечения диагоналей четырехугольника, являющегося сечением призмы \\(𝐴𝐵𝐶𝐴_{1} 𝐵_{1} 𝐶_{1}\\) плоскостью \\(𝐴𝑀𝐵\\), лежит на отрезке \\(𝑂𝐶_{1}\\).\nб) Найдите угол между прямой \\(𝑂𝐶_{1}\\) и плоскостью \\(𝐴𝑀𝐵\\).",
+      "error_conditions": null,
+      "id": 75190,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/xpBlG5-auqg?start=4361"
+}

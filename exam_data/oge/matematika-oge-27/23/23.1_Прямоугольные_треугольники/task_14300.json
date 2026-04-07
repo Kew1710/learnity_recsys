@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\n\\( \\triangle ABC\\) - прямоугольный\nАС=24\nAB=51\n\\( CH \\perp AB \\)\nНайти:\nСН-?\nРешение:\n\\( 1. AC^2+BC^2=AB^2\\) - по теореме Пифагора\n\\( BC=\\sqrt{AB^2-AC^2} = \\sqrt{51^2-24^2}=\\sqrt{2025}=45 \\)\n2. \\(S_{ABC}=\\cfrac{1}{2}CH \\cdot AB\\)\n2. \\(\\triangle CHB:\\)\n\\( \\sin{B}=\\cfrac{CH}{BC} \\)\n\\(\\triangle ABC:\\)\n\\( sin{B}=\\cfrac{AC}{AB} \\)\n\\( \\cfrac{CH}{BC} = \\cfrac{AC}{AB} \\)\n\\( CH = \\cfrac{AC \\cdot BC}{AB} = \\cfrac{24 \\cdot 45}{51} =21 \\cfrac{9}{51}\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2010,
+    "title": "23.1 Прямоугольные треугольники"
+  },
+  "id": 14300,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Катет и гипотенуза прямоугольного треугольника равны 24 и 51. Найдите высоту, проведённую к гипотенузе.",
+      "error_conditions": null,
+      "id": 201835,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

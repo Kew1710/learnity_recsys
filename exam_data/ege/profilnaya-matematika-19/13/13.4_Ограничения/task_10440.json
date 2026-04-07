@@ -1,0 +1,40 @@
+{
+  "comment": "а) Ограничения: \\(\\displaystyle \\begin{cases}\n7\\sin x\\geq 0\\\\\nx\\neq \\frac{\\pi }{2} +\\pi k,k\\in Z\n\\end{cases} \\Leftrightarrow \\begin{cases}\nx\\in I\\ и\\ II\\ четверти\\\\\nx\\neq \\frac{\\pi }{2} +\\pi k,k\\in Z\n\\end{cases}\\)\n$$(1-3tg^2x)\\sqrt{7\\sin x}=0\\Leftrightarrow \\displaystyle \\left[ \\begin{array}{l l}\n1-3tg^{2} x=0\\\\\n\\sqrt{7\\sin x=0}\n\\end{array} \\right. \\Leftrightarrow \\\\ \\displaystyle \\left[ \\begin{array}{l l}\ntg^{2} x=\\frac{1}{3}\\\\\n7\\sin x=0\n\\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l}\ntgx=\\pm \\frac{\\sqrt{3}}{3}\\\\\n\\sin x=0\n\\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l}\nx=\\frac{\\pi }{6} +\\pi k\\\\\nx=-\\frac{\\pi }{6} +\\pi k\\\\\nx=\\pi k\n\\end{array} \\right. ,k\\in Z$$\nУчитывая ограничения:\n$$\\displaystyle \\left[ \\begin{array}{l l}\nx=\\frac{\\pi }{6} +2\\pi k\\\\\nx=\\frac{5\\pi }{6} +2\\pi k\\\\\nx=\\pi k\n\\end{array} \\right. ,k\\in Z$$\nб) Отберем корни на промежутке \\([-2\\pi;-\\frac{\\pi}{2}]\\) с помощью тригонметрической окружности\nНам подходят корни:\n$$-2\\pi\\\\ -2\\pi+\\pi=-\\pi\\\\ -2\\pi+\\frac{\\pi}{6}=-\\frac{11\\pi}{6}\\\\ -\\pi-\\frac{\\pi}{6}=-\\frac{7\\pi}{6}$$\nОтвет: {\\(\\pi k;\\frac{\\pi}{6}+2\\pi k;\\frac{5\\pi}{6}+2\\pi k:k\\in Z\\)}, б) \\(-2\\pi;-\\frac{11\\pi}{6};-\\frac{7\\pi}{6};-\\pi\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2453,
+    "title": "13.4 Ограничения"
+  },
+  "id": 10440,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\((1-3tg^2x)\\sqrt{7\\sin x}=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([-2\\pi;-\\frac{\\pi}{2}]\\).",
+      "error_conditions": null,
+      "id": 142307,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

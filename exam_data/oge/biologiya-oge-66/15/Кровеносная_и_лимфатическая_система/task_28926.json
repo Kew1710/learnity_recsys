@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2939,
+    "title": "Кровеносная и лимфатическая система"
+  },
+  "id": 28926,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Лимфатическая система служит для\n\n1) переноса веществ из крови в тканевую жидкость\n2) возврата веществ из тканевой жидкости в кровь\n3) снабжения органов кислородом\n4) обеспечения организма питательными веществами",
+      "error_conditions": [],
+      "id": 248565,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРазделим 67 на 12\n\\(\\cfrac{67}{12} \\approx 5,58\\)\nРазделим 71 на 12\n\\(\\cfrac{71}{12} \\approx 5,92\\)\nРазделим 83 на 12\n\\(\\cfrac{83}{12} \\approx 6,92\\)\nРазделим 91 на 12\n\\(\\cfrac{91}{12} \\approx 7,58\\)\nТак, отрезку \\([6; 7]\\) принадлежит число \\(\\cfrac{83}{12}\\)\nОтвет: 3",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23963,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какое из данных чисел принадлежит …",
+      "error_conditions": [],
+      "id": 243678,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

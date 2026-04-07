@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем закон сохранения энергии через количество теплоты:\n$$Q_л=|Q_в|$$\nИз условия можно понять, что температура теплового баланса равна \\(0\\) градусов, значит:\n$$\\Delta t=t_{нв}-0=t_{нв}$$\n$$\\Delta m\\lambda =c_в m\\Delta t$$\nВыразим начальную температуру воды:\n$$\\Delta t=\\frac{\\Delta m\\lambda}{c_в m}=\\frac{0,084\\cdot 3,3\\cdot 10^5}{4200\\cdot 0,33}=20~^\\circ С$$\nОтвет: \\(20~^\\circ С\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2628,
+    "title": "Тепловая физика"
+  },
+  "id": 2556,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание B4D5AF\nВ калориметр с водой бросают кусочки тающего льда. В некоторый момент кусочки льда перестают таять. Первоначальная масса воды в сосуде \\(330\\) г, а в конце процесса таяния масса воды увеличилась на \\(84\\) г. Какой была начальная температура воды в калориметре? Тепловыми потерями пренебречь.",
+      "error_conditions": null,
+      "id": 63735,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

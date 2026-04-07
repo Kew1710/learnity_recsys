@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: 2, 4 и 5 не являются приспособлениями именно к сохранению воды растениями.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 15995,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "136",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны. Какие приспособления к обеспечению водой и ее сохранению имеются у растений, обитающих в пустыне?\n- опушение вокруг устьиц\n- хорошо развитые межклетники\n- толстый восковой налет\n- темно-зеленые листья\n- размножение спорами\n- длинные, уходящие вглубь почвы, корни",
+      "error_conditions": [],
+      "id": 235902,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

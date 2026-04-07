@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2711,
+    "title": "№8 Комбинаторика"
+  },
+  "id": 28663,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "75816",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Пробник_2 ФИПИ 2024) Сколько существует семизначных семеричных чисел, которые содержат в своей записи ровно две чётные цифры?",
+      "error_conditions": [],
+      "id": 248302,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

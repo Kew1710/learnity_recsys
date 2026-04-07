@@ -1,0 +1,42 @@
+{
+  "comment": "Изомеры – вещества, имеющие одинаковую молекулярную формулу, но разное строение\n1) 3-метилгексен-1 – C₇H₁₄\n2) гексен-2 – C₆H₁₂\n3) метилциклогексан – C₇H₁₄\n4) гексадиен-1,5 – C₆H₁₀\n5) гексан – C₆H₁₄",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2808,
+    "title": "Изомерия (структурная и пространственная)"
+  },
+  "id": 4176,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, которые являются изомерами.\n1) 3-метилгексен-1\n2) гексен-2\n3) метилциклогексан\n4) гексадиен-1,5\n5) гексан",
+      "error_conditions": [],
+      "id": 66597,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=5394"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=5394"
+}

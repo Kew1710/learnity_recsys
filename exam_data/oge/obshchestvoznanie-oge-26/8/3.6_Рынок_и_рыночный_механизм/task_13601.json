@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1770,
+    "title": "3.6 Рынок и рыночный механизм"
+  },
+  "id": 13601,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В магазине бытовой техники образовалась очередь из людей, желавших купить новую модель телефона. К середине дня все телефоны были распроданы, и магазину пришлось заказать дополнительную партию товара. Какую рыночную ситуацию иллюстрирует этот пример?\n\n1) превышение предложения над спросом\n2) превышение спроса над предложением\n3) баланс между спросом и предложением\n4) отставание спроса от предложения",
+      "error_conditions": [],
+      "id": 180956,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=17704"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=17704"
+}

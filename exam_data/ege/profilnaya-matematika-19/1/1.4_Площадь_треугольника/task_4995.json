@@ -1,0 +1,45 @@
+{
+  "comment": "1) \\(\\angle CBA\\) – общий\n2) \\(\\angle BEF=\\angle CBA\\) (соответственные при \\(FE||CA\\) и секущей \\(CB\\))\n$$\\frac{EF}{AC}=\\frac{BE}{BC}=\\frac{1}{2}\\\\ BEF\\sim BCA,k=\\frac{1}{2}\\\\ \\frac{S_{BEF}}{S_{BCA}}=k^2=\\frac{1}{4}\\\\ S_{BCA}=4\\cdot S_{BEF}=16$$\nОтвет: 16",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2375,
+    "title": "1.4 Площадь треугольника"
+  },
+  "id": 4995,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC~EF\\) − средняя линия. Площадь треугольника \\(BEF\\) равна \\(4\\). Найдите площадь треугольника \\(ABC\\).",
+      "error_conditions": [],
+      "id": 70229,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=1164"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=1164"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Решение:\n\nfrom ipaddress import *\nnet = ip_network('113.224.0.0/255.248.0.0', 0)\nk = 0\nfor ip in net:\nip = bin(int(ip))[2:].zfill(32)\nif ip.count('1') % 5 == 0:\nk += 1\nprint(k)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2877,
+    "title": "№13 IP-адреса (2024 год)"
+  },
+  "id": 32795,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "103702",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Резерв_2024) В терминологии сетей TCP/IP маской сети называют двоичное число, которое показывает, какая часть IP-адреса узла сети относится к адресу сети, а какая – к адресу узла в этой сети. Адрес сети получается в результате применения поразрядной конъюнкции к заданному адресу узла и маске сети.\nСеть задана IP-адресом 113.224.0.0 и маской сети 255.248.0.0.\nСколько в этой сети IP-адресов, для которых количество единиц в двоичной записи IP-адреса кратно 5?\nВ ответе укажите только число.",
+      "error_conditions": [],
+      "id": 252434,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 45,
+    "title": "IP-адреса"
+  },
+  "video_link": null
+}

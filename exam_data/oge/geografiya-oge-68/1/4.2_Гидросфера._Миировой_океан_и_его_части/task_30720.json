@@ -1,0 +1,42 @@
+{
+  "comment": "Бессточное озеро - озеро, которое не имеет стока (из него не вытекает ни одна река). Из перечисленных озер, к бессточным относится только Эйр-Норт.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2956,
+    "title": "4.2 Гидросфера. Миировой океан и его части."
+  },
+  "id": 30720,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какое из перечисленных озёр бессточное?\n- Ладожское\n- Эйр-Норт\n- Онежское\n- Байкал",
+      "error_conditions": [],
+      "id": 250359,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

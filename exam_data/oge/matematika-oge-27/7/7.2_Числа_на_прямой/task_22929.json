@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 1) \\cfrac{55}{19} \\approx 2,89\\)\n\\( 2) \\cfrac{64}{19} \\approx 3,37\\)\n\\( 3) \\cfrac{72}{19} \\approx 3,79\\)\n\\( 4) \\cfrac{79}{19} \\approx 4,16\\)\nПо прямой поймем, что отмеченное число \\(\\approx 3,37\\)\nОтвет: 2",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22929,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Одно из чисел отмечено на прямой точкой. Какое это число?",
+      "error_conditions": [],
+      "id": 242655,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

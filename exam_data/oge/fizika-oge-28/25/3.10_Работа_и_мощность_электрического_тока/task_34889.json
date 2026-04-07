@@ -1,0 +1,37 @@
+{
+  "comment": "Переведём $35$ минут в секунды: $35$ минут=$35\\cdot 60~$секунд = $2100~$секунд\nЗапишем формулу КПД,где полезной работой будет количество теплоты,которая идёт на нагревание воды: $$\\eta=\\frac{A_{п}}{A_{зат}}=\\frac{Q}{P\\cdot \\tau}=\\frac{cm(t_2-t_1)}{P\\cdot \\tau}$$ Выразим массу и подставим в конечную формулу числа: $$m=\\frac{\\eta\\cdot P\\cdot \\tau}{c\\cdot (t_2-t_1)}=\\frac{0,64\\cdot 500\\cdot 2100}{4200\\cdot (100-20)}=2~кг$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34889,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Чему равна масса воды, которую нагревают от $20$ до $100$ °С с помощью электронагревателя мощностью $500$ Вт в течение $35$ мин., если известно, что КПД нагревателя равен $64$%?",
+      "error_conditions": null,
+      "id": 254528,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

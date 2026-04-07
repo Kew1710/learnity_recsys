@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(a^2=(-a)^2\\)\n\\(\\sqrt{a^2 \\cdot (-a)^2} = \\sqrt{a^2 \\cdot a^2}=\\sqrt{a^4}=a^2\\)\nПодставим \\(a=4\\)\n\\(4^2=16\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1956,
+    "title": "8.1 Иррациональные числа и выражения"
+  },
+  "id": 19136,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\sqrt{a^2 \\cdot (-a)^2}\\) при \\(a=4\\) .",
+      "error_conditions": [],
+      "id": 238974,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

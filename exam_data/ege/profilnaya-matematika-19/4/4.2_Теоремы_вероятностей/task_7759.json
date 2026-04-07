@@ -1,0 +1,45 @@
+{
+  "comment": "Вероятность того, что мотор прослужит больше года равна \\(0,8\\), вероятность того, что мотор прослужит больше \\(2\\) лет равна \\(0,6\\), следовательно, вероятность того, что мотор прослужит больше года, но меньше двух равна:\n$$0,8-0,6=0,2$$\nОтвет: 0,2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2394,
+    "title": "4.2 Теоремы вероятностей"
+  },
+  "id": 7759,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Вероятность того, что мотор холодильника прослужит более \\(1\\) года, равна \\(0,8\\), а вероятность того, что он прослужит более \\(2\\) лет, равна \\(0,6\\). Какова вероятность того, что мотор прослужит более \\(1\\) года, но не более \\(2\\) лет?",
+      "error_conditions": [],
+      "id": 100166,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/VDEuB7NUXfk?si=1hMzHAYHggp7TB9S&t=456"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/live/VDEuB7NUXfk?si=1hMzHAYHggp7TB9S&t=456"
+}

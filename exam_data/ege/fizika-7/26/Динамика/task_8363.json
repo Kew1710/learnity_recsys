@@ -1,0 +1,37 @@
+{
+  "comment": "Сделаем рисунок, на котором покажем все действующие силы:\nРассмотрим случай минимального ускорения, при котором тела неподвижны относительно друг друга, но в то же время \\(F_{тр}\\) равна силе трения скольжения.\nЗапишем \\(II\\) закон Ньютона для бруска:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ mg\\sin \\alpha -F_{тр} =ma_{\\min}\\cos \\alpha \\\\\nN-mg\\cos \\alpha =ma_{\\min}\\sin \\alpha \\Rightarrow N=mg\\cos \\alpha +ma_{\\min}\\sin \\alpha\n\\end{array}$$\nНайдем силу трения:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ F_{тр} =\\mu N\\\\\nF_{тр} =\\mu ( mg\\cos \\alpha +ma_{\\min}\\sin \\alpha )\n\\end{array}$$\nПодставим силу трения и выразим ускорение:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\nmg\\sin \\alpha -\\mu ( mg\\cos \\alpha +ma_{\\min}\\sin \\alpha ) =ma_{\\min}\\cos \\alpha \\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ g(\\sin \\alpha -\\mu \\cos \\alpha ) =a_{\\min}(\\cos \\alpha +\\mu \\sin \\alpha )\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ a_{\\min} =g\\cdot \\frac{\\sin \\alpha -\\mu \\cos \\alpha }{\\cos \\alpha +\\mu \\sin \\alpha }\n\\end{array}$$\nПодставим значения:\n$$\\displaystyle a=10\\cdot \\frac{\\sin 45^{\\circ } -0,2\\cdot \\cos 45^{\\circ }}{\\cos 45^{\\circ } +0,2\\cdot \\sin 45^{\\circ }} =6,67\\ м/с^{2}$$\n\nРассмотрим случай движения с максимальным ускорением, тогда \\(F_{тр}\\) будет направлена в противоположную сторону.\nЗапишем \\(II\\) закон Ньютона для бруска:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ mg\\sin \\alpha +F_{тр} =ma_{\\max}\\cos \\alpha \\\\\nN-mg\\cos \\alpha =ma_{\\max}\\sin \\alpha \\Rightarrow N=mg\\cos \\alpha +ma_{\\max}\\sin \\alpha\n\\end{array}$$\nНайдем силу трения:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ F_{тр} =\\mu N\\\\\nF_{тр} =\\mu ( mg\\cos \\alpha +ma_{\\max}\\sin \\alpha )\n\\end{array}$$\nПодставим силу трения и выразим ускорение:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\nmg\\sin \\alpha +\\mu ( mg\\cos \\alpha +ma_{\\max}\\sin \\alpha ) =ma_{\\max}\\cos \\alpha \\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ g(\\sin \\alpha +\\mu \\cos \\alpha ) =a_{\\max}(\\cos \\alpha -\\mu \\sin \\alpha )\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ a_{\\max} =g\\cdot \\frac{\\sin \\alpha +\\mu \\cos \\alpha }{\\cos \\alpha -\\mu \\sin \\alpha }\n\\end{array}$$\nПодставим значения:\n$$\\displaystyle a=10\\cdot \\frac{\\sin 45^{\\circ } +0,2\\cdot \\cos 45^{\\circ }}{\\cos 45^{\\circ } -0,2\\cdot \\sin 45^{\\circ }} =15\\ м/с^{2}$$ $$\\frac{a_{max}}{a_{min}}=2,25~м/с^{2}$$\n\nОбоснование:\n1) Рассмотрим систему отсчета, связанную с землей, будем считать ее инерциальной\n2) Тела движутся поступательно, поэтому применим к ним модель материальных точек\n3) В инерциальной системе отсчета используем второй закон ньютона\n4) При \\(\\min\\) ускорении \\(F_{тр}\\) направлена вверх по наклонной плоскости и принимает значение \\(F_{тр}=N\\)\n5) При \\(\\max\\) ускорении \\(F_{тр}\\) направлена вниз по наклонной плоскости и также принимает значение \\(F_{тр}=N\\)\n\n$\\displaystyle Ответ:2,25\\ м/с^{2}$",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 8363,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Брусок находится на поверхности клина. Клин движется по горизонтальной поверхности (см. рисунок). Угол наклона клина \\(\\alpha=45^\\circ\\), а коэффициент трения бруска о клин равен \\(0,2\\). Найдите минимальное ускорение клина, при котором брусок будет покоиться на поверхности клина. По условию этой же задачи определите, во сколько раз нужно увеличить ускорение клина, чтобы брусок начал двигаться вверх. Какие физические законы Вы использовали при решении задачи? Обоснуйте их применение в данном случае.",
+      "error_conditions": null,
+      "id": 102395,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/uXaELGcvNW0"
+}

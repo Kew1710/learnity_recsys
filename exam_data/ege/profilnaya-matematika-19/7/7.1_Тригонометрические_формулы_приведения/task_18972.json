@@ -1,0 +1,45 @@
+{
+  "comment": "Формула двойного угла для синуса:\n$$\\sin{2x}=2\\sin x\\cos x$$\n$$\\frac{13\\sin 152^\\circ}{\\cos 76^\\circ\\cdot\\cos 14^\\circ}=\\frac{13\\cdot 2\\sin 76^\\circ\\cos 76^\\circ}{\\cos 76^\\circ\\cdot\\cos 14^\\circ}=\\frac{13\\cdot 2\\sin 76^\\circ}{\\cos 14^\\circ}\\\\ \\cos 14^\\circ =\\cos (90^\\circ -76^\\circ )=\\sin 76^\\circ ~(по~формуле~приведения)\\\\ \\frac{13\\cdot 2\\sin 76^\\circ}{\\sin 76^\\circ}=13\\cdot 2=26$$\nОтвет: 26",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 18972,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "26",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{13\\sin 152^\\circ}{\\cos 76^\\circ\\cdot \\cos 14^\\circ}\\).",
+      "error_conditions": [],
+      "id": 238810,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/_crN6qXTZ5o?t=3279"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://youtu.be/_crN6qXTZ5o?t=3279"
+}

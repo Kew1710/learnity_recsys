@@ -1,0 +1,42 @@
+{
+  "comment": "Общее сопротивление последовательно соединенных резисторов:\n$$R_{общ}=R+2R+3R+4R=10R$$\nПо закону Ома для полной цепи:\n$$I=\\frac{\\varepsilon}{R_{общ}+r}\\\\ I=\\frac{10}{10\\cdot 3+10}=0,25~А$$\nОтвет: 0,25 А",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 9850,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23545\nЧетыре резистора сопротивлением \\(R=3\\) Ом, \\(2R\\), \\(3R\\), \\(4R\\) и идеальный амперметр включены последовательно в электрическую цепь, содержащую источник с ЭДС, равной 10 В. Внутреннее сопротивление источника \\(r=10\\) Ом. Какую силу тока показывает амперметр? Ответ дайте в А.",
+      "error_conditions": [],
+      "id": 119883,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/njr00AqFyXY"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/njr00AqFyXY"
+}

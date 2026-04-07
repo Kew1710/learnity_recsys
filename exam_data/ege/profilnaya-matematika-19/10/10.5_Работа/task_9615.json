@@ -1,0 +1,45 @@
+{
+  "comment": "Составим таблицу:\n\\(S\\)\\(V\\)\\(t\\)\\(1~рабочий\\)\\(176\\)\\(x\\)\\(\\frac{176}{x}\\)\\(2~рабочий\\)\\(176\\)\\(x-5\\)\\(\\frac{176}{x-5}\\)Так как 2 рабочий потратил времени больше, получаем уравнение:\n$$\\frac{176}{x-5}-\\frac{176}{x}=5$$\nНайдем \\(x\\) с помощью подбора. Разложим 176 на простые множители:\n$$176=2\\cdot 2\\cdot 2\\cdot 2\\cdot 11$$\nРазница между делителями 5. Получается \\(x=16\\).\n\nОтвет: 16",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2432,
+    "title": "10.5 Работа"
+  },
+  "id": 9615,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Заказ на 176 деталей первый рабочий выполняет на 5 часов быстрее, чем второй. Сколько деталей в час делает первый рабочий, если известно, что он за час делает на 5 деталей больше, чем второй?",
+      "error_conditions": [],
+      "id": 116473,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=2314"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=2314"
+}

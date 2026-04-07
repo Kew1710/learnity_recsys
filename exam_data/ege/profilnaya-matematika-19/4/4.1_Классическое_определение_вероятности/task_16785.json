@@ -1,0 +1,45 @@
+{
+  "comment": "Все способы получить в сумме \\(7\\):\n$$1+6$$$$2+5$$$$3+4$$$$4+3$$$$5+2$$$$6+1$$Всего таких способов \\(6\\), а всевозможных вариантов \\(6\\cdot 6=36\\). Тогда искомая вероятность равна: \\(\\frac{6}{36}=\\frac{1}{6}\\). Округляя до тысячных, получим: \\(0,167\\).\n\nОтвет: 0,167",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 16785,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,167",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В случайном эксперименте бросают две игральные кости. Найдите вероятность того что сумма выпавших очков равна \\(7\\). Ответ округлите до тысячных.",
+      "error_conditions": [],
+      "id": 236691,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=5800"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=5800"
+}

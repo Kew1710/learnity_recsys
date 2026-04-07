@@ -1,0 +1,42 @@
+{
+  "comment": "Автомобиль, выехавший из города В, за 3 часа проехал 255 км. Значит, автомобиль, выехавший из города А, проехал \\(420 - 255 = 165\\) км.\nТогда его скорость была:\n$$\\frac{S}{v} = \\frac{165}{3} = 55\\;км/ч$$\nОтвет: 55.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2132,
+    "title": "20.1 Задачи на движение"
+  },
+  "id": 23076,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "55",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из городов A и B, расстояние между которыми равно 420 км, навстречу друг другу одновременно выехали два автомобиля и встретились через 3 часа на расстоянии 255 км от города B. Найдите скорость автомобиля, выехавшего из города A. Ответ дайте в км/ч.",
+      "error_conditions": [],
+      "id": 242802,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

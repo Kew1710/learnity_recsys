@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПереведем данные в СИ: \\(m=200~г=0,2~кг\\)\nСила упругости пружины равна силе тяжести груза (т.к. груз покоится): $$F_у=mg$$\nРаспишем по формуле силу упругости: $$k\\Delta l=mg$$\nПодставим числовые значения и найдем коэффициент жесткости пружины:\n$${{k=\\frac{mg}{\\Delta l}}}$$\n$${{k=\\frac{0,2\\cdot 10}{0,005}}}$$\n$${{k=400 \\frac{Н}{м}}}$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3221,
+    "title": "1.13 Деформация тела. Упругие и неупругие деформации. Закон упругой деформации (закон Гука)"
+  },
+  "id": 33912,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "400",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Груз массой 200 г подвесили к пружине. Длина пружины при этом увеличилась на 0,005 м. Чему равна жёсткость пружины?\nОтвет: ___________________________ Н/м",
+      "error_conditions": [],
+      "id": 253551,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

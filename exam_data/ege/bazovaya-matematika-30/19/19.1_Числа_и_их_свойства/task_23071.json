@@ -1,0 +1,50 @@
+{
+  "comment": "\\(24 \\cdot 63 = 1512\\) - минимальное возможное число, \\(24 \\cdot 83 = 1992\\) - максимальное. Тогда искомое число можно представить в виде \\(1512 + 24k\\), где \\(0≤k≤20\\).\nПереберём все возможные числа, отберём те, сумма цифр которых равна 21. Получим: 1776 (\\(k = 11\\)), 1848 (\\(k = 14\\)), 1992 (\\(k = 20\\)).\nОтвет: 1776, 1848, 1992.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2130,
+    "title": "19.1 Числа и их свойства"
+  },
+  "id": 23071,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1776",
+          "points": 1
+        },
+        {
+          "answer": "1848",
+          "points": 1
+        },
+        {
+          "answer": "1992",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите четырёхзначное число, большее 1500, но меньшее 2000, которое делится на 24 и сумма цифр которого равна 21.",
+      "error_conditions": [],
+      "id": 242797,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

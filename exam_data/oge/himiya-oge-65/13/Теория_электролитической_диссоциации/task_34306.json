@@ -1,0 +1,46 @@
+{
+  "comment": "Анионы - отрицательно заряженные ионы\n\n1) \\(CCl_{4}\\) - бинарное соединение, не диссоциирует\n2) \\(AlCl_{3} = Al^{3+} + 3Cl^{-}\\) - образуется хлорид-анион\n3) \\(KCl = K^{+} + Cl^{-}\\) - образуется хлорид-анион\n4) \\(KClO = K^{+} + ClO^{-}\\) - образуется гипохлорит-анион\n5) \\(KClO_{3} = K^{+} + ClO_{3}^{-}\\) - образуется хлорат-анион",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2894,
+    "title": "Теория электролитической диссоциации"
+  },
+  "id": 34306,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23",
+          "points": 1
+        },
+        {
+          "answer": "32",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "При внесении в воду каких двух из представленных веществ образуются хлорид-анионы?\n\n1) \\(CCl_{4}\\)\n2) \\(AlCl_{3}\\)\n3) \\(KCl\\)\n4) \\(KClO\\)\n5) \\(KClO_{3}\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 253945,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

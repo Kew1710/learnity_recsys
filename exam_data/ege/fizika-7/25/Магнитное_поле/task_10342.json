@@ -1,0 +1,37 @@
+{
+  "comment": "Чтобы летела по прямой:\n$$F_л=F_э$$\n$$F_л=qvB,~F_э=qE\\Rightarrow qE=qvB\\Rightarrow E=vB$$\nПосле того как частица вылетает:\n$$ma_ц=F_л\\\\ \\frac{mv^2}{R}=qvB\\Rightarrow v=\\frac{qBR\\uparrow}{m\\uparrow}\\Rightarrow m_2>m_1\\Rightarrow R_2>R_1\\\\ L=2R_2-2R_1=2\\left (\\frac{vm_2}{qB_0}-\\frac{vm_1}{qB_0}\\right )=\\frac{2v}{qB_0}(m_2-m_1)=\\frac{2E}{qBB_0}(m_2-m_1)\\Rightarrow E=\\frac{qLBB_0}{2(m_2-m_1)}$$\nОтвет: \\(E=\\frac{qLBB_0}{2(m_2-m_1)}\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 10342,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23665\nОднократно ионизированные ионы неона с одинаковыми зарядами, но разными массами \\(m_1=15\\) а. е. м. и \\(m_2=20\\) а. е. м. влетают в масс-спектрограф, предварительно пройдя “фильтр скоростей”, благодаря которому ионы, вылетающие из него, имеют одинаковую скорость \\(v\\). Фильтр был создан благодаря электрическому полю напряженностью \\(E\\) и магнитному полю индукцией \\(B\\), причем векторы \\(\\vec{B}\\) и \\(\\vec{E}\\) перпендикулярны друг другу. Магнитное поле, которое отклоняет пучок ионов, перпендикулярно ему и имеет индукцию \\(B_0\\). Ионы совершают половину оборота в отклоняющем магнитном поле. Найдите напряженность поля снизу, если расстояние между точками \\(S_1\\) и \\(S_2\\) равно \\(L\\) (см. рисунок).",
+      "error_conditions": null,
+      "id": 137688,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/VsV25w17l28"
+}

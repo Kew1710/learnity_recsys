@@ -1,0 +1,42 @@
+{
+  "comment": "К образованию хлорида аммония привел кислотный гидролиз нитрида кальция:\nCa₃N₂ + 8HCl = 3CaCl₂ + 2NH₄Cl\nМолекулярный азот в лаборатории иногда получают реакцией сопропорционирования азота из нитритов и солей аммония ((KNO₂) N⁺³ → N₂⁰ ← N⁻³ (NH₄Cl)):\nNH₄Cl + KNO₂ = N₂ + KCl + 2H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 9089,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) Cl₂\n2) KCl\n3) HCl\n4) KNO₂\n5) H₂O",
+      "error_conditions": [],
+      "id": 112813,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

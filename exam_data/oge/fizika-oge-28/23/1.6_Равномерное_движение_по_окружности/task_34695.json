@@ -1,0 +1,37 @@
+{
+  "comment": "Поскольку нас интересует линейная скорость точек, которые наиболее удалены от центра диска,значит нам нужны точки, которые находятся на расстоянии радиуса окружности.\nВоспользуемся формулой частоты: $$\\nu=\\frac{\\upsilon}{2\\pi R},$$где $\\nu=60~\\frac{об}{мин}=1~\\frac{об}{с}$\nВыразим скорость и подставим числа: $$\\upsilon=2\\cdot \\pi\\cdot R\\cdot \\nu=2\\cdot 3,14\\cdot 0,3\\cdot 1=1,884~\\frac{м}{с}$$ Ответ: $1,884~\\frac{м}{с}$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3214,
+    "title": "1.6 Равномерное движение по окружности"
+  },
+  "id": 34695,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Диск радиусом $30$ см равномерно вращается относительно оси, проходящей через его центр, с частотой $60$ об/мин. Чему равна линейная скорость точек диска, наиболее удалённых от его центра?",
+      "error_conditions": null,
+      "id": 254334,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

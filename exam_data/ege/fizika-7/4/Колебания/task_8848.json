@@ -1,0 +1,42 @@
+{
+  "comment": "В уравнении \\(x=A\\sin (Bt)\\): \\(A\\) - амплитуда колебаний, а \\(B\\) - циклическая частота. Следовательно, амплитуда колебаний \\(A=20\\) мм.\n\nОтвет: 20 мм",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2620,
+    "title": "Колебания"
+  },
+  "id": 8848,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Материальная точка совершает колебания, описываемые уравнением \\(x=A\\sin (Bt)\\). Найдите амплитуду колебаний, если известно, что \\(A=20\\) мм, \\(B=4\\) c\\(^{-1}\\). Ответ дайте в мм.",
+      "error_conditions": [],
+      "id": 112068,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/HP0PCPUz5A8"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/HP0PCPUz5A8"
+}

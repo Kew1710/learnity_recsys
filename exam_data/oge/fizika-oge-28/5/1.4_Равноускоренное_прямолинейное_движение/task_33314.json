@@ -1,0 +1,42 @@
+{
+  "comment": "Ускорение показывает изменение скорости тела за некоторый промежуток времени.\n$$a=\\frac{V_{2}-V_{1}}{t}$$\n\n$$a=\\frac{20-0}{10}$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3212,
+    "title": "1.4 Равноускоренное прямолинейное движение"
+  },
+  "id": 33314,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Автомобиль, начав двигаться равноускорено из состояния покоя по прямолинейной дороге, за 10 с приобрёл скорость 20 м/с. Чему равно ускорение автомобиля?\nОтвет: ___________________________ м/с\\(^2\\)",
+      "error_conditions": [],
+      "id": 252953,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

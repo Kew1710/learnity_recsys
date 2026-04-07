@@ -1,0 +1,45 @@
+{
+  "comment": "Площадь параллелограмма равна произведению длин высоты и стороны, к которой проведена высота. Тогда:\n$$S=18\\cdot 24=27\\cdot h\\\\ h=\\frac{18\\cdot 24}{27}=16$$\nОтвет: 16",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2377,
+    "title": "1.6 Площади четырехугольников"
+  },
+  "id": 23243,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Стороны параллелограмма равны \\(24\\) и \\(27\\). Высота, опущенная на меньшую из этих сторон, равна \\(18\\). Найдите высоту, опущенную на большую сторону параллелограмма.",
+      "error_conditions": [],
+      "id": 242968,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 63,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=339s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=339s"
+}

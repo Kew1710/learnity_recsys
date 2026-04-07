@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРазделим 17 на 15 и 16 на 13\n\\(\\cfrac{17}{15} \\approx 1,13\\)\n\\(\\cfrac{16}{13} \\approx 1,23\\)\nТак, между числами 1,13 и 1,23 расположено число 1,2\nОтвет: 1",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23948,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какое из следующих чисел заключено между числами…",
+      "error_conditions": [],
+      "id": 243667,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

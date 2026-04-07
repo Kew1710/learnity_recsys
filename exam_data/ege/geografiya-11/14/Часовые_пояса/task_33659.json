@@ -1,0 +1,46 @@
+{
+  "comment": "Омск находится в V часовом поясе, Сочи — во II. Разница во времени составляет 3 часа (5-2=3). Омск расположен восточнее, значит, время там опережает сочинское. Прибавляем разницу во времени: 20:00 + 3 часа = 23:00.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3323,
+    "title": "Часовые пояса"
+  },
+  "id": 33659,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 11,
+    "task_count": 0,
+    "title": "География"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23",
+          "points": 1
+        },
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В Сочи стартовал фестиваль «Новая волна», прямая трансляция открытия которого началась в 20:00 по местному времени. Используя карту часовых поясов, определите, во сколько часов по местному времени жители Омска смогут посмотреть начало трансляции.",
+      "error_conditions": [],
+      "id": 253298,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

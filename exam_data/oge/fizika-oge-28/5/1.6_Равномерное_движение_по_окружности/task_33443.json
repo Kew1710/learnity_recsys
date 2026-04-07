@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо формуле центростремительного ускорения: $$\\uparrow^2 a_ц=\\frac{(\\uparrow^4 v)^2}{R\\uparrow^2}$$\nСкорость увеличилась в 4 раза, значит, числитель увеличился в 16 раз (т.к. скорость в квадрате), а знаменатель увеличился в 2 раза, поэтому центростремительное ускорение увеличилось в 8 раз",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3214,
+    "title": "1.6 Равномерное движение по окружности"
+  },
+  "id": 33443,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Радиус окружности, по которой движется тело, увеличили в 2 раза, линейную скорость тела увеличили в 4 раза. Во сколько раз увеличилось центростремительное ускорение тела?\n\nОтвет: в ________________ раз(а)",
+      "error_conditions": [],
+      "id": 253082,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

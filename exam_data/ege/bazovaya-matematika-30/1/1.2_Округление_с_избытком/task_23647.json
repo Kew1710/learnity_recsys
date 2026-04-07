@@ -1,0 +1,42 @@
+{
+  "comment": "$$50 / 6 = 8,33…$$\nЗначит, квартира Пети находится после 8 этажа - на 9 этаже.\nОтвет: 9.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2065,
+    "title": "1.2 Округление с избытком"
+  },
+  "id": 23647,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В доме, в котором живёт Петя, один подъезд. На каждом этаже по шесть квартир. Петя живёт в квартире № 50. На каком этаже живёт Петя?",
+      "error_conditions": [],
+      "id": 243371,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

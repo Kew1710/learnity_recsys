@@ -1,0 +1,42 @@
+{
+  "comment": "Возьмем последнюю точку из таблицы, из закона Ома сопротивление равно: $$R=\\frac{U}{I} \\\\ R=\\frac{2}{1}=2~Ом$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 33522,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Результаты измерения силы тока в резисторе при разных напряжениях на его клеммах показаны в таблице.\n\n𝑈,В\n0,4\n0,6\n1,0\n1,4\n2,0\n𝐼,А\n0,2\n0,3\n0,5\n0,7\n1,0\n\nЧему равно сопротивление резистора?\nОтвет: ______________ Ом",
+      "error_conditions": [],
+      "id": 253161,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

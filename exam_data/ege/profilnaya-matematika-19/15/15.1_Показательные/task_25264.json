@@ -1,0 +1,40 @@
+{
+  "comment": "Сделаем замену: \\(3^x=t\\), \\(t>0\\):\n$$\\frac{t^2+2t-117}{t-27}\\leq 1\\\\ \\frac{t^2+2t-117-t+27}{t-27}\\leq 0\\\\ \\frac{t^2+t-90}{t-27}\\leq 0$$\nСделаем разложение в знаменателе:\n$$\\frac{(t+10)(t-9)}{t-27}\\leq 0$$\nПроведем прямую и отметим точки:\nУчитывая ограничения:\n$$t\\in [9;27)$$\nОбратная замена:\n$$\\displaystyle \\begin{cases} t\\geq 9\\\\ t< 27 \\end{cases} \\Rightarrow \\begin{cases} 3^{x} \\geq 3^{2}\\\\ 3^{x} < 3^{3} \\end{cases} \\Rightarrow \\begin{cases} x\\geq 2\\\\ x< 3 \\end{cases} \\Rightarrow x\\in [ 2;3)$$\nОтвет: \\(x\\in [ 2;3)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 25264,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{9^x+2\\cdot 3^x-117}{3^x-27}\\leq 1\\).",
+      "error_conditions": null,
+      "id": 244921,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/watch?v=280qZwzueqw&t=1823s"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Тридцатилетняя война закончилась подписанием Вестфальского мира 1648 года. Вестфальский мир уравнял в правах католиков и протестантов, ввёл принцип веротерпимости.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3106,
+    "title": "16.1. История зарубежных стран. Древний мир, Средние века, Новое время"
+  },
+  "id": 31897,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "1) Пунические войны\n2) Жакерия\n3) Тридцатилетняя война\n4) деятельность Парижской коммуны\n\nВ ходе какого из перечисленных событий, процессов был заключён Вестфальский мир? Укажите порядковый номер этого события или процесса.",
+      "error_conditions": [],
+      "id": 251536,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

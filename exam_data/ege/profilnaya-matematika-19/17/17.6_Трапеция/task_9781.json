@@ -1,0 +1,40 @@
+{
+  "comment": "а) Продлим стороны \\(AB\\) и \\(CD\\). \\(K\\) - точка пересечения.\n\\(AD=2BC\\), \\(AD||BC\\), как основания трапеции. Значит \\(BC\\) - средняя линия треугольника \\(AKD\\).\nТо есть \\(B\\) и \\(C\\) -середины сторон \\(AK\\) и \\(DK\\).\n\\(MB\\) - медиана и высота, значит треугольник \\(AMK\\) равнобедренный, \\(AM=MK\\).\n\\(MC\\) - медиана и высота, значит треугольник \\(DMK\\) равнобедренный, \\(DM=MK\\).\n$$AM=DM\\\\ Ч.т.д.$$\nб) Дополнительное построение: \\(MH\\) - высота треугольника \\(AMD\\). \\(AM=DM\\), значит треугольник \\(AMD\\) равнобедренный, \\(MH\\) - высота и медиана. \\(AH=HD=\\frac{AD}{2}\\).\nПусть \\(BC=x\\), тогда \\(AD=2x\\), \\(AH=HD=MH=x\\)\nТреугольники \\(AMH\\) и \\(DMH\\) равнобедренный и прямые, значит углы при основании равны \\(45^\\circ\\).\n$$\\angle MAD=\\angle MDA =45\\\\ \\angle MDC=\\angle{ADC} -\\angle MDA=55^\\circ -45^\\circ =10^\\circ$$\nтреугольник \\(DMK\\) равнобедренный, \\(\\angle MDC=\\angle MKD=10^\\circ\\)\nтреугольник \\(AMK\\) равнобедренный, \\(\\angle KAM=\\angle AKM\\)\nСумма углов \\(\\triangle{AKD}\\) равна \\(180^\\circ\\):\n$$\\angle MAD+\\angle MDA+\\angle MDC+\\angle MKD+\\angle KAM+\\angle AKM=180^\\circ\\\\ 45^\\circ +45^\\circ +10^\\circ +10^\\circ +2\\cdot \\angle KAM=180^\\circ\\\\ \\angle KAM=35^\\circ\\\\ \\angle BAD=\\angle KAM+\\angle MAD=35^\\circ +45^\\circ =80^\\circ$$\nОтвет: \\(80^\\circ\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2486,
+    "title": "17.6 Трапеция"
+  },
+  "id": 9781,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Известно, что \\(ABCD\\) трапеция, \\(AD=2BC\\), \\(AD\\), \\(BC\\) — основания. Точка \\(M\\) такова, что \\(\\angle ABM\\) и \\(MCD\\) прямые.\nа) Доказать, что \\(MA = MD\\).\nб) Расстояние от \\(M\\) до \\(AD\\) равно \\(BC\\), а угол \\(ADC\\) равен \\(55^\\circ\\). Найдите угол \\(BAD\\).",
+      "error_conditions": null,
+      "id": 119525,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

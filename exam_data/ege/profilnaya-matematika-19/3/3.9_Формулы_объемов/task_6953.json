@@ -1,0 +1,45 @@
+{
+  "comment": "Объем цилиндра считается по формуле:\n$$ V = \\pi r^2 h $$\nОчевидно, что высота цилиндра равна боковой стороне призмы:\n$$ h = AA' = {2 \\over \\pi} $$\nНайдем радиус цилиндра.\nГипотенуза прямоугольного треугольника является диаметром описанной вокруг него окружности, значит:\n$$ r = {AB \\over 2} \\Rightarrow V = {\\pi h \\cdot AB^2 \\over 4} $$\nИз теоремы Пифагора:\n$$ AB^2 = BC^2 + AC^2 = 10^2 + 9^2 = 181 $$\nПодставим в формулу объема и получим:\n$$ V = \\frac{\\pi \\cdot \\frac{2}{\\pi} \\cdot 181}{4} = {181 \\over 2} = 90,5 $$\nОтвет: 90,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 6953,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "90,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В основании прямой призмы лежит прямоугольный треугольник с катетами \\(10\\) и \\(9\\). Боковые ребра призмы \\(2 \\over \\pi\\). Найдите объем цилиндра, описанного около этой призмы.",
+      "error_conditions": [],
+      "id": 77992,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=2906"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=2906"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Скорость работы первого мастера \\(\\frac{1}{40}\\), второго - \\(\\frac{1}{10}\\).\nСкорость их совместной работы:\n$$\\frac{1}{40} + \\frac{1}{10} = \\frac{1+4}{40} = \\frac{5}{40} = \\frac{1}{8}$$\nЗначит, работая вместе, заказ будет выполнен за 8 часов.\nОтвет: 8.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2133,
+    "title": "20.2 Задачи на работу"
+  },
+  "id": 23080,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Один мастер может выполнить заказ за 40 часов, а другой за 10 часов. За сколько часов выполнят заказ оба мастера, работая вместе?",
+      "error_conditions": [],
+      "id": 242806,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

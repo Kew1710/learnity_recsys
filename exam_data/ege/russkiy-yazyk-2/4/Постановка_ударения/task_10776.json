@@ -1,0 +1,42 @@
+{
+  "comment": "позвонИшь - от глагола позвонИть; в личных формах глаголов на Ишь, Ит, Им, Ите\nвОвремя - запомнить",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 913,
+    "title": "Постановка ударения"
+  },
+  "id": 10776,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "234",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук. Запишите номера ответов.\n\n- позвОнишь\n- убралА\n- щЁлкать\n- начАв\n- воврЕмя",
+      "error_conditions": [],
+      "id": 147536,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

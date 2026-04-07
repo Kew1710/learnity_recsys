@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\( y = \\cfrac{7x -10}{7x^2 -10x}\\)\nОДЗ: \\(7x^2-10x \\neq 0\\)\n\\( x(7x-10) \\neq 0\\)\n\\( x \\neq 0\\) или \\(x \\neq \\cfrac{10}{7}\\)\n\\(y=\\cfrac{7x-10}{x(7x-10)} \\)\n\\( y=\\cfrac{1}{x} \\) - гипербола\nПостроим график функции:\nx1-12y1-10,5\n\\( y=kx\\) имеет с графиком ровно одну общую точку при прохождении через \\( \\left(\\cfrac{10}{7};\\cfrac{7}{10} \\right) \\)\n\\(y=kx\\)\n\\( \\cfrac{7}{10}=k \\cdot \\cfrac{10}{7} \\)\n\\( k=\\cfrac{7}{10} \\cdot \\cfrac{7}{10}=\\cfrac{49}{100}\\)\nОтвет: \\(k=\\cfrac{49}{100}\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2007,
+    "title": "22.2 Квадратичная функция"
+  },
+  "id": 25828,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Постройте график функции \\( y = \\cfrac{7x -10}{7x^2 -10x}\\) и определите, при каких значениях \\(k\\) прямая \\(y = kx\\) имеет с графиком ровно одну общую точку.",
+      "error_conditions": null,
+      "id": 245485,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

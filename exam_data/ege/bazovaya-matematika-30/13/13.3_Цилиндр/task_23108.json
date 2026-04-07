@@ -1,0 +1,42 @@
+{
+  "comment": "Возьмем из справочных материалов формулу объема цилиндра: \\(V=\\pi r^{2} h\\). Запишем объем для обоих цилиндров:\n$$V_{1} =\\pi \\cdot 6^{2} \\cdot 9\\ $$\n$$V_{2} =\\pi \\cdot 9^{2} \\cdot 2\\ $$\nТогда \\(\\frac{V_{1}}{V_{2}} =\\frac{\\pi \\cdot 6^{2} \\cdot 9\\ }{\\pi \\cdot 9^{2} \\cdot 2} =2\\)\nОтвет: в 2 раза.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2250,
+    "title": "13.3 Цилиндр"
+  },
+  "id": 23108,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны два цилиндра. Радиус основания и высота первого цилиндра равны соответственно 6 и 9, а второго — 9 и 2. Во сколько раз объём первого цилиндра больше объёма второго?",
+      "error_conditions": [],
+      "id": 242834,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

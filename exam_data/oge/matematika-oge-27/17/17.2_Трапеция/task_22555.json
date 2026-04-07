@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПусть меньшее основание \\(DC\\), большее основание \\(AB\\), средняя линия трапеции \\(EF\\), \\(DB \\cap EF = O\\)\n\\(EO\\) - средняя линия треугольника \\(ADB\\)\nПо формуле средней линии\n\\(OE = \\cfrac{AB}{2} = \\cfrac{17}{2} = 8,5\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1985,
+    "title": "17.2 Трапеция"
+  },
+  "id": 22555,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Основания трапеции равны 1 и 17. Найдите больший из отрезков, на которые делит среднюю линию этой трапеции одна из её диагоналей.",
+      "error_conditions": [],
+      "id": 242294,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

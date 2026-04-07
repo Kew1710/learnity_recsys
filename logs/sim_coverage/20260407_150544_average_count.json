@@ -1,0 +1,100 @@
+{
+  "ts": "2026-04-07T15:05:44.502970+00:00",
+  "profile": "average",
+  "grade": 8,
+  "variant": "count",
+  "student_id": "874a459e-553a-48d2-a3dc-6be6a14b2def",
+  "tasks_done": 200,
+  "accuracy": 0.67,
+  "plan_focus_rate": 0.45,
+  "plan_mastered_true": 5,
+  "plan_mastered_visible": 4,
+  "coverage_pct": 50.0,
+  "steps_completed": 4,
+  "plan_kcs": [
+    "kc_linear_eq_1var",
+    "kc_function_concept",
+    "kc_linear_function",
+    "kc_linear_function_graph",
+    "kc_linear_eq_system",
+    "kc_system_substitution",
+    "kc_system_addition",
+    "kc_powers_properties",
+    "kc_monomial",
+    "kc_polynomial"
+  ],
+  "plan_kc_vis_at_creation": {
+    "kc_linear_eq_1var": 0.75,
+    "kc_function_concept": 0.75,
+    "kc_linear_function": 0.75,
+    "kc_linear_function_graph": 0.75,
+    "kc_linear_eq_system": 0.75,
+    "kc_system_substitution": 0.75,
+    "kc_system_addition": 0.75,
+    "kc_powers_properties": 0.75,
+    "kc_monomial": 0.75,
+    "kc_polynomial": 0.75
+  },
+  "plan_kc_final": {
+    "kc_linear_eq_1var": {
+      "true": 0.891,
+      "vis": 0.826,
+      "tasks": 20
+    },
+    "kc_function_concept": {
+      "true": 0.904,
+      "vis": 0.802,
+      "tasks": 21
+    },
+    "kc_linear_function": {
+      "true": 0.846,
+      "vis": 0.808,
+      "tasks": 8
+    },
+    "kc_linear_function_graph": {
+      "true": 0.844,
+      "vis": 0.808,
+      "tasks": 8
+    },
+    "kc_linear_eq_system": {
+      "true": 0.945,
+      "vis": 0.673,
+      "tasks": 33
+    },
+    "kc_system_substitution": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_system_addition": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_powers_properties": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_monomial": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    },
+    "kc_polynomial": {
+      "true": 0.75,
+      "vis": 0.75,
+      "tasks": 0
+    }
+  },
+  "all_kc_tasks": {
+    "kc_divisibility": 67,
+    "kc_fractions_operations": 38,
+    "kc_linear_eq_system": 33,
+    "kc_function_concept": 21,
+    "kc_linear_eq_1var": 20,
+    "kc_linear_function": 8,
+    "kc_linear_function_graph": 8,
+    "kc_negative_numbers": 5
+  }
+}

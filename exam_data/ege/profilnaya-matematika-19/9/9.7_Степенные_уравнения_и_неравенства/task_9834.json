@@ -1,0 +1,45 @@
+{
+  "comment": "$$P=\\sigma ST^4\\\\ 1,425\\cdot 10^{26}=5,7\\cdot 10^{-8}\\cdot\\frac{1}{25}\\cdot 10^{20}\\cdot T^4\\\\ 1425\\cdot 10^{23}=5,7\\cdot\\frac{1}{25}\\cdot 10^{12}\\cdot T^4\\\\ 1425\\cdot 10^{23}=5,7\\cdot 0,04\\cdot 10^{12}\\cdot T^4\\\\ 1425\\cdot 10^{23}=5,7\\cdot 4\\cdot 10^9\\cdot T^4\\\\ 1425\\cdot 10^14=5,7\\cdot 4\\cdot T^4\\\\ T^4=\\frac{1,425\\cdot 10^{14}}{5,7\\cdot 4}=5000$$\nОтвет: 5000",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2427,
+    "title": "9.7 Степенные уравнения и неравенства"
+  },
+  "id": 9834,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5000",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Для определения эффективной температуры звёзд используют закон Стефана-Больцмана, согласно которому мощность излучения \\(P\\) (в ваттах) нагретого тела прямо пропорциональна площади его поверхности и четвертой степени температуры: \\(P=\\sigma ST^4\\), где \\(\\sigma = 5,7\\cdot 10^{-8}\\) постоянная, площадь поверхности \\(S\\) измеряется в квадратных метрах, а температура \\(T\\) - в градусах Кельвина. Известно, что некоторая звезда имеет площадь поверхности \\(S=\\frac{1}{25}\\cdot 10^{20}~м^2\\), a излучаемая ею мощность \\(P\\) равна \\(1,425\\cdot 10^{26}\\) Вт. Определите температуру этой звезды. Ответ дайте в градусах Кельвина.",
+      "error_conditions": [],
+      "id": 119809,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=9648"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=9648"
+}

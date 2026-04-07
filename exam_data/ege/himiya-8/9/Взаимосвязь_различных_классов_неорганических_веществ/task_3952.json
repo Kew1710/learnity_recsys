@@ -1,0 +1,42 @@
+{
+  "comment": "В одну стадию из оксида можно получить сульфат цинка:\nZnO + H₂SO₄ = ZnSO₄ + H₂O\nКомплексную соль получают при действии избытка щелочи на раствор соли цинка:\nZnSO₄ + 4NaOH = Na₂[Zn(OH)₄] + Na₂SO₄",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 3952,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) NaCl\n2) ZnSO₄\n3) H₂O\n4) NaOH\n5) Zn(OH)₂",
+      "error_conditions": [],
+      "id": 66373,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=16162"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=16162"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "$$\\frac{22}{3} : \\frac{2}{15} \\cdot \\frac{6}{5} = \\frac{22}{3} \\cdot \\frac{15}{2} \\cdot \\frac{6}{5} = \\frac{11 \\cdot 1 \\cdot 6}{1} = 66$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2110,
+    "title": "14.1 Действия с обыкновенными дробями"
+  },
+  "id": 25975,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "66",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения\n$$\\frac{22}{3} : \\frac{2}{15} \\cdot \\frac{6}{5}$$",
+      "error_conditions": [],
+      "id": 245614,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

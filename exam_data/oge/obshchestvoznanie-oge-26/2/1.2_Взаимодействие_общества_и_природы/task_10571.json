@@ -1,0 +1,42 @@
+{
+  "comment": "undefined",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1751,
+    "title": "1.2 Взаимодействие общества и природы"
+  },
+  "id": 10571,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "К экологическим проблемам относится\n\n1) предотвращение распространения СПИДа\n2) возрождение культурных ценностей\n3) тенденция глобального потепления\n4) стабилизация демографической ситуации",
+      "error_conditions": [],
+      "id": 145451,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=3148"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=3148"
+}

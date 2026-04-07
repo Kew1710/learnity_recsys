@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3122,
+    "title": "2.1 Дискретность данных."
+  },
+  "id": 31527,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "жить",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ваня шифрует русские слова, записывая вместо каждой буквы её номер в алфавите (без пробелов). Номера букв даны в таблице.\n\nА\n1\nЙ\n11\nУ\n21\nЭ\n31\nБ\n2\nК\n12\nФ\n22\nЮ\n32\nВ\n3\nЛ\n13\nХ\n23\nЯ\n33\nГ\n4\nМ\n14\nЦ\n24\n\nД\n5\nН\n15\nЧ\n25\n\nЕ\n6\nО\n16\nШ\n26\n\nЁ\n7\nП\n17\nЩ\n27\n\nЖ\n8\nР\n18\nЪ\n28\n\nЗ\n9\nС\n19\nЫ\n29\n\nИ\n10\nТ\n20\nЬ\n30\n\nНекоторые шифровки можно расшифровать несколькими способами. Например, 311333 может означать «ВАЛЯ», может –– «ЭЛЯ», а может –– «ВААВВВ».\nДаны четыре шифровки:\n1510261\n8102030\n1416184\n1816830\nТолько одна из них расшифровывается единственным способом. Найдите её и расшифруйте. Получившееся слово запишите в качестве ответа.",
+      "error_conditions": [],
+      "id": 251166,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

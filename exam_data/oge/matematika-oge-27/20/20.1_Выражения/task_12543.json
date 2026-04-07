@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(a - 4b + 7 = 8(4a - b + 7)\\)\n\\(a - 4b + 7 = 32a - 8b + 56\\)\n\\(32a - 8b + 56 - a + 4b - 7 = 0\\)\n\\(31a - 4b + 49 = 0\\)\n\\(31a - 4b = -49\\)\n\\(31a - 4b + 55 = -49 +55 = 6\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1923,
+    "title": "20.1 Выражения"
+  },
+  "id": 12543,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите значение выражения \\(31a-4b+55\\) , если \\(\\cfrac{a-4b+7}{4a-b+7}=8\\) .",
+      "error_conditions": null,
+      "id": 166340,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

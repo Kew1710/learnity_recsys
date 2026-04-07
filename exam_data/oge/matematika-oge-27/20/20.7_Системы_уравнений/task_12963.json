@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\begin{cases}& 5x^2-9x = y(1)\\\\ & 5x-9 = y(2)\\end{cases}\\)\nПравые части уравнения равны, значит левые части тоже равны\n\\(5x^2 - 9x = 5x - 9\\)\n\\(5x^2 -14x +9 = 0\\)\n\\(D = 196 - 180 = 16\\)\nОтсюда \\(x_1 = 1; x_2 = \\cfrac{9}{5}\\)\nПодставим в уравнение (2) \\(x = 1\\)\n\\(5 -9 = -4\\)\n\\(y = -4\\)\nПодставим в уравнение (2) \\(x = \\cfrac{9}{5}\\)\n\\(5 \\cdot \\cfrac{9}{5} -9 = 0\\)\n\\(y = 0\\)\n\\(\\begin{cases}& x = 1\\\\ & y = -4\\end{cases}\\)\nили\n\\(\\begin{cases}& x =\\cfrac{9}{5}\\\\ & y = 0\\end{cases}\\)\nОтвет: \\( (1; -4) \\cup (\\cfrac{9}{5}; 0) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2054,
+    "title": "20.7 Системы уравнений"
+  },
+  "id": 12963,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите систему уравнений \\(\\begin{cases}& 5x^2-9x = y\\\\ & 5x-9 = y\\end{cases}\\) .",
+      "error_conditions": null,
+      "id": 174315,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

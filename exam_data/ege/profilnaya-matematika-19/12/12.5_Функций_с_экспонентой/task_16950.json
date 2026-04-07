@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=(2x-9)\\cdot e^{x+27}+(x^2-9x+9)\\cdot e^{x+27}$$\nНайдем нули функции, приравняв производную к нулю:\n$$e^{x+27}(2x-9+x^2-9x+9)=0\\\\ x^2-7x=0\\\\ x(x-7)=0\\\\ x=0~или~x=7$$\nОтметим корни на числовой прямой и расставим знаки производной:\nИмеем точку минимума \\(x = 7\\).\n\nОтвет: 7.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2448,
+    "title": "12.5 Функций с экспонентой"
+  },
+  "id": 16950,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y=(x^2-9x+9)\\cdot e^{x+27}\\).",
+      "error_conditions": [],
+      "id": 236851,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/CkkG5Lc4uvY?t=4862"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/CkkG5Lc4uvY?t=4862"
+}

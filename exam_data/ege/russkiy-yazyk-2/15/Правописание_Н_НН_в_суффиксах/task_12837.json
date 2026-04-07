@@ -1,0 +1,42 @@
+{
+  "comment": "каменном - прилагательное, стык основы на –н- (камен) и суффикса –н-, НН\nдеревянный - прилагательное, исключение, НН\nкрашеными - отглагольное прилагательное, нет приставки, зависимого слова и сов. вида, Н",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12837,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\nВ.Г. Короленко и в каме(1)ом Петербурге нашёл для себя старенький деревя(2)ый дом, провинциально уютный, с краше(3)ыми полами.",
+      "error_conditions": [],
+      "id": 174020,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

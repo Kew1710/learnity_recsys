@@ -1,0 +1,42 @@
+{
+  "comment": "P: Aa x Aa => F: 1AA, 2Aa, 1aa. Доминантное проявление признака будет у Аа и АА, значит, вероятность ¾ или 75%.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 5281,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите вероятность (%) получения потомков с доминантным проявлением признака в моногибридном скрещивании гетерозиготных гибридов между собой при полном доминировании этого признака. Ответ запишите в виде числа.",
+      "error_conditions": [],
+      "id": 70669,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XTuxeAUahxM?start=109"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/XTuxeAUahxM?start=109"
+}

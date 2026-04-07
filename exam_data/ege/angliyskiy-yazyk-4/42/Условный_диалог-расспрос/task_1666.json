@@ -1,0 +1,37 @@
+{
+  "comment": "1. Where is the Vintage Inn located? What is the location of the Vintage Inn?\n2. How much is a double room? How much does a double room cost? What is the price for a double room?\n3. What facilities does the hotel have? What facilities are there at the hotel?\n4. Is wi-fi available? Is there wi-fi access? Do you have wi-fi?",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 819,
+    "title": "Условный диалог-расспрос"
+  },
+  "id": 1666,
+  "is_obsolete": false,
+  "number": 42,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Task 2. Study the advertisement.\n\nYou are considering staying in the countryside for the weekend and now you'd like to get more information. In 1.5 minutes you are to ask for direct questions to find out about the following:\n- location\n- price for a double room\n- facilities at the hotel\n- if wi-fi is available\nYou have 20 seconds to ask each question.",
+      "error_conditions": null,
+      "id": 54547,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

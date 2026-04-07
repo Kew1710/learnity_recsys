@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nНаправим ось вверх и запишем формулу скорости при свободном падении: $$v=v_0-gt$$\nПодставим числовые значения: $$v=25-10\\cdot 1=15~м/с$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3213,
+    "title": "1.5 Свободное падение"
+  },
+  "id": 15903,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Тело брошено с поверхности Земли вертикально вверх со скоростью \\(25\\) м/с. Сопротивление воздуха пренебрежимо мало. Чему станет равна скорость тела через секунду?\nОтвет:________________м/с",
+      "error_conditions": [],
+      "id": 235810,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/kxCjttdisjg"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/kxCjttdisjg"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "$$\\frac{80 \\cdot 15\\%}{100\\%} = 12$$\nОтвет: 12 млн рублей.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2114,
+    "title": "15.1 Задачи на проценты"
+  },
+  "id": 27516,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Городской бюджет составляет 80 млн рублей, а расходы на одну из его статей составили 15%. Сколько миллионов рублей потрачено на эту статью бюджета?",
+      "error_conditions": [],
+      "id": 247155,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

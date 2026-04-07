@@ -1,0 +1,49 @@
+{
+  "comment": "Вспомним, что производная произведения считается по формуле: $$ (f(x) \\cdot g(x))' = f'(x) \\cdot g(x) + f(x) \\cdot g'(x) $$\nВозьмем производную: $$ y' = - 2\\cos{x} - (1-2x)\\sin{x} + 2\\cos{x} = -(1-2x)\\sin{x} $$\nПриравняем производную к \\(0\\), чтобы найти стационарные точки: $$ -(1-2x)\\sin{x} = 0 \\Rightarrow \\left[ \\begin{array}{l l} x = 0,5 \\\\ \\sin{x} = 0 \\end{array} \\right. \\\\ \\Rightarrow \\left[ \\begin{array}{l l} x = 0,5 \\\\ x = \\pi n, n \\in \\mathbb{Z} \\end{array} \\right. $$\nПолучим, что \\(x = 0,5\\) - точка минимума на заданном интервале\n\nОтвет: 0,5",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2447,
+    "title": "12.4 Тригонометрическая функция"
+  },
+  "id": 35864,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,5",
+          "points": 1
+        },
+        {
+          "answer": "0.5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y = (1-2x)\\cos{x}+2\\sin{x}+5\\), принадлежащую промежутку \\(\\left(0; \\dfrac{\\pi}{2}\\right)\\).",
+      "error_conditions": [],
+      "id": 255503,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=rPXPQCwJJVnCK8-e&t=11639"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=rPXPQCwJJVnCK8-e&t=11639"
+}

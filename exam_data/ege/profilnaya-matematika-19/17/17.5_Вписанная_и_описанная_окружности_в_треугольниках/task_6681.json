@@ -1,0 +1,40 @@
+{
+  "comment": "а) Углы \\(A_{1} BC\\) и \\(A_{1} AC\\) равны как вписанные, опирающиеся на одну и ту же дугу. Следовательно:\n$$\\angle A_{1} BB_{1} =\\angle A_{1} AC+\\angle CBB_{1} =\\frac{1}{2} \\angle A+\\frac{1}{2} \\angle B=\\frac{1}{2}( \\angle A+\\angle B) =45^{\\circ }$$\nб) Вычислим угол \\(B\\):\n$$\\angle B=90^{\\circ } -\\angle A=30^{\\circ }$$\nВычислим угол \\(B_{1} A_{1} A\\):\n$$\\angle B_{1} A_{1} A=\\angle B_{1} BA=\\frac{1}{2} \\cdot 30^{\\circ } =15^{\\circ }$$\nВычислим угол \\(AA_{1} C_{1}\\):\n$$\\angle AA_{1} C_{1} =\\angle ACC_{1} =\\frac{1}{2} \\cdot 90^{\\circ } =45^{\\circ }$$\nтаким образом, \\(\\angle B_{1} A_{1} C_{1} =60^{\\circ }\\).\n\nПо теореме синусов имеем:\n$$B_{1} C_{1} =2R\\sin \\angle B_{1} A_{1} C_{1}$$\nгде \\(R\\) - это радиус описанной около треугольника \\(A_{1} B_{1} C_{1}\\) окружности и \\(2R=AB\\).\n\nТаким образом,\n$$B_{1} C_{1} =2\\sqrt{3} \\cdot \\frac{\\sqrt{3}}{2} =3$$\nОтвет: 3.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2485,
+    "title": "17.5 Вписанная и описанная окружности в треугольниках"
+  },
+  "id": 6681,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Прямоугольный треугольник \\(ABC\\) с прямым углом \\(C\\) вписан в окружность. Биссектриса угла \\(A\\) пересекает описанную окружность в точке \\(A_{1}\\), биссектриса угла \\(B\\) пересекает описанную окружность в точке \\(B_{1}\\), биссектриса угла \\(C\\) пересекает описанную окружность в точке \\(C_{1}\\).\nа) Докажите, что угол \\(A_{1} BB_{1} =45^{\\circ }\\).\nб) Известно, что \\(AB=2\\sqrt{3}\\), \\(\\angle A=60^{\\circ }\\). Найдите \\(B_{1} C_{1}\\).",
+      "error_conditions": null,
+      "id": 75215,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/m2fvQnBFx2o?start=1869"
+}

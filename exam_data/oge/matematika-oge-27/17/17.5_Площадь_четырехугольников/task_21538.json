@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПусть a - основание параллелограмма, h - высота параллелограмма\nПлощадь параллелограмма вычисляется по формуле \\( S = a\\cdot h\\)\n\\(54 = 9 \\cdot h_1\\)\nОтсюда \\(h_1 = 6\\)\n\\(54 = 18 \\cdot h_2\\)\nОтсюда \\(h_2 = 3\\)\nБольшая высота равна 6",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1988,
+    "title": "17.5 Площадь четырехугольников"
+  },
+  "id": 21538,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь параллелограмма равна 54, а две его стороны равны 9 и 18. Найдите его высоты. В ответе укажите большую высоту.",
+      "error_conditions": [],
+      "id": 241305,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

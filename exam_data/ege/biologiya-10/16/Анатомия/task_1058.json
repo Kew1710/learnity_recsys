@@ -1,0 +1,42 @@
+{
+  "comment": "Последовательность процессов, происходящих в пищеварительной системе человека при переваривании пищи:\n2) действие лизоцима\n4) действие пепсина\n1) обработка желчью\n5) действие липаз на эмульгированные жиры\n3) всасывание большей части воды",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 1058,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24153",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность процессов, происходящих в пищеварительной системе человека при переваривании пищи.\nЗапишите в таблицу соответствующую последовательность цифр.\n1) обработка желчью\n2) действие лизоцима\n3) всасывание большей части воды\n4) действие пепсина\n5) действие липаз на эмульгированные жиры",
+      "error_conditions": [],
+      "id": 52618,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8iIZ8H2Dcgs?start=793"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/8iIZ8H2Dcgs?start=793"
+}

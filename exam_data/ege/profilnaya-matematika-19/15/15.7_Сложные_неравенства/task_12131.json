@@ -1,0 +1,40 @@
+{
+  "comment": "$$7^{-|x-3|}>0~всегда$$\nСтепень у числа всегда отрицательная, значит мы всегда будем получать дробь или \\(1\\), следовательно:\n$$7^{-|x-3|}\\leq 1$$\nРассмотрим второй множитель.\n$$\\log_{2}\\left( 6x-x^{2} -7\\right) =\\log_{2}\\left( -\\left( x^{2} -6x+7\\right)\\right)\\\\ \\log_{2}\\left( -\\left( x^{2} -2\\cdot 3x+9-2\\right)\\right) =\\log_{2}\\left( -\\left(( x-3)^{2} -2\\right)\\right) =\\log_{2}\\left( 2-( x-3)^{2}\\right)\\\\ ( x-3)^{2} \\ число\\ либо\\ положительное,\\ либо\\ равное\\ 0 $$\nТак как подлогарифмическое выражение должно быть строго больше \\(0\\), то выполняется\n$$\\log_2(2-(x-3)^2)\\leq\\log_22\\\\ \\log_2(2-(x-3)^2)\\leq 1$$\nСледовательно, максимальное значение левой части равно \\(1\\). Так как левая часть не может быть больше \\(1\\), мы получаем систему:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} 7^{-|x-3|} =1\\\\ \\log_{2}\\left( 2-( x-3)^{2}\\right) =1 \\end{cases}\\\\ \\begin{cases} 7^{-|x-3|} =7^{0}\\\\ 2-( x-3)^{2} =2 \\end{cases}\\\\ \\begin{cases} -|x-3|=0\\\\ 2-x^{2} +6x-9=2 \\end{cases}\\\\ \\begin{cases} |x-3|=0\\\\ -x^{2} +6x-9=0 \\end{cases}\\\\ \\begin{cases} x=3\\\\ x=3 \\end{cases} \\end{array}$$\nОтвет: \\(x=3\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2473,
+    "title": "15.7 Сложные неравенства"
+  },
+  "id": 12131,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(7^{-|x-3|}\\cdot\\log_2(6x-x^2-7)\\geq 1\\).",
+      "error_conditions": null,
+      "id": 154090,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

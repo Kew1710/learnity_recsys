@@ -1,0 +1,45 @@
+{
+  "comment": "Производная функции \\(f(x)\\) положительна в точках возрастания функции: \\(x_4\\), \\(x_8\\), \\(x_9\\). Таким образом, условию удовлетворяют три точки.\n\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2412,
+    "title": "8.1 Промежутки возрастания/убывания функции"
+  },
+  "id": 9947,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график дифференцируемой функции \\(y=f(x)\\) и отмечены девять точек на оси абсцисс: \\(x_1\\), \\(x_2\\), \\(x_3\\), \\(x_4\\), \\(x_5\\), \\(x_6\\), \\(x_7\\), \\(x_8\\), \\(x_9\\). В скольких из этих точек производная функции \\(f(x)\\) положительна?",
+      "error_conditions": [],
+      "id": 120508,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/68v9uQwfrzg?start=2087"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/68v9uQwfrzg?start=2087"
+}

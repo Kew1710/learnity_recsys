@@ -1,0 +1,46 @@
+{
+  "comment": "Пояснение: На рисунке изображён кариотип человека. Изучить количество и строение хромосом можно при помощи цитогенетического метода.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2507,
+    "title": "Методы, достижения и роль биологии"
+  },
+  "id": 16437,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "цитогенетический",
+          "points": 1
+        },
+        {
+          "answer": "кариотипирование",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Методы биологических исследований» и заполните ячейку, вписав соответствующий термин.\nЧастнонаучные методы\nИллюстрации методов\nЦентрифугирование ?",
+      "error_conditions": [],
+      "id": 236344,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 43,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

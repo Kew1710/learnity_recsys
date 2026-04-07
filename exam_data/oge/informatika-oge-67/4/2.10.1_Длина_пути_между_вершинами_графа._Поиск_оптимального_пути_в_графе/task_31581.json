@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3151,
+    "title": "2.10.1 Длина пути между вершинами графа. Поиск оптимального пути в графе."
+  },
+  "id": 31581,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Между населёнными пунктами A, B, C, D, E, F построены дороги, протяжённость которых (в километрах) приведена в таблице.\n\nA\nB\nC\nD\nE\nF\nA\n\n2\n\n15\nB\n2\n\n2\n3\n6\n\nC\n\n2\n\n3\n\nD\n\n3\n\n2\n\nE\n\n6\n3\n2\n\n6\nF\n15\n\n6\n\nОпределите длину кратчайшего пути между пунктами A и F. Передвигаться можно только по дорогам, указанным в таблице. Каждый пункт можно посетить только один раз.",
+      "error_conditions": [],
+      "id": 251220,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

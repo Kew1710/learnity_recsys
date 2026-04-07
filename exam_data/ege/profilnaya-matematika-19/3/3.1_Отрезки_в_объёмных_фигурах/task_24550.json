@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(x\\) - длина ребра куба, тогда площадь грани куба \\(x^2\\). Так как Так как поверхностей у куба \\(6\\), то площадь поверхности куба \\(=6x^2\\)\n$$6x^2=18\\Rightarrow x=\\sqrt3$$\nДиагональ куба по формуле равна \\(x\\sqrt3\\), подставим \\(x=\\sqrt3\\), получаем, что \\(d=\\sqrt3\\cdot\\sqrt3=3\\).\n\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 24550,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь поверхности куба равна 18. Найдите его диагональ.",
+      "error_conditions": [],
+      "id": 244226,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

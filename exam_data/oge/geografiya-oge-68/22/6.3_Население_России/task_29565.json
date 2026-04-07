@@ -1,0 +1,42 @@
+{
+  "comment": "На графике видно, что в 2018 году рождаемость была самой низкой.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2978,
+    "title": "6.3 Население России"
+  },
+  "id": 29565,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2018",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В каком году из указанных на графике рождаемость населения была наименьшей? Ответ запишите в виде числа.",
+      "error_conditions": [],
+      "id": 249204,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

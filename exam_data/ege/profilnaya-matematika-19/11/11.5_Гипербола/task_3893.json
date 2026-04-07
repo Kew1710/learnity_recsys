@@ -1,0 +1,45 @@
+{
+  "comment": "Возьмём координаты точки \\((1;1)\\) и подставим в выражение \\(f( x)\\), чтобы найти значение \\(k\\): $$1=\\frac{k}{1} \\Rightarrow k=1\\\\ f( x) =\\frac{1}{x} \\Rightarrow f( 10) =\\frac{1}{10} =0,1$$\nОтвет: 0,1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2441,
+    "title": "11.5 Гипербола"
+  },
+  "id": 3893,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график функции \\(f(x) = \\frac{k}{x}\\). Найдите значение \\(f (10)\\).",
+      "error_conditions": [],
+      "id": 66207,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Z4B04Ngk3nE?start=3492"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://www.youtube.com/embed/Z4B04Ngk3nE?start=3492"
+}

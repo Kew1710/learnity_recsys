@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nВозведем все числа в квадрат\n\\( (\\sqrt{76})^2 = 76\\)\n\\( 8^2 = 64\\)\n\\( 9^2 = 81\\)\n\\( 10^2 = 100\\)\nСравним квадраты чисел. Получим \\(64 < 76 < 81< 100\\)\nТогда для исходных чисел справедливы неравенства \\( 8 < \\sqrt{76} < 9\\)\nРасстояние от \\(\\sqrt{76}\\) до \\(\\sqrt{81}\\) меньше, чем расстояние от \\(\\sqrt{76}\\) до \\(\\sqrt{64}\\)\n\\(\\Rightarrow\\) число \\(\\sqrt{76}\\) расположено ближе к 9, чем к 8\nПоймем, что число \\(\\sqrt{76}\\) соответствует точке B на прямой\nОтвет: 2",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22946,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечены точки A, B, C, D. Одна из них соответствует числу \\(\\sqrt{76}\\). Какая это точка?",
+      "error_conditions": [],
+      "id": 242672,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

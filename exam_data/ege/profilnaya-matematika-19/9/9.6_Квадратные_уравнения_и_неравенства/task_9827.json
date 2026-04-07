@@ -1,0 +1,45 @@
+{
+  "comment": "$$H(t)=at^2+bt+H_0\\\\ 0=\\frac{1}{588}t^2-\\frac{1}{7}t+3\\\\ t^2-84t+3\\cdot 588=0\\\\ (t-42)^2=0\\\\ t=42$$\nОтвет: 42",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2426,
+    "title": "9.6 Квадратные уравнения и неравенства"
+  },
+  "id": 9827,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В боковой стенке высокого цилиндрического бака у самого дна закреплён кран. После его открытия вода начинает вытекать из бака, при этом высота столба воды в нем, выраженная в метрах, меняется по закону \\(H(t)=at^2+bt+H_0\\), где \\(H_0=3\\) м - начальный уровень воды, \\(a= 1/588~м/мин^2\\) и \\(b=-1/7~м/мин\\) - постоянные, \\(t\\) - время в минутах, прошедшее с момента открытия крана. В течение какого времени вода будет вытекать из бака? Ответ приведите в минутах.",
+      "error_conditions": [],
+      "id": 119766,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=8107"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=8107"
+}

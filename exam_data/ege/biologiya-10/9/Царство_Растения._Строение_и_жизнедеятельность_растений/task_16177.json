@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение:\n1 – покровная ткань\n2 – ассимиляционная ткань ( функция – фотосинтез)\n3 – механическая ткань\n4 – флоэма\n5 – ксилема\n6 – ризодерма, корневой волосок",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2525,
+    "title": "Царство Растения. Строение и жизнедеятельность растений"
+  },
+  "id": 16177,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каким номером обозначена ткань, обеспечивающая пластический обмен?",
+      "error_conditions": [],
+      "id": 236084,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

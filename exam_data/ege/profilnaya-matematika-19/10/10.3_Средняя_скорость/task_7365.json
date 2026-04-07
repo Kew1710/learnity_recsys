@@ -1,0 +1,45 @@
+{
+  "comment": "Чтобы найти среднюю скорость на протяжении пути, нужно весь путь разделить на все время движения. Средняя скорость равна:\n$$\\frac{115+3\\cdot 45+2\\cdot 40}{1+3+2}=\\frac{115+135+80}{6}=\\frac{330}{6}=55~км/ч$$\nОтвет: 55",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2430,
+    "title": "10.3 Средняя скорость"
+  },
+  "id": 7365,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "55",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Первый час автомобиль ехал со скоростью \\(115\\) км/ч, следующие три часа - со скоростью \\(45\\) км/ч, а затем два часа - со скоростью \\(40\\) км/ч. Найдите среднюю скорость автомобиля на протяжении всего пути. Ответ дайте в км/ч.",
+      "error_conditions": [],
+      "id": 84001,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ln7hYbdko8w?start=89"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/Ln7hYbdko8w?start=89"
+}

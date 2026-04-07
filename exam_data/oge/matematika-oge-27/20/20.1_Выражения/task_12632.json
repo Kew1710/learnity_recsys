@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(19a-7b+12\\) если \\(\\cfrac{5a-8b+2}{8a-5b+2}=3\\)\n\\(5a - 8b + 2 = 3(8a - 5b + 2)\\)\n\\(5a - 8b + 2 = 24a - 15b + 6\\)\n\\(24a - 15b + 6 - 5a + 8b - 2 = 0\\)\n\\(19a - 7b + 4 = 0\\)\n\\(19a - 7b = -4\\)\n\\(19a - 7b + 12 = -4 +12 = 8\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1923,
+    "title": "20.1 Выражения"
+  },
+  "id": 12632,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите значение выражения \\(19a-7b+12\\) , если \\(\\cfrac{5a-8b+2}{8a-5b+2}=3\\) .",
+      "error_conditions": null,
+      "id": 172225,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

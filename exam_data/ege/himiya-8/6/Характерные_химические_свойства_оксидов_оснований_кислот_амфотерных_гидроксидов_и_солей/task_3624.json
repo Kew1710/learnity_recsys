@@ -1,0 +1,42 @@
+{
+  "comment": "В первую пробирку добавили раствор гидрокарбоната кальция, так как при реакции со щелочью происходит переход растворимого карбоната в нерастворимый гидрокарбонат, и выпадает белый осадок:\nCa(HCO₃)₂ + 2NaOH = CaCO₃↓ + Na₂CO₃ + 2H₂O\nВо второй пробирке произошла реакция с гидроортофосфатом аммония, выделившийся газ - аммиак:\n(NH₄)₂HPO₄ + 3NaOH = Na₃PO₄ + 2NH₃↑ + 3H₂O\n\nX - Ca(HCO₃)₂, Y - (NH₄)₂HPO₄",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2799,
+    "title": "Характерные химические свойства оксидов, оснований, кислот, амфотерных гидроксидов и солей"
+  },
+  "id": 3624,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "В одну пробирку с раствором гидроксида натрия добавили раствор вещества X и наблюдали выпадение осадка белого цвета. В другую пробирку с раствором гидроксида натрия добавили раствор вещества Y и нагрели. В результате реакции наблюдали выделение газа.\nИз предложенного перечня выберите вещества X и Y, которые могут вступать в описанные реакции.\n1) Al(OH)₃\n2) Ca(HCO₃)₂\n3) KHSO₄\n4) K₂[Zn(OH)₄]\n5) (NH₄)₂HPO₄",
+      "error_conditions": [],
+      "id": 65782,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=2006"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=2006"
+}

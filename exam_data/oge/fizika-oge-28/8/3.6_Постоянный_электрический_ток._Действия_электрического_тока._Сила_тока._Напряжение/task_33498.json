@@ -1,0 +1,42 @@
+{
+  "comment": "Сила тока по определению это скорость изменения заряда, проходящего через проводник\nРассмотрим период времени с 0 до 4с: $$\\Delta q=3~Кл; \\ \\Delta t=4~с$$\nСила тока считается по формуле: $$I=\\frac{\\Delta q}{\\Delta t}=\\frac{3}{4}=0,75А$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3262,
+    "title": "3.6 Постоянный электрический ток. Действия электрического тока. Сила тока. Напряжение"
+  },
+  "id": 33498,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "По проводнику течёт постоянный электрический ток. На графике изображена зависимость величины заряда q, проходящего через поперечное сечение проводника, от времени t?\nЧему равна сила электрического тока в проводнике?\nОтвет:_____________ А",
+      "error_conditions": [],
+      "id": 253137,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "По второму закону Ньютона:\n$$F_п=ma_ц~(1)$$\nСила Лоренца:\n$$F_л=qvB\\sin\\alpha~(2),$$\nтак как сила Лоренца перпендикулярна линиям индукции, то \\(\\sin\\alpha=1\\)\nЦентростремительное ускорение:\n$$a_ц=\\frac{v^2}{R}~(3),$$\nПодставив \\((2)\\) и \\((3)\\) в \\((1)\\), получим:\n$$qvB=\\frac{mv^2}{R},$$\nоткуда\n$$\\frac{R}{v}=\\frac{m}{qB}$$\nПериод обращения частицы:\n$$T=\\frac{2\\pi}{\\omega},$$\nгде \\(\\omega=\\frac{v}{R}\\) – угловая скорость, тогда:\n$$T=\\frac{2\\pi R}{v}=\\frac{2\\pi m}{qB}$$\nЗапишем отношение периодов обращения первой и второй частицы соответственно:\n$$\\frac{T_1}{T_2}=\\frac{2\\pi m_1}{q_1B}\\div\\frac{2\\pi m_2}{q_2B}=\\frac{m_1}{m_2}\\cdot\\frac{q_2}{q_1}=1\\cdot\\frac{1}{2}=0,5$$\nОтвет: 0,5",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 5571,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание B17B99\nДве частицы, имеющие отношение зарядов \\(\\frac{q_1}{q_2}=2\\) и отношение масс \\(\\frac{m_1}{m_2}=1\\), влетели в однородное магнитное поле перпендикулярно линиям магнитной индукции и движутся по окружностям. Определите отношение периодов обращения этих частиц \\(\\frac{T_1}{T_2}\\).",
+      "error_conditions": null,
+      "id": 71918,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

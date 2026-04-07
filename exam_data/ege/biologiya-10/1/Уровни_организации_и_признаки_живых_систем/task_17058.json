@@ -1,0 +1,42 @@
+{
+  "comment": "Изображение иллюстрирует такой признак живых систем, как наследственность. Наследственность — это способность организмов передавать свои признаки потомкам.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2508,
+    "title": "Уровни организации и признаки живых систем"
+  },
+  "id": 17058,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "наследственность",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Признаки живых систем» и заполните ячейку, вписав соответствующий термин.\nПризнак живых систем\nИллюстрация признака\nКлеточное строение ?",
+      "error_conditions": [],
+      "id": 236956,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

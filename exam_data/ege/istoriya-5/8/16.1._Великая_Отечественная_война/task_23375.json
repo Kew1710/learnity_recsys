@@ -1,0 +1,42 @@
+{
+  "comment": "На монете изображен момент установки советского знамени на Рейхстаге в Берлине. Его установили Егоров и Кантария.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1441,
+    "title": "16.1. Великая Отечественная война"
+  },
+  "id": 23375,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 5,
+    "task_count": 0,
+    "title": "История"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "берлин",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите название города, в котором произошло изображённое на данной монете событие.\n\nИсточник: Демоверсия ЕГЭ, 2024",
+      "error_conditions": [],
+      "id": 243100,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": null
+}

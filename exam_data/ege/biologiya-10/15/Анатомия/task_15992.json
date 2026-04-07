@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: 1, 2, 3 – верные подписи. Разберем ошибочные: 4 – желтое пятно, 5 – зрительный нерв, 6 – слепое пятно",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 15992,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верно обозначенные подписи к рисунку, на котором изображено строение глаза человека. Запишите в таблицу цифры, под которыми они указаны.\n\n- Сетчатка\n- Сосудистая оболочка\n- Склера\n- Слепое пятно\n- Блуждающий нерв\n- Желтое пятно",
+      "error_conditions": [],
+      "id": 235899,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Скалярное произведение двух векторов представляет собой число, равное сумме попарных произведений координат этих векторов. Значит, сначала найдем координаты векторов \\(\\vec{a}\\) и \\(\\vec{b}\\). Используем для этого рисунок:\nТогда:\n$$\\vec{a}(-6;3)\\\\ \\vec{b}(-10;2)$$\nТогда скалярное произведение \\(\\vec{a}\\) и \\(\\vec{b}\\):\n$$\\vec{a}\\cdot\\vec{b}=x_{\\vec{a}}\\cdot x_{\\vec{b}}+y_{\\vec{a}}\\cdot y_{\\vec{b}}=(-6)\\cdot (-10)+3\\cdot 2=60+6=66$$\nОтвет: 66",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2383,
+    "title": "2.2 Скалярное произведение векторов"
+  },
+  "id": 26142,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "66",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной плоскости изображены векторы \\(\\vec{a}\\) и \\(\\vec{b}\\). Найдите скалярное произведение \\(\\vec{a}\\cdot\\vec{b}\\).",
+      "error_conditions": [],
+      "id": 245781,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=4459s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=4459s"
+}

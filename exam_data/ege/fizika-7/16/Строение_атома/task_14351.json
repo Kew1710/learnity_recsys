@@ -1,0 +1,42 @@
+{
+  "comment": "Число нейтронов ванадия-\\(41\\):\n$$N_н=A-Z=41-23=18$$\nЧисло нейтронов ванадия-\\(50\\):\n$$N_н=A-Z=50-23=27$$\nОтвет: 1827",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3336,
+    "title": "Строение атома"
+  },
+  "id": 14351,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1827",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23895\nВокруг ядра электрически нейтрального атома ванадия вращается \\(23\\) электрона. Чему равно число нейтронов в ядрах изотопов ванадия-\\(41\\) и ванадия-\\(50\\)? В ответ запишите только числа, не разделяя их пробелом или другим знаком.\nЧисло нейтронов в ядре ванадия-\\(41\\)\nЧисло нейтронов в ядре ванадия-\\(50\\)",
+      "error_conditions": [],
+      "id": 202915,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/aCp89cLVZzc"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/aCp89cLVZzc"
+}

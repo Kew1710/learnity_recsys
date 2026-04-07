@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 27786,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "186",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Пробник_1 ФИПИ 2024) Текстовый файл состоит из символов F, S, W и Y.\nВ прилагаемом файле определите максимальное количество символов в непрерывной подпоследовательности, состоящей из идущих подряд групп символов FSWY в указанном порядке. При этом в начале и в конце искомой последовательности группа символов FSWY может быть неполной.\nИскомая подпоследовательность должна содержать не менее одной полной группы символов FSWY.\nНапример, условию задачи удовлетворяют: WYFSWYFSWYF, или YFSWYFSWYFS, или FSWYFSWYFSW и т.п.\nДля выполнения этого задания следует написать программу.\n\nФайл",
+      "error_conditions": [],
+      "id": 247425,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1080,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": null
+}

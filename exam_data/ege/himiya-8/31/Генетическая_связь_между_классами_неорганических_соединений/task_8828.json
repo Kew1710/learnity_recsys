@@ -1,0 +1,37 @@
+{
+  "comment": "1) ZnO + CO = Zn + CO₂\n2) Zn + 2KOH + 2H₂O = K₂[Zn(OH)₄] + H₂\n3) K₂[Zn(OH)₄] + 3H₂S = 2KHS + ZnS + 4H₂O\n4) ZnS + 10HNO₃ = Zn(NO₃)₂ + H₂SO₄ + 8NO₂ + 4H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8828,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "При восстановлении оксида цинка оксидом углерода (II) образовался металл. Металл прореагировал с концентрированным раствором гидроксида калия с образованием комплексной соли. Через раствор соли пропустили избыток сероводорода, при этом образовался осадок. При нагревании этого осадка с концентрированной азотной кислотой выделился бурый газ. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112044,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

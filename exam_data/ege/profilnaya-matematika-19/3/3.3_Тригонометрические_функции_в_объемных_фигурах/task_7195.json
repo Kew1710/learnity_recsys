@@ -1,0 +1,45 @@
+{
+  "comment": "\\(AC||A_{1} C_{1},\\) поэтому ищем синус угла \\(D_{1} A_{1} C_{1}\\):\n$$AB=D_{1} C_{1} =8\\\\ AD=A_{1} D_{1} =6$$\nУ нас видно египетский треугольник, поэтому гипотенуза \\(A_{1} C_{1} =10\\)\n$$\\sin{\\angle{D_{1} A_{1} C_{1}}} = \\frac{D_{1} C_{1}}{A_{1} C_{1}} =\\sin\\frac{8}{10} =0,8$$\nОтвет: 0,8",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2386,
+    "title": "3.3 Тригонометрические функции в объемных фигурах"
+  },
+  "id": 7195,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В прямоугольном параллелепипеде \\(ABCDA_{1} B_{1} C_{1} D_{1}\\) известны длины ребер: \\(AB=8,AD=6,AA_{1} =21.\\) Найдите синус угла между прямыми \\(A_{1} D_{1}\\) и \\(AC\\).",
+      "error_conditions": [],
+      "id": 83035,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=6894"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=6894"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Количество высотных поясов наибольшее в Гималах. Это связано с тем, что Гималаи являются самой высокой горной системой в мире, и они охватывают множество климатических зон, от тропических до вечных снегов и льдов.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2959,
+    "title": "4.5.1 Природно-территориальные комплексы. Материки, океаны."
+  },
+  "id": 31993,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В какой из перечисленных горных систем количество высотных поясов наибольшее?\n- Гималаи\n- Альпы\n- Пиренеи\n- Атлас",
+      "error_conditions": [],
+      "id": 251632,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

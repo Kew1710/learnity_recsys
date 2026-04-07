@@ -1,0 +1,40 @@
+{
+  "comment": "Обе части неравенства всегда положительные. Значит они могут стоять в аргументе логарифма:\n$$\\log_4(4^{x^2}\\cdot 7^{x-1})\\geq\\log_44\\\\ \\log_4(4^{x^2})+\\log_4(7^{x-1})\\geq\\log_44\\\\ x^2\\cdot\\log_44+(x-1)\\log_47-\\log_44\\geq 0\\\\ x^2+x\\cdot\\log_47-\\log_47-1\\geq 0\\\\ x^2-1+\\log_47(x-1)\\geq 0\\\\ (x-1)(x+1)+\\log_47(x-1)\\geq 0\\\\ (x-1)(x+1+\\log_47)\\geq 0$$\nУчитывая ограничения, получаем ответ\n\nОтвет: \\(x\\in (-\\infty;-1-\\log_47]~\\cup ~[1;+\\infty)\\)",
+  "difficulty": 1,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 11611,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(4^{x^2}\\cdot 7^{x-1}\\geq 4\\).",
+      "error_conditions": null,
+      "id": 149292,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Вспомним, что производная произведения берётся по формуле: \\((vu)'=v'u+vu'\\).\nПолучим: \\(y'=-2\\cos x-(3-2x)\\sin x+2\\cos x=-(3-2x)\\sin x\\).\nНайдём нули производной: \\(-(3-2x)\\sin x=0\\Rightarrow \\left(x-\\frac{3}{2}\\right)\\sin x=0\\), так как \\(3,14<\\pi <3,15\\), то \\(1,57<\\frac{\\pi}{2}<1,575\\), значит \\(\\frac{3}{2}<\\frac{\\pi}{2}\\).\nПолучим, что \\(\\frac{3}{2}\\) - точка минимума.\n\nОтвет: 1,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2447,
+    "title": "12.4 Тригонометрическая функция"
+  },
+  "id": 34728,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y=(3-2x)\\cos x+2\\sin x+10\\), принадлежащую промежутку \\(\\left(0;\\frac{\\pi}{2}\\right)\\).",
+      "error_conditions": [],
+      "id": 254367,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=K9tM6V0lbR4-4xMi&t=1178"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=K9tM6V0lbR4-4xMi&t=1178"
+}

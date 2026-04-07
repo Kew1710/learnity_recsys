@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n1) 63-3=60 км/ч - v сближения\n2) 60 км/ч = \\( \\cfrac{60 \\cdot 1000}{3600}=\\cfrac{50}{3}\\) м/с\n3)\\(\\cfrac{39 \\cdot 50}{3} = 650\\) м - длина поезда\nОтвет: 650м",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1942,
+    "title": "21.7 Длина поезда"
+  },
+  "id": 13325,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Поезд, двигаясь равномерно со скоростью 63 км/ч, проезжает мимо пешехода, идущего в том же направлении параллельно путям со скоростью 3 км/ч, за 39 секунд. Найдите длину поезда в метрах.",
+      "error_conditions": null,
+      "id": 178161,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Угол падения равен углу между перпендикуляром к поверхности и самим лучом, значит, он равен $90°- 50°=40°$.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3277,
+    "title": "3.21 Закон отражения света. Плоское зеркало"
+  },
+  "id": 34628,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "40",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Высота Солнца над горизонтом (см. рисунок) равна $50°$. Луч падает на зеркало, лежащее на горизонтальной поверхности. Чему равен угол падения луча?\nОтвет: _________________градусов",
+      "error_conditions": [],
+      "id": 254267,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

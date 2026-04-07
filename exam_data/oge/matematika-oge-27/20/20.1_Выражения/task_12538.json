@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{12^{n}}{2^{2n-3} \\cdot 3^{n-1}}=\\cfrac{2^{2n} \\cdot 3^n}{2^{2n-3} \\cdot 3^{n-1}}= 2^{2n-(2n-3)} \\cdot 3^{n-(n-1)} = 2^3 \\cdot 3 = 8 \\cdot 3= 24\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1923,
+    "title": "20.1 Выражения"
+  },
+  "id": 12538,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Сократите дробь\\(\\cfrac{12^{n}}{2^{2n-3} \\cdot 3^{n-1}}\\) .",
+      "error_conditions": null,
+      "id": 164914,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

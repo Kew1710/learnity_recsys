@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ:\nГаплоидные стадии обозначены\n4- споры\n5- заросток (гаметофит)\n6- антеридий\n7- сперматозоиды\n8- архегоний\n9 – яйцеклетка\n\nПримечание;\nДиплоидные стадии\n- Взрослый спорофит\n- Спорангий\n- Спорангий\n\n10 – зигота\n11- молодой спорофит",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2514,
+    "title": "Воспроизведение организмов"
+  },
+  "id": 6134,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какими цифрами обозначены на рисунке «Цикл развития плауна» гаплоидные стадии развития? Назовите их.",
+      "error_conditions": null,
+      "id": 72605,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/1D4uzsvXYi4?start=213"
+}

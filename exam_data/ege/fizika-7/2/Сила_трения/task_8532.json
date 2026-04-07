@@ -1,0 +1,42 @@
+{
+  "comment": "Так как булыжник покоится, то векторная сумма сил, действующих на него, равна \\(0\\).\n$$\\vec{F}_{тр}+\\vec{N}+m\\vec{g}=0\\\\ \\vec{F}_{тр}+\\vec{N}=-m\\vec{g}\\\\ |\\vec{F}_{тр}+\\vec{N}|=|-m\\vec{g}|=mg=3000\\cdot 10=30~кН$$\nОтвет: 30 кН",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2615,
+    "title": "Сила трения"
+  },
+  "id": 8532,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Валун массой \\(m=3\\) т находится на шероховатом склоне горы. На него действуют три силы: сила трения \\(\\vec{F}_{тр}\\), сила тяжести \\(m\\vec{g}\\) и сила реакции опоры \\(\\vec{N}\\). Чему равен модуль равнодействующей силы трения и силы реакции опоры, если валун покоится на этом склоне? Ответ дайте в кН.",
+      "error_conditions": [],
+      "id": 102882,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/VBHKj3Gwxd4"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/VBHKj3Gwxd4"
+}

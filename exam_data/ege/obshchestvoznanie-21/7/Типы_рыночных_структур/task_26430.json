@@ -1,0 +1,42 @@
+{
+  "comment": "1) нет, одна компания, другие производители не представлены, это монополия\n2) нет, фондовый рынок - это рынок ценных бумаг\n3) да, одна компания, другие производители не представлены\n4) нет, о дефиците (недостатке) речи в тексте нет\n5) да, речь идет о детской одежде\n6) да, речь идет о городе Z",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2555,
+    "title": "Типы рыночных структур"
+  },
+  "id": 26430,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "356",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Поставку детской одежды в магазины города Z осуществляет одна компания, другие производители не представлены. Найдите в приведённом списке характеристики данного рынка и запишите цифры, под которыми они указаны.\n\n1) олигополия\n2) фондовый рынок\n3) монополия\n4) рыночный дефицит\n5) рынок товаров\n6) местный рынок",
+      "error_conditions": [],
+      "id": 246069,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/IWl4rURAMyk?si=1VLgkEgscfL9nQW3&t=3171"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/IWl4rURAMyk?si=1VLgkEgscfL9nQW3&t=3171"
+}

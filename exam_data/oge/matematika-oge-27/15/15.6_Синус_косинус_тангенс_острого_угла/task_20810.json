@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо основному тригонометрическому тождеству\n\\(\\sin^2{A} + \\cos^2{A} = 1\\)\nОтсюда\n\\( \\sin{A} = \\sqrt{1 - \\cos^2{A}} = \\sqrt{1 - \\left(\\cfrac{2\\sqrt{6}}{5}\\right)^2 } = \\sqrt{\\cfrac{25 - 24}{25}} - \\sqrt{\\cfrac{1}{25} } = \\cfrac{1}{5} = 0,2\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1977,
+    "title": "15.6 Синус, косинус, тангенс острого угла"
+  },
+  "id": 20810,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Косинус острого угла A треугольника ABC равен \\(\\cfrac{2\\sqrt{6}}{5}\\) . Найдите \\(\\sin{A}\\) .",
+      "error_conditions": [],
+      "id": 240591,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничение: \\(x>0\\)\n\nПереходим к неравенству (с учетом \\(x>0\\)):\n$$\\frac{\\log_{2}( 8x) \\cdot \\log_{3}( 27x)}{x^{2} -x} \\leq 0\\\\ \\frac{(\\log_{2}( 8x) -0) \\cdot (\\log_{3}( 27x) -0)}{x^{2} -x} \\leq 0\\\\ \\frac{(\\log_{2}( 8x) -\\log_{2} 1) \\cdot (\\log_{3}( 27x) -\\log_{2} 1)}{x^{2} -x} \\leq 0\\\\ \\frac{( 8x-1)( 27x-1)}{x^{2} -x} \\leq 0\\\\ \\frac{\\left( x-\\dfrac{1}{8}\\right)\\left( x-\\dfrac{1}{27}\\right)}{x( x-1)} \\leq 0$$\n$$ \\Rightarrow x\\in \\left(0;\\frac{1}{27}\\right]~\\cup~ \\left[\\frac{1}{8};1\\right) $$\nПолученный ответ удовлетворяет ограничению.\n\nОтвет: \\(x\\in \\left(0;\\dfrac{1}{27}\\right] \\cup \\left[\\dfrac{1}{8};1\\right)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2473,
+    "title": "15.7 Сложные неравенства"
+  },
+  "id": 12130,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\dfrac{\\log_2(8x)\\cdot\\log_3(27x)}{x^2-|x|}\\leq 0\\).",
+      "error_conditions": null,
+      "id": 154089,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

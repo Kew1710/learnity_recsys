@@ -1,0 +1,42 @@
+{
+  "comment": "A, B и C могут принимать значения 7, 8 и 9.\nПусть загадали число \\(x\\). По условию имеем равенство \\(x\\cdot A+B-C=186\\).\n$$x \\cdot A = 186 - (B - C)$$\nРазность \\((B - C)\\) может принимать значения -2, -1, 0, 1, 2. Тогда произведение \\(x\\cdot A\\) может принимать значения 184, 185, 186, 187 и 188.\nНи одно из этих чисел не делится на 7 или на 9. Значит, А = 8, \\(x\\cdot A = 184 \\Rightarrow x = 23\\).\nОтвет: 23.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2136,
+    "title": "21.1 Задачи на смекалку"
+  },
+  "id": 26628,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Про натуральные числа A, B и С известно, что каждое из них больше 6, но меньше 10. Загадали натуральное число, затем его умножили на A, потом прибавили к полученному произведению B и вычли С. Получилось 186. Какое число было загадано?",
+      "error_conditions": [],
+      "id": 246267,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

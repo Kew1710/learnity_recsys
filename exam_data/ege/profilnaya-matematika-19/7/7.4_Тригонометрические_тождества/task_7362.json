@@ -1,0 +1,45 @@
+{
+  "comment": "$$tg\\alpha =\\frac{\\sin\\alpha }{\\cos\\alpha },\\\\ где~\\cos\\alpha=\\pm\\sqrt{1-\\sin^2\\alpha}=\\pm\\sqrt{1-\\frac{26}{26^2}}=\\pm\\sqrt{1-\\frac{1}{26}}=\\pm\\sqrt{\\frac{25}{26}}\\\\ \\alpha\\in 1-ой~четверти\\Rightarrow\\cos\\alpha>0\\Rightarrow\\cos\\alpha=\\frac{\\sqrt{25}}{\\sqrt{26}}=\\frac{5}{\\sqrt{26}}\\Rightarrow\\\\ \\Rightarrow tg\\alpha=\\frac{\\sqrt{26}}{26}:\\frac{5}{\\sqrt{26}}=\\frac{\\sqrt{26}}{26}\\cdot \\frac{\\sqrt{26}}{5}=\\frac{1}{5}=0,2$$\nОтвет: 0,2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2408,
+    "title": "7.4 Тригонометрические тождества"
+  },
+  "id": 7362,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(tg\\alpha\\), если \\(\\sin\\alpha=\\frac{\\sqrt{26}}{26}\\) и \\(\\alpha\\in (0;\\frac{\\pi}{2})\\).",
+      "error_conditions": [],
+      "id": 83998,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=7106"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=7106"
+}

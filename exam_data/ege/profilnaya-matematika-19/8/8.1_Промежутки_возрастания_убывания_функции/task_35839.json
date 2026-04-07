@@ -1,0 +1,45 @@
+{
+  "comment": "Те промежутки, на которых производная функции положительна, являются промежутками возрастания функции.\nВыделим на графике промежутки, где производная положительна. Максимальная длина таких промежутков - 4\n\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2412,
+    "title": "8.1 Промежутки возрастания/убывания функции"
+  },
+  "id": 35839,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график \\(y = f'(x) \\ - \\) производной функции \\(f(x)\\), определенной на интервале \\(\\left(-1;17\\right)\\). Найдите промежутки возрастания функции \\(f(x)\\). В ответе укажите длину наибольшего из них.",
+      "error_conditions": [],
+      "id": 255478,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=hXE4Y7I5QooXb6Id&t=3768"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=hXE4Y7I5QooXb6Id&t=3768"
+}

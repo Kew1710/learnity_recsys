@@ -1,0 +1,45 @@
+{
+  "comment": "Решение программой\n\nfrom itertools import *\nalf = '012345678'\nk = 0\nfor x in product(alf, repeat = 5):\ns = ''.join(x)\nif s[0] != '0' and s.count('3') == 2:\ns = s.replace('5','1').replace('7','1')\nif '13' not in s and '31' not in s:\nk += 1\nprint(k)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2711,
+    "title": "№8 Комбинаторика"
+  },
+  "id": 23767,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1835",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2308_9\n(ОСН 2023) Сколько существует восьмеричных шестизначных чисел, в которых все цифры различны и никакие две четные или нечетные цифры не стоят рядом?",
+      "error_conditions": [],
+      "id": 243486,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

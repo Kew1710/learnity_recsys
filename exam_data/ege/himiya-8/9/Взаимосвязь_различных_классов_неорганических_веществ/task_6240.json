@@ -1,0 +1,42 @@
+{
+  "comment": "Под действием щелочи можно осуществить переход от кислой соли к средней:\nKHSO₄ + KOH = K₂SO₄ + H₂O\nВ одну стадию сульфид из сульфата можно получить восстановлением, к примеру прокаливанием с коксом (углем):\nK₂SO₄ + 4C = K₂S + 4CO (t°)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 6240,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "51",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) C\n2) CO₂\n3) SO₂\n4) H₂S\n5) KHSO₄",
+      "error_conditions": [],
+      "id": 72855,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=3731"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=3731"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nСторона квадрата равна диаметру вписанной в него окружности\n\\(a = 2r = 14\\)\n\\(S = a^2 = 14^2 = 196\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1981,
+    "title": "16.3 Вписанная окружность"
+  },
+  "id": 21011,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "196",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите площадь квадрата, описанного вокруг окружности радиуса 7.",
+      "error_conditions": [],
+      "id": 240792,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

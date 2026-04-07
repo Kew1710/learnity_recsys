@@ -1,0 +1,37 @@
+{
+  "comment": "Правильный ответ:\nПравильный ответ должен содержать следующие элементы:\n1) объем: остаточный объем (легких);\n2) функция: неспадение альвеол\nИЛИ неспадение бронхиол.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2941,
+    "title": "Дыхательная система"
+  },
+  "id": 27893,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Рассмотрите рисунок с изображением функционального деления общей емкости легких среднестатистического взрослого человека. Как называется объем, обозначенный на рисунке знаком вопроса? Какую функцию он выполняет?",
+      "error_conditions": null,
+      "id": 247532,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

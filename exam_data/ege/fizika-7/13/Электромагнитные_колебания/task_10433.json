@@ -1,0 +1,42 @@
+{
+  "comment": "Формула Томсона:\n$$T=2\\pi\\sqrt{LC}\\\\ \\frac{T_1}{T_2}=\\frac{2\\pi\\sqrt{L_1C_1}}{2\\pi\\sqrt{L_2C_2}}=\\sqrt{\\frac{45}{5}}=3$$\nОтвет: 3",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2636,
+    "title": "Электромагнитные колебания"
+  },
+  "id": 10433,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "236919\nОпределите, во сколько раз период колебаний в колебательном контуре, состоящем из катушки индуктивностью \\(L_1=1\\) мГн и конденсатора ёмкостью \\(C_1=45\\) нФ, больше периода колебаний колебательного контура, параметры приборов которого соответствуют \\(L_2=0,5\\) мГн и \\(C_1=10\\) нФ.",
+      "error_conditions": [],
+      "id": 142255,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

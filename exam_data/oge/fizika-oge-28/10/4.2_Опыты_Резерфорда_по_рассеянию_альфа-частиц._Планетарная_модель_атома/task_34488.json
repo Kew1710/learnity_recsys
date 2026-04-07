@@ -1,0 +1,42 @@
+{
+  "comment": "Количество электронов равно количеству протонов в нейтральном атоме, а число протонов указано снизу и оно равно $10$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3286,
+    "title": "4.2 Опыты Резерфорда по рассеянию альфа-частиц. Планетарная модель атома"
+  },
+  "id": 34488,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Сколько электронов содержит нейтральный атом изотопа неона $_{10}^{24}Ne$?\n\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254127,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

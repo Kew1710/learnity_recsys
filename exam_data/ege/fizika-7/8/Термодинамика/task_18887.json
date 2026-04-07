@@ -1,0 +1,42 @@
+{
+  "comment": "КПД тепловой машины определяется по формуле:\n$$\\eta=1-\\frac{T_х}{T_н}=1-\\frac{400}{1000}=0,6$$\nКроме того КПД определяется по формуле:\n$$\\eta=\\frac{A}{Q_н}\\Rightarrow A=Q_н\\eta=0,6\\cdot 30=18~кДж$$\nОтвет: 18 кДж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 18887,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "18",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23И415\nКакую работу совершает за цикл тепловой двигатель, который работает по циклу Карно, если температура нагревателя \\(1000\\) К, температура холодильника \\(400\\) К, а рабочее тело получает за цикл работы от нагревателя количество теплоты, равное \\(30\\) кДж? Ответ дайте в кДж.",
+      "error_conditions": [],
+      "id": 238725,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=M4eEhB0kHyY&t=2776s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/watch?v=M4eEhB0kHyY&t=2776s"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а) Пусть \\(P_1\\) и \\(P_2\\) — точки касания окружности сторон \\(AC\\) и \\(CB\\) соответственно. По свойству касательных, проведённых из одной точки, \\(CP_1=CP_2=x\\), \\(AP=AP_1=y\\), \\(BP=BP_2=z\\). Далее рассмотрим два случая.\n\n1) \\(BC>AC\\)\n$$\\displaystyle \\begin{cases} PM=AM-AP=\\frac{AP+PB}{2} -AP=\\frac{PB-AP}{2} =\\frac{z-y}{2}\\\\ \\frac{|BC-AC|}{2} =\\frac{BC-AC}{2} =\\frac{x+z-( x+y)}{2} =\\frac{z-y}{2} \\end{cases} \\Rightarrow PM=\\frac{BC-AC}{2}$$\n2) \\(BC<AC\\)\n$$\\displaystyle \\begin{cases} PM=BM-BP=\\frac{BP+PA}{2} -BP=\\frac{PA-BP}{2} =\\frac{y-z}{2}\\\\ \\frac{|BC-AC|}{2} =\\frac{AC-BC}{2} =\\frac{x+y-( x+z)}{2} =\\frac{y-z}{2} \\end{cases} \\Rightarrow PM=\\frac{AC-BC}{2}$$\nТогда:\n$$\\displaystyle \\begin{cases} PM=\\frac{BC-AC}{2} \\ при\\ BC >AC\\ ( 1)\\\\ PM=\\frac{AC-BC}{2} \\ при\\ BC< AC\\ ( 2) \\end{cases} \\Rightarrow PM=\\frac{|BC-AC|}{2} ,$$\nчто и требовалось доказать.\n\nб)\nПо условию точка \\(M\\) — середина \\(AB\\) и \\(MC=MA\\), значит, \\(AM=MB=MC\\). Тогда треугольники \\(ACM\\) и \\(CMB\\) — равнобедренные. Таким образом, \\(\\angle MCB=\\angle MBC=\\alpha\\) и \\(\\angle MCA=\\angle MAC=\\beta\\).\n\nДля треугольника \\(ABC\\):\n$$\\angle A+\\angle B+\\angle C=180^\\circ\\\\ \\beta+\\alpha+(\\alpha+\\beta)=180^\\circ\\\\ 2\\alpha+2\\beta=180^\\circ\\\\ \\alpha+\\beta=90^\\circ\\Rightarrow \\angle C=90^\\circ\\Rightarrow \\Delta ABC - прямоугольный$$\nДля наглядности перерисуем треугольник:\nПусть точка \\(O\\) – центр вписанной окружности, тогда \\(P_1O=P_2O=r\\), а \\(\\angle CP_1O=\\angle CP_2O=90^\\circ\\), что означает, что \\(CP_1OP_2\\) — квадрат. Значит, \\(P_1O=P_2O=P_1C=P_2C=r=x\\).\n\nПо условию \\(PM=\\frac{1}{2}r\\), а из п. а) \\(PM=\\frac{|BC-AC|}{2}\\), тогда при \\(BC>AC\\):\n$$PM=\\frac{BC-AC}{2}=\\frac{r}{2}\\\\ BC-AC=(r+z)-(y+r)=r\\\\ 2r+z-y=r\\\\ z=y+r$$\nВ треугольнике \\(ABC\\):\n$$AB=y+z=y+y+r=2y+r\\\\ BC=r+z=r+y+r=y+2r\\\\ AC=y+r$$\nПо теореме Пифагора:\n$$AB^2=AC^2+BC^2\\\\ (2y+r)^2=(y+r)^2+(y+2r)^2\\\\ 4y^2+4yr+r^2=y^2+2yr+r^2+y^2+4yr+4r^2\\\\ 2y^2-2yr-4r^2=0\\\\ y^2-yr-2r^2=0\\\\ D=r^2+8r^2=9r^2\\\\ \\sqrt{D}=\\sqrt{9r^2}=3r\\\\ y=\\frac{r\\pm 3r}{2}\\\\ \\displaystyle \\left[ \\begin{array}{l l} y=2r\\\\ y=-r \\end{array} \\right.$$\nПо смыслу \\(r>0\\Rightarrow y=2r\\).\n\nТаким образом в треугольнике \\(ABC\\):\n$$AB=y+z=y+y+r=2y+r=4r+r=5r\\\\ BC=r+z=r+y+r=y+2r=4r\\\\ AC=y+r=3r$$\nТогда:\n$$tg\\alpha=\\frac{AC}{BC}=\\frac{3r}{4r}=\\frac{3}{4}\\Rightarrow\\alpha=arctg\\frac{3}{4},\\\\ tg\\beta=\\frac{BC}{AC}=\\frac{4r}{3r}=\\frac{4}{3}\\Rightarrow\\beta=arctg\\frac{4}{3}$$\nОтвет: \\({90}^{\\circ}\\), \\(arctg\\frac{3}{4}\\), \\(arctg\\frac{4}{3}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2485,
+    "title": "17.5 Вписанная и описанная окружности в треугольниках"
+  },
+  "id": 25486,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В треугольник \\(ABC\\) вписана окружность, касающаяся \\(AB\\) в точке \\(P\\). Точка \\(M\\) — середина стороны \\(AB\\).\nа) Докажите, что \\(PM=\\frac{|BC-AC|}{2}\\).\nб) Найдите углы треугольника \\(ABC\\), если \\(PM=\\frac{1}{2}r\\), где \\(r\\) - радиус вписанной окружности, \\(BC>AC\\), отрезки \\(MC\\) и \\(MA\\) равны.",
+      "error_conditions": null,
+      "id": 245143,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=RQqXFKqrj0c&t=3688s"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "1) Год – 1955;\n\n2) Обоснование: На представленной в задании марке, что она посвящена 200-летию Московского университета, и так как Московский университет был основан в 1755 году указом Елизаветы Петровны, то 1755 + 200 = 1955 г., соответственно марка была выпущена в 1955 году.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1436,
+    "title": "15. Работa с изображениями"
+  },
+  "id": 27469,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 5,
+    "task_count": 0,
+    "title": "История"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Укажите год, когда была выпущена данная марка. Используя изображение, приведите одно любое обоснование Вашего ответа.",
+      "error_conditions": null,
+      "id": 247108,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 36000,
+  "topic": null,
+  "video_link": null
+}

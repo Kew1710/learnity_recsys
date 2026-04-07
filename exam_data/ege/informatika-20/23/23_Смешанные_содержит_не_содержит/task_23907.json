@@ -1,0 +1,45 @@
+{
+  "comment": "def f(x,y):\nif x == 6:\nreturn 0\nif x == y:\nreturn 1\nif x < y:\nreturn 0\nreturn f(x-1,y)+f(x-3,y)+f(x//2,y)\nprint(f(19,9)*f(9,3))",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1545,
+    "title": "№23 Смешанные (содержит & не содержит)"
+  },
+  "id": 23907,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "150",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: REZ2323_7\n(РЕЗЕРВ 2023) Исполнитель преобразует число на экране. У исполнителя есть три команды, которые обозначены латинскими буквами:\nА. Вычесть 1\nВ. Вычесть 3\nС. Найти целую часть от деления на 2\nПрограмма для исполнителя — это последовательность команд. Сколько существует программ, для которых при исходном числе 19 результатом является число 3, при этом траектория вычислений содержит число 9 и не содержит 6?\nТраектория вычислений программы — это последовательность результатов выполнения всех команд программы.",
+      "error_conditions": [],
+      "id": 243626,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 480,
+  "topic": {
+    "id": 40,
+    "title": "Количество программ"
+  },
+  "video_link": null
+}

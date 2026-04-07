@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( (\\sqrt{13}-3)^2 + 6\\sqrt{13} = 13 - 6\\sqrt{13} + 9 +6\\sqrt{13} = 13 + 9= 22\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1956,
+    "title": "8.1 Иррациональные числа и выражения"
+  },
+  "id": 19345,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( (\\sqrt{13}-3)^2 + 6\\sqrt{13}\\) .",
+      "error_conditions": [],
+      "id": 239183,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

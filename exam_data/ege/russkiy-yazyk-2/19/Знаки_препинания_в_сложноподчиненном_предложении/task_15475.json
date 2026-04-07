@@ -1,0 +1,42 @@
+{
+  "comment": "запятая 1 в ССП, запятые 2 и 3 выделяют придаточное цели «чтобы успокоиться», запятая выделяет придаточное изъяснительное «каким удачным было начало дня»",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 898,
+    "title": "Знаки препинания в сложноподчиненном предложении"
+  },
+  "id": 15475,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1234",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расставьте все знаки препинания: укажите цифру(-ы), на месте которой(-ых) в предложении должна(-ы) стоять запятая(-ые).\nСердце доктора сильно и учащённо билось (1) и (2) чтобы успокоиться (3) он стал вспоминать (4) каким удачным было начало дня.",
+      "error_conditions": [],
+      "id": 223443,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

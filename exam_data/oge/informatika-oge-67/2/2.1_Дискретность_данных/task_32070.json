@@ -1,0 +1,46 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3122,
+    "title": "2.1 Дискретность данных."
+  },
+  "id": 32070,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "де",
+          "points": 1
+        },
+        {
+          "answer": "ед",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Сообщение было зашифровано кодом. Использовались только буквы, приведённые в таблице.\nA ..o..\nБ .o..o\nВ .oo.o\nГ .oooo\nД ...o.\nЕ .o.oo\nОпределите, какие буквы в сообщении повторяются более одного раза, и запишите их в ответе.\n...o..o.oo...o..oooo.o.oo",
+      "error_conditions": [],
+      "id": 251709,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

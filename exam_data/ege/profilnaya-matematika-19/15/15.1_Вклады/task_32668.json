@@ -1,0 +1,40 @@
+{
+  "comment": "Пусть: \\(7^x=a\\), тогда неравенство принимает вид:\n$$\\frac{a+7}{a-7}+\\frac{a-7}{a+7}\\geq \\frac{4a+96}{a^2-49}\\Rightarrow \\frac{a+7}{a-7}+\\frac{a-7}{a+7}-\\frac{4a+96}{(a-7)(a+7)}\\geq 0\\Rightarrow \\\\ \\Rightarrow \\frac{(a+7)^2+(a-7)^2-4a-96}{(a-7)(a+7)}\\geq 0\\Rightarrow \\frac{a^2+14a+49+a^2-14a+49-4a-96}{(a-7)(a+7)}\\geq 0\\Rightarrow \\\\ \\Rightarrow \\frac{2a^2-4a+2}{(a-7)(a+7)}\\geq 0\\Rightarrow \\frac{a^2-2a+1}{(a-7)(a+7)}\\geq 0\\Rightarrow \\frac{(a-1)^2}{(a-7)(a+7)}\\geq 0$$\nПолучим:\n$$\\displaystyle \\left[ \\begin{array}{l l} a< -7\\\\ a=1\\\\ a >7 \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} 7^{x} < -7\\ нет\\ решений\\\\ 7^{x} =1\\\\ 7^{x} >7 \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} x=0\\\\ x >1 \\end{array} \\right.$$\nИтого: \\(x\\in \\{0\\}\\cup (1;+\\infty)\\).\n\nОтвет: \\(\\{0\\}\\cup (1;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1370,
+    "title": "15.1 Вклады"
+  },
+  "id": 32668,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{7^x+7}{7^x-7}+\\frac{7^x-7}{7^x+7}\\geq \\frac{4\\cdot 7^x+96}{49^x-49}\\).",
+      "error_conditions": null,
+      "id": 252307,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

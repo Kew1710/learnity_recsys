@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\begin{cases} x -2,6 \\leqslant 0\\\\x - 1\\geqslant 1\\end{cases}\n\\begin{cases} x \\leqslant 2,6\\\\x \\geqslant 2\\end{cases}\n\\( x \\in [2 ; 2,6] \\)\nОтвет: 1",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1969,
+    "title": "13.3 Системы неравенств"
+  },
+  "id": 24546,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите решение системы неравенств\n\\begin{cases} x -2,6 \\leqslant 0\\\\x - 1\\geqslant 1 \\end{cases}\n- \\( [2; 2,6] \\)\n- \\( (- \\infty; 2,6]\\)\n- \\( (-\\infty; 2] \\smile [2,6; +\\infty) \\)\n- \\( [2; + \\infty) \\)",
+      "error_conditions": [],
+      "id": 244222,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 42,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "B4 linking Здесь требуется форма глагола с -ing, так как она следует за предлогом (\"of\") и дополняет конструкцию way of + -doing something.\n\nB5 spoken Здесь требуется причастие прошедшего времени со значением \"языки, на которых говорили\". Оно употреблено в форме пассива, так как слово 'languages' выступает в роли подлежащего предложения с глаголом speak, а не дополнения.\n\nB6 remains Простая форма настоящего времени требуется для того, чтобы в общем описать ситуацию на данный момент.\n\nB7 as quickly Это слово дополняет сравнительную конструкцию as + adverb + as, чтобы сказать, происходят ли два явления одинаковым образом. Данное предложение означает, что слова меняются быстрее, чем грамматические особенности. Здесь требуется наречие, так как оно описывает глагол 'do not change'.\n\nB8 be able to Здесь необходимо употребить форму инфинитива без частицы to, так как она следует за модальным глаголом 'may'.\n\nB9 could Здесь должна быть использована форма прошедшего времени модального глагола, так как действие предложения происходит в прошлом.\n\nB10 older Здесь требуется сравнительная степень прилагательного, после 'even', использованного для того, чтобы сделать дополнительный акцент, и перед than'. Old - обычное односложное прилагательное, поэтому к нему прибавляется -er.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 814,
+    "title": "Грамматические навыки"
+  },
+  "id": 1608,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "b4-linking b5-spoken b6-remains b7-as quickly b8-be able to b9-could b10-older",
+          "points": 7
+        }
+      ],
+      "comment": "",
+      "description": "Прочитайте приведённый ниже текст. Преобразуйте слова, напечатанные заглавными буквами в конце строк, обозначенных номерами B4-В10 так, чтобы они грамматически соответствовали содержанию текста. Заполните пропуски полученными словами. Каждый пропуск соответствует отдельному заданию из группы B4-B10.\n\nA DISCOVERY IN THE STUDY OF OLD LANGUAGES\n\n(B4). Linguists have produced a new way of ______ (LINK) languages.\n\n(B5). They say it allows them to reconstruct a network of the languages ______ (SPEAK) on islands near New Guinea.\n\n(B6). The new method is designed for languages so old that little trace of their common vocabulary ______ (REMAIN) today.\n\n(B7). It makes connections between languages through grammatical features, which do not change _______ (QUICK) as words.\n\n(B8). With the new method, historians may ______ (ABLE) look back a lot further in time than they could before.\n\n(B9). Before now, it was thought that you ______ (CAN) not find connections between languages going further back than 5,000 to 7,000 years ago.\n\n(B10). The authors of the new method say the relationships they can construct may go back 10,000 years and they may be even ______ (OLD) than that.",
+      "error_conditions": [],
+      "id": 53943,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 7,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

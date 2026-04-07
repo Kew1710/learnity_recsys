@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем второй закон Ньютона, учитывая, что на автомобиль действуют сила тяги и сопротивления, которые и обеспечивают ускорение: $$F_т-F_{сопр}=ma \\\\ F_т=ma+F_{сопр}$$\nРабота считается по формуле: $$A=F_тScos{\\alpha}$$\nТак как сила тяги и перемещение сонаправлены, то ${\\alpha=0}$, а $cos{\\alpha}=1$, получаем: $$A=F_тS \\\\ A=(ma+F_{сопр})S \\\\ A=(1000\\cdot 1,2+200)\\cdot 10=14000~Дж$$\n\nОтвет: 14000 Дж",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3225,
+    "title": "1.17 Механическая работа. Формула для вычисления работы силы. Механическая мощность"
+  },
+  "id": 33963,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Автомобиль массой 1 т трогается с места и движется с ускорением 1,2 м/с2. Определите работу силы тяги на первых 10 м пути, если сила сопротивления равна 200 H.",
+      "error_conditions": null,
+      "id": 253602,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

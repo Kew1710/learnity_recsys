@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1770,
+    "title": "3.6 Рынок и рыночный механизм"
+  },
+  "id": 13595,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В стране Z на рынке детских товаров представлены несколько десятков фирм, которые соревнуются между собой, привлекая потребителей. Какое экономическое явление иллюстрирует данный пример?\n\n1) спрос\n2) монополизм\n3) конкуренция\n4) неравенство доходов",
+      "error_conditions": [],
+      "id": 180950,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=17614"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=17614"
+}

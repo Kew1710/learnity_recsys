@@ -1,0 +1,42 @@
+{
+  "comment": "Данная карикатура создана в память о событиях тысяча девятьсот сорок третьего года. Такой вывод можно сделать, так как на карикатуре Орловско-Курская дуга, сражение на ней продолжалось с 5 июля по 23 августа 1943  г.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1441,
+    "title": "16.1. Великая Отечественная война"
+  },
+  "id": 35698,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 5,
+    "task_count": 0,
+    "title": "История"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "сороктретьего",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Заполните пропуск в предложении: «Данная карикатура создана в память о событиях тысяча девятьсот ___________________ года». Ответ запишите словом (сочетанием слов).\n\nИсточник: Открытые варианты КИМ ЕГЭ 2024",
+      "error_conditions": [],
+      "id": 255337,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

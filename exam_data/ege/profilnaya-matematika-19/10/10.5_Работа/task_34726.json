@@ -1,0 +1,45 @@
+{
+  "comment": "Так как нас спрашивают, сколько деталей в час делает первый рабочий, то обозначим это количество за \\(x\\).\nВспомним, что Работа \\(= \\) Время \\(\\cdot\\) Скорость. Составим табличку.\n\nРабота\nСкорость\nВремя\n\\(1\\) - ый\n$$621$$\n$$x$$\n$$\\frac{621}{x}$$\n\\(2\\) - ый\n$$675$$\n$$x-2$$\n$$\\frac{675}{x-2}$$\nИз условия известно, что первый рабочий затрачивает на 4 часа меньше, чем второй. В таком случае имеет место уравнение:\n$$\\frac{675}{x-2}-\\frac{621}{x}=4\\Rightarrow 675x-621(x-2)=4x(x-2)\\Rightarrow 675x-621x+1242=4x^2-8x\\Rightarrow \\\\ \\Rightarrow 4x^2-62x-1242=0\\Rightarrow 2x^2-31x-621=0\\\\ D=961+4\\cdot 2\\cdot 621=5929\\Rightarrow x=\\frac{31\\pm 77}{2\\cdot 2}\\Rightarrow \\displaystyle \\left[ \\begin{array}{l l} x=-11,5\\\\ x=27 \\end{array} \\right.$$\nТак как количество не может быть отрицательным, то \\(x=27\\).\n\nОтвет: 27",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2432,
+    "title": "10.5 Работа"
+  },
+  "id": 34726,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "27",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На изготовление \\(621\\) детали первый рабочий затрачивает на \\(4\\) часа меньше, чем второй рабочий на изготовление \\(675\\) таких же деталей. Известно, что первый рабочий за час делает на \\(2\\) детали больше, чем второй. Сколько деталей в час делает первый рабочий?",
+      "error_conditions": [],
+      "id": 254365,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=EjHVnbbsyT_Fu1aG&t=718"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=EjHVnbbsyT_Fu1aG&t=718"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "В задании представлена схема, посвященная экономическому развитию XVII века.\n\nПод цифрой “2” обозначен Нижний Новгород, так как он расположен на слияние двух рек Оки и Волги, также там идет обозначение монастыря на берегу, а это Макарьевский монастырь, который также относится к Нижнему Новгороду",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3099,
+    "title": "9.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 30664,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "нижнийновгород",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите название города, обозначенного на схеме цифрой «3».",
+      "error_conditions": [],
+      "id": 250303,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

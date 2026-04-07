@@ -1,0 +1,42 @@
+{
+  "comment": "Отмеченный участок - трапеция, основания которой \\(a = 9\\) м и \\(b = 4\\) м, а высота \\(h = 4\\) м. Тогда площадь можно найти по формуле \\(S = \\frac{a + b}{2} \\cdot h\\) (её можно найти в справочных материалах):\n$$S = \\frac{a + b}{2} \\cdot h = \\frac{9+4}{2} \\cdot 4 = \\frac{13 \\cdot 4}{2} = 26 \\; м^2$$\nОтвет: 26.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2091,
+    "title": "9.2 Четырёхугольник на квадратной решетке"
+  },
+  "id": 26994,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "26",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "План местности разбит на клетки. Каждая клетка обозначает квадрат 1 м × 1 м. Найдите площадь участка, изображённого на плане. Ответ дайте в квадратных метрах.",
+      "error_conditions": [],
+      "id": 246633,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

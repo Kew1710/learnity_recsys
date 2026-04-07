@@ -1,0 +1,42 @@
+{
+  "comment": "Магнитный поток:\n$$Ф=LI\\\\ \\frac{Ф_1}{Ф_2}=\\frac{LI_1}{LI_2}\\\\ \\frac{5}{8}=\\frac{4}{I_2}\\Rightarrow I_2=\\frac{32}{5}=6,4~А$$\nОтвет: 6,4 А",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2635,
+    "title": "Катушки индуктивности"
+  },
+  "id": 10424,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "236910\nПри пропускании через катушку индуктивности тока силой \\(4\\) А магнитный поток через контур, ограниченный витками катушки, равен \\(5\\) мВб. При протекании тока какой силы контур будет пронизывать магнитный поток, равный \\(8\\) мВб? Ответ дайте в А.",
+      "error_conditions": [],
+      "id": 142242,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/lL1QjoIU0Mg"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/lL1QjoIU0Mg"
+}

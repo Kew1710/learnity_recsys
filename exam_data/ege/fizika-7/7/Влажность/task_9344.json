@@ -1,0 +1,42 @@
+{
+  "comment": "Так как \\(T_1=T_2\\) то давление насыщенного пара будет одинаковым в обоих сосудах$$\\rho_н=const$$\nОтносительная влажность:\n$$\\varphi =\\frac{\\rho}{\\rho_н}=\\frac{m}{V\\rho_н}\\Rightarrow m=\\varphi V\\rho_н$$Разделим уравнения массы водяных паров одно на другое$$\\frac{m_2}{m_1}=\\frac{\\varphi_2V_2\\rho_н}{\\varphi_1V_1\\rho_н}=\\frac{\\varphi_2V_2}{\\varphi_1V_1}=\\frac{60\\cdot 5}{40\\cdot 4}=1,875$$\nОтвет: 1,875",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2627,
+    "title": "Влажность"
+  },
+  "id": 9344,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,875",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "233111\nДва сосуда разного объема содержат влажный воздух. Определите, во сколько раз масса водяных паров во втором сосуде больше массы водяных паров в первом, используя параметры, приведенные на рисунке.",
+      "error_conditions": [],
+      "id": 113335,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/2Kwx27qfBco"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/2Kwx27qfBco"
+}

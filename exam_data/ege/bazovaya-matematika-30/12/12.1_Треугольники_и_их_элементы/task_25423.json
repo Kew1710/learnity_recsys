@@ -1,0 +1,42 @@
+{
+  "comment": "\\(BM\\) делит угол \\(ABC\\) пополам, значит \\(BM\\) - биссектриса и \\(\\angle ABM = \\angle MBC = \\frac{1}{2} \\angle ABC = \\frac{1}{2} \\cdot 120° = 60°\\).\n\\(BM\\) - медиана и биссектриса, значит треугольник \\(ABC\\) - равнобедренный и \\(BM\\) также является высотой.\nВ прямоугольном треугольнике \\(ABM\\) \\(\\angle BAM = 90° - ABM = 90° - 60° = 30°\\). Катет, лежащий против угла в \\(30°\\), равен половине гипотенузы, значит\n$$BM = \\frac{1}{2} AB → AB = 2BM = 2 \\cdot 32 = 64$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2104,
+    "title": "12.1 Треугольники и их элементы"
+  },
+  "id": 25423,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "64",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(B\\) равен \\(120°\\). Медиана делит угол \\(B\\) пополам и равна 32. Найдите длину стороны \\(AB\\).",
+      "error_conditions": [],
+      "id": 245080,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3145,
+    "title": "2.6.2 Действия над логическими операциями."
+  },
+  "id": 31195,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ниже приведена программа, записанная на пяти языках программирования.\n\nБейсикPythonDIM s, t, A AS INTEGER\nINPUT s\nINPUT t\nINPUT A\nIF s > A OR t > 12 THEN\n    PRINT \"YES\"\nELSE\n     PRINT \"NO\"\nENDIFs = int(input())\nt = int(input())\nA = int(input())\nif (s > A) or (t > 12):\n    print(\"YES\")\nelse:\n    print(\"NO\")\n\nПаскальАлгоритмический языкvar s,t,A: integer;\nbegin\n    readln(s);\n    readln(t);\n    readln(A);\n    if (s > A) or (t > 12)\n        then\nwriteln ('YES')\n        else\nwriteln ('NO')\nend.алг\nнач\nцел s, t, A\nввод s\nввод t\nввод A\nесли s > A или t > 12\n    то вывод \"YES\"\n    иначе вывод \"NO\"\nвсе\nконС++#include <iostream>\nusing namespace std;\nint main() {\n    int s, t, A;\n    cin >> s;\n    cin >> t;\n    cin >> A;\n    if(s > A) or (t > 12)\n        cout << \"YES\" << endl;\n    else\n         cout << \"NO\" << endl;\n    return 0;\n}\nБыло проведено 9 запусков программы, при которых в качестве значений переменных s и t вводились следующие пары чисел:\n\n(13, 2); (11, 12); (–12, 12); (2, –2); (–10, –10); (6, –5); (2, 8); (9, 10); (1, 13).\n\nУкажите наименьшее целое значение параметра A, при котором для указанных входных данных программа напечатает «NO» восемь раз.",
+      "error_conditions": [],
+      "id": 250834,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

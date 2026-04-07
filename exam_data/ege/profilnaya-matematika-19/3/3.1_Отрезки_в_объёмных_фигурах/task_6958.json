@@ -1,0 +1,45 @@
+{
+  "comment": "Так как прямоугольный параллелепипед описан вокруг цилиндра, в его основании лежит квадрат.\nТогда его объем рассчитывается по формуле:\n$$ V = S_{осн}h = a^2h $$\nДлина стороны квадрата равна диаметру вписанной в него окружности, то есть:\n$$ a = 2r => V = 4r^2h $$\n$$ h = {V \\over 4r^2} = {36 \\over 4 \\cdot 9} = 1 $$\nОтвет: 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 6958,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Прямоугольный параллелепипед описан около цилиндра, радиус основания которого равен \\(3\\). Объем параллелепипеда равен \\(36\\). Найдите высоту цилиндра.",
+      "error_conditions": [],
+      "id": 77997,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/Ib2nkEDNesY?t=1793"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://youtu.be/Ib2nkEDNesY?t=1793"
+}

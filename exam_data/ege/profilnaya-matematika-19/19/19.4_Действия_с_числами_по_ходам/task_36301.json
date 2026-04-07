@@ -1,0 +1,40 @@
+{
+  "comment": "а) Исходная пара (\\(100\\); \\(1\\)). Тогда:\n\n\\(a\\)\n\\(b\\)\n1 ход\n\\(101\\)\n\\(99\\)\n2 ход\n\\(200\\)\n\\(2\\)\n3 ход\n\\(202\\)\n\\(198\\)\n4 ход\n\\(400\\)\n\\(4\\)\nЗначит, такое возможно.\n\nб) По условию:\n\\(a\\)\n\\(b\\)\n1 ход\n\\(a+b\\)\n\\(a-b\\)\n2 ход\n\\((a+b)+(a-b)=2a\\)\n\\((a+b)-(a-b)=2b\\)\n3 ход\n\\(2a+2b=2(a+b)\\)\n\\(2a-2b=2(a-b)\\)\n4 ход\n\\(2(a+b)+2(a-b)=2\\cdot 2\\cdot a\\)\n\\(2(a+b)-2(a-b)=2\\cdot 2\\cdot b\\)\n5 ход\\(2\\cdot 2\\cdot a+2\\cdot 2\\cdot b=2\\cdot 2(a+b)\\)\n\\(2\\cdot 2\\cdot a-2\\cdot 2\\cdot b=2\\cdot 2(a-b)\\)\n6 ход\\(2\\cdot 2(a+b)+2\\cdot 2(a-b)=2\\cdot 2\\cdot 2\\cdot a\\)\n\\(2\\cdot 2(a+b)-2\\cdot 2(a-b)=2\\cdot 2\\cdot 2\\cdot b\\)\n7 ход\\(2\\cdot 2\\cdot 2\\cdot a+2\\cdot 2\\cdot 2\\cdot b=2\\cdot 2\\cdot 2(a+b)\\)\n\\(2\\cdot 2\\cdot 2\\cdot a-2\\cdot 2\\cdot 2\\cdot b=2\\cdot 2\\cdot 2(a-b)\\)\nТаким образом, на чётном ходу из пары (\\(a\\), \\(b\\)) получаются пары вида (\\(2^k\\cdot a\\); \\(2^k\\cdot b\\)), а на нечётном - пары вида (\\(2^k\\cdot (a+b)\\); \\(2^k\\cdot (a-b)\\)), где \\(k\\in N\\) – номер хода без единицы.\n\nВ данном случае \\(a=100\\), \\(b=1\\), тогда получить из пары (\\(100\\); \\(1\\)) пару (\\(806\\); \\(788\\)) можно только в случае, если:\n$$\\displaystyle \\left[ \\begin{array}{l l} 100\\cdot 2^{k} =806\\\\ 101\\cdot 2^{k} =806 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} 2^{k} =\\frac{806}{100}\\\\ 2^{k} =\\frac{806}{101} \\end{array} \\right. \\Rightarrow k\\in \\emptyset $$\nЭто значит, что пару (\\(806\\); \\(788\\)) невозможно получить за несколько ходов из пары (\\(100\\); \\(1\\)).\n\nв) Пусть пара (\\(806\\); \\(788\\)) получена на \\(n\\) - ом ходу. Восстановим предшествующие ходы:\n\n\\(n\\) ход:\n$$\\displaystyle \\begin{cases} a_{n-1} +b_{n-1} =806\\\\ a_{n-1} -b_{n-1} =788 \\end{cases} \\Leftrightarrow \\begin{cases} 2a_{n-1} =1594\\\\ 2b_{n-1} =18 \\end{cases} \\Leftrightarrow \\begin{cases} a_{n-1} =797\\\\ b_{n-1} =9 \\end{cases}$$\n\\(n-1\\) ход:\n$$\\displaystyle \\begin{cases} a_{n-2} +b_{n-2} =797\\\\ a_{n-2} -b_{n-2} =9 \\end{cases} \\Leftrightarrow \\begin{cases} 2a_{n-2} =806\\\\ 2b_{n-1} =788 \\end{cases} \\Leftrightarrow \\begin{cases} a_{n-2} =403\\\\ b_{n-2} =394 \\end{cases}$$\n\\(n-2\\) ход:\n$$\\displaystyle \\begin{cases} a_{n-3} +b_{n-3} =403\\\\ a_{n-3} -b_{n-3} =394 \\end{cases} \\Leftrightarrow \\begin{cases} 2a_{n-2} =797\\\\ 2b_{n-1} =7 \\end{cases} \\Leftrightarrow \\begin{cases} a_{n-3} \\notin N\\\\ b_{n-3} \\notin N \\end{cases} ,\\ что\\ противоречит\\ условию$$\n\\(a\\)\n\\(b\\)\n\\(n-2\\) ход\n-\n-\n\\(n-2\\) ход\n\\(403=a_{n-3}+b_{n-3}\\)\n\\(394=a_{n-3}-b_{n-3}\\)\n\\(n-1\\) ход\n\\(797=a_{n-2}+b_{n-2}\\)\n\\(9=a_{n-2}-b_{n-2}\\)\n\\(n\\) ход\n\\(806=a_{n-1}+b_{n-1}\\)\n\\(788=a_{n-1}-b_{n-1}\\)\nТогда в паре (\\(a\\); \\(b\\)), из которой за несколько ходов можно получить пару (\\(806\\); \\(788\\)), \\(a_{min}=403\\).\n\nОтвет: а) да; б) нет; в) 403.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2503,
+    "title": "19.4 Действия с числами по ходам"
+  },
+  "id": 36301,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Из пары натуральных чисел (\\(a\\); \\(b\\)), где \\(a>b\\), за один ход получают пару (\\(a+b\\); \\(a-b\\)).\nа) Можно ли за несколько таких ходов получить из пары (\\(100\\); \\(1\\)) пару, большее число в которой равно \\(400\\)?\nб) Можно ли за несколько таких ходов получить из пары (\\(100\\); \\(1\\)) пару (\\(806\\); \\(788\\))?\nв) Какое наименьшее \\(a\\) может быть в паре (\\(a\\); \\(b\\)), из которой за несколько ходов можно получить пару (\\(806\\); \\(788\\))?",
+      "error_conditions": null,
+      "id": 255951,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 18,
+    "title": "Теория чисел"
+  },
+  "video_link": "https://www.youtube.com/watch?v=tXc3x4aDLhc&t=7968s"
+}

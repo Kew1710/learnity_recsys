@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nРассмотрим прямоугольный \\(\\Delta AHC\\): \\(HM\\) - медиана из прямого угла, значит:\n$$HM=\\frac{AC}{2}=AM=MC$$\nРассмотрим прямоугольный \\(\\Delta BHC\\): \\(HN\\) - медиана из прямого угла, значит:\n$$HM=\\frac{BC}{2}=CN=NB$$\nРассмотрим \\(\\Delta MCN\\) и \\(\\Delta MHN\\):\n\\(MC=MH\\); \\(CN=NH\\); \\(MN\\) – общая\n\nЗначит \\(\\Delta MCN = \\Delta MHN\\) по трём сторонам \\(\\Rightarrow \\angle MCN=\\angle MHN={90}^{\\circ} \\Rightarrow MN\\bot NH\\) ч.т.д.\n\nб)\nИз прямоугольного \\(\\Delta MHP\\):\n$$\\cos\\angle CMN=\\frac{MH}{MP}$$\nИз прямоугольного \\(\\Delta MCQ\\):\n$$\\cos\\angle CMH=\\frac{MC}{MQ}$$\nЗначит \\(\\Delta MCH\\) подобен \\(\\Delta PQM\\) по двум пропорциональным сторонам и углу между ними (общий угол и \\(\\frac{MH}{MP}=\\frac{MC}{MQ}\\)) с \\(k=\\cos\\angle CMH\\)\n$$S_{MPQ}=\\frac{S_{MCH}}{\\cos^2{\\angle{CMH}}}\\\\ \\Delta ACB~ подобен ~\\Delta CHA ~ по~двум~углам \\ (\\angle CHB=\\angle ACB; \\angle CBA - общий)\\\\ \\frac{AC}{AB} = \\frac{AH}{AC} \\Rightarrow AC^2=AB\\cdot AH=15\\cdot 12\\Rightarrow AC=6\\sqrt{5}\\\\ MC=MH=\\frac{AC}{2}=3\\sqrt{5}$$\nПусть \\(\\angle MCH=\\alpha=\\angle CHM\\) (\\(\\Delta MCH - \\) равнобедренный)\nТогда:\n$$\\angle MCH={180}^{\\circ}-\\alpha-\\alpha={180}^{\\circ}-2\\alpha\\\\ \\sin{\\angle{MCH}}=\\sin ({180}^{\\circ}-2\\alpha)=\\sin 2\\alpha$$\nИз \\(\\Delta ABC\\):\n$$BC=\\sqrt{15^2-(6\\sqrt{5})^2}=3\\sqrt{5}$$\n\\(\\angle MCH=\\angle CBA=\\alpha\\), из \\(\\Delta ABC\\):\n$$\\sin\\alpha=\\frac{6\\sqrt{5}}{15}=\\frac{2\\sqrt{5}}{5}\\\\ \\cos\\alpha=\\frac{3\\sqrt{5}}{15}=\\frac{\\sqrt{5}}{5}$$\nВернемся к \\(\\angle MCH\\):\n$$\\sin 2\\alpha=2\\cos\\alpha\\cdot\\sin\\alpha=2\\frac{2\\sqrt{5}}{5}\\cdot\\frac{\\sqrt{5}}{5}=\\frac{4}{5}\\\\ S_{MCH}=\\frac{1}{2}MC\\cdot MH\\cdot\\sin 2\\alpha=\\frac{1}{2}\\cdot 3\\sqrt{5}\\cdot 3\\sqrt{5}\\cdot\\frac{4}{5}=18\\\\ \\cos{\\angle{CMH}}=\\sqrt{1-\\sin^2\\alpha}=\\sqrt{1-\\frac{16}{25}}=\\frac{3}{5}\\\\ S_{MPQ}=\\frac{18}{\\left(\\frac{3}{5}\\right)^2}=\\frac{18\\cdot 25}{9}=50$$\nОтвет: 50",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2483,
+    "title": "17.3 Медианы и биссектрисы"
+  },
+  "id": 9714,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В прямоугольном треугольнике \\(ABC\\) с прямым углом \\(C\\) точки \\(M\\) и \\(N\\)  — середины катетов \\(AC\\) и \\(BC\\) соответственно, \\(CH\\)  — высота.\nа)  Докажите, что прямые \\(MH\\) и \\(NH\\) перпендикулярны.\nб)  Пусть \\(P\\)  - точка пересечения прямых \\(AC\\) и \\(NH\\), а \\(Q\\)  - точка пересечения прямых \\(BC\\) и \\(MH\\). Найдите площадь треугольника \\(PQM\\), если \\(AH=12\\) и \\(BH=3\\).",
+      "error_conditions": null,
+      "id": 117431,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

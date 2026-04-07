@@ -1,0 +1,42 @@
+{
+  "comment": "Данный термин является терминов формата и ОГЭ, и ЕГЭ, поэтому его надо просто заучить🥹🥹",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3093,
+    "title": "3.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 30612,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "холопы",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Запишите термин, о котором идёт речь.\n\nПо Русской Правде, наиболее бесправная категория населения Древнерусского государства, близкая по статусу к рабам.",
+      "error_conditions": [],
+      "id": 250251,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

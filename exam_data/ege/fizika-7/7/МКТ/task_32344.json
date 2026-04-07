@@ -1,0 +1,42 @@
+{
+  "comment": "Давление газа:\n\\(p=\\frac{2}{3}nE\\) – при уменьшении концентрации газа в \\(2\\) раза и увеличении средней кинетической энергии теплового движения его молекул в \\(4\\) раза давление газа увеличится в \\(2\\) раза.\n$$p_2=2p_1=2\\cdot 150=300~кПа$$\nОтвет: 300",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2625,
+    "title": "МКТ"
+  },
+  "id": 32344,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "300",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Концентрация разреженного аргона в сосуде уменьшилась в \\(2\\) раза, а средняя кинетическая энергия теплового движения его молекул увеличилась в \\(4\\) раза. Чему равно конечное давление газа, если изначально оно составляло \\(150\\) кПа? Ответ дайте в кПа.",
+      "error_conditions": [],
+      "id": 251983,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/PEHWbqzOXA0?t=1052"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/PEHWbqzOXA0?t=1052"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Треугольник \\(ABC\\) равнобедренный, углы \\(BAC\\) и \\(BCA\\) равны как углы при его основании.\nТреугольник \\(AHC\\) – прямоугольный, значит по определению:\n$$\\sin\\angle ACB=\\sin\\angle CAH=\\frac{CH}{AC}=\\frac{1}{2}=0,5$$\nОтвет: 0,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2372,
+    "title": "1.1 Тригонометрия в прямоугольном треугольнике"
+  },
+  "id": 24156,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC~AB=BC, AC=2\\), высота \\(CH\\) равна \\(1\\). Найдите синус угла \\(ACB\\).",
+      "error_conditions": [],
+      "id": 243871,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": null
+}

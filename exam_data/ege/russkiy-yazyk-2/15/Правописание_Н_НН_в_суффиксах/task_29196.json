@@ -1,0 +1,42 @@
+{
+  "comment": "утомлённое - причастие, сов. вид + приставка, НН\nобветренное - причастие, сов. вид + приставка, НН\nсосредоточенное - причастие, сов. вид + приставка, НН\nбессонной - прилагательное, стык основы на –н- (сон) и суффикса –н-, НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 29196,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1234",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\nЛицо солдата, утомлё(1)ое, обветре(2)ое и сосредоточе(3)ое, потемнело после бессо(4)ой ночи.",
+      "error_conditions": [],
+      "id": 248835,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

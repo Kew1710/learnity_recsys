@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$x+1=3\\sqrt{x-1}$$\nОграничения: \\(x+1\\geq 0\\)\n\nВозведем обе части в квадрат:\n$$(x+1)^2=9(x-1)\\\\ x^2-7x+10=0\\\\ x=2~x=5$$\nб) Отберем корни с учетом ограничения. \\(x=5\\) - не является корнем, потому что не входит в\nуказанный промежуток \\([\\sqrt{3} ;\\sqrt{20}]\\).\nОтвет: а) 2;5; б) 2.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2458,
+    "title": "13.9 Иррациональные"
+  },
+  "id": 6857,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(x-3\\sqrt{x-1}+1=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([\\sqrt{3};\\sqrt{20}]\\).",
+      "error_conditions": null,
+      "id": 76884,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/RutJsnJxy04?start=2076"
+}

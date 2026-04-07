@@ -1,0 +1,37 @@
+{
+  "comment": "1) 2KMnO₄ + 3K₂SO₃ + H₂O = 2MnO₂ + 3K₂SO₄ + 2KOH\n2) MnO₂ + 4HCl = MnCl₂ + Cl₂ + 2H₂O\n3) 2Al + 3Cl₂ = 2AlCl₃\n4) AlCl₃ + 4NaOH = Na[Al(OH)₄] + 3NaCl",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8861,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "При сливании водных растворов сульфита калия и перманганата калия выпал осадок. Осадок при нагревании обработали концентрированной соляной кислотой, при этом наблюдалось образование газа. Полученный газ прореагировал с алюминием. Продукт данной реакции растворили в избытке раствора гидроксида натрия. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112083,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

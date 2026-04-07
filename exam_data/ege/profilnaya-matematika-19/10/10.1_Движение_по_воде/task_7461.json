@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(x\\) км/ч - скорость теплохода в неподвижной воде, тогда имеем:\nСоставим уравнение, зная общее время дороги и время стоянки:\n$$\\frac{255}{x+1}+\\frac{255}{x-1}+2=34\\Leftrightarrow \\frac{255}{x+1}+\\frac{255}{x-1}=32\\Leftrightarrow \\frac{510x}{x^2-1}=32\\\\ 32x^2-510x-32=0\\\\ 16x^2-255x-16=0\\Leftrightarrow x_1=-\\frac{1}{16},x_2=16$$\nСкорость отрицательной быть не может, поэтому нас устраивает только корень \\(16\\).\n\nОтвет: 16",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2428,
+    "title": "10.1 Движение по воде"
+  },
+  "id": 7461,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Теплоход проходит по течению реки до пункта назначения \\(255\\) км и после стоянки возвращается в пункт отправления. Найдите скорость теплохода в неподвижной воде, если скорость течения равна \\(1\\) км/ч, стоянка длится 2 часа, а в пункт отправления теплоход возвращается через \\(34\\) часа после отплытия из него. Ответ дайте в км/ч.",
+      "error_conditions": [],
+      "id": 98367,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/6e9mRYv-2fo?start=1306"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/6e9mRYv-2fo?start=1306"
+}

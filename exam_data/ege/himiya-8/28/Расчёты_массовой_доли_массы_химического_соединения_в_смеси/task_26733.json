@@ -1,0 +1,42 @@
+{
+  "comment": "CaCO₃ + 2HCl = CaCl₂ + CO₂ + H₂O\nn(CaCl₂) = m/M = 222/111 = 2 моль\nПо уравнению реакции, n(CaCO₃) = n(CaCl₂) = 2 моль\nm(CaCO₃) = n • M = 2 • 100 = 200 г\nω(CaCO₃) = m(CaCO₃)/m(cмеси) = 200/220 = 0,91 (91%)\nω(примеси) = 100 – 91 = 9%",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2859,
+    "title": "Расчёты массовой доли (массы) химического соединения в смеси"
+  },
+  "id": 26733,
+  "is_obsolete": false,
+  "number": 28,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "220 г природного известняка прореагировало с соляной кислотой с образованием 222 г хлорида кальция. Вычислите долю примеси в указанном известняке. (Запишите число в процентах с точностью до целых.)",
+      "error_conditions": [],
+      "id": 246372,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

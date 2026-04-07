@@ -1,0 +1,42 @@
+{
+  "comment": "\\(1200 - 72 = 1128\\) - количество компакт-дисков пригодных для записи.\nВероятность того, что случайно выбранный компакт-диск пригоден для записи, равна:\n$$ \\frac{1128}{1200} = 0,94$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2079,
+    "title": "5.1 Классическое определение вероятности"
+  },
+  "id": 24006,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,94",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из 1200 чистых компакт-дисков в среднем 72 непригодны для записи. Какова вероятность того, что случайно выбранный компакт-диск пригоден для записи?",
+      "error_conditions": [],
+      "id": 243721,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

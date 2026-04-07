@@ -1,0 +1,42 @@
+{
+  "comment": "\\(21 / 6 = 3,5\\)\nЗначит, нужно больше 3 палаток. Тогда наименьшее число будет 4.\nОтвет: 4.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2065,
+    "title": "1.2 Округление с избытком"
+  },
+  "id": 23641,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В школе есть шестиместные туристические палатки. Какое наименьшее число палаток нужно взять в поход, в котором участвует 21 человек?",
+      "error_conditions": [],
+      "id": 243366,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

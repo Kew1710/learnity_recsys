@@ -1,0 +1,42 @@
+{
+  "comment": "Cредняя кинетическая энергия движения молекул:\n$$\\uparrow E=\\frac{m_0v^2\\uparrow}{2}$$\n$$E_2=\\frac{m_0(3v)^2}{2}=9\\frac{m_0v^2}{2}$$\nПри увеличении скорости теплового движения в 3 раза кинетическая энергия увеличится в 9 раз:\n$$E_2=9E_1$$\nИзменение кинетической энергии:\n$$E_2-E_1=9E_2-E_1=8E_1=8\\cdot 6\\cdot 10^{-21}=48\\cdot 10^{-21}~Дж$$\nОтвет: 48",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2626,
+    "title": "Молекулярная физика"
+  },
+  "id": 8989,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "48",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В процессе нагревания воздуха среднеквадратичная скорость теплового движения его молекул увеличилась в \\(3\\) раза. Определите, на сколько увеличилась средняя кинетическая энергия движения молекул, если в начальном состоянии она была равна \\(E_1=6\\cdot 10^{-21}\\) Дж. Воздух считать идеальным газом. Ответ дайте в \\(10^{-21}\\) Дж.",
+      "error_conditions": [],
+      "id": 112591,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/bAI-j0cRqkI"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/bAI-j0cRqkI"
+}

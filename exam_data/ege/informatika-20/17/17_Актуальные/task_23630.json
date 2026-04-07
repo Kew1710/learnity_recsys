@@ -1,0 +1,45 @@
+{
+  "comment": "Python:\n\nf = open('17.txt')\nm = list(map(int, f.readlines()))\n\nmaxch = 0\n\nfor i in range(len(m)):\nif 9 < m[i] < 100:\nmaxch = max(maxch, m[i])\n\nk = 0\nmaxsum = 0\nfor i in range(len(m) - 1):\nif (9 < m[i] < 100 and (m[i + 1] < 10 or m[i + 1] >= 100)) or \\\n(9 < m[i + 1] < 100 and (m[i] < 10 or m[i] >= 100)):\nif (m[i] + m[i + 1]) % maxch == 0:\nk += 1\nmaxsum = max(maxsum, m[i] + m[i + 1])\nprint(k, maxsum)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1519,
+    "title": "№17 Актуальные"
+  },
+  "id": 23630,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2 59304",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: DOSR2317_3\n(ДОСРОК 2023) В файле содержится последовательность натуральных чисел. Элементы последовательности могут принимать целые значения от 1 до 100000 включительно. Определите количество пар последовательности, в которых ровно одно число двузначное, а сумма элементов пары делится на максимальное двузначное число из всей последовательности. В ответе запишите количество найденных пар, затем максимальную из сумм элементов таких пар. В данной задаче под парой подразумевается два идущих подряд элемента последовательности.\n\nФайл: 17.txt",
+      "error_conditions": [],
+      "id": 243355,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 360,
+  "topic": {
+    "id": 36,
+    "title": "Обработка числовой последовательности"
+  },
+  "video_link": null
+}

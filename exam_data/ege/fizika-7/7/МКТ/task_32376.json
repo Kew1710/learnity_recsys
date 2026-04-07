@@ -1,0 +1,42 @@
+{
+  "comment": "Давление газа:\n$$в~2\\downarrow p=в~2\\uparrow nkT\\downarrow в~4$$\nПри уменьшении температуры в \\(4\\) раза и увеличении концентрации в \\(2\\) раза давление газа уменьшится в \\(2\\) раза.\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2625,
+    "title": "МКТ"
+  },
+  "id": 32376,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В лаборатории проводят опыт с аргоном, находящимся в сосуде под поршнем. Во сколько раз уменьшится давление аргона, если его температуру уменьшить в \\(4\\) раза, увеличив концентрацию газа в \\(2\\) раза?",
+      "error_conditions": [],
+      "id": 252015,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/fvQ1eKtlzLw?t=1826"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/fvQ1eKtlzLw?t=1826"
+}

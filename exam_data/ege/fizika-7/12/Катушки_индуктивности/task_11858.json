@@ -1,0 +1,42 @@
+{
+  "comment": "Энергия магнитного поля определяется по формуле:\n$$W=\\frac{LI^2}{2}$$\nТак как подключение последовательное, то силы тока на катушках будут равны.\n\nПолучаем, что отношение энергий равно:\n$$\\frac{W_2}{W_1}=\\frac{\\frac{L_1I^2}{2}}{\\frac{L_1I^2}{2}}=5,76$$\nОтвет: 5,76",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2635,
+    "title": "Катушки индуктивности"
+  },
+  "id": 11858,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5,76",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "237415\nУчасток цепи, по которому течет постоянный ток, состоит из двух последовательно соединенных катушек. Во сколько раз индуктивность первой катушки больше индуктивности второй катушки, если энергия магнитного поля первой катушки в \\(5,76\\) раз больше энергии магнитного поля второй катушки?",
+      "error_conditions": [],
+      "id": 151766,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/nG7qB1shsf0"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/nG7qB1shsf0"
+}

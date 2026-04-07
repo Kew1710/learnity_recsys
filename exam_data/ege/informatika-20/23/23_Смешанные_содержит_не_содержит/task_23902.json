@@ -1,0 +1,45 @@
+{
+  "comment": "def f(x,y):\nif x == 12:\nreturn 0\nif x == y:\nreturn 1\nif x < y:\nreturn 0\nreturn f(x-1,y)+f(x-2,y)+f(x//2,y)\nprint(f(16,11)*f(11,6))",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1545,
+    "title": "№23 Смешанные (содержит & не содержит)"
+  },
+  "id": 23902,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2323_3\n(ОСН 2023) Исполнитель преобразует число на экране.\nУ исполнителя есть три команды, которым присвоены номера:\nA. Вычти 1\nB. Вычти 2\nC. Найди целую часть от деления на 2\nПрограмма для исполнителя – это последовательность команд.\nСколько существует программ, для которых при исходном числе 16 результатом является число 6, при этом траектория вычислений содержит число 11 и не содержит 12?",
+      "error_conditions": [],
+      "id": 243621,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 480,
+  "topic": {
+    "id": 40,
+    "title": "Количество программ"
+  },
+  "video_link": null
+}

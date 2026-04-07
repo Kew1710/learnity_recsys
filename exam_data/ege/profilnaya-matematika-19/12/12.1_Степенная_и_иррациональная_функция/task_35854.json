@@ -1,0 +1,45 @@
+{
+  "comment": "Вспомним, что производная произведения считается по формуле: $$ (f(x) \\cdot g(x))' = f'(x) \\cdot g(x) + f(x) \\cdot g'(x) $$\nПерепишем уравнение в виде: \\(y = (x^2 + 18x + 81)(x+3) + 7\\)\n\nВозьмем производную: $$ y' = (2x+18)(x+3)+(x^2+18x+81)=2x^2+6x+18x+54+x^2+18x+81= \\\\ = 3x^2+42x+135 $$\nПриравняем производную к \\(0\\), чтобы найти стационарные точки: $$ 3x^2+42x+135= 0 \\Rightarrow x^2 + 14x + 45 = 0 \\Rightarrow \\left[ \\begin{array}{l l} x = -9 \\\\ x = -5 \\end{array} \\right. $$\nПроанализируем эти точки:\nПолучим, что \\(x = -9\\) - точка максимума, \\(x =-5\\) - точка минимума\n\nНам нужна точка минимума \\(\\Rightarrow x = -5\\)\n\nОтвет: -5",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 35854,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y = {(x+9})^{2}{(x+3)} + 7\\)",
+      "error_conditions": [],
+      "id": 255493,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=svoHzBoBISVByddc&t=8855"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=svoHzBoBISVByddc&t=8855"
+}

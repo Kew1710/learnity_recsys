@@ -1,0 +1,37 @@
+{
+  "comment": "1) год – 1980;\n\n2) обоснование: Представленная в задании карикатура содержит в себе отсылку к XXII Олимпийским играм, которые прошли в СССР в 1980 г. В связи с вводом советских войск в Афганистан накануне олимпиады США и его союзники бойкотировали участие в этих олимпийских играх, что и отражает сюжет на нижней части рисунка.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1436,
+    "title": "15. Работa с изображениями"
+  },
+  "id": 32473,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 5,
+    "task_count": 0,
+    "title": "История"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Укажите год, когда произошло событие, отраженное на карикатуре. Используя изображение, приведите одно любое обоснование Вашего ответа.",
+      "error_conditions": null,
+      "id": 252112,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

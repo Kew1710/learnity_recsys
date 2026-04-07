@@ -1,0 +1,45 @@
+{
+  "comment": "Это дробно - рациональное уравнение. \\(5\\) можно представить как \\(\\frac{5}{1}\\):\n$$\\frac{1}{2x+7}=\\frac{5}{1}$$\nРешим уравнение приемом “перекрестное умножение”:\n$$1\\cdot 1=5\\cdot (2x+7)$$\nРаскроем скобки:\n$$1=10x+35\\\\ -34=10x\\\\ x=\\frac{-34}{10}=-3,4$$\nОтвет: -3,4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2400,
+    "title": "6.2 Дробно-рациональные"
+  },
+  "id": 9111,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-3,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\frac{1}{2x+7}=5\\).",
+      "error_conditions": [],
+      "id": 112846,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1220"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1220"
+}

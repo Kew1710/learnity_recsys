@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1491,
+    "title": "№7 Передача информации по каналам связи"
+  },
+  "id": 3572,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID задания: 125148\nАвтоматическое устройство осуществило перекодировку информационного сообщения на русском языке, первоначально записанного в 16-битном коде Unicode, в 8-битную кодировку КОИ-8. При этом информационное сообщение уменьшилось на 720 бит. Какова длина сообщения в символах?\n1) 90\n2) 45\n3) 180\n4) 720",
+      "error_conditions": [],
+      "id": 65241,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 26,
+    "title": "Кодирование информации"
+  },
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(P=\\cfrac{24}{25}=0,96\\) - вероятность того, что доставшийся пазл будет с машиной",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2043,
+    "title": "10. Теория вероятностей"
+  },
+  "id": 18789,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,96",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Родительский комитет закупил 25 пазлов для подарков детям в связи с окончанием учебного года, из них 24 с машинами и 1 с видом города. Подарки распределяются случайным образом между 25 детьми, среди которых есть Андрюша. Найдите вероятность того, что Андрюше достанется пазл с машиной.",
+      "error_conditions": [],
+      "id": 238627,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

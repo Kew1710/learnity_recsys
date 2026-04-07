@@ -1,0 +1,46 @@
+{
+  "comment": "Электролитическая диссоциация — это процесс распада молекул электролитов на ионы при растворении или плавлении\nКатионы - положительно заряженные ионы\n\n1) \\(NH_{4}Cl = NH_{4}^[+} + Cl^{-}\\) - образуются катионы аммония\n2) \\(HNO_{3} = H^{+} + NO_{3}^{-}\\) - подходит\n3) \\(NaOH = Na^{+} + OH^{-}\\) - образуются катионы натрия\n4) \\(HCl = H^{+} + Cl^{-}\\) - подходит\n5) \\(NaHCO_{3} = Na^{+} + HCO_{3}^{-}\\) - образуются катионы натрия",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2894,
+    "title": "Теория электролитической диссоциации"
+  },
+  "id": 34411,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        },
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "При полной диссоциации 1 моль каких двух из представленных веществ в качестве катионов образуются только ионы водорода?\n\n1) \\(NH_{4}Cl\\)\n2) \\(HNO_{3}\\)\n3) \\(NaOH\\)\n4) \\(HCl\\)\n5) \\(NaHCO_{3}\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 254050,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

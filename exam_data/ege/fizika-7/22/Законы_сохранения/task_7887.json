@@ -1,0 +1,37 @@
+{
+  "comment": "Теорема об изменении полной механической энергии:\n$$E_{кон}-E_{нач}=A_{в.с.}$$\n$$E_{кон}=0;~E_{нач}=mgh$$\nСила трения:\n$$F_{тр}=\\mu mg$$\nРабота силы трения:\n$$A_{тр}=\\mu mgS\\cos (180^\\circ )$$\nОбъединим выражения:\n$$0-mgh=\\mu mgS\\cdot (-1)$$\nВысота горки:\n$$h=\\mu S=0,1\\cdot 50=5~м$$\nОтвет: 5 м",
+  "difficulty": 1,
+  "exam_topic": {
+    "id": 2624,
+    "title": "Законы сохранения"
+  },
+  "id": 7887,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание 2F958F\nДевочка на санках из состояния покоя спустилась с ледяной горы и проехала по горизонтальной поверхности до остановки еще \\(50\\) м. Коэффициент трения между полозьями санок и горизонтальной поверхностью равен \\(0,1\\). С какой высоты спустилась девочка? Считать, что по склону горы санки скользили без трения.",
+      "error_conditions": null,
+      "id": 100494,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 900,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/MWA6Rq1e-7s?start=2610"
+}

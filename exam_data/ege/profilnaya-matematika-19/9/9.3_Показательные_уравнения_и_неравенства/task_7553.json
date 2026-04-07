@@ -1,0 +1,45 @@
+{
+  "comment": "Подставим все известные значения в уравнение:\n$$m(t)=m_0\\cdot 2^{-t/T}:\\\\ 3=96\\cdot 2^{-t/3}\\\\ 2^{-t/3}=\\frac{1}{32}\\\\ 2^{-t/3}=2^{-5}\\\\ t=15$$\nОтвет: 15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2423,
+    "title": "9.3 Показательные уравнения и неравенства"
+  },
+  "id": 7553,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В ходе распада радиоактивного изотопа его масса уменьшается по закону \\(m(t)=m_{0}\\cdot 2^{−t/T}\\), где \\(m_{0}\\) - начальная масса изотопа, \\(t\\) - время, прошедшее от начального момента, \\(T\\) - период полураспада. В начальный момент времени масса изотопа \\(96\\) мг. Период его полураспада составляет \\(3\\) мин. Найдите, через сколько минут масса изотопа будет равна \\(3\\) мг.",
+      "error_conditions": [],
+      "id": 98638,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/eFyi-zozQOQ?start=271"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/embed/eFyi-zozQOQ?start=271"
+}

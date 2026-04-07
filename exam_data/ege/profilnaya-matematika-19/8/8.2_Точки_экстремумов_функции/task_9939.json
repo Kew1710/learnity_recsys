@@ -1,0 +1,45 @@
+{
+  "comment": "Точки минимума соответствуют точкам смены знака производной с минуса на плюс. На отрезке [−6;4] функция имеет одну точку минимума (\\(x=\\) 2).\n\nОтвет: 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2413,
+    "title": "8.2 Точки экстремумов функции"
+  },
+  "id": 9939,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график \\(y=f '(x)\\) — производной функции \\(f(x)\\), определённой на интервале (− 11; 6). Найдите количество точек минимума функции \\(f(x)\\), принадлежащих отрезку [− 6; 4].",
+      "error_conditions": [],
+      "id": 120500,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/68v9uQwfrzg?start=1322"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/68v9uQwfrzg?start=1322"
+}

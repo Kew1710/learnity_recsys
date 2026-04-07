@@ -1,0 +1,45 @@
+{
+  "comment": "Площадь искомого многогранника равна:\n$$ V = V_{призмы}-V_{ABCB_1} $$\n\\(ABCB_1\\) является треугольной пирамидой, объем которой находится по формуле:\n$$ V = {1 \\over 3} S_{осн} h $$\nОбъем призмы составляет:\n$$ V_{призмы} = S_{осн} h \\Rightarrow V = S_{осн} h - {1 \\over 3} S_{осн} h = \\frac{2}{3} S_{осн} h=\\frac{2}{3}\\cdot 7\\cdot 9=42$$\nОтвет: 42",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 6980,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите объем многогранника, вершинами которого являются точки \\(A,C,A_{1} ,B_{1} ,C_{1}\\) правильной треугольной призмы \\(𝐴𝐵𝐶𝐴_{1} 𝐵_{1} 𝐶_{1}\\), площадь основания которой равна \\(7\\), а боковое ребро равно \\(9\\).",
+      "error_conditions": [],
+      "id": 80910,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=2781"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=2781"
+}

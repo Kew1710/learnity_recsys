@@ -1,0 +1,45 @@
+{
+  "comment": "$$-50tg9^{\\circ}\\cdot tg(90-9)^{\\circ}+31$$\nИспользуем формулу привидения:\n$$-50tg9^{\\circ}\\cdot ctg9^{\\circ}+31=31-50=-19$$\nОтвет: -19",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 7284,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(-50tg9^{\\circ}\\cdot tg81^{\\circ}+31\\).",
+      "error_conditions": [],
+      "id": 83800,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=4457"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=4457"
+}

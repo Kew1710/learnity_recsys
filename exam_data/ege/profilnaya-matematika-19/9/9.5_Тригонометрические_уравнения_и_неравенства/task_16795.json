@@ -1,0 +1,45 @@
+{
+  "comment": "Подставим все величины в уравнение:\n$$v=2\\sin\\frac{2\\pi 7}{8}=2\\cdot\\left(-\\frac{\\sqrt{2}}{2}\\right)=-\\sqrt{2}\\\\ E=\\frac{0,38\\cdot (-\\sqrt{2})^2}{2}=0,38$$\nОтвет: 0,38",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2425,
+    "title": "9.5 Тригонометрические уравнения и неравенства"
+  },
+  "id": 16795,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,38",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Груз массой \\(0,38\\) кг колеблется на пружине. Его скорость \\(v\\) меняется по закону \\(v=v_0\\sin\\frac{2\\pi t}{T}\\), где \\(t\\)  — время с момента начала колебаний, \\(T = 8\\) с  — период колебаний, \\(v_0=2\\) м/с. Кинетическая энергия \\(E\\) (в джоулях) груза вычисляется по формуле \\(E=\\frac{mv^2}{2}\\), где \\(m\\)  — масса груза в килограммах, \\(v\\) — скорость груза в м/с. Найдите кинетическую энергию груза через \\(7\\) секунд после начала колебаний. Ответ дайте в джоулях.",
+      "error_conditions": [],
+      "id": 236700,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=7005"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=7005"
+}

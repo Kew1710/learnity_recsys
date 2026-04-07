@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ.\n1. 1 желтый костный мозг\n2. Запасающая функция (запасание жира)\n3. 2 – надкостница\n4. Обеспечивает прост кости в толщину\n5. Тип соединения сустав – подвижное соединение костей.\n6. Головка кости входит в сустав",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10286,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Назовите структуры кости взрослого человека, обозначенные на рисунке цифрами 1 и 2. Укажите функцию каждой из этих структур. Какой тип соединения имеет данная кость с другими костями? Ответ обоснуйте.",
+      "error_conditions": null,
+      "id": 123026,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

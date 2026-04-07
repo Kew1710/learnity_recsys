@@ -1,0 +1,42 @@
+{
+  "comment": "1) C₆H₅-CH₃ + Cl₂ → C₆H₅-CH₂Cl + HCl (hv)\n2) C₆H₅-CH₂Cl + NaOH(водн.) → C₆H₅-CH₂OH + NaCl\n3) 5C₆H₅-CH₂OH + 4KMnO₄ + 6H₂SO₄ → 5C₆H₅-COOH + 4MnSO₄ + 2K₂SO₄ + 11H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2836,
+    "title": "Генетическая связь между классами органических соединений"
+  },
+  "id": 4334,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) C₆H₅OH\n2) C₆H₅CH₂Cl\n3) C₆H₅Cl\n4) C₆H₅COOH\n5) C₆H₆",
+      "error_conditions": [],
+      "id": 66755,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=16507"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=16507"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "\\(S\\) - сумма кредита, \\(r\\) - процентная ставка, тогда, коэффициент увеличения долга:\n$$(1+\\frac{r}{100})=k$$\nПостроим систему, состоящую из двух математических моделей, при условии, что в первой кредит погашен за 4 года платежами по \\(x=77760\\) рублей, а во второй кредит погашен за 2 года платежами по \\(y=131760\\) рублей:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} ((( Sk-x) k-x) k-x) k-x=0\\\\ ( Sk-y) k-y=0 \\end{cases} \\Rightarrow \\begin{cases} Sk^{4} =x\\left( k^{3} +k^{2} +k+1\\right) =0\\\\ Sk^{2} =y( k+1) \\end{cases} \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow \\begin{cases} S=\\frac{x\\left( k^{3} +k^{2} +k+1\\right)}{k^{4}}\\\\ S=\\frac{y( k+1)}{k^{2}} \\end{cases} \\end{array}\\\\ \\frac{y(k+1)}{k^2}=\\frac{x(k^3+k^2+k+1)}{k^4}\\Rightarrow yk^2=\\frac{x(k^2(k+1)+(k+1))}{(k+1)}\\\\ yk^2=x(k^2+1)\\Rightarrow yk^2-xk^2-x=0\\\\ k^2=\\frac{x}{y-x}=\\frac{77760}{131760-77760}=1,44\\\\ k>0\\Rightarrow k=1,2\\\\ k=1+\\frac{r}{100}; r=(k-1)100=(1,2-1)100=20$$\nОтвет: 20",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2475,
+    "title": "16.2 Заданные платежи"
+  },
+  "id": 26185,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В июле \\(2020\\) года планируется взять кредит в банке на некоторую сумму. Условия его возврата таковы:\n- каждый январь долг увеличивается на \\(r\\%\\) по сравнению с концом предыдущего долга;\n- с февраля по июнь каждого года необходимо выплатить одним платежом часть долга.\nЕсли ежегодно выплачивать по \\(77760\\), то кредит будет полностью погашен за \\(4\\) года, а если ежегодно выплачивать по \\(131760\\), то кредит будет полностью погашен за \\(2\\) года. Найдите \\(r\\).",
+      "error_conditions": null,
+      "id": 245824,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 16,
+    "title": "Экономические задачи"
+  },
+  "video_link": "https://www.youtube.com/live/qdfXq3lWVwc?si=wIrgZm0trL980-qm&t=3600"
+}

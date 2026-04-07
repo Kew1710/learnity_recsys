@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем уравнение Менделеева-Клапейрона:\n$$pV=\\nu RT,$$\nгде \\(\\nu =const\\), так как масса постоянна по условию\n$$p_1=\\frac{\\nu RT}{V}$$\n$$p_2=\\frac{\\nu R\\cdot 6T}{\\frac{V}{3}}=18\\frac{\\nu RT}{V}$$\n$$p_2=18p_1$$\nесли объем уменьшают в три раза, а температуру увеличивают в \\(6\\), то давление увеличится в \\(18\\) раз\nОтвет: 18",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2625,
+    "title": "МКТ"
+  },
+  "id": 9049,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "18",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23302\nОбъем идеального газа уменьшили в \\(3\\) раза, а его температуру увеличили в \\(6\\) раз. Во сколько раз увеличилось давление идеального газа? Масса газа не изменялась.",
+      "error_conditions": [],
+      "id": 112771,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/wUbAsE6dpD0"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/wUbAsE6dpD0"
+}

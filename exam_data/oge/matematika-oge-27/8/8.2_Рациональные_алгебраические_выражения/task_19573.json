@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{(a^3)^6 \\cdot a^3}{a^{17}} = a^{18+3-17} = a^4 = 3^4 = 27\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1957,
+    "title": "8.2 Рациональные алгебраические выражения"
+  },
+  "id": 19573,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "27",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\cfrac{(a^3)^6 \\cdot a^3}{a^{17}}\\) при \\(a=3\\) .",
+      "error_conditions": [],
+      "id": 239411,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

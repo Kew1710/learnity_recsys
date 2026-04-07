@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2730,
+    "title": "№15 Отрезки"
+  },
+  "id": 31559,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На числовой прямой даны три отрезка: P = [24; 77], Q = [47; 92] и R = [82; 116]. Укажите наименьшую возможную длину такого отрезка A, для которого формула\n\n(¬ ((x ∈ Q) → ((x ∈ P) ∨ (x ∈ R)))) → (¬(x ∈ A) → ¬ (x ∈ Q))\n\nтождественно истинна (т. е. принимает значение 1 при любом значении переменной х).",
+      "error_conditions": [],
+      "id": 251198,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=Urc0qYSF_XE&t=6858s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": "https://www.youtube.com/watch?v=Urc0qYSF_XE&t=6858s"
+}

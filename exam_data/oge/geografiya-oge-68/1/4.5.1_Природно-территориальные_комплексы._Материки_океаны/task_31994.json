@@ -1,0 +1,42 @@
+{
+  "comment": "Сахара и Руб-эль-Хали находятся в Северном полушарии, Гоби располагается в Азии на территории Монголии и Китая, также в Северном полушарии. Атакама же является пустыней в Южной Америке и расположена в Чили, что в Южном полушарии.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2959,
+    "title": "4.5.1 Природно-территориальные комплексы. Материки, океаны."
+  },
+  "id": 31994,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какая из перечисленных пустынь расположена в Южном полушарии?\n- Атакама\n- Сахара\n- Гоби\n- Руб-эль-Хали",
+      "error_conditions": [],
+      "id": 251633,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

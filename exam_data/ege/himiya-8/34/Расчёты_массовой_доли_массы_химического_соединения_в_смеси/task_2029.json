@@ -1,0 +1,37 @@
+{
+  "comment": "[1] 2Na + 2H₂O = 2NaOH + H₂\n[2] 2NaOH + H₃PO₄ = Na₂HPO₄ + 2H₂O\nn(Na) = m/M = 13,8/23 = 0,6 моль\nn(NaOH) = n(Na) = 0,6 моль - по уравнению реакции [1]\nm(H₃PO₄) = m(р-ра H₃PO₄) · ω = 50 · 0,59 = 29,5 г\nn(H₃PO₄) = m/M = 29,5/98 = 0,3 моль\nn(NaOH)/n(H₃PO₄) = 2/1 - щелочь и кислота реагировали в соотношении 2 : 1 с образованием гидрофосфата натрия\nn(H₂) = 0,5n(Na) = 0,3 моль - по уравнению реакции [1]\nn(Na₂HPO₄) = n(H₃PO₄) = 0,3 моль - по уравнению реакции [2]\nm(Na₂HPO₄) = n · M = 0,3 · 142 = 42,6 г\nm(H₂) = n · M = 0,3 · 2 = 0,6 г\nm(р-ра) = m(H₂O) + m(Na) - m(H₂) + m(р-ра H₃PO₄) = 250 + 13,8 - 0,6 + 50 = 313,2 г\nω(Na₂HPO₄) = 42,6/313,2 = 0,136 (13,6%)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2859,
+    "title": "Расчёты массовой доли (массы) химического соединения в смеси"
+  },
+  "id": 2029,
+  "is_obsolete": false,
+  "number": 34,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В 250 мл воды растворили 13,8 г натрия, затем добавили 50 г 59%-ного раствора ортофосфорной кислоты. Определите массовую долю соли в полученном растворе. В ответе запишите уравнения реакций, которые указаны в условии задачи, и приведите все необходимые вычисления (указывайте единицы измерения искомых физических величин).",
+      "error_conditions": null,
+      "id": 56460,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=3690"
+}

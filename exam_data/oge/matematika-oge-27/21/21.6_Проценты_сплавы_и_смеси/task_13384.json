@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nМасса сухого продукта в свежих фруктах: \\(100 - 79 = 21\\)%\nМасса сухого продукта в высушенных фруктах: \\(100 - 16 = 84\\)%\n- \\( 0,21 \\cdot 288\\) кг - масса сухого продукта в высушенных фруктах (она постоянна)\n- \\( \\cfrac{0,21 \\cdot 288}{0,84} = 72\\) кг - получится\n\nОтвет: 72 кг",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1941,
+    "title": "21.6 Проценты, сплавы и смеси"
+  },
+  "id": 13384,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Свежие фрукты содержат 79% воды, а высушенные – 16%. Сколько сухих фруктов получится из 288 кг свежих фруктов?",
+      "error_conditions": null,
+      "id": 178286,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

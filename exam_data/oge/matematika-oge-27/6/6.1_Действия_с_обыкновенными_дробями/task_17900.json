@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 4\\cfrac{1}{4} : \\left( 2\\cfrac{7}{10} -3\\cfrac{1}{8} \\right)= \\cfrac{17}{4}: \\left( \\cfrac{27}{10} -\\cfrac{25}{8} \\right) =\\cfrac{17}{4} : -\\cfrac{40}{17}=-\\cfrac{10}{1}=-10\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1932,
+    "title": "6.1 Действия с обыкновенными дробями"
+  },
+  "id": 17900,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( 4 \\cfrac{1}{4} : \\left( 2 \\cfrac{7}{10} -3 \\cfrac{1}{8} \\right) \\).",
+      "error_conditions": [],
+      "id": 237752,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

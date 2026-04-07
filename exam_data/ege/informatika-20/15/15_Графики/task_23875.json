@@ -1,0 +1,45 @@
+{
+  "comment": "Решение 1:\nfor A in range(500):\nf = True\nfor x in range(500):\nfor y in range(500):\nif not((48 != y+2*x) or (A > x) or (A > y)):\nf = False\nbreak\nif not f:\nbreak\nif f:\nprint(A)\nbreak\n\nРешение 2:\ndef f(x,y):\nreturn (48 != (y+2*x)) or (A > x) or (A > y)\nfor A in range(0, 500):\nif all(f(x,y) for x in range(0,500) for y in range(0,500)):\nprint(A)\nbreak",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2733,
+    "title": "№15 Графики"
+  },
+  "id": 23875,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "17",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2315_6\n(ОСН 2023) Для какого наименьшего целого неотрицательного числа А логическое выражение $$(48\\neq y+2x)\\vee(A>x)\\vee(A>y)$$\nистинно ( т.е. принимает значение 1 ) при любых целых неотрицательных x и y?",
+      "error_conditions": [],
+      "id": 243594,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 42,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": null
+}

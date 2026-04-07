@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 11771,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "103",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Текстовый файл состоит из символов C, D, E, F.\nОпределите максимальное количество идущих подряд последовательностей символов CFE или FCE в прилагаемом файле. Искомая последовательность должна состоять только из троек CFE или только из троек FCE, или только из троек CFE или FCE в произвольном порядке их следования.\nДля выполнения задания следует написать программу.",
+      "error_conditions": [],
+      "id": 150678,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1080,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": null
+}

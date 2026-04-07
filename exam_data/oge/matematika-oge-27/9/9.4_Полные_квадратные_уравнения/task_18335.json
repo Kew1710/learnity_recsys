@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(x^2+2x-15=0\\)\n\\(D=b^2-4ac=4-4 \\cdot 1 \\cdot (-15)=64\\)\n\\(x_1=\\cfrac{-2+8}{2}=3\\)\n\\(x_2=\\cfrac{-2-8}{2}=-5\\)\nОтвет: \\(-5\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2057,
+    "title": "9.4 Полные квадратные уравнения"
+  },
+  "id": 18335,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(x^2+2x=15\\). Если уравнение имеет более одного корня, в ответ запишите меньший из корней.",
+      "error_conditions": [],
+      "id": 238177,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

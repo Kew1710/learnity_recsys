@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nВозведем все числа в квадрат\n\\( (\\sqrt{46})^2 = 46\\)\n\\( 5^2 = 25\\)\n\\( 6^2 = 36\\)\n\\( 7^2 = 49\\)\nСравним квадраты чисел. Получим \\(25 < 36 < 46< 49\\)\nТогда для исходных чисел справедливы неравенства \\( 6 < \\sqrt{46} < 7\\)\nРасстояние от \\(\\sqrt{46}\\) до \\(\\sqrt{49}\\) меньше, чем расстояние от \\(\\sqrt{46}\\) до \\(\\sqrt{36}\\)\n\\(\\Rightarrow\\) число \\(\\sqrt{46}\\) расположено ближе к 7, чем к 6\nПоймем, что число \\(\\sqrt{46}\\) соответствует точке D на прямой\nОтвет: 4",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22942,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечены точки A, B, C, D. Одна из них соответствует числу \\(\\sqrt{46}\\). Какая это точка?",
+      "error_conditions": [],
+      "id": 242668,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

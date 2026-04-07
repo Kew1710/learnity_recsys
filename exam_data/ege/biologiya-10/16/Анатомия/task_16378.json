@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: из правого желудочка кровь идет по легочной артерии в легкие, в легочных капиллярах происходит обмен газами, по легочным венам кровь возвращается в левое предсердие.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16378,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "54231",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите, в какой последовательности в организме человека кровь проходит малый круг кровообращения. Запишите в таблицу соответствующую последовательность цифр.\n- левое предсердие\n- легочные капилляры\n- легочные вены\n- легочные артерии\n- правый желудочек",
+      "error_conditions": [],
+      "id": 236285,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

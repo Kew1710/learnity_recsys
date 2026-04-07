@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПереведем КПД в доли: \\(\\eta=85\\%=\\frac{85}{100}=0,85\\)\nКПД считается по формуле: $$\\eta=\\frac{A_п}{A_{зат}}$$\nПолезная работа равна работе силы тяги: $$A_п=FS$$\nЗатраченная работа равна работе силы тока: $$A_{зат}=IU\\tau$$\nТогда $$\\eta=\\frac{FS}{IU\\tau}$$\nПеремещение электровоза равно произведению его скорости на время: $$\\eta=\\frac{F\\upsilon\\tau}{IU\\tau}=\\frac{F\\upsilon}{IU}$$\nПодставим числовые значения и найдем силу тяги : $$0,85=\\frac{F\\cdot 12}{1600\\cdot 3000} \\\\F=340000~Н=340~кН$$ Ответ: $340~кН$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34872,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите силу тяги, которую развивает при скорости $12$ м/с электровоз, работающий при напряжении $3$ кВ и потребляющий ток $1,6$ кА. КПД двигателя электровоза равен $85$%.",
+      "error_conditions": null,
+      "id": 254511,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

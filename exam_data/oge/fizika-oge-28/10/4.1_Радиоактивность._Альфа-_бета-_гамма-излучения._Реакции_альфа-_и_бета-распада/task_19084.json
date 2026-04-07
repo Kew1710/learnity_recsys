@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nМассовое число альфа-частицы (\\(^4_2\\alpha\\)) равно \\(4\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3285,
+    "title": "4.1 Радиоактивность. Альфа-, бета-, гамма-излучения. Реакции альфа- и бета-распада"
+  },
+  "id": 19084,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "При исследовании естественной радиоактивности были обнаружены три вида излучений: альфа-излучение (поток альфа-частиц), бета-излучение (поток бета-частиц) и гамма-излучение. Каково массовое число альфа-частиц?\n\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 238922,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/rTvqY9A0dBE"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/rTvqY9A0dBE"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Перепишем уравнение в виде: \\(y = x^{\\frac{3}{2}} - 9x + 23\\)\nВозьмем производную: $$ y = \\dfrac{3}{2}x^{\\frac{1}{2}} - 9$$\nПриравняем производную к \\(0\\), чтобы найти стационарные точки: $$ \\dfrac{3}{2}x^{\\frac{1}{2}} - 9 = 0 \\Rightarrow x^{\\frac{1}{2}} = 6 \\Rightarrow x = 36 $$\nПроанализируем эту точку (не забываем, что \\(x \\geq 0\\)):\nПолучим, что \\(x = 36\\) является точкой минимума\n\nНам нужно наименьшее значение на отрезке \\(\\left[1;36\\right]\\), оно будет находиться в точке минимума: $$ 36 \\cdot 6-9 \\cdot 36+23=-3 \\cdot 36+23=-85 $$\n\nОтвет: -85",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 35855,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-85",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y = x\\sqrt{x} - 9x + 23\\) на отрезке \\(\\left[1;36\\right]\\).",
+      "error_conditions": [],
+      "id": 255494,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=gOat6P8RaKbhdvyg&t=9177"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=gOat6P8RaKbhdvyg&t=9177"
+}

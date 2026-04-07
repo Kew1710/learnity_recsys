@@ -1,0 +1,42 @@
+{
+  "comment": "$$F = ma \\Rightarrow m = \\frac{F}{a}$$\n$$m = \\frac{296}{37} = 8$$\nОтвет: 8 килограммов.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 30501,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Второй закон Ньютона можно записать в виде \\(F = ma\\), где \\(F\\) сила (в ньютонах), действующая на тело, \\(m\\) - его масса (в килограммах), \\(a\\) - ускорение (в \\(м/с^2\\)), с которым движется тело. Найдите \\(m\\) (в килограммах), если \\(F = 296\\) Н и \\(a = 37\\; м/с^2\\).",
+      "error_conditions": [],
+      "id": 250140,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

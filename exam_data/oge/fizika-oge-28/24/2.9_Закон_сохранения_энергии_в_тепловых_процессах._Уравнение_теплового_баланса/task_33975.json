@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем уравнение теплового баланса: $$Q_1=Q_2 \\\\ Q_1=cm_1\\Delta t \\\\ Q_2=qm_2$$\nПодставим: $$cm_1\\Delta t=qm_2 \\\\ m_2=\\frac{cm_1\\Delta t}{q} \\\\ m_2=\\frac{4200\\cdot 4,6\\cdot (100-20)}{4,6\\cdot 10^7}=0,0336~кг=33,6~г$$\n\nОтвет: 33,6 г",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3248,
+    "title": "2.9 Закон сохранения энергии в тепловых процессах. Уравнение теплового баланса"
+  },
+  "id": 33975,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какое минимальное количество керосина надо сжечь для нагревания 4,6 кг воды от начальной температуры t1 = 20 °С до температуры кипения? Считать, что вся энергия, выделяющаяся при сгорании топлива, расходуется на нагревание воды.",
+      "error_conditions": null,
+      "id": 253614,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "15432\nПояснение: Самое большое кровяное давление в аорте, самое маленькое в венах",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16120,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15432",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Последовательность движения крови в порядке увеличения в них кровяного давления\n1) верхняя полая вена\n2) аорта\n3) легочная артерия\n4) артериолы\n5) капилляры альвеол",
+      "error_conditions": [],
+      "id": 236027,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

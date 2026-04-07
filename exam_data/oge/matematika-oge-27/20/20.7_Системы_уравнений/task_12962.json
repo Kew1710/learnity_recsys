@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\begin{cases}& 4x^2-5x = y(1)\\\\ & 8x-10 = y(2)\\end{cases}\\)\nПравые части уравнения равны, значит левые части тоже равны\n\\(4x^2 - 5x = 8x - 10\\)\n\\(4x^2 -13x +10 = 0\\)\n\\(D = 169 - 160 = 9\\)\nОтсюда \\(x_1 = 2; x_2 = \\cfrac{5}{4}\\)\nПодставим в уравнение (2) \\(x = 2\\)\n\\(16 -10 = 6\\)\n\\(y = 6\\)\nПодставим в уравнение (2) \\(x = \\cfrac{5}{4}\\)\n\\(8 \\cdot \\cfrac{5}{4} -10 = 0\\)\n\\(y = 0\\)\n\\(\\begin{cases}& x = 2\\\\ & y = 6\\end{cases}\\)\nили\n\\(\\begin{cases}& x =\\cfrac{5}{4}\\\\ & y = 0\\end{cases}\\)\nОтвет: \\( (2; 6) \\cup (\\cfrac{5}{4}; 0) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2054,
+    "title": "20.7 Системы уравнений"
+  },
+  "id": 12962,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите систему уравнений \\(\\begin{cases}& 4x^2-5x = y\\\\ & 8x-10 = y\\end{cases}\\) .",
+      "error_conditions": null,
+      "id": 174314,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

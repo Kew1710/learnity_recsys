@@ -1,0 +1,42 @@
+{
+  "comment": "Всего у Дани было 5 конфет. Тогда вероятность того, что выпала “Взлётная”, равна:\n$$\\frac{1}{5} = 0,2$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2079,
+    "title": "5.1 Классическое определение вероятности"
+  },
+  "id": 24003,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В кармане у Дани было пять конфет — «Ласточка», «Взлётная», «Василёк», «Грильяж» и «Гусиные лапки», а также ключи от квартиры. Вынимая ключи, Даня случайно выронил из кармана одну конфету. Найдите вероятность того, что упала конфета «Взлётная».",
+      "error_conditions": [],
+      "id": 243718,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

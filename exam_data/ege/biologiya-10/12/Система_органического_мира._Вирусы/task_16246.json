@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: нужно начать с наименьшего таксона: вид пингвин императорский -> пингвин -> птицы -> позвоночные -> тип хордовые -> царство животные",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 16246,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "145623",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность систематических таксонов, начиная с наименьшего. Запишите в таблицу соответствующую последовательность цифр.\n\n1) Пингвин императорский2) Хордовые3) Животные4) Пингвин5) Птицы6) Позвоночные",
+      "error_conditions": [],
+      "id": 236153,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

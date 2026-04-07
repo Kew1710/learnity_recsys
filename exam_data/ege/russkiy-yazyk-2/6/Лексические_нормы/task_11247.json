@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 911,
+    "title": "Лексические нормы"
+  },
+  "id": 11247,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "правильного",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Отредактируйте предложение: исправьте лексическую ошибку, исключив лишнее слово. Выпишите это слово.\n\nПроект реформы правильного правописания был представлен учёными Российской академии наук в 1912 году, но не был утверждён, хотя продолжал широко обсуждаться.",
+      "error_conditions": [],
+      "id": 148120,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 56,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Зигота — диплоидная клетка, образованная в результате слияния отцовской и материнской гамет, соответственно количество половых хромосом в ней = 2.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2511,
+    "title": "Генетическая информация в клетке. Матричные процессы в клетке"
+  },
+  "id": 16849,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Клетка эпителия кишечника дрозофилы имеет 8 хромосом. Какое количество половых хромосом имеет зигота дрозофилы? В ответ запишите только число хромосом.",
+      "error_conditions": [],
+      "id": 236754,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

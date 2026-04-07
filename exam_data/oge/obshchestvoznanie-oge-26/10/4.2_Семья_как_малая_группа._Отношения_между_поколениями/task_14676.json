@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1781,
+    "title": "4.2 Семья как малая группа. Отношения между поколениями"
+  },
+  "id": 14676,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Семья, в отличие от других малых групп, характеризуется\n\n1) непосредственными личными контактами\n\n2) наличие партнёрских отношений\n\n3) общими увлечениями\n\n4) совместным ведением хозяйства",
+      "error_conditions": [],
+      "id": 209603,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/pmPVUQFQs_U?start=2785"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pmPVUQFQs_U?start=2785"
+}

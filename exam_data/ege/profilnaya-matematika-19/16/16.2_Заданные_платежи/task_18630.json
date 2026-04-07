@@ -1,0 +1,40 @@
+{
+  "comment": "Пусть \\(S\\) – сумма, которую изначально взяли в кредит, \\(x\\) – сумма ежегодной выплаты, \\((1+0,25) = 1,25\\) – коэффициент ежегодного увеличения долга. Составим таблицу движения денежных средств:\n$$январь$$$$июль$$$$2023$$ $$S$$$$2024$$$$S\\cdot 1,25$$$$S\\cdot 1,25-x$$$$2025$$$$(S\\cdot 1,25-x)\\cdot 1,25$$$$(S\\cdot 1,25-x)\\cdot 1,25-x$$$$2026$$$$((S\\cdot 1,25-x)\\cdot 1,25-x)\\cdot 1,25$$$$((S\\cdot 1,25-x)\\cdot 1,25-x)\\cdot 1,25-x$$По условию кредит планируется выплатить за 3 года, значит:\n$$((S\\cdot 1,25-x)\\cdot 1,25-x)\\cdot 1,25-x=0$$\nОбщая сумма выплат составит \\(3\\cdot x\\), что по условию на \\(65 500\\) рублей больше суммы, взятой в кредит (\\(S\\)), то есть:\n$$3x-S=65500$$\nДля нахождения суммы кредита \\(S\\) решим систему уравнений:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\begin{cases}\n(( S\\cdotp 1,25-x) \\cdotp 1,25-x) \\cdotp 1,25-x=0\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ 3x-S=65500\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left(\\left( S\\cdotp \\frac{5}{4} -x\\right) \\cdotp \\frac{5}{4} -x\\right) \\cdotp \\frac{5}{4} -x=0\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ x=\\frac{S+65500}{3}\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left( S\\cdotp \\frac{25}{16} -\\frac{5}{4} x-x\\right) \\cdotp \\frac{5}{4} -x=0\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ x=\\frac{S+65500}{3}\n\\end{cases}\\\\\n\\ \\ \\ \\ \\ \\ \\ \\Leftrightarrow \\begin{cases}\n\\left( S\\cdotp \\frac{25}{16} -\\frac{9}{4} x\\right) \\cdotp \\frac{5}{4} -x=0\\\\\n\\ \\ \\ \\ \\ \\ \\ x=\\frac{S+65500}{3}\n\\end{cases} \\Leftrightarrow \\begin{cases}\nS\\cdotp \\frac{125}{64} -\\frac{45}{16} x-x=0\\\\\n\\ \\ \\ \\ \\ x=\\frac{S+65500}{3}\n\\end{cases} \\Leftrightarrow \\begin{cases}\nS\\cdotp \\frac{125}{64} -\\frac{61}{16} x=0\\\\\nx=\\frac{S+65500}{3}\n\\end{cases} \\Leftrightarrow \\begin{cases}\nS\\cdotp \\frac{125}{64} =\\frac{61}{16} x\\\\\nx=\\frac{S+65500}{3}\n\\end{cases} \\Leftrightarrow \\\\\n\\Leftrightarrow \\begin{cases}\n125S=244x\\\\\nx=\\frac{S+65500}{3}\n\\end{cases} \\Leftrightarrow \\begin{cases}\n125S=244\\cdotp \\frac{S+65500}{3}\\\\\nx=\\frac{S+65500}{3}\n\\end{cases} \\Leftrightarrow \\begin{cases}\n375S-244S=244\\cdotp 65500\\\\\nx=\\frac{S+65500}{3}\n\\end{cases} \\Leftrightarrow \\begin{cases}\n131S=244\\cdotp 131\\cdotp 500\\\\\nx=\\frac{S+65500}{3}\n\\end{cases} \\Leftrightarrow \\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Leftrightarrow \\ \\ \\begin{cases}\nS=122000\\\\\nx=\\frac{S+65500}{3}\n\\end{cases}\n\\end{array}$$\nТаким образом, сумма планируемого кредита \\(S\\) составит 122 000 рублей.\nОтвет: 122000.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2475,
+    "title": "16.2 Заданные платежи"
+  },
+  "id": 18630,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В июле 2023 года планируется взять кредит на некоторую сумму. Условия его возврата таковы:\n\\(-\\)каждый январь долг увеличивается на 25% по сравнению с концом предыдущего года;\n\\(-\\)с февраля по июнь каждого года необходимо выплатить одним платежом часть долга. Сколько рублей планируется взять в банке, если известно, что кредит будет полностью погашен тремя равными платежами (то есть за три года), и общая сумма выплат после полного погашения кредита на 65 500 рублей больше суммы, взятой в кредит?",
+      "error_conditions": null,
+      "id": 238472,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 16,
+    "title": "Экономические задачи"
+  },
+  "video_link": "https://www.youtube.com/watch?v=7lx64fTrJq8&t=888s"
+}

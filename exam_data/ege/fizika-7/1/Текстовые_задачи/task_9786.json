@@ -1,0 +1,42 @@
+{
+  "comment": "Абсолютная скорость - векторная сумма переносной и относительной скоростей. В проекции на \\(ox\\):\n$$v_{абс~x}=v-u=20-1=19~м/с$$\nОтвет: 19 м/с",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2610,
+    "title": "Текстовые задачи"
+  },
+  "id": 9786,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23532\nПоезд следует из пункта отправления в пункт прибытия с постоянной скоростью \\(20\\) м/с. Со скоростью \\(1\\) м/с относительно поезда один из пассажиров прямолинейно идет по вагону. Определите скорость пассажира относительно рельсов, если скорость его передвижения по вагону направлена противоположно направлению скорости движения поезда. Ответ дайте в м/c.",
+      "error_conditions": [],
+      "id": 119530,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/peUw92bVleg"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/peUw92bVleg"
+}

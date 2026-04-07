@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем формулу КПД:$$\\eta=\\frac{A_{п}}{A_{зат}}=\\frac{A_{п}}{Q}=\\frac{A_{п}}{q\\cdot m}$$ Подставим числа:$$0,3=\\frac{A_{п}}{4,6\\cdot 10^7\\cdot 3}\\\\A_{п}=414\\cdot 10^5~Дж=41,4~МДж$$ Ответ: $41,4~МДж$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3253,
+    "title": "2.14 Принципы работы тепловых двигателей. КПД теплового двигателя"
+  },
+  "id": 34661,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "КПД двигателя трактора не превышает $30$%. Вычислите максимальную полезную работу, которую может совершить двигатель трактора, израсходовав $3$ кг бензина",
+      "error_conditions": null,
+      "id": 254300,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

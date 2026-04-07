@@ -1,0 +1,42 @@
+{
+  "comment": "$$F = 80\\; Н, \\; k = 5\\; Н/м$$\n$$F = kx \\Rightarrow x = \\frac{F}{k} = \\frac{80}{5} = 16 \\; м$$\nОтвет: 16 метров.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 26759,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Закон Гука можно записать в виде \\(F = kx\\), где \\(F\\) - сила (в ньютонах), с которой растягивают пружину, \\(x\\) - абсолютное удлинение пружины (в метрах), а \\(k\\) - коэффициент упругости.\nПользуясь этой формулой, найдите \\(x\\) (в метрах), если \\(F = 80\\) Н и \\(k = 5\\) Н/м.",
+      "error_conditions": [],
+      "id": 246398,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

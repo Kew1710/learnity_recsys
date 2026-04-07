@@ -1,0 +1,45 @@
+{
+  "comment": "$$y=6\\ln(x+4)-8x-19\\\\ y'=\\frac{6}{x+4}-8=\\frac{6-8x-32}{x+4}=\\frac{-8x-26}{x+4}=\\frac{-8(x+\\frac{13}{4})}{x+4}$$\n\nВидно, что точка максимума достигается в точке \\(-\\frac{13}{4}=-3,25\\).\n\nОтвет: -3,25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2445,
+    "title": "12.2 Логарифмическая функция"
+  },
+  "id": 7449,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-3,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку максимума функции \\(y=2\\ln (x+4)^3-8x-19\\).",
+      "error_conditions": [],
+      "id": 98355,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/mZtwXEJqmys?start=2525"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/mZtwXEJqmys?start=2525"
+}

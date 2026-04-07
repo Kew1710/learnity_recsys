@@ -1,0 +1,42 @@
+{
+  "comment": "Изобарный процесс - закон Гей-Люссака:\n$$\\frac{V}{T}=const$$\nИзотермической процесс - закон Бойля-Мариотта:\n$$pV=const$$\nОтвет: 23",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2626,
+    "title": "Молекулярная физика"
+  },
+  "id": 9578,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "23451\nУстановите соответствие между названиями термодинамических процессов, проводимых с постоянным числом молекул и еще одним неизменным параметром идеального газа, и формулами, с помощью которых можно описать данные процессы. К каждой позиции первого столбца подберите соответствующую позицию второго и запишите в таблицу выбранные цифры под соответствующими буквами.\nПРОЦЕССЫ\nФОРМУЛЫ\nА) изобарный \\(N=const\\)\nБ) изотермический \\(N=const\\)\n1) закон Шарля \\(\\frac{p}{T}=const\\)\n2) закон Гей-Люссака \\(\\frac{V}{T}=const\\)\n3) закон Бойля-Мариотта \\(pV=const\\)\n4) закон Шарля \\(\\frac{V}{T}=const\\)\nА\nБ",
+      "error_conditions": [],
+      "id": 115393,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jMy9YiNtLE0"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/jMy9YiNtLE0"
+}

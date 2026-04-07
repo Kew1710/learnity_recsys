@@ -1,0 +1,45 @@
+{
+  "comment": "k = 0\nfor x in product(\"АПРСУ\", repeat = 5):\ns = \"\".join(x)\nk += 1\nif s.count(\"У\") <= 1 and \"АА\" not in s:\nk_max = k\nprint(k_max)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 31792,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2969",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Все пятибуквенные слова, в составе которых могут быть только русские буквы П, А, Р, У, С, записаны в алфавитном порядке и пронумерованы начиная с 1.\nНиже приведено начало списка.\n1. ААААА\n2. ААААП\n3. ААААР\n4. ААААС\n5. ААААУ\n6. АААПА\n…\nПод каким номером в списке идёт последнее слово, которое содержит не более одной буквы У и не содержит букв А, стоящих рядом?",
+      "error_conditions": [],
+      "id": 251431,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

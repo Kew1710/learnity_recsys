@@ -1,0 +1,45 @@
+{
+  "comment": "Распишем все возможные случаи в эксперименте:\n$$OO\\\\ OP\\\\ PO\\\\ PP$$\nОтсюда, всего бросков – 4, в 2-х из которых выпадет орёл ровно один раз, поэтому вероятность того, что решка выпадет ровно один раз:\n$$\\frac{2}{4}=0,5$$\nОтвет: 0,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 9813,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В случайном эксперименте симметричную монету бросают дважды. Найдите вероятность того, что решка выпадет ровно один раз.",
+      "error_conditions": [],
+      "id": 119717,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=5954"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=5954"
+}

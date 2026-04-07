@@ -1,0 +1,42 @@
+{
+  "comment": "Круговорот воды — глобальный процесс, который затрагивает всю биосферу. Правильный ответ — биосферный уровень организации живой природы.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2508,
+    "title": "Уровни организации и признаки живых систем"
+  },
+  "id": 16978,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "биосферный",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Уровни организации живой природы» и заполните ячейку, вписав соответствующий термин.\nУровень\nПример\n?\nКруговорот водыПопуляционно-видовойНемецкая овчарка",
+      "error_conditions": [],
+      "id": 236878,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "А) CH₂=CH-(CH₂)₂-CH(CH₃)-CH₃ - одна двойная связь в формуле – алкен\nБ) CH₃-CH(CH₃)-CH(CH₃)-CH₃ - только одинарные связи – алкан\nВ) CH₂=CH-CH(CH₃)-CH=CH-CH₃ - две двойные связи – алкадиен",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2805,
+    "title": "Классификация органических веществ"
+  },
+  "id": 4202,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "213",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между формулой вещества и классом/группой органических соединений, к которому(-ой) оно принадлежит: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nФОРМУЛА ВЕЩЕСТВА\nКЛАСС/ГРУППА\nОРГАНИЧЕСКИХ СОЕДИНЕНИЙ\nA) CH₂=CH-(CH₂)₂-CH(CH₃)-CH₃1) алканыБ) CH₃-CH(CH₃)-CH(CH₃)-CH₃2) алкеныB) CH₂=CH-CH(CH₃)-CH=CH-CH₃3) алкадиены 4) алкины",
+      "error_conditions": [],
+      "id": 66623,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=3120"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=3120"
+}

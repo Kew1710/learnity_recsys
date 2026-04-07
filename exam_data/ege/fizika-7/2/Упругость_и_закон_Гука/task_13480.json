@@ -1,0 +1,42 @@
+{
+  "comment": "$$F_{упр2}-F_{упр1}=0\\Rightarrow F_{упр1}=F_{упр2}$$\nПри этом:\n$$F=F_{упр2}=F_{упр1}$$\nСила упругости:\n$$F_{упр2}=k_2x_2$$\nТогда:\n$$F=F_{упр}\\\\ F=k_2x_2\\Rightarrow k_2=\\frac{F}{x_2}=\\frac{12}{0,03}=400~Н/м$$\n\nОтвет: 400 Н/м",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2614,
+    "title": "Упругость и закон Гука"
+  },
+  "id": 13480,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "400",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ВТ2\nК системе из кубика массой \\(3\\) кг и двух пружин приложена постоянная горизонтальная сила \\(F=12\\) Н (см. рисунок). Между кубиком и опорой трения нет. Система покоится. Край левой пружины прикреплен к вертикальной неподвижной стенке. Найдите жесткость правой пружины, если ее удлинение \\(x_2=3\\) см. Ответ дайте в Н/м.",
+      "error_conditions": [],
+      "id": 179159,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/n1_3ft5xkZw?start=986"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/n1_3ft5xkZw?start=986"
+}

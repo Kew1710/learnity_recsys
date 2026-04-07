@@ -1,0 +1,45 @@
+{
+  "comment": "Выполним сначала сложение векторов \\(\\vec{b}\\) и \\(\\vec{c}\\), затем найдем скалярное произведение полученного суммарного вектора и \\(\\vec{a}\\).\nПусть \\(\\vec{e}\\) - суммарный вектор, то есть \\(\\vec{e}=\\vec{b}+\\vec{c}\\). Тогда координаты \\(\\vec{e}\\) могут быть найдены как сумма соответствующих координат исходных векторов:\n$$\\vec{e}(x_{\\vec{b}}+x_{\\vec{c}};y_{\\vec{b}}+y_{\\vec{c}})$$\nЗначит, сначала необходимо найти координаты векторов \\(\\vec{a}\\), \\(\\vec{b}\\) и \\(\\vec{c}\\). Используем для этого рисунок:\nТогда:\n$$\\vec{a}(-6;5)\\\\ \\vec{b}(0;5)\\\\ \\vec{c}(-7;-5)$$\nЗначит, вектор \\(\\vec{e}\\) имеет координаты:\n$$\\vec{e}(x_{\\vec{b}}+x_{\\vec{c}};y_{\\vec{b}}+y_{\\vec{c}})\\\\ \\vec{e}(0+(-7);5+(-5))\\\\ \\vec{e}(-7;0)$$\nТогда скалярное произведение \\(\\vec{a}\\) и \\(\\vec{e}\\):\n$$\\vec{a}\\cdot\\vec{e}=x_{\\vec{a}}\\cdot x_{\\vec{e}}+y_{\\vec{a}}\\cdot y_{\\vec{e}}=(-6)\\cdot (-7)+5\\cdot 0=42$$\nОтвет: 42",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2383,
+    "title": "2.2 Скалярное произведение векторов"
+  },
+  "id": 26138,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной плоскости изображены векторы \\(\\vec{a}\\), \\(\\vec{b}\\) и \\(\\vec{c}\\). Найдите скалярое произведение \\(\\vec{a}\\cdot (\\vec{b}+\\vec{c})\\).",
+      "error_conditions": [],
+      "id": 245777,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=3410s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=3410s"
+}

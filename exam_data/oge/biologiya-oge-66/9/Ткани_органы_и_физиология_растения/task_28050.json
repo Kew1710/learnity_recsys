@@ -1,0 +1,42 @@
+{
+  "comment": "Генеративные органы растения это цветок, семя, плод, соответственно они и способны к генеративному размножению.\n\n346 - вегетативные органы растений, они способны к вегетативному размножению.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2922,
+    "title": "Ткани, органы и физиология растения"
+  },
+  "id": 28050,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "125",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Какие органы обеспечивают генеративное размножение растений?\n\n1) семена\n2) плоды\n3) листья\n4) корнеплоды\n5) цветки\n6) подземные побеги",
+      "error_conditions": [],
+      "id": 247689,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

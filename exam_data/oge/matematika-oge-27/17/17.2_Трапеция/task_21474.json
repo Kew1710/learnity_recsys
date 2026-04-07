@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( \\angle CDA = 40 + 24 = 64^o\\)\n\\(\\angle BAD = \\angle CDA = 64^o\\) т.к. трапеция равнобедренная\n\\( \\angle ABD = 180 - 64 - 40 = 76^o\\) - из треугольника ABD",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1985,
+    "title": "17.2 Трапеция"
+  },
+  "id": 21474,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "76",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В трапеции ABCD AB=CD, \\( \\angle BDA=40^o\\) и \\( \\angle BDC=24^o\\) . Найдите \\( \\angle ABD\\) . Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 241242,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "В первой пробирке с раствором хлороводорода осадок даст K₂SiO₃:\n2HCl + K₂SiO₃ = H₂SiO₃↓ + 2KCl\nВо второй пробирке выделение газа происходит при взаимодействии соляной кислоты и раствора гидрокарбоната кальция:\n2HCl + Ca(HCO₃)₂ = CaCl₂ + 2CO₂↑ + 2H₂O\n\nX - K₂SiO₃, Y - Ca(HCO₃)₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2799,
+    "title": "Характерные химические свойства оксидов, оснований, кислот, амфотерных гидроксидов и солей"
+  },
+  "id": 35181,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "51",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Даны две пробирки с раствором хлороводорода. К первой пробирке добавили раствор вещества X, ко второй - раствор вещества Y. В результате в первой пробирке наблюдали выпадение осадка, а во второй пробирке - выделение газа.\nИз предложенного перечня выберите вещества X и Y, которые могут вступать в описанные реакции.\n1) Ca(HCO₃)₂\n2) AgBr\n3) Ba(NO₃)₂\n4) Al(OH)₃\n5) K₂SiO₃",
+      "error_conditions": [],
+      "id": 254820,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/O-lOInk7drY?t=2270s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/O-lOInk7drY?t=2270s"
+}

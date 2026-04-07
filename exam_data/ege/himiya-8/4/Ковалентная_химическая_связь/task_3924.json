@@ -1,0 +1,42 @@
+{
+  "comment": "Проанализируем предложенные варианты ответа:\n1) Na₂SO₄ - неорганическая соль, ионное строение\n2) HCOOH - карбоновая кислота, молекулярное строение, содержит только ковалентные полярные связи\n3) CH₄ - углеводород, молекулярное строение, содержит только ковалентные полярные связи\n4) CaO - оксид металла, ионное строение\n5) Cl₂ - простое вещество-неметалл, молекулярное строение, содержит ковалентную неполярную связь между атомами хлора\n\nВерные варианты ответа: HCOOH и CH₄ (23)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2789,
+    "title": "Ковалентная химическая связь"
+  },
+  "id": 3924,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества молекулярного строения с ковалентной полярной связью.\n1) Na₂SO₄\n2) HCOOH\n3) CH₄\n4) CaO\n5) Cl₂",
+      "error_conditions": [],
+      "id": 66314,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/PqTe_O2GHvM?start=1913"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/PqTe_O2GHvM?start=1913"
+}

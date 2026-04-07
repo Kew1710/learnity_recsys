@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(R=AH\\); \\(r=HB\\)\nПо свойству высоты из прямого угла или из подобия треугольников \\(CHA\\) и \\(CHB\\) имеем:\n$$CH^2 = AH\\cdot HB\\\\ \\frac{S_1}{S_2}= \\frac{\\pi R^{2}}{\\pi r^{2}} = \\frac{R^2}{r^2}~(S_1 – площадь~большей~окружности, S_2 - меньшей)\\\\ CH^2=2R\\cdot 2r$$\nПоделим обе части уравнения на \\(r^2\\):\n\\(\\dfrac{{CH}^{2}}{r^2}=\\dfrac{4R}{r}\\) (*)\nИз \\(\\triangle{CHB}\\):\n$$tg \\angle{ABC}=\\frac{CH}{HB}=\\frac{CH}{2r}\\Rightarrow\\frac{CH}{r}=2 tg \\angle{ABC}$$\nИз (*): \\(4{tg}^2\\angle{ABC}=\\dfrac{4R}{r}\\Rightarrow {tg}^2 \\angle{ABC} =\\dfrac{R}{r}\\) $$\\frac{S_1}{S_2}=\\frac{R_2}{r_2}=({tg}^2\\angle{ABC})^2= {tg}^4\\angle{ABC}\\\\ Ч. т. д.$$\nб)\n\\(\\angle APH = 90^\\circ\\) (\\(AH\\) диаметр)\n\\(\\angle HQB = 90^\\circ\\) (\\(HB\\) диаметр)\n\\(\\angle ACB = 90^\\circ\\)\n\\(PHQC\\) – прямоугольник\n$$S_{O_1PQO_2}=S_{PO_1H}+S_{PHQ}+S_{HQO_2}$$\n\\(S_{PO_1H}=\\frac{1}{2}S_{APH}\\) (\\(PO_1\\) – медиана, которая разделяет на 2 равновеликих)\n\\(S_{HQO_2}=\\frac{1}{2}S_{HQB}\\) (\\(QO_2\\) – медиана, которая разделяет на 2 равновеликих)\n\\(S_{PHQ}=\\frac{1}{2}S_{CPHQ}\\) (\\(PQ\\) – диагональ прямоугольника)\n\nТогда:\n$$S_{O_1PQO_2}=\\frac{1}{2}S_{APH}+\\frac{1}{2}S_{CPHQ}+\\frac{1}{2}S_{HQB}=\\frac{1}{2}(S_{APH}+S_{CPHQ}+S_{HQB})=\\frac{1}{2}S_{ABC}\\\\ S_{O_1PQO_2}=\\frac{1}{2}\\cdot\\frac{1}{2}AC\\cdot CB=\\frac{1}{2}\\cdot\\frac{1}{2}\\cdot 22\\cdot 18=99$$\nОтвет: 99.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2489,
+    "title": "17.9 Система окружностей"
+  },
+  "id": 9752,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Из вершины \\(С\\) прямого угла прямоугольного треугольника \\(ABC\\) проведена высота \\(CH\\).\nа)  Докажите, что отношение площадей кругов, построенных на отрезках \\(AH\\) и \\(BH\\) соответственно как на диаметрах равно \\(tg^4\\angle ABC\\).\nб)  Пусть точка \\(O_1\\)  — центр окружности диаметра \\(AH\\), вторично пересекающей отрезок \\(AC\\) в точке \\(P\\), а точка \\(O_2\\) — центр окружности с диаметром \\(BH\\), вторично пересекающей отрезок \\(BC\\) в точке \\(Q\\). Найдите площадь четырёхугольника \\(O_1PQO_2\\), если \\(AC=22\\), \\(BC=18\\).",
+      "error_conditions": null,
+      "id": 117489,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

@@ -1,0 +1,46 @@
+{
+  "comment": "Государственная граница с Китаем проходит в Амурской области по реке Амур.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2961,
+    "title": "6.1.2 Географическое положение и границы России"
+  },
+  "id": 29035,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "китай",
+          "points": 1
+        },
+        {
+          "answer": "китаем",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Вставьте название государства на место пропуска.\n\nОдним из пограничных субъектов РФ является Амурская область, которая имеет выход к Государственной границе РФ с ___________.",
+      "error_conditions": [],
+      "id": 248674,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

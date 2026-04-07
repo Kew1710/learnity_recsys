@@ -1,0 +1,42 @@
+{
+  "comment": "Скорость света в воде равна:\n$$v_в=vn,$$\nв менее плотной среде скорость больше.\n\nДлина волны в воде равна: $$\\lambda_вn_в=n_{ст}\\lambda_{ст}$$ $$\\lambda_{ст}=\\frac{v}{\\nu}$$\nгде $$\\lambda_в=\\frac{n_{ст}}{n_в}\\lambda_{ст}=n\\lambda_{ст}$$ $$\\lambda_в=n\\frac{v}{\\nu}$$\nОтвет: 14",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 12992,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "23802\nИз стекла в воду переходит пучок света. Скорость света в стекле – \\(v\\), частота световой волны – \\(\\nu\\), показатель преломления стекла относительно воды – \\(n\\). Установите соответствие между физическими величинами и формулами, по которым их можно рассчитать. К каждой позиции первого столбца подберите соответствующую позицию второго и запишите в таблицу выбранные цифры под соответствующими буквами.\nФИЗИЧЕСКИЕ ВЕЛИЧИНЫ\nФОРМУЛЫ\nА) скорость света в воде\nБ) длина волны света в воде\n1) \\(vn\\)\n2) \\(\\frac{v}{n}\\)\n3) \\(vn\\nu \\)\n4) \\(\\frac{vn}{\\nu}\\)\nА\nБ",
+      "error_conditions": [],
+      "id": 174863,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/wZknReiKLww"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/wZknReiKLww"
+}

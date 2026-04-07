@@ -1,0 +1,40 @@
+{
+  "comment": "Рассмотрим случаи раскрытия модулей:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 2\\\\ 3( x+3) -3x\\leq 14-( x-2) \\end{cases}\\\\ \\begin{cases} -3< x< 2\\\\ 3( x+3) -3x\\leq 14-( 2-x) \\end{cases}\\\\ \\begin{cases} x\\leq -3\\\\ 3( -x-3) -3x\\leq 14-( 2-x) \\end{cases} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 2\\\\ 3x+9-3x\\leq 14-x+2 \\end{cases}\\\\ \\begin{cases} -3< x< 2\\\\ 3x+9-3x\\leq 14-2+x \\end{cases}\\\\ \\begin{cases} x\\leq -3\\\\ -3x-9-3x\\leq 14-2+x \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 2\\\\ x\\leq 7 \\end{cases}\\\\ \\begin{cases} -3< x< 2\\\\ -3\\leq x \\end{cases}\\\\ \\begin{cases} x\\leq -3\\\\ -21\\leq 7x \\end{cases} \\end{array} \\right. \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 2\\\\ x\\leq 7 \\end{cases}\\\\ \\begin{cases} -3< x< 2\\\\ -3\\leq x \\end{cases}\\\\ \\begin{cases} x\\leq -3\\\\ -3\\leq x \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} x\\in [ 2;7]\\\\ x\\in ( -3;2)\\\\ x=-3 \\end{array} \\right. \\Rightarrow x\\in [ -3;7] \\end{array}$$\nОтвет: \\([-3;7]\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2473,
+    "title": "15.7 Сложные неравенства"
+  },
+  "id": 32075,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(3|x+3|-3x\\leq 14-|2-x|\\).",
+      "error_conditions": null,
+      "id": 251714,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/6N3xrdlnT0o?si=zwp9nTdjhNOihoPs&t=865"
+}

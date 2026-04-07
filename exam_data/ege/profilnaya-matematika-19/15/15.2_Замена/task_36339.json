@@ -1,0 +1,40 @@
+{
+  "comment": "Введём замену \\(x^2 = t\\). Тогда: $$ 2t^2 - 17t + 36 \\ge 0 \\\\ 2\\left(t^2 - \\frac{17}{2}t + 18\\right) \\ge 0 \\\\ 2(t-4)\\left(t-\\frac{9}{2}\\right) \\ge 0 \\\\ 2(t-4)\\left(t-4, \\! 5\\right) \\ge 0 $$ Используем для решения метод интервалов:\nТогда \\(t \\in (-\\infty; 4] \\cup [4, \\! 5;+\\infty)\\)\n\nПроизведём обратную замену: $$ t \\in (-\\infty; 4] \\cup [4, \\! 5;+\\infty) \\Leftrightarrow \\left[ \\begin{array}{l} t \\le 4 \\\\ t \\ge 4, \\! 5 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l} x^2 \\le 4 \\\\ x^2 \\ge \\frac{9}{2} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l} x^2 -4 \\le 0 \\\\ x^2 - \\frac{9}{2} \\ge 0 \\end{array} \\right. \\Leftrightarrow \\\\ \\Leftrightarrow \\left[ \\begin{array}{l} (x-2)(x+2) \\le 0 \\\\ \\left(x-\\frac{3}{\\sqrt{2}}\\right)\\left(x+\\frac{3}{\\sqrt{2}}\\right) \\ge 0 \\end{array} \\right.\n$$ И снова используем для решения метод интервалов:\n$$ \\left[ \\begin{array}{l} (x-2)(x+2) \\le 0 \\\\ \\left(x-\\frac{3}{\\sqrt{2}}\\right)\\left(x+\\frac{3}{\\sqrt{2}}\\right) \\ge 0 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l} x \\in [-2;2] \\\\ x \\in \\left(-\\infty; -\\frac{3}{\\sqrt{2}}\\right] \\cup \\left[\\frac{3}{\\sqrt{2}}; +\\infty\\right) \\end{array} \\right. $$ Сравним \\(\\frac{3}{\\sqrt{2}}\\) и \\(2\\): $$ \\frac{3}{\\sqrt{2}} \\ \\vee \\ 2 \\ \\ | \\cdot \\frac{\\sqrt{2}}{2} \\\\ \\frac{3}{2} \\ \\vee \\ \\sqrt{2} \\ \\ | \\ возведём \\ обе \\ части \\ в \\ квадрат \\\\ \\frac{9}{4} \\ \\vee \\ 2 \\\\ \\frac{9}{4} > 2 \\Rightarrow \\frac{3}{\\sqrt{2}} > 2 \\Rightarrow -\\frac{3}{\\sqrt{2}} < -2 $$ Тогда:\nОткуда \\(x \\in \\left(-\\infty; -\\frac{3}{\\sqrt{2}}\\right] \\cup [-2;2] \\cup \\left[\\frac{3}{\\sqrt{2}};+\\infty\\right)\\)\n\nОтвет: \\(\\left(-\\infty; -\\frac{3}{\\sqrt{2}}\\right] \\cup [-2;2] \\cup \\left[\\frac{3}{\\sqrt{2}};+\\infty\\right)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2468,
+    "title": "15.2 Замена"
+  },
+  "id": 36339,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решить неравенство \\(2x^4-17x^2+36 \\ge 0\\).",
+      "error_conditions": null,
+      "id": 255989,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/watch?v=dQDW_xKHLIQ&t=9067s"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$7-3x=4^3\\\\ 7-3x=64\\\\ x=-19$$\nОтвет: -19",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2403,
+    "title": "6.5 Логарифмические"
+  },
+  "id": 3235,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\log_4(7-3x)=3\\).",
+      "error_conditions": [],
+      "id": 64813,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3054"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3054"
+}

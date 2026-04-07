@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - параллелограмм\nт. \\(F \\in ABCD\\)\nДоказать:\n\\(S_{BFC}+S_{AFD}=\\cfrac{1}{2}S_{ABCD}\\)\nДоказательство:\n1) Проведём \\( KM \\perp AD\\) через т. F, тогда\n\\(S_{ABCD}= KM \\cdot AD\\)\n2) \\( S_{BFC}=\\cfrac{1}{2}FK \\cdot BC (FK \\perp BC, т.к. FK \\in KM)=\\cfrac{1}{2}FK \\cdot AD (BC=AD) \\)\n\\( S_{AFD}=\\cfrac{1}{2}FM \\cdot AD (FM \\perp AD, т.к. FM \\in KM )\\)\n\\( S_{BFC}+S_{AFD}=\\cfrac{1}{2}FK \\cdot AD+ \\cfrac{1}{2}FM \\cdot AD= \\cfrac{1}{2}AD(FK+FM)=\\cfrac{1}{2}AD \\cdot KM = \\cfrac{1}{2} S_{ABCD}\\), ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1943,
+    "title": "24.1 Параллелограмм, прямоугольник, ромб"
+  },
+  "id": 13031,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Внутри параллелограмма ABCD выбрали произвольную точку F. Докажите, что сумма площадей треугольников BFC и AFD равна половине площади параллелограмма.",
+      "error_conditions": null,
+      "id": 175085,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Площадь обкладок первого конденсатора:\n$$S_1=\\pi R^2$$\nПлощадь обкладок второго конденсатора:\n$$S_2=\\pi (\\frac{R}{3})^2=\\frac{\\pi R^2}{9}\\Rightarrow S_1=9S_2$$\nЭлектроемкость конденсатора:\n$$c=\\frac{\\varepsilon\\varepsilon_0S}{d}\\\\ \\frac{\\varepsilon_1\\varepsilon_0S_1}{d}=\\frac{\\varepsilon_2\\varepsilon_0S_2}{d}\\Rightarrow \\varepsilon_2=9$$\nОтвет: 9",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 9621,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23476\nИмеется два плоских конденсатора, обкладками которого являются круглые пластины. Радиус обкладок первого конденсатора \\(R\\), расстояние между ними \\(d\\), а изолирующим материалом служит воздух. Второй конденсатор состоит из двух пластин радиусом \\(\\frac{R}{3}\\), зазор между которыми равен \\(d\\), а в качестве изолирующего материала используется некоторое вещество. Чему равна диэлектрическая проницаемость данного вещества, если емкости описанных выше конденсаторов равны?",
+      "error_conditions": [],
+      "id": 116514,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/7Ab_XHZuO20"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/7Ab_XHZuO20"
+}

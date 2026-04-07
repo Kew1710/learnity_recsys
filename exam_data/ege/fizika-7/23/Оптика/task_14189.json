@@ -1,0 +1,37 @@
+{
+  "comment": "$$1'=\\frac{1}{60}^\\circ$$\nРазность хода волн:\n$$\\Delta L=d\\sin\\phi$$\n\\(\\Delta L=\\lambda\\) для 1-го максимума\n$$\\lambda=d\\sin\\phi=3\\cdot 10^{-3}\\cdot\\sin(\\frac{1}{60}^\\circ)=0,873~мкм$$\nОтвет: 0,873 мкм",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 14189,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "238510\nМинимальный угол зрения человека, под которым разрешимы два близко расположенных объекта, равен \\(1'\\). У глаза расположен экран с двумя малыми отверстиями. Явление интерференции может наблюдаться при расстоянии между отверстиями в экране не более \\(3\\) мм. Определите длину световой волны, исходящей от точечного источника света, расположенного с другой стороны экрана.",
+      "error_conditions": null,
+      "id": 189436,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/xewplLmFkD4"
+}

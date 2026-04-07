@@ -1,0 +1,42 @@
+{
+  "comment": "Уравнение реакции:\n$$_Z^AX=_{Z-2}^{A-12}Y+x\\cdot _2^4\\alpha+y\\cdot _{-1}^0\\beta$$\nРавенство массовых чисел:\n$$A=A-12+4x\\Rightarrow x=3$$\nРавенство зарядовых чисел:\n$$Z=Z-2+2\\cdot 3-y\\Rightarrow y=4$$\nОтвет: 4",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3337,
+    "title": "Распады и ядерные реакции"
+  },
+  "id": 14360,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "238914\nЯдро \\(_Z^AX\\) превращается в ядро \\(_{Z-2}^{A-12}Y\\) в ходе ядерной реакции, состоящей из нескольких \\(\\alpha\\)- и \\(\\beta\\)- распадов. Сколько \\(\\beta\\)- распадов испытало ядро \\(_Z^AX\\) в данной ядерной реакции?",
+      "error_conditions": [],
+      "id": 202924,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/GIYrGDAJ1ec"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/GIYrGDAJ1ec"
+}

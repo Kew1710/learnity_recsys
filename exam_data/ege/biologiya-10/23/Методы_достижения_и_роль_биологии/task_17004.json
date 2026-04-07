@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ:\n1) световой микроскоп легче, компактнее (проще в обращении, значительно дешевле), и не требует сложной подготовки препаратов.\n2) в световой микроскоп можно рассматривать живые клетки и видеть цветное изображение (можно видеть движение цитоплазмы с органоидами, стадии деления клетки)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2507,
+    "title": "Методы, достижения и роль биологии"
+  },
+  "id": 17004,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какие преимущества имеет световой микроскоп перед электронным?",
+      "error_conditions": null,
+      "id": 236902,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

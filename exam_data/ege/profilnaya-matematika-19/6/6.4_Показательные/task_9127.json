@@ -1,0 +1,45 @@
+{
+  "comment": "Это показательное уравнение. Для решения таких уравнений нужно обе части привести к одному основанию. Основание это то, что стоит внизу. В нашем номере это будет \\(2\\).\n\nСмотрим на \\(\\frac{1}{16}\\) и понимаем, что:\n$$\\frac{1}{16}=16^{-1}=(2^4)^{-1}=2^{-4}\\\\ 2^{x-3}=2^{-4}$$\nОснования одинаковые, значит, показатели тоже равны:\n$$x-3=-4\\\\ x=-1$$\nОтвет: -1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2402,
+    "title": "6.4 Показательные"
+  },
+  "id": 9127,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(2^{x-3}=\\frac{1}{16}\\).",
+      "error_conditions": [],
+      "id": 112862,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=2765"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=2765"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 3x-2(x-2)> -4 \\)\n\\( x + 4 > -4\\)\n\\( x > -4 -4\\)\n\\( x > -8 \\)\n\\(x \\in (-8; + \\infty) \\)\nОтвет: 2",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1967,
+    "title": "13.1 Линейные неравенства"
+  },
+  "id": 24843,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите решение неравенства \\( 3x-2(x-2)> -4 \\)\n- \\( (0; +\\infty) \\)\n- \\( (-8; + \\infty) \\)\n- \\( (-\\infty;0) \\)\n- \\( (-\\infty; -8) \\)",
+      "error_conditions": [],
+      "id": 244499,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

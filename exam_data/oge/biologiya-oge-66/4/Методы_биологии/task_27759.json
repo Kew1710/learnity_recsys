@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2912,
+    "title": "Методы биологии"
+  },
+  "id": 27759,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Изучите график зависимости роста насекомого от времени (по оси х отложено время (дни), а по оси у -- длина насекомого (см)).\nКакие два из приведённых ниже описаний характеризуют данную зависимость?\n\nРазмер личинок\n1) постоянен с 14-го по 30-й день\n2) не увеличивается после 31-го дня\n3) увеличивается с постоянной скоростью весь период наблюдений\n4) скачкообразно увеличивается с 6-го по 23-й день\n5) постоянен с 15-го по 22-й день",
+      "error_conditions": [],
+      "id": 247398,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

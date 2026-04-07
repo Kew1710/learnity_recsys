@@ -1,0 +1,45 @@
+{
+  "comment": "Графиком зависимости является парабола ветвями вниз, найдем нули этой функции при \\(h=6\\):\n$$6=1,6+13t-5t^2\\\\ 5t^2-13t+4,4=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} t=2,2\\\\ t=0,4 \\end{array} \\right.$$\nИскомое время равно разнице между корнями, так как именно в этом интервале мяч находится выше отметки в \\(6\\) метров, то есть \\(2,2-0,4=1,8\\).\nОтвет: 1,8",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2426,
+    "title": "9.6 Квадратные уравнения и неравенства"
+  },
+  "id": 16789,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Высота над землeй подброшенного вверх мяча меняется по закону \\(h(t)=1,6+13t-5t^2\\), где \\(h\\) — высота в метрах, \\(t\\) — время в секундах, прошедшее с момента броска. Сколько секунд мяч будет находиться на высоте не менее \\(6\\) метров?",
+      "error_conditions": [],
+      "id": 236695,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=6084"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=6084"
+}

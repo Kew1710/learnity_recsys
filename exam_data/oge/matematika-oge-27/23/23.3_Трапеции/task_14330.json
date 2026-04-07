@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - трапеция\nAD=50\nBC=30\nCF:DF =7:3\nНайти:\nEF - ?\nРешение:\nПусть CF = 7x, тогда DF = 3x\nПроведем ВН||CD\nAH = AD - BC = 50 - 30 = 20\nBH = 7x + 3x = 10x\n\\( \\triangle EBK\\) и \\(\\triangle ABH\\):\n\\(\\angle B\\) - общий\n\\(\\angle BAH, \\angle BEK\\) - соответственные\n\\( \\Rightarrow \\triangle EBK \\sim \\triangle ABH\\)\n\\(\\cfrac{EK}{AH} = \\cfrac{BK}{BH}\\)\n\\(\\cfrac{EK}{10} = \\cfrac{7x}{10x}\\)\n\\( EK = \\cfrac{20 \\cdot 7}{10} = 14\\)\n\\(EF = EK + KF = 14 + 30 = 44\\)\nОтвет: 44",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2012,
+    "title": "23.3 Трапеции"
+  },
+  "id": 14330,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Прямая, параллельная основаниям трапеции ABCD, пересекает её боковые стороны AB и CD в точках E и F соответственно. Найдите длину отрезка EF, если AD=50, BC=30, CF:DF=7:3.",
+      "error_conditions": null,
+      "id": 202459,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Мощность, выделяемую в цепи, можно вычислить по формуле: $P=\\frac{U^2}{R_o}$\nНайдем общее сопротивление: $$R_o=R_1+R_2=4+8=12~Ом$$\nОбщее напряжение показано на вольтметре и равно 24 В, тогда мощность равна: $$P=\\frac{U^2}{R_o}=\\frac{24^2}{12}=48~Вт$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34636,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Два резистора соединены, как показано на рисунке. Сопротивление резисторов: \\(R_1\\) = $4$ Ом, \\(R_2\\) = $8$ Ом. Какая мощность выделяется на участке цепи, если показания вольтметра составляют $24$ В?",
+      "error_conditions": null,
+      "id": 254275,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

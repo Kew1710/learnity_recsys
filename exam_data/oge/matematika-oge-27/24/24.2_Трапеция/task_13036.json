@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - трапеция\nCP - биссектриса \\( \\angle C \\)\nPD - биссектриса \\( \\angle D \\)\n\\(CP \\cap PD= P \\)\n\\( P \\in AB \\)\nДоказательство:\nПо свойству биссектрисы угла точка Р равноудалена от прямых AD и CD (так как лежит на биссектрисе угла D) и равноудалена от прямых BC и CD (так как лежит на биссектрисе угла С). Значит, точка Р равноудалена от всех трех указанных прямых, ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1944,
+    "title": "24.2 Трапеция"
+  },
+  "id": 13036,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Биссектрисы углов C и D трапеции ABCD пересекаются в точке P, лежащей на стороне AB. Докажите, что точка P равноудалена от прямых BC, CD и AD.",
+      "error_conditions": null,
+      "id": 175090,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

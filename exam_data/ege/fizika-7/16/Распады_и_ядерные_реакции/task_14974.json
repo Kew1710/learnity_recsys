@@ -1,0 +1,42 @@
+{
+  "comment": "Распалось:\n$$\\nu_{60}=\\nu_{0}\\cdot 2^{-\\frac{60}{20}}=\\frac{N}{N_a}\\cdot 2^{-3}=\\frac{6\\cdot 10^{23}}{6\\cdot 10^{23}\\cdot 8}=0,125~моль$$\nЗначит в сосуде осталось:\n$$1-0,125=0,875~моль$$\nОтвет: 0,875",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3337,
+    "title": "Распады и ядерные реакции"
+  },
+  "id": 14974,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,875",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "239510\nВ закрытом сосуде, в котором создан вакуум, находится образец некоторого радиоактивного элемента. Ядра данного элемента испытывают \\(\\alpha\\)-распад с периодом полураспада \\(20\\) суток. Определите количество вещества гелия в сосуде через \\(60\\) суток, если образец радиоактивного элемента в момент помещения в сосуд содержал \\(6\\cdot 10^{23}\\) атомов. Ответ дайте в моль.",
+      "error_conditions": [],
+      "id": 215924,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/SdVQ9LhMrEg"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/SdVQ9LhMrEg"
+}

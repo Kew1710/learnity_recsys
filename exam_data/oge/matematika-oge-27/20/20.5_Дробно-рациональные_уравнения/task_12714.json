@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{1}{(x-1)^2}+\\cfrac{3}{x-1}-10=0\\)\nОДЗ: \\(x-1 \\neq 0\\)\n\\(\\Rightarrow x \\neq 1\\)\nПусть \\(x-1=t\\), тогда \\((x-1)^2=t^2\\)\nУмножим обе части уравнения на \\(t^2 \\neq 0\\)\n\\(1+3t-10t^2=0\\)\n\\(10t^2-3t-1=0\\)\n\\(D=9+40=49\\)\n\\(t_1=-\\cfrac{1}{5}\\)\n\\(t_2=\\cfrac{1}{2}\\)\n\\(1) x-1=-\\cfrac{1}{5}\\)\n\\(x=\\cfrac{4}{5}\\)\n\\(2) x-1=\\cfrac{1}{2}\\)\n\\(x=\\cfrac{3}{2}\\)\nОтвет: \\(\\cfrac{4}{5}; \\cfrac{3}{2}\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2052,
+    "title": "20.5 Дробно-рациональные уравнения"
+  },
+  "id": 12714,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(\\cfrac{1}{(x-1)^2}+\\cfrac{3}{x-1}-10=0\\) .",
+      "error_conditions": null,
+      "id": 172514,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

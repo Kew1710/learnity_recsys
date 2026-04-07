@@ -1,0 +1,42 @@
+{
+  "comment": "Высшую нервную система человека характеризуют:\n2) способность к абстрактному мышлению\n4) осознанная речь\n5) общение знаками, символами, понятиями",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 5060,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "245",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Признаки, характеризующие специфическую высшую нервную деятельность человека.\n1) реализуются безусловные рефлексы\n2) способность к абстрактному мышлению\n3) способность реагировать на знакомое слово\n4) осознанная речь\n5) общение знаками, символами, понятиями\n6) сформированное условно-рефлекторное поведение",
+      "error_conditions": [],
+      "id": 70316,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/vrxhAYdDauo?start=700"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/vrxhAYdDauo?start=700"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nЗаметим, что \\(a \\approx 4,5\\)\n\\( 1) 5-4,5 <0 \\Rightarrow 0,5 <0\\). Неверно\n\\(2) 4,5 - 6 > 0 \\Rightarrow -1,5 >0\\). Неверно\n\\(3) 4,5 - 5 > 0 \\Rightarrow -0,5 <0\\). Верно\n\\(4) 4 - 4,5 < 0 \\Rightarrow -0,5 >0\\). Неверно\nОтвет: 3",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 21387,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечено число a. Какое из утверждений для этого числа является верным?",
+      "error_conditions": [],
+      "id": 241162,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

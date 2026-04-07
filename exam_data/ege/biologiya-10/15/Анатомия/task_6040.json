@@ -1,0 +1,42 @@
+{
+  "comment": "Неправильная осанка у подростков может привести к\n2) деформации грудной клетки\n4) смещению и сдавливанию внутренних органов\n5) нарушению кровоснабжения внутренних органов",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 6040,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "245",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны. Неправильная осанка у подростков может привести к\n1) ослаблению действия ферментов\n2) деформации грудной клетки\n3) увеличению содержания солей кальция в костях\n4) смещению и сдавливанию внутренних органов\n5) нарушению кровоснабжения внутренних органов\n6) нарушению работы гипофиза",
+      "error_conditions": [],
+      "id": 72511,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/LZ-uWWOY3ao?start=634"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/LZ-uWWOY3ao?start=634"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Для фарша использовали 1 часть говядины и 9 части баранины - всего 10 частей.\nДоля баранины в фарше составляет \\(9 / 10 = 0,9\\) или \\(0,9 \\cdot 100\\% = 90\\%\\)\nОтвет: 90.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2115,
+    "title": "15.2 Задачи на доли"
+  },
+  "id": 26022,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "90",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Для приготовления фарша взяли говядину и баранину в отношении 1 : 9 соответственно. Какой процент в фарше составляет баранина?",
+      "error_conditions": [],
+      "id": 245661,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

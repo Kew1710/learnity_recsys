@@ -1,0 +1,42 @@
+{
+  "comment": "Щелочи- это растворимые основания\nАмфотерные гидроксиды - гидроксиды металлов, в степени оксиления +3, +4 и исключения ( \\(Zn(OH)_{2}\\), \\(Be(OH)_{2}\\), \\(Pb(OH)_{2}\\))\n1) \\(K_{2}CO_{3}\\) - соль\n2) \\(Ca(OH)_{2}\\) - щелочь\n3) \\(Na_{2}O\\) - основный оксид\n4) \\(AlCl_{3}\\) - соль\n5) \\(Zn(OH)_{2}\\) - амфотерный гидроксид (исключение)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2888,
+    "title": "Классификация и номенклатура неорганических соединений"
+  },
+  "id": 35996,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня веществ выберите щёлочь и амфотерный гидроксид.\n\n1) \\(K_{2}CO_{3}\\)\n2) \\(Ca(OH)_{2}\\)\n3) \\(Na_{2}O\\)\n4) \\(AlCl_{3}\\)\n5) \\(Zn(OH)_{2}\\)\n\nЗапишите в поле ответа сначала номер щёлочи, а затем номер амфотерного гидроксида.",
+      "error_conditions": [],
+      "id": 255637,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Количество теплоты будет складываться из теплоты, требующейся на нагревание воды и кастрюли: $$Q=Q_1+Q_2 \\\\ Q_1=c_1m_1\\Delta t \\\\ Q_2=c_2m_2\\Delta t$$\nМасса воды равна: $$m_1={\\rho}V$$\nПодставим: $$Q=c_1{\\rho}V\\Delta t+c_2m_2\\Delta t=\\Delta t(c_1{\\rho}V+c_2m_2) \\\\ Q=(100-20)\\cdot (4200\\cdot 1000\\cdot 1\\cdot 10^{-3}+920\\cdot 0,2)=350720~Дж=350,72~кДж$$\n\nОтвет: 350,72 кДж",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3247,
+    "title": "2.8 Нагревание и охлаждение тел. Количество теплоты. Удельная теплоёмкость"
+  },
+  "id": 33984,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какое количество теплоты необходимо, чтобы нагреть 1 л воды от 20 ºС до 100 ºС? Вода нагревается в алюминиевой кастрюле массой 200 г. Тепловыми потерями в окружающую среду пренебречь.",
+      "error_conditions": null,
+      "id": 253623,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

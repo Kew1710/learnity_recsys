@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nТ.к. ABCD является прямоугольником, AC = BD\n\\( AC = BD = BO \\cdot 2 = 11 \\cdot 2 = 22\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1986,
+    "title": "17.3 Прямоугольник"
+  },
+  "id": 21502,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "22",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Диагонали AC и BD прямоугольника ABCD пересекаются в точке O, BO=11, AB=10 . Найдите AC.",
+      "error_conditions": [],
+      "id": 241269,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

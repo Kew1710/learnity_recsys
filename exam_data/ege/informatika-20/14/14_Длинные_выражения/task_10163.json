@@ -1,0 +1,45 @@
+{
+  "comment": "Перепишем выражение в программу, после этого создаём цикл с условием (while n > 0), и начинаем перебирать каждый разряд, проверяя, равен ли он 5 (в системе счисления с основанием 6). Для подсчёта цифр «5» создаём отдельную переменную k5.\n\nPython:\n\nn = 5*216**1255 + 4*36**1256 - 4*6**1257 - 2023\nk5 = 0\nwhile n>0:\nif n%6 == 5:\nk5 += 1\nn = n//6\nprint (k5)\n\nВидеоразбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2727,
+    "title": "№14 Длинные выражения"
+  },
+  "id": 10163,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2508",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Значение арифметического выражения\n\\(5 \\cdot 216^{1225} + 4 \\cdot 36^{1256} - 4 \\cdot 6^{1257} - 2023\\)\nзаписали в системе счисления с основанием 6. Определите количество цифр 5 в записи этого числа.",
+      "error_conditions": [],
+      "id": 122442,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/hbB9Y_QNl20?start=7430"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 33,
+    "title": "Системы счисления"
+  },
+  "video_link": "https://www.youtube.com/embed/hbB9Y_QNl20?start=7430"
+}

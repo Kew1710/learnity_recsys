@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 10179,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Текстовый файл состоит из символов E, D и F.\nОпределите максимальную длину непрерывной последовательности символов, состоящей из чередующихся символов D\nи F в прилагаемом файле. Искомая последовательность может начинаться как с символа D, так и с символа F.\nДля выполнения этого задания следует написать программу.",
+      "error_conditions": [],
+      "id": 122458,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1080,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": null
+}

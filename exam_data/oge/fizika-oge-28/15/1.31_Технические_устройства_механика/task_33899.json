@@ -1,0 +1,42 @@
+{
+  "comment": "Сначала найдём, чему равна шкала деления. Выберем любые два соседних значения (пусть это будут 30 и 60). Между ними три деления, значит, ЦД = (60-30)/3=10.\nМаксимальное проградуированное значение на мензурке - 120 мл, это и есть предел измерения.\nОтвет: 10 мл, 120 мл",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3239,
+    "title": "1.31 Технические устройства: механика"
+  },
+  "id": 33899,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображена мензурка с водой. Цена деления шкалы и предел измерений мензурки равны соответственно\n\n1) 10 мл; 100 мл\n2) 10 мл; 120 мл\n3) 100 мл; 120 мл\n4) 120 мл; 10 мл",
+      "error_conditions": [],
+      "id": 253538,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

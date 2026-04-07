@@ -1,0 +1,42 @@
+{
+  "comment": "19. to help Форма инфинитива требуется для того, чтобы дополнить глагольную конструкцию будущего времени going to do something,\n\n20. be ridden В данном случае необходимо дополнить пассивный инфинитив. Подлежащее в этом предложении \"The machine\", но глагол относится к слову рeоple', обозначающему людей, которые будут ею пользоваться. Пассивный инфинитив состоит из to be + причастие прошедшего времени.\n\n21. more popular Здесь требуется образовать прилагательное в сравнительной степени. На необходимость сравнительной степени ясно указывает слово \"than', стоящее после пропуска. Так как в прилагательном роpular три слога, то форма сравнительной степени more + прилагательное.\n\n22. designing После предлога 'into' должна быть использована форма глагола на -ing.\n\n23. is В этом предложении после 'there' необходимо использовать форму единственного числа настоящего времени глагола. Глагол to be - стоит в настоящем времени и единственном числе, так как действие происходит в настоящем времени, и существительное 'room' в этом значении неисчисляемое.\n\n24. easier В данном случае необходимо употребить прилагательное в сравнительной степени, так как данный велосипед сравнивается с остальными. Формой сравнительной степени от easy является easier.\n\n25. has / has got В данном случае требуется положительная форма настоящего времени от расы или has got - настоящее время, так как предложение о велосипеде в настоящем времени, и положительная форма (не hasn't/hasn't got), так как 'no', стоящее после пропуска, указывает на отрицание, а перед пропуском употреблена положительная форма глагола.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 814,
+    "title": "Грамматические навыки"
+  },
+  "id": 772,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19.to help 20.be ridden 21.more popular 22.designing 23.is 24.easier 25.has / has got",
+          "points": 7
+        }
+      ],
+      "comment": "",
+      "description": "Прочитайте приведённый ниже текст. Преобразуйте слова, напечатанные заглавными буквами в конце строк, обозначенных номерами 19-25 так, чтобы они грамматически соответствовали содержанию текста. Заполните пропуски полученными словами. Каждый пропуск соответствует отдельному заданию из группы 19-25.\n\nA bike for everyone\n\nA new bike designed by a London student is going (19) _____ (HELP) a lot of people start cycling say experts.\n\nThe machine is designed to (20) _____ (RIDE) by as many types of people as possible.\n\nEdward Turner designed the bike as part of a college assignment to rethink an everyday object and make it (21) _____ (POPULAR) than it is now.\n\nEdward said, 'I looked into (22) _____ (DESIGN) a bike that could be used by people who would not normally get on one.\n\nFor many people, especially families living in inner-city areas, there (23) _____ (BE) not enough room at home for them to keep enough bikes for the whole family.\n\nWe made our bike (24) _____ (EASY) to adjust than other bikes so that any family member can get on it and go for a ride.'\n\nThe one-size-fits-all bike (25) _____ (HAVE) crossbar and can easily be taken apart.",
+      "error_conditions": [],
+      "id": 52332,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 7,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

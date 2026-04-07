@@ -1,0 +1,42 @@
+{
+  "comment": "Хлорид железа(III) образуется при сжигании железа в атмосфере хлора:\n3Cl₂ + 2Fe = 2FeCl₃\nВосстановление железа в степени окисления +3 можно осуществить с помощью подходящего восстановителя - иодида калия:\n2FeCl₃ + 6KI = 2FeI₂ + I₂ + 6KCl",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 7655,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "43",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) HCl\n2) CuCl₂\n3) KI\n4) Cl₂\n5) AgI",
+      "error_conditions": [],
+      "id": 100001,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3fJeOtCGF1A?start=4092"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/3fJeOtCGF1A?start=4092"
+}

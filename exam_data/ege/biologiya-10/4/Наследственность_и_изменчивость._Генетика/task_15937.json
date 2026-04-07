@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 2\nПояснение: при полном сцеплении гены находятся в одной хромосоме, кроссинговер не происходит. 2 типа гамет (АВ и ав или Aв и аВ).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 15937,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Сколько типов гамет образует организм с генотипом АаВв при полном доминировании при полном сцеплении генов?",
+      "error_conditions": [],
+      "id": 235844,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

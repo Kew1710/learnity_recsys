@@ -1,0 +1,37 @@
+{
+  "comment": "Так как процесс изобарный, то работу газа можем найти по формуле:\n$$p=const\\Rightarrow A=p\\Delta V$$\nЗакон Менделеева-Клапейрона:\n$$pV=\\nu RT$$\nСогласно первому началу термодинамики:\n$$Q=\\Delta U+A=\\frac{3}{2}\\nu R\\Delta T+A \\\\ Q=\\frac{3}{2}p\\Delta V+A=\\frac{3}{2}A+A \\\\ Q=\\frac{5}{2}A \\\\A=\\frac{2}{5}Q=\\frac{2}{5}\\cdot 10~кДж=4~кДж$$\nОтвет: 4 кДж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 18884,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23И411\nВ цилиндре под поршнем находится идеальный одноатомный газ, которому сообщили количество теплоты \\(10\\) кДж. Какую работу совершил газ при изобарном расширении?",
+      "error_conditions": null,
+      "id": 238722,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/watch?v=M4eEhB0kHyY&t=2374s"
+}

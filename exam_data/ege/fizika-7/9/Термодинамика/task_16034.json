@@ -1,0 +1,46 @@
+{
+  "comment": "1) 1-2: \\(V\\uparrow\\Rightarrow A>0\\) – в процессе 1-2 газ совершает положительную работу – неверно.\n2) 2-3: \\(V-const\\Rightarrow A=0; \\downarrow pV=\\nu RT\\downarrow\\Rightarrow Q=\\Delta U<0\\Rightarrow Q<0\\) – в процессе 2-3 газ не совершает работу, а его внутренняя энергия уменьшается, значит, газ отдает положительное количество теплоты – неверно.\n3) 3-4: \\(V\\downarrow\\Rightarrow A<0; pV\\downarrow =\\nu RT\\downarrow\\Rightarrow\\Delta U<0\\Rightarrow Q=\\Delta U+A<0\\) – газ отдает положительное количество теплоты – верно.\n4) 4-1: \\(p\\uparrow V\\uparrow =\\nu RT\\uparrow\\Rightarrow\\Delta U>0\\) – внутренняя энергия газа увеличивается – неверно.\n5) \\(A_{12}=16\\) кл; \\(|A_{34}|=10\\) кл \\(\\Rightarrow \\frac{A_{12}}{|A_{34}|}=\\frac{16}{10}=1,6\\) – верно.\n\nОтвет: 35",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 16034,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 2
+        },
+        {
+          "answer": "53",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Один моль идеального одноатомного газа совершает циклический процесс 1-2-3-4-1, график которого показан на рисунке в координатах \\(p−V\\). Из предложенного перечня выберите все верные утверждения.\n1) В процессе 1-2 газ совершает отрицательную работу.\n2) В процессе 2-3 газу сообщают положительное количество теплоты.\n3) В процессе 3-4 газ отдаёт положительное количество теплоты в окружающую среду.\n4) В процессе 4-1 внутренняя энергия газа остается неизменной.\n5) Работа, совершаемая газом в процессе 1-2, в 1,6 раза больше работы, совершаемой над газом в процессе 3-4.",
+      "error_conditions": [],
+      "id": 235941,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/4MZCPGBkMJI?t=2187"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/4MZCPGBkMJI?t=2187"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Изомеры – вещества, имеющие одинаковую молекулярную формулу, но разное строение\nМетилциклопропан – C₄H₈\n1) бутан – C₄H₁₀\n2) бутен-1 – C₄H₈\n3) бутин-2 – C₄H₆\n4) бутадиен-1,3 – C₄H₆\n5) метилпропен – C₄H₈",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2808,
+    "title": "Изомерия (структурная и пространственная)"
+  },
+  "id": 4136,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, которые являются изомерами метилциклопропана.\n1) бутан\n2) бутен-1\n3) бутин-2\n4) бутадиен-1,3\n5) метилпропен",
+      "error_conditions": [],
+      "id": 66557,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=4590"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=4590"
+}

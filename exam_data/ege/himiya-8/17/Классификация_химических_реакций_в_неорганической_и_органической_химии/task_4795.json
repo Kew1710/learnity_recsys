@@ -1,0 +1,42 @@
+{
+  "comment": "1) 2H₂O₂ = 2H₂O + O₂ - ОВР, происходит изменение степеней окисления\n2) Cu₂O + 6HNO₃ = 2Cu(NO₃)₂ + 2NO₂ + 3H₂O - ОВР, происходит изменение степеней окисления\n3) 2Mg + CO₂ = 2MgO + C - ОВР, происходит изменение степеней окисления\n4) Mg(OH)₂ + 2HClO₄ = Mg(ClO₄)₂ + 2H₂O - не происходит изменение степеней окисления элементов\n5) N₂O₅ + H₂O = 2HNO₃ - не происходит изменение степеней окисления элементов",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2837,
+    "title": "Классификация химических реакций в неорганической и органической химии"
+  },
+  "id": 4795,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня реакций выберите все окислительно-восстановительные реакции.\n1) разложение пероксида водорода\n2) растворение оксида меди(I) в азотной кислоте\n3) взаимодействие магния с углекислым газом\n4) взаимодействие гидроксида магния с хлорной кислотой\n5) взаимодействие азотного ангидрида с водой",
+      "error_conditions": [],
+      "id": 70027,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=3965"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=3965"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Заметим, что конусы подобны, \\(k=\\frac{3}{5}\\).\nНайдем площадь полной поверхности конуса:\n$$S_{ппк}=\\pi r_1l_1+\\pi r^2_1=35$$\nТеперь определим площадь усеченной поверхности конуса:\n$$S_{упк}=\\pi\\cdot \\frac{3}{5}\\cdot r_1\\cdot \\frac{3}{5}r_1+\\pi (\\frac{3}{5}r_1)^2=\\frac{9}{25}(\\pi r_1l_1+\\pi r^2_1)$$\nОкончательно получаем:\n$$\\frac{9}{25}\\cdot 35=\\frac{63}{5}=12,6$$\nОтвет: 12,6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2390,
+    "title": "3.7 Формулы площади поверхности"
+  },
+  "id": 18655,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь полной поверхности конуса равна \\(35\\). Параллельно основанию конуса проведено сечение, делящее высоту в отношении \\(3:2\\), считая от вершины конуса. Найдите площадь полной поверхности отсеченного конуса.",
+      "error_conditions": [],
+      "id": 238497,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=4754"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=4754"
+}

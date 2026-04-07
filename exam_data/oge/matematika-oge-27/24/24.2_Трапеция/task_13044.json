@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - трапеция\nLM - средняя линия\nт. \\( F \\in LM \\)\nДоказать:\n\\( S_{BFC}+S_{AFD}=\\cfrac{1}{2}S_{ABCD} \\)\nДоказательство:\n1) Проведем \\( EN \\perp AD \\)\n\\( \\Rightarrow S_{FBC}=\\cfrac{1}{2}EF \\cdot BC \\)\n\\( S_{AFD}=\\cfrac{1}{2} FN \\cdot AD\\)\nТ.к. LМ - средняя линия, то AL=LB\n\\( \\Rightarrow EF=FN=\\cfrac{1}{2}EN \\)\n2) \\( S_{FBC}=\\cfrac{1}{2} \\cdot \\cfrac{1}{2} EN \\cdot BC \\)\n\\( S_{AFD} = \\cfrac{1}{2} \\cdot \\cfrac{1}{2} EN \\cdot AD \\)\n3) \\( S_{FBC}+S_{AFD}= \\cfrac{1}{2} \\cdot \\cfrac{1}{2} \\cdot EN \\cdot BC+\\cfrac{1}{2} \\cdot \\cfrac{1}{2} \\cdot\\cfrac{1}{2} EN \\cdot AD=\\cfrac{1}{2} \\cdot \\cfrac{1}{2} NE(BC+AD)=\\cfrac{1}{2}NE \\cdot \\cfrac{BC+AD}{2}=\\cfrac{1}{2}S_{ABCD} \\), ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1944,
+    "title": "24.2 Трапеция"
+  },
+  "id": 13044,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "На средней линии трапеции ABCD с основаниями AD и BC выбрали произвольную точку F. Докажите, что сумма площадей треугольников BFC и AFD равна половине площади трапеции.",
+      "error_conditions": null,
+      "id": 175132,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

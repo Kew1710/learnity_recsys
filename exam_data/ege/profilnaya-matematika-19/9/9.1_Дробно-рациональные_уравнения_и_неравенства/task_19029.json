@@ -1,0 +1,45 @@
+{
+  "comment": "Подставим известные значения:\n$$120=\\frac{130R}{R+1}\\\\ 120R+120=130R\\\\ 10R=120\\\\ R=12$$\nОтвет: 12",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2421,
+    "title": "9.1 Дробно-рациональные уравнения и неравенства"
+  },
+  "id": 19029,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "К источнику с ЭДС \\(\\varepsilon =130\\) В и внутренним сопротивлением \\(r=1\\) Ом, хотят подключить нагрузку с сопротивлением \\(R\\) Ом. Напряжение на этой нагрузке, выражаемое в вольтах, задаeтся формулой \\(U=\\frac{\\varepsilon R}{R+r}\\). При каком наименьшем значении сопротивления нагрузки напряжение на ней будет не менее \\(120\\) В? Ответ выразите в омах.",
+      "error_conditions": [],
+      "id": 238867,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/_crN6qXTZ5o?t=6530"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://youtu.be/_crN6qXTZ5o?t=6530"
+}

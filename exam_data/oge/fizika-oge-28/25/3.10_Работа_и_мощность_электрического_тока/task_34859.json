@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем формулу КПД:\n$$\\eta=\\frac{A_{п}}{A_{зат}}=\\frac{P\\cdot t}{mgh}$$ Подставим числовые значения и найдём время $$0,9=\\frac{40\\cdot t}{8000\\cdot 10\\cdot 20}\\\\t=36000~c= 10~ч$$ Ответ: $10~ч$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34859,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Высота плотины гидроэлектростанции (ГЭС) составляет $20$ м, КПД ГЭС равен $90$%. Сколько часов может светить лампа мощностью $40$ Вт при прохождении через плотину $8$ т воды?",
+      "error_conditions": null,
+      "id": 254498,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

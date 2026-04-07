@@ -1,0 +1,45 @@
+{
+  "comment": "Воспользуемся свойством:\n$$\\frac{\\log_ab}{\\log_ac}=\\log_cb$$\nПолучим:\n$$\\frac{\\log_52}{\\log_513}+\\log_{13}0,5=\\log_{13}2+\\log_{13}0,5=\\log_{13}2 \\cdot 0,5=\\log_{13}1=0$$\nОтвет: 0",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 7264,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{\\log_52}{\\log_513}+\\log_{13}0,5\\).",
+      "error_conditions": [],
+      "id": 83780,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=2035"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=2035"
+}

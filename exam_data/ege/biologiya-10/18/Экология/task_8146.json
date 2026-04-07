@@ -1,0 +1,42 @@
+{
+  "comment": "Бересклет широколиственный, падуб остролистный - продуценты.\nДенитрифицирующие бактерии - редуценты.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 8146,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "245",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nУкажите консументы в экосистеме широколиственного леса.\n- бересклет широколиственный\n- петров-крест\n- падуб остролистный\n- косуля европейская\n- паук-крестовик\n- денитрифицирующие бактерии",
+      "error_conditions": [],
+      "id": 101232,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/aWPFvJkh7vU?start=2222"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/aWPFvJkh7vU?start=2222"
+}

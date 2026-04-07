@@ -1,0 +1,42 @@
+{
+  "comment": "Согласно первому закону термодинамики:\n$$Q=\\Delta U+A\\Rightarrow A=Q-\\Delta U$$\nПодставим значения:\n$$A=12-18=-6~кДж$$\nРабота внешних сил равна работе газа по модулю и противоположна по знаку:\n$$A_{в.с.}=6~кДж$$\nОтвет: 6 кДж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9464,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "233816\nВнутренняя энергия идеального газа увеличилась на \\(18\\) кДж. При этом газ получил количество теплоты, равное \\(12\\) кДж. Какая работа была совершена над газом? Ответ дайте в кДж.",
+      "error_conditions": [],
+      "id": 114626,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/hvg_cTzifh4"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/hvg_cTzifh4"
+}

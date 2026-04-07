@@ -1,0 +1,42 @@
+{
+  "comment": "1) 2CH₄ = C₂H₂ + 3H₂ (t°)\n2) 3C₂H₂ = C₆H₆ (кат. C(акт.))\n3) C₆H₆ + Cl₂ = C₆H₅Cl + HCl (кат. FeCl₃)\n4) C₆H₅Cl + CH₃Cl + 2Na = C₆H₅CH₃ + 2NaCl",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2836,
+    "title": "Генетическая связь между классами органических соединений"
+  },
+  "id": 9680,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nметан ⟶ X ⟶ бензол ⟶ Y ⟶ толуол\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) хлорметан\n2) этен\n3) нитробензол\n4) ацетилен\n5) хлорбензол",
+      "error_conditions": [],
+      "id": 117226,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/6_OGyY73YVs?si=-EHRGfbWNN48Qcnf&t=5015"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/6_OGyY73YVs?si=-EHRGfbWNN48Qcnf&t=5015"
+}

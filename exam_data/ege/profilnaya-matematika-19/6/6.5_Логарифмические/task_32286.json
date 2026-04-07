@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\log_4(x-4)=3\\Rightarrow x-4=4^3$$\nТак как аргумент логарифма равен положительному числу, ограничение можно не прописывать.\n$$x-4=64\\Rightarrow x=68$$\nОтвет: 68",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2403,
+    "title": "6.5 Логарифмические"
+  },
+  "id": 32286,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "68",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\log_4(x-4)=3\\).",
+      "error_conditions": [],
+      "id": 251925,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=o-B4GGA_be2udpnm&t=1299"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=o-B4GGA_be2udpnm&t=1299"
+}

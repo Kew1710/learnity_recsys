@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1752,
+    "title": "1.3 Основные сферы общественной жизни, их взаимосвязь*"
+  },
+  "id": 11213,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какие из перечисленных терминов используются в первую очередь при описании духовной сферы общества?\n1) искусство, наука\n2) власть, партия\n3) деньги, собственность\n4) семья, этнос",
+      "error_conditions": [],
+      "id": 148086,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 56,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=15529"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=15529"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Радиус шкива меньшего диаметра:\n$$r=\\frac{d}{2}$$\nРадиус шкива большего диаметра:\n$$R=\\frac{D}{2}$$\nРассмотрим вращение относительно точки \\(O\\), по правилу рычага \\(F_1 \\cdot l_1=F_2 \\cdot l_2\\), где \\(F_1=m_1 \\cdot g\\), \\(F_2=m_2 \\cdot g\\)\n$$m_1gr=m_2gR\\\\ m_1g \\frac{d}{2}=m_2g\\frac{D}{2}\\\\ \\frac{m_1}{m_2}=\\frac{D}{d}=\\frac{45}{9}=5$$\nОтвет: 5",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2618,
+    "title": "Статика"
+  },
+  "id": 8729,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ступенчатый блок, состоящий из нескольких неподвижных идеальных блоков, дает выигрыш в силе. Определите, во сколько раз масса груза, подвешенного на нить, намотанную на шкив блока с большим диаметром \\(D=45\\) см, меньше массы груза, прикрепленного к нити, намотанной на шкив меньшего диаметра \\(d=9\\) см. Система находится в равновесии.",
+      "error_conditions": [],
+      "id": 111614,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/SFr6XoO5FCg"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/SFr6XoO5FCg"
+}

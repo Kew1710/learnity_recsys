@@ -1,0 +1,45 @@
+{
+  "comment": "Поделим многогранник на 2 прямоугольных параллелепипеда, найдём сумму их объемов:\n$$V_{мал.}=1\\cdot 2\\cdot 1=2\\\\ V_{больш.}=2\\cdot 5\\cdot 1=10\\\\ V_{многогранника}=V_{мал.}+V_{больш.}=2+10=12$$\nОтвет: 12",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2389,
+    "title": "3.6 Объем составного многогранника"
+  },
+  "id": 9920,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите объем многогранника, изображенного на рисунке (все двугранные углы многогранника прямые).",
+      "error_conditions": [],
+      "id": 120065,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=6903"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=6903"
+}

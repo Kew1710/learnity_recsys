@@ -6,9 +6,10 @@ from typing import Any
 
 import httpx
 
-PROFILE_URL = os.getenv("PROFILE_URL", "http://127.0.0.1:8001")
+PROFILE_URL   = os.getenv("PROFILE_URL",   "http://127.0.0.1:8001")
 RETRIEVAL_URL = os.getenv("RETRIEVAL_URL", "http://127.0.0.1:8004")
-GRAPH_URL = os.getenv("GRAPH_URL", "http://127.0.0.1:8002")
+GRAPH_URL     = os.getenv("GRAPH_URL",     "http://127.0.0.1:8002")
+MACRO_URL     = os.getenv("MACRO_URL",     "http://127.0.0.1:8006")
 # Gateway itself runs on 8005 (8000 may be taken by other local projects)
 
 TIMEOUT = 5.0
@@ -103,6 +104,37 @@ async def cold_start_student(
         json={"kcs": kcs},
         timeout=TIMEOUT,
     )
+    resp.raise_for_status()
+    return resp.json()
+
+
+async def get_all_mastery(
+    client: httpx.AsyncClient,
+    student_id: uuid.UUID,
+) -> list[dict]:
+    resp = await client.get(
+        f"{PROFILE_URL}/students/{student_id}/mastery",
+        timeout=TIMEOUT,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
+async def create_plan(
+    client: httpx.AsyncClient,
+    student_id: uuid.UUID,
+    mode: str,
+    target_kc_id: str | None,
+    mastery_threshold: float,
+) -> dict:
+    body: dict[str, Any] = {
+        "student_id": str(student_id),
+        "mode": mode,
+        "mastery_threshold": mastery_threshold,
+    }
+    if target_kc_id:
+        body["target_kc_id"] = target_kc_id
+    resp = await client.post(f"{MACRO_URL}/plans", json=body, timeout=30.0)
     resp.raise_for_status()
     return resp.json()
 

@@ -1,0 +1,37 @@
+{
+  "comment": "Напряженность, создаваемая точечным зарядом:\n$$E=\\frac{kq}{r^2},$$\nтак как \\(q_1>q_2\\) и \\(r_1<r_2\\), то \\(E_1>E_2\\)\nНапряженность электрического поля, создаваемая заряженными частицами в точке \\(A\\):\n$$E=E_1-E_2=\\frac{kq_1}{L^2}-\\frac{kq_2}{(2L)^2}=\\frac{k}{L^2}(q_1-\\frac{q_2}{4})=\\frac{9\\cdot 10^9}{1^2}(250-\\frac{120}{4})\\cdot 10^{-9}=1980~В/м$$\nОтвет: 1980 В/м",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2630,
+    "title": "Электрическое поле"
+  },
+  "id": 9661,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23496\nВ вакууме на расстоянии \\(3L=3\\) м закреплены две частицы, заряды которых \\(q_1=250\\) нКл и \\(q_2=120\\) нКл. Определите модуль напряженности электрического поля, создаваемого данными заряженными частицами в точке \\(A\\).",
+      "error_conditions": null,
+      "id": 117163,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "На рисунке:\n1 - носовая полость\n2 - гортань\n3 - легкое\n4 - трахея\n5 - бронхиола\n6 - альвеола",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 7802,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой цифрой на рисунке обозначена альвеола?",
+      "error_conditions": [],
+      "id": 100256,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/QxlYAivoMeo?start=1829"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/QxlYAivoMeo?start=1829"
+}

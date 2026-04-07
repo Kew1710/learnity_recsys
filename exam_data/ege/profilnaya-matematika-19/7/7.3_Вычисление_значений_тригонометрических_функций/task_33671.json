@@ -1,0 +1,45 @@
+{
+  "comment": "Это табличное значение синуса, получим:\n$$\\displaystyle \\left[ \\begin{array}{l l} x=\\frac{\\pi }{3} +2\\pi n;n\\in Z\\\\ x=\\frac{2\\pi }{3} +2\\pi n;n\\in Z \\end{array} \\right.$$\nОтвет: 1",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2407,
+    "title": "7.3 Вычисление значений тригонометрических функций"
+  },
+  "id": 33671,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(\\sin x=\\frac{\\sqrt{3}}{2}\\). В ответ укажите сумму корней в интервале от \\(0\\) до \\(2\\pi\\), деленную на \\(\\pi\\).",
+      "error_conditions": [],
+      "id": 253310,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=u9VhrDM2lBbC0Ion&t=3458"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=u9VhrDM2lBbC0Ion&t=3458"
+}

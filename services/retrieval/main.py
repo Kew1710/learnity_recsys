@@ -18,6 +18,8 @@ import math
 import os
 import random
 import uuid
+import logging
+import time
 from datetime import datetime, timezone
 from typing import Optional
 
@@ -50,6 +52,7 @@ PHASE1_TASK_THRESHOLD = 15        # до этого порога — grade-based
 _rng = random.Random()
 
 app = FastAPI(title="Retrieval Service")
+logger = logging.getLogger(__name__)
 
 
 # ---------------------------------------------------------------------------
@@ -350,6 +353,7 @@ async def recommend(req: RecommendRequest):
     Подбирает следующее задание для ученика через LinUCB.
     Проходит по ZPD-кандидатам до первого KC у которого есть задания в TaskBank.
     """
+    started = time.perf_counter()
     async with httpx.AsyncClient(trust_env=False) as http:
 
         # 1. Профиль ученика
@@ -374,7 +378,8 @@ async def recommend(req: RecommendRequest):
         # 2. Seen tasks (только за последние 90 дней — задания старше TTL повторяются)
         try:
             seen_tasks = await clients.get_seen_tasks(http, req.student_id, ttl_days=90)
-        except httpx.HTTPStatusError:
+        except httpx.HTTPStatusError as e:
+            logger.warning("seen_tasks fetch failed for student=%s: %s", req.student_id, e)
             seen_tasks = []
 
         # 3. ZPD кандидаты
@@ -384,6 +389,7 @@ async def recommend(req: RecommendRequest):
             raise HTTPException(status_code=502, detail="Graph service error")
 
         if not zpd_raw:
+            logger.info("recommendation skipped: empty ZPD for student=%s", req.student_id)
             raise HTTPException(status_code=404, detail="ZPD пуст — нет подходящих тем")
 
         # Приоритеты из учебного плана + difficulty_mode + next_plan_kc + текущий шаг
@@ -403,11 +409,23 @@ async def recommend(req: RecommendRequest):
 
         # 4. Выбор KC:
         # Если план активен — hard lock на текущий шаг плана.
-        # KC Cooldown не применяется к шагу плана (нужна концентрация, не ротация).
-        # Fallback на ZPD если KC шага плана нет среди кандидатов (например, задания закончились).
+        # Если KC шага не в ZPD (например, count-вариант выбрал KC близкую к порогу),
+        # добавляем её синтетически — план важнее ZPD-фильтра.
+        # Fallback на ZPD только если для plan KC нет заданий в task_bank.
         if active_plan_kc_id:
             plan_step_candidates = [c for c in candidates if c.kc_id == active_plan_kc_id]
-            ordered = plan_step_candidates if plan_step_candidates else candidates
+            if not plan_step_candidates:
+                # KC не в ZPD — добавляем синтетически с текущим mastery
+                plan_m = mastery.get(active_plan_kc_id, 0.0)
+                plan_step_candidates = [ZPDEntry(
+                    kc_id=active_plan_kc_id,
+                    subject="",
+                    difficulty_base=plan_m,
+                    mastery_effective=plan_m,
+                    ready=True,
+                    plan_priority=1.0,
+                )]
+            ordered = plan_step_candidates + [c for c in candidates if c.kc_id != active_plan_kc_id]
         else:
             preferred = select_kc_from_zpd(candidates, req.last_subject)
             ordered = [preferred] + [c for c in candidates if c.kc_id != preferred.kc_id] if preferred else candidates
@@ -614,6 +632,7 @@ async def recommend(req: RecommendRequest):
                 break
 
         if selected_task is None or selected_kc is None:
+            logger.info("recommendation failed: no tasks available for student=%s", req.student_id)
             raise HTTPException(
                 status_code=404,
                 detail="Нет доступных заданий — все пройдены или TaskBank пуст",
@@ -672,6 +691,17 @@ async def recommend(req: RecommendRequest):
     half_life_map = {"arithmetic": 90.0, "algebra": 45.0, "geometry": 60.0, "statistics": 30.0}
     half_life = half_life_map.get(selected_kc.subject, 45.0)
 
+    elapsed_ms = (time.perf_counter() - started) * 1000.0
+    logger.info(
+        "recommendation student=%s kc=%s source=%s phase1=%s variant=%s latency_ms=%.1f",
+        req.student_id,
+        selected_kc.kc_id,
+        selected_source,
+        phase1,
+        variant,
+        elapsed_ms,
+    )
+
     return RecommendResponse(
         task_id=str(selected_task["task_id"]),
         kc_id=selected_kc.kc_id,
@@ -714,6 +744,11 @@ async def update_bandit_reward(req: UpdateRewardRequest):
 
         if not row:
             await db.rollback()
+            logger.warning(
+                "bandit reward update skipped: missing log entry for student=%s task=%s",
+                req.student_id,
+                req.task_id,
+            )
             raise HTTPException(status_code=404, detail="bandit_log entry not found")
 
         kc_id = row[0]
@@ -770,4 +805,10 @@ async def update_bandit_reward(req: UpdateRewardRequest):
 
         await db.commit()
 
+    logger.info(
+        "bandit reward updated student=%s task=%s reward=%.4f",
+        req.student_id,
+        req.task_id,
+        req.reward,
+    )
     return {"updated": True}

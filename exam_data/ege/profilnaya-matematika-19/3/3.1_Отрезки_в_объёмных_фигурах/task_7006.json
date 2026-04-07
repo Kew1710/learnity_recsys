@@ -1,0 +1,45 @@
+{
+  "comment": "Так как пирамида правильная:\n$$OD = {BD \\over 2} = {24 \\over 2} = 12 $$\nПо теореме Пифагора:\n$$ SD = \\sqrt{ SO^2 + DO^2 }=\\sqrt{35^2+12^2}=37 $$\nОтвет: 37",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 7006,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "37",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В правильной четырехугольной пирамиде \\(𝑆𝐴𝐵𝐶𝐷\\) с вершиной \\(𝑆\\), точка \\(𝑂\\) - центр основания, \\(𝑆𝑂=35,\\) \\(𝐵𝐷=24\\). Найдите длину отрезка \\(𝑆𝐷\\).",
+      "error_conditions": [],
+      "id": 80936,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/EhoR_a4s9ys?start=9018"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/EhoR_a4s9ys?start=9018"
+}

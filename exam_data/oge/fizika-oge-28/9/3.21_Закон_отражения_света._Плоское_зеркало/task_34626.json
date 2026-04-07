@@ -1,0 +1,42 @@
+{
+  "comment": "Согласно законам оптики, угол падения равен углу отражения. Найдём угол падения. Он равен углу между перпендикуляром к поверхности и самим лучом, значит, он равен $90°- 45°=45°$. Значит и угол отражения равен $45°$.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3277,
+    "title": "3.21 Закон отражения света. Плоское зеркало"
+  },
+  "id": 34626,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Высота Солнца над горизонтом (см. рисунок) равна $45°$. Луч падает на плоское зеркало, лежащее на горизонтальной поверхности. Чему равен угол отражения луча от зеркала?\nОтвет: _________________градусов",
+      "error_conditions": [],
+      "id": 254265,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(x^2-6x+\\sqrt{6-x}=\\sqrt{6-x}+7\\)\nОДЗ: \\(6-x \\geq 0\\)\n\\(x\\leq 6\\)\n\\(x^2-6x+\\sqrt{6-x}-\\sqrt{6-x}-7=0\\)\n\\(x^2-6x-7=0\\)\n\\(D=36+28=64\\)\n\\(x_1=\\cfrac{6-8}{2}\\)\n\\(x_1=-1\\)\n\\(x_2=\\cfrac{6+8}{2}\\)\n\\(x_2=7\\) - не удовлетворяет ОДЗ.\nОтвет: \\(-1\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2050,
+    "title": "20.3 Иррациональные уравнения"
+  },
+  "id": 12687,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(x^2-6x+\\sqrt{6-x}=\\sqrt{6-x}+7\\) .",
+      "error_conditions": null,
+      "id": 172487,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

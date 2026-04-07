@@ -20,6 +20,7 @@ check_test_phase:
 
 from __future__ import annotations
 
+import logging
 import uuid
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -27,7 +28,10 @@ from typing import Literal
 
 import sqlalchemy as sa
 
+logger = logging.getLogger(__name__)
+
 from shared.db import AsyncSessionLocal
+from . import kafka_producer as macro_kafka
 
 # Порог: если avg_score ниже этого — переключить на consolidate
 FRUSTRATION_AVG_THRESHOLD = 0.45
@@ -393,107 +397,6 @@ async def check_and_advance(
     return await advance_step(student_id)
 
 
-# ---------------------------------------------------------------------------
-# force_advance_if_budget_exceeded — принудительный переход при исчерпании бюджета
-# ---------------------------------------------------------------------------
-
-async def force_advance_if_budget_exceeded(
-    student_id: uuid.UUID,
-    kc_id: str,
-    mastery_current: float,
-    tasks_spent: int,
-) -> bool:
-    """
-    Если tasks_spent >= tasks_budget активного шага — принудительно завершаем шаг
-    (partial) и переходим к следующему. Если следующего нет — создаём teacher_alert.
-
-    Возвращает True если шаг был принудительно завершён.
-    """
-    async with AsyncSessionLocal() as db:
-        row = (await db.execute(
-            sa.text("""
-                SELECT ps.id, ps.tasks_budget, lp.id as plan_id
-                FROM plan_steps ps
-                JOIN learning_plans lp ON lp.id = ps.plan_id
-                WHERE lp.student_id = :student_id
-                  AND ps.status = 'in_progress'
-                  AND ps.kc_id = :kc_id
-                  AND lp.id = (
-                      SELECT id FROM learning_plans
-                      WHERE student_id = :student_id
-                      ORDER BY created_at DESC LIMIT 1
-                  )
-                LIMIT 1
-            """),
-            {"student_id": student_id, "kc_id": kc_id},
-        )).fetchone()
-
-    if not row:
-        return False
-
-    step_id, tasks_budget, plan_id = row
-    if tasks_budget is None or tasks_spent < tasks_budget:
-        return False
-
-    # Принудительно завершаем шаг как partial
-    async with AsyncSessionLocal() as db:
-        await db.execute(
-            sa.text("""
-                UPDATE plan_steps
-                   SET status = 'completed', reason = reason || ' [partial: budget exhausted]'
-                 WHERE id = :step_id
-            """),
-            {"step_id": step_id},
-        )
-        # Пробуем активировать следующий pending шаг
-        next_row = (await db.execute(
-            sa.text("""
-                UPDATE plan_steps
-                   SET status = 'in_progress'
-                 WHERE id = (
-                     SELECT ps.id
-                     FROM plan_steps ps
-                     JOIN learning_plans lp ON lp.id = ps.plan_id
-                     WHERE lp.student_id = :student_id
-                       AND ps.status = 'pending'
-                     ORDER BY ps.priority DESC
-                     LIMIT 1
-                 )
-                RETURNING id
-            """),
-            {"student_id": student_id},
-        )).fetchone()
-
-        if not next_row:
-            # Следующего шага нет — план исчерпан без достижения цели → teacher_alert
-            await db.execute(
-                sa.text("""
-                    INSERT INTO teacher_alerts
-                        (id, student_id, plan_id, kc_id, alert_type,
-                         mastery_at_alert, tasks_spent, message, created_at)
-                    VALUES
-                        (:id, :student_id, :plan_id, :kc_id, 'plan_exhausted',
-                         :mastery, :tasks_spent, :message, :now)
-                """),
-                {
-                    "id": uuid.uuid4(),
-                    "student_id": student_id,
-                    "plan_id": plan_id,
-                    "kc_id": kc_id,
-                    "mastery": mastery_current,
-                    "tasks_spent": tasks_spent,
-                    "message": (
-                        f"Ученик исчерпал бюджет всех шагов плана без достижения цели. "
-                        f"Последний шаг: {kc_id}, mastery={mastery_current:.2f}, "
-                        f"tasks_spent={tasks_spent}. Требуется вмешательство учителя."
-                    ),
-                    "now": datetime.now(timezone.utc),
-                },
-            )
-        await db.commit()
-
-    return True
-
 
 async def create_plateau_alert(
     student_id: uuid.UUID,
@@ -543,6 +446,23 @@ async def create_plateau_alert(
             },
         )
         await db.commit()
+
+    message = (
+        f"Plateau: ученик не прогрессирует по {kc_id} "
+        f"уже {tasks_spent} заданий (mastery={mastery_current:.2f}). "
+        f"Возможно, нужна другая стратегия или помощь учителя."
+    )
+    try:
+        await macro_kafka.send_teacher_alert(
+            student_id=str(student_id),
+            alert_type="plateau",
+            skill_key=kc_id,
+            mastery_at_alert=mastery_current,
+            tasks_spent=tasks_spent,
+            message=message,
+        )
+    except Exception:
+        logger.warning("Failed to publish teacher alert to Kafka for student=%s kc=%s", student_id, kc_id)
 
 
 # ---------------------------------------------------------------------------

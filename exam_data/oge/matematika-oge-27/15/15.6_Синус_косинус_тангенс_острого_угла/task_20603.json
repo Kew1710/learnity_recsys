@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{BC}{AB} = \\cos{B}\\)\n\\(\\cfrac{7}{9} = \\cfrac{BC}{54}\\)\nОтсюда \\(BC = 7 \\cdot 54 : 9 = 42\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1977,
+    "title": "15.6 Синус, косинус, тангенс острого угла"
+  },
+  "id": 20603,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике ABC угол C равен 90°, \\(\\cos{B} = \\cfrac{7}{9}\\) , AB=54 . Найдите BC.",
+      "error_conditions": [],
+      "id": 240390,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "По определению силы тока:\n$$I=\\frac{\\Delta q}{\\Delta t}$$\nЭДС индукции:\n$$\\varepsilon_i=\\frac{\\Delta Ф}{\\Delta t}$$\n$$\\varepsilon_i=IR=\\frac{\\Delta qR}{\\Delta t}$$\n$$\\frac{\\Delta qR}{\\Delta t}=\\frac{\\Delta Ф}{\\Delta t}\\Rightarrow R=\\frac{\\Delta Ф}{\\Delta q}=\\frac{6\\cdot 10^{-3}}{2\\cdot 10^{-3}}=3~Ом$$\nОтвет: 3 Ом",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2634,
+    "title": "Электромагнитная индукция"
+  },
+  "id": 10420,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23696\nВ лаборатории проводят несколько опытов по исследованию явления электромагнитной индукции, возникающего в замкнутом контуре, находящемся в магнитном поле. В каждом опыте замеряли изменение магнитного потока \\(\\Delta Ф\\) через контур и заряд \\(\\Delta q\\), протекающий в нем в результате возникновения электромагнитной индукции. Результаты замеров представлены в приведенной ниже таблице. Определите сопротивление контура. Ответ дайте в Ом.\n\\(\\Delta Ф\\), мВб\n\\(6\\)\n\\(12\\)\n\\(18\\)\n\\(24\\)\n\\(\\Delta q\\), мКл\n\\(2\\)\n\\(4\\)\n\\(6\\)\n\\(8\\)",
+      "error_conditions": [],
+      "id": 141693,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/ZCSudmKa6yA"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/ZCSudmKa6yA"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Доказательство:\nДано:\n\\(ABCD\\) - параллелограмм\n\\(AC\\) пересекает \\(BD\\) в точке \\(O\\)\n\\(O \\in EF\\)\n\\(EF\\) пересекает \\(AB\\) в т. \\(Е\\)\n\\(EF\\) пересекает \\(CD\\) в т. \\(F\\)\nДоказать:\n\\(AE=CF\\)\nРешение:\n1) Рассмотрим \\(\\triangle EOA\\) и \\(\\triangle COF\\)\n\\(\\angle EOA = \\angle COF\\) - вертикальные\n\\(АО=ОС\\) - св-во параллелограмма\n\\(\\angle EAO = \\angle OCF\\) - накрест лежащие при \\(AB//CD\\) и секущей АС\n\\(\\Rightarrow \\triangle EOA = \\triangle COF\\) - по стороне и 2-ум прилежащим к ней углам\n\\(\\Rightarrow AE=CF\\) - соответственные элементы, ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1943,
+    "title": "24.1 Параллелограмм, прямоугольник, ромб"
+  },
+  "id": 13018,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Через точку O пересечения диагоналей параллелограмма ABCD проведена прямая, пересекающая стороны AB и CD в точках E и F соответственно. Докажите, что отрезки AE и CF равны.",
+      "error_conditions": null,
+      "id": 175072,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

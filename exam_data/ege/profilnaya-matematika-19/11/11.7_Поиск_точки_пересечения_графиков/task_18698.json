@@ -1,0 +1,45 @@
+{
+  "comment": "По графику функций определяем следующие коэффициенты:\n\\(c=1\\), так как парабола пересекает ось \\(y\\) в точке \\(1\\)\n\\(d=-4\\), так как прямая пересекает ось \\(y\\) в точке \\(-4\\)\n\\(k=-2\\), так как тангенс наклона прямой равен \\(-2\\)\n\\(a=1\\), так как парабола «обычная»\n$$x_в=-\\frac{b}{2a}=-2\\\\ b=4a=4$$\nПолучаем функции:\n$$f(x)=x^2+4x+1\\\\ g(x)=-2x-4$$\nПриравняем их и найдем точки пересечения:\n$$x^2+4x+1=-2x-4\\\\ x^2+6x+5=0$$\n$$\\displaystyle \\left[ \\begin{array}{l l}\nx=-1\\\\\nx=-5\n\\end{array} \\right.$$\n\\(-1\\) – абсцисса точки А, в ответ пишем \\(-5\\)\nОтвет: -5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2443,
+    "title": "11.7 Поиск точки пересечения графиков"
+  },
+  "id": 18698,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены графики функций видов \\(f(x)=ax^2+bx+c\\) и \\(g(x)=kx+d\\), пересекающиеся в точках \\(A\\) и \\(B\\). Найдите абсциссу точки \\(B\\).",
+      "error_conditions": [],
+      "id": 238539,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=5378"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=5378"
+}

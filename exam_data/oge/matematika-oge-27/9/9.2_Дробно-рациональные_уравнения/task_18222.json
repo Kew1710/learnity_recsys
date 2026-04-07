@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(72=-2(x+9) \\) при \\(x \\neq -9\\)\n\\(36=-(x+9)\\)\n\\(36=-x-9\\)\n\\(x=-9-36\\)\n\\(x=-45\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1930,
+    "title": "9.2 Дробно-рациональные уравнения"
+  },
+  "id": 18222,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\cfrac{8}{x+9}=-\\cfrac{2}{9}\\) .",
+      "error_conditions": [],
+      "id": 238064,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

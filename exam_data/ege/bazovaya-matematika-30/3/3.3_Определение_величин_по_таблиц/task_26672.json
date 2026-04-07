@@ -1,0 +1,42 @@
+{
+  "comment": "Мощность 115 л.с. попадает в диапазон 100-125, значит налоговая ставка равна 25 руб. за 1 л.с.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2137,
+    "title": "3.3 Определение величин по таблиц"
+  },
+  "id": 26672,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В таблице представлены налоговые ставки на автомобили в Москве с 1 января 2013 года. (* л.с. — лошадиная сила)\nКакова налоговая ставка (в рублях за 1 л.с. в год) на автомобиль мощностью 115 л.с.?",
+      "error_conditions": [],
+      "id": 246311,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Признак цвета наследуется по типу неполного доминирования: Аа - розовые, аа - белые, АА - красные цветки.\nПри скрещивании АА (красные) и аа (белые) все потомство будет единообразным по окраске - Аа (розовые), 100%.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 503,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "100",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой процент растений ночной красавицы с розовыми цветками можно ожидать от скрещивания растений с красными (А) и белыми (а) цветками (неполное доминирование)? Укажите число без знака %.",
+      "error_conditions": [],
+      "id": 51770,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/mtXJDDpMrPk?start=64s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/mtXJDDpMrPk?start=64s"
+}

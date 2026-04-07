@@ -1,0 +1,40 @@
+{
+  "comment": "Поработаем с первым уравнением системы: \\((|x+1|+|x-3|-y)\\sqrt{10-x-y}=0\\).\nПроизведение равно \\(0\\), когда один из множителей равен \\(0\\), а второй при этом не теряет смысла:\n$$\\displaystyle \\left[ \\begin{array}{l l} 10-x-y=0\\\\ \\begin{cases} |x+1|+|x-3|-y=0\\ ( *)\\\\ 10-x-y\\geq 0 \\end{cases} \\end{array} \\right.$$\nРассмотрим раскрытие модулей для \\((*)\\):\n$$\\displaystyle \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 3\\\\ x+1+x-3=y \\end{cases}\\\\ \\begin{cases} -1< x< 3\\\\ x+1-x+3=y \\end{cases}\\\\ \\begin{cases} x\\leq -1\\\\ -x-1-x+3=y \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 3\\\\ y=2x-2 \\end{cases}\\\\ \\begin{cases} -1< x< 3\\\\ y=4 \\end{cases}\\\\ \\begin{cases} x\\leq -1\\\\ y=-2x+2 \\end{cases} \\end{array} \\right.$$\nТогда получим:\n$$\\displaystyle \\left[ \\begin{array}{l l} y=10-x\\\\ \\begin{cases} \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 3\\\\ y=2x-2 \\end{cases}\\\\ \\begin{cases} -1< x< 3\\\\ y=4 \\end{cases}\\\\ \\begin{cases} x\\leq -1\\\\ y=-2x+2 \\end{cases} \\end{array} \\right.\\\\ y\\leq 10-x \\end{cases} \\end{array} \\right.$$\nВернёмся к системе из условия и подставим результат работы над первым уравнением, получим:\n$$\\displaystyle \\begin{cases} \\left[ \\begin{array}{l l} y=10-x\\\\ \\begin{cases} \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 3\\\\ y=2x-2 \\end{cases}\\\\ \\begin{cases} -1< x< 3\\\\ y=4 \\end{cases}\\\\ \\begin{cases} x\\leq -1\\\\ y=-2x+2 \\end{cases} \\end{array} \\right.\\\\ y\\leq 10-x \\end{cases} \\end{array} \\right.\\\\ y=x+a \\end{cases} \\Rightarrow \\begin{cases} \\left[ \\begin{array}{l l} y=10-x\\ прямая\\ с\\ tg\\ наклона\\ =-1\\\\ \\begin{cases} \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 3\\\\ y=2x-2\\ прямая\\ с\\ tg\\ наклона\\ =2 \\end{cases}\\\\ \\begin{cases} -1< x< 3\\\\ y=4\\ прямая\\ параллельная\\ Ox \\end{cases}\\\\ \\begin{cases} x\\leq -1\\\\ y=-2x+2\\ прямая\\ с\\ tg\\ наклона\\ =-2 \\end{cases} \\end{array} \\right.\\\\ y\\leq 10-x\\ ограничение \\end{cases} \\end{array} \\right.\\\\ y=x+a\\ множество\\ прямых\\ параллельных\\ y=x \\end{cases}$$\nПеренесем нашу систему на декартову систему координат:\nАнализ начнем снизу.\nДо прохождения \\(y=x+a\\) через точку \\(A\\) система будет иметь одно решение: \\(y=x+a\\) будет пересекать \\(y=10-x\\).\nНайдём координаты точки \\(A\\), это можно сделать через систему:\n$$\\displaystyle \\begin{cases} y=2x-2\\\\ y=4 \\end{cases} \\Rightarrow \\begin{cases} x=3\\\\ y=4 \\end{cases}$$\nТогда найдём значение параметра, когда \\(y=x+a\\) проходит через эту точку: \\(4=3+a\\Rightarrow a=1\\).\nПри прохождении \\(y=x+a\\) через \\(A\\) - система имеет два решения: \\(y=x+a\\) пересекает \\(y=10-x\\) и проходит через точку \\(A\\).\nДальше система имеет три решения, \\(y=x+a\\) пересекает \\(y=4\\), \\(y=2x-2\\) и \\(y=10-x\\).\nНайдем координаты точки \\(B\\), это можно сделать через систему:\n$$\\displaystyle \\begin{cases} y=10-x\\\\ y=2x-2 \\end{cases} \\Rightarrow \\begin{cases} x=4\\\\ y=6 \\end{cases}$$\nТогда значения параметра при прохождении \\(y=x+a\\) через точку \\(B\\) будет: \\(6=4+a\\Rightarrow a=2\\).\nПри прохождении \\(y=x+a\\) через \\(B\\) - система имеет два решения.\nДалее до того момента, как \\(y=x+a\\) проёдет через точку \\(C\\) система будет иметь два решения, найдём координаты точки \\(C\\):\n$$\\displaystyle \\begin{cases} y=-2x+2\\\\ y=10-x \\end{cases} \\Rightarrow \\begin{cases} y=18\\\\ x=-8 \\end{cases}$$\nТогда значения параметра при прохождении \\(y=x+a\\) через точку \\(C\\): \\(18=-8+a\\Rightarrow a=26\\).\nПри этом при прохождении через точку \\(C\\) \\(y=x+a\\): система имеет одно решение.\nПри дальнейшем увеличении значения параметра система будет иметь одно решение.\n\nПодведём итоги:\n$$x\\in (-\\infty;1]\\cup [26;+\\infty) - 1~решение\\\\ x\\in \\{1\\}\\cup[2;26) - 2~решения\\\\ x\\in (1;2)-3~решения$$\nПо условию задачи нам необходимо два различных решения, значит: \\(x\\in \\{1\\}\\cup[2;26)\\).\n\nОтвет: \\(\\{1\\}\\cup[2;26)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2490,
+    "title": "18.1 Взаимное расположение прямых и кривых"
+  },
+  "id": 30187,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения \\(a\\), при каждом из которых система уравнений\n$$\\displaystyle \\begin{cases} ( |x+1|+|x-3|-y) \\cdotp \\sqrt{10-x-y} =0\\\\ y=x+a \\end{cases}$$\nимеет ровно два различных решения.",
+      "error_conditions": null,
+      "id": 249826,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/watch?v=md8sW3BEDDo&t=1s&ab_channel=%D0%AD%D1%80%D0%B8%D0%BA%D0%9B%D0%B5%D0%B3%D0%B8%D0%BE%D0%BD%7C%D0%95%D0%93%D0%AD%D0%BF%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5%7C100%D0%B1%D0%B0%D0%BB%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9"
+}

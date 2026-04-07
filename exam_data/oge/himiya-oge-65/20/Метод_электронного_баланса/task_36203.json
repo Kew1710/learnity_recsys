@@ -1,0 +1,37 @@
+{
+  "comment": "\\(3Na_{2}S\\) + \\(2FeCl_{3}\\) → \\(2FeS\\) + \\(S\\) + \\(6NaCl\\)\n\n\\(S^{-2}\\) - 1ē → \\(S^{0}\\) | 1\n\\(Fe^{+3}\\) + 1ē → \\(Fe^{+2}\\) | 1\n\n\\(Na_{2}S\\) (\\(S^{-2}\\)) - восстановитель\n\\(FeCl_{3}\\) (\\(Fe^{+3}\\)) - окислитель",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2903,
+    "title": "Метод электронного баланса"
+  },
+  "id": 36203,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Используя метод электронного баланса, расставьте коэффициенты в уравнении реакции, схема которой\n\n\\(Na_{2}S\\) + \\(FeCl_{3}\\) → \\(FeS\\) + \\(S\\) + \\(NaCl\\)\n\nОпределите окислитель и восстановитель.",
+      "error_conditions": null,
+      "id": 255853,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

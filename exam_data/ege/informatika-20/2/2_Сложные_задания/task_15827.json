@@ -1,0 +1,45 @@
+{
+  "comment": "PascalPythonvar x,y,z,w:boolean;\nFunction F(n:boolean):integer;\nbegin\nIf n = True then\nF:=1\nelse F:=0;\nend;\nbegin\nprintln('x y z w');\nFor x:=false to true do\nFor y:=false to true do\nFor z:=false to true do\nFor w:=false to true do\nif (((x or (not y)) and ((not z) == w)) <= (y and z)) == False then\nprintln(F(x),F(y),F(z),F(w));\nend.\n\nprint('x y z w')\nfor x in range(2):\nfor y in range(2):\nfor z in range(2):\nfor w in range(2):\nif (((x or (not y)) and ((not z) == w)) <= (y and z)) == False:\nprint(x,y,z,w)\n\nСтолбик с тремя нулями - это переменная z\nСтолбик с тремя единицами - это переменная x\nСтолбик с двумя единицами - это y, а с одной - w\n\nyzwxF10110001000 10",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2692,
+    "title": "№2 Сложные задания"
+  },
+  "id": 15827,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "yzwx",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Логическая функция F задается выражением:\n$$((x \\vee \\neg y) \\wedge (\\neg z \\equiv w)) \\to (y \\wedge z)$$\nДан частично заполненный фрагмент, содержащий повторяющиеся строки таблицы истинности функции F.\nОпределите, какому столбцу таблицы истинности соответствует каждая из переменных w, x, y, z.\nВ ответе напишите буквы w, x, y, z в том порядке, в котором идут соответствующие им столбцы (сначала буква, соответствующая первому столбцу; затем буква, соответствующая второму столбцу, и т. д.). Буквы в ответе пишите подряд, никаких разделителей между буквами ставить не нужно.",
+      "error_conditions": [],
+      "id": 235604,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 21,
+    "title": "Таблицы истинности"
+  },
+  "video_link": null
+}

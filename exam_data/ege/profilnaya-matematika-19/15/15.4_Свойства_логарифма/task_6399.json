@@ -1,0 +1,40 @@
+{
+  "comment": "$$x^2\\log_{2^9}(x+5)\\leq \\log_2(x+5)^2\\\\ \\frac{x^2}{9}\\log_2(x+5)\\leq 2\\log_2|x+5|\\\\ x>-5\\\\ \\frac{x^2}{9}\\log_2(x+5)\\leq 2\\log_2(x+5)\\\\ \\frac{x^2}{9}\\log_2(x+5)-2\\log_2(x+5)\\leq 0\\\\ \\log_2(x+5)(\\frac{x^2}{9}-2)\\leq 0\\\\ \\log_2(x-5)=0\\Rightarrow x=-4\\\\ \\frac{x^2}{9}-2=0\\Rightarrow x^2=18\\Rightarrow x=\\pm 3\\sqrt{2},т.к.~x>-5\\\\ x\\in (-5;-3\\sqrt{2}]\\cup [-4;3\\sqrt{2}]$$\nОтвет: \\(x\\in ( -5;-3\\sqrt{2}] \\cup [ -4;3\\sqrt{2}]\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2470,
+    "title": "15.4 Свойства логарифма"
+  },
+  "id": 6399,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(x^2\\log_{512}(x+5)\\leq \\log_2(x^2+10x+25)\\).",
+      "error_conditions": null,
+      "id": 73485,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/embed/_W_TDzlNCp4?start=1065"
+}

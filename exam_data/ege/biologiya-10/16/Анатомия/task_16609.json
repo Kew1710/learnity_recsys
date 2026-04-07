@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Последовательность прохождения луча света в глазном яблоке:\n5. роговица → 4. передняя камера → 2. зрачок → 3. хрусталик→ 1. стекловидное тело",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16609,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "54231",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите правильную последовательность прохождения луча света в глазном яблоке. Запишите в таблицу соответствующую последовательность цифр.\n- стекловидное тело\n- зрачок\n- хрусталик\n- передняя камера\n- роговица",
+      "error_conditions": [],
+      "id": 236516,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

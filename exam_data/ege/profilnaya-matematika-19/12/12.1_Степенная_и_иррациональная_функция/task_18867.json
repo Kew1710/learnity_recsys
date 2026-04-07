@@ -1,0 +1,45 @@
+{
+  "comment": "$$y=(x+3)^2(x+6)+7=(x^2+6x+9)(x+6)+7$$\nНайдем производную функции:\n$$y'=(2x+6)(x+6)+(x^2+6x+9)\\cdot 1=2(x+3)(x+6)+(x+3)^2\\\\ y'=(x+3)(2x+12+x+3)=(x+3)(3x+15)$$\nПриравняем производную к нулю:\n$$(x+3)(3x+15)=0$$\n\\(x=-3\\) – точка минимума, в ней достигается наименьшее значение функции. Значит,\n$$f(-3)=(-3+3)^2(-3+6)+7=7$$\nОтвет: 7",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 18867,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y=(x+3)^2(x+6)+7\\) на отрезке \\([-4;1]\\).",
+      "error_conditions": [],
+      "id": 238705,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/EhoR_a4s9ys?t=2328"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/EhoR_a4s9ys?t=2328"
+}

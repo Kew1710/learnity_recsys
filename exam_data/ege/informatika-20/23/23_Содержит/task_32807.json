@@ -1,0 +1,45 @@
+{
+  "comment": "Решение:\n\ndef F(x,y):\nif x == y:\nreturn 1\nif x > y:\nreturn 0\nreturn F(x+1,y) + F(x+2,y) + F(x+3,y)\n\nprint(F(1,7) * F(7,35))",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1543,
+    "title": "№23 Содержит"
+  },
+  "id": 32807,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "381662184",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Резерв_2024) Исполнитель преобразует число на экране. У исполнителя есть две команды, которым присвоены номера:\n- Прибавить 1\n- Прибавить 2\n- Прибавить 3\n\nПрограмма для исполнителя – это последовательность команд. Сколько существует программ, для которых при исходном числе 1 результатом является число 35, при этом траектория вычислений содержит число 7?",
+      "error_conditions": [],
+      "id": 252446,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 40,
+    "title": "Количество программ"
+  },
+  "video_link": null
+}

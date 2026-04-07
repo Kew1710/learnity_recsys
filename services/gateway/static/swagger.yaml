@@ -1,0 +1,5174 @@
+﻿openapi: 3.0.3
+info:
+  title: Learnity API
+  version: "1.0.0"
+  description: |
+    Описание на русском языке.
+    Описание на русском языке.
+
+servers:
+  - url: http://localhost:8080
+    description: Описание на русском языке
+  - url: https://api.example.com
+    description: Описание на русском языке
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: Описание на русском языке
+
+  schemas:
+    # Common Responses
+    ErrorResponse:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Описание на русском языке
+        message:
+          type: string
+          description: Описание на русском языке
+      required: [code, message]
+      example:
+        message: "Сообщение"
+
+    ValidationError:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+      example:
+        message: "Сообщение"
+
+    UnauthorizedError:
+      type: object
+      properties:
+        error:
+          type: string
+          enum: ["unauthorized"]
+      example:
+        error: "unauthorized"
+
+    RecsysResultResponse:
+      type: object
+      required: [request_id, request_type, payload, status, created_at, expires_at]
+      properties:
+        request_id:
+          type: string
+          format: uuid
+        request_type:
+          type: string
+          enum: [task_request, mastery_request, plan_request]
+        payload:
+          type: object
+          additionalProperties: true
+        status:
+          type: string
+          enum: [pending_delivery, delivered]
+        created_at:
+          type: string
+          format: date-time
+        expires_at:
+          type: string
+          format: date-time
+        delivered_at:
+          type: string
+          format: date-time
+          nullable: true
+
+    ForbiddenError:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+      example:
+        message: "Сообщение"
+
+    NotFoundError:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+      example:
+        message: "Сообщение"
+
+    ServerError:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+      example:
+        message: "Сообщение"
+
+    # Pagination
+    PaginationParams:
+      type: object
+      properties:
+        page:
+          type: integer
+          default: 1
+          minimum: 1
+        limit:
+          type: integer
+          default: 20
+          minimum: 1
+          maximum: 100
+
+    PaginatedResponse:
+      type: object
+      properties:
+        items:
+          type: array
+        page:
+          type: integer
+        limit:
+          type: integer
+        total:
+          type: integer
+        total_pages:
+          type: integer
+
+    # Shared primitive/domain schemas
+    SubjectID:
+      type: string
+      format: uuid
+      description: Описание на русском языке
+
+    SubjectRequest:
+      type: object
+      required: [name]
+      properties:
+        name:
+          type: string
+          minLength: 1
+          maxLength: 255
+
+    SubjectResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+
+    DifficultyLevel:
+      type: string
+      enum: [very_easy, easy, medium, hard, very_hard]
+
+    taskType:
+      type: string
+      enum: [diagnostic, homework, practice, exam, project]
+
+    QuestionType:
+      type: string
+      enum: [single_choice, multiple_choice, open, numeric, code]
+
+    SubmissionStatus:
+      type: string
+      enum: [draft, submitted, graded, reopened, cancelled, outdated]
+
+    InvitationStatus:
+      type: string
+      enum: [pending, accepted, rejected, expired]
+
+    PaymentStatus:
+      type: string
+      enum: [pending, succeeded, failed, refunded]
+
+    NotificationType:
+      type: string
+      enum: [system, task, diagnostic, payment, message, invitation, invitation_accepted, invitation_declined, chat_message, submission_created, submission_appealed, submission_reviewed]
+
+    AnalyticsScope:
+      type: string
+      enum: [student, course, task, diagnostic, global]
+
+    # Auth Schemas
+    LoginRequest:
+      type: object
+      required: [input, password]
+      properties:
+        input:
+          type: string
+          description: Описание на русском языке
+          example: "user@example.com"
+        password:
+          type: string
+          format: password
+          minLength: 8
+          maxLength: 128
+          example: "zalupa123"
+
+    LoginResponse:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+        time:
+          type: string
+          format: date-time
+        user:
+          $ref: '#/components/schemas/UserResponse'
+        access_token:
+          type: string
+          description: Описание на русском языке
+        refresh_token:
+          type: string
+          description: Описание на русском языке
+      example:
+        message: "Сообщение"
+        time: "2025-12-14T10:30:00Z"
+        user:
+          id: "uuid"
+          role: "student"
+          age: 20
+          created_at: "2025-12-14T00:00:00Z"
+        access_token: "eyJ..."
+        refresh_token: "eyJ..."
+
+    RegistrationRequest:
+      type: object
+      required: [email, fullname, login, password, role, grade]
+      properties:
+        email:
+          type: string
+          format: email
+          maxLength: 255
+          example: "user@example.com"
+        login:
+          type: string
+          minLength: 3
+          maxLength: 50
+          example: "ivan_petrov"
+        fullname:
+          type: string
+          maxLength: 255
+          example: "Пример значения"
+        time_zone:
+          type: string
+          nullable: true
+          example: "Europe/Moscow"
+        password:
+          type: string
+          format: password
+          minLength: 8
+          maxLength: 128
+          example: "StrongPass123!"
+        role:
+          type: string
+          enum: [student, tutor]
+          example: "student"
+        grade:
+          type: integer
+          minimum: 5
+          maximum: 11
+          description: "Класс ученика (5–11). Только для роли student"
+          example: 9
+
+    RegistrationResponse:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+      example:
+        message: "Сообщение"
+
+    RefreshRequest:
+      type: object
+      required: [refresh_token]
+      properties:
+        refresh_token:
+          type: string
+          description: Описание на русском языке
+
+    RefreshResponse:
+      type: object
+      properties:
+        code:
+          type: string
+        access_token:
+          type: string
+        refresh_token:
+          type: string
+
+    LogoutRequest:
+      type: object
+      required: [fcm_token]
+      properties:
+        fcm_token:
+          type: string
+          minLength: 1
+          example: "fcm_token_value"
+        refresh_token:
+          type: string
+          nullable: true
+          example: "refresh_token_value"
+
+    PutUserFcmTokenRequest:
+      type: object
+      required: [fcm_token]
+      properties:
+        fcm_token:
+          type: string
+          minLength: 1
+          example: "fcm_token_value"
+
+    StatusResponse:
+      type: object
+      properties:
+        status:
+          type: string
+      required: [status]
+
+    # User Schemas
+    UserResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        nickname:
+          type: string
+        email:
+          type: string
+        fullname:
+          type: string
+        role:
+          type: string
+          enum: [student, tutor, admin]
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+        deleted_at:
+          type: string
+          format: date-time
+          nullable: true
+        tutor:
+          type: object
+          nullable: true
+          properties:
+            bio:
+              type: string
+        student:
+          type: object
+          nullable: true
+          properties:
+            courses_count:
+              type: integer
+            grade:
+              type: integer
+            parent_contact:
+              type: string
+
+    UpdateUserProfileRequest:
+      type: object
+      minProperties: 1
+      properties:
+        email:
+          type: string
+          format: email
+          maxLength: 255
+          example: "ivan.petrov@example.com"
+        nickname:
+          type: string
+          minLength: 3
+          maxLength: 50
+          example: "ivan_petrov"
+        fullname:
+          type: string
+          maxLength: 255
+          example: "Пример значения"
+        current_password:
+          type: string
+          format: password
+          minLength: 8
+          maxLength: 72
+          description: Описание на русском языке
+          example: "currentPassword123"
+        password:
+          type: string
+          format: password
+          minLength: 8
+          maxLength: 72
+          description: Описание на русском языке
+          example: "newStrongPassword123"
+
+    # Course Schemas
+    CreateCourseRequest:
+      type: object
+      required: [title, subject_id, level]
+      properties:
+        title:
+          type: string
+          example: "Пример значения"
+        description:
+          type: string
+          nullable: true
+          example: "Пример значения"
+        subject_id:
+          $ref: '#/components/schemas/SubjectID'
+        level:
+          allOf:
+            - $ref: '#/components/schemas/DifficultyLevel'
+          example: "very_hard"
+
+    CourseResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        tutor_id:
+          type: string
+          format: uuid
+        title:
+          type: string
+        description:
+          type: string
+          nullable: true
+        subject_id:
+          $ref: '#/components/schemas/SubjectID'
+        level:
+          $ref: '#/components/schemas/DifficultyLevel'
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+        enrolled_students:
+          type: array
+          items:
+            $ref: '#/components/schemas/EnrolledStudentItem'
+
+    UpdateCourseRequest:
+      type: object
+      properties:
+        title:
+          type: string
+          nullable: true
+        description:
+          type: string
+          nullable: true
+        subject_id:
+          allOf:
+            - $ref: '#/components/schemas/SubjectID'
+          nullable: true
+        level:
+          allOf:
+            - $ref: '#/components/schemas/DifficultyLevel'
+          nullable: true
+
+    # Module Schemas
+    CreateModuleRequest:
+      type: object
+      required: [title]
+      properties:
+        title:
+          type: string
+          example: "Пример значения"
+        description:
+          type: string
+          nullable: true
+
+    ModuleResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        course_id:
+          type: string
+          format: uuid
+        title:
+          type: string
+        description:
+          type: string
+          nullable: true
+        order:
+          type: integer
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    UpdateModuleRequest:
+      type: object
+      properties:
+        title:
+          type: string
+          nullable: true
+        description:
+          type: string
+          nullable: true
+        order:
+          type: integer
+          nullable: true
+
+    ReorderCourseModulesRequest:
+      type: object
+      required: [items]
+      properties:
+        items:
+          type: array
+          minItems: 1
+          maxItems: 50
+          items:
+            $ref: '#/components/schemas/ReorderModuleItem'
+
+    ReorderModuleItem:
+      type: object
+      required: [module_id, order]
+      properties:
+        module_id:
+          type: string
+          format: uuid
+        order:
+          type: integer
+          minimum: 1
+
+    # task Schemas
+    CreatetaskRequest:
+      type: object
+      required: [tasks]
+      properties:
+        tasks:
+          type: array
+          minItems: 1
+          items:
+            $ref: '#/components/schemas/CreateModuleTaskInput'
+
+    CreateModuleTaskInput:
+      type: object
+      required: [task_id, task_type, attempts]
+      properties:
+        task_id:
+          type: string
+          format: uuid
+        task_type:
+          $ref: '#/components/schemas/taskType'
+        deadline:
+          type: string
+          format: date-time
+          nullable: true
+        attempts:
+          type: integer
+          minimum: 1
+
+    taskResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        module_id:
+          type: string
+          format: uuid
+        task_id:
+          type: string
+          format: uuid
+        topic:
+          type: string
+        difficulty:
+          $ref: '#/components/schemas/DifficultyLevel'
+        answer_type:
+          $ref: '#/components/schemas/QuestionType'
+        body:
+          type: string
+        solution:
+          type: string
+          nullable: true
+        metadata:
+          type: object
+        task_type:
+          $ref: '#/components/schemas/taskType'
+        deadline:
+          type: string
+          format: date-time
+          nullable: true
+        attempts:
+          type: integer
+        student_attempt:
+          type: integer
+          nullable: true
+        order:
+          type: integer
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    taskQuestionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        topic:
+          type: string
+        difficulty:
+          $ref: '#/components/schemas/DifficultyLevel'
+        question_type:
+          $ref: '#/components/schemas/QuestionType'
+        body:
+          type: string
+        metadata:
+          type: object
+
+    UpdatetaskRequest:
+      type: object
+      properties:
+        task_type:
+          allOf:
+            - $ref: '#/components/schemas/taskType'
+          nullable: true
+        deadline:
+          type: string
+          format: date-time
+          nullable: true
+        attempts:
+          type: integer
+          nullable: true
+        order:
+          type: integer
+          nullable: true
+
+    ReorderModuletasksRequest:
+      type: object
+      required: [items]
+      properties:
+        items:
+          type: array
+          minItems: 1
+          maxItems: 50
+          items:
+            $ref: '#/components/schemas/ReordertaskItem'
+
+    ReordertaskItem:
+      type: object
+      required: [task_id, order]
+      properties:
+        task_id:
+          type: string
+          format: uuid
+        order:
+          type: integer
+          minimum: 1
+
+    SubmittaskRequest:
+      type: object
+      required: [answer]
+      properties:
+        answer:
+          type: string
+          nullable: true
+
+    SubmissionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        task_id:
+          type: string
+          format: uuid
+        student_id:
+          type: string
+          format: uuid
+        student_fullname:
+          type: string
+          nullable: true
+        attempt:
+          type: integer
+        status:
+          $ref: '#/components/schemas/SubmissionStatus'
+        auto_score:
+          type: number
+          nullable: true
+        manual_score:
+          type: number
+          nullable: true
+        feedback:
+          type: string
+          nullable: true
+        answer:
+          type: string
+          nullable: true
+        attachments:
+          type: object
+        is_appealed:
+          type: boolean
+        submitted_at:
+          type: string
+          format: date-time
+        reviewed_at:
+          type: string
+          format: date-time
+          nullable: true
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    ManualReviewRequest:
+      type: object
+      required: [score]
+      properties:
+        score:
+          type: integer
+          format: int32
+          minimum: 0
+          maximum: 5
+          example: 5
+        feedback:
+          type: string
+          nullable: true
+          example: "Пример значения"
+        status:
+          $ref: '#/components/schemas/SubmissionStatus'
+
+    AppealRequest:
+      type: object
+      required: [reason]
+      properties:
+        reason:
+          type: string
+          example: "Пример значения"
+    AppealSubmissionResponse:
+      type: object
+      required: [task_id, is_appealed]
+      properties:
+        task_id:
+          type: string
+          format: uuid
+        is_appealed:
+          type: boolean
+    # Question Schemas
+    CreateQuestionRequest:
+      type: object
+      required: [subject_id, topic, difficulty, question_type, body]
+      properties:
+        subject_id:
+          $ref: '#/components/schemas/SubjectID'
+        topic:
+          type: string
+          example: "algebra"
+        difficulty:
+          $ref: '#/components/schemas/DifficultyLevel'
+        question_type:
+          $ref: '#/components/schemas/QuestionType'
+        body:
+          type: string
+          example: "Пример значения"
+        answer:
+          type: string
+          nullable: true
+          example: "4"
+        metadata:
+          type: object
+          required: [skill_keys]
+          properties:
+            skill_keys:
+              type: array
+              minItems: 1
+              items:
+                type: integer
+                format: int32
+          example:
+            skill_keys:
+              - 920
+              - 930
+
+    QuestionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        subject_id:
+          $ref: '#/components/schemas/SubjectID'
+        topic:
+          type: string
+        difficulty:
+          $ref: '#/components/schemas/DifficultyLevel'
+        question_type:
+          $ref: '#/components/schemas/QuestionType'
+        body:
+          type: string
+        answer:
+          type: string
+        solution:
+          type: string
+          nullable: true
+        metadata:
+          type: object
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    UpdateQuestionRequest:
+      type: object
+      properties:
+        subject_id:
+          allOf:
+            - $ref: '#/components/schemas/SubjectID'
+          nullable: true
+        topic:
+          type: string
+          nullable: true
+        difficulty:
+          allOf:
+            - $ref: '#/components/schemas/DifficultyLevel'
+          nullable: true
+        question_type:
+          allOf:
+            - $ref: '#/components/schemas/QuestionType'
+          nullable: true
+        body:
+          type: string
+          nullable: true
+        answer:
+          type: string
+          nullable: true
+        metadata:
+          type: object
+          nullable: true
+          required: [skill_keys]
+          properties:
+            skill_keys:
+              type: array
+              minItems: 1
+              items:
+                type: integer
+                format: int32
+          example:
+            skill_keys:
+              - 1019
+
+    GenerationStartRequest:
+      type: object
+      additionalProperties: false
+      required: [subject, items]
+      properties:
+        subject:
+          type: string
+          minLength: 1
+        items:
+          type: array
+          minItems: 1
+          items:
+            $ref: '#/components/schemas/GenerationItem'
+
+    GenerationItem:
+      type: object
+      additionalProperties: false
+      required: [theme, answer_type, count, difficulty]
+      properties:
+        theme:
+          type: string
+          minLength: 1
+        answer_type:
+          $ref: '#/components/schemas/QuestionType'
+        count:
+          type: integer
+          minimum: 1
+        difficulty:
+          type: integer
+          minimum: 1
+          maximum: 5
+
+    GenerationStartResponse:
+      type: object
+      properties:
+        request_id:
+          type: string
+          format: uuid
+        status:
+          type: string
+        requested_total:
+          type: integer
+        created_at:
+          type: string
+          format: date-time
+
+    GenerationStatusResponse:
+      type: object
+      properties:
+        request_id:
+          type: string
+          format: uuid
+        status:
+          type: string
+        requested_total:
+          type: integer
+        generated_total:
+          type: integer
+        failed_total:
+          type: integer
+        reason:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+        finished_at:
+          type: string
+          format: date-time
+          nullable: true
+        updated_at:
+          type: string
+          format: date-time
+
+    GenerationCancelResponse:
+      type: object
+      properties:
+        request_id:
+          type: string
+          format: uuid
+        status:
+          type: string
+
+    # Invitation Schemas
+    InviteStudentRequest:
+      type: object
+      required: [student_nickname]
+      properties:
+        student_nickname:
+          type: string
+          example: "petr_sidorov"
+
+    EnrollStudentRequest:
+      type: object
+      minProperties: 1
+      properties:
+        student_nickname:
+          type: string
+          minLength: 3
+          maxLength: 50
+          example: "petr_sidorov"
+        student_email:
+          type: string
+          format: email
+          maxLength: 255
+          example: "student@example.com"
+      description: Описание на русском языке
+
+    EnrolledStudentItem:
+      type: object
+      required: [id, fullname, nickname]
+      properties:
+        id:
+          type: string
+          format: uuid
+        fullname:
+          type: string
+        nickname:
+          type: string
+
+    BatchRemoveStudentsRequest:
+      type: object
+      required: [student_ids]
+      properties:
+        student_ids:
+          type: array
+          minItems: 1
+          maxItems: 100
+          items:
+            type: string
+            format: uuid
+          description: Описание на русском языке
+
+    BatchRemoveFailureReason:
+      type: string
+      enum: [not_found, forbidden, conflict, invalid]
+
+    BatchRemoveFailedItem:
+      type: object
+      required: [id, reason]
+      properties:
+        id:
+          type: string
+          format: uuid
+        reason:
+          $ref: '#/components/schemas/BatchRemoveFailureReason'
+        message:
+          type: string
+
+    BatchRemoveResponse:
+      type: object
+      required: [message, removed_count, failed_items]
+      properties:
+        message:
+          type: string
+        removed_count:
+          type: integer
+        failed_items:
+          type: array
+          items:
+            $ref: '#/components/schemas/BatchRemoveFailedItem'
+
+    BatchRemoveCoursesRequest:
+      type: object
+      required: [course_ids]
+      properties:
+        course_ids:
+          type: array
+          minItems: 1
+          maxItems: 50
+          items:
+            type: string
+            format: uuid
+
+    BatchRemoveModulesRequest:
+      type: object
+      required: [module_ids]
+      properties:
+        module_ids:
+          type: array
+          minItems: 1
+          maxItems: 50
+          items:
+            type: string
+            format: uuid
+
+    BatchRemoveDiagnosticsRequest:
+      type: object
+      required: [diagnostic_ids]
+      properties:
+        diagnostic_ids:
+          type: array
+          minItems: 1
+          maxItems: 50
+          items:
+            type: string
+            format: uuid
+
+    BatchRemoveSubjectsRequest:
+      type: object
+      required: [subject_ids]
+      properties:
+        subject_ids:
+          type: array
+          minItems: 1
+          maxItems: 50
+          items:
+            type: string
+            format: uuid
+
+    BatchRemoveTasksRequest:
+      type: object
+      required: [task_ids]
+      properties:
+        task_ids:
+          type: array
+          minItems: 1
+          maxItems: 50
+          items:
+            type: string
+            format: uuid
+
+    BatchRemoveQuestionsRequest:
+      type: object
+      required: [question_ids]
+      properties:
+        question_ids:
+          type: array
+          minItems: 1
+          maxItems: 50
+          items:
+            type: string
+            format: uuid
+
+    InvitationResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        tutor_id:
+          type: string
+          format: uuid
+        student_id:
+          type: string
+          format: uuid
+        status:
+          $ref: '#/components/schemas/InvitationStatus'
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+        expires_at:
+          type: string
+          format: date-time
+
+    RespondInvitationRequest:
+      type: object
+      required: [action]
+      properties:
+        action:
+          type: string
+          enum: [accept, reject]
+          example: "accept"
+
+    # Notification Schemas
+    NotificationResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        user_id:
+          type: string
+          format: uuid
+        type:
+          $ref: '#/components/schemas/NotificationType'
+        payload:
+          type: object
+        is_read:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+
+    # Chat Schemas
+    SendMessageRequest:
+      type: object
+      required: [text]
+      properties:
+        text:
+          type: string
+          maxLength: 5000
+          example: "Пример значения"
+
+    MessageResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        chat_id:
+          type: string
+          format: uuid
+        sender_id:
+          type: string
+          format: uuid
+        metadata:
+          type: object
+        created_at:
+          type: string
+          format: date-time
+
+    # Analytics Schemas
+    StudentSkillsAnalyticsResponse:
+      type: object
+      properties:
+        analytics:
+          type: object
+          description: Описание на русском языке
+          additionalProperties:
+            type: number
+            nullable: true
+
+    CourseAnalyticsResponse:
+      type: object
+      properties:
+        submissions_total:
+          type: integer
+        average_score:
+          type: number
+        last_activity:
+          type: string
+          format: date-time
+
+    # Diagnostics Schemas
+    DiagnosticQuestionInput:
+      type: object
+      required: [question_id]
+      properties:
+        question_id:
+          type: string
+          format: uuid
+        weight:
+          type: number
+        order:
+          type: integer
+
+    CreateDiagnosticRequest:
+      type: object
+      required: [subject_id, title]
+      properties:
+        subject_id:
+          $ref: '#/components/schemas/SubjectID'
+        title:
+          type: string
+        description:
+          type: string
+          nullable: true
+        questions:
+          type: array
+          items:
+            $ref: '#/components/schemas/DiagnosticQuestionInput'
+
+    UpdateDiagnosticRequest:
+      type: object
+      properties:
+        subject_id:
+          allOf:
+            - $ref: '#/components/schemas/SubjectID'
+          nullable: true
+        title:
+          type: string
+          nullable: true
+        description:
+          type: string
+          nullable: true
+        questions:
+          type: array
+          items:
+            $ref: '#/components/schemas/DiagnosticQuestionInput'
+          nullable: true
+
+    DiagnosticQuestionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        diagnostic_set_id:
+          type: string
+          format: uuid
+        question_id:
+          type: string
+          format: uuid
+        order:
+          type: integer
+        weight:
+          type: number
+
+    DiagnosticResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        subject_id:
+          $ref: '#/components/schemas/SubjectID'
+        title:
+          type: string
+        description:
+          type: string
+          nullable: true
+        created_by:
+          type: string
+          format: uuid
+          nullable: true
+        settings:
+          type: object
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    DiagnosticAnswerInput:
+      type: object
+      required: [question_id, score]
+      properties:
+        question_id:
+          type: string
+          format: uuid
+        score:
+          type: number
+
+    RunDiagnosticRequest:
+      type: object
+      required: [answers]
+      properties:
+        answers:
+          type: array
+          items:
+            $ref: '#/components/schemas/DiagnosticAnswerInput'
+
+    # Skill Maps Schemas
+    SkillLevelInput:
+      type: object
+      required: [skill_key, level]
+      properties:
+        skill_key:
+          type: string
+        level:
+          type: number
+
+    SkillLevelResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        skill_map_id:
+          type: string
+          format: uuid
+        skill_key:
+          type: string
+        level:
+          type: number
+        updated_at:
+          type: string
+          format: date-time
+
+    SkillMapResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        student_id:
+          type: string
+          format: uuid
+        subject:
+          type: string
+        levels:
+          type: array
+          items:
+            $ref: '#/components/schemas/SkillLevelResponse'
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    CreateSkillMapRequest:
+      type: object
+      required: [student_id, subject]
+      properties:
+        student_id:
+          type: string
+          format: uuid
+        subject:
+          type: string
+        levels:
+          type: array
+          items:
+            $ref: '#/components/schemas/SkillLevelInput'
+
+    # Integrations Schemas
+    CreateIntegrationRequest:
+      type: object
+      required: [type, settings]
+      properties:
+        org_id:
+          type: string
+          format: uuid
+          nullable: true
+        type:
+          type: string
+        settings:
+          type: object
+
+    UpdateIntegrationRequest:
+      type: object
+      properties:
+        org_id:
+          type: string
+          format: uuid
+          nullable: true
+        type:
+          type: string
+          nullable: true
+        settings:
+          type: object
+          nullable: true
+
+    IntegrationResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        org_id:
+          type: string
+          format: uuid
+          nullable: true
+        type:
+          type: string
+        settings:
+          type: object
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    # Payments Schemas
+    CreatePaymentRequest:
+      type: object
+      required: [amount, currency, provider]
+      properties:
+        amount:
+          type: number
+        currency:
+          type: string
+        provider:
+          type: string
+        metadata:
+          type: object
+
+    PaymentResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        payer_id:
+          type: string
+          format: uuid
+        amount:
+          type: number
+        currency:
+          type: string
+        provider:
+          type: string
+        status:
+          $ref: '#/components/schemas/PaymentStatus'
+        metadata:
+          type: object
+        created_at:
+          type: string
+          format: date-time
+
+paths:
+  /api/ping:
+    get:
+      operationId: getPing
+      summary: Описание операции
+      tags: [Health]
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "pong"
+
+  /api/login:
+    post:
+      operationId: postLogin
+      summary: Описание операции
+      tags: [Auth]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/ValidationError'
+                  - $ref: '#/components/schemas/ErrorResponse'
+              examples:
+                validation_error:
+                  value:
+                    message: "Сообщение"
+                invalid_credentials:
+                  value:
+                    message: "Сообщение"
+        '500':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerError'
+
+  /api/registration:
+    post:
+      operationId: postRegistration
+      summary: Описание операции
+      tags: [Auth]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegistrationRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RegistrationResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/ValidationError'
+                  - $ref: '#/components/schemas/ErrorResponse'
+              examples:
+                validation_error:
+                  value:
+                    message: "Сообщение"
+                user_exists:
+                  value:
+                    message: "Сообщение"
+        '422':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationError'
+              example:
+                message: "Сообщение"
+
+  /api/refresh:
+    post:
+      operationId: postRefresh
+      summary: Описание операции
+      tags: [Auth]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RefreshRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RefreshResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationError'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                message: "Сообщение"
+        '500':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerError'
+
+  /api/v1/auth/logout:
+    post:
+      operationId: postAuthLogout
+      summary: Logout пользователя на текущем устройстве
+      tags: [Auth]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LogoutRequest'
+      responses:
+        '200':
+          description: Успешный logout
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StatusResponse'
+        '400':
+          description: Неверный запрос
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/users/profile:
+    patch:
+      operationId: patchUserProfile
+      summary: Описание операции
+      tags: [Users]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateUserProfileRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user:
+                    $ref: '#/components/schemas/UserResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/users/fcm-token:
+    put:
+      operationId: putUserFcmToken
+      summary: Сохранить FCM токен текущего пользователя
+      tags: [Users]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PutUserFcmTokenRequest'
+      responses:
+        '200':
+          description: Токен сохранен
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StatusResponse'
+        '400':
+          description: Неверный запрос
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/users/{id}:
+    get:
+      operationId: getUserById
+      summary: Описание операции
+      tags: [Users]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user:
+                    $ref: '#/components/schemas/UserResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+              example:
+                message: "Сообщение"
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/tutors:
+    get:
+      operationId: getTutors
+      summary: Описание операции
+      tags: [Users]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/UserResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/students:
+    get:
+      operationId: getStudents
+      summary: Описание операции
+      tags: [Users]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/UserResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/students/{studentID}:
+    delete:
+      operationId: deleteStudentById
+      summary: Описание операции
+      description: |
+        Описание на русском языке.
+      tags: [Users]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: studentID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/students/batch-remove:
+    post:
+      operationId: postStudentsBatchRemove
+      summary: Описание операции
+      description: |
+        Описание на русском языке.
+      tags: [Users]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchRemoveStudentsRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  removed_count:
+                    type: integer
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /api/v1/courses/batch-remove:
+    post:
+      operationId: postCoursesBatchRemove
+      summary: Batch remove courses
+      tags: [Courses]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchRemoveCoursesRequest'
+      responses:
+        '200':
+          description: All requested courses were removed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '207':
+          description: Partial result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerError'
+
+  /api/v1/courses:
+    post:
+      operationId: postCourse
+      summary: Описание операции
+      tags: [Courses]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateCourseRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  course:
+                    $ref: '#/components/schemas/CourseResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '500':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerError'
+
+    get:
+      operationId: getCourses
+      summary: Описание операции
+      tags: [Courses]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+        - name: sort_by
+          in: query
+          schema:
+            type: string
+            enum: [created_at, updated_at]
+            default: created_at
+        - name: sort_order
+          in: query
+          schema:
+            type: string
+            enum: [asc, desc]
+            default: desc
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/CourseResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/courses/{courseID}:
+    get:
+      operationId: getCourseById
+      summary: Описание операции
+      tags: [Courses]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: courseID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  course:
+                    $ref: '#/components/schemas/CourseResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    patch:
+      operationId: patchCourseById
+      summary: Описание операции
+      tags: [Courses]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: courseID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateCourseRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  course:
+                    $ref: '#/components/schemas/CourseResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    delete:
+      operationId: deleteCourseById
+      summary: Описание операции
+      tags: [Courses]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: courseID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Course deleted successfully"
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/courses/{courseID}/enrollments:
+    post:
+      operationId: postCourseEnrollment
+      summary: Описание операции
+      tags: [Courses]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: courseID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EnrollStudentRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "student enrolled to course"
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+        '409':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /api/v1/courses/{courseID}/modules:
+    post:
+      operationId: postCourseModule
+      summary: Описание операции
+      tags: [Modules]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: courseID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateModuleRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  module:
+                    $ref: '#/components/schemas/ModuleResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+    get:
+      operationId: getCourseModules
+      summary: Описание операции
+      tags: [Modules]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: courseID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/ModuleResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/courses/{courseID}/modules/reorder:
+    post:
+      operationId: postCourseModulesReorder
+      summary: Bulk reorder course modules
+      tags: [Modules]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: courseID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ReorderCourseModulesRequest'
+      responses:
+        '200':
+          description: Modules reordered
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: modules reordered
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+  /api/v1/modules/batch-remove:
+    post:
+      operationId: postModulesBatchRemove
+      summary: Batch remove modules
+      tags: [Modules]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchRemoveModulesRequest'
+      responses:
+        '200':
+          description: All requested modules were removed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '207':
+          description: Partial result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerError'
+
+  /api/v1/modules/{moduleID}:
+    get:
+      operationId: getModuleById
+      summary: Описание операции
+      tags: [Modules]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  module:
+                    $ref: '#/components/schemas/ModuleResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    patch:
+      operationId: patchModuleById
+      summary: Описание операции
+      tags: [Modules]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateModuleRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  module:
+                    $ref: '#/components/schemas/ModuleResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    delete:
+      operationId: deleteModuleById
+      summary: Описание операции
+      tags: [Modules]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/modules/{moduleID}/tasks:
+    post:
+      operationId: postModuletask
+      summary: Описание операции
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreatetaskRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: all tasks added
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+    get:
+      operationId: getModuletasks
+      summary: Описание операции
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/taskResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/modules/{moduleID}/tasks/reorder:
+    post:
+      operationId: postModuleTasksReorder
+      summary: Bulk reorder module tasks
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ReorderModuletasksRequest'
+      responses:
+        '200':
+          description: Tasks reordered
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: tasks reordered
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/modules/{moduleID}/tasks/generation:
+    post:
+      operationId: postModuleTasksGeneration
+      summary: Запуск асинхронной генерации задач по topics
+      description: |
+        Принимает только topics-only payload.
+        Legacy-поля `exam`, `task_number`, `examples_per_theme` не поддерживаются.
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerationStartRequest'
+      responses:
+        '201':
+          description: Генерация запущена
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenerationStartResponse'
+        '400':
+          description: Неверный запрос
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Доступ запрещен
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+
+  /api/v1/modules/{moduleID}/tasks/generation/{requestID}:
+    get:
+      operationId: getModuleTasksGenerationStatus
+      summary: Получение статуса генерации задач
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: requestID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Статус генерации
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenerationStatusResponse'
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Доступ запрещен
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Запрос генерации не найден
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/modules/{moduleID}/tasks/generation/{requestID}/cancel:
+    post:
+      operationId: postModuleTasksGenerationCancel
+      summary: Отмена генерации задач
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: requestID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Отмена отправлена
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenerationCancelResponse'
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Доступ запрещен
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Запрос генерации не найден
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/modules/{moduleID}/tasks/generation/{requestID}/ws:
+    get:
+      operationId: getModuleTasksGenerationWs
+      summary: WebSocket поток статуса генерации
+      description: |
+        Realtime поток событий генерации для конкретного `requestID`.
+        Поддерживает авторизацию через `Authorization: Bearer <jwt>`,
+        `?access_token=<jwt>` или `Sec-WebSocket-Protocol: bearer,<jwt>`.
+
+        Server -> Client events:
+        - `SUBSCRIBED`
+        - `TASK_READY` (обязательно содержит вложенный `task`)
+        - `REQUEST_COMPLETED`
+
+        Текущий режим генерации: `topics-only`.
+
+        Важно:
+        - `TASK_READY.task` гарантирован и в live-потоке, и в replay после реконнекта.
+        - replay отправляет текущий прогресс, если он уже есть.
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: moduleID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: requestID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '101':
+          description: |
+            Switching Protocols.
+
+            Пример `TASK_READY`:
+            {
+              "event_type": "TASK_READY",
+              "timestamp": "2026-04-07T10:15:00Z",
+              "correlation_id": "request-id",
+              "request_id": "request-id",
+              "slot_id": "slot-1",
+              "item_index": 0,
+              "task": {
+                "id": "assignment-id",
+                "task_id": "task-id",
+                "body": "Task body",
+                "answer_type": "open",
+                "metadata": {}
+              }
+            }
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Доступ запрещен
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Запрос генерации не найден
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+  /api/v1/tasks/batch-remove:
+    post:
+      operationId: postTasksBatchRemove
+      summary: Batch remove tasks
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchRemoveTasksRequest'
+      responses:
+        '200':
+          description: All requested tasks were removed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '207':
+          description: Partial result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerError'
+
+  /api/v1/tasks/{taskId}:
+    get:
+      operationId: gettaskById
+      summary: Описание операции
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: taskId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  task:
+                    $ref: '#/components/schemas/taskResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    patch:
+      operationId: patchtaskById
+      summary: Описание операции
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: taskId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdatetaskRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  task:
+                    $ref: '#/components/schemas/taskResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    delete:
+      operationId: deletetaskById
+      summary: Описание операции
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: taskId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/tasks/{taskId}/submissions:
+    post:
+      operationId: posttaskSubmission
+      description: |
+        Описание на русском языке.
+      summary: Описание операции
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: taskId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SubmittaskRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  submission:
+                    $ref: '#/components/schemas/SubmissionResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/submissions:
+    get:
+      operationId: getSubmissions
+      summary: Описание операции
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: task_id
+          in: query
+          schema:
+            type: string
+            format: uuid
+        - name: student_id
+          in: query
+          schema:
+            type: string
+            format: uuid
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/SubmissionResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+  /api/v1/tasks/{taskId}/students/{studentID}/review:
+    post:
+      operationId: posttaskReview
+      description: |
+        Описание на русском языке.
+      summary: Описание операции
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: taskId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: studentID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ManualReviewRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  review:
+                    type: object
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+
+  /api/v1/tasks/{taskId}/students/{studentID}/unlock:
+    post:
+      operationId: posttaskUnlock
+      description: |
+        Репетитор открывает студенту возможность повторно сдать задание после блокировки.
+      summary: Разблокировать сдачу задания для студента
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: taskId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: studentID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '204':
+          description: Сдача разблокирована
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Доступ запрещён
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Задание или студент не найден
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/tasks/{taskId}/appeal:
+    post:
+      operationId: posttaskAppeal
+      summary: Описание операции
+      tags: [tasks]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: taskId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AppealRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AppealSubmissionResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/tasks/bank:
+    post:
+      operationId: postQuestion
+      summary: Описание операции
+      tags: [Question Bank]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateQuestionRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  question:
+                    $ref: '#/components/schemas/QuestionResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+    get:
+      operationId: getQuestions
+      summary: Описание операции
+      tags: [Question Bank]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/QuestionResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/tasks/bank/batch-remove:
+    post:
+      operationId: postTasksBankBatchRemove
+      summary: Batch remove question bank items
+      tags: [Questions]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchRemoveQuestionsRequest'
+      responses:
+        '200':
+          description: All requested questions were removed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '207':
+          description: Partial result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerError'
+
+  /api/v1/tasks/bank/{questionID}:
+    get:
+      operationId: getQuestionById
+      summary: Описание операции
+      tags: [Question Bank]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: questionID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  question:
+                    $ref: '#/components/schemas/QuestionResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    patch:
+      operationId: patchQuestionById
+      summary: Описание операции
+      tags: [Question Bank]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: questionID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateQuestionRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  question:
+                    $ref: '#/components/schemas/QuestionResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    delete:
+      operationId: deleteQuestionById
+      summary: Описание операции
+      tags: [Question Bank]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: questionID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/invitations:
+    get:
+      operationId: getInvitations
+      summary: Описание операции
+      tags: [Invitations]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/InvitationResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+    post:
+      operationId: postInvitation
+      summary: Описание операции
+      tags: [Invitations]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InviteStudentRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  invitation:
+                    $ref: '#/components/schemas/InvitationResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/invitations/{invitationID}/respond:
+    post:
+      operationId: postInvitationRespond
+      summary: Описание операции
+      tags: [Invitations]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: invitationID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RespondInvitationRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  invitation:
+                    $ref: '#/components/schemas/InvitationResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/notifications:
+    get:
+      operationId: getNotifications
+      summary: Описание операции
+      tags: [Notifications]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/NotificationResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/notifications/read-all:
+    patch:
+      operationId: patchNotificationsReadAll
+      summary: Описание операции
+      tags: [Notifications]
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  updated:
+                    type: integer
+                    description: Описание на русском языке
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/notifications/{notificationID}/read:
+    patch:
+      operationId: patchNotificationRead
+      summary: Описание операции
+      tags: [Notifications]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: notificationID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  notification:
+                    $ref: '#/components/schemas/NotificationResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/notifications/ws:
+    get:
+      operationId: getNotificationsWs
+      summary: WebSocket поток уведомлений
+      description: |
+        Realtime поток новых уведомлений для текущего пользователя.
+        Поддерживает авторизацию через `Authorization: Bearer <jwt>`,
+        `?access_token=<jwt>` или `Sec-WebSocket-Protocol: bearer,<jwt>`.
+
+        Server -> Client events:
+        - `notifications.subscribed`
+        - `notifications.new`
+
+        Важно:
+        - replay/история по WS не отправляется.
+        - история получается через `GET /api/v1/notifications`.
+      tags: [Notifications]
+      security:
+        - BearerAuth: []
+      responses:
+        '101':
+          description: |
+            Switching Protocols.
+
+            Пример `notifications.new`:
+            {
+              "event_type": "notifications.new",
+              "timestamp": "2026-04-07T10:15:00Z",
+              "correlation_id": "notification-id",
+              "notification": {
+                "id": "notification-id",
+                "user_id": "user-id",
+                "type": "invitation_accepted",
+                "payload": {},
+                "is_read": false,
+                "created_at": "2026-04-07T10:15:00Z"
+              }
+            }
+
+  /api/v1/chats/{partnerID}/messages:
+    post:
+      operationId: postChatMessage
+      summary: Описание операции
+      tags: [Chat]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: partnerID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendMessageRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    $ref: '#/components/schemas/MessageResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+    get:
+      operationId: getChatMessages
+      summary: Описание операции
+      tags: [Chat]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: partnerID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 50
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/MessageResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/chats/{partnerID}/ws:
+    get:
+      operationId: getChatWs
+      summary: Full-duplex WebSocket чат
+      description: |
+        Full-duplex чат-канал между текущим пользователем и `partnerID`.
+        Поддерживает авторизацию через `Authorization: Bearer <jwt>`,
+        `?access_token=<jwt>` или `Sec-WebSocket-Protocol: bearer,<jwt>`.
+
+        Client -> Server actions:
+        - `{"action":"send_message","text":"...","metadata":{...}}`
+
+        Server -> Client events:
+        - `chat.subscribed`
+        - `chat.message`
+        - `chat.error`
+
+        Важно:
+        - replay/история по WS не отправляется.
+        - история сообщений получается через `GET /api/v1/chats/{partnerID}/messages`.
+      tags: [Chat]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: partnerID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '101':
+          description: |
+            Switching Protocols.
+
+            Пример `chat.message`:
+            {
+              "event_type": "chat.message",
+              "timestamp": "2026-04-07T10:15:00Z",
+              "correlation_id": "message-id",
+              "message": {
+                "id": "message-id",
+                "chat_id": "chat-id",
+                "sender_id": "user-id",
+                "text": "hello",
+                "metadata": {},
+                "created_at": "2026-04-07T10:15:00Z"
+              }
+            }
+
+  /api/v1/courses/{courseID}/analytics:
+    get:
+      operationId: getCourseAnalytics
+      summary: Описание операции
+      tags: [Analytics]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: courseID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  analytics:
+                    $ref: '#/components/schemas/CourseAnalyticsResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/analytics:
+    get:
+      operationId: getAnalytics
+      summary: Описание операции
+      tags: [Analytics]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: student_id
+          in: query
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: skill_keys
+          in: query
+          required: true
+          style: form
+          explode: true
+          schema:
+            type: array
+            minItems: 3
+            maxItems: 12
+            items:
+              type: integer
+              format: int32
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StudentSkillsAnalyticsResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+
+  /api/v1/diagnostics:
+    post:
+      operationId: postDiagnostic
+      summary: Описание операции
+      tags: [Diagnostics]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateDiagnosticRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  diagnostic:
+                    $ref: '#/components/schemas/DiagnosticResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+    get:
+      operationId: getDiagnostics
+      summary: Описание операции
+      tags: [Diagnostics]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/DiagnosticResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/diagnostics/batch-remove:
+    post:
+      operationId: postDiagnosticsBatchRemove
+      summary: Batch remove diagnostics
+      tags: [Diagnostics]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchRemoveDiagnosticsRequest'
+      responses:
+        '200':
+          description: All requested diagnostics were removed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '207':
+          description: Partial result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerError'
+
+  /api/v1/diagnostics/{diagnosticID}:
+    get:
+      operationId: getDiagnosticById
+      summary: Описание операции
+      tags: [Diagnostics]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: diagnosticID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  diagnostic:
+                    $ref: '#/components/schemas/DiagnosticResponse'
+                  questions:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/DiagnosticQuestionResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    patch:
+      operationId: patchDiagnosticById
+      summary: Описание операции
+      tags: [Diagnostics]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: diagnosticID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateDiagnosticRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  diagnostic:
+                    $ref: '#/components/schemas/DiagnosticResponse'
+                  questions:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/DiagnosticQuestionResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    delete:
+      operationId: deleteDiagnosticById
+      summary: Описание операции
+      tags: [Diagnostics]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: diagnosticID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/diagnostics/{diagnosticID}/run:
+    post:
+      operationId: postDiagnosticRun
+      summary: Описание операции
+      tags: [Diagnostics]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: diagnosticID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RunDiagnosticRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  skill_map:
+                    $ref: '#/components/schemas/SkillMapResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/skill-maps:
+    post:
+      operationId: postSkillMap
+      summary: Описание операции
+      tags: [SkillMaps]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateSkillMapRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  skill_map:
+                    $ref: '#/components/schemas/SkillMapResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+    get:
+      operationId: getSkillMaps
+      summary: Описание операции
+      tags: [SkillMaps]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: student_id
+          in: query
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/SkillMapResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/students/{studentID}/skill-map:
+    get:
+      operationId: getStudentSkillMap
+      summary: Описание операции
+      tags: [SkillMaps]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: studentID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  skill_map:
+                    $ref: '#/components/schemas/SkillMapResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/skill-maps/{skillMapID}:
+    delete:
+      operationId: deleteSkillMapById
+      summary: Описание операции
+      tags: [SkillMaps]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: skillMapID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/integrations:
+    post:
+      operationId: postIntegration
+      summary: Описание операции
+      tags: [Integrations]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateIntegrationRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  integration:
+                    $ref: '#/components/schemas/IntegrationResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+    get:
+      operationId: getIntegrations
+      summary: Описание операции
+      tags: [Integrations]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: org_id
+          in: query
+          schema:
+            type: string
+            format: uuid
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/IntegrationResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/subjects:
+    post:
+      operationId: postSubject
+      summary: Описание операции
+      tags: [Subjects]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SubjectRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  subject:
+                    $ref: '#/components/schemas/SubjectResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '409':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+    get:
+      operationId: getSubjects
+      summary: Описание операции
+      tags: [Subjects]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/SubjectResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/subjects/batch-remove:
+    post:
+      operationId: postSubjectsBatchRemove
+      summary: Batch remove subjects
+      tags: [Subjects]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchRemoveSubjectsRequest'
+      responses:
+        '200':
+          description: All requested subjects were removed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '207':
+          description: Partial result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchRemoveResponse'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerError'
+
+  /api/v1/subjects/{subjectID}:
+    delete:
+      operationId: deleteSubjectById
+      summary: Описание операции
+      tags: [Subjects]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: subjectID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '403':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForbiddenError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+        '409':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /api/v1/integrations/{integrationID}:
+    get:
+      operationId: getIntegrationById
+      summary: Описание операции
+      tags: [Integrations]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: integrationID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  integration:
+                    $ref: '#/components/schemas/IntegrationResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    patch:
+      operationId: patchIntegrationById
+      summary: Описание операции
+      tags: [Integrations]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: integrationID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateIntegrationRequest'
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  integration:
+                    $ref: '#/components/schemas/IntegrationResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+    delete:
+      operationId: deleteIntegrationById
+      summary: Описание операции
+      tags: [Integrations]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: integrationID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/payments:
+    post:
+      operationId: postPayment
+      summary: Описание операции
+      tags: [Payments]
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreatePaymentRequest'
+      responses:
+        '201':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  payment:
+                    $ref: '#/components/schemas/PaymentResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+    get:
+      operationId: getPayments
+      summary: Описание операции
+      tags: [Payments]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: payer_id
+          in: query
+          schema:
+            type: string
+            format: uuid
+        - name: status
+          in: query
+          schema:
+            $ref: '#/components/schemas/PaymentStatus'
+        - name: provider
+          in: query
+          schema:
+            type: string
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/PaginatedResponse'
+                  - type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/PaymentResponse'
+        '400':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/recsys/ws:
+    get:
+      operationId: getRecsysWs
+      summary: WebSocket соединение с рекомендательной системой (recsys)
+      description: |
+        Устанавливает WebSocket соединение. Клиент отправляет один запрос,
+        получает ответ и соединение закрывается.
+
+        **Входящие сообщения от клиента:**
+
+        Запрос следующего задания:
+        ```json
+        { "type": "task_request", "subject": "<subject_uuid>" }
+        ```
+
+        Запрос mastery студента:
+        ```json
+        { "type": "mastery_request", "student_id": "<uuid>", "skill_keys": ["linear_equations"] }
+        ```
+
+        Запрос учебного плана (только tutor):
+        ```json
+        {
+          "type": "plan_request",
+          "student_id": "<uuid>",
+          "mode": "target_mastery",
+          "target_skill_key": "quadratic_equations",
+          "mastery_threshold": 0.8
+        }
+        ```
+
+        **Исходящие сообщения от сервера:**
+
+        Рекомендованное задание (`event_type: "task.recommended"`):
+        ```json
+        { "event_type": "task.recommended", "task_id": "<uuid>", "topic": "...", "recommendation_source": "..." }
+        ```
+
+        Mastery ответ (`event_type: "mastery.response"`):
+        ```json
+        { "event_type": "mastery.response", "student_id": "<uuid>", "levels": [{ "skill_key": "...", "level": 0.74 }] }
+        ```
+
+        Учебный план (`event_type: "plan.created"`):
+        ```json
+        { "event_type": "plan.created", "plan_id": "<uuid>", "student_id": "<uuid>", "steps_count": 5 }
+        ```
+
+        Ошибка (`event_type: "error"`):
+        ```json
+        { "event_type": "error", "code": "forbidden|invalid_request|timeout|internal_error", "message": "..." }
+        ```
+      tags: [Recsys]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: access_token
+          in: query
+          required: false
+          schema:
+            type: string
+          description: JWT токен (альтернатива заголовку Authorization для WS)
+      responses:
+        '101':
+          description: WebSocket upgrade
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+
+  /api/v1/recsys/results/{requestID}:
+    get:
+      operationId: getRecsysResultById
+      summary: Получить отложенный результат recsys по request_id
+      tags: [Recsys]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: requestID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Результат найден
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    $ref: '#/components/schemas/RecsysResultResponse'
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Результат не найден
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+
+  /api/v1/payments/{paymentID}:
+    get:
+      operationId: getPaymentById
+      summary: Описание операции
+      tags: [Payments]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: paymentID
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  payment:
+                    $ref: '#/components/schemas/PaymentResponse'
+        '401':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnauthorizedError'
+        '404':
+          description: Описание на русском языке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'

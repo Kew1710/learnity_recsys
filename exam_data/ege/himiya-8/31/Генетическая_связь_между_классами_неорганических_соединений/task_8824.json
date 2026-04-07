@@ -1,0 +1,37 @@
+{
+  "comment": "1) Al + 2NaOH + 6H₂O = 2Na[Al(OH)₄] + 3H₂\n2) Na[Al(OH)₄] + CO₂ = NaHCO₃ + Al(OH)₃\n3) 2Al(OH)₃ = Al₂O₃ + 3H₂O\n4) Al₂O₃ + Na₂CO₃ = 2NaAlO₂ + CO₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8824,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "К раствору гидроксида натрия добавили порошок алюминия. Через раствор полученного вещества пропустили избыток углекислого газа. Выпавший осадок отделили и прокалили. Полученный продукт сплавили с карбонатом натрия. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112040,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

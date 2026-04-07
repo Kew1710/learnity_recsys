@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(S=1\\), а \\(x\\) - скорость велосипедиста, \\(y\\) - скорость мотоциклиста. \\(\\frac{1}{x}\\) - время мотоциклиста на весь путь, а \\(\\frac{1}{y}\\) - время мотоциклиста на весь путь.\nСоставим систему уравнений:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} ( x+y) \\cdot \\frac{4}{3} =1\\\\ \\frac{1}{x} -\\frac{1}{y} =2 \\end{cases}\\\\ \\begin{cases} ( x+y) =\\frac{3}{4}\\\\ \\frac{1}{x} -\\frac{1}{y} =2 \\end{cases}\\\\ \\begin{cases} y=\\frac{3}{4} -x\\\\ y-x=2xy \\end{cases}\\\\ \\begin{cases} y=\\frac{3}{4} -x\\\\ x-\\frac{3}{4} -x=2x(\\frac{3}{4} -x) \\end{cases}\\\\ \\begin{cases} y=\\frac{3}{4} -x\\\\ 8x^{2} -14x+3=0 \\end{cases} \\end{array}\\\\ 8x^2-14x+3=0\\\\ x=\\frac{3}{2}, x=\\frac{1}{4}$$\nТ.к. время, которое затратил на путь из В в А велосипедист \\(\\frac{1}{x}\\), то:\n$$\\frac{1}{x}=\\frac{1}{\\frac{3}{2}}=\\frac{2}{3}~и~\\frac{1}{x}=\\frac{1}{\\frac{1}{4}}=4$$\nНо \\(\\frac{2}{3}\\) ч пути велосипедист затратить не мог, т.к. отсюда получается, что до места встречи он ехал дольше, чем ехал весь путь. Получили противоречие. Поэтому, \\(x=4\\).\n\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2429,
+    "title": "10.2 Движение по суше"
+  },
+  "id": 9812,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из городов А и В навстречу друг другу выехали мотоциклист и велосипедист. Мотоциклист приехал в В на 2 часа раньше, чем велосипедист приехал в А, а встретились они через 1 час 20 минут после выезда. Сколько часов затратил на путь из В в А велосипедист?",
+      "error_conditions": [],
+      "id": 119716,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=4993"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=4993"
+}

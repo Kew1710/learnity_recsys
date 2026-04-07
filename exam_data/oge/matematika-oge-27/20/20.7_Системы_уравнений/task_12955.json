@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\begin{cases}& 6x^2+y = 14(1)\\\\ & 12x^2-y = 4 (2)\\end{cases}\\)\nРешим методом сложения\n\\(18x^2 = 18\\)\n\\(x^2=1\\)\n\\((x-1)(x+1) = 0\\)\n\\(\\Rightarrow x_1 = 1, x_2 = -1\\)\nПодставим в уравнение (1) \\(x = 1\\)\n\\(6 \\cdot 1 + y = 14\\)\n\\(y = 8\\)\nПодставим в уравнение (1) \\(x = -1\\)\n\\(6 \\cdot 1 + y = 14\\)\n\\(y = 8\\)\n\\(\\begin{cases}& x = 1\\\\ & y = 8\\end{cases}\\)\nили\n\\(\\begin{cases}& x = - 1\\\\ & y = 8\\end{cases}\\)\nОтвет: \\( (1; 8) \\cup (-1; 8) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2054,
+    "title": "20.7 Системы уравнений"
+  },
+  "id": 12955,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите систему уравнений \\(\\begin{cases}& 6x^2+y = 14\\\\ & 12x^2-y = 4\\end{cases}\\) .",
+      "error_conditions": null,
+      "id": 174307,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

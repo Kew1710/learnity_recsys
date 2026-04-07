@@ -1,0 +1,40 @@
+{
+  "comment": "Уравнение \\(\\sqrt{x^2+6x+8}=\\sqrt{a-3x}\\) равносильно системе: \\(\\displaystyle \\begin{cases} x^{2} +6x+8=a-3x\\\\ x^{2} +6x+8\\geq 0 \\end{cases}\\), достаточно одного ограничения, так как при равенстве \\(a-3x \\) автоматически становится неотрицательным.\nПолучим: \\(\\displaystyle \\begin{cases} x^{2} +9x+8-a=0\\\\ a\\in ( -\\infty ;-4] \\cup [ -2;+\\infty ) \\end{cases}\\)\n\nЭта система может иметь ровно один отрицательный корень, если\n1) имеет единственный отрицательный корень, удовлетворяющий ограничению;\n2) имеет \\(2\\) корня, один положительный, другой отрицательный, удовлетворяющий ограничению;\n3) имеет \\(2\\) корня, один из которых не подходит по ограничениям.\n\nРассмотрим случай 1) \\(D=0\\Rightarrow D=81-4(8-x)=49+4a=0\\Rightarrow a=-\\frac{49}{4}\\), подставим:\n\\(x^2+9x+8+\\frac{49}{4}=0\\Rightarrow x^2+9x+8+\\frac{81}{4}\\Rightarrow \\left(x+\\frac{9}{2}\\right)^2=0\\Rightarrow x=-\\frac{9}{2}\\), отрицательный корень, удовлетворяющий ограничению.\nВведём \\(f(x)=x^2+9x+8-a\\) – парабола ветви вверх.\n\nРассмотрим случай 2)\n$$\\displaystyle \\begin{cases} D >0\\\\ \\left[ \\begin{array}{l l} \\begin{cases} f( -4) \\leq 0\\\\ f( 0) \\leq 0 \\end{cases}\\\\ \\begin{cases} f( -2) \\geq 0\\\\ f( 0) \\leq 0 \\end{cases} \\end{array} \\right. \\end{cases} \\Rightarrow \\begin{cases} 49+4a >0\\\\ \\left[ \\begin{array}{l l} \\begin{cases} 16-36+8-a\\leq 0\\\\ 8-a\\leq 0 \\end{cases}\\\\ \\begin{cases} 4-18+8-a\\geq 0\\\\ 8-a\\leq 0 \\end{cases} \\end{array} \\right. \\end{cases} \\Rightarrow \\begin{cases} a >-\\frac{49}{4}\\\\ \\left[ \\begin{array}{l l} \\begin{cases} a\\geq -12\\\\ a\\geq 8 \\end{cases}\\\\ \\begin{cases} a\\leq -6\\\\ a\\geq 8 \\end{cases} \\end{array} \\right. \\end{cases} \\Rightarrow \\begin{cases} a >-\\frac{49}{4}\\\\ a\\geq 8 \\end{cases} \\Rightarrow a\\geq 8$$\nНам подходят такие расположения парабол:\nРассмотрим случай 3).\n$$\\displaystyle \\begin{cases} D >0\\\\ \\left[ \\begin{array}{l l} \\begin{cases} f( -4) \\leq 0\\\\ f( -2) >0 \\end{cases}\\\\ \\begin{cases} f( -4) >0\\\\ f( -2) \\leq 0\\\\ f( 0) >0 \\end{cases} \\end{array} \\right. \\end{cases} \\Rightarrow \\begin{cases} 49+4a >0\\\\ \\left[ \\begin{array}{l l} \\begin{cases} a\\geq -12\\\\ a< -6 \\end{cases}\\\\ \\begin{cases} a< -12\\\\ a\\geq -6\\\\ a< 8 \\end{cases} \\end{array} \\right. \\end{cases} \\Rightarrow \\begin{cases} a >-\\frac{49}{4}\\\\ a\\geq -12\\\\ a< -6 \\end{cases} \\Rightarrow a\\in [ -12;-6)$$\nНам подходят такие расположения парабол:\nПолучим непересекающиеся множества: \\(a\\in\\{-\\frac{49}{4}\\}\\cup [-12;-6)\\cup [8;+\\infty)\\).\n\nОтвет: \\(\\{-\\frac{49}{4}\\}\\cup [-12;-6)\\cup [8;+\\infty)\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2493,
+    "title": "18.4 Уравнения с параметром"
+  },
+  "id": 35363,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения параметра \\(a\\), при каждом из которых уравнение\n$$\\sqrt{x^2+6x+8}=\\sqrt{a-3x}$$\nимеет ровно один отрицательный корень.",
+      "error_conditions": null,
+      "id": 255002,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/9L45G5F3TGo?si=YJV2f_9BgbW3_11i&t=9370"
+}

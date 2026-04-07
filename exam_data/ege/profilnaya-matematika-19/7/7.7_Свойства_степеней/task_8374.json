@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{m^{\\frac{1}{2}}}{m^{\\frac{1}{9}} \\cdot m^{\\frac{1}{18}}} =\\ \\frac{m^{\\frac{1}{2}}}{m\\frac{1}{6}} \\ =\\ m^{\\frac{1}{2} -\\frac{1}{6}} =m^{\\frac{1}{3}} =\\sqrt[3]{m}\\\\ \\sqrt[3]{64}=4$$\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 8374,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{\\ \\sqrt{m}}{\\sqrt[9]{m}\\sqrt[18]{m}}\\) при \\(m=64\\).",
+      "error_conditions": [],
+      "id": 102467,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=1169"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=1169"
+}

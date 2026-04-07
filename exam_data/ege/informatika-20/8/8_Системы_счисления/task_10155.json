@@ -1,0 +1,45 @@
+{
+  "comment": "Решение программой:\nPythonPascalfrom itertools import *\n\nk = 0\nposition = 0\nfor s in product(\"АЕКМНЬ\", repeat = 6):\nk += 1\nif s[0] != 'Ь' and s.count('М') == 2 and s.count('А') <= 1:\nposition = k\nprint(position)\nbegin\nvar count:= 0;\nvar word:= 'АЕКМНЬ';\nvar position:=0;\nforeach var x1 in word do\nforeach var x2 in word do\nforeach var x3 in word do\nforeach var x4 in word do\nforeach var x5 in word do\nforeach var x6 in word do\nbegin\nvar s:= x1 + x2 + x3 + x4 + x5 + x6;\ncount += 1;\nif (s[1] <> 'Ь') and (s.CountOf('М') = 2) and (s.CountOf('А') <= 1) then\nposition := count;\nend;\nprint(position)\nend.\nВидеоразбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 10155,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "38866",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Все шестибуквенные слова, составленные из букв К, А, М, Е, Н, Ь, записаны в алфавитном порядке и пронумерованы.\nВот начало списка:\n\n1. АААААА\n2. АААААЕ\n3. АААААК\n4. АААААМ\n5. АААААН\n6. АААААЬ\n…..\n\nПод каким номером в списке стоит последнее слово, которое не начинается с буквы Ь, содержит ровно две буквы М и не более одной буквы А?",
+      "error_conditions": [],
+      "id": 122434,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/hbB9Y_QNl20?start=5612"
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": "https://www.youtube.com/embed/hbB9Y_QNl20?start=5612"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Электрическое поле заряженной расчески наэлектризовывает через влияние листочки бумаги",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3257,
+    "title": "3.1 Электризация тел. Два вида электрических зарядов"
+  },
+  "id": 33300,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "После расчёсывания волос пластмассовую расчёску подносят к мелким листочкам фольги. Листочки фольги притягиваются к расчёске (см. рисунок).\nКакое явление объясняет наблюдаемое притяжение листочков фольги?\n1)электризация через влияние\n2) электризация трением\n3) электромагнитная индукция\n4) всемирное тяготение",
+      "error_conditions": [],
+      "id": 252939,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

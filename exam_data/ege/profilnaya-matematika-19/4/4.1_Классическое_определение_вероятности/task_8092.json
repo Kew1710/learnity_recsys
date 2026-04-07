@@ -1,0 +1,45 @@
+{
+  "comment": "Всего комбинаций \\(-36\\). Подходящих \\(4~(1+4, 2+3, 3+2, 4+1)\\)\n$$\\frac{4}{36}=0,11$$\nОтвет: 0,11",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 8092,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В случайном эксперименте бросают две игральные кости. Найдите вероятность того, что в сумме выпадает \\(5\\) очков. Результат округлите до сотых.",
+      "error_conditions": [],
+      "id": 101073,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": null
+}

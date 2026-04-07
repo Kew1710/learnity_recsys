@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n1) \\(183 - 3= 180\\) км/ч - v сближения\n2) 180 км/ч = \\( \\cfrac{180 \\cdot 1000}{3600}=50\\) м/с\n3)\\( 50 \\cdot 13 = 650 \\) м - длина поезда\nОтвет: 650м",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1942,
+    "title": "21.7 Длина поезда"
+  },
+  "id": 13328,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Поезд, двигаясь равномерно со скоростью 183 км/ч, проезжает мимо пешехода, идущего в том же направлении параллельно путям по платформе со скоростью 3 км/ч, за 13 секунд. Найдите длину поезда в метрах.",
+      "error_conditions": null,
+      "id": 178164,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

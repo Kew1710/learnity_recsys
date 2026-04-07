@@ -1,0 +1,42 @@
+{
+  "comment": "Сила Лоренца:\n$$F_л=qvBsin\\alpha,~sin\\alpha=1\\Rightarrow F_л=qvB$$\nОтношение сил:\n$$\\frac{F_1}{F_2}=\\frac{qvB}{2qvB}=0,5$$\nОтвет: 0,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 32311,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Две частицы с зарядами \\(q_1=q\\) и \\(q_2=2q\\) влетают в однородное магнитное поле перпендикулярно вектору магнитной индукции с одинаковыми скоростями. Определите отношение модулей сил \\(\\frac{F_1}{F_2}\\), действующих на частицы со стороны магнитного поля.",
+      "error_conditions": [],
+      "id": 251950,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/2ERRs0I_VN0?t=2300"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/2ERRs0I_VN0?t=2300"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{6}{8}=\\frac{3}{4}=0,75$$\nОтвет: 0,75",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 7300,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В группе туристов \\(8\\) человек. С помощью жребия они выбирают шестерых человек, которые должны идти в село в магазин за продуктами. Какова вероятность того, что турист Д., входящий в состав группы, пойдёт в магазин?",
+      "error_conditions": [],
+      "id": 83816,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/DwSX_wHVsps?start=1669"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/DwSX_wHVsps?start=1669"
+}

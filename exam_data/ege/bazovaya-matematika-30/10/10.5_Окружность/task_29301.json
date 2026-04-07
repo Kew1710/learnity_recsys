@@ -1,0 +1,42 @@
+{
+  "comment": "Если каждый сектор будет иметь величину 20°, то количество секторов будет \\(360 / 20 = 18\\). Так как 7 спиц делят колесо на 7 секторов, то аналогично для 18 секторов понадобится 18 спиц.\nОтвет: 18.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2096,
+    "title": "10.5 Окружность"
+  },
+  "id": 29301,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "18",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке показано, как выглядит колесо с 7 спицами. Сколько будет спиц в колесе, если угол между любыми двумя соседними спицами в нём будет равен 20°?",
+      "error_conditions": [],
+      "id": 248940,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

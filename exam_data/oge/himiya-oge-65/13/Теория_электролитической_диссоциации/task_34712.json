@@ -1,0 +1,46 @@
+{
+  "comment": "Неэлектролиты - вещества р-ры/р-вы которых ВООБЩЕ не проводят электрический ток (оксиды, простые вещества, газы, органические соединения - спирт, глюкоза, сахар, парафин)\n\n1) \\(CuSO_{4}\\) - соль => электролит\n2) \\(HNO_{3}\\) - кислота => электролит\n3) \\(CH_{4}\\) - органическое вещество => неэлектролит\n4) \\(KClO\\) - соль => электролит\n5) \\(CO_{2}\\) - кислотный оксид => неэлектролит",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2894,
+    "title": "Теория электролитической диссоциации"
+  },
+  "id": 34712,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        },
+        {
+          "answer": "53",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два неэлектролита.\n\n1) \\(CuSO_{4}\\)\n2) \\(HNO_{3}\\)\n3) \\(CH_{4}\\)\n4) \\(KClO\\)\n5) \\(CO_{2}\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 254351,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

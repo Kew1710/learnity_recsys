@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 21221\nКости лицевого отдела черепа: скуловая, носовая.\nКости мозгового отдела черепа: височная, теменная, лобная",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10263,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "21221",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между костью и отделом черепа, к которому она принадлежит: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\nКОСТЬ ОТДЕЛ ЧЕРЕПА А) височная\nБ) скуловая\nВ) теменная\nГ) лобная\nД) носовая\n1) лицевой\n2) мозговой",
+      "error_conditions": [],
+      "id": 123003,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

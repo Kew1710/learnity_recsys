@@ -1,0 +1,42 @@
+{
+  "comment": "1) доход относится к налоговой политике\n2) ставка относится к налоговой политике\n3) рынок связан с рыночной экономикой\n4) платежи относится к налоговой политике\n5) льготы относится к налоговой политике\n6) конкуренция связана с рыночной экономикой",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2564,
+    "title": "Налоги. Фискальная политика государства"
+  },
+  "id": 26574,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ниже приведён перечень терминов. Все они, за исключением двух, относятся к понятию «налоговая политика».\n\n1) доход, 2) ставка, 3) рынок, 4) платежи, 5) льготы, 6) конкуренция.\n\nНайдите два термина, «выпадающих» из общего ряда, и запишите в таблицу цифры, под которыми они указаны.",
+      "error_conditions": [],
+      "id": 246213,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/IWl4rURAMyk?si=1J_xEuQRsduxOkLb&t=7666"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/IWl4rURAMyk?si=1J_xEuQRsduxOkLb&t=7666"
+}

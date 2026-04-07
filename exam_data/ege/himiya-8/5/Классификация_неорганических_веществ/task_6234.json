@@ -1,0 +1,42 @@
+{
+  "comment": "А) Кислотный оксид – оксид неметалла (кроме несолеобразующих CO, N₂O, NO) или металла со степенью окисления +5 и выше. Подходит SO₃\nБ) Щёлочь – растворимое основание, образованное щелочным или щёлочноземельным металлом. Подходит Ba(OH)₂\nВ) Двойная соль – соль, которая в своем составе содержит 2 разных катиона. Подходит KCr(SO₄)₂ ･ 12H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2796,
+    "title": "Классификация неорганических веществ"
+  },
+  "id": 6234,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "264",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Среди предложенных формул/названий веществ, расположенных в пронумерованных ячейках, выберите формулы/названия: А) кислотного оксида; Б) щёлочи; В) двойной соли.\n1\nFe(OH)₃\n\n2\nSO₃\n\n3\nCaSO₄ ･ 2H₂O\n\n4\nKCr(SO₄)₂ ･ 12H₂O\n\n5\n(NH₄)₂Cr₂O₇\n\n6\nBa(OH)₂\n\n7\nFe₃O₄\n\n8\nBeO\n\n9\nKClO₃",
+      "error_conditions": [],
+      "id": 72849,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=1758"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=1758"
+}

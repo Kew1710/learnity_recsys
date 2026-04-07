@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ: 1. Термометр лучше устанавливать на северной стороне.\n\n2. У южного окна термометр будет дополнительно нагреваться за счёт солнечного излучения и показывать более высокую температуру.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3246,
+    "title": "2.7 Виды теплопередачи: теплопроводность, конвекция, излучение"
+  },
+  "id": 33713,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "У окна, выходящего на северную или южную сторону, лучше располагать термометр для измерения температуры наружного воздуха? Ответ поясните.",
+      "error_conditions": null,
+      "id": 253352,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/oE16trDoV24?si=Jc-PdLkV2zZtECx-&t=1205"
+}

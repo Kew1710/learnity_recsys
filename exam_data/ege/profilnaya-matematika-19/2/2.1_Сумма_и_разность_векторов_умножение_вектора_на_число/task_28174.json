@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем координаты векторов через смещение (как вектор изменял координаты от начала до конца, на примере вектора \\(\\vec{a}\\): по оси абсцисс сместились на 4 клетки вправо, то есть \\(x=4\\), по оси ординат на 4 клетки вверх, то есть \\(y=4\\)), тогда:\n$$\\vec{a}(4;4); \\vec{b}(9;-3); \\vec{c}(-1;-6)$$\nЧтобы найти вектор \\(\\vec{a}+\\vec{b}+\\vec{c}\\), надо сложить координаты векторов \\(\\vec{a}\\), \\(\\vec{b}\\), \\(\\vec{c}\\):\n$$\\vec{a}+\\vec{b}+\\vec{c}=(4+9-1;4-3-6)=(12;-5),$$\nдлина вектора:\n$$|\\vec{a}+\\vec{b}+\\vec{c}|=\\sqrt{12^2+(-5)^2}=\\sqrt{169}=13$$\nОтвет: 13",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2382,
+    "title": "2.1 Сумма и разность векторов, умножение вектора на число"
+  },
+  "id": 28174,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной плоскости изображены векторы \\(\\vec{a}\\), \\(\\vec{b}\\) и \\(\\vec{c}\\). Найдите длину вектора \\(\\vec{a}+\\vec{b}+\\vec{c}\\).",
+      "error_conditions": [],
+      "id": 247813,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/4wKw-BzjTUQ?si=HcOwP7k8VBfEbQ1O&t=4440"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/live/4wKw-BzjTUQ?si=HcOwP7k8VBfEbQ1O&t=4440"
+}

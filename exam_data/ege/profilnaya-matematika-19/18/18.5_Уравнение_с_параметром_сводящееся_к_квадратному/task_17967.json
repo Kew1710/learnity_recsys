@@ -1,0 +1,40 @@
+{
+  "comment": "$$x^4\\cos{a}+2x^2\\sin{a}+\\cos{a}=0$$\nЕсли \\(\\cos{a}=0\\), то \\(2x^2\\sin{a}=0\\) \\( \\ ( \\sin{a}\\ne 0\\) так как тогда не выполняется ОТТ: \\(\\sin^{2}\\alpha + \\cos^{2}\\alpha = 1)\\)\n\\(x=0\\), получаем один корень, следовательно, \\(\\cos{a}\\ne 0\\)\n\nПусть \\(t=x^2\\), \\(t>0\\)\n$$t^2\\cos{a}+2t\\sin{a}+\\cos{a}=0$$\nПоделим на \\(\\cos{a} \\ne 0\\):\n$$t^2+2t\\cdot tg \\, {a}+1=0$$\nИсходное уравнение имеет два различных решения, когда уравнение\n\\(t^2+2t\\cdot tg \\, {a}+1=0\\) имеет одно положительное решение, а это выполняется при следующих условиях:\n1) \\(\\displaystyle \\begin{cases} D=0\\\\ -\\frac{b}{2a} >0 \\end{cases}\\)\n2) \\(\\displaystyle \\begin{cases} D >0\\\\ f( 0) < 0 \\end{cases}\\)\n\nПроверим первое условие:\n$$\\displaystyle \\begin{cases} D=0\\\\ -\\frac{b}{2a} >0 \\end{cases}\\\\ \\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} 4tg \\, {a} ^{2} -4=0\\\\ -\\frac{2tg \\, {a} }{2} >0 \\end{cases} \\Rightarrow \\begin{cases} 4tg \\, {a} ^{2} =4\\\\ -tg \\, {a} >0 \\end{cases} \\Rightarrow \\begin{cases} tg \\, {a} ^{2} =1\\\\ tg \\, {a} < 0 \\end{cases} \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow \\begin{cases} tg \\, {a} ^{2} =1\\\\ tg \\, {a} < 0 \\end{cases} \\ \\ \\Rightarrow \\begin{cases} \\left[ \\begin{array}{l l} tg \\, {a} =1\\\\ tg \\, {a} =-1 \\end{array} \\right.\\\\ tg \\, {a} < 0 \\end{cases} \\end{array}\\\\ tg \\, {a}=-1\\\\ {a}=-\\frac{\\pi}{4}+\\pi n, n\\in \\mathbb{Z}$$\nПроверим второе условие:\n$$\\displaystyle \\begin{cases} D >0\\\\ f( 0) < 0 \\end{cases}\\\\ \\displaystyle \\begin{cases} 4tg {a} ^{2} -4 >0\\\\ 1< 0 \\end{cases} -нет\\ решений$$\nОтвет: \\(-\\frac{\\pi}{4}+\\pi n, n\\in \\mathbb{Z}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2494,
+    "title": "18.5 Уравнение с параметром, сводящееся к квадратному"
+  },
+  "id": 17967,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения параметра \\(a\\), при каждом из которых уравнение\n$$x^4\\cos{a}+2x^2\\sin{a}+\\cos{a}=0$$\nимеет ровно два различных решения.",
+      "error_conditions": null,
+      "id": 237817,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/watch?v=ZWT40C3iJKU&t=11110s"
+}

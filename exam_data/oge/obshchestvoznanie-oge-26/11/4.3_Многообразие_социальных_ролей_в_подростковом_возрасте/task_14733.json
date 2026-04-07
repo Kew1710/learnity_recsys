@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1782,
+    "title": "4.3 Многообразие социальных ролей в подростковом возрасте"
+  },
+  "id": 14733,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Верны ли следующие суждения о социальных ролях?\n\nА. Под социальной ролью понимают образец поведения, признанный целесообразным для людей данного статуса в конкретном обществе.\nБ. Любые социальные роли неформальны по своему характеру.\n\n1) верно только А\n\n2) верно только Б\n\n3) верны оба суждения\n\n4) оба суждения неверны",
+      "error_conditions": [],
+      "id": 213249,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 42,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/pmPVUQFQs_U?start=4339"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pmPVUQFQs_U?start=4339"
+}

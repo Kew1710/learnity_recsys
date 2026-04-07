@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( \\cfrac{4}{25} + \\cfrac{15}{4}=\\cfrac{16+375}{100}=\\cfrac{391}{100}=3,91 \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1932,
+    "title": "6.1 Действия с обыкновенными дробями"
+  },
+  "id": 17963,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3,91",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( \\cfrac{4}{25}+\\cfrac{15}{4}\\) .",
+      "error_conditions": [],
+      "id": 237813,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

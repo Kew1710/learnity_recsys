@@ -1,0 +1,45 @@
+{
+  "comment": "f = open('KIM_0015973101_26.txt')\nn = int(f.readline())\ndata = []\nfor s in f:\nstart, end = map(int, s.split())\ndata.append([end, start])\ndata.sort()\ncount_file, last_disk = 0, 0\nzal = 0\nfor i in range(n):\nif zal == 0:\nzal = data[i][0]\nlast_disk = i + 1\ncount_file += 1\nelif zal <= data[i][1]:\nzal = data[i][0]\nlast_disk = i + 1\ncount_file += 1\nprint(count_file, last_disk)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2773,
+    "title": "№26 Средняя сложность"
+  },
+  "id": 23920,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "31 959",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2326_2\n(ОСН 2023) Входной файл содержит сведения о заявках на проведение мероприятий и конференц-зале. В каждой заявке указаны время начала и время окончания мероприятия (в минутах от начала суток).\nЕсли время начала одного мероприятия меньше времени окончания другого, то провести можно только одно из них. Если время окончания одного мероприятия совпадает со временем начала другого, то провести можно оба. Определите, какое максимальное количество мероприятий можно провести в конференц-зале, и каков при этом максимально возможный перерыв между двумя последними мероприятиями.\nВходные данные\nВ первой строке входного файла находится натуральное число N (N <= 1000) - количество заявок на проведение мероприятий.\nСледующие N строк содержат пары чисел, обозначающих время начала и время окончания мероприятий. Каждое из чисел натуральное, не превосходящее 1440.\nЗапишите в ответе два числа: максимальное количество мероприятий и самый длинный перерыв между двумя последними мероприятиями (в минутах).\nФайл KIM_0015973101_26 - https://drive.google.com/file/d/11tgGRP_VuDJgVVQpQ9fDQo1F2ovFYuUW/view?usp=sharing",
+      "error_conditions": [],
+      "id": 243639,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2100,
+  "topic": {
+    "id": 43,
+    "title": "Программирование алгоритмов с сортировкой"
+  },
+  "video_link": null
+}

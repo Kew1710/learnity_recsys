@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: правый желудочек→ легочные артерии → капилляры легких → легочные вены → левое предсердие - двухстворчатый клапан",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16089,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "521346",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Последовательность движения крови по малому кругу кровообращения начиная с правого желудочка :\n1) капилляры легких\n2) легочные артерии\n3) легочные вены\n4) левое предсердие\n5) правый желудочек\n6) двухстворчатый клапан",
+      "error_conditions": [],
+      "id": 235996,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

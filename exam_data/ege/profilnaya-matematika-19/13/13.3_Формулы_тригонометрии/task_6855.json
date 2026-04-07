@@ -1,0 +1,40 @@
+{
+  "comment": "а) Применим формулу приведения:\n$$4\\cos^2x=ctgx\\\\ 4\\cos^2x=\\frac{\\cos x}{\\sin x}\\\\ x\\neq \\pi n,n\\in Z$$\nДомножим обе части на \\(\\sin x\\):\n$$4\\cos^2x\\cdot \\sin x=\\cos x\\\\ 4\\cos^2x\\cdot \\sin x - \\cos x=0\\\\ \\cos x(4\\cos x\\cdot \\sin x-1)=0\\\\ \\cos x=0~или~4\\cos x\\cdot \\sin x-1=0\\\\ x=\\frac{\\pi}{2}+\\pi k,k\\in~Z\\\\ 4\\cos x\\cdot \\sin x=1\\\\ 2\\sin 2x=1\\\\ \\sin 2x=\\frac{1}{2}$$\n$$\\displaystyle \\left[ \\begin{array}{l l} 2x=\\frac{\\pi }{6} +2\\pi l,l\\in Z\\\\ 2x=\\frac{5\\pi }{6} +2\\pi m,m\\in Z \\end{array} \\right.$$\n$$x=\\frac{\\pi}{12}+\\pi l,l\\in Z\\\\ x=\\frac{5\\pi}{12}+\\pi m, m\\in Z$$\nб) С помощью числовой окружности отберем корни уравнения, принадлежащие отрезку \\([-5\\pi;-4\\pi]\\).\nКорни, которые принадлежат промежутку: $$ -5\\pi + \\frac{\\pi}{12} = -\\frac{59\\pi}{12} \\\\ -5\\pi + \\frac{5\\pi}{12} = -\\frac{55\\pi}{12} \\\\ -5\\pi + \\frac{\\pi}{2} = -\\frac{9\\pi}{2}$$\nОтвет: а) \\(x=\\frac{\\pi}{2}+\\pi k,k\\in Z, x=\\frac{\\pi}{12}+\\pi l,l\\in Z, x=\\frac{5\\pi}{12}+\\pi m, m\\in Z\\); б) \\(-\\frac{9\\pi}{2}, -\\frac{59\\pi}{12}, -\\frac{55\\pi}{12}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 6855,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(4\\sin^{2}(\\frac{\\pi }{2} -x) =ctgx\\).\nб) Найдите все корни этого уравнения, принадлежащие отрезку \\([ -5\\pi ;-4\\pi ]\\).",
+      "error_conditions": null,
+      "id": 76882,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/uMemjqCpbes?start=8410"
+}

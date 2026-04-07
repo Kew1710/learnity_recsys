@@ -1,0 +1,42 @@
+{
+  "comment": "$$\\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta}$$\n$$a \\cdot \\sin \\beta= b \\cdot \\sin \\alpha$$\n$$a \\cdot \\frac{1}{5} = 12 \\cdot \\frac{1}{6}$$\n$$\\frac{a}{5} = 2$$\n$$a = 10$$\nОтвет: 10.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 20795,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Теорему синусов можно записать в виде \\(\\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta}\\), где \\(a\\) и \\(b\\) - две стороны треугольника,\nа \\(\\alpha\\) и \\(\\beta\\) - углы треугольника, лежащие против них соответственно. Пользуясь этой формулой, найдите \\(a\\), если \\(b = 12\\), \\(\\sin \\alpha = \\frac{1}{6}\\) и \\(\\sin \\beta= \\frac{1}{5}\\).",
+      "error_conditions": [],
+      "id": 240576,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

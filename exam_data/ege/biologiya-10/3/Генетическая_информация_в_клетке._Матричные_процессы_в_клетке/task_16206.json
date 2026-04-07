@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Спермий зерна имеет формулу (1n1c),формула семязачатка в метафазе мейоза 1 (2n4c),то есть 9х4=36",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2511,
+    "title": "Генетическая информация в клетке. Матричные процессы в клетке"
+  },
+  "id": 16206,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Общая масса молекул ДНК в ядре спермия пыльцевого зерна перца составляет 9 пг (1 пикограмм (пг) = 10–12 г). Какова будет масса ДНК клетке семязачатка перца в метафазе I мейоза? В ответе запишите количество пикограмм ДНК.",
+      "error_conditions": [],
+      "id": 236113,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

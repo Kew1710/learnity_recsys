@@ -1,0 +1,45 @@
+{
+  "comment": "Разложим числитель по формуле синуса двойного угла:\n$$\\frac{5\\cdot 2\\sin 37^\\circ\\cdot\\cos 37^\\circ}{\\cos 37^\\circ\\cdot\\cos 53^\\circ}=\\frac{10\\sin 37^\\circ}{\\cos 53^\\circ}$$\nЗаметим, что \\(37+53=90\\), поэтому заменим угол \\(53\\) на \\(90-37\\):\n$$\\frac{10\\sin 37^\\circ}{\\cos (90^\\circ-37^\\circ)}$$\nПо формуле приведения:\n$$\\frac{10\\sin 37^\\circ}{\\cos (90^\\circ-37^\\circ)}=\\frac{10\\sin 37^\\circ}{\\sin 37^\\circ}=10$$\nОтвет: 10",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 33455,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{5\\sin 74^\\circ}{\\cos 37^\\circ\\cdot\\cos 53^\\circ}\\).",
+      "error_conditions": [],
+      "id": 253094,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=PaxiySJftHSrFTt9&t=2968"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=PaxiySJftHSrFTt9&t=2968"
+}

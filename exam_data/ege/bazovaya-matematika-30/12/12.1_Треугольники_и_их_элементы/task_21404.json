@@ -1,0 +1,42 @@
+{
+  "comment": "Треугольник \\(ABE\\) прямоугольный и равнобедренный, значит, \\(AB = BE = 12\\).\nТак как \\(ABCD\\) прямоугольник, то \\(EC = BC - BE = 17 - 12 = 5\\).\nТреугольник \\(ECD\\) прямоугольный. По теореме Пифагора \\(ED^2 = EC^2 + CD^2\\)\n$$ED^2 = 5^2 + 12^2$$\n$$ED^2 = 25 + 144$$\n$$ED^2 = 169 \\Rightarrow ED = 13$$\nОтвет: 13.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2104,
+    "title": "12.1 Треугольники и их элементы"
+  },
+  "id": 21404,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На стороне \\(BC\\) прямоугольника \\(ABCD\\), у которого \\(AB = 12\\) и \\(AD = 17\\), отмечена точка \\(E\\) так, что треугольник \\(ABE\\) равнобедренный. Найдите \\(ED\\).",
+      "error_conditions": [],
+      "id": 241179,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

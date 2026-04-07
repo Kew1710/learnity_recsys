@@ -1,0 +1,45 @@
+{
+  "comment": "Решение\n\nslovo = '0123456789ABCDEF'\nchet = '02468ACE'\nnechet = '13579BDF'\nk = 0\nfor x1 in '123456789ABCDEF':\nfor x2 in slovo:\nfor x3 in slovo:\nfor x4 in slovo:\nfor x5 in slovo:\nfor x6 in slovo:\ns = x1+x2+x3+x4+x5+x6\nflag = 0\nfor i in s:\nif s.count(i) > 1:\nflag = 1\nif flag == 0:\nfor i in range(len(s)-1):\nif (s[i] in chet and s[i+1] in chet) or (s[i] in nechet and s[i+1] in nechet):\nflag = 1\nbreak\nif flag == 0:\nk += 1\nprint(k)\n\nРешение руками\n\n16сс разделим на четные и нечетные\nЧетные - 0, 2, 4, 6, 8, A, C, E\nНечетные - 1, 3, 5, 7, 9, B, D, F\nЧ Н Ч Н Ч Н\n- Первая позиция - 2, 4, 6, 8, A, C, E\n- Вторая позиция - 1, 3, 5, 7, 9, B, D, F\n- Третья позиция - оставшиеся 6 четных + 0\n- Четвертая позиция оставшиеся 7 нечетных\n- Пятая позиция - оставшиеся 6 четных\n- Шестая позиция - оставшиеся 6 нечетных\n\nИтого: 7 * 8 * 7 * 7 * 6 * 6 = 98784\nН Ч Н Ч Н Ч\n- Первая позиция - 1, 3, 5, 7, 9, B, D, F\n- Вторая позиция - 0, 2, 4, 6, 8, A, C, E\n- Третья позиция - оставшиеся 7 нечетных\n- Четвертая позиция оставшиеся 7 четных\n- Пятая позиция - оставшиеся 6 нечетных\n- Шестая позиция - оставшиеся 6 четных\n\nИтого: 8 * 8 * 7 * 7 * 6 * 6 - 112896",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2711,
+    "title": "№8 Комбинаторика"
+  },
+  "id": 23765,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "211680",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2308_8\n(ОСН 2023) Сколько существует шестнадцатеричных шестизначных чисел, в которых все цифры различны, причём никакие две четные или две нечетные цифры не стоят рядом?",
+      "error_conditions": [],
+      "id": 243484,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

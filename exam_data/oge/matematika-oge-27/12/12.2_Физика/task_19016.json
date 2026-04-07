@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(I=9,5A\\) по условию\n\\(P=541,5\\)Вт\n\\(541,5=9,5^2R\\)\n\\(R=\\cfrac{541,5}{9,5^2}=6\\) Ом - сопротивление",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2060,
+    "title": "12.2 Физика"
+  },
+  "id": 19016,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Мощность постоянного тока (в ваттах) вычисляется по формуле \\(P= I^2R\\) , где I – сила тока (в амперах), R – сопротивление (в омах). Пользуясь этой формулой, найдите сопротивление R, если мощность составляет \\(541,5\\) Вт, а сила тока равна \\(9,5\\) А. Ответ дайте в омах.",
+      "error_conditions": [],
+      "id": 238854,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

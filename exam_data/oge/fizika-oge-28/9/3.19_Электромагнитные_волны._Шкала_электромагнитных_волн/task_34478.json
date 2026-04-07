@@ -1,0 +1,42 @@
+{
+  "comment": "Формула длины волны через частоту выглядит так:$$\\lambda=\\frac{c}{\\nu},$$ где скорость света $c=3\\cdot 10^8\\frac{м}{с}$\nВыразим частоту и подставим числовые значения:$$\\nu=\\frac{c}{\\lambda}=\\frac{3\\cdot 10^8}{600}=500000~Гц=500~кГц$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3275,
+    "title": "3.19 Электромагнитные волны. Шкала электромагнитных волн"
+  },
+  "id": 34478,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "500",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "По международному соглашению, длина волны, на которой суда передают сигнал бедствия SOS, равна $600$ м. Определите частоту передаваемого сигнала.\n\nОтвет: _________________кГц",
+      "error_conditions": [],
+      "id": 254117,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

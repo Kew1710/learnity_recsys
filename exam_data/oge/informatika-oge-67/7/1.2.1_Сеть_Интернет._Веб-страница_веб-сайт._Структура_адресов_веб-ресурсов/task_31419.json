@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3119,
+    "title": "1.2.1 Сеть Интернет. Веб-страница, веб-сайт. Структура адресов веб-ресурсов."
+  },
+  "id": 31419,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7425316",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Доступ к файлу test.xls, находящемуся на сервере school.org, осуществляется по протоколу ftp. Фрагменты адреса файла закодированы цифрами от 1 до 7. Запишите последовательность этих цифр, кодирующую адрес указанного файла в сети Интернет.\n1)  test\n2)  school\n3)  /\n4)  ://\n5)  .org\n6)  .xls\n7)  ftp",
+      "error_conditions": [],
+      "id": 251058,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

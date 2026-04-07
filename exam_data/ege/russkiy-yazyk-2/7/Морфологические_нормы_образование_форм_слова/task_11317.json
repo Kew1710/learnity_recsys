@@ -1,0 +1,42 @@
+{
+  "comment": "правильно “более вкусный\", так как сравнительная степень имени прилагательного образуется путем добавления слов \"более”, “менее\" к начальной форме имени прилагательного",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 910,
+    "title": "Морфологические нормы (образование форм слова)"
+  },
+  "id": 11317,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "вкусный",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В одном из выделенных ниже слов допущена ошибка в образовании формы слова. Исправьте ошибку и запишите слово правильно.\n\nНЕЛЕПЕЙШИЙ наряд\nза СЕМЬЮ замками\nпачка МАКАРОН\nв ДВУХТЫСЯЧНОМ году\nэтот торт более ВКУСНЕЕ",
+      "error_conditions": [],
+      "id": 148575,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

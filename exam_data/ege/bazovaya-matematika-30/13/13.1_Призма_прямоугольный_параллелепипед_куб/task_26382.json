@@ -1,0 +1,42 @@
+{
+  "comment": "Объем прямоугольного параллелепипеда равен\n$$V = abc$$\nЗнаем, что \\(a = 8, \\; b = 2\\) и \\(V = 144\\), тогда\n$$c = \\frac{V}{ab} = \\frac{144}{8 \\cdot 2} = 9$$\nПлощадь поверхности прямоугольного параллелепипеда равна\n$$S = 2(ab + bc + ac) = 2(8 \\cdot 2 + 2 \\cdot 9 + 8 \\cdot 9) = 2(16 + 18 + 72) = 2 \\cdot 106 = 212$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2248,
+    "title": "13.1 Призма, прямоугольный параллелепипед, куб"
+  },
+  "id": 26382,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "212",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Два ребра прямоугольного параллелепипеда равны 8 и 2, а объём параллелепипеда равен 144. Найдите площадь поверхности этого параллелепипеда.",
+      "error_conditions": [],
+      "id": 246021,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

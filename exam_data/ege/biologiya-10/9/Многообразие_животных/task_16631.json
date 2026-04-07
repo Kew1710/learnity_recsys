@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: 1 — молочная планария\n2 — многощетинковый червь\n3 — круглый червь\n4 — ленточный червь\n5 — кольчатый червь\n6 — эхинококк",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2527,
+    "title": "Многообразие животных"
+  },
+  "id": 16631,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каким номером на рисунке обозначен эхинококк?",
+      "error_conditions": [],
+      "id": 236538,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 43,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

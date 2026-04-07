@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n$$\\displaystyle \\sqrt{\\sin x\\cos x} =\\cos x\\Leftrightarrow \\displaystyle \\begin{cases}\n\\sin x\\cos x=\\cos^{2} x\\\\\n\\cos x\\geq 0\n\\end{cases}\\\\ \\displaystyle \\begin{cases}\n\\cos x(\\sin x-\\cos x) =0\\\\\n\\cos x\\geq 0\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\n\\cos x=0\\\\\n\\sin x=\\cos x\n\\end{array} \\right.\\\\\n\\cos x\\geq 0\n\\end{cases} \\Leftrightarrow $$\nРассмотрим \\(\\sin x=\\cos x\\): разделим уравнение на \\(\\cos x\\), так как \\(\\cos x=0\\) - не является решением этого уравнения \\(\\cos x\\ne 0\\).\n$$\\frac{\\sin x}{\\cos x}=1\\Leftrightarrow tgx=1\\\\ \\Leftrightarrow\\displaystyle \\begin{cases}\n\\left[ \\begin{array}{l l}\n\\cos x=0\\\\\ntgx=1\n\\end{array} \\right.\\\\\n\\cos x\\geq 0\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\nx=\\frac{\\pi }{2} +\\pi k\\\\\nx=\\frac{\\pi }{4} +\\pi k\n\\end{array} \\right.\\\\\n\\cos x\\geq 0\n\\end{cases} ,k\\in \\mathbb{Z}$$\nУчитывая ограничения:\n$$\\left[\n\\begin{array}{l l}\nx=\\frac{\\pi }{2} +\\pi k\\\\\nx=\\frac{\\pi }{4} +2\\pi k\n\\end{array}\n\\right. ,k\\in \\mathbb{Z}$$\nб) Отберем корни на промежутке \\(\\left[\\frac{\\pi}{2};\\frac{5\\pi}{2}\\right]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$\\frac{\\pi}{2}\\\\ \\frac{\\pi}{2}+\\pi=\\frac{3\\pi}{2}\\\\ \\frac{3\\pi}{2}+\\pi=\\frac{5\\pi}{2}\\\\ \\frac{5\\pi}{2}-\\frac{\\pi}{4}=\\frac{9\\pi}{4}$$\nОтвет: а) {\\(\\frac{\\pi}{2}+\\pi k;\\frac{\\pi}{4}+2\\pi k:k\\in Z\\)}, б) \\(\\frac{\\pi}{2};\\frac{3\\pi}{2};\\frac{9\\pi}{4};\\frac{5\\pi}{2}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2453,
+    "title": "13.4 Ограничения"
+  },
+  "id": 10351,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(\\sqrt{\\sin x\\cos x}=\\cos x\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[\\frac{\\pi}{2};\\frac{5\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 137709,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

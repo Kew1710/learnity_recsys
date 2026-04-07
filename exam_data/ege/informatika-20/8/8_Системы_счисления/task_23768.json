@@ -1,0 +1,45 @@
+{
+  "comment": "Решение программой\n\nslovo = 'ДЕИЛНФЬ'\nk = 1\ncount = 0\nfor x1 in slovo:\nfor x2 in slovo:\nfor x3 in slovo:\nfor x4 in slovo:\nfor x5 in slovo:\nfor x6 in slovo:\ns = x1+x2+x3+x4+x5+x6\nif s[0] != 'Ь' and s.count('Ф') == 2 and k % 2 == 0:\ncount += 1\nk += 1\nprint(count)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 23768,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8560",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2308_11\n(ОСН 2023) Все шестибуквенные слова, составленные из букв Д, Е, Л, Ь, Ф, И, Н, записаны в алфавитном порядке и пронумерованы.\nВот начало списка:\n1. ДДДДДД\n2. ДДДДДЕ\n3. ДДДДДИ\n4. ДДДДДЛ\n5. ДДДДДН\n6. ДДДДДФ\n7. ДДДДДЬ\nОпределите количество слов с чётными номерами которые не начинаются с буквы Ь и при этом содержат в своей записи ровно две буквы Ф",
+      "error_conditions": [],
+      "id": 243487,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

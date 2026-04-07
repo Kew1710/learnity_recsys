@@ -1,0 +1,45 @@
+{
+  "comment": "С помощью тригонометрической окружности найдем значения косинусов:\n$$\\cos\\left(-\\frac{\\pi}{3}\\right)=\\frac{1}{2}\\\\ \\sin\\left(-\\frac{\\pi}{4}\\right)=-\\frac{\\sqrt{2}}{2}$$\nПодставим полученные значения в исходное уравнение:\n$$24\\sqrt{2}\\cdot\\frac{1}{2}\\cdot\\left(-\\frac{\\sqrt{2}}{2}\\right)=-12$$\nОтвет: -12",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 33390,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(24\\sqrt{2}\\cos\\left(-\\frac{\\pi}{3}\\right)\\sin\\left(-\\frac{\\pi}{4}\\right)\\).",
+      "error_conditions": [],
+      "id": 253029,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=jzgTp5qMSKM5uEM6&t=999"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=jzgTp5qMSKM5uEM6&t=999"
+}

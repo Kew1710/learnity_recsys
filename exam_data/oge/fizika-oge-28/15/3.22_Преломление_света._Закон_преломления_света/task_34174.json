@@ -1,0 +1,42 @@
+{
+  "comment": "Угол преломления - это угол между преломленным лучом и перпендикуляром к поверхности. Из рисунка видно, что этот угол равен 40°",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3278,
+    "title": "3.22 Преломление света. Закон преломления света"
+  },
+  "id": 34174,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На границе воздух-стекло световой луч частично отражается, частично преломляется (см. рисунок).\n\nУгол преломления равен примерно\n1) 20°\n2) 40°\n3) 50°\n4) 70°",
+      "error_conditions": [],
+      "id": 253813,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

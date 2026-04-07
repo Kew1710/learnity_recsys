@@ -1,0 +1,45 @@
+{
+  "comment": "Вероятность выбрать карамельку со вкусом соплей:\n$$\\frac{54}{900}=0,06$$\nСумма всех вероятности несовместных событий равна \\(1\\), тогда искомая вероятность равна:\n$$1-0,06=0,94$$\nОтвет: 0,94",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 8093,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,94",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В среднем из \\(900\\) садовых взрывных карамелек, поступивших в продажу, \\(54\\) со вкусом соплей. Найдите вероятность того, что одна случайно выбранная для контроля карамелька без вкуса соплей.",
+      "error_conditions": [],
+      "id": 101074,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": null
+}

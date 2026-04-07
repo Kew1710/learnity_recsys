@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПроведем высоту\nТ.к. трапеция равнобедренная и один из углов между боковой стороной и основанием равен 45°, поймем, что высота отсекает равнобедренный треугольник\nПусть трапеция ABCD, высота CH, \\( \\angle D = 45^o\\)\nТогда \\(DH = CH = \\cfrac{5 - 3}{2} = 1\\)\nВычислим площадь трапеции ABCD\n\\( S = \\cfrac{5+3}{2} \\cdot 1 = 4 \\cdot 1 = 4\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1988,
+    "title": "17.5 Площадь четырехугольников"
+  },
+  "id": 21554,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В равнобедренной трапеции основания равны 3 и 5, а один из углов между боковой стороной и основанием равен 45°. Найдите площадь трапеции.",
+      "error_conditions": [],
+      "id": 241321,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

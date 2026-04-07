@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - параллелограмм\nAK - биссектриса \\( \\angle A \\)\nDK - биссектриса \\( \\angle D \\)\nТ. \\( K \\in BC \\)\nДоказать:\nBK=KC\nДоказательство:\n1) \\( \\angle BKA = \\angle KAD\\) - накрест лежащие при AD// BC и секущей AK\nТ.к. \\(\\angle BAK= \\angle KAD\\) - т.к. AK - биссектриса\n\\( \\Rightarrow \\angle BAK = \\angle BKA \\)\n\\( \\Rightarrow \\triangle BAK \\) - равнобедренный\n\\( \\Rightarrow AB=AK \\)\n2) \\( \\angle CKD = \\angle KDA \\) - накрест лежащие при BC//AD и секущей KD\nТ.к. \\( \\angle ADK = \\angle KDC \\) (KD - биссектриса)\n\\( \\Rightarrow \\angle CKD = \\angle CDK \\)\n\\( \\triangle KDC\\) - равнобедренный; KС=DC\n3) AB=DC (ABCD - параллелограмм)\n\\( \\Rightarrow AB=DC=BK=KC\\), ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1943,
+    "title": "24.1 Параллелограмм, прямоугольник, ромб"
+  },
+  "id": 13029,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Биссектрисы углов A и D параллелограмма ABCD пересекаются в точке K, лежащей на стороне BC. Докажите, что K – середина BC.",
+      "error_conditions": null,
+      "id": 175083,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "$$2\\sin x\\cos x+\\sqrt{3}\\cos x=0\\\\ \\cos x(2\\sin x+\\sqrt{3})=0\\\\ \\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\ \\ \\ \\ \\ \\ \\left[ \\begin{array}{l l} \\cos x=0\\\\ \\sin x=-\\frac{\\sqrt{3}}{2} \\end{array} \\right.\\\\ \\left[ \\begin{array}{l l} x=\\frac{\\pi }{2} +\\pi n,n\\in Z\\\\ x=-\\frac{\\pi }{3} +2\\pi n,n\\in Z\\\\ x=-\\frac{2\\pi }{3} +2\\pi n,n\\in Z \\end{array} \\right. \\end{array}$$\nОтвет: \\(x=\\frac{\\pi }{2} +\\pi n\\), \\(n\\in Z\\); \\(x=-\\frac{\\pi }{3} +2\\pi n\\), \\(n\\in Z\\); \\(x=-\\frac{2\\pi }{3} +2\\pi n\\), \\(n\\in Z\\).",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 33503,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(\\sin 2x-\\sqrt{3}\\cos (x+\\pi)=0\\).",
+      "error_conditions": null,
+      "id": 253142,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=wRxp9-biHB1J6AuT&t=7097"
+}

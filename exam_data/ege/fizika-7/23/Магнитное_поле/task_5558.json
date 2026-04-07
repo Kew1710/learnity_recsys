@@ -1,0 +1,37 @@
+{
+  "comment": "По второму закону Ньютона:\n$$F_л=ma_ц~(1)$$\nСила Лоренца:\n$$F_л=qvB\\sin\\alpha~(2),$$\nтак как сила Лоренца перпендикулярна линиям индукции, то \\(\\sin\\alpha=1\\)\nЦентростремительное ускорение:\n$$a_ц=\\frac{v^2}{R}~(3),$$\nгде \\(v \\) – скорость движения частицы\nПодставив \\((2)\\) и \\((3)\\) в \\((1)\\), получим:\n$$qvB=\\frac{mv^2}{R},$$\nоткуда\n$$R=\\frac{mV}{qB}$$\nЗапишем отношение радиусов первой и второй частицы соответственно:\n$$\\frac{R_1}{R_2}=\\frac{m_1v_1\\cdot q_2B}{q_1B\\cdot m_2v_2}=\\frac{m_1}{m_2}\\cdot \\frac{v_1}{v_2}\\cdot \\frac{q_2}{q_1}=2\\cdot 2\\cdot 4=16$$\nОтвет: 16",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 5558,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание E5DB2C\nДве частицы, имеющие отношение зарядов \\(\\frac{q_1}{q_2}=\\frac{1}{4}\\) и отношение масс \\(\\frac{m_1}{m_2}=2\\), влетели в однородное магнитное поле перпендикулярно его линиям индукции и движутся по окружностям. Определите отношение радиусов траекторий \\(\\frac{R_1}{R_2}\\) частиц, если отношение их скоростей \\(\\frac{v_1}{v_2}=2\\).",
+      "error_conditions": null,
+      "id": 71905,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

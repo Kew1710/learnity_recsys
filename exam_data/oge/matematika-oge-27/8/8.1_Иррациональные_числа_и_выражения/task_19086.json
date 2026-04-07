@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(a>0\\) по условию\n\\(\\sqrt{\\cfrac{36a^{21}}{a^{15}}} =6\\sqrt{a^{21-15}}=6\\sqrt{a^6}=6a^3\\)\nПодставим \\(a=2\\)\n\\(6 \\cdot 2^3=6 \\cdot 8 =48\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1956,
+    "title": "8.1 Иррациональные числа и выражения"
+  },
+  "id": 19086,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "48",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\sqrt{\\cfrac{36a^{21}}{a^{15}}} \\) при \\(a=2\\) .",
+      "error_conditions": [],
+      "id": 238924,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

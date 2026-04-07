@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 1) \\cfrac{3}{13} \\approx 0,23\\)\n\\( 2) \\cfrac{10}{13} \\approx 0,77\\)\n\\( 3) \\cfrac{9}{13} \\approx 0,69\\)\n\\( 4) \\cfrac{12}{13} \\approx 0,92\\)\nПо прямой поймем, что отмеченное число \\(\\approx 0,92\\)\nОтвет: 4",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22925,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Одно из чисел отмечено на прямой точкой. Какое это число?",
+      "error_conditions": [],
+      "id": 242651,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

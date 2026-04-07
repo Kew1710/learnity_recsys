@@ -1,0 +1,42 @@
+{
+  "comment": "По второму закону Ньютона:\n$$F_{эл}=ma~(1)$$\nСила электрического поля:\n$$F_{эл}=Eq~(2)$$\nПодставим (2) в (1):\n$$Eq=ma$$\nВ первом случае:\n$$E_1q=ma_1~(3)$$\nВо втором случае:\n$$\\frac{E_1}{4}\\cdot 5q=ma_2~(4)$$\nПоделим (4) на (3):\n$$\\frac{a_2}{a_1}=\\frac{5}{4}=1,25\\Rightarrow a_2=1,25a_1=1,25\\cdot 6=7,5~м/с^2$$\nОтвет: 7,5 \\(м/с^2\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2630,
+    "title": "Электрическое поле"
+  },
+  "id": 9619,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23473\nВ однородном электрическом поле напряженностью \\(E\\) движется заряженная частица \\(q\\) c постоянным ускорением \\(a=6~м/с^2\\). Определите ускорение частицы такой же массы с зарядом \\(5q\\) в электрическом поле, напряженность которого в \\(4\\) раза меньше первоначального. Силу тяжести и сопротивление воздуха не учитывать. Ответ дайте в \\(м/с^2\\).",
+      "error_conditions": [],
+      "id": 116512,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/zLcqUTZoFZs"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/zLcqUTZoFZs"
+}

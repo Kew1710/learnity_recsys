@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРассмотрим \\(\\triangle MBN\\) и \\(\\triangle ABC\\)\n\\( \\angle B\\) - общий, \\(\\angle BMN - \\angle BAC\\) - соответственные\n\\(\\Rightarrow \\triangle ABC \\sim \\triangle MBN\\) - по 2-ум углам\n\\(\\cfrac{MN}{AC} = \\cfrac{MB}{AB} = \\cfrac{40}{48}\\) - сократим на 8\n\\(\\cfrac{5}{6} = \\cfrac{MB}{54}\\)\nОтсюда \\(MB = 45\\)\n\\(AM = 54 - 45 = 9\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1975,
+    "title": "15.4 Подобные треугольники"
+  },
+  "id": 20165,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Прямая, параллельная стороне AC треугольника ABC, пересекает стороны AB и BC в точках M и N соответственно, AB=54, AC=48 , MN=40. Найдите AM.",
+      "error_conditions": [],
+      "id": 239981,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 49,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

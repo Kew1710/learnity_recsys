@@ -1,0 +1,42 @@
+{
+  "comment": "Отношение работ, совершенных над газом:\n$$\\frac{A_{12}}{A_{34}}=\\frac{12}{6}$$\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 32403,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На \\(pV\\)-диаграмме показаны два процесса, проведенные с одним и тем же количеством газообразного неона. Определите отношение работ \\(\\frac{A_{12}}{A_{34}}\\), совершенных над газом в этих процессах.",
+      "error_conditions": [],
+      "id": 252042,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/ArUe2rWb1fM?t=891"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/ArUe2rWb1fM?t=891"
+}

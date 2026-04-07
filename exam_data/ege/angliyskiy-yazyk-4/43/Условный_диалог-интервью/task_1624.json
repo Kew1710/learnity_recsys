@@ -1,0 +1,37 @@
+{
+  "comment": "Interviewer: Hello everybody! It's Teenagers Round the World Channel. Our guest today is a teenager from Russia and we are going to discuss art. We’d like to know our guest’s point of view on this issue. Please answer five questions. So, let’s get started.\n\nInterviewer: Who are the most famous artists in your country? What are they famous for?\n\nStudent: Well, there are many famous artists, but I think that the most famous ones are Rublev and Vasnetsov. Rublev is famous for painting icons while Vasnetsov mostly painted landscapes.\n\nInterviewer: What would you like our listeners to know about modern art in Russia?\n\nStudent: You know, modern art in Russia is really taking off. A lot of people buy art as a type of investment these days. Also, graffiti art has become popular and can be found throughout Russia. In Moscow there is even a new museum which displays some graffiti art, called the Garage Museum.\n\nInterviewer: What can you tell us about your favourite artist?\nStudent: My favourite artist is Leonardo da Vinci. He was a Renaissance artist and engineer, known for paintings like “The Last Supper” and “The Mona Lisa”. He is also famous for his inventions, like his flying machine.\n\nInterviewer: What museums did you visit when you were seven?\n\nStudent: When I was seven, I visited the State Tretyakov Gallery\nand the Darwin Museum. I liked the Darwin Museum because they had\na lot of interesting stuffed animals.\n\nInterviewer: What do you think art will be like in 10 years?\n\nStudent: I think that in ten years’ time modern art will mostly be street art. Ofcourse, classical art will still be popular as ever, but street art will have become the most popular contemporary art by then.\n\nInterviewer: Thank you very much for your interview.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 820,
+    "title": "Условный диалог-интервью"
+  },
+  "id": 1624,
+  "is_obsolete": false,
+  "number": 43,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "https://disk.yandex.ru/d/9LjATRYqfsgLGQ",
+      "error_conditions": null,
+      "id": 53959,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 5,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

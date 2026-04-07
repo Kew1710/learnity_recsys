@@ -1,0 +1,42 @@
+{
+  "comment": "запятая 2 выделяет придаточное определительное «цветки которой напоминают перевёрнутую капельку или сердце»",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 898,
+    "title": "Знаки препинания в сложноподчиненном предложении"
+  },
+  "id": 15386,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расставьте все знаки препинания: укажите цифру(-ы), на месте которой(-ых) в предложении должна(-ы) стоять запятая(-ые).\nНа солнечных участках (1) хорошо развивается дицентра (2) цветки (3) которой (4) напоминают перевёрнутую капельку или сердце.",
+      "error_conditions": [],
+      "id": 223355,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

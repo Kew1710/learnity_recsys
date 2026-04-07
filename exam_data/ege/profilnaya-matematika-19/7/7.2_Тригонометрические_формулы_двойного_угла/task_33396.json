@@ -1,0 +1,45 @@
+{
+  "comment": "По формуле косинуса двойного угла:\n$$24\\cos 2\\alpha=24(1-2\\sin^2\\alpha)=24(1-2\\cdot (-0,2)^2)=24(1-2\\cdot 0,04)=22,08$$\nОтвет: 22,08",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 33396,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "22,08",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите \\(24\\cos 2\\alpha\\), если \\(\\sin\\alpha =-0,2\\).",
+      "error_conditions": [],
+      "id": 253035,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=VMyMTkggP9tr-Hfd&t=1326"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=VMyMTkggP9tr-Hfd&t=1326"
+}

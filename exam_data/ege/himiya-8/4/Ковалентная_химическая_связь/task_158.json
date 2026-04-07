@@ -1,0 +1,42 @@
+{
+  "comment": "Проанализируем предложенные варианты ответа:\n1) KNO₃ - неорганическая соль, ионное строение\n2) SiO₂ - оксид-исключение, атомная кристаллическая решётка\n3) C₆H₁₄ - алкан, молекулярное строение, содержит ковалентные неполярные связи между атомами углерода в цепи\n4) N₂H₄ - гидразин, нарисовав структурную формулу, даже не зная вещество, можно догадаться, что оно имеет молекулярное строение и КНС между атомами азота\n5) HBr - галогеноводород, молекулярное строение, одна ковалентная полярная связь\n\nВерные варианты ответа: C₆H₁₄ и N₂H₄ (34)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2789,
+    "title": "Ковалентная химическая связь"
+  },
+  "id": 158,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества молекулярного строения, которые содержат ковалентную неполярную связь.\n1) KNO₃\n2) SiO₂\n3) C₆H₁₄\n4) N₂H₄\n5) HBr",
+      "error_conditions": [],
+      "id": 51226,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/rlCQ2E9Wasw?start=997"
+    },
+    "Valid": true
+  },
+  "time_seconds": 60,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/rlCQ2E9Wasw?start=997"
+}

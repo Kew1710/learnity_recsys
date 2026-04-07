@@ -1,0 +1,45 @@
+{
+  "comment": "Перед нами пятеричная СС, где Е = 0, Л = 1, М = 2, Р = 3, У = 4.\nПервое слово, начинающееся на букву Л — ЛЕЕЕ = 1000 в пятеричной сс = 125 в десятичной сс\nНомер слова: 125 + 1 = 126\n\npythonpython (2 вариант)pascal1 вариант:\nword = 'ЕЛМРУ'\nk = 0\nfor x1 in word:\nfor x2 in word:\nfor x3 in word:\nfor x4 in word:\nk += 1\nif x1 == 'Л':\nprint(k)\nexit() #завершает программу\nimport itertools\nk = 0\nfor s in list(itertools.product('ЕЛМРУ', repeat=4)):\nk += 1\nif s[0] == 'Л':\nprint(k)\nbreak\nprogram Hello;\nvar str, s: string;\nvar k : integer;\nbegin\nk := 0;\nstr := 'ЕЛМРУ';\nforeach var x1 in str do\nforeach var x2 in str do\nforeach var x3 in str do\nforeach var x4 in str do\nbegin\nk += 1;\nif x1 = 'Л' then\nbegin\nprint(k);\nexit;\nend;\nend;\nend.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 1709,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "126",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID задания: 8C0410\nВсе 4-буквенные слова, в составе которых могут быть только буквы Л, Е, М, У, Р, записаны в алфавитном порядке и пронумерованы, начиная с 1.\nНиже приведено начало списка.\n1. ЕЕЕЕ\n2. ЕЕЕЛ\n3. ЕЕЕМ\n4. ЕЕЕР\n5. ЕЕЕУ\n6. ЕЕЛЕ\n…\n\nПод каким номером в списке идёт первое слово, которое начинается с буквы Л?",
+      "error_conditions": [],
+      "id": 54831,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

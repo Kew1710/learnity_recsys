@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничения:\n$$6x-x^2-6>0\\\\ x^2-6x+6<0\\\\ (x-3-\\sqrt{3})(x-3+\\sqrt{3})<0\\\\ x\\in (3-\\sqrt{3};3+\\sqrt{3})$$\nПереходим к неравенству:\n$$6^{-|x-3|}=\\frac{1}{6^{|x-3|}}\\\\ \\frac{1}{6^{|x-3|}}\\cdot\\log_3(6x-x^2-6)\\geq 1$$\nТак как \\(6^{|x-3|}>0\\) всегда, то\n$$\\log_3(6x-x^2-6)\\geq 6^{|x-3|}$$\nНайдем наибольшее значение \\(6x-x^2-6\\). Для этого найдем производную и приравняем ее к 0:\n$$f(x)=-x^2+6x-6\\\\ f'(x)=-2x+6\\\\ -2x+6=0\\\\ -2x=-6\\\\ x=3\\\\ f(3)=-9+18-6=3$$\nНаибольшее значение аргумента равно \\(3\\). Следовательно,\n$$\\log_3(6x-x^2-6)\\leq 1$$\nЛевая часть \\(\\leq 1\\). Правая часть \\(\\geq 1\\).\nЛевая часть \\(\\geq 1\\) правая часть, если обе части равны \\(1\\).\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} \\log_{3}\\left( 6x-x^{2} -6\\right) =1\\\\ 6^{|x-3|} =1 \\end{cases}\\\\ \\begin{cases} -x^{2} +6x-6=3\\\\ 6^{|x-3|} =6^{0} \\end{cases}\\\\ \\begin{cases} -x^2+6x-9=0\\\\ |x-3|=0 \\end{cases}\\\\ \\begin{cases} x=3\\\\ x-3=0 \\end{cases}\\\\ \\begin{cases} x=3\\\\ x=3 \\end{cases} \\end{array}$$\n\\(x=3\\) удовлетворяет нашим ограничениям\n\nОтвет: \\(x=3\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2473,
+    "title": "15.7 Сложные неравенства"
+  },
+  "id": 11608,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(6^{-|x-3|}\\cdot\\log_3(6x-x^2-6)\\geq 1\\).",
+      "error_conditions": null,
+      "id": 149289,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

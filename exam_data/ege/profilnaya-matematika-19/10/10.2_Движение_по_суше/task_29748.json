@@ -1,0 +1,45 @@
+{
+  "comment": "2-ой велосипедист\n1-ый велосипедист\n$$S$$\n$$140$$\n$$140$$\n$$v$$\n$$x$$\n$$x+4$$\n$$t$$\n$$\\frac{140}{x}$$\n$$\\frac{140}{x+4}$$\nСоставим табличку, где \\(x\\) - скорость 2-го велосипедиста при движении из \\(A\\) в \\(B\\), а так же вспомним, что \\(S=v\\cdot t\\) (путь \\(=\\) скорость \\(\\cdot\\) время)\nТак как первый приехал на \\(4\\) часа раньше, то:\n$$\\frac{140}{x}-\\frac{140}{x+4}=4\\Rightarrow 35(x+4)-35x=x(x+4)\\\\ 35x+35\\cdot 4-35x=x^2+4x\\Rightarrow x^2+4x-140=0\\\\ D=4\\cdot 4+4\\cdot 144=4\\cdot 144\\\\ x_{1,2}=\\frac{-4\\pm \\sqrt{4\\cdot 144}}{2}=\\frac{-4\\pm 2\\cdot 12}{2} = \\left[ \\begin{array}{l} x_1 = 10 \\\\ x_2 = -14 \\end{array} \\right. $$\nТак как скорость не может быть отрицательной, то \\(x=10\\). Так как ищем скорость первого: \\(x+4=14\\).\n\nОтвет: 14",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2429,
+    "title": "10.2 Движение по суше"
+  },
+  "id": 29748,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Два велосипедиста одновременно отправились в \\(140\\)-километровый пробег. Первый ехал со скоростью, на \\(4\\) км/ч большей, чем скорость второго, и прибыл к финишу на \\(4\\) часа раньше второго. Найдите скорость велосипедиста, пришедшего к финишу первым. Ответ дайте в км/ч.",
+      "error_conditions": [],
+      "id": 249387,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/qdo4vqN44hI?si=zi-hZ-vpu4YOWvfS&t=4070"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/live/qdo4vqN44hI?si=zi-hZ-vpu4YOWvfS&t=4070"
+}

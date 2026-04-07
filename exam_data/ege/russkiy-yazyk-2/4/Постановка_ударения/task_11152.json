@@ -1,0 +1,42 @@
+{
+  "comment": "сверлИт - если инфинитив глагола оканчивается на -ИТЬ, то ударение в таких глаголах будет падать на последний слог\nнедУг - запоминаем",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 913,
+    "title": "Постановка ударения"
+  },
+  "id": 11152,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "235",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук. Запишите номера ответов.\n\n1. свЕрлит\n2. позвалА\n3. дОнизу\n4. нЕдуг\n5. позвонИшь",
+      "error_conditions": [],
+      "id": 148025,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 56,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

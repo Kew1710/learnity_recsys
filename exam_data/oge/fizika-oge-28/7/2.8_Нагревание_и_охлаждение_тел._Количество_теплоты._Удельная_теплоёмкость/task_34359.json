@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПри охлаждении стальной детали выделяется энергия, которую можно расписать по формуле: $$Q=cm\\Delta t,$$ где $c=500~\\frac{Дж}{кг\\cdot °С}$\nПодставим числовые значения в формулу и найдем изменение температуры стальной детали : $$1000000=500\\cdot 10\\cdot \\Delta t \\\\ \\Delta t=200~°С$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3247,
+    "title": "2.8 Нагревание и охлаждение тел. Количество теплоты. Удельная теплоёмкость"
+  },
+  "id": 34359,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "200",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На сколько градусов охладится стальная деталь массой $10$ кг, если отданное ею количество теплоты равно $1$ МДж?\n\nОтвет: _________________°С",
+      "error_conditions": [],
+      "id": 253998,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

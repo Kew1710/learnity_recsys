@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2734,
+    "title": "№15 ДЕЛ"
+  },
+  "id": 28670,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "196",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Пробник_2 ФИПИ 2024) Обозначим через ДЕЛ(n,m) утверждение «натуральное число n делится без остатка на натуральное число m».\nДля какого наибольшего натурального числа А логическое выражение\n¬ДЕЛ(х,А) → (ДЕЛ(х,28) → ¬ДЕЛ(х,49))\nистинно, то есть принимает значение 1 при любом значении переменной х?",
+      "error_conditions": [],
+      "id": 248309,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": null
+}

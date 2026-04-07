@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} \\sqrt{16-y^{2}} =\\sqrt{16-( ax)^{2}}\\\\ x^{2} +y^{2} =8x+4y \\end{cases} \\Rightarrow \\begin{cases} 16-y^{2} =16-a^{2} x^{2}\\\\ 16-y^{2} >0\\\\ x^{2} -8x+y^{2} -4y=0 \\end{cases} \\Rightarrow \\begin{cases} y^{2} -a^{2} x^{2} =0\\\\ ( 4-y)( 4+y) >0\\\\ x^{2} -8x+y^{2} -4y=0 \\end{cases} \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow \\begin{cases} ( y-ax)( y+ax) =0\\\\ y\\geq -4\\\\ y\\leq 4\\\\ x^{2} -8x+y^{2} -4y=0 \\end{cases} \\Rightarrow \\begin{cases} \\left[ \\begin{array}{l l} y=ax\\\\ y=-ax \\end{array} \\right.\\\\ y\\geq -4\\\\ y\\leq 4\\\\ x^{2} -8x+y^{2} -4y=0 \\end{cases} \\end{array}$$\n1) Пусть \\(y=ax\\)\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} ax\\geq -4\\\\ ax\\leq 4\\\\ x^{2} +a^{2} x^{2} -8x-4ax=0 \\end{cases} \\Rightarrow \\begin{cases} ax\\geq -4\\\\ ax\\leq 4\\\\ x\\left( x+a^{2} x -8-4a\\right) =0 \\end{cases} \\Rightarrow \\begin{cases} ax\\geq -4\\\\ ax\\leq 4\\\\ \\left[ \\begin{array}{l l} x=0\\\\ x+a^{2} x^{2} -8-4a=0 \\end{array} \\right. \\end{cases} \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow \\begin{cases} ax\\geq -4\\\\ ax\\leq 4\\\\ \\left[ \\begin{array}{l l} x=0\\\\ x\\left( a^{2} +1\\right) =8+4a \\end{array} \\right. \\end{cases} \\Rightarrow \\begin{cases} ax\\geq -4\\\\ ax\\leq 4\\\\ \\left[ \\begin{array}{l l} x=0\\\\ x=\\frac{8+4a}{a^{2} +1} \\end{array} \\right. \\end{cases} \\end{array}$$\nПри \\(x=0\\), \\(y=0\\) - это решение при любых значениях \\(a\\)\n$$\\displaystyle \\begin{cases} \\frac{8a+4a^{2}}{a^{2} +1} \\geq -4\\\\ \\frac{8a+4a^{2}}{a^{2} +1} \\leq 4 \\end{cases}$$\nТак как \\(1+a^2>0\\) при любых значениях \\(a\\), поэтому умножим обе части на \\(1+a^2\\)\n$$\\displaystyle \\begin{cases} 8a+4a^{2} \\geq -4a^{2} -4\\\\ 8a+4a^{2} \\leq 4a^{2} +4 \\end{cases} \\Rightarrow \\begin{cases} 8a^{2} +8a+4\\geq 0\\\\ 8a\\leq 4 \\end{cases} \\Rightarrow \\begin{cases} 8a^{2} +8a+4\\geq 0\\\\ a\\leq \\frac{1}{2} \\end{cases}$$\nВыражение \\(8a^2+8a+4\\) - больше нуля при любых значениях \\(a\\).\n\nСледовательно, \\(x=\\frac{8+4a}{a^2+1}\\), \\(y=\\frac{8a+4a^2}{a^2+1}\\) - это решение при \\(a\\leq\\frac{1}{2}\\).\n\n2) Пусть \\(y=-ax\\)\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} -ax\\geq -4\\\\ -ax\\leq 4\\\\ x^{2} +a^{2} x^{2} -8x+4ax=0 \\end{cases} \\Rightarrow \\begin{cases} ax\\leq 4\\\\ ax\\geq -4\\\\ x\\left( x+a^{2} x^{2} -8+4a\\right) =0 \\end{cases} \\Rightarrow \\begin{cases} ax\\geq -4\\\\ ax\\leq 4\\\\ \\left[ \\begin{array}{l l} x=0\\\\ x+a^{2} x^{2} -8+ 4a=0 \\end{array} \\right. \\end{cases} \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow \\begin{cases} ax\\geq -4\\\\ ax\\leq 4\\\\ \\left[ \\begin{array}{l l} x=0\\\\ x\\left( a^{2} +1\\right) =8-4a \\end{array} \\right. \\end{cases} \\Rightarrow \\begin{cases} ax\\geq -4\\\\ ax\\leq 4\\\\ \\left[ \\begin{array}{l l} x=0\\\\ x=\\frac{8-4a}{a^{2} +1} \\end{array} \\right. \\end{cases} \\end{array}$$\nПри \\(x=0\\), \\(y=0\\) - это решение при любых значениях \\(a\\)\n$$\\displaystyle \\begin{cases} \\frac{8a-4a^{2}}{a^{2} +1} \\geq -4\\\\ \\frac{8a-4a^{2}}{a^{2} +1} \\leq 4 \\end{cases}$$\nТак как \\(1+a^2>0\\) при любых значениях \\(a\\), поэтому умножим обе части на \\(1+a^2\\)\n$$\\displaystyle \\begin{cases} 8a-4a^{2} \\geq -4a^{2} -4\\\\ 8a-4a^{2} \\leq 4a^{2} +4 \\end{cases} \\Rightarrow \\begin{cases} 8a\\geq -4\\\\ 8a^{2} -8a+4\\geq 0 \\end{cases} \\Rightarrow \\begin{cases} a\\geq -\\frac{1}{2}\\\\ 8a^{2} -6a+4\\geq 0 \\end{cases}$$\nВыражение \\(8a^2-8a+4\\) - больше нуля при любых значениях \\(a\\).\n\nСледовательно, \\(x=\\frac{8-4a}{a^2+1}\\), \\(y=\\frac{8a-4a^2}{a^2+1}\\) - это решение при \\(a\\geq -\\frac{1}{2}\\).\n\nУ нас получается три решения:\nПервое решение \\((0;0)\\).\nВторое решение \\(\\left(\\frac{6+4a}{1+a^2};\\frac{6a+4a^2}{1+a^2}\\right)\\).\nТретье решение \\(\\left(\\frac{6-4a}{1+a^2};\\frac{4a^2-6a}{1+a^2}\\right)\\).\n\nНайдем совпадение решений:\nСовпадение первого и второго решения:\n$$\\displaystyle \\begin{cases} \\frac{8+4a}{a^{2} +1} =0\\\\ \\frac{8a+4a^{2}}{a^{2} +1} =0 \\end{cases} \\Rightarrow \\begin{cases} 8+4a=0\\\\ 8a+4a^{2} =0 \\end{cases} \\Rightarrow \\begin{cases} a=-2\\\\ \\left[ \\begin{array}{l l} a=0\\\\ a=-2 \\end{array} \\right. \\end{cases}$$\nПолучаем, что при \\(a=-2\\) первое и второе решение совпадают.\n\nСовпадение первого и третьего решения:\n$$\\displaystyle \\begin{cases} \\frac{8-4a}{a^{2} +1} =0\\\\ \\frac{4a^{2} -8a}{a^{2} +1} =0 \\end{cases} \\Rightarrow \\begin{cases} 8-4a=0\\\\ 4a^{2} -8a=0 \\end{cases} \\Rightarrow \\begin{cases} a=2\\\\ \\left[ \\begin{array}{l l} a=0\\\\ a=2 \\end{array} \\right. \\end{cases}$$\nПолучаем, что при \\(a=2\\) первое и третье решение совпадают.\n\nСовпадение второго и третьего решения:\n$$\\displaystyle \\begin{cases} \\frac{8+ 4a}{a^{2} +1} =\\frac{8- 4a}{a^{2} +1}\\\\ \\frac{8a+4a^{2}}{a^{2} +1} =\\frac{4a^{2} -8a}{a^{2} +1} \\end{cases} \\Rightarrow \\begin{cases} 8+4a=8-4a\\\\ 8a+4a^{2} =4a^{2} -8a \\end{cases} \\Rightarrow \\begin{cases} 8a=0\\\\ 16a=0 \\end{cases}$$\nПолучаем, что при \\(a=0\\) второе и третье решение совпадают.\nПри \\(a< -2\\) два решения.\nПри \\(a=-2\\) одно решение.\nПри \\(-2<a< -\\frac{1}{2}\\) два решения.\nПри \\(-\\frac{1}{2}\\leq a<0\\) три решения.\nПри \\(a=0\\) два решения.\nПри \\(0<a\\leq\\frac{1}{2}\\) три решения.\nПри \\(\\frac{1}{2}<a<2\\) два решения.\nПри \\(a=2\\) одно решение.\nПри \\(a>2\\) два решения.\nПолучаем: \\(a\\in ( -\\infty ;-2) \\cup \\left( -2;-\\frac{1}{2}\\right) \\cup \\{0\\} \\cup \\left(\\frac{1}{2} ;2\\right) \\cup ( 2;+\\infty )\\).\n\nОтвет: \\(( -\\infty ;-2) \\cup \\left( -2;-\\frac{1}{2}\\right) \\cup \\{0\\} \\cup \\left(\\frac{1}{2} ;2\\right) \\cup ( 2;+\\infty )\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2491,
+    "title": "18.2 Система с окружностями и полуокружностями"
+  },
+  "id": 17939,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения параметра \\(a\\), при которых система\n$$\\displaystyle \\begin{cases} \\sqrt{16-y^{2}} =\\sqrt{16-( ax)^{2}}\\\\ x^{2} +y^{2} =8x+4y \\end{cases}$$\nимеет ровно два различных решения.",
+      "error_conditions": null,
+      "id": 237789,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/watch?v=ZWT40C3iJKU&t=9123s"
+}

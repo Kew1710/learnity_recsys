@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1765,
+    "title": "3.1 Экономика, её роль в жизни общества"
+  },
+  "id": 13097,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Что из приведённого ниже иллюстрирует экономику в значении «хозяйство»?\n\n1) экономический прогноз развития добывающих отраслей\n2) управление сетью кафе быстрого питания\n3) расчёт параметров государственного бюджета\n4) анализ изменения курса акций нефтяных компаний",
+      "error_conditions": [],
+      "id": 176888,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=837"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=837"
+}

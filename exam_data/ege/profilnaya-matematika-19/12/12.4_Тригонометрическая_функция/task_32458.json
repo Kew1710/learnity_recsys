@@ -1,0 +1,45 @@
+{
+  "comment": "Найдём производную:\n$$y'=10\\cos x-\\frac{36}{\\pi}$$\nТак как \\(3<\\pi <3,2\\), то \\(-12< -\\frac{36}{\\pi}< -11,25\\). Значит, \\(-22<10\\cos x-\\frac{36}{\\pi}< -1,25\\), получили, что производная отрицательна при всех значения \\(x\\).\nЗначит, наибольшее значение функция примет при наименьшем возможном \\(x\\), то есть \\(x=-\\frac{5\\pi}{6}\\).\n$$y=10\\sin\\left(-\\frac{5\\pi}{6}\\right)+\\frac{36}{\\pi}\\cdot\\frac{5\\pi}{6}+7=-5+30+7=32$$\nОтвет: 32",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2447,
+    "title": "12.4 Тригонометрическая функция"
+  },
+  "id": 32458,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "32",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y=10\\sin x-\\frac{36x}{\\pi}+7\\) на отрезке \\(\\left[-\\frac{5\\pi}{6};0\\right]\\).",
+      "error_conditions": [],
+      "id": 252097,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=cuu_qZ1mWgfh8npJ&t=9526"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=cuu_qZ1mWgfh8npJ&t=9526"
+}

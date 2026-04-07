@@ -1,0 +1,42 @@
+{
+  "comment": "Площадь под графиком \\(v_x(t)\\) в заданном интервале времени равна пройденному пути.\nЧтобы найти путь, нужно найти площадь трапеции:\n$$S=\\frac{a+b}{2}h,$$\nгде \\(a\\) и \\(b\\) - основания трапеции, а \\(h\\) - высота трапеции; \\(a=1,25\\); \\(b=2,5\\); \\(h=10\\) мин \\(= 600\\) с.\n\nТаким образом:\n$$S=\\frac{1,25 + 2,5}{2}\\cdot 600=1125 ~м=1,125 ~км$$\nОтвет: 1,125",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2609,
+    "title": "Графики в кинематике"
+  },
+  "id": 8275,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,125",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "230304\nНа рисунке представлен график зависимости проекции \\(v_x\\) скорости тела от времени \\(t\\). Определите путь, пройденный телом за последние 10 мин движения. Ответ дайте в км.",
+      "error_conditions": [],
+      "id": 101950,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

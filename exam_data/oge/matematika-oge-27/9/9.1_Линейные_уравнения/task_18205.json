@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(10x-90=7\\)\n\\(10x=7+90\\)\n\\(10x=97\\)\n\\(x=9,7\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1928,
+    "title": "9.1 Линейные уравнения"
+  },
+  "id": 18205,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9,7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(10(x-9)=7\\) .",
+      "error_conditions": [],
+      "id": 238048,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

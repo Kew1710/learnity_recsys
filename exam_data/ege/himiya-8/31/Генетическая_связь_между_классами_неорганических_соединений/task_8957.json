@@ -1,0 +1,37 @@
+{
+  "comment": "1) NaCl + H₂SO₄ = NaHSO₄ + HCl\n2) 2HCl + CuO = CuCl₂ + H₂O\n3) CuCl₂ + 2AgNO₃ = Cu(NO₃)₂ + 2AgCl\n4) 2Cu(NO₃)₂ + 4KI = 2CuI + I₂ + 4KNO₃",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8957,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "На кристаллический хлорид натрия подействовали концентрированной серной кислотой. Образовавшийся газ растворили в воде и в получившийся раствор добавили необходимое количество оксида меди(II). Полученный раствор смешали с раствором нитрата серебра, выпавший при этом осадок отделили. К оставшемуся раствору добавили раствор иодида калия. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112559,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

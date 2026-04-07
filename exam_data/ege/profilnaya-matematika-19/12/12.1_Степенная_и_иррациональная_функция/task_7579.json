@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=2( x-10)( x+10) +( x-10)^{2} =( x-10)( 2x+20+x-10) =( x-10)( 3x+10) =0$$\nРассмотрим промежутки \\([8;10]\\) и \\((10;18]\\):\nНа \\([8;10]\\) производная функции отрицательна, значит, функция убывает.\nНа \\((10;18]\\) производная функции положительна, значит, функция возрастает.\n\nПолучаем \\(x_{2} =10\\) - точка минимума, найдем значение функции на концах промежутка:\n$$f( 8) =( 8-10)^{2}( 8+10) -7=65\\\\ f( 18) =( 18-10)^{2}( 18+1 0) -7=1785$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 7579,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1785",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y=(x-10)^2(x+10)-7\\) на отрезке \\([8;18]\\).",
+      "error_conditions": [],
+      "id": 98722,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=936"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=936"
+}

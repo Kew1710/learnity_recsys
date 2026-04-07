@@ -1,0 +1,45 @@
+{
+  "comment": "\\(y=x^3-108x+23\\), чтобы найти точку максимума возьмём производную от функции:\n\\(y'=3x^2-108\\), чтобы найти точки экстремума надо приравнять производную к \\(0\\):\n$$3x^2-108=0\\Rightarrow x^2-36=0\\Rightarrow (x-6)(x+6)=0\\Rightarrow \\displaystyle \\left[ \\begin{array}{l l} x=6\\\\ x=-6 \\end{array} \\right.$$\nРассмотрим поведение функции:\nПолучим, что \\(x=-6\\) точка максимума.\n\nОтвет: -6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 32284,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку максимума функции \\(y=x^3-108x+23\\).",
+      "error_conditions": [],
+      "id": 251923,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=57yGw9AHcAe-2HoK&t=765"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=57yGw9AHcAe-2HoK&t=765"
+}

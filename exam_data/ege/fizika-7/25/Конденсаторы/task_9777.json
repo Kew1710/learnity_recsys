@@ -1,0 +1,37 @@
+{
+  "comment": "Работа внешних сил равна:\n$$A_{в.с.}=\\Delta W+Q$$\n\\(A_{в.с.}=A_{ист}+A_{пл},A_{пл}\\) - работа по вытаскиванию пластины\nЭнергии конденсатора в начале и в конце равны:\n$$W_{нач}=\\frac{CU^2}{2},C=\\frac{\\varepsilon\\varepsilon_0S}{d}\\\\ W_{кон}=\\frac{C'U^2}{2},$$\nгде \\(C'=\\frac{\\varepsilon_0S}{d}=\\frac{C}{\\varepsilon}\\)\nПолучаем, что\n$$\\Delta W=\\frac{C}{\\varepsilon}\\cdot \\frac{U^2}{2}-\\frac{CU^2}{2}$$\nЗаряды в начале и конце равны:\n$$q_{нач}=CU\\\\ q_{кон}=\\frac{C}{\\varepsilon}U$$\nИзменение заряда равно:\n$$\\Delta q=q_{кон}-q_{нач}=\\frac{C}{\\varepsilon}U-CU$$\nРабота источника равна:\n$$A_{ист}=U\\Delta q=U\\left (\\frac{C}{\\varepsilon}U-CU\\right )=CU^2\\left (\\frac{1}{\\varepsilon}-1\\right )$$\nОбъединим формулы:\n$$CU^2\\left (\\frac{1}{\\varepsilon}-1\\right )+A_{пл}=\\frac{CU^2}{2}\\left (\\frac{1}{\\varepsilon}-1\\right )\\\\ A_{пл}=CU^2\\left (\\frac{1}{2}\\cdot \\frac{1}{\\varepsilon}-\\frac{1}{2}-\\frac{1}{\\varepsilon}+1\\right )=\\frac{CU^2}{2}\\left (1-\\frac{1}{\\varepsilon}\\right )\\Rightarrow U=\\sqrt{\\frac{2A_{пл}}{C\\left (1-\\frac{1}{\\varepsilon}\\right )}}$$\nПодставим значения:\n$$U=\\sqrt{\\frac{2\\cdot 1\\cdot 10^{-6}}{1000\\cdot 10^{-2}\\left (1-\\frac{1}{5}\\right )}}=50~В$$\nОтвет: 50 В",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 9777,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23523\nЕмкость плоского конденсатора, заполненного диэлектриком с диэлектрической проницаемостью \\(5\\), равна \\(C = 1000\\) пФ. Он присоединен к источнику постоянного напряжения \\(U\\). Совершая работу \\(A_{пл} = 1\\) мкДж, диэлектрическую пластину медленно извлекают из конденсатора таким образом, что он остается соединенным с источником. Найдите \\(U\\). Считать, что трения при удалении пластины из конденсатора не происходит.",
+      "error_conditions": null,
+      "id": 118387,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/VTyQ00uXP5s"
+}

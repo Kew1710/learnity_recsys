@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПусть х км/ч - собственная скорость баржи\nТогда х+5 км/ч - скорость баржи по течению\nИ х-5 км/ч - скорость баржи против течения\n\\(t=\\cfrac{S}{v}\\)\n\\(\\cfrac{84}{x+5}+\\cfrac{66}{x-5}=10\\)\nУмножим на \\((x-5)(x+5)\\neq 0\\)\n\\(84x-420+66x+330-10x^2+250=0\\)\n\\(x^2-15x-16=0\\)\n\\(D=196+60=256\\)\n\\(x_1=-1\\) - не удовлетворяет условию задачи\n\\(x_2=16\\)\nОтвет: 16 км/ч",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1938,
+    "title": "21.3 Движение по воде"
+  },
+  "id": 13333,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Баржа прошла по течению реки 84 км и, повернув обратно, прошла ещё 66 км, затратив на весь путь 10 часов. Найдите собственную скорость баржи, если скорость течения реки равна 5 км/ч.",
+      "error_conditions": null,
+      "id": 178169,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

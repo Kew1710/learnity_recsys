@@ -1,0 +1,37 @@
+{
+  "comment": "Закон сохранения импульса:\n$$mv_1-Mv_2=0$$\nПрименим закон сохранения энергии, так как нам известна выделившаяся при распаде энергия:\n$$\\frac{Mv_1^2}{2}+\\frac{mv_2^2}{2}=\\Delta E$$\nСила Лоренца:\n$$F_л=qvB\\sin\\alpha$$\nТак как \\(\\vec{v}\\perp \\vec{B}\\), то \\(\\sin\\alpha=1\\).\n\nТогда \\(F_л=qvB\\).\n\nЗапишем второй закон Ньютона:\n$$\\frac{mv_1^2}{R}=qv_1B\\\\ \\frac{mv_1}{R}=qB\\Rightarrow v_1=\\frac{qBR}{m}$$\nПодставим выраженную скорость \\(v_1\\) в закон сохранения импульса:\n$$v_2=\\frac{mqBR}{Mm}=\\frac{qBR}{M}$$\nПодставим скорости в закон сохранения энергии:\n$$\\frac{M}{2} \\left (\\frac{qBR}{M}\\right )^2+\\frac{m}{2}\\left (\\frac{qBR}{m}\\right )^2=\\Delta E\\\\ \\frac{B^2q^2R^2}{2}\\left (\\frac{m+M}{mM}\\right )=\\Delta E\\\\ B^2=\\frac{2\\Delta EmM}{q^2R^2(M+m)}\\\\ B=\\frac{1}{qR}\\sqrt{\\frac{2\\Delta EmM}{m+M}}$$\nПодставим вместо \\(q\\) заряд альфа частицы:\n$$B=\\frac{1}{2eR}\\sqrt{\\frac{2\\Delta EmM}{m+M}}$$\nОтвет: \\(B=\\frac{1}{2eR}\\sqrt{\\frac{2\\Delta EmM}{m+M}}\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 19171,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23И841\nВ результате \\(\\alpha\\)-распада ядро покоящегося нейтрального атома, находящегося в однородном магнитном поле, образуются \\(\\alpha\\)-частица и тяжелый ион нового элемента. Заряд \\(\\alpha\\)-частицы равен \\(2e\\), а ее масса равна \\(m\\), масса тяжелого иона равна \\(M\\). Энергия \\(\\Delta E\\), выделившаяся при \\(\\alpha\\)-распаде, целиком переходит в кинетическую энергию продуктов реакции. Трек \\(\\alpha\\)-частицы находится в плоскости, перпендикулярной направлению магнитного поля. Начальная часть трека напоминает дугу окружности радиуса \\(R\\). Чему равна индукция магнитного поля?",
+      "error_conditions": null,
+      "id": 239009,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/watch?v=79P1n6-5PDY&t=8993s"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$2\\sin x\\cos\\frac{\\pi }{3} +2\\sin\\frac{\\pi }{3}\\cos x+\\cos( 2x) =\\sqrt{3}\\cos x+1\\\\ \\sin x+\\sqrt{3}\\cos x+\\cos 2x=\\sqrt{3}\\cos x+1\\\\ \\sin x+1-2\\sin^{2} x=1\\\\ \\sin x-2\\sin^{2} x=0\\\\ \\sin x( 1-2\\sin x) =0\\\\ \\left[ \\begin{array}{l l}\n\\sin x=0\\\\\n\\sin x=\\frac{1}{2}\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\nx=\\frac{5\\pi }{6} +2\\pi n\\\\\nx=\\pi n,n\\in Z\\\\\nx=\\frac{\\pi }{6} +2\\pi n\n\\end{array} \\right.$$\nб) С помощью числовой окружности отберём корни, принадлежащие отрезку: \\([ -3\\pi ;-\\frac{3\\pi }{2}]\\).\nПолучим числа: \\(-3\\pi; -2\\pi; -\\frac{11\\pi}{6}\\).\n\nОтвет: а) \\(x=\\pi n, n∈Z; \\frac{\\pi}{6}+2\\pi k, k∈Z; \\frac{5\\pi}{6}+2\\pi m, m∈Z\\); б) \\(-3\\pi ; -2\\pi ; -\\frac{11\\pi }{6}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1348,
+    "title": "13.3 Тригонометрические уравнения"
+  },
+  "id": 7831,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(2\\sin( x+\\frac{\\pi }{3}) +\\cos( 2x) =\\sqrt{3}\\cos x+1\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([ -3\\pi ;-\\frac{3\\pi }{2}]\\).",
+      "error_conditions": null,
+      "id": 100321,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

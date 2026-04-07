@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\log_{11^{\\frac{1}{3}}}11=3\\log_{11}11=3$$\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 34430,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\log_{\\sqrt[3]{11}}11\\).",
+      "error_conditions": [],
+      "id": 254069,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=jMXvLA2GEI8xCIbp&t=4200"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=jMXvLA2GEI8xCIbp&t=4200"
+}

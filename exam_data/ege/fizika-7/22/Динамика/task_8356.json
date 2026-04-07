@@ -1,0 +1,37 @@
+{
+  "comment": "Так как скорость постоянна, то ускорение равно нулю.\nПо второму закону Ньютона в проекции на \\(Oy\\):\n$$N-mg+F\\sin\\alpha =0\\\\ N=mg-F\\sin\\alpha$$\nПо второму закону Ньютона в проекции на \\(Ox\\):\n$$F\\cos\\alpha -Fтр=0$$\nПо определению силы трения:\n$$F_{тр}=\\mu N=\\mu (mg-F\\sin\\alpha )\\\\ F\\cos\\alpha -\\mu (mg-F\\sin\\alpha )=0\\\\ F\\cos\\alpha -\\mu mg+\\mu F\\sin\\alpha =0\\\\ F(\\cos\\alpha +\\mu \\sin\\alpha )=\\mu mg\\\\ F=\\frac{\\mu mg}{\\cos\\alpha +\\mu \\sin\\alpha}=\\frac{0,2 \\cdot 3 \\cdot 10}{\\cos 60^{\\circ}+0,2\\cdot \\sin60^{\\circ}} \\approx 8,9 ~Н$$\nОтвет: 8,9 Н",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 8356,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание 230711\nБрусок массой \\(3\\) кг, лежащий на горизонтальной плоскости, движется с постоянной скоростью под воздействием силы \\(F\\), направленной вверх под углом \\(60^{\\circ}\\) к горизонту. Чему равен модуль этой силы, если коэффициент трения между поверхностью и бруском равен \\(0,2\\)?",
+      "error_conditions": null,
+      "id": 102131,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 56,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

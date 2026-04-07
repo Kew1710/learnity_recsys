@@ -1,0 +1,45 @@
+{
+  "comment": "$$r(p)=p\\cdot q\\\\ 420=p\\cdot (130-10p)\\\\ 420=130p-10p^2\\\\ 10p^2-130p+420=0\\\\ p^2-13p+42=0\\\\ p=6,p=7$$\nОтсюда, наибольшая цена \\(p=7\\).\n\nОтвет: 7",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2426,
+    "title": "9.6 Квадратные уравнения и неравенства"
+  },
+  "id": 9816,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Зависимость объёма спроса \\(q\\) (единиц в месяц) на продукцию предприятия-монополиста от цены \\(p\\) (тыс. руб. за ед.) задаётся формулой \\(q=130-10р\\). Выручка предприятия \\(r\\) (в тыс. руб. за месяц) вычисляется по формуле \\(r(p)=p\\cdot q\\). Определите наибольшую цену \\(p\\), при которой месячная выручка \\(r(p)\\) составит \\(420\\) тыс. руб. Ответ приведите в тыс. руб.",
+      "error_conditions": [],
+      "id": 119720,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=6410"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=6410"
+}

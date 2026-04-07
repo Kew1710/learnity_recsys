@@ -1,0 +1,40 @@
+{
+  "comment": "Дробь \\(\\frac{x^2-2x+a^2-4a}{x^2-a}=0\\) равносильна системе: \\(\\displaystyle \\begin{cases} x^{2} -2x+a^{2} -4a=0\\\\ x^{2} -a\\neq 0 \\end{cases}\\).\nЧтобы уравнение имело \\(2\\) решение необходимо, что \\(D>0\\).\n$$4-4(a^2-4a)>0\\Rightarrow 4-4a^2+16a>0\\Rightarrow a^2-4a-1<0$$\nВведём \\(f(a)=a^2-4a-1\\), найдём \\(f(a)=0\\Rightarrow a^2-4a-1=0\\Rightarrow D=16+4=20\\Rightarrow \\)\n$$\\displaystyle \\left[ \\begin{array}{l l} a=\\frac{4+2\\sqrt{5}}{2} =2+\\sqrt{5}\\\\ a=\\frac{4-2\\sqrt{5}}{2} =2-\\sqrt{5} \\end{array} \\right. \\Rightarrow a\\in \\left( 2-\\sqrt{5} ;2+\\sqrt{5}\\right)$$\nПроверим ограничение, для этого подставим \\(a=x^2\\) в уравнение:\n$$x^2-2x+x^4-4x^2=0\\Rightarrow x^4-3x^2-2x=0\\Rightarrow x(x^3-3x-2)=0$$\nЗаметим, что при \\(x=-1\\) мы получаем \\(x\\cdot (-1+3-2)=0 \\Rightarrow \\) воспользуемся теоремой Безу:\nПолучим: \\(x(x+1)(x^2-x-2)=x(x+1)(x-2)(x+1)=0\\).\nЗначит: \\(x\\ne 0\\); \\(x\\ne 2\\); \\(x\\ne -1\\).\nПолучим: \\(a\\ne 0\\); \\(a\\ne 4\\); \\(a\\ne 1\\).\n\nИтог: \\(a\\in (2-\\sqrt{5};0)\\cup (0;1)\\cup (1;4)\\cup (4;2+\\sqrt{5})\\)\n\nОтвет: \\((2-\\sqrt{5};0)\\cup (0;1)\\cup (1;4)\\cup (4;2+\\sqrt{5})\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2491,
+    "title": "18.2 Система с окружностями и полуокружностями"
+  },
+  "id": 35305,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "При каких значениях параметра \\(a\\) уравнение \\(\\frac{x^2-2x+a^2-4a}{x^2-a}=0\\) имеет ровно \\(2\\) различных решения.",
+      "error_conditions": null,
+      "id": 254944,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/9L45G5F3TGo?si=prA-oLMFVlDV6x94&t=7180"
+}

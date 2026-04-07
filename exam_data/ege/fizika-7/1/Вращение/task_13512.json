@@ -1,0 +1,42 @@
+{
+  "comment": "Центростремительное ускорение определяется по формуле:\n$$a=\\frac{v^2}{R}$$\nТогда при увеличении скорости в 3 раза $v^2$ увеличится в \\(9\\) раз, центростремительное ускорение тоже увеличится в \\(9\\) раз:\n$$в~9\\uparrow a=\\frac{v^2\\uparrow в~9}{R}$$\nОтвет: 9",
+  "difficulty": 1,
+  "exam_topic": {
+    "id": 2611,
+    "title": "Вращение"
+  },
+  "id": 13512,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Д1\nНебольшое тело движется по окружности радиусом \\(R\\) с линейной скоростью \\(v\\). Во сколько раз увеличится центростремительное ускорение тела, если его скорость увеличится в \\(3\\) раза?",
+      "error_conditions": [],
+      "id": 179276,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uVeDsEbm_Cc?start=1284"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uVeDsEbm_Cc?start=1284"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3154,
+    "title": "3.1. Свойства алгоритма. Способы записи алгоритма (словесный, в виде блок-схемы, программа). Анализ алгоритмов."
+  },
+  "id": 31278,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "У исполнителя Вычислитель две команды, которым присвоены номера:\n1. умножь на b\n2.  прибавь 1\n(b  — неизвестное натуральное число)\nПервая из них увеличивает число на экране в b раз, вторая увеличивает его на 1.\nИзвестно, что программа 21212 переводит число 1 в число 56. Определите значение b.",
+      "error_conditions": [],
+      "id": 250917,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

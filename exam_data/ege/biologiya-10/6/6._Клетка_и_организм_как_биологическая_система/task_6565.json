@@ -1,0 +1,42 @@
+{
+  "comment": "1 - матричная РНК, матрица для синтеза белка\n2 - транспортная РНК, транспортирует аминокислоты к месту синтеза белка\n3 - рибосомная РНК, синтезируется в ядрышке, формирует структуру рибосомы",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1453,
+    "title": "6. Клетка и организм как биологическая система."
+  },
+  "id": 6565,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "31322",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между характеристиками нуклеиновых кислот и их видами: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\nХАРАКТЕРИСТИКА\nA) синтезируется в ядрышке\nБ) кодирует последовательность аминокислот\nB) формирует каркас рибосомы\nГ) переносит аминокислоты к месту синтеза\nД) присоединяет к себе аминокислоту\nВид нуклеиновой кислоты\n1)PHK 1\n2)PHК 2\n3)PHК 3",
+      "error_conditions": [],
+      "id": 74988,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/OTHYRoZi0FA?start=1713"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/OTHYRoZi0FA?start=1713"
+}

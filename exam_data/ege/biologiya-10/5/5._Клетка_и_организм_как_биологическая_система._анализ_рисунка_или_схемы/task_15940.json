@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ 7\nПояснение: за все процессы в клетке отвечает ядро, обозначенное под цифрой 7, так как в нем заложена вся основная генетическая информация о клетке\n7 – ядро\n1- аппарат Гольджи\n2- митохондрия\n3- шероховатая ЭПС\n4- клеточная стенка\n5- цитоскелет\n6-Хлоропласт\n7- ядро\n8 – ядерная мембрана\n9 - вакуоль",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1452,
+    "title": "5. Клетка и организм как биологическая система. (анализ рисунка или схемы)"
+  },
+  "id": 15940,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите номер, обозначающий на рисунке органоид, который контролирует процессы в клетке?",
+      "error_conditions": [],
+      "id": 235847,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\n\\( AD = 36\\)\n\\( BC = 18\\)\n\\( EF || AD\\)\n\\( CF:DF=7:2\\)\nНайти:\nEF - ?\nРешение:\nПостроим \\( BH || CD\\)\n\\(CBHD \\) = параллелограмм\nHD = BC = 18 - по св-ву параллелограмма\nПусть KE = m\n\\( \\triangle BEK \\sim \\triangle EAB\\) - \\(EK || AB, \\angle BEK = \\angle BAH, \\angle BKE = \\angle BHA \\) - соответственные\n\\(\\cfrac{KE}{HA}= \\cfrac{7}{9}\\)\n\\(\\cfrac{m}{18} = \\cfrac{7}{9}\\)\n\\(\\Rightarrow m = 14\\)\n\\( EF = EK+ KF = 18 + 14 = 32\\)\nОтвет: 32",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2012,
+    "title": "23.3 Трапеции"
+  },
+  "id": 14327,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Прямая, параллельная основаниям трапеции ABCD, пересекает её боковые стороны AB и CD в точках E и F соответственно. Найдите длину отрезка EF, если AD=36, BC=18, CF:DF=7:2.",
+      "error_conditions": null,
+      "id": 202456,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

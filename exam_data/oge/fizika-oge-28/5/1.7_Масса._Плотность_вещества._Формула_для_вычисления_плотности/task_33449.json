@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nЗапишем формулу плотности: $$\\downarrow \\rho=\\frac{m \\downarrow}{v\\uparrow}$$\nНаиюольшую среднюю плотность будет иметь шар с наибольшей массой, но наименьшим объемом. По показаниям рычажных весов: $$m_1=m_2 \\\\ m_3>m_1$$\nШарик 3 обладает наибольшей массой и наименьшим объемом, выбираем 2",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3215,
+    "title": "1.7 Масса. Плотность вещества. Формула для вычисления плотности."
+  },
+  "id": 33449,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Шар 1 последовательно взвешивают на рычажных весах с шаром 2 и шаром 3 (рис. а и б). Для объёмов шаров справедливо соотношение \\(V_1 = V_3 < V_2\\).\nУкажите номер шара, имеющего максимальную среднюю плотность.\nОтвет: _____________ .",
+      "error_conditions": [],
+      "id": 253088,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

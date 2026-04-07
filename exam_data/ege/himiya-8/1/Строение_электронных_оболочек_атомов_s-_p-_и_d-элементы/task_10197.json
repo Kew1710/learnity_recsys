@@ -1,0 +1,42 @@
+{
+  "comment": "Сокращённые электронные конфигурации элементов:\nCr [Ar]4s¹3d⁵\nO [He]2s²2p⁴ - не имеет d-электронов\nBr [Ar]4s²3d¹⁰4p⁵\nGa [Ar]4s²3d¹⁰4p¹\nMn [Ar]4s²3d⁵\n\nРовно 5 d-электронов имеют хром Cr и марганец Mn",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2782,
+    "title": "Строение электронных оболочек атомов: s-, p- и d-элементы"
+  },
+  "id": 10197,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите, атомы каких из указанных в ряду элементов содержат ровно 5 d-электронов.\n1) Cr\n2) O\n3) Br\n4) Ga\n5) Mn",
+      "error_conditions": [],
+      "id": 122521,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

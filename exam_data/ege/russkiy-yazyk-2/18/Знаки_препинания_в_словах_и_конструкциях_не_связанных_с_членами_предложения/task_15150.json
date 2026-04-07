@@ -1,0 +1,42 @@
+{
+  "comment": "запятая 1 выделяет распространенное обращение, запятая 2 выделяет распространенное обращение",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 899,
+    "title": "Знаки препинания в словах и конструкциях, не связанных с членами предложения"
+  },
+  "id": 15150,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расставьте недостающие знаки препинания: укажите все цифры, на месте которых в предложениях должны стоять запятые.\nМир таинственный (1) мир мой древний (2)\nТы, как ветер, затих и присел.\nВот сдавили за шею деревню (3)\nКаменные руки шоссе.\n(С.А. Есенин)",
+      "error_conditions": [],
+      "id": 222413,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2691,
+    "title": "№2 Задания с таблицей истинности"
+  },
+  "id": 27314,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "wzyx",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Демо 2024) Миша заполнял таблицу истинности функции (x ∧ ¬y) ∨ (y ≡ z) ∨ ¬w, но успел заполнить лишь фрагмент из трёх различных её строк, даже не указав,\nкакому столбцу таблицы соответствует каждая из переменных w, x, y, z.\n? ? ? ?F\n0\n0\n0\n1\n0\n0\n0\n1\n0\n1\n0\nВ ответе напишите буквы x, y, z, w в том порядке, в котором идут соответствующие им столбцы (сначала - буква, соответствующая первому столбцу; затем - буква, соответствующая второму столбцу, и т.д.). Буквы в ответе пишите подряд, никаких разделителей между буквами ставить не нужно.",
+      "error_conditions": [],
+      "id": 246953,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=HtyiYqee1wGhdLVp&t=946"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 21,
+    "title": "Таблицы истинности"
+  },
+  "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=HtyiYqee1wGhdLVp&t=946"
+}

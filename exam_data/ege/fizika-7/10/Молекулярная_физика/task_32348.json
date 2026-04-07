@@ -1,0 +1,42 @@
+{
+  "comment": "Исходя из зависимости на графике и уравнения Менделеева-Клапейрона:\n\\(p=cT;~pV=\\nu RT\\Rightarrow cTV=\\nu RT\\Rightarrow V=\\frac{\\nu R}{c}-const\\) – объем газа в процессе \\(1\\)-\\(2\\) остается неизменным.\nВнутренняя энергия газа в процессе: \\(\\uparrow U=\\frac{3}{2}RT\\uparrow \\) – увеличивается.\nОтвет: 31",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2626,
+    "title": "Молекулярная физика"
+  },
+  "id": 32348,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "31",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Процесс изменения состояния \\(1\\) моль одноатомного идеального газа показан на \\(pT\\)-диаграмме. Как изменяются в ходе этого процесса объем газа и его внутренняя энергия?\nДля каждой величины определите соответствующий характер изменения:\n1) увеличивается\n2) уменьшается\n3) не изменяется\nЗапишите в таблицу выбранные цифры для каждой физической величины. Цифры в ответе могут повторяться.\nОбъем газа\nВнутренняя энергия газа",
+      "error_conditions": [],
+      "id": 251987,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/PEHWbqzOXA0?t=1381"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/PEHWbqzOXA0?t=1381"
+}

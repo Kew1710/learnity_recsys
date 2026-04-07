@@ -1,0 +1,42 @@
+{
+  "comment": "Период колебаний пружинного маятника в обоих случаях:\n$$T_1=2\\pi \\sqrt{\\frac{m}{k_1}}$$\n$$T_2=2\\pi \\sqrt{\\frac{m}{k_2}}$$\nПерейдем от периода к частоте колебаний:\n$$\\frac{1}{\\nu_1}=2\\pi \\sqrt{\\frac{m}{k_1}}$$\n$$\\frac{1}{\\nu_2}=2\\pi \\sqrt{\\frac{m}{k_2}}$$\nПоделим нижнее уравнение на верхнее:\n$$\\frac{\\nu_2}{\\nu_1}=\\sqrt{\\frac{m}{k_1}}\\cdot \\sqrt{\\frac{k_2}{m}}$$\n$$\\frac{\\nu_2}{4}=\\sqrt{\\frac{k_1/4}{k_1}}$$\n$$\\frac{\\nu_2}{4}=\\frac{1}{2}$$\n$$\\nu_2=2~Гц$$\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2620,
+    "title": "Колебания"
+  },
+  "id": 8028,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "1BF6BB\nЧастота свободных гармонических колебаний пружинного маятника равна \\(4\\) Гц. Какой будет частота колебаний маятника, если уменьшить жесткость его пружины в \\(4\\) раза? Ответ дайте в Гц.",
+      "error_conditions": [],
+      "id": 100878,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/4K5WOXX2PqQ?start=2822"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/4K5WOXX2PqQ?start=2822"
+}

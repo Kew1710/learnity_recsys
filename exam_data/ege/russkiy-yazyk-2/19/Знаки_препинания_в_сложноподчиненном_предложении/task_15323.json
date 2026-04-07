@@ -1,0 +1,42 @@
+{
+  "comment": "запятая 1 выделяет придаточное определительное «сюжет которой был достаточно неопределённым»",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 898,
+    "title": "Знаки препинания в сложноподчиненном предложении"
+  },
+  "id": 15323,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расставьте все знаки препинания: укажите цифру(-ы), на месте которой(-ых) в предложении должна(-ы) стоять запятая(-ые).\nТеперь все живые сцены путешествия вошли в поэму (1) сюжет (2) которой (3) был достаточно неопределённым.",
+      "error_conditions": [],
+      "id": 223290,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

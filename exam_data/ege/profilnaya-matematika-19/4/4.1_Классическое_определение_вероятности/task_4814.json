@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем количество спортсменок из Швеции:\n$$56-27-15=14$$\nЕсли любая из \\(14-\\)ти спортсменок из Швеции будет выступать первой, то это удовлетворяет условию задачи, тогда искомая вероятность:\n$$\\frac{14}{56}=\\frac{1}{4}=0,25$$\nОтвет: 0,25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 4814,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В чемпионате по гимнастике участвуют \\(56\\) спортсменов: \\(27\\) из Норвегии, \\(15\\) из Дании, остальные из Швеции. Порядок, в котором выступают гимнастки, определяется жребием. Найдите вероятность того, что спортсменка, выступающая первой, окажется из Швеции.",
+      "error_conditions": [],
+      "id": 70047,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WLZb7XtIGlY?start=832"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/WLZb7XtIGlY?start=832"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Диметиламин и анилин - амины\nВсе амины реагируют с кислотами, галогеналканами, азотистой кислотой, кроме того сгорают в атмосфере кислорода\n\nВерные варианты ответа: бромоводород, кислород",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2825,
+    "title": "Характерные химические свойства аминов"
+  },
+  "id": 8644,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, которые взаимодействуют и с диметиламином, и с анилином.\n1) хлорид кальция\n2) гидроксид натрия\n3) бромоводород\n4) кислород\n5) сульфат железа(II)",
+      "error_conditions": [],
+      "id": 103762,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

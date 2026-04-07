@@ -1,0 +1,42 @@
+{
+  "comment": "На рисунке обозначены: 6 - улитка внутреннего уха, 5 - слуховые косточки среднего уха (молоточек, наковальня и стремечко).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 8611,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "212112",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между характеристиками и структурами, обозначенными выше цифрами 6, 5; к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\nХАРАКТЕРИСТИКИ\nА) усиливает звуковые колебания\nБ) преобразует механические колебания в нервный импульс\nВ) содержит слуховые косточки\nГ) заполнен несжимаемой жидкостью\nД) содержит кортиев орган\nЕ) участвует в выравнивании давления воздуха\nОТДЕЛЫ ОРГАНА СЛУХА\n1) 6\n2) 5\n\nА Б В Г Д Е",
+      "error_conditions": [],
+      "id": 103673,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+}

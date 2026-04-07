@@ -1,0 +1,37 @@
+{
+  "comment": "Элементы\n1) симбиоз;\n2) растение получает от гриба минеральные вещества;\n3) гриб получает от растения органические вещества.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 5703,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Известно, что многие виды растений вступают во взаимовыгодные отношения с грибами, образуя микоризу. Как называется данный тип взаимоотношений? Объясните, в чём заключается выгода растения и гриба в данном типе отношений.",
+      "error_conditions": null,
+      "id": 72170,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/40sU-9G3WSY?start=967"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "C₃H₆ + H₂ = C₃H₈\n\nВ газовой реакции коэффициенты в уравнении реакции показывают объемные отношения реагирующих газов:\nV(H₂) = x л\nПо уравнению: 1 моль – 1 моль\nПо условию: 5,6 л – x л\nV(H₂) = 5,6 л",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2856,
+    "title": "Расчёты теплового эффекта (по термохимическим уравнениям)"
+  },
+  "id": 517,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой объем водорода потребуется для полного гидрирования 5,6 л пропена? Обьёмы газов измерены при одинаковых условиях. (Напишите число с точностью до десятых.)",
+      "error_conditions": [],
+      "id": 51847,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/k0_zX1rfM8o?start=2622"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/k0_zX1rfM8o?start=2622"
+}

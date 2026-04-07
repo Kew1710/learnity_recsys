@@ -1,0 +1,42 @@
+{
+  "comment": "1) C₂H₆ + Br₂ → C₂H₅Br + HBr (hv)\n2) C₂H₅Br + KOH(водн.) → C₂H₅OH + KBr\n3) 2C₂H₅OH → C₂H₅-O-C₂H₅ + H₂O (кат. H₂SO₄(конц.))",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2836,
+    "title": "Генетическая связь между классами органических соединений"
+  },
+  "id": 1894,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) C₂H₅Br\n2) CH₃OH\n3) C₂H₂\n4) C₂H₅-O-C₂H₅\n5) CH₃CHO",
+      "error_conditions": [],
+      "id": 55057,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/aGoDh1DnlYs?start=1762"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/aGoDh1DnlYs?start=1762"
+}

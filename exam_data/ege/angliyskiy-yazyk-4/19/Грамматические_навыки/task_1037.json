@@ -1,0 +1,42 @@
+{
+  "comment": "В пропуске 19 подходит did not play, так как речь идет о прошлом (Я едва могу вспомнить время, когда я не играл в баскетбол) - так было всегда(и вчера и позавчера)\n\nВ пропуске 20 подходит rigged up (строить наскоро), так как это история из детства (из прошлого)\n\nВ пропуске 21 подходит us, так подходит по контексту (...convinced us - убедила нас)\n\nВ пропуске 22 подходит stories ( истории), так как речь в предложении идет о новостях, там точно не одна история, а их много.\n\nВ пропуске 23 подходит are changing (процесс изменения ситуации это всегда про время Continuous)\n\nВ пропуске 24 подходит these (Одна из этих техник…для сущ. во мн.ч.) Это, кстати, единственный способ изменить слово this- these.\n\nВ пропуске 25 подходит goes (Pr. Simple),так как предложении дают инструкцию, рассказывают, как эта техника съемки работает => Present Simple",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 814,
+    "title": "Грамматические навыки"
+  },
+  "id": 1037,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19.did not play 20.rigged up 21.us 22.stories 23.are changing 24.these 25.goes",
+          "points": 7
+        }
+      ],
+      "comment": "",
+      "description": "Прочитайте приведённые ниже тексты. Преобразуйте, если необходимо, слова, напечатанные заглавными буквами в конце строк, обозначенных номерами 19-25 так, чтобы они грамматически соответствовали содержанию текстов. Заполните пропуски полученными словами. Каждый пропуск соответствует отдельному заданию из группы 19-25.\n\nI can hardly remember a time when i (19) ______ (NOT PLAY) basketball,\" said Stacey James. \"When I was a very young kid, I was always outside with my brothers and pals shooting baskets into a metal rim that Dad (20) _______ (RIG UP) By the time we started playing at school, I fançied myself as a bit of an expert, but I was in for a rude awakening. I couldn't do anything right. It it hadn't been for the coach, I'd probably have given up at that point. Her faith in me restored my self-confidence. She always made us work very hard - practicing all those blocking shots and rebounds drove us crazy - but she devoted hours of her free time to the team. It says a lot for her that none of us resented the tremendous demands she made of us. She convinced (21) ______ (WE) they would pay off, and they did.\"\n\nThe filming and photography in news programmes is very important in bringing the (22) ______ (STORY) to life and making us realise how events affect people. But the traditional techniques of filming (23) ______ (CHANGE) (slowly) and not everyone is happy with this.\n\nViewers have recently complained that camera work on news programmes, while very artistic and clever, is more suited to feature films and documentaries. Apparently many of us are distracted by clever camerawork and our attention is taken away from the real focus, which is the story.\n\nSeveral techniques have been criticised. One of (24) ______ (THIS) is the 'circling camera\". This is when the cameraman (25) ______ (GO) round the person who is talking so that at one point we see the back of his head. Another technique is when the camera is not held steadily and shakes. It gives the impression of slight panic and is often used in films today.",
+      "error_conditions": [],
+      "id": 52597,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 7,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

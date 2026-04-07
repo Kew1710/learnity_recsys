@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nДлина большей диагонали ромба равна 10 см",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1990,
+    "title": "18.1 Расстояние и длина"
+  },
+  "id": 25305,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На клетчатой бумаге с размером клетки 1×1 изображён ромб. Найдите длину его большей диагонали.",
+      "error_conditions": [],
+      "id": 244962,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

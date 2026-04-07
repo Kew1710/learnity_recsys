@@ -1,0 +1,42 @@
+{
+  "comment": "Относительная влажность:\n$$\\varphi =\\frac{\\rho}{\\rho_н}$$\nПлотность воздуха:\n$$\\rho\\uparrow =\\frac{m}{V\\downarrow}$$\nПри уменьшении объема воздуха в \\(1,5\\) раза его плотность увеличится в \\(1,5\\) раза\nТак как плотность увеличится в \\(1,5\\) раза, то влажность также увеличится в \\(1,5\\) раза: \\(\\varphi\\cdot 1,5=105\\%\\), что невозможно, так как выпадет конденсат, поэтому \\(\\varphi_2=100\\%\\)\nОтвет: 100",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2627,
+    "title": "Влажность"
+  },
+  "id": 9336,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "100",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23313\nВ стеклянном сосуде под поршнем находится воздух с относительной влажностью \\(70\\%\\). Поддерживая температуру постоянной, воздух сжали, уменьшив его объем в \\(1,5\\) раза. Определите установившееся значение относительной влажности. Ответ дайте в процентах.",
+      "error_conditions": [],
+      "id": 113327,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/texlHMgbKPE"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/texlHMgbKPE"
+}

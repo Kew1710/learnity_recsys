@@ -1,0 +1,45 @@
+{
+  "comment": "$$CD=AD=DB\\ (по~свойству~медианы~прямоугольного~треугольника),$$\n\\(\\Delta CDB\\)-равнобедренный, тогда углы при основании СВ равны:\n$$\\angle DBC=\\angle DCB=35^{\\circ }\\\\ \\angle ACD=90^{\\circ } -\\angle DCB=90^{\\circ } -35^{\\circ } =55^{\\circ }$$\nОтвет: 55",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2373,
+    "title": "1.2 Углы и отрезки в прямоугольном треугольнике"
+  },
+  "id": 3427,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "55",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC~CD\\) - медиана, угол \\(C\\) равен \\(90^{\\circ }\\), угол \\(B\\) равен \\(35^{\\circ }\\). Найдите угол \\(ACD\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 65096,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/j4yaktFMq3g?start=506"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/j4yaktFMq3g?start=506"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "На всем отрезке \\([-6;-1]\\) производная отрицательна, значит, функция \\(f(x)\\) убывает. Свое наименьшее значение она принимает в крайней правой точке отрезка, то есть в \\(-1\\).\nОтвет: -1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2415,
+    "title": "8.4 Наибольшее/наименьшее значение функции на промежутке"
+  },
+  "id": 18711,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график \\(y=f'(x)\\) производной функции \\(f(x)\\), определённой на интервале \\((− 8; 3)\\). В какой точке отрезка \\([−6;−1]\\) функция \\(f(x)\\) принимает наименьшее значение?",
+      "error_conditions": [],
+      "id": 238552,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=7964"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=7964"
+}

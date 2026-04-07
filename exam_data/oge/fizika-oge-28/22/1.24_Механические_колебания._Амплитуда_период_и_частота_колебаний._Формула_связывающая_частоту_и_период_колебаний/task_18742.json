@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ: да, слышит\nПояснение: звук - продольная волна, которая способна распространяться в газах, жидкостях и твердых телах. А значит, звук работы двигателя может дойти до пилота по корпусу самолета",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3232,
+    "title": "1.24 Механические колебания. Амплитуда, период и частота колебаний. Формула, связывающая частоту и период колебаний:"
+  },
+  "id": 18742,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Слышит ли летчик звук работы реактивного двигателя, если самолет летит со сверхзвуковой скоростью, а двигатель находится позади пилота? Ответ поясните.",
+      "error_conditions": null,
+      "id": 238583,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/gakoS9V9854"
+}

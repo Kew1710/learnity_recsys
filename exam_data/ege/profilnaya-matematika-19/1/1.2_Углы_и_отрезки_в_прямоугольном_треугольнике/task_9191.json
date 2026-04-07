@@ -1,0 +1,45 @@
+{
+  "comment": "Назовем треугольник \\(ABC\\), \\(CM\\) - медиана, \\(CL\\) - биссектриса.\n\nУгол \\(MCL\\) равен \\(19^{\\circ}\\).\n\n\\(СL\\) - биссектриса прямого угла, значит, она делит \\(90\\) пополам. Получается \\(45\\).\n\n$$\\angle ACL=45\\\\ \\angle ACM=\\angle ACL-\\angle MCL=45-19=26$$\nМедиана проведенная из прямого угла равна половине гипотенузы, поэтому \\(AM=CM=BM\\), треугольник \\(ACM\\) равнобедренный.\n\nУ равнобедренных треугольников углы при основании равны, поэтому:\n$$\\angle BAC=\\angle ACM=26^\\circ$$\nОтвет: 26",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2373,
+    "title": "1.2 Углы и отрезки в прямоугольном треугольнике"
+  },
+  "id": 9191,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "26",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В прямоугольном треугольнике угол между биссектрисой и медианой проведенными из вершины прямого угла равен \\(19^{\\circ}\\). Найдите меньший угол прямоугольного треугольника. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 112961,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/j4yaktFMq3g?start=1382"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/j4yaktFMq3g?start=1382"
+}

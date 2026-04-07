@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n$$4^{x^2-2x}\\cdot 4+4^{x^2-2x}=20$$\nЗамена \\(4^{x^2-2x=t}\\)\n$$4t+t=20\\Leftrightarrow t=4$$\nОбратная замена:\n$$4^{x^2-2x}=4^1\\Leftrightarrow x^2-2x=1\\Leftrightarrow x^2-2x-1=0\\Leftrightarrow \\displaystyle \\left[ \\begin{array}{l l} x=1+\\sqrt{2}\\\\ x=1-\\sqrt{2} \\end{array} \\right.$$\nб) Отберем корни, которые принадлежат промежутку \\([-1;2]\\)\nСравним \\(1+\\sqrt{2}\\) и \\(2\\): вычтем из них \\(1\\Leftrightarrow\\sqrt{2}\\) и \\(1\\) или же \\(\\sqrt{2}\\) и \\(\\sqrt{1}\\), так как \\(2>1\\), то \\(\\sqrt{2}>\\sqrt{1}\\), значит \\(1+\\sqrt{2}>2\\), и корень \\(1+\\sqrt{2}\\) нам не подходит.\n\nСравним \\(1-\\sqrt{2}\\) и \\(-1\\): вычтем из них \\(1\\Leftrightarrow -\\sqrt{2}\\) и \\(-2\\) или же \\(-\\sqrt{2}\\) и \\(-\\sqrt{4}\\), так как \\(2<4\\), то \\(\\sqrt{2}<\\sqrt{4}\\), значит \\(-\\sqrt{2}>-\\sqrt{4}\\Leftrightarrow 1-\\sqrt{2}>-1\\) и \\(1-\\sqrt{2}<2\\), следовательно нам подходит только корень \\(1-\\sqrt{2}\\).\n\nОтвет: a) \\(1\\pm\\sqrt{2}\\), б) \\(1-\\sqrt{2}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2454,
+    "title": "13.5 Показательные"
+  },
+  "id": 10293,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(4^{x^2-2x+1}+4^{x^2-2x}=20\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([-1;2]\\).",
+      "error_conditions": null,
+      "id": 128711,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

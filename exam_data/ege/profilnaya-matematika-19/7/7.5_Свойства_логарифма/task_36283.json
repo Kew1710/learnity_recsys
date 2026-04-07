@@ -1,0 +1,45 @@
+{
+  "comment": "Вспомним свойство перехода к новому основанию:\n$$\\log_728+\\log_7\\frac{7}{4}=\\log_7\\frac{7\\cdot 28}{4}=\\log_749=2$$\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 36283,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{\\log_928}{\\log_97}+\\log_7\\frac{7}{4}\\).",
+      "error_conditions": [],
+      "id": 255933,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=tXc3x4aDLhc&t=1925s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/watch?v=tXc3x4aDLhc&t=1925s"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Всего за 6 дней конференции израсходуется \\(6 \\cdot 60 = 360\\) пакетиков чая. Узнаем необходимое количество пачек: \\(360 : 50 = 7,2\\).\nЗначит, нужно больше 7 пачек. Тогда наименьшим количеством будет 8.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2065,
+    "title": "1.2 Округление с избытком"
+  },
+  "id": 30423,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каждый день во время конференции расходуется 60 пакетиков чая. Конференция длится 6 дней. В пачке чая 50 пакетиков. Какого наименьшего количества пачек чая хватит на все дни конференции?",
+      "error_conditions": [],
+      "id": 250062,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

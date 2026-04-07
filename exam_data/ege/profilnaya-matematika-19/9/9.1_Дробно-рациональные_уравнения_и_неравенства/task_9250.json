@@ -1,0 +1,45 @@
+{
+  "comment": "Подставим известные значения в формулу:\n$$12=1500\\cdot\\frac{f-558}{f+558}\\Rightarrow 1=125\\cdot\\frac{f-558}{f+558}\\Rightarrow 1=\\frac{125\\cdot (f-558)}{f+558}\\\\ 125(f-558)=f+558\\Rightarrow 125f-125\\cdot 558=f+558\\\\ f=\\frac{126\\cdot 558}{124}=567\\ МГц$$\nОтвет: 567",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2421,
+    "title": "9.1 Дробно-рациональные уравнения и неравенства"
+  },
+  "id": 9250,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "567",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Локатор батискафа, равномерно погружающегося вертикально вниз, испускает ультразвуковые импульсы частотой \\(558~МГц\\). Скорость погружения батискафа вычисляется по формуле \\(v=c\\cdot\\frac{f-f_0}{f+f_0}\\), где \\(c=1500~м/с\\) - скорость звука в воде, \\(f_0\\) - частота испускаемых импульсов, \\(f\\) - частота отражённого от дна сигнала, регистрируемая приёмником (в МГц). Определите частоту отражённого сигнала в МГц, если скорость погружения батискафа равна \\(12~м/с\\). Ответ выразите в МГц.",
+      "error_conditions": [],
+      "id": 113023,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/lzwsmeGl20E?start=1414"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/embed/lzwsmeGl20E?start=1414"
+}

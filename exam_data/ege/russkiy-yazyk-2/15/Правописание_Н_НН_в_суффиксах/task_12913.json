@@ -1,0 +1,42 @@
+{
+  "comment": "собранный - причастие, сов. вид + приставка + зависимые слова, НН\nлиственных - прилагательное, суффикс -енн-, НН\nобложенный - причастие, сов. вид + приставка + зависимые слова, НН\nнасыпана - краткое причастие, Н",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12913,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\nБалаган, собра(1)ый из толстых листве(2)ых плах, походил на погреб, обложе(3)ый дёрном, только здесь сверху просто была насыпа(4)а земля, которая потом уже обросла травой.",
+      "error_conditions": [],
+      "id": 174097,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

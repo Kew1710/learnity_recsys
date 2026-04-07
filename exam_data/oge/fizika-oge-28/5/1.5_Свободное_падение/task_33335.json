@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nВоспользуемся формулой перемещения при равноускоренном движении: $$h=v_0t+\\frac{gt^2}{2}$$\nКамень падает из состояния покоя, поэтому его начальная скорость равна нулю: $$h=\\frac{gt^2}{2}$$\nПодставим числовые значения и найдем, какое расстояние пролетел камень за \\(3\\) секунды: $$h=\\frac{10\\cdot 3^2}{2}=45~м$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3213,
+    "title": "1.5 Свободное падение"
+  },
+  "id": 33335,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Время свободного падения камня из состояния покоя равно 3 с. Какое расстояние пролетел камень за это время? Сопротивлением движению пренебречь.\nОтвет: ______________ м",
+      "error_conditions": [],
+      "id": 252974,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

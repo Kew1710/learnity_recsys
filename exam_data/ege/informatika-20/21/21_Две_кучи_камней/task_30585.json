@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2754,
+    "title": "№21 Две кучи камней"
+  },
+  "id": 30585,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Для игры, описанной в задании 19, укажите максимальное значение S, при котором у Вани есть выигрышная стратегия, позволяющая ему выиграть при любой игре Пети.",
+      "error_conditions": [],
+      "id": 250224,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/hioxeLVgkG4?si=X-owygJUjrYr5j79&t=8368"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/hioxeLVgkG4?si=X-owygJUjrYr5j79&t=8368"
+}

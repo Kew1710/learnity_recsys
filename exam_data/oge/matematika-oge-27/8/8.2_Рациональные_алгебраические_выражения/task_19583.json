@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{a^{14} \\cdot (b^6)^2}{(a \\cdot b)^{12}} = \\cfrac{a^{14} \\cdot b^{12}}{a^{12} \\cdot b^{12}} = a^{14-12} = a^2\\)\nПодставим \\(a=6\\)\n\\(6^2 = 36\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1957,
+    "title": "8.2 Рациональные алгебраические выражения"
+  },
+  "id": 19583,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\cfrac{a^{14} \\cdot (b^6)^2}{(a \\cdot b)^{12}}\\) при \\(a=6, b=\\sqrt{6}\\) .",
+      "error_conditions": [],
+      "id": 239421,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

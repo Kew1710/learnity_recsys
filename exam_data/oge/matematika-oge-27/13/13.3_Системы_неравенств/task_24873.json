@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\begin{cases} x -5,2 \\geqslant 0\\\\x +4 \\leqslant 10 \\end{cases}\n\\begin{cases} x \\geqslant 5,2\\\\x \\leqslant 6 \\end{cases}\n\\( x \\in [5,2; 6]\\)\nОтвет: 4",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1969,
+    "title": "13.3 Системы неравенств"
+  },
+  "id": 24873,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите решение системы неравенств\n\\begin{cases} x -5,2 \\geqslant 0\\\\x +4 \\leqslant 10\\end{cases}\n- \\( ( -\\infty; 5,2] \\smile [6; + \\infty) \\)\n- \\( [ 5,2 ; + \\infty) \\)\n- \\( [6;+ \\infty)\\)\n- \\( [5,2; 6]\\)",
+      "error_conditions": [],
+      "id": 244529,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

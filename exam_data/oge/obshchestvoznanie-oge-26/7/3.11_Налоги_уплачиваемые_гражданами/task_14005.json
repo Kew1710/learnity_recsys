@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1775,
+    "title": "3.11 Налоги, уплачиваемые гражданами"
+  },
+  "id": 14005,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В стране Z с доходов граждан взимается 15-процентный налог на доходы физических лиц. Объектом налога является\n\n1) налогоплательщик\n2) заработная плата\n3) налоговое законодательство\n4) 15%-ная ставка налога",
+      "error_conditions": [],
+      "id": 183762,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 43,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=8315"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=8315"
+}

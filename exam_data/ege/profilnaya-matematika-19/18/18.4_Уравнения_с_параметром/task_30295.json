@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\displaystyle \\begin{cases} x^{2} -4x+a=0\\\\ 5x^{2} -6ax+a^{2} \\neq 0 \\end{cases} \\Leftrightarrow \\begin{cases} a=-x^{2} +4x\\ ( 1)\\\\ a\\neq x\\ ( 2)\\\\ a\\neq 5x\\ ( 3) \\end{cases}$$\n\\((1)\\) - парабола с вершиной \\((2; 4)\\)\n\\((2)\\) - прямая, проходящая через начало координат с тангенсом угла наклона \\(1\\)\n\\((3)\\) - прямая, проходящая через начало координат с тангенсом угла наклона \\(5\\)\n\nПостроим графики функций в координатах \\(xOa\\):\nНайдем точки пересечения параболы и прямой \\(a=x\\):\n$$x=-x^2+4x\\\\ x^2-3x=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} x=0\\\\ x=3 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} a=0\\\\ a=3 \\end{array} \\right.$$\nНайдем точки пересечения параболы и прямой \\(a=5x\\):\n$$5x=-x^2+4x\\\\ x^2+x=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} x=0\\\\ x=-1 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} a=0\\\\ a=-5 \\end{array} \\right.$$\nОтвет: \\((-\\infty;-5)\\cup (-5;0)\\cup (0;3)\\cup (3;4)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2493,
+    "title": "18.4 Уравнения с параметром"
+  },
+  "id": 30295,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения параметра \\(a\\), при каждом из которых уравнение\n$$\\frac{x^2-4x+a}{5x^2-6ax+a^2}=0$$\nимеет ровно два различных решения.",
+      "error_conditions": null,
+      "id": 249934,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/ELvCd0zkPk0?si=LcgfC9oBk--Bq4zy&t=16680"
+}

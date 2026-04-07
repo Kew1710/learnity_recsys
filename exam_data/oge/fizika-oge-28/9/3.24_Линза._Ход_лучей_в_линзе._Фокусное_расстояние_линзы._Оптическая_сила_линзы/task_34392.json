@@ -1,0 +1,42 @@
+{
+  "comment": "Проведем два луча из точки $S$: первый луч, проходящий через главный оптический центр, он проходит через точки $1,4$, а второй луч, параллельный главной оптической оси, пройдет через точку фокуса и попадет в точку $4$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3280,
+    "title": "3.24 Линза. Ход лучей в линзе. Фокусное расстояние линзы. Оптическая сила линзы"
+  },
+  "id": 34392,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В какой из точек $1–4$ будет получено с помощью собирающей линзы изображение источника света S (см. рисунок)?\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254031,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

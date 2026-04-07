@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n$$\\sqrt{x^4+8x^3+2x^2-1}=\\sqrt{x^4+2x^2}$$\nЗаметим, что \\(x^4+2x^2 = x^2(x^2+2), \\ x^2(x^2+2)>0\\) при любых \\(x\\), кроме \\(x\\ne 0\\), значит, если приравняем подкоренные выражения, то левая часть будет больше нуля автоматически.\n$$x^4+8x^3+2x^2-1=x^4+2x^2\\\\ 8x^3=1\\\\ x^3=\\frac{1}{8}\\\\ x=\\frac{1}{2}$$\nб) Отберём корни, принадлежащие отрезку \\([\\log_30,5;\\log_32]\\).\nЗаметим, что \\(\\log_30,5=-\\log_32\\), значит, \\(\\frac{1}{2}>\\log_30,5\\), сравним \\(\\frac{1}{2}\\) и \\(\\log_32\\), следовательно, \\(\\log_3\\sqrt{3}\\) и \\(\\log_32\\Rightarrow \\log_3\\sqrt{3}<\\log_3\\sqrt{4}\\), значит: \\(\\frac{1}{2}<\\log_32\\), следовательно \\(\\frac{1}{2}\\in [\\log_30,5;\\log_32]\\).\n\nОтвет: а) \\(\\frac{1}{2}\\); б) \\(\\frac{1}{2}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2458,
+    "title": "13.9 Иррациональные"
+  },
+  "id": 32172,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\sqrt{x^4+8x^3+2x^2-1}=\\sqrt{x^4+2x^2}\\).\nб) Найдите корни уравнения, принадлежащие отрезку \\([\\log_30,5;\\log_32]\\).",
+      "error_conditions": null,
+      "id": 251811,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/DKrf2NzdmDs?si=_aGSEtzLMivBJLY8&t=11154"
+}

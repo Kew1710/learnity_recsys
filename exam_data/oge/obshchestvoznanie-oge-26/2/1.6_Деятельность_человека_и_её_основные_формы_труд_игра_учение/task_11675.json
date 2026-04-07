@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1755,
+    "title": "1.6 Деятельность человека и её основные формы (труд, игра, учение)"
+  },
+  "id": 11675,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Игра, в отличие от иных форм деятельности, предполагает в качестве обязательного условия\n1) передачу определённой информации\n2) наличие воображаемой обстановки\n3) преобразование природной среды\n4) получение нового знания",
+      "error_conditions": [],
+      "id": 149837,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/l4Cx49fMs-s?start=3282"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/l4Cx49fMs-s?start=3282"
+}

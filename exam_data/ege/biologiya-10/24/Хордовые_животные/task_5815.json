@@ -1,0 +1,37 @@
+{
+  "comment": "Элементы ответа:\n1) Тип Хордовые, подтип Позвоночные, класс Млекопитающие;\n2)Тип Хордовые, подтип Позвоночные, потому что имеется костный скелет; 3)Класс Млекопитающие, потому что имеется шерсть, вибриссы и дифференциация зубов",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2528,
+    "title": "Хордовые животные"
+  },
+  "id": 5815,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "К какому типу, подтипу и классу можно отнести изображённое на рисунке животное? Ответ обоснуйте.",
+      "error_conditions": null,
+      "id": 72286,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/lvXWjGmIJXo?start=184"
+}

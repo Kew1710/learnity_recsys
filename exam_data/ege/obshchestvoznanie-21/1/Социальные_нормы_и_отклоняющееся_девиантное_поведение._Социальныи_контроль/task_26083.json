@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2574,
+    "title": "Социальные нормы и отклоняющееся (девиантное) поведение. Социальный контроль"
+  },
+  "id": 26083,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ниже приведён перечень терминов. Все они, за исключением двух, относятся к понятию «социальный контроль».\n\n1) социальное неравенство; 2) санкция; 3) социальная мобильность; 4) наказание; 5) обсуждение; 6) поощрение.\n\nНайдите два термина, «выпадающих» из общего ряда, и запишите в таблицу\nцифры, под которыми они указаны.",
+      "error_conditions": [],
+      "id": 245722,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

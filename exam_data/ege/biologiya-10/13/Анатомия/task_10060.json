@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 1\nПояснение: 1 – Фаланга пальца\n2 – Подкожная ткань\n3 – Дерма\n4 – Эпидермис\n5 – Корень\n6 – Ногтевая пластина",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10060,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите рисунок «Строение ногтя» и выполните задание\n\nКаким номером на рисунке обозначена фаланга пальца?",
+      "error_conditions": [],
+      "id": 121866,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{5^{\\log_6108}}{5^{\\log_63}}=5^{\\log_6108-\\log_63}=5^{\\log_6\\frac{108}{3}}=5^{\\log_636}=5^2=25$$\nОтвет: 25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 34422,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{5^{\\log_6108}}{5^{\\log_63}}\\).",
+      "error_conditions": [],
+      "id": 254061,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=5VGX1a_LADo4Lx57&t=3567"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=5VGX1a_LADo4Lx57&t=3567"
+}

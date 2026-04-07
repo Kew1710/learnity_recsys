@@ -1,0 +1,45 @@
+{
+  "comment": "Воспользуемся формулой приведения и основным тригонометрическим тождеством:\n$$\\frac{59}{\\cos^2 (90^\\circ-76^\\circ)+3+\\cos^2 (76^\\circ)}=\\frac{59}{\\sin^2 76^\\circ+3+\\cos^2 76^\\circ}=\\frac{59}{4}=14,75$$\nОтвет: 14,75",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 9305,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14,75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите \\(\\frac{59}{\\cos^2 14^\\circ +3+\\cos^2 76^\\circ}\\).",
+      "error_conditions": [],
+      "id": 113208,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=2627"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=2627"
+}

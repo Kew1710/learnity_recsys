@@ -1,0 +1,42 @@
+{
+  "comment": "Магний способен вытеснять менее активные металлы из состава солей в водных растворах:\nMg + Cu(NO₃)₂ = Mg(NO₃)₂ + Cu\nНитраты - термически неустойчивые соединения, так нитраты металлов средней активности способны разлагаться с образованием оксида металла, бурого газа и кислорода:\n2Mg(NO₃)₂ = 2MgO + 4NO₂ + O₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 35316,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) NaNO₃\n2) Mg(NO₃)₂\n3) Mg(OH)₂\n4) Cu(NO₃)₂\n5) LiNO₃",
+      "error_conditions": [],
+      "id": 254955,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/IdmfJgDoyjA?t=2089s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/IdmfJgDoyjA?t=2089s"
+}

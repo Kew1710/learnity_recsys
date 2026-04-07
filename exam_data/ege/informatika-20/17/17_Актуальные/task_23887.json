@@ -1,0 +1,45 @@
+{
+  "comment": "def f10(n):\nif (1000 <= n < 10000):\nreturn 1\nreturn 0\nwith open('/17_2.txt') as f:\nmas = [int(i) for i in f]\nmax1 = 0\nfor i in range(len(mas)):\nif abs(mas[i]) % 100 == 25:\nmax1 = max(max1, mas[i])\nmaxs = 0\nk = 0\nfor i in range(len(mas)-2):\ns = mas[i] + mas[i+1] + mas[i+2]\nif (f10(mas[i]) + f10(mas[i+1]) + f10(mas[i+2])) <= 2 and s >= max1:\nk +=1\nmaxs = max(maxs, s)\nprint(k, maxs)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1519,
+    "title": "№17 Актуальные"
+  },
+  "id": 23887,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "172 249747",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: REZ2317_1\n(РЕЗЕРВ 2023) В файле содержится последовательность целых чисел. Элементы последовательности могут принимать целые - значения от -100 000 до 100 000 включительно. Определите количество троек элементов последовательности, в которых не более двух из трёх элементов являются четырёхзначными числами, а сумма элементов тройки не меньше максимального элемента последовательности, оканчивающегося на 25. В ответе запишите количество найденных троек чисел, затем максимальную из сумм элементов таких троек. В данной задаче под тройкой подразумевается три идущих подряд элемента последовательности.",
+      "error_conditions": [],
+      "id": 243606,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 36,
+    "title": "Обработка числовой последовательности"
+  },
+  "video_link": null
+}

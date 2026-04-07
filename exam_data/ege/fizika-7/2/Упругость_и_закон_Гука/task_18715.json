@@ -1,0 +1,42 @@
+{
+  "comment": "По 2 закону Ньютона:\n$$F_1-F_2=0\\\\ F_1=k_1x_1\\\\ k_1x_1=F_2\\Rightarrow k_1=\\frac{F_2}{x_1}=\\frac{15}{0,05}=300~Н/м$$\nОтвет: 300",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2614,
+    "title": "Упругость и закон Гука"
+  },
+  "id": 18715,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "300",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23И111\nВ ходе лабораторной работы по изучению силы упругости ученики сжали брусок массой \\(1,2\\) кг двумя пружинами (см. рис.). При нахождении бруска в положении равновесия левая пружина сжата на \\(5\\) см, а правая на \\(4\\) см. Правая пружина действует на брусок с силой, модуль которой \\(15\\) Н. Определите жесткость левой пружины. Ответ дайте в Н/м.",
+      "error_conditions": [],
+      "id": 238556,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/15eG_v6uVE4?feature=share&t=4069"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/15eG_v6uVE4?feature=share&t=4069"
+}

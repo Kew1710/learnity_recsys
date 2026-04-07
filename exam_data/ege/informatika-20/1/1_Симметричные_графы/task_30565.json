@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2688,
+    "title": "№1 Симметричные графы"
+  },
+  "id": 30565,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "39",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке схема дорог Н-ского района изображена в виде графа, в таблице содержатся сведения о протяжённости каждой из этих дорог (в километрах).\n\nП1\nП2\nП3\nП4\nП5\nП6\nП7\nП1\n\n11\n\n12\n\nП2\n\n13\n\n14\nП3\n11\n13\n\n15\n\nП4\n\n16\n17\n18\nП5\n\n15\n16\n\n19\n20\nП6\n12\n\n17\n19\n\nП7\n\n14\n\n18\n20\n\nТак как таблицу и схему рисовали независимо друг от друга, то нумерация населённых пунктов в таблице никак не связана с буквенными обозначениями на графе. Определите, какова сумма протяжённостей дорог из пункта Г в пункты Д и Е. В ответе запишите целое число.",
+      "error_conditions": [],
+      "id": 250204,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/3-Z7nOeaf4Q?feature=share&t=658"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 20,
+    "title": "Графы"
+  },
+  "video_link": "https://www.youtube.com/live/3-Z7nOeaf4Q?feature=share&t=658"
+}

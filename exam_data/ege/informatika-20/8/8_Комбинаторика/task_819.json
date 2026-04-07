@@ -1,0 +1,45 @@
+{
+  "comment": "Заметим, что после дописывания остатка от деления суммы на два, сумма единиц в двоичном представлении(она же и будет общей суммой) либо останется четной, либо станет ей. Это значит, что при повторении *дописывания* допишется ‘0’\n105= 110 10012\nТогда ближайшее число большее вышеуказанного, удовлетворяющее условию, будет 11010102\nПусть Л стоит на первом месте. Тогда на каждое из оставшихся 5 мест можно поставить одну из 2 букв (М или Н). То есть 1 * 2 * 2 * 2* 2 * 2 = 32 варианта. Л можно по очереди поставить на все 6 мест, в каждом случае получая 32 варианта. Итого 6 * 32 = 192.\n\nРешение программой:\nPythonPascalword = 'ЛМН'\nk = 0\nfor x1 in word:\nfor x2 in word:\nfor x3 in word:\nfor x4 in word:\nfor x5 in word:\nfor x6 in word:\ns = x1 + x2 + x3+ x4+ x5 + x6\nif s.count('Л') == 1:\nk += 1\nprint(k)\nbegin\nvar word:= 'ЛМН';\nvar count:= 0;\nforeach var x1 in word do\nforeach var x2 in word do\nforeach var x3 in word do\nforeach var x4 in word do\nforeach var x5 in word do\nforeach var x6 in word do\nbegin\nvar s:= x1 + x2 + x3 + x4 + x5 + x6;\nif s.CountOf('Л') = 1 then\ncount += 1;\nend;\nprint(count);\nend.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2711,
+    "title": "№8 Комбинаторика"
+  },
+  "id": 819,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "192",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: F1099F\nВася составляет 6-буквенные слова, в которых встречаются только буквы Л, М, Н, причём буква Л появляется ровно 1 раз. Каждая из других допустимых букв может встречаться в слове любое количество раз или не встречаться совсем. Словом считается любая допустимая последовательность букв, не обязательно осмысленная. Сколько существует таких слов, которые может написать Вася?",
+      "error_conditions": [],
+      "id": 52379,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

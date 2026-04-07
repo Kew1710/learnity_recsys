@@ -1,0 +1,37 @@
+{
+  "comment": "Для сопоставления можно взять следующие произведения:\n- И.А. Гончаров “Обломов” (образ Ольги Ильинской).\n- И.С. Тургенев “Отцы и дети” (образ Анны Одинцовой).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2686,
+    "title": "Лирика второй половины XIX в."
+  },
+  "id": 25723,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 12,
+    "task_count": 0,
+    "title": "Литература"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Назовите произведение отечественной или зарубежной литературы (с указанием автора), в котором представлен образ русской женщины. В чем схожи (или чем различаются) персонаж выбранного Вами произведении и Катерины?",
+      "error_conditions": null,
+      "id": 245380,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 8,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

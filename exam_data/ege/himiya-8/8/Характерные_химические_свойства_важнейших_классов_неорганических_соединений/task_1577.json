@@ -1,0 +1,42 @@
+{
+  "comment": "А) Вытеснение слабой летучей кислоты более сильной кислотой из состава соли:\nNa₂CO₃ + 2HCl = 2NaCl + CO₂ + H₂O\nБ) Переход средней соли в кислую при воздействии избытка кислотного оксида:\nNa₂CO₃ + CO₂ + H₂O = 2NaHCO₃\nВ) Вытеснение слабой летучей кислоты более сильной кислотой из состава соли:\nNaHCO₃ + HCl = NaCl + CO₂ + H₂O\nГ) Реакция ионного обмена между двумя растворимыми солями:\nNa₂CO₃ + CaCl₂ = 2NaCl + CaCO₃",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 1577,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6261",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТ(Ы) РЕАКЦИИ\nA) Na₂CO₃ + HCl →1) NaCl и CaCO₃Б) Na₂CO₃ + CO₂ + H₂O →2) NaHCO₃B) NaHCO₃ + HCl →3) NaHCO₃ и HClГ) Na₂CO₃ + CaCl₂ →4) NaOH, CO₂ и H₂O 5) NaOH и NaHCO₃ 6) NaCl, CO₂ и H₂O",
+      "error_conditions": [],
+      "id": 53903,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/sAsox5Q0qjE?start=2855"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/sAsox5Q0qjE?start=2855"
+}

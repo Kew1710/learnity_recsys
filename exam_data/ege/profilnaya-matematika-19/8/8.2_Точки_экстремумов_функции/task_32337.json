@@ -1,0 +1,45 @@
+{
+  "comment": "Там где производная отрицательна, функция убывает, где положительна производная, там функция возрастает:\nЗначит, \\(x=2\\) точка максимума.\n\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2413,
+    "title": "8.2 Точки экстремумов функции"
+  },
+  "id": 32337,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график \\(y=f'(x)\\) – производной функции \\(f(x)\\), определённой на интервале \\((-5;5)\\). Найдите точку максимума функции \\(f(x)\\).",
+      "error_conditions": [],
+      "id": 251976,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=--Hgmgf3RpeqOk8-&t=1344"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=--Hgmgf3RpeqOk8-&t=1344"
+}

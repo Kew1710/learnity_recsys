@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(75-9=66\\) - в среднем исправных карманных фонариков\n\\(P=\\cfrac{66}{75}=0,88\\) - вероятность того, что выбранный наудачу в магазине фонарик окажется исправен",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2043,
+    "title": "10. Теория вероятностей"
+  },
+  "id": 18842,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,88",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В среднем из 75 карманных фонариков, поступивших в продажу, девять неисправных. Найдите вероятность того, что выбранный наудачу в магазине фонарик окажется исправен.",
+      "error_conditions": [],
+      "id": 238680,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

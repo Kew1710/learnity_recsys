@@ -1,0 +1,42 @@
+{
+  "comment": "$$x^2 = 17x - 72$$\n$$x^2 - 17x + 72 = 0$$\nНайдем дискриминант:\n$$D = b^2 - 4ac = (-17)^2 - 4 \\cdot 1 \\cdot 72 = 289 - 288 = 1$$\nТогда\n$$x_1 = \\frac{-b-\\sqrt{D}}{2a} = \\frac{17-1}{2} = 8$$\n$$x_2 = \\frac{-b+\\sqrt{D}}{2a} = \\frac{17+1}{2} = 9$$\n\\(x_2 = 9\\) - больший корень\nОтвет: 9.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2122,
+    "title": "17.1 Линейные, квадратные, кубические уравнения"
+  },
+  "id": 30179,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(x^2 = 17x - 72\\).\nЕсли уравнение имеет более одного корня, в ответе укажите больший из них.",
+      "error_conditions": [],
+      "id": 249818,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

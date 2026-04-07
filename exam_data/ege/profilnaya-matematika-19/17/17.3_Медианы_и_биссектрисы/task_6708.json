@@ -1,0 +1,40 @@
+{
+  "comment": "а) Прямая \\(CP\\) - биссектриса угла \\(ACB\\), поэтому \\(\\angle ACP=45^{\\circ }\\). Прямая \\(CQ\\) - биссектриса угла \\(NCM\\), поэтому \\(\\angle NCQ=45^{\\circ }\\). Следовательно:\n$$\\angle OCP=\\angle ACP+\\angle MCQ=90^{\\circ }\\\\ Ч.Т.Д.$$\nб) Запишем равенство \\(S_{ACB} =S_{PCB} +S_{APC}\\) с помощью формулы площади как половина произведения сторон на синус угла между ними:\n$$\\frac{5\\cdot 3}{2} =\\frac{CP\\cdot 3}{2\\sqrt{2}} +\\frac{CP\\cdot 5}{2\\sqrt{2}}$$\nТогда \\(CP=\\frac{15\\sqrt{2}}{8}\\). Аналогично \\(CQ=\\frac{15\\sqrt{2}}{8}\\). Отрезок \\(PQ\\) - гипотенуза равнобедренного прямоугольного треугольника \\(QCP\\), поэтому:\n$$PQ=\\sqrt{2} CP=\\frac{15}{4}$$\nОтвет: \\(\\frac{15}{4}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2483,
+    "title": "17.3 Медианы и биссектрисы"
+  },
+  "id": 6708,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В прямоугольном треугольнике \\(ABC\\) точка \\(M\\) лежит на катете \\(AC\\), а точка \\(N\\) лежит на продолжении катета \\(BC\\) за точку \\(C\\), причем \\(CM=BC\\) и \\(CN=AC\\). Отрезки \\(CP\\) и \\(CQ\\) - биссектрисы треугольников \\(ACB\\) и \\(NCM\\) соответственно.\nа) Докажите, что \\(CP\\) и \\(CQ\\) перпендикулярны.\nб) Найдите \\(PQ\\), если \\(BC=3\\), а \\(AC=5\\).",
+      "error_conditions": null,
+      "id": 75242,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/Adaz_aD_ltc?start=291"
+}

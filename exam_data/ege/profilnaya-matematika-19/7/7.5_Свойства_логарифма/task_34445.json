@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\log_3x=\\log_31,5+\\log_38\\\\ \\log_3x=\\log_31,5\\cdot 8\\\\ \\log_3x=\\log_312\\\\ x=12$$\nОтвет: 12",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 34445,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(\\log_3x=\\log_31,5+\\log_38\\).",
+      "error_conditions": [],
+      "id": 254084,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=R7t4DjwugPcn1Onk&t=1604"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=R7t4DjwugPcn1Onk&t=1604"
+}

@@ -1,0 +1,46 @@
+{
+  "comment": "Биологическое окисление — один из этапов энергетического обмена — происходит в митохондриях.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2509,
+    "title": "Цитология"
+  },
+  "id": 16966,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "митохондрии",
+          "points": 1
+        },
+        {
+          "answer": "митохондрия",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Структуры клетки» и заполните ячейку, вписав соответствующий термин.\nСтруктуры клетки\nФункция\nХромосомыХранение и передача наследственной информации клетки и организма?\nБиологическое окисление",
+      "error_conditions": [],
+      "id": 236866,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

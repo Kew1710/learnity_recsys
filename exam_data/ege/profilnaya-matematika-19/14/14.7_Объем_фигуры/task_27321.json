@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n$$LM\\in ABD\\\\ KN\\in ABC\\\\ LM||KN~(так~как~LMNK–квадрат)$$\nЗначит, \\(LM||ABC\\), так как \\(LM||\\) прямой, лежащей в плоскости \\(ABC\\).\n$$\\displaystyle \\begin{cases} LM||ABC\\\\ LM||KN\\\\ ( AB C) \\cap ( KLM) =KN\\\\ ( ABD) \\cap ( KLM) =LM \\end{cases} \\Rightarrow LM||AB||KN$$\nСледовательно, по теореме Фалеса \\(\\frac{AK}{KC}=\\frac{BN}{NC}=\\frac{3}{7}\\) и треугольники \\(KNC\\) и \\(ABC\\) подобны по двум пропорциональным сторонам и углу между ними, следовательно:\n$$\\frac{KC}{AC}=\\frac{KN}{AB}=\\frac{7}{10}\\Rightarrow AB=\\frac{10KN}{7}$$\nАналогично \\(DC||MN||LK\\), следовательно, по теореме Фалеса \\(\\frac{AK}{KC}=\\frac{AL}{LD}=\\frac{3}{7}\\) и треугольники \\(ALK\\) и \\(ADC\\) подобны по двум пропорциональным сторонам и углу между ними, следовательно:\n$$\\frac{AL}{AD}=\\frac{LK}{DC}=\\frac{3}{10}\\Rightarrow DC=\\frac{10KL}{7}=\\frac{10KN}{3}~(KL~и~KB~равны~по~свойству~квадрата)\\\\ \\frac{AB}{DC}=\\frac{10KN}{7}:\\frac{10KN}{3}=\\frac{3}{7}$$\nб) Рассмотрим пирамиду \\(MKNB\\), обозначим ее объем \\(V_1\\), \\(h_M\\) - высота из точки \\(M\\) на плоскость \\(ABC\\).\n$$V=\\frac{1}{3}\\cdot h_M\\cdot S_{BKN}$$\n\\(V\\) - объем всей пирамиды \\(DABC\\), \\(h\\) - высота из точки \\(D\\) на плоскость \\(ABC\\)\n$$V=\\frac{1}{3}\\cdot h_M\\cdot S_{ABC}=100~по~условию$$\nТак как \\(KN||AB\\), то \\(AK:KC=BN:NC=3:7\\) по теореме Фалеса.\nПусть \\(MM_1\\) расстояние от точки \\(M\\) до плоскости \\(ABC\\) (обозначим \\(h_M\\)), \\(DH\\) - расстояние от точки \\(D\\) до плоскости \\(ABC\\) (обозначим \\(h\\)).\nТогда треугольники \\(BMM_1\\) и \\(DDH\\) подобны, поэтому:\n$$\\frac{MM_1}{DH}=\\frac{BM}{BD}=\\frac{h_M}{h}=\\frac{3}{10}$$\nПлощади подобных треугольников \\(CKN\\) и \\(CAB\\) относятся как коэффициент подобия в квадрате, то есть:\n$$k^2=\\left(\\frac{7}{10}\\right)^2=\\frac{49}{100}\\\\ V_{MKNC}=\\frac{1}{3}\\cdot h_M\\cdot S_{KNC}=\\frac{1}{3}\\cdot\\frac{3}{10}h\\cdot\\frac{49}{100}S_{ABC}=\\frac{147}{1000}V=\\frac{147}{1000}\\cdot 100=\\frac{147}{10}\\\\ V_{MKNC}=\\frac{1}{3}\\cdot h_c\\cdot S_{KMN}\\\\ V_{CKLM}=\\frac{1}{3}\\cdot h_c\\cdot S_{KLM}\\\\ S_{KMN}=S_{KLM}~(так~как~KLMN-квадрат),поэтому~V_{MKNC}=V_{CKLM}=\\frac{147}{100}\\\\ V_{MLKNC}=2V_{MKNC}=2\\cdot \\frac{147}{10}=\\frac{147}{5}$$\nОтвет: \\(\\frac{147}{5}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2466,
+    "title": "14.7 Объем фигуры"
+  },
+  "id": 27321,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дан тетраэдр \\(ABCD\\). Точки \\(K\\), \\(L\\), \\(M\\) и \\(N\\) лежат на ребрах \\(AC\\), \\(AD\\), \\(DB\\) и \\(BC\\) соответственно, так, что четырехугольник \\(KLMN\\)  — квадрат, и \\(AK:KC=3:7\\).\nа) Докажите, что \\(AB:CD=3:7\\).\nб) Найдите объём пирамиды \\(CKLMN\\), если объём тетраэдра \\(ABCD\\) равен \\(100\\).",
+      "error_conditions": null,
+      "id": 246960,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://youtu.be/fQ1MVFsFzMI?t=16818"
+}

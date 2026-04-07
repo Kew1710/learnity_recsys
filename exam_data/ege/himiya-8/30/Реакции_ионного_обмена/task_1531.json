@@ -1,0 +1,37 @@
+{
+  "comment": "KHSO₄ + (CH₃COO)₂Ba = CH₃COOH + BaSO₄ + CH₃COOK\nK⁺ + HSO₄⁻ + 2CH₃COO⁻ + Ba²⁺ = CH₃COOH + BaSO₄ + CH₃COO⁻ + K⁺\nHSO₄⁻ + CH₃COO⁻ + Ba²⁺ = CH₃COOH + BaSO₄",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2801,
+    "title": "Реакции ионного обмена"
+  },
+  "id": 1531,
+  "is_obsolete": false,
+  "number": 30,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Для выполнения задания используйте следующий перечень веществ: бромоводородная кислота, нитрат серебра, перманганат калия, графит, гидросульфат калия, ацетат бария. Допустимо использование водных растворов этих веществ.Из предложенного перечня веществ выберите два вещества, реакция ионного обмена между которыми протекает с образованием белого осадка. Запишите молекулярное, полное и сокращенное ионное уравнения реакции с участием выбранных веществ.",
+      "error_conditions": null,
+      "id": 53847,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Ao4Qr_V3DCc?start=6221"
+}

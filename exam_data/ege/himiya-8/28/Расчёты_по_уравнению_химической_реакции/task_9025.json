@@ -1,0 +1,42 @@
+{
+  "comment": "2H₂O₂ = 2H₂O + O₂\nn(O₂) = n(H₂O₂)/2 = 4/2 = 2 моль\nV(O₂) = n • Vₘ = 2 • 22,4 = 44,8 л",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2857,
+    "title": "Расчёты по уравнению химической реакции"
+  },
+  "id": 9025,
+  "is_obsolete": false,
+  "number": 28,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "44,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой объём (л, н.у.) кислорода образуется при разложении 4 моль пероксида водорода? (Запишите число с точностью до десятых.)",
+      "error_conditions": [],
+      "id": 112682,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

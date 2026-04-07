@@ -1,0 +1,45 @@
+{
+  "comment": "Скалярное произведение находится по формуле:\n$$\\vec{a}\\cdot \\vec{b}=|\\vec{a}|\\cdot |\\vec{b}|\\cdot \\cos\\alpha$$\nгде \\(|\\vec{a}|\\) и \\(|\\vec{b}|\\) - длины векторов, а \\(\\cos\\alpha\\) - косинус угла между ними:\n$$\\vec{a}\\cdot \\vec{b}=3\\cdot 7\\cdot \\cos 60^\\circ=21\\cdot\\frac{1}{2}=10,5$$\nОтвет: 10,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2383,
+    "title": "2.2 Скалярное произведение векторов"
+  },
+  "id": 29730,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Длины векторы \\(\\vec{a}\\) и \\(\\vec{b}\\) равны \\(3\\) и \\(7\\), а угол между ними равен \\(60^\\circ\\). Найдите скалярное произведение \\(\\vec{a}\\cdot\\vec{b}\\).",
+      "error_conditions": [],
+      "id": 249369,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/qdo4vqN44hI?si=bWyBvdCfgeBHiZT2&t=1230"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/live/qdo4vqN44hI?si=bWyBvdCfgeBHiZT2&t=1230"
+}

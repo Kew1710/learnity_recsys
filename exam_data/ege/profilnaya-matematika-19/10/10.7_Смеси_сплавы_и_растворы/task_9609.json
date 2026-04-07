@@ -1,0 +1,45 @@
+{
+  "comment": "Составим схему:\nНайдем, сколько вещества в 1 растворе:\n$$0,15\\cdot 8=1,2$$\nНайдем, сколько вещества есть в воде:\n$$0\\cdot 7=0$$\nНайдем, сколько вещества в итоговом растворе:\n$$\\frac{x}{100}\\cdot 15$$\nСоставим уравнение:\n$$0,15\\cdot 8+0\\cdot 7=\\frac{x}{100}\\cdot 15$$\nДомножим на 100 правую и левую часть:\n$$15\\cdot 8=x\\cdot 15$$\nПолучается, что \\(x=8\\).\n\nОтвет: 8",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2434,
+    "title": "10.7 Смеси, сплавы и растворы"
+  },
+  "id": 9609,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В сосуд, содержащий 8 литров 15-процентного водного раствора некоторого вещества, добавили 7 литров воды. Сколько процентов составит концентрация получившегося раствора?",
+      "error_conditions": [],
+      "id": 116467,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=770"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=770"
+}

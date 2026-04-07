@@ -1,0 +1,45 @@
+{
+  "comment": "Проведем высоты \\(DH_1\\) и \\(CH_{2}\\). В прямоугольном треугольнике \\(ADH_{1}\\) с прямым углом \\(DH_{1}A\\) угол \\(DAH_{1}\\) равен \\(60^{\\circ }\\) по условию, следовательно, угол \\(ADH_{1}\\) равен \\(30^{\\circ }\\). Трапеция равнобедренная, поэтому\n$$AH_{1} =BH_{2} =\\frac{1}{2} AD=5,$$\nкак катет, лежащий против угла \\(30^{\\circ }\\).\n$$DC=AB-2\\cdot AH_1=25-2\\cdot 5=15$$\nОтвет: 15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2376,
+    "title": "1.5 Углы и отрезки в четырехугольниках"
+  },
+  "id": 8204,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В равнобедренной трапеции большее основание равно \\(25\\), боковая сторона равна \\(10\\), угол между ними \\(60^{\\circ }\\). Найдите меньшее основание.",
+      "error_conditions": [],
+      "id": 101515,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=639"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=639"
+}

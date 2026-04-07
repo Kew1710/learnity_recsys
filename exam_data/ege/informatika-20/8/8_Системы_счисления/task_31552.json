@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 31552,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2990",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Все пятибуквенные слова, в составе которых могут быть только русские буквы С, О, Й, К, А, записаны в алфавитном порядке и пронумерованы начиная с единицы.\nНиже приведено начало списка.\n1. ААААА\n2. ААААЙ\n3. ААААК\n4. ААААО\n5. ААААС\n6. АААЙА\nПод каким номером в списке идет последнее слово, которое содержит не более одной буквы О и не содержит букв С, стоящих рядом?",
+      "error_conditions": [],
+      "id": 251191,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/vHbAd1M_h-8?t=3436"
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": "https://youtu.be/vHbAd1M_h-8?t=3436"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Перечислим всевозможные варианты, если \\(О\\) – орел, \\(Р\\) – решка.\n$$РР, ОР, РО, ОО$$\nНам подходят два варианта:\n$$Р=\\frac{2}{4}=0,5$$\nОтвет: 0,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 25269,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В случайном эксперименте симметричную монету бросают дважды. Найдите вероятность того, что орел выпадет ровно один раз.",
+      "error_conditions": [],
+      "id": 244926,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/BJLZKvia4_s?si=WjcjR7Hv5QQPNwBV&t=1062"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/live/BJLZKvia4_s?si=WjcjR7Hv5QQPNwBV&t=1062"
+}

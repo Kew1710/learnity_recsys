@@ -1,0 +1,37 @@
+{
+  "comment": "Так как по условию потери составляют 20%, то КПД равен 80%\nПолезная работа - работа, идущая на нагревание воды и калориметра, а затрачиваем мощность нагревателя\nКПД равно: $$\\eta=\\frac{А_п}{А_{зат}}=\\frac{c_вm_в\\Delta t+c_аm_а\\Delta t}{P\\tau}$$\nПодставим числа: $$0,8=\\frac{4200\\cdot 0,12\\cdot 24+920\\cdot 0,05\\cdot 24}{12,5\\cdot \\tau} \\\\ 0,8\\cdot 12,5\\cdot \\tau=4200\\cdot 0,12\\cdot 24+920\\cdot 0,05\\cdot 2 \\\\ 10\\tau=4200\\cdot 0,12\\cdot 24+920\\cdot 0,05\\cdot 2 \\\\ \\tau=\\frac{4200\\cdot 0,12\\cdot 24+920\\cdot 0,05\\cdot 2}{10}=1320~с$$\n\nОтвет: 1320 с",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34821,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В алюминиевый калориметр массой $50$ г налито $120$ г воды и опущен электрический нагреватель мощностью $12,5$ Вт. За какое время калориметр с водой нагреется на $24$ ºC, если тепловые потери в окружающую среду составляют $20$%?",
+      "error_conditions": null,
+      "id": 254460,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

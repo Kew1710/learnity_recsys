@@ -1,0 +1,45 @@
+{
+  "comment": "$$ \\frac{1}{a} = {a}^{-1} \\Rightarrow \\\\ 7^{-(x+4)}=7^2\\\\ -x-4=2\\\\ x=-6$$\nОтвет: -6.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2402,
+    "title": "6.4 Показательные"
+  },
+  "id": 16801,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\left(\\frac{1}{7}\\right)^{x+4}=49\\).",
+      "error_conditions": [],
+      "id": 236706,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=7921"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=7921"
+}

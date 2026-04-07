@@ -1,0 +1,37 @@
+{
+  "comment": "После зарядки конденсатора ток через \\(R_1\\) не течет, следовательно, напряжение на \\(R_1=0\\).\nПо закону Ома для полной цепи:\n$$I=\\frac{\\varepsilon}{R_2+r}$$\nТ.к. \\(U_{R_1}=0\\Rightarrow\\varphi_2'=\\varphi_2\\Rightarrow U_C=U_{R_2}=IR_2=\\frac{\\varepsilon R_2}{R_2+r}~(1)\\)\nНапряжение на конденсаторе:\n$$U_C=Ed~(2)$$\nПодставим (2) в (1):\n$$Ed=\\frac{\\varepsilon R_2}{R_2+r}\\Rightarrow E=\\frac{\\varepsilon R_2}{d(R_2+r)}=\\frac{25\\cdot 40}{2\\cdot 10^{-3}(40+10)}=10^4~В/м$$\nОтвет: 10\\(^4\\) В/м",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 10104,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23596\nПлоский воздушный конденсатор, расстояние между обкладками которого \\(d=2\\) мм, включен в цепь постоянного тока, как показано на схеме. Источник обладает следующими характеристиками: \\(\\varepsilon =25\\) В и \\(r=10\\) Ом. Сопротивления резисторов \\(R_1=25\\) Ом и \\(R_2=40\\) Ом. Определите модуль напряженности электрического поля между обкладками конденсатора.",
+      "error_conditions": null,
+      "id": 121930,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/dNSB9q79_V8"
+}

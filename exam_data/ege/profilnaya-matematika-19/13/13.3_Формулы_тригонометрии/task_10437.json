@@ -1,0 +1,40 @@
+{
+  "comment": "а) По формуле приведения: \\(\\cos(\\frac{\\pi}{2}+x)=-\\sin x\\)\n$$\\cos 2x-\\sqrt{2}\\sin x+1=0$$\nПо формуле косинуса двойного угла: \\(\\cos 2x=1-2\\sin^2x\\)\n$$1-2\\sin^2x-\\sqrt{2}\\sin x+1=0\\\\ 2\\sin^2x-\\sqrt{2}\\sin x-2=0\\Leftrightarrow \\displaystyle \\left[ \\begin{array}{l l}\n\\sin x=-\\frac{\\sqrt{2}}{2}\\\\\n\\sin x=\\sqrt{2}\n\\end{array} \\right.\\\\ \\sin x=-\\sqrt{2}-не~имеет~решений,так~как~\\sin x\\in[-1;1]\\\\ \\sin x=\\frac{\\sqrt{2}}{2}\\Leftrightarrow \\displaystyle \\left[ \\begin{array}{l l}\nx=\\frac{\\pi }{4} +2\\pi k\\\\\nx=\\frac{3\\pi }{4} +2\\pi k\n\\end{array} \\right. ,k\\in Z$$\nОтберем корни на промежутке \\([2\\pi;3,5\\pi]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$2\\pi+\\frac{\\pi}{4}=\\frac{9\\pi}{4}\\\\ 3\\pi-\\frac{\\pi}{4}=\\frac{11\\pi}{4}$$\nОтвет: {\\(\\frac{\\pi}{4}+2\\pi k;\\frac{3\\pi}{4}+2\\pi k:k\\in Z\\)}, б) \\(\\frac{9\\pi}{4};\\frac{11\\pi}{4}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 10437,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\cos 2x+\\sqrt{2}\\cos (\\frac{\\pi}{2}+x)+1=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([2\\pi;3,5\\pi]\\).",
+      "error_conditions": null,
+      "id": 142281,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

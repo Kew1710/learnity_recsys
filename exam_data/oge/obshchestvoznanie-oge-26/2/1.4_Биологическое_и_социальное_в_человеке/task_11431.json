@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1753,
+    "title": "1.4 Биологическое и социальное в человеке"
+  },
+  "id": 11431,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Юля от природы обладает музыкальным слухом, но она не стала заниматься музыкой, чтобы развить это качество. В данном случае речь идёт о\n1) таланте\n2) задатках\n3) мастерстве\n4) гениальности",
+      "error_conditions": [],
+      "id": 148979,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=19882"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=19882"
+}

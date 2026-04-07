@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{3^\\frac{1}{28}\\cdot 3^1\\cdot 3^\\frac{1}{21}}{3^\\frac{1}{12}}=\\frac{3^{\\frac{1}{28}+1+\\frac{1}{21}}}{3^\\frac{1}{12}}=\\frac{3^\\frac{13}{12}}{3^\\frac{1}{12}}=3^\\frac{12}{12}=3$$\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2410,
+    "title": "7.6 Свойства арифметического корня"
+  },
+  "id": 7260,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{\\sqrt[28]{3}\\cdot 3\\cdot \\sqrt[21]{3}}{\\sqrt[12]{3}}\\).",
+      "error_conditions": [],
+      "id": 83776,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=1758"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=1758"
+}

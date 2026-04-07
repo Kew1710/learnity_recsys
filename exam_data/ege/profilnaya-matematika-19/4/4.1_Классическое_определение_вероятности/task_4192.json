@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{количество~удовлетворяющих~билетов}{количество~всех~билетов}=\\frac{16}{20}=\\frac{4}{5}=\\frac{8}{10}=0,8$$\nОтвет: 0,8",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 4192,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В сборнике билетов по математике всего \\(20\\) билетов, в \\(16\\) из них встречается вопрос по логарифмам. Найдите вероятность того, что в случайно выбранном на экзамене билете школьнику достанется вопрос по логарифмам.",
+      "error_conditions": [],
+      "id": 66613,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": null
+}

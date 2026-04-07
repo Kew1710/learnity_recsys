@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(\\Delta MNH\\sim\\Delta ABC\\)\n\\(CMHN\\) – вписанный четырехугольник (\\(\\angle C+\\angle H=90^\\circ+90^\\circ=180^\\circ\\)), опишем около него окружность.\n\n\\(\\angle CAB=\\angle HCB\\) (\\(CH\\) – высота, проведенная из прямого угла).\n\nПроведем \\(MH\\).\n\\(\\angle HCN=\\angle HMN\\) - вписанные, опираются на дугу \\(HN\\). Равные углы опираются на равные дуги\n\\(\\Delta MNH\\sim\\Delta ABC\\) по двум углам (\\(\\alpha\\) и \\(90^\\circ\\)), где \\(\\alpha-\\angle CAB=\\angle HCB=\\angle HMN\\). Ч.т.д.\n\nб) \\(CN\\) - ? \\(BC=3\\), \\(AC=5\\), \\(CM=2\\)\n\n\\(\\Delta HNB\\) и \\(\\Delta HMC\\):\n1) \\(\\angle CMH={180}^{\\circ}-\\angle CNH\\) (т.к. четырехугольник \\(CMHN\\) – вписанный)\n2) \\(\\angle HNB={180}^{\\circ}-\\angle CNH\\) (смежные)\n1), 2) \\(\\Rightarrow \\angle CMH=\\angle HNB\\)\n\\(\\angle HBN=\\angle MCH\\) (\\(CH\\) – высота, проведенная из прямого угла) \\(\\Rightarrow\\Delta HNB\\sim\\Delta HMC\\) по двум углам (\\(\\angle HBN=\\angle MCH\\); \\(\\angle HNB=\\angle HMC\\))\nОтношения сторон в \\(\\Delta HNB\\sim\\Delta HMC\\):\n$$\\frac{NB}{MC}=\\frac{NH}{MH}\\\\ \\frac{NH}{MH}=tg\\alpha ~(из ~\\Delta MNH)\\\\ \\frac{CB}{AC}=\\frac{3}{5}=tg\\alpha ~(из~\\Delta ABC)$$\nТогда:\n$$\\frac{NB}{MC}=tg\\alpha=\\frac{3}{5}\\\\ \\frac{NB}{2}=\\frac{3}{5}\\\\ NB=\\frac{6}{5}$$\nОтсюда найдем \\(CN\\):\n$$CN=CB-NB\\\\ CN=3-\\frac{6}{5}\\\\ CN=\\frac{9}{5}$$\nОтвет: \\(CN=\\frac{9}{5}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2482,
+    "title": "17.2 Высоты треугольника, ортоцентр"
+  },
+  "id": 9728,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Отрезок \\(CH\\) – высота прямоугольного треугольника \\(ABC\\) с прямым углом \\(C\\). На катетах \\(AC\\) и \\(BC\\) выбраны точки \\(M\\) и \\(N\\) соответственно такие, что \\(\\angle MHN=90^\\circ\\).\nа) Докажите, что треугольник \\(MNH\\) подобен треугольнику \\(ABC\\).\nб) Найдите \\(CN\\), если \\(BC=3\\), \\(AC=5\\), \\(CM=2\\).",
+      "error_conditions": null,
+      "id": 117465,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/B5hiaZ4zu_o?start=3078"
+}

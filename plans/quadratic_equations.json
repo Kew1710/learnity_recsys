@@ -1,0 +1,12 @@
+{
+  "title": "Квадратные уравнения",
+  "steps": [
+    {"kc_id": "kc_polynomial",            "priority": 1.0, "reason": "prerequisite"},
+    {"kc_id": "kc_factoring_common",      "priority": 0.9, "reason": "prerequisite"},
+    {"kc_id": "kc_factoring_formulas",    "priority": 0.8, "reason": "prerequisite"},
+    {"kc_id": "kc_quadratic_function",    "priority": 0.7, "reason": "prerequisite"},
+    {"kc_id": "kc_quadratic_eq",          "priority": 0.6, "reason": "goal"},
+    {"kc_id": "kc_quadratic_discriminant","priority": 0.5, "reason": "goal"},
+    {"kc_id": "kc_quadratic_factoring",   "priority": 0.4, "reason": "goal"}
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$70\\cdot 2=140\\\\ 250-140=110\\\\ \\frac{110}{250}=0,44$$\nОтвет: 0,44",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 8098,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,44",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В июне \\(2023\\) года \\(250\\) участников разместили в трёх военкоматах. В первых двух удалось разместить по \\(70\\) человек, оставшихся перевели в запасной военкомат к черту на куличики. Найдите вероятность того, что случайно выбранный бедолага попал в запасной военкомат.",
+      "error_conditions": [],
+      "id": 101079,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": null
+}

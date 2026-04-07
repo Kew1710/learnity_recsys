@@ -1,0 +1,42 @@
+{
+  "comment": "Диметиламин - вторичный амин, проявляет основные свойства: реагирует с водой, кислотами, галогеналканами\n\nВерные варианты ответа: HCl, CH₃Cl",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2825,
+    "title": "Характерные химические свойства аминов"
+  },
+  "id": 1582,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, с каждым из которых взаимодействует диметиламин.\n1) C₂H₄\n2) HCl\n3) CH₃Cl\n4) NH₄Cl\n5) Cu(OH)₂",
+      "error_conditions": [],
+      "id": 53908,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/sAsox5Q0qjE?start=3585"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/sAsox5Q0qjE?start=3585"
+}

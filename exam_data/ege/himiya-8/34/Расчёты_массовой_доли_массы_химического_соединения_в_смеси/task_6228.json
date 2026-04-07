@@ -1,0 +1,37 @@
+{
+  "comment": "[1] CS₂ + 3O₂ = CO₂ + 2SO₂\n[2] SO₂ + 2NaOH = Na₂SO₃ + H₂O\n[3] CO₂ + 2NaOH = Na₂CO₃ + H₂O\nn(CS₂) = m/M = 11,4/76 = 0,15 моль\nn(CO₂) = n(CS₂) = 0,15 моль - по уравнению реакции [1]\nn(SO₂) = 2n(CS₂) = 0,3 моль - по уравнению реакции [1]\nn(Na₂SO₃) = n(SO₂) = 0,3 моль - по уравнению реакции [2]\nn(Na₂CO₃) = n(CO₂) = 0,15 моль - по уравнению реакции [3]\nm(Na₂SO₃) = n · M = 0,3 · 126 = 37,8 г\nm(Na₂CO₃) = n · M = 0,15 · 106 = 15,9 г\nn(прор. NaOH) = 2n(SO₂) + 2n(CO₂) = 2 · 0,3 + 2 · 0,15 = 0,9 моль\nn(прор. NaOH)/n(NaOH) = 0,75\nn(NaOH) = n(прор. NaOH)/0,75 = 1,2 моль\nm(NaOH) = n · M = 1,2 · 40 = 48 г\nm(р-ра NaOH) = m(NaOH)/ω = 48/0,16 = 300 г\nm(CO₂) = n · M = 0,15 · 44 = 6,6 г\nm(SO₂) = n · M = 0,3 · 64 = 19,2 г\nm(p-pa) = m(р-ра NaOH) + m(CO₂) + m(SO₂) = 300 + 6,6 + 19,2 = 325,8 г\nω(Na₂CO₃) = m(Na₂CO₃)/m(p-pa) = 15,9/325,8 = 0,0488 (4,88%)\nω(Na₂SO₃) = m(Na₂SO₃)/m(p-pa) = 37,8/325,8 = 0,116 (11,6%)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2859,
+    "title": "Расчёты массовой доли (массы) химического соединения в смеси"
+  },
+  "id": 6228,
+  "is_obsolete": false,
+  "number": 34,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Газы, полученные при полном сжигании 11,4 сероуглерода, поглотили 16%-м раствором гидроксида натрия, при этом прореагировало 75% щёлочи. Рассчитайте массу исходного раствора щёлочи и найдите массовые доли солей в конечном растворе. В ответе запишите уравнения реакций, которые указаны в условии задачи, и приведите все необходимые вычисления.",
+      "error_conditions": null,
+      "id": 72843,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 900,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/_dOjw-qTCBw?start=8573"
+}

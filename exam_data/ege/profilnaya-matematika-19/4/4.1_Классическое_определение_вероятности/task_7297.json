@@ -1,0 +1,45 @@
+{
+  "comment": "Дмитрий Тоснин должен сыграть с любым из \\(9\\) игроков из России. Всего участков, с которыми он может сыграть \\(45\\).\n$$\\frac{9}{45}=\\frac{1}{5}=0,2$$\nОтвет: 0,2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 7297,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Перед началом первого тура чемпионата по шахматам участников разбивают на игровые пары случайным образом с помощью жребия. Всего в чемпионате участвует \\(46\\) шахматистов, среди которых \\(10\\) спортсменов из России, в том числе Дмитрий Тоснин. Найдите вероятность того, что в первом туре Дмитрий Тоснин будет играть с каким-либо шахматистом из России.",
+      "error_conditions": [],
+      "id": 83813,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/DwSX_wHVsps?start=1498"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/DwSX_wHVsps?start=1498"
+}

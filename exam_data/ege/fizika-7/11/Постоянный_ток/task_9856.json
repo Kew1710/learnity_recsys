@@ -1,0 +1,42 @@
+{
+  "comment": "Так как схемы идентичны, то общие сопротивления на каждой из них будут одинаковые.\nНайдем сопротивление параллельных резисторов:\n$$\\frac{1}{R_п}=\\frac{1}{R}+\\frac{1}{R}\\Rightarrow R_п=\\frac{R}{2}$$\nСледовательно, общее сопротивление цепи равно:\n$$R_{общ}=\\frac{R}{2}+\\frac{R}{2}=R=2~Ом$$\nОтвет: 2 Ом",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 9856,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "235411\nНа рисунке изображен участок цепи, сопротивление каждого из резисторов \\(R=2\\) Ом. Найдите полное сопротивление участка при замкнутом ключе \\(К\\). Ответ дайте в Ом.",
+      "error_conditions": [],
+      "id": 119889,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/5-_VB_xy820"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/5-_VB_xy820"
+}

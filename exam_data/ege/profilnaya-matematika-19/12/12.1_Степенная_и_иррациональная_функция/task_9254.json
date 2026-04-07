@@ -1,0 +1,45 @@
+{
+  "comment": "$$y=6+12x-4x\\sqrt{x}=6+12x-4x^{\\frac{3}{2}}\\\\ y'=12-4\\cdot \\frac{3}{2}\\cdot x^{\\frac{1}{2}}=12-6\\cdot \\sqrt{x}\\\\ 12 - 6\\sqrt{x} = 0 \\\\ x = {\\left(\\frac{{12}}{{6}}\\right)}^{2} \\\\ x=4$$\n$$x=4 - максимум$$\nНайдем наименьшее значение функции:\n$$y(4)=y=6+12\\cdot 4-4\\cdot 4\\sqrt{4}=22$$\nОтвет: 22",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 9254,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "22",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y=6+12x-4x\\sqrt{x}\\) на отрезке \\([2;11]\\).",
+      "error_conditions": [],
+      "id": 113040,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_QfEbxEjc74?start=3167"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/_QfEbxEjc74?start=3167"
+}

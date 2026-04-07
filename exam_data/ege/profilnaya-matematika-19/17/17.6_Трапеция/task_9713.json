@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nРассмотрим \\(\\Delta AMD\\) и \\(\\Delta CED\\):\n\\(S_{AMD}=\\frac{1}{2}\\cdot h_2\\cdot AD\\), где \\(h_2\\) – высота, проведенная к \\(AD\\).\n\\(S_{CED}=\\frac{1}{2}h_1\\cdot ED\\), где \\(h_1\\) – высота, проведенная к \\(ED\\).\n\\(h_2=\\frac{h_1}{2}\\) (т.к. \\(M\\) – середина \\(AB\\)) и \\(ED=\\frac{AD}{2}\\) (\\(E\\) – середина \\(AD\\)).\n\nТогда:\n$$S_{AMD}=\\frac{1}{2}\\frac{h_1}{2}\\cdot AD\\\\ S_{CED}=\\frac{1}{2}h_1\\cdot\\frac{AD}{2}$$\nЗначит \\(S_{AMD}=S_{CED}\\)\n$$S_{AMD}=S_{AMOE}+S_{OED}\\\\ S_{CED}=S_{OCD}+S_{OED}$$\nТ. к. \\(S_{AMD}=S_{CED}\\), то \\(S_{AMOE}+S_{OED}=S_{OCD}+S_{OED}\\), значит \\(S_{AMOE}=S_{OCD}\\), ч.т.д.\n\nб)\nДополнительное построение: продлим \\(DM\\) до пересечения с прямой \\(BC\\), точка пересечения – \\(Z\\).\n\n\\(\\Delta ZBM=\\Delta AMD\\) по стороне и двум углам (\\(\\angle DAM=\\angle ZBM\\), накрест лежащие, \\(\\angle AMD=\\angle ZMB\\) – вертикальные, \\(AM=MB\\). \\(M\\) – середина). Значит, \\(S_{AMD}=S_{ZBM}\\), и \\(ZB=AD=4\\).\n$$S_{ABCD}=S_{MBCD}+S_{AMD}=S_{MBCD}+S_{ZBM}=S_{ZCD}$$\n\\(S_{ZCD}=\\frac{1}{2}h_1\\cdot ZC\\), где \\(h_1\\) – высота, проведенная к \\(ZC\\).\n$$ZC=ZB+BC=AD+BC=4+3=7\\\\ S_{ZCD}=\\frac{1}{2}h_1\\cdot 7=3,5h_1$$\nРассмотрим \\(\\Delta AMD\\):\n\\(S_{AMD}=\\frac{1}{2}\\cdot h_2\\cdot AD\\), где \\(h_2\\) – высота, проведенная к \\(AD\\).\n\\(h_2=\\frac{h_1}{2}\\) (т.к. \\(M\\) – середина \\(AB\\)).\n\nЗначит:\n$$S_{AMD}=\\frac{1}{2}\\cdot\\frac{h_1}{2}\\cdot AD=\\frac{h_1\\cdot 4}{4}=h_1$$\n\\(\\Delta OED\\) подобен \\(\\Delta ZOC\\) по двум углам (\\(\\angle OED=\\angle OCZ\\) – накрест лежащие, \\(\\angle EOD=\\angle ZOZ\\) – вертикальные).\n\nПроведем высоты \\(OH_2\\) к \\(ZC\\) и \\(OH_1\\) к \\(ED\\), \\(ED=\\frac{AD}{2}=2\\).\n\nТ.к. треугольники подобны, то и все ее линейные части подобны:\n$$\\frac{ED}{ZC}=\\frac{OH_1}{OH_2}=\\frac{2}{7}\\Rightarrow OH_2=\\frac{7}{2}OH_1\\\\ h_1=OH_1+OH_2=OH_1+\\frac{7}{2}OH_1=\\frac{9}{2}OH_1\\\\ OH_1=\\frac{2}{9}h_1$$\nТогда:\n$$S_{EOD}=\\frac{1}{2}\\cdot\\frac{2h_1}{9}\\cdot ED=\\frac{2h_1}{9}\\\\ S_{AMOE}=S_{AMD}-S_{EOD}=h_1-\\frac{2}{9}h_1=\\frac{7}{9}h_1$$\nИтак:\n$$\\frac{S_{AMOE}}{S_{ABCD}}=\\frac{S_{AMOE}}{S_{ZCD}}=\\frac{\\frac{7}{9}h_1}{3,5h_1}=\\frac{2}{9}$$\nОтвет: \\(\\frac{2}{9}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2486,
+    "title": "17.6 Трапеция"
+  },
+  "id": 9713,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В трапеции \\(ABCD\\) точка \\(E\\)  - середина основания \\(AD\\), точка \\(M\\)  - середина боковой стороны \\(AB\\). Отрезки \\(CE\\) и \\(DM\\) пересекаются в точке \\(O\\).\nа)  Докажите, что площади четырёхугольника \\(AMOE\\) и треугольника \\(COD\\) равны.\nб)  Найдите, какую часть от площади трапеции составляет площадь четырёхугольника \\(AMOE\\), если \\(BC=3\\), \\(AD=4\\).",
+      "error_conditions": null,
+      "id": 117430,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "1) Fe + 2HCl = FeCl₂ + H₂\n2) FeCl₂ + 2NH₃ + 2H₂O = Fe(OH)₂ + 2NH₄Cl\n3) 2Fe(OH)₂ + H₂O₂ = 2Fe(OH)₃\n4) Fe(OH)₃ + NaOH = NaFeO₂ + 2H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8917,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Железо растворили в соляной кислоте. Через образовавшийся раствор пропустили аммиак. Образовавшийся при этом осадок отделили и обработали пероксидом водорода без нагревания, при этом наблюдали изменение цвета осадка. Полученное бурое вещество сплавили с твёрдым гидроксидом натрия. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112327,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

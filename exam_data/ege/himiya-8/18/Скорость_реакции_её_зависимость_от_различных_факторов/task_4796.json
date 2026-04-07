@@ -1,0 +1,42 @@
+{
+  "comment": "Увеличение рН среды говорит об уменьшении концентрации ионов водорода в растворе, другими словами среда становится более щелочной\n\nПри увеличении рН среды уменьшится скорость тех реакций, в которых реагентами являются кислоты, их концентрация уменьшится ввиду взаимодействия с веществом, увеличивающим pH\nЭто реакции - 2, 3 и 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 4796,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "235",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все реакции, скорость которых уменьшается при увеличении рН среды.\n1) Zn + KOH + H₂O = K₂[Zn(OH)₄] + H₂\n2) Zn + HCl = ZnCl₂ + H₂\n3) NaH + HCl = NaCl + H₂\n4) NaH + H₂O = NaOH + H₂\n5) CaCO₃ + HNO₃ = Ca(NO₃)₂ + CO₂ + H₂O",
+      "error_conditions": [],
+      "id": 70028,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=4116"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=4116"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Частоту определим по формуле Томсона:\n$$T=2\\pi\\sqrt{LC}$$\nПри увеличении периода в \\(2\\) раза индуктивность катушки увеличивается в \\(4\\) раза:\n$$\\uparrow T=2\\pi\\sqrt{\\uparrow LC} $$\nТаким образом конечная индуктивность:\n$$L_2=4L_1=4\\cdot 4=16~мГн$$\nОтвет: 16 мГн",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2636,
+    "title": "Электромагнитные колебания"
+  },
+  "id": 18948,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23И79\nКолебательный контур, состоящий из двух катушек, конденсатора и ключа, показан на рисунке. Известно, что индуктивность первой катушки \\(L_1=4\\) мГн. Ключ переводят из положения \\(1\\) в положение \\(2\\), при этом период собственных электромагнитных колебаний в контуре увеличивается в \\(2\\) раза. Чему равна индуктивность второй катушки \\(L_2\\)? Ответ дайте в мГн.",
+      "error_conditions": [],
+      "id": 238786,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/iTPHAcSRC3A?feature=share&t=5131"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/iTPHAcSRC3A?feature=share&t=5131"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "1. Нет, нельзя.\n2. Стержень мог намагнититься в магнитном поле стрелки компаса, являющейся постоянным магнитом, и начал с ней взаимодействовать.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3269,
+    "title": "3.13 Магнитное поле постоянного магнита. Взаимодействие постоянных магнитов"
+  },
+  "id": 33732,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Когда железный стержень приблизили к компасу, стрелка компаса отклонилась. Означает ли это, что стержень предварительно был намагничен? Ответ поясните.",
+      "error_conditions": null,
+      "id": 253371,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

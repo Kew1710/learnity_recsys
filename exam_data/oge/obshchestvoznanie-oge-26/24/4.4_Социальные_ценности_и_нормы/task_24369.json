@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ:\n⦁ При отсутствии социального контроля возникает риск девиантного поведения со стороны отдельных членов общества, что подрывает стабильность и нормальное развитие общественных отношений\n⦁ Социальный контроль позволяет участникам общественных отношений лучше ориентироваться в них и понимать, что от них ожидают в определенных ситуациях во взаимоотношениях с другими людьми",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1783,
+    "title": "4.4 Социальные ценности и нормы"
+  },
+  "id": 24369,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание из ОГЭ №24\nПриведите два собственных аргумента в поддержку того, что любому обществу необходим социальный контроль.",
+      "error_conditions": null,
+      "id": 244082,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 7200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/VRoXMZG28-8?si=D8OKNKIMLZNK2VNk&t=3060"
+}

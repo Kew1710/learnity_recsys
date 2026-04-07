@@ -1,0 +1,42 @@
+{
+  "comment": "KHCO₃ + KOH = K₂CO₃ + H₂O\nn(K₂CO₃) = m/M = 372,6/138 = 2,7 моль\nn(KHCO₃) = n(K₂CO₃) = 2,7 моль\nm(KHCO₃) = 2,7 • 100 = 270 г\nω(KHCO₃) = 100% - ω(примесей) = 100% - 5% = 95%\nm(смеси) = m(KHCO₃)/ω(KHCO₃) = 270/0,95 = 284 г",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2859,
+    "title": "Расчёты массовой доли (массы) химического соединения в смеси"
+  },
+  "id": 4559,
+  "is_obsolete": false,
+  "number": 28,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "284",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "При взаимодействии загрязнённого образца гидрокарбоната калия с гидроксидом калия образовалось 372,6 г средней соли. Определите массу указанного образца, если известно, что массовая доля посторонних примесей составляет 5%. (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 67349,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=2802"
+    },
+    "Valid": true
+  },
+  "time_seconds": 360,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=2802"
+}

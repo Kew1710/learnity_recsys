@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1775,
+    "title": "3.11 Налоги, уплачиваемые гражданами"
+  },
+  "id": 14003,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1423",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В приведенном списке указаны черты сходства прямых и косвенных налогов и отличия прямых налогов от косвенных\n\nВыберите и запишите в первую колонку таблицы порядковые номера черт сходства, а во вторую колонку – порядковые номера черт различия.\n\n1) взимаются с граждан и фирм\n2) включены в стоимость товаров и услуг\n3) взимаются с дохода, прибыли, недвижимости\n4) обязательны для уплаты",
+      "error_conditions": [],
+      "id": 183760,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 43,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=8280"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=8280"
+}

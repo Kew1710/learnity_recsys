@@ -1,0 +1,45 @@
+{
+  "comment": "Так как в точке минимума функции производная этой функции равна нулю, найдём сначала производную. Воспользуемся для этого формулой для нахождения производной произведения функций и формулой производной сложной функции:\n$$y'=(2x-17)\\cdot e^{7-x}+(x^2-17x+17)\\cdot (-1)\\cdot e^{7-x}=\\\\ =e^{7-x}\\cdot (2x-17-x^2+17x-17)=e^{7-x}\\cdot (-x^2+19x-34)$$\nТогда:\n$$e^{7-x}\\cdot (-x^2+19x-34)=0$$\nТак как \\(e^{7-x}>0~\\forall ~x\\in R\\), то\n$$e^{7-x}\\cdot (-x^2+19x-34)=0\\Leftrightarrow -x^2+19x-34=0\\\\ x^2-19x+34=0\\\\ (x-2)(x-17)=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} x=2\\\\ x=17 \\end{array} \\right.$$\nОтметим на числовой прямой знаки производной и поведение (убывание/возрастание) функции:\nВ точке минимума производная должна менять знак, а функция из убывающей стать возрастающей, значит, \\(y_{\\max}\\) при \\(x=2\\).\n\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2448,
+    "title": "12.5 Функций с экспонентой"
+  },
+  "id": 34308,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y=(x^2-17x+17)\\cdot e^{7-x}\\).",
+      "error_conditions": [],
+      "id": 253947,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=IunlrnyrRY8&t=1955s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/watch?v=IunlrnyrRY8&t=1955s"
+}

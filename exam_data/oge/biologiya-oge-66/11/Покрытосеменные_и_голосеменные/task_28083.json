@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2921,
+    "title": "Покрытосеменные и голосеменные"
+  },
+  "id": 28083,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "21221",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между характеристиками и отделами растений: к каждому элементу первого столбца подберите соответствующий элемент из второго столбца.\nХАРАКТЕРИСТИКИ\nА) семена защищены плодными оболочками\nБ) опыление только ветром\nВ) встречаются все жизненные формы\nГ) двойное оплодотворение\nД) образуются шишки\nОТДЕЛЫ РАСТЕНИЙ\n1) Голосеменные\n2) Покрытосеменные\n\nЗапишите в таблицу выбранные цифры под соответствующими буквами.",
+      "error_conditions": [],
+      "id": 247722,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

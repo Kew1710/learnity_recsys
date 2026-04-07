@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\log_{\\frac{\\sqrt{2}+\\sqrt{13}}{5}}4\\geq\\log_{\\frac{\\sqrt{2}+\\sqrt{13}}{5}}(5-2^x)$$\nОграничение: \\(5-2^x>0\\Rightarrow 2^{\\log_25}>2^x\\Rightarrow \\log_25>x\\)\nСравним основание с \\(1\\):\n$$\\frac{\\sqrt{2}+\\sqrt{13}}{5} \\ \\circ \\ 1\\Rightarrow \\sqrt{2}+\\sqrt{13} \\ \\circ \\ 5\\Rightarrow\\\\ \\Rightarrow 2+2\\sqrt{26}+13 \\ \\circ \\ 25\\Rightarrow 2\\sqrt{26} \\ \\circ \\ 10\\Rightarrow \\sqrt{26} > 5 = \\sqrt{25},$$\nзначит \\(\\frac{\\sqrt{2}+\\sqrt{13}}{5}>1\\).\n\nТак как основание логарифма больше \\(1\\), то знак неравенства не меняется:\n$$4\\geq 5-2^x\\\\ 2^x\\geq 1\\\\ x\\geq 0$$\nУчитывая ограничение: \\(0\\leq x<\\log_25\\).\n\nОтвет: \\([0;\\log_25)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2469,
+    "title": "15.3 Разность и сумма логарифмов"
+  },
+  "id": 32076,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\log_{\\frac{\\sqrt{2}+\\sqrt{13}}{5}}4\\geq\\log_{\\frac{\\sqrt{2}+\\sqrt{13}}{5}}(5-2^x)\\).",
+      "error_conditions": null,
+      "id": 251715,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/6N3xrdlnT0o?si=4invn8opriJcXXFb&t=5580"
+}

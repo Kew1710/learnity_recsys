@@ -1,0 +1,40 @@
+{
+  "comment": "Пусть \\(𝑡=4^{\\frac{1}{x} -1}\\), тогда \\(𝑡^{2} -𝑡−2\\geq 0\\), откуда \\(𝑡\\leq −1\\) или \\(𝑡\\geq 2\\). Сделаем обратную замену:\n$$4^{\\frac{1}{x}-1}\\leq -1~или~4^{\\frac{1}{x}-1}\\geq 2$$ \\(4^{\\frac{1}{x}-1} > 0\\) для любых \\(x \\Rightarrow\\) у первого неравенства нет решений $$ 4^{\\frac{1}{x}-1}\\geq 2 \\Rightarrow 2^{\\frac{2}{x}-2}\\geq 2\\\\ \\frac{2}{x}-2\\geq 1\\\\ \\frac{2-3x}{x}\\geq 0$$\n\\(0<x\\leq \\dfrac{2}{3}\\)\n\nОтвет: \\(\\left(0; \\dfrac{2}{3}\\right]\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1364,
+    "title": "15.1 Показательные неравенства"
+  },
+  "id": 6451,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(16^{\\frac{1}{x}-1}-4^{\\frac{1}{x}-1}-2\\geq 0\\).",
+      "error_conditions": null,
+      "id": 73537,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/embed/tPhqZ146bbE?start=1000"
+}

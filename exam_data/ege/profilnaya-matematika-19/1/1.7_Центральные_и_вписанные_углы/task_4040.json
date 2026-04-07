@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\cup AB=360^{\\circ}\\cdot \\frac{13}{36}=130^{\\circ}\\ (по\\ условию)\\\\ \\angle C=\\frac{1}{2}\\cup AB=\\frac{130^{\\circ}}{2}=65^{\\circ}~(как\\ вписанный)$$\nОтвет: 65",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2378,
+    "title": "1.7 Центральные и вписанные углы"
+  },
+  "id": 4040,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "65",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите вписанный угол, опирающийся на дугу, равную \\(\\frac{13}{36}\\) окружности. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 66461,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=2126"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=2126"
+}

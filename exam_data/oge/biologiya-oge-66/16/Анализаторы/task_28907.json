@@ -1,0 +1,42 @@
+{
+  "comment": "2 – роговица\n5 – сетчатка\n6 – зрительный нерв",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2946,
+    "title": "Анализаторы"
+  },
+  "id": 28907,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "134",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верно обозначенные подписи к рисунку, на котором изображен глаз человека. Запишите в таблицу цифры, под которыми они указаны.\n\n1) радужная оболочка\n2) сосудистая оболочка\n3) хрусталик\n4) стекловидное тело\n5) слепое пятно\n6) белочная оболочка",
+      "error_conditions": [],
+      "id": 248546,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

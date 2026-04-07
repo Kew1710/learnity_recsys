@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nЗаметим, что \\(a < 0 < b \\) и \\( |b| < |a|\\)\n\\( 1) b - a > 0 \\). Верно\n\\(2) ab^2 > 0\\). Неверно\n\\(3) a + b <0\\). Верно\n\\(4) ab <0\\). Верно\nОтвет: 2",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22909,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечены числа. Какое из приведённых утверждений для этих чисел неверно?",
+      "error_conditions": [],
+      "id": 242636,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

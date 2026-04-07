@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПусть \\(d_1, d_2\\) - диагонали ромба\nНайдем площадь ромба по формуле \\(S = \\cfrac{1}{2} d_1 d_2\\)\n\\(S = \\cfrac{19 \\cdot 6}{2} = 57\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1988,
+    "title": "17.5 Площадь четырехугольников"
+  },
+  "id": 21559,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "57",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите площадь ромба, если его диагонали равны 19 и 6.",
+      "error_conditions": [],
+      "id": 241326,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

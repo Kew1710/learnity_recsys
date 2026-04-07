@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=2e^{2x} -2e^{x} =2e^{x}\\left( e^{x} -1\\right) =0$$\nТак как \\(e^{x} >0\\), то \\(2e^{x} \\neq 0\\) и \\(e^{x} -1=0\\). Тогда \\(x=0\\).\n\nРассмотрим промежутки:\nНа \\([ -2;0)\\) производная функции отрицательна, значит, функция убывает.\nНа \\(( 0;1]\\) производная функции положительна, значит, функция возрастает.\n\nПолучаем \\(x=0\\) - точка минимума. Найдем \\(f(0)\\):\n$$y=1-2+8=7$$ Ответ: 7.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2448,
+    "title": "12.5 Функций с экспонентой"
+  },
+  "id": 7589,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y=e^{2x}-2e^x+8\\) на отрезке \\([-2;1]\\).",
+      "error_conditions": [],
+      "id": 98732,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=3185"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=3185"
+}

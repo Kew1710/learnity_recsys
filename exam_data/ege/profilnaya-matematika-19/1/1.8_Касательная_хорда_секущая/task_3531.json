@@ -1,0 +1,45 @@
+{
+  "comment": "$$AO\\perp AC~(как~радиус~и~касательная)\\\\ \\angle AOC=180^\\circ-90^\\circ-28^\\circ=62^\\circ\\\\ \\cup AB=\\angle AOB=62^\\circ~(так~как~\\angle AOB-центральный)\\\\ \\angle DOA=180^\\circ-\\angle AOC =180^\\circ-62^\\circ=118^\\circ ~(смежные)\\\\ \\cup AD=\\angle DOA=118^\\circ~(\\angle DOA-центральный)$$\nОтвет: 118",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2379,
+    "title": "1.8 Касательная, хорда, секущая"
+  },
+  "id": 3531,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "118",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Угол \\(ACO\\) равен \\(28^{\\circ }\\). Его сторона \\(CA\\) касается окружности с центром в точке \\(O\\). Сторона \\(CO\\) пересекает окружность в точках \\(B\\) и \\(D\\) (см. рисунок). Найдите градусную меру дуги \\(AD\\) окружности, заключенной внутри этого угла. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 65200,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=5429"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=5429"
+}

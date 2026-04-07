@@ -1,0 +1,42 @@
+{
+  "comment": "Пусть \\(a = 3, \\; b = 4,\\; c = 5\\).\nТогда \\(S = 2(3\\cdot 4 + 3 \\cdot 5 + 4 \\cdot 5) = 2(12+15+20) = 2 \\cdot 47 = 94\\).\nОтвет: 94.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 28254,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "94",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь поверхности прямоугольного параллелепипеда с рёбрами \\(a, \\; b\\) и \\(c\\) вычисляется по формуле \\(S=2(ab+ac+bc)\\). Найдите площадь поверхности прямоугольного параллелепипеда с рёбрами 3, 4 и 5.",
+      "error_conditions": [],
+      "id": 247893,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

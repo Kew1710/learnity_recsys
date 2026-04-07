@@ -1,0 +1,42 @@
+{
+  "comment": "Вегетативное размножение обеспечивают вегетативные органы растений - побег (3), корень (6), вегетативные почки, видоизмененные органы (2)\n1, 4, 5 - это генеративные органы растения",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2922,
+    "title": "Ткани, органы и физиология растения"
+  },
+  "id": 30346,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "236",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Какие органы обеспечивают вегетативное размножение растений? Выберите три верных ответа и запишите в таблицу цифры, под которыми они указаны.\n1) семена\n2) клубни\n3) надземные побеги\n4) цветки\n5) плоды\n6) корни",
+      "error_conditions": [],
+      "id": 249985,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

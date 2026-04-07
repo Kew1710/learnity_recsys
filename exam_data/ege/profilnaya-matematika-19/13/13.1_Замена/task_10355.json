@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$4\\sin^2x-\\frac{\\sin x}{\\cos x}=0\\\\ \\frac{4\\sin^2x\\cos x-\\sin x}{\\cos x}=0\\\\ \\displaystyle \\frac{\\sin x( 4\\sin x\\cos x-1)}{\\cos x} =0\\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\n\\sin x=0\\\\\n4\\sin x\\cos x-1=0\n\\end{array} \\right.\\\\\n\\cos x\\neq 0\n\\end{cases}\\\\ \\displaystyle \\begin{cases}\n\\left[ \\begin{array}{l l}\n\\sin x=0\\\\\n2\\sin 2x-1=0\n\\end{array} \\right.\\\\\n\\cos x\\neq 0\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\n\\sin x=0\\\\\n\\sin 2x=\\frac{1}{2}\n\\end{array} \\right.\\\\\n\\cos x\\neq 0\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\nx=\\pi k\\\\\n2x=\\frac{\\pi }{6} +2\\pi k\\\\\n2x=\\frac{5\\pi }{6} +2\\pi k\n\\end{array} \\right.\\\\\nx\\neq \\frac{\\pi }{2} +\\pi k\n\\end{cases} ,k\\in Z\\\\ \\displaystyle \\left[ \\begin{array}{l l}\nx=\\pi k\\\\\nx=\\frac{\\pi }{12} +\\pi k\\\\\nx=\\frac{5\\pi }{12} +\\pi k\n\\end{array} \\right. ,k\\in Z$$\nб) Отберем корни на промежутке \\([-\\pi;0]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$-\\pi\\\\ 0\\\\ -\\frac{\\pi}{2}-\\frac{\\pi}{12}=-\\frac{7\\pi}{12}\\\\ -\\pi+\\frac{\\pi}{12}=-\\frac{11\\pi}{12}$$\nОтвет: а) {\\(\\pi k;\\frac{\\pi}{12}+\\pi k;\\frac{5\\pi}{12}+\\pi k:k\\in Z\\)}, б) \\(-\\pi;-\\frac{11\\pi}{12};-\\frac{7\\pi}{12};0\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2450,
+    "title": "13.1 Замена"
+  },
+  "id": 10355,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(4\\sin^2x=tgx\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([-\\pi;0]\\).",
+      "error_conditions": null,
+      "id": 137748,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

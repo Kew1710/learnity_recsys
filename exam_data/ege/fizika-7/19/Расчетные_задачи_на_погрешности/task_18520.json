@@ -1,0 +1,42 @@
+{
+  "comment": "$$30m_0=(1500\\pm 30)~г\\\\ m_0=(50\\pm 1)~г$$\nПолучаем, \\(50\\pm 1\\).\n\nОтвет: 501",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2646,
+    "title": "Расчетные задачи на погрешности"
+  },
+  "id": 18520,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "501",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "239820\nНа весы положили пакет, в котором находится \\(30\\) мячей для гольфа. Весы показали \\(1500\\) г. Определите массу одного мяча в граммах, если погрешность весов равна \\(\\pm 30\\) г. Массу самого пакета не учитывать. Ответ дайте в г. Значение и погрешность запишите слитно без пробела.",
+      "error_conditions": [],
+      "id": 238362,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/IQ1RUxtgObo"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/IQ1RUxtgObo"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "m(12% р-ра) = x г\nω(р-ра) = m(в-ва)/m(р-ра)\nm(в-ва) = ω • m(12% р-ра) = 0,12x\nω(8% р-ра) = m(в-ва)/(m(р-ра) + m(воды))\n0,08 = 0,12x/(x + 20)\n0,08x + 1,6 = 0,12x\n0,04x = 1,6\nx = 40\nm(12% р-ра) = 40 г",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 516,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "40",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какую массу 12%-ного раствора хлорида натрия надо взять, чтобы при добавлении 20 г воды получить раствор с массовой долей соли 8%? (Напишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 51846,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/k0_zX1rfM8o?start=2522"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/k0_zX1rfM8o?start=2522"
+}

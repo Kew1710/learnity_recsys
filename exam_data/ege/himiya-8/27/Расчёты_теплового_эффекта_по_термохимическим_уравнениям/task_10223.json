@@ -1,0 +1,42 @@
+{
+  "comment": "Q - ?\nn(C₆H₆) = m/M = 117/78 = 1,5 моль\nПо уравнению: 2 моль – 1168,2 кДж\nПо условию: 1,5 моль – x кДж\nх = (1168,2 • 1,5)/2 = 876,2\nQ = 876,2 кДж",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2856,
+    "title": "Расчёты теплового эффекта (по термохимическим уравнениям)"
+  },
+  "id": 10223,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "876,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Дано термохимическое уравнение\n2C₆H₆(ж) + 15O₂(г) = 12CO₂(г) + 6H₂O(ж) + 1168,2 кДж\nКакое количество теплоты (кДж) выделится при реакции кислорода с 117 г бензола? (Запишите число с точностью до десятых.)",
+      "error_conditions": [],
+      "id": 122574,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

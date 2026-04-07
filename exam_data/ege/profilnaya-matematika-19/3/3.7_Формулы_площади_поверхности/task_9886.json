@@ -1,0 +1,45 @@
+{
+  "comment": "$$S_{полн.поверх.}=\\pi r^2+\\pi rl$$\nРассмотрим \\(\\Delta ABO\\) и \\(\\Delta AB_1O_1\\). Так как по условию сечение делит высоту в отношении 3:2, то \\(h~\\Delta ABP=3x\\) и \\(h~\\Delta AB_1O_1=5x\\).\n\\(\\Delta ABO\\) и \\(\\Delta AB_1O_1\\) подобны с коэффициентом подобия \\(k=\\frac{3}{5}\\).\n\nПусть \\(BO=r\\) (радиус маленького конуса), а \\(B_1O_1=R\\) (радиус большого конуса). Отсюда из подобия треугольников:\n$$\\frac{R}{r}=\\frac{5}{3}$$\nПусть \\(AB_1=L\\) (образующая большого конуса), а \\(AB=l\\) (образующая маленького конуса). Отсюда из подобия треугольников:\n$$\\frac{L}{l}=\\frac{5}{3}$$\nТогда, \\(S_{пов.больш.}=\\pi R^2+\\pi RL\\), а \\(S_{пов.мал.}=\\pi r^2+\\pi rl\\)\n$$r=\\frac{3}{5}R\\\\ l=\\frac{3}{5}l$$\n$$S_{пов.мал.}=\\pi r^2+\\pi rl=\\pi (\\frac{3}{5}R)^2+\\pi (\\frac{3}{5}R)(\\frac{3}{5})L)=\\\\ =(\\frac{3}{5})^2\\cdot \\pi R^2+\\pi RL=(\\frac{3}{5})^2\\cdot S_{пов.больш.}=(\\frac{3}{5})^2\\cdot 35=12,6$$\nОтвет: 12,6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2390,
+    "title": "3.7 Формулы площади поверхности"
+  },
+  "id": 9886,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь полной поверхности конуса равна 35. Параллельно основанию конуса проведено сечение, делящее высоту в отношении 3:2, считая от вершины конуса.\nНайдите площадь полной поверхности отсеченного конуса.",
+      "error_conditions": [],
+      "id": 120004,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=1499"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=1499"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "А) Взаимодействие смешанновалентного (железо (II) и (III)) оксида с кислотой-неокислителем:\nFe₃O₄ + 8HCl = FeCl₂ + 2FeCl₃ + 4H₂O\nБ) Взаимодействие амфотерного оксида с кислотой-неокислителем:\nFe₂O₃ + 6HCl = 2FeCl₃ + 3H₂O\nВ) Взаимодействие основного оксида с кислотой-неокислителем:\nFeO + 2HCl = FeCl₂ + H₂O\nГ) Взаимодействие металла средней активности (до H₂) с кислотой-неокислителем:\nFe + 2HCl = FeCl₂ + H₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 1985,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1235",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТЫ РЕАКЦИИ\nA) Fe₃O₄ и HCl1) FeCl₂, FeCl₃ и H₂OБ) Fe₂O₃ и HCl2) FeCl₃ и H₂OB) FeO и HCl3) FeCl₂ и H₂OГ) Fe и HCl4) FeCl₃ и H₂ 5) FeCl₂ и H₂ 6) FeCl₂, FeCl₃ и H₂",
+      "error_conditions": [],
+      "id": 56416,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=1416"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=1416"
+}

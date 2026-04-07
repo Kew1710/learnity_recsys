@@ -1,0 +1,42 @@
+{
+  "comment": "При скрещивании Аа х Аа потомки: 1АА, 2Аа, 1аа. Так как наследование по типу полного доминирования, то соотношения фенотипов 3:1 (3А_: 1аа).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 6021,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "31",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите соотношение фенотипов у потомков при моногибридном скрещивании двух гетерозиготных организмов при полном доминировании. Ответ запишите в виде последовательности цифр, показывающих соотношение получившихся фенотипов, в порядке их убывания.",
+      "error_conditions": [],
+      "id": 72492,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/LZ-uWWOY3ao?start=136"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/LZ-uWWOY3ao?start=136"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1754,
+    "title": "1.5 Личность. Особенности подросткового возраста"
+  },
+  "id": 11509,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Леонид – сотрудник правоохранительных органов. Он – честный и порядочный человек, у него много друзей. В свободное от работы время он тренирует дворовую детскую футбольную команду. Обогащая таким образом собственный социальный опыт, Леонида развивается как\n1) товарищ\n2) индивид\n3) личность\n4) работник",
+      "error_conditions": [],
+      "id": 149178,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/R9_0u2kIYas?start=3700"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/R9_0u2kIYas?start=3700"
+}

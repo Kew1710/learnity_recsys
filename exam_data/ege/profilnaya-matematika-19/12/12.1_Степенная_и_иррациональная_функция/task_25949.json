@@ -1,0 +1,45 @@
+{
+  "comment": "Сделаем преобразование уравнения:\n$$y=x^1\\cdot x^{\\frac{1}{2}}-9x+365=x^{\\frac{3}{2}}-9x+365\\\\ f’(x)=\\frac{3}{2}x^{\\frac{1}{2}}-9=\\frac{3}{2}\\sqrt{x}-9$$\nТак как \\(f’(x)=0\\), тогда:\n$$\\frac{3}{2}\\sqrt{x}-9=0\\\\ \\frac{3}{2}\\sqrt{x}=9\\\\ \\sqrt{x}=6\\\\ x=36$$\nТочка \\(x=36\\) будет минимумом функции.\n\nОтвет: 36",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 25949,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y=x\\sqrt{x}-9x+365\\).",
+      "error_conditions": [],
+      "id": 245588,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=mCkdEWvhbf8&t=1310s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/watch?v=mCkdEWvhbf8&t=1310s"
+}

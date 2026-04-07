@@ -1,0 +1,45 @@
+{
+  "comment": "На соревнованиях выступают: \\(8+12+7+5=32\\) ученика. Из Швеции \\(8\\). Тогда вероятность того, что первый выступающий спортсмен окажется из Швеции:\n$$\\frac{8}{32}=\\frac{1}{4}=0,25$$\nОтвет: 0,25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 25940,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В соревновании по толканию ядра учавствуют спортсмены из четырёх стран: \\(8\\) из Швеции, \\(12\\) из Дании, \\(7\\) из Норвегии и \\(5\\) из Финляндии. Порядок, в котором выступают спортсмены, определется жребием. Найдите вероятность того, что спортсмен, выступающий первым, окажется из Швеции.",
+      "error_conditions": [],
+      "id": 245579,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/mCkdEWvhbf8?si=C2KQDETcvNUdlZq8&t=669"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/live/mCkdEWvhbf8?si=C2KQDETcvNUdlZq8&t=669"
+}

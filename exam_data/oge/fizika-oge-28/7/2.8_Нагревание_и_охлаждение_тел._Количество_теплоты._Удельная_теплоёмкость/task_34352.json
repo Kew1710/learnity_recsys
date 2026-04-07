@@ -1,0 +1,42 @@
+{
+  "comment": "Температура плавления льда равна $0$ °С. Значит нагреть лёд нужно на $10$ °С. То есть $\\Delta t=10$°С . Учитывая, что удельная теплоёмкость льда $c=2100 \\frac{Дж}{кг\\text{ }\\cdot °С}$,\nполучаем количество теплоты:$\\text{ }Q=cm\\Delta t=2100\\cdot 0,2\\cdot 10=4200~Дж$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3247,
+    "title": "2.8 Нагревание и охлаждение тел. Количество теплоты. Удельная теплоёмкость"
+  },
+  "id": 34352,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4200",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какое количество теплоты необходимо затратить, чтобы нагреть от $–10$ °С до температуры плавления кусок льда массой $0,2$ кг?\n\nОтвет: _________________Дж",
+      "error_conditions": [],
+      "id": 253991,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Всего вариантов \\(16\\):\nОрел выпадает два раза \\(6-\\)ти случаях:\n$$\\frac{6}{16}=0,375$$\nОтвет: 0,375",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 7305,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,375",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В случайном эксперименте симметричную монету бросают четырежды. Найдите вероятность того, что орел выпадет ровно два раза.",
+      "error_conditions": [],
+      "id": 83821,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/DwSX_wHVsps?start=2153"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/DwSX_wHVsps?start=2153"
+}

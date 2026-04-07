@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1752,
+    "title": "1.3 Основные сферы общественной жизни, их взаимосвязь*"
+  },
+  "id": 11044,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Что из перечисленного ниже относится прежде всего к политической сфере жизни общества?\n1) организация референдума по вопросу принятия новой конституции\n2) деятельность фондовых бирж\n3) составление бизнес-плана фирмы\n4) организация благотворительного концерта",
+      "error_conditions": [],
+      "id": 147917,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=14108"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=14108"
+}

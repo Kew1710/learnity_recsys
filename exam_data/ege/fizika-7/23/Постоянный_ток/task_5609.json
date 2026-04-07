@@ -1,0 +1,37 @@
+{
+  "comment": "Напряжение на резисторе \\(R_2\\):\n$$U=IR_2,$$\nоткуда сила тока в цепи (так как последовательное соединение)\n$$I=\\frac{U}{R_2}=\\frac{2}{2}=1~A$$\nОбщее сопротивление цепи:\n$$R_{общ}=R_1+R_2=2+2=4~Ом$$(так как последовательное соединение)\nПо закону Ома для полной цепи:\n$$I=\\frac{\\varepsilon}{r+R_{общ}},$$\nоткуда\n$$\\varepsilon =I(r+R_{общ})=1(1+4)=5~В$$\nОтвет: 5 В",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 5609,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание 1CF7BD\nВ схеме, изображенной на рисунке, идеальный вольтметр показывает напряжение \\(U=2\\) В. Внутреннее сопротивление источника тока \\(r=1\\) Ом, а сопротивления резисторов: \\(R_1=2\\) Ом и \\(R_2=2\\) Ом. Какова ЭДС источника \\(\\varepsilon\\)?",
+      "error_conditions": null,
+      "id": 71956,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(AN\\) и \\(CM\\) - медианы в треугольнике \\(ABC\\), делятся в отношении 2:1 от вершины\n\\(OM = \\cfrac{CM}{3 } = \\cfrac{27}{3} = 9\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1975,
+    "title": "15.4 Подобные треугольники"
+  },
+  "id": 20176,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Точки M и N являются серединами сторон AB и BC треугольника ABC соответственно. Отрезки AN и CM пересекаются в точке O, AN=9, CM=27. Найдите OM.",
+      "error_conditions": [],
+      "id": 239992,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

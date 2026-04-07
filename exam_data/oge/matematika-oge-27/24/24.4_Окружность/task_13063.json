@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nE,F - центры окружностей\nE и F по одну сторону от KL\nДоказать:\n\\( CD \\perp EF \\)\n1. Проведем CE, ED - радиусы окр.\n\\( \\Rightarrow CE=ED \\)\n2. Проведем CF=FD - радиусы\nт. E равноудалена от концов отрезка CD\nт. F равноудалена от концов отрезка CD\n\\( \\Rightarrow EF\\) - серединный перпендикуляр к CD\n\\( \\Rightarrow EF \\perp CD\\) , ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1946,
+    "title": "24.4 Окружность"
+  },
+  "id": 13063,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружности с центрами в точках E и F пересекаются в точках C и D, причём точки E и F лежат по одну сторону от прямой CD. Докажите, что CD и EF перпендикулярны.",
+      "error_conditions": null,
+      "id": 175638,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

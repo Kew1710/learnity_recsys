@@ -1,0 +1,42 @@
+{
+  "comment": "3 – промежуточный мозг\n4 – мозжечок\n5 – гипофиз",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2945,
+    "title": "Нервная система"
+  },
+  "id": 28916,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "126",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верно обозначенные подписи к рисунку, на котором изображён головной мозг человека. Запишите в таблицу цифры, под которыми они указаны.\n\n1) средний мозг\n2) большое полушарие\n3) мост\n4) гипофиз\n5) мозжечок\n6) продолговатый мозг",
+      "error_conditions": [],
+      "id": 248555,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

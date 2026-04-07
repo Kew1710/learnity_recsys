@@ -1,0 +1,37 @@
+{
+  "comment": "$$\\varepsilon-\\varepsilon_c=U_0\\\\ A_{ст}=\\Delta W_c+\\Delta W_L, \\Delta W_c=\\frac{q_m^2}{2C}-\\frac{CU_0^2}{2}, \\Delta W_L=0~(т.к.~ток~I=0)\\\\ A_{ст}=\\varepsilon(q_m-q_0), q_0=CU_0=3\\cdot 10^{-6}\\cdot 6=18\\cdot 10^{-6}~Кл\\\\ \\varepsilon(q_m-q_0)=\\frac{q_m^2}{2C}-\\frac{CU_0^2}{2}\\\\ q_m^2-2C\\varepsilon q_m+2C\\varepsilon q_0-C^2U_0^2=0\\\\ q_m^2-2\\cdot 3\\cdot 10^{-6}\\cdot 12 q_m+2\\cdot 3\\cdot 10^{-6}\\cdot 12\\cdot 18\\cdot 10^{-6}-(3\\cdot 10^{-6})^26^2=0\\\\ q_m^2-72\\cdot 10^{-6}q_m+972\\cdot 10^{-12}=0\\Rightarrow q_m=54~мкКл$$\nОтвет: 54 мкКл",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 18640,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "231047\nНа рисунке ниже изображена схема, в которой ЭДС батареи \\(\\varepsilon=12\\) В, индуктивность катушки \\(L\\), емкость конденсатора \\(C=3\\) мкФ. При разомкнутом ключе \\(К\\) конденсатор заряжен до напряжения \\(U=0,5\\varepsilon\\). Пренебрегая омическим сопротивлением цепи, определите максимальный заряд на конденсаторе после замыкания ключа.",
+      "error_conditions": null,
+      "id": 238482,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 49,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/mES18nVzzjE"
+}

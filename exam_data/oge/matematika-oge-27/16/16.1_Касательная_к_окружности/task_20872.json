@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nOA и OB - радиусы, проведенные в точку касания,\n\\(\\Rightarrow \\) \\(OA \\perp CA \\) и \\( OB \\perp CB\\)\nИз четырехугольника \\(CAOB\\) найдем величину угла AOB\n\\(\\angle AOB = 360 - 2 \\cdot 90 - 83 = 97^o\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1979,
+    "title": "16.1 Касательная к окружности"
+  },
+  "id": 20872,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "97",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В угол C величиной 83° вписана окружность, которая касается сторон угла в точках A и B, точка O – центр окружности. Найдите угол AOB. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 240653,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

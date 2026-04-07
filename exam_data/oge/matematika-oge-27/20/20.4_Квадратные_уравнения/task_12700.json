@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nТ.к. \\((x^2-4)^2 \\geq 0\\) и \\((x^2-6x-16)^2 \\geq 0, \\Rightarrow (x^2-4)^2+(x^2-6x-16)^2\\geq 0\\) только когда\n\\(\\begin{cases}x^2-4=0 (1) \\\\x^2-6x-16=0 (2)\\end{cases}\\)\n\\((1) x^2-4=0\\)\n\\((x-2)(x+2)=0\\)\n\\((2) x^2-6x-16=0\\)\n\\(D=36+64=100\\)\n\\(x_1=\\cfrac{6-10}{2}\\)\n\\(x_1=-2\\)\n\\(x_2=\\cfrac{6+10}{2}\\)\n\\(x_2=8\\)\n\\(\\begin{cases}(x-2)(x+2)=0 \\\\x=-2; x=8\\end{cases}\\)\n\\(\\begin{cases}x=2; x=-2 \\\\x=-2; x=8\\end{cases}\\)\n\\(\\Rightarrow x=-2\\\\\\)\nОтвет:\\(-2\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2051,
+    "title": "20.4 Квадратные уравнения"
+  },
+  "id": 12700,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\((x^2-4)^2+(x^2-6x-16)^2=0\\) .",
+      "error_conditions": null,
+      "id": 172500,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРазделим 49 на 15\n\\(\\cfrac{49}{15} \\approx 3,27\\)\nРазделим 52 на 15\n\\(\\cfrac{52}{15} \\approx 3,47\\)\nРазделим 58 на 15\n\\(\\cfrac{58}{15} \\approx 3,87\\)\nРазделим 71 на 15\n\\(\\cfrac{71}{15} \\approx 4,73\\)\nТак, отрезку \\([4; 5]\\) принадлежит число \\(\\cfrac{71}{15}\\)\nОтвет: 4",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23965,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какое из данных чисел принадлежит …",
+      "error_conditions": [],
+      "id": 243680,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "1) 2AgNO₃ = 2Ag + 2NO₂ + O₂\n2) Ag + 2HNO₃ = AgNO₃ + NO₂ + H₂O\n3) 2NO₂ + 2KOH = KNO₃ + KNO₂ + H₂O\n4) 3KNO₂ + K₂Cr₂O₇ + 4H₂SO₄ = 3KNO₃ + Cr₂(SO₄)₃ + K₂SO₄ + 4H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8881,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Нитрат серебра прокалили. К образовавшемуся твёрдому остатку добавили концентрированную азотную кислоту и наблюдали интенсивное выделение бурого газа. Газ собрали и полностью поглотили раствором гидроксида калия при охлаждении. К образовавшемуся раствору прилили раствор дихромата калия, подкисленный серной кислотой. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112121,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

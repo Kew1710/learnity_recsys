@@ -1,0 +1,37 @@
+{
+  "comment": "Элементы ответа:\n1) расходящиеся литосферные плиты разрывали ареалы популяций, приводят к географической изоляции;\n2) расходящиеся литосферные плиты приводили к перемещению ареала в другую климатическую зону, возникало давление естественного отбора на новые признаки;\n3) всё это вело к вымиранию одних видов и появлению новых",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2532,
+    "title": "Эволюция"
+  },
+  "id": 5403,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В ходе истории Земли происходило движение литосферных плит. Какое влияние это движение оказывало на эволюцию живых организмов? Ответ поясните.",
+      "error_conditions": null,
+      "id": 71750,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/58e9Y7dZf0c?start=527"
+}

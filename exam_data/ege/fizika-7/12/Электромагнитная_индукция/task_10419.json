@@ -1,0 +1,42 @@
+{
+  "comment": "ЭДС индукции:\n$$\\varepsilon_i=IR=\\frac{\\Delta Ф}{\\Delta t}=\\frac{\\Delta BS}{\\Delta t}\\Rightarrow I=\\frac{\\Delta BS}{R\\Delta t}=\\frac{(1-0,4)\\cdot 12\\cdot 10^{-4}}{0,8\\cdot 1}=6\\cdot 10^{-4}~A=0,6~мА$$\nОтвет: 0,6 мА",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2634,
+    "title": "Электромагнитная индукция"
+  },
+  "id": 10419,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23695\nЗамкнутый проводящий контур, изготовленный в форме прямоугольника размерами \\(3\\times 4\\) см и имеющий сопротивление \\(R=0,8\\) Ом, находится в магнитном поле перпендикулярно линиям магнитной индукции, зависимость модуля которой от времени представлена на рисунке. Определите величину силы индукционного тока, протекающего в контуре в интервале времени от \\(1\\) до \\(2\\) с. Ответ дайте в мА.",
+      "error_conditions": [],
+      "id": 141692,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/NHUa4liqm6I"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/NHUa4liqm6I"
+}

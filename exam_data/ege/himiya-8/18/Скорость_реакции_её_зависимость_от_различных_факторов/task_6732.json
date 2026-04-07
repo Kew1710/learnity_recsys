@@ -1,0 +1,42 @@
+{
+  "comment": "Скорость предложенной реакции уменьшается при уменьшении концентрации реагирующих веществ и увеличении объема сосуда (уменьшение общего давления в газовой реакции)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 6732,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все факторы, при которых уменьшается скорость следующей химической реакции:\nSO₂(г) + 2H₂S(г) = 2H₂O(ж) + 3S(тв.)\n1) нагревание\n2) добавление катализатора\n3) уменьшение концентрации реагирующих веществ\n4) уменьшении концентрации продуктов реакции\n5) увеличение объема сосуда",
+      "error_conditions": [],
+      "id": 75266,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Rxe4DgAn4zg?start=3820"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Rxe4DgAn4zg?start=3820"
+}

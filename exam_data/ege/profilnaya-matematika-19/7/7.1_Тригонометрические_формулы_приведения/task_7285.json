@@ -1,0 +1,45 @@
+{
+  "comment": "$$27tg33^{\\circ}\\cdot tg(90-33)^{\\circ}-48$$\nИспользуем формулу приведения:\n$$27tg33^{\\circ}\\cdot ctg33^{\\circ}-48=27-48=-21$$\nОтвет: -21",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 7285,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-21",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(27tg33^{\\circ}\\cdot tg57^{\\circ}-48\\).",
+      "error_conditions": [],
+      "id": 83801,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=4495"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=4495"
+}

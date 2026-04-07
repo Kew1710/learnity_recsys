@@ -1,0 +1,62 @@
+{
+  "comment": "1) Верно. \\(V=const; \\downarrow PV=\\nu RT\\downarrow\\). При уменьшении температуры давление также уменьшается.\n2) Неверно. Газ совершает работу на всех участках цикла, кроме \\(AD\\) (как положительную, так и отрицательную)\n3) Верно. \\(T=const\\Rightarrow \\Delta U=0;|A_г|>0\\)\n4) Верно. \\(V=const\\Rightarrow A=0;Q_{DA}=\\Delta U;\\Delta U<0\\Rightarrow Q_{DA}<0\\)\n5) Неверно. Процесс \\(CD\\) - изобарный, то есть давление не меняется\nОтвет: 134",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9589,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "134",
+          "points": 2
+        },
+        {
+          "answer": "143",
+          "points": 2
+        },
+        {
+          "answer": "314",
+          "points": 2
+        },
+        {
+          "answer": "341",
+          "points": 2
+        },
+        {
+          "answer": "413",
+          "points": 2
+        },
+        {
+          "answer": "431",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Одноатомный идеальный газ участвует в циклическом процессе, показанном на рисунке. Масса газа постоянна. Из приведенного списка выберите правильные утверждения, характеризующие процессы на графике.\n1) В процессе \\(DA\\) давление газа изохорно уменьшается.\n2) Газ за цикл не совершает работу.\n3) В процессе \\(ВС\\) модуль работы газа больше изменения его внутренней энергии.\n4) В процессе \\(DA\\) газ отдает положительное количество теплоты.\n5) В процессе \\(CD\\) давление газа уменьшается.",
+      "error_conditions": [],
+      "id": 115404,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/iTI-Fk6Og3c"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/iTI-Fk6Og3c"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2914,
+    "title": "Метаболизм"
+  },
+  "id": 28987,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "22211",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между характеристиками и витаминами: к каждому элементу первого столбца подберите соответствующий элемент из второго столбца.\n\nХАРАКТЕРИСТИКИ\nА) является водорастворимым\nБ) влияет на работу нервной системы\nВ) при недостатке развивается болезнь бери-бери\nГ) повышает эластичность кожи\nД) влияет на остроту сумеречного зрения\nВИТАМИНЫ\n1) А\n2) В\n\nЗапишите в таблицу выбранные цифры под соответствующими буквами.",
+      "error_conditions": [],
+      "id": 248626,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

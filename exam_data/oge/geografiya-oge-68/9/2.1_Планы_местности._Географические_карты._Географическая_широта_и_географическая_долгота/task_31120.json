@@ -1,0 +1,58 @@
+{
+  "comment": "Для выполнения задания, нужно приложить линейку к заданным точкам. Получим 4 см. Согласно масштабу, в 1 см 100 м. Нужно умношить расстояние на карте на масштаб, получим 400 м.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2969,
+    "title": "2.1 Планы местности. Географические карты. Географическая широта и географическая долгота."
+  },
+  "id": 31120,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "420",
+          "points": 1
+        },
+        {
+          "answer": "410",
+          "points": 1
+        },
+        {
+          "answer": "400",
+          "points": 1
+        },
+        {
+          "answer": "390",
+          "points": 1
+        },
+        {
+          "answer": "380",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите по карте расстояние на местности по прямой от родника до\nточки В. Измерение проводите между центрами условных знаков. Полученный результат округлите до десятков метров. Ответ запишите в виде числа.",
+      "error_conditions": [],
+      "id": 250759,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

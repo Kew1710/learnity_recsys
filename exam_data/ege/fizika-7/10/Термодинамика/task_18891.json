@@ -1,0 +1,42 @@
+{
+  "comment": "А) $$\\eta=1-\\frac{T_х}{T_н}\\Rightarrow T_н=\\frac{T_х}{1-\\eta}$$\nБ) $$\\eta=\\frac{A}{Q_н}, Q_н-Q_х=A\\Rightarrow \\eta=\\frac{A}{A+Q_х}\\Rightarrow A=\\frac{\\eta Q_х}{1-\\eta}$$\nОтвет: 43",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 18891,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "43",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "23И419\nИдеальный тепловой двигатель, работающий по циклу Карно, за цикл отдает количество теплоты \\(Q_х\\). Температура холодильника двигателя равна \\(T_2\\). Установите соответствие между физическими величинами и формулами, по которым их можно рассчитать. К каждой позиции первого столбца подберите соответствую позицию из второго столбца и запишите в таблицу выбранные цифры под соответствующими буквами.\nПРОЦЕССЫ\nФОРМУЛЫ\nА) температура нагревателя\nБ) работа, совершаемая за цикл\n1) \\(\\frac{Q_х}{1-\\eta}\\)\n2) \\(T_х(1-\\eta)\\)\n3) \\(\\frac{Q_х\\eta}{1-\\eta}\\)\n4) \\(\\frac{T_х}{1-\\eta}\\)\nА\nБ",
+      "error_conditions": [],
+      "id": 238729,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=M4eEhB0kHyY&t=3446s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/watch?v=M4eEhB0kHyY&t=3446s"
+}

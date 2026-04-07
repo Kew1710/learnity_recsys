@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=-4\\sin x+\\frac{21}{\\pi}~(>0, т.к. наименьшее~значение -4\\sin x- это -4\\\\ \\frac{21}{\\pi}\\approx 7,\\Rightarrow функция~всегда~положительна)$$\nт.к. функция возрастает, то свое наименьшее значение принимает в левой крайней границе промежутка:\n$$f(-\\frac{2\\pi}{3})=4\\cdot\\cos(-\\frac{2\\pi}{3})+\\frac{21}{\\pi}(-\\frac{2\\pi}{3})+6=4(-\\frac{1}{2})-14+6=-10$$\nОтвет: -10",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2447,
+    "title": "12.4 Тригонометрическая функция"
+  },
+  "id": 16941,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y=4\\cos x+\\frac{21}{\\pi}x+6\\) на отрезке \\(\\left[-\\frac{2\\pi}{3};0\\right]\\).",
+      "error_conditions": [],
+      "id": 236843,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/CkkG5Lc4uvY?t=3219"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/CkkG5Lc4uvY?t=3219"
+}

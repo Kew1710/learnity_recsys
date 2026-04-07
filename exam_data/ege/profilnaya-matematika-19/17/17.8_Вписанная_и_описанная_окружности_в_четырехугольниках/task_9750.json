@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n1) Пусть \\(MB=х\\), \\(AM=8х\\), \\(CN=y\\), \\(ND=2y\\).\n\n2) \\(O\\) - центр окружности, \\(OL – r\\), \\(OL\\) перпендикулярна \\(BC\\).\n\\(OK – r\\), \\(OK\\) перпендикулярна \\(AD\\). \\(LK\\) - высота (перпендикулярна верхнему и нижнему основании).\n\n3) Отрезки касательных:\n\\(AM=AK\\)\n\\(MB=BL\\)\n\\(KD=DN\\)\n\\(LC=CN\\)\n\n4) \\(BH\\) и \\(CT\\) - высоты, \\(BH=CT=LK\\)\n\\(HK=BL=c\\) (\\(BLKH\\) - прямоугольный)\n$$AH=8x-x=7x\\\\ AB=9x$$\nПо теореме Пифагора найдем:\n$$BH^2=(9x)^2-(7x)^2=32x^2$$\n\\(KT=LC=y\\) (\\(LCTK\\) – прямоугольник)\n$$TD=2y-y=y\\\\ CT^2=(3y)^2-y^2=8y^2$$\nТ. к. \\(BH=CT\\), то:\n$$32x^2=8y^2\\\\ 2x=y\\\\ AD=8x+2y=12x\\\\ BC=x+y=3x\\\\ AD=4BC\\\\ Ч.т.д.$$\nб) 1)\n$$BH=2r\\\\ BH^2=4r^2\\\\ 32x^2=24\\\\ x=\\frac{\\sqrt{3}}{2}\\\\ y=2x=\\sqrt{3}$$\n2) Продлим \\(AB\\) и \\(CD\\) пересекаются в точке \\(G\\)\nТреугольник \\(GBC\\) подобен \\(GAB\\) по двум углам (\\(\\angle{G}\\) - общий, \\(\\angle{GBC} = \\angle{GAD}\\) как соответственные)\n$$\\frac{GB}{AG}=\\frac{BC}{AD}\\\\ \\frac{GB}{AB+BG}=\\frac{1}{4}\\\\ \\frac{GB}{9x+GB}=\\frac{1}{4}\\\\ 4GB=9x+GB\\\\ 3GB=9x\\\\ GB=3x=\\frac{3\\sqrt{3}}{2}\\\\ GM=4x=2\\sqrt{3}\\\\ \\frac{GC}{GD}=\\frac{BC}{AD}=\\frac{1}{4}\\\\ 4GC=GD\\\\ 4GC=GC+CD\\\\ 3GC=CD=y\\\\ GC=y=\\sqrt{3}\\\\ GN=2y=2\\sqrt{3}$$\n\n3) \\(AG=12x\\), \\(GD=4y\\), \\(AD=12x\\), тогда \\(AG=6\\sqrt{3}\\), \\(GD=4\\sqrt{3}\\), \\(AD=6\\sqrt{3}\\).\nПо теореме косинусов в треугольнике \\(AGD\\) найдем косинус угла \\(AGD\\):\n$$\\cos{\\angle{AGD}} = \\frac{{AG}^{2}+{DG}^{2}-{AD}^{2}}{2 \\cdot AG \\cdot GD } = \\frac{108+48-108}{2 \\cdot 6\\sqrt{3} \\cdot 4\\sqrt{3}}= \\frac{48}{144}= \\cos{\\angle{MGN}}$$\n4) по теореме косинусов в треугольнике \\(MGN\\) найдем \\(MN\\):\n$$MN^2= {MG}^{2} + {GN}^{2} - 2MG \\cdot GN \\cdot \\cos{\\angle{MGN}} = 12 + 12 - 2 \\cdot 12 \\cdot \\frac{48}{144} =24-8=16$$\nТогда:\n$$MN=4$$\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2488,
+    "title": "17.8 Вписанная и описанная окружности в четырехугольниках"
+  },
+  "id": 9750,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружность, вписанная в трапецию \\(ABCD\\), касается ее боковых сторон \\(AB\\) и \\(CD\\) в точках \\(M\\) и \\(N\\) соответственно. Известно, что \\(AM=8MB\\) и \\(DN=2CN\\).\nа)  Докажите, что \\(AD=4BC\\).\nб)  Найдите длину отрезка \\(MN\\), если радиус окружности равен \\(\\sqrt{6}\\).",
+      "error_conditions": null,
+      "id": 117487,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/rn34MEcJO9c"
+}

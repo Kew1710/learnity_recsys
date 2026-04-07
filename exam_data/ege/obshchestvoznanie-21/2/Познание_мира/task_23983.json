@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2537,
+    "title": "Познание мира"
+  },
+  "id": 23983,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "126",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Найдите в приведенном ниже списке характеристики чувственного познания. Запишите цифры, под которыми они указаны\n\n1) отображение целостного образа непосредственно воздействующего предмета\n2) отражение отдельных свойств предметов, воспринимаемых в данный момент\n3) установление взаимосвязи различных понятий\n4) обобщение и выделение группы предметов на основе общих признаков\n5) получение новых суждений на основе уже имеющихся\n6) сохранение в памяти целостного образа предмета",
+      "error_conditions": [],
+      "id": 243698,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/DNQAuPJfC3A?si=gp8-Ax2EVcjw_eAZ&t=1456"
+    },
+    "Valid": true
+  },
+  "time_seconds": 7200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/DNQAuPJfC3A?si=gp8-Ax2EVcjw_eAZ&t=1456"
+}

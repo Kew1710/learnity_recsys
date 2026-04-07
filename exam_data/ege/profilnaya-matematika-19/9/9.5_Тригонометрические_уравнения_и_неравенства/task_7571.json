@@ -1,0 +1,45 @@
+{
+  "comment": "Подставим все значения в формулу:\n$$Q=mv^2sin^2\\alpha\\\\ 32=2\\cdot 64\\cdot sin^2a \\\\sin^2a=\\frac{1}{4}\\\\ a=30^\\circ\\\\ 2a=60^\\circ$$\nОтвет: 60",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2425,
+    "title": "9.5 Тригонометрические уравнения и неравенства"
+  },
+  "id": 7571,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "60",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Два тела, массой \\(m=2\\) кг каждое движутся с одинаковой скоростью \\(v=8\\) м/с под углом \\(2\\alpha\\) друг к другу. Энергия (в джоулях), выделяющаяся при их абсолютно неупругом соударении, вычисляется по формуле \\(Q=mv^{2} sin^{2} \\alpha\\), где \\(m\\) - масса в килограммах, \\(v\\) - скорость в м/с. Найдите, под каким углом \\(2\\alpha\\) (в градусах) должны двигаться тела, чтобы в результате соударения выделилась энергия, равная \\(32\\) Дж.",
+      "error_conditions": [],
+      "id": 98656,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/eFyi-zozQOQ?start=4766"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/embed/eFyi-zozQOQ?start=4766"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а) \\(\\displaystyle \\begin{cases}\n13\\sin^{2} x-5\\sin x=0\\\\\n13\\cos x+12\\neq 0\n\\end{cases}\\)\n$$\\displaystyle \\begin{cases}\n\\left[ \\begin{array}{l l}\n\\sin x=0\\\\\n\\sin x=\\frac{5}{13}\n\\end{array} \\right.\\\\\n\\cos x\\neq -\\frac{12}{13}\n\\end{cases} \\Rightarrow \\ \\begin{cases}\n\\left[ \\begin{array}{l l}\nx=\\pi k,k\\in Z\\\\\nx=\\arcsin\\left(\\frac{5}{13}\\right) +2\\pi k,k\\in Z\\\\\nx=\\pi -\\arcsin\\left(\\frac{5}{13}\\right) +2\\pi k,k\\in Z\n\\end{array} \\right.\\\\\n\\cos x\\neq -\\frac{12}{13}\n\\end{cases}$$\nЕсли \\(\\cos x\\ne -\\frac{12}{13}\\), то по ОТТ \\(\\sin x\\ne\\pm\\frac{5}{13}\\)\nУчитывая ограничения, \\(\\displaystyle \\left[ \\begin{array}{l l}\nx=\\pi k,k\\in Z\\\\\nx=\\arcsin\\left(\\frac{5}{13}\\right) +2\\pi k,k\\in Z\n\\end{array} \\right.\\)\nб) Отберем корни на промежутке \\(\\left[-3\\pi;-\\frac{3\\pi}{2}\\right]\\) с помощью тригонометрической окружности.\n$$x=-3\\pi;x=-2\\pi;x=-2\\pi+\\arcsin(\\frac{5}{13})$$\nОтвет: а) \\(\\pi k,k\\in Z\\); \\(\\arcsin\\left(\\frac{5}{13}\\right) +2\\pi k,k\\in Z\\); б) \\(-3\\pi\\); \\(-2\\pi\\); \\(-2\\pi+\\arcsin(\\frac{5}{13})\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2459,
+    "title": "13.10 Сложные уравнения"
+  },
+  "id": 13543,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\frac{13\\sin^2x-5\\sin x}{13\\cos x+12}=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[-3\\pi;-\\frac{3\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 179307,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Interviewer: Hello everybody! It’s Teenager Round the World Channel. Our guest today is a teenager from Russia and we are going to discuss the 21st century. We'd like to know our guest’s point of view on this issue. Please answer five questions. So, let’s get started.\n\nInterviewer: What social changes has the pandemic made in Russia?\n\nStudent: The pandemic has brought a lot of unprecedented social changes. For example, sometimes now people have to social distance or wear a mask. A lot of people have got used to working remotely and online learning has become more popular.\n\nInterviewer: What would you like our listeners to know about the technological progress in your region?\n\nStudent: In the capital where I live, you can enter the metro with facial recognition, you can pay for products with an app from your smartphone, and you can order food at restaurants from touch screens, to name but a few.\n\nInterviewer: Are the changes brought by technological progress for better or for worse? Why?\n\nStudent: Everything in my region has improved. In the past when I’d go to the bank or the pharmacy, there was a long queue and it was disorganized. Now, every place has a digital queue where you take a number and wait for your turn. It’s so much better. Furthermore, you can now ride the metro, the bus, and the train all on one ticket which digitally saves your information. Before I had to buy multiple ones!\n\nInterviewer: How have technological advances affected your life?\n\nStudent: Well, now I have got used to having lessons online. Just five years ago it wasn’t very popular. Also, now I buy most of my things online and I don’t even have to leave my home. Before, I had to go everywhere in person.\n\nInterviewer: What kind of life would you like to see in 10 years?\n\nStudent: In ten years’ time, I hope I’ll be able to see more robots doing things. I want there to be electronic dogs that can help blind people walk outside or robots that can chop vegetables an do more complicated household chores.\n\nInterviewer: Thank you very much for your interview.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 820,
+    "title": "Условный диалог-интервью"
+  },
+  "id": 1667,
+  "is_obsolete": false,
+  "number": 43,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "https://disk.yandex.ru/d/F5igZbXnsJOFzg",
+      "error_conditions": null,
+      "id": 54548,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 5,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

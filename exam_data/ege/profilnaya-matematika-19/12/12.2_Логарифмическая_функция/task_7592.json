@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=9-\\frac{9}{x+4} \\Rightarrow 9-\\frac{9}{x+4} =0\\Rightarrow \\frac{x+3}{x+4} =0\\Rightarrow x_{1} =-4,x_{2} =-3$$\nРассмотрим промежутки \\([ -3,5;-3], ( -3;0]\\):\nНа \\([-3,5;-3]\\) производная функции отрицательна, значит, функция убывает.\nНа \\(( -3;0]\\) производная функции положительна, значит, функция возрастает.\n\nПолучаем \\(x_{2} =-3\\) - точка минимума, найдем \\(f(-3)\\):\n$$y=-27-\\ln( -3+4)^{9} =-27$$\nОтвет: -27",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2445,
+    "title": "12.2 Логарифмическая функция"
+  },
+  "id": 7592,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-27",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y=9x-\\ln(x+4)^9\\) на отрезке \\([-3,5;0]\\).",
+      "error_conditions": [],
+      "id": 98735,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=3492"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=3492"
+}

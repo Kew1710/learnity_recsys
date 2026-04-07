@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 16714,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какое количество генотипических классов получится в потомстве при анализирующем скрещивании дигетерозиготного организма при полном сцеплении генов (доминантные и рецессивные аллели сцеплены попарно)? В ответе запишите только соответствующее число.",
+      "error_conditions": [],
+      "id": 236621,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

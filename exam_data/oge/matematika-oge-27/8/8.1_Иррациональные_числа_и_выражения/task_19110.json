@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(x>0, y>0\\) по условию\n\\(\\sqrt{\\cfrac{25x^2}{y^4}}=\\cfrac{5x}{y^2}\\)\nПодставим \\(x=10, y=5\\)\n\\(\\cfrac{5 \\cdot 10}{25}=2\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1956,
+    "title": "8.1 Иррациональные числа и выражения"
+  },
+  "id": 19110,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\sqrt{\\cfrac{25x^2}{y^4}}\\) при \\(x=10, y=5\\) .",
+      "error_conditions": [],
+      "id": 238948,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

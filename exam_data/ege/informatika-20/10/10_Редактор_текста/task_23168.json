@@ -1,0 +1,45 @@
+{
+  "comment": "Вызовем меню замены и настроим замены по заданию. Слово «Мой», установим флажок «Только слово целиком» и флажок «Учитывая регистр».",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2717,
+    "title": "№10 Редактор текста"
+  },
+  "id": 23168,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2110_3\nВ файле дан текст поэмы Н.А.Некрасова «Кому на Руси жить хорошо». Сколько раз в тексте поэмы встречается слово «Мой» написанное с прописной буквы.\nДругие формы слова «Мой»„ такие как «Мои», «Моего» и пр. не учитывать. В ответе укажите только число.",
+      "error_conditions": [],
+      "id": 242893,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 29,
+    "title": "Редактор текста"
+  },
+  "video_link": null
+}

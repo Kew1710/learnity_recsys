@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: нужно начать с самого крупного таксона: тип хордовые -> позвоночные -> млекопитающие -> хищные -> медвежьи -> медведь белый",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 16180,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "643215",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность расположения систематических таксонов, начиная с самого крупного. Запишите в таблицу соответствующую последовательность цифр.\n- Медвежьи\n- Хищные\n- Млекопитающие\n- Позвоночные\n- Медведь белый\n- Хордовые",
+      "error_conditions": [],
+      "id": 236087,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

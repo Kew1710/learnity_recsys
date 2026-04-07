@@ -1,0 +1,45 @@
+{
+  "comment": "$$ (5^2)^{2\\sqrt{8}+3} \\cdot 5^{-3-4\\sqrt{8}} = \\\\ =5^{4\\sqrt{8}+6} \\cdot 5^{-3-4\\sqrt{8}} = 5^{4\\sqrt{8}+6-3-4\\sqrt{8}} = \\\\ = 5^{3} = 125 $$ Ответ: 125",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 36284,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "125",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(25^{2\\sqrt{8}+3} \\cdot 5^{-3-4\\sqrt{8}}\\).",
+      "error_conditions": [],
+      "id": 255934,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/tXc3x4aDLhc?t=2020s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/tXc3x4aDLhc?t=2020s"
+}

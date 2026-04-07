@@ -1,0 +1,37 @@
+{
+  "comment": "1) NH₃ + HBr = NH₄Br\n2) NH₄Br + AgNO₃ = AgBr↓ + NH₄NO₃\n3) 2AgBr + Zn = 2Ag↓ + ZnBr₂\n4) 2Ag + 2H₂SO₄ = Ag₂SO₄ + SO₂↑ + 2H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8658,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Аммиак пропустили через бромоводородную кислоту. К полученному раствору добавили раствор нитрата серебра. Выпавший осадок отделили и нагрели с порошком цинка. На образовавшийся в ходе реакции металл подействовали концентрированным раствором серной кислоты, при этом выделился газ с резким запахом. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 103776,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

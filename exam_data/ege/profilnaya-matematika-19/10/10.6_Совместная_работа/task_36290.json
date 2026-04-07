@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(x\\) л/мин пропускает \\(1\\) труба, тогда \\(2\\) пропускает \\(x+5\\) л/мин, составим таблицу:\n$$V$$$$v$$$$t$$$$1$$$$104$$$$x$$$$\\frac{104}{x}$$$$2$$$$104$$$$x+5$$$$\\frac{104}{x+5}$$Так как вторая труда заполнила резервуар на \\(5\\) минут быстрее, то работала она меньше.\n$$\\frac{104}{x}-\\frac{104}{x+5}=5\\Rightarrow 104(x+5)-104x=5x(x+5)\\\\ 104\\cdot 5=5x^2+25x\\Rightarrow x^2+5x-104=0\\Rightarrow \\displaystyle \\left[ \\begin{array}{l l} x=8\\\\ x=-13 \\end{array} \\right.$$\nТак как скорость не может быть отрицательной, то \\(x=8\\), нас интересует первая труба, значит ответ \\(8\\).\n\nОтвет: 8",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2433,
+    "title": "10.6 Совместная работа"
+  },
+  "id": 36290,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Первая труба пропускает на \\(5\\) литров воды в минуту меньше, чем вторая. Сколько литров воды в минуту пропускает первая труба, если резервуар объёмом \\(104\\) литра она заполняет на \\(5\\) минут дольше, чем вторая труба?",
+      "error_conditions": [],
+      "id": 255940,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=tXc3x4aDLhc&t=3148s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/watch?v=tXc3x4aDLhc&t=3148s"
+}

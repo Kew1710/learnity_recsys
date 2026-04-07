@@ -1,0 +1,42 @@
+{
+  "comment": "На циферблате 12 делений, каждые два деления образуют сектор величиной \\(360° / 12 = 30°\\). Между стрелками на рисунке 1 или 11 сегментов. Величина меньшего из образованных углов равна \\(30° \\cdot 1 = 30°\\).\nОтвет: 30.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2096,
+    "title": "10.5 Окружность"
+  },
+  "id": 24935,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой наименьший угол (в градусах) образуют минутная и часовая стрелки часов в 11:00?",
+      "error_conditions": [],
+      "id": 244592,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

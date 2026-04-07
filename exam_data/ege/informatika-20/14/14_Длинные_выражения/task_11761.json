@@ -1,0 +1,45 @@
+{
+  "comment": "Перепишем выражение в программу, после этого создаём цикл с условием (while n > 0), и начинаем перебирать каждый разряд, проверяя, равен ли он 0 (в системе счисления с основанием 3). Для подсчёта цифр «0» создаём отдельную переменную k0.\n\nPython:\n\nn = 2*729**1021 - 2*243**1022 + 81**1023 - 2*27**1024 - 1025\nk0 = 0\nwhile n>0:\nif n%3 == 0:\nk0 += 1\nn = n//3\nprint (k0)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2727,
+    "title": "№14 Длинные выражения"
+  },
+  "id": 11761,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1021",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Значение арифметического выражения\n\\(2 \\cdot 729^{1021} - 2 \\cdot 243^{1022} + 81^{1023} - 2 \\cdot 27^{1024} - 1025\\)\nзаписали в системе счисления с основанием 3. Определите количество значащих нулей в записи этого числа.",
+      "error_conditions": [],
+      "id": 150668,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 33,
+    "title": "Системы счисления"
+  },
+  "video_link": null
+}

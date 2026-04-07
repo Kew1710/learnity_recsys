@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем условие плавания льдины:\n$$F_A=\\rho_ж gV_{погр}=mg~~~(1)$$\nМассу льдины выразим как произведение плотности льда на объем:\n$$m=\\rho V~~~(2)$$\n$$V=V_{погр}+Sh$$\n$$V_{погр}=V-Sh~~~(3)$$\nИспользуя выражения \\((2)\\) \\((3)\\), преобразуем выражение \\((1)\\):\n$$\\rho_ж g(V-Sh)=\\rho Vg~~~(1)$$\n$$\\rho_жV-\\rho_жSh=\\rho V$$\n$$V=\\frac{\\rho_жSh}{\\rho_ж-\\rho}$$\n$$\\Downarrow$$\n$$m=\\rho V=\\rho\\cdot\\frac{\\rho_жSh}{\\rho_ж-\\rho}=\\frac{900\\cdot 1000\\cdot 0,25 \\cdot 4\\cdot 10^{-4}}{1000-900}=0,9~кг$$\n\nОтвет: 0,9 кг",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2619,
+    "title": "Гидростатика"
+  },
+  "id": 9436,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание ЕГЭ 2022 (Юг)\nПлоская льдина плавает в воде, выступая из нее на \\(0,04~см\\). Площадь основания льдины \\(2500~см^2\\). Определите массу льдины, если плотность льда \\(900~кг/м^3\\).",
+      "error_conditions": null,
+      "id": 114186,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/OaD7FQCSnHw?start=3042"
+}

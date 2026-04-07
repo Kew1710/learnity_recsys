@@ -1,0 +1,42 @@
+{
+  "comment": "А) S⁰ + 2ē ⟶ S⁻²\nБ) S⁺⁴ - 2ē ⟶ S⁺⁶\nВ) S⁻² - 6ē ⟶ S⁺⁴",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2839,
+    "title": "Реакции окислительно-восстановительные"
+  },
+  "id": 1518,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "241",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между уравнением реакции и изменением степени окисления серы, происходящим в этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nУРАВНЕНИЕ РЕАКЦИИ\nИЗМЕНЕНИЕ СТЕПЕНИ\nОКИСЛЕНИЯ СЕРЫ\nA) 2Al + 3S = Al₂S₃1) от -2 до +4Б) 2SO₂ + O₂ = 2SO₃2) от 0 до -2B) 2H₂S + 3O₂ = 2H₂O + 2SO₂3) от +6 до +4 4) от +4 до +6",
+      "error_conditions": [],
+      "id": 53834,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ao4Qr_V3DCc?start=4731"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Ao4Qr_V3DCc?start=4731"
+}

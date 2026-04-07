@@ -1,0 +1,42 @@
+{
+  "comment": "Эти признаки характерны только для естественных экосистем:\n1) способны к саморегуляции\n2) имеют сбалансированный круговорот веществ и энергии\n3) устойчивы во времени",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 683,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "456",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nКакие признаки являются общими как для природной экосистемы, так и для искусственной экосистемы?\n1) способны к саморегуляции\n2) имеют сбалансированный круговорот веществ и энергии\n3) устойчивы во времени\n4) состоят из продуцентов, консументов и редуцентов\n5) представляют собой открытые системы\n6) испытывают действие естественного отбора и изменчивости",
+      "error_conditions": [],
+      "id": 52228,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/mtXJDDpMrPk?start=1172"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/mtXJDDpMrPk?start=1172"
+}

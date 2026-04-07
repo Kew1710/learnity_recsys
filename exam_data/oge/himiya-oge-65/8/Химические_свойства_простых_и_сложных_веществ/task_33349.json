@@ -1,0 +1,46 @@
+{
+  "comment": "Oксид меди(II) (\\(CuO\\)) - основный оксид, реагирует с кислотами и кислотными оксидами\n\n3) \\(CuO + H_{2}SO_{4} = CuSO_{4} + H_{2}O\\)\n5) \\(CuO + SO_{3} = CuSO_{4}\\)\n\nНе взаимодействует с солями (\\(NaNO_{3}\\)), с кислородом (\\(O_{2}\\)), так как медь в оксиде находится в высшей степени окисления, с водой (\\(H_{2}O\\)), потому что с ней реагируют только оксиды щелочных/щелочноземельных металлов",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2889,
+    "title": "Химические свойства простых и сложных веществ"
+  },
+  "id": 33349,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        },
+        {
+          "answer": "53",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, с которыми реагирует оксид меди(II).\n\n1) \\(NaNO_{3}\\)\n2) \\(O_{2}\\)\n3) \\(H_{2}SO_{4}\\)\n4) \\(H_{2}O\\)\n5) \\(SO_{3}\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 252988,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

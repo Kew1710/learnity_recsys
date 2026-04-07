@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2145,
+    "title": "Общество как система"
+  },
+  "id": 23989,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "356",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Найдите в приведенном списке черты общества как динамичной системы.\n\n1) обособление от природы\n2) отсутствие взаимосвязи подсистем и общественных институтов\n3) способность к самоорганизации и саморазвитию\n4) выделение из материального мира\n5) постоянные изменения\n6) возможность деградации отдельных элементов",
+      "error_conditions": [],
+      "id": 243704,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/DNQAuPJfC3A?si=PC5CC43Nj8WDF7Kp&t=1941"
+    },
+    "Valid": true
+  },
+  "time_seconds": 7200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/DNQAuPJfC3A?si=PC5CC43Nj8WDF7Kp&t=1941"
+}

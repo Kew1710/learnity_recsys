@@ -1,0 +1,40 @@
+{
+  "comment": "Если \\(a=0\\), то квадратное уравнение становится линейным: \\(3x+2=0\\Rightarrow x=-\\frac{2}{3}\\).\nРассмотрим уравнение, если \\(a\\ne 0\\), тогда количество решений будет зависеть от дискриминанта.\n$$\\displaystyle \\left[ \\begin{array}{l l} Если\\ D >0\\Rightarrow 2\\ решения\\\\ Если\\ D=0\\Rightarrow 1\\ решение\\\\ Если\\ D< 0\\Rightarrow нет\\ решений \\end{array} \\right.$$\nНайдем \\(D=9-4\\cdot 2\\cdot a=9-8a\\):\n$$\\displaystyle \\left[ \\begin{array}{l l} 9-8a >0\\\\ 9-8a=0\\\\ 9-8a< 0 \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\frac{9}{8} >a-2\\ решения\\\\ \\frac{9}{8} =a-1\\ решение\\\\ \\frac{9}{8} < a-нет\\ решений \\end{array} \\right. ,вспомним,\\ что\\ при\\ a=0\\ будет\\ 1\\ решение,\\ тогда$$\nПолучили:\n$$a\\in (-\\infty;0)\\cup\\left(0;\\frac{9}{8}\\right)-2~решения \\\\ a\\in \\{0\\}\\cup \\{\\frac{9}{8}\\}-1~решение\\\\ a\\in \\left(\\frac{9}{8};+\\infty\\right)-нет~решений$$ Ответ: \\(\\left\\{ \\begin{array}{l l} a\\in (-\\infty;0)\\cup\\left(0;\\frac{9}{8}\\right) - \\text{2 решения} \\\\ a\\in \\{0\\}\\cup \\{\\frac{9}{8}\\}-1~решение \\\\ a\\in \\left(\\frac{9}{8};+\\infty\\right)-нет~решений \\end{array} \\right.\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2493,
+    "title": "18.4 Уравнения с параметром"
+  },
+  "id": 35210,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения \\(a\\), при которых уравнение \\(ax^2+3x+2=0\\):\n1) имеет два решения;\n2) имеет одно решение;\n3) не имеет решений.",
+      "error_conditions": null,
+      "id": 254849,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/9L45G5F3TGo?si=IteFCiCUbFjRABc3&t=1900"
+}

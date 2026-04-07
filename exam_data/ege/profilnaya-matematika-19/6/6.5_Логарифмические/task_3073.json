@@ -1,0 +1,45 @@
+{
+  "comment": "$$x+7=2^3\\\\ x+7=8\\\\ x=1$$\nОтвет: 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2403,
+    "title": "6.5 Логарифмические"
+  },
+  "id": 3073,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\log_2(x+7)=3\\).",
+      "error_conditions": [],
+      "id": 64601,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=1317"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=1317"
+}

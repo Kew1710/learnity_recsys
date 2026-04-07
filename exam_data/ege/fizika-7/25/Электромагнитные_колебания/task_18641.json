@@ -1,0 +1,37 @@
+{
+  "comment": "$$\\frac{LI_0^2}{2}=\\frac{CU_0^2}{2}\\Rightarrow L=\\frac{CU_0^2}{I_0^2}$$\nПериод определяется по формуле:\n$$T=2\\pi\\sqrt{LC}=2\\pi\\sqrt{\\frac{CU_0^2}{I_0^2}C}\\Rightarrow T=2\\pi\\frac{CU_0}{I_0}\\Rightarrow C=\\frac{TI_0}{2\\pi U_0}$$\nПодставим значение:\n$$C=\\frac{12,56\\cdot 10^{-3}\\cdot 2}{2\\cdot 3,14\\cdot 200}=2\\cdot 10^{-5}~Ф$$\nОтвет: \\(2\\cdot 10^{-5}\\) Ф",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2636,
+    "title": "Электромагнитные колебания"
+  },
+  "id": 18641,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "231048\nПри незатухающих колебаниях, происходящих в колебательном контуре, амплитудные значения силы тока, текущего через катушку индуктивности, и напряжения на конденсаторе равны соответственно \\(I_0=2\\) А и \\(U_0=200\\) В. Найдите емкость конденсатора, если период колебаний \\(T\\) равен \\(12,56\\) мс.",
+      "error_conditions": null,
+      "id": 238483,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/pm0cA0GNoPg"
+}

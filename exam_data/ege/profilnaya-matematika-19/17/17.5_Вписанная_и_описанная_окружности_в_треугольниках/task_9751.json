@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(AO\\) - радиус описанной окружности равен \\(R\\). По теореме синусов:\n$$R=\\frac{BC}{2\\sin 120^\\circ}=\\frac{BC}{2\\cdot \\frac{\\sqrt{3}}{2}}=\\frac{BC}{\\sqrt{3}}$$\nПроведем отрезок \\(MN\\).\n\n\\(\\angle{CNB} = \\angle{CMB} = {90}^{\\circ}\\) и они опираются на \\(CB \\Rightarrow CNMB \\ - \\) вписанный четырехугольник $$ \\Rightarrow \\angle{NCB} + \\angle{NMB} = {180}^{\\circ} \\\\ \\Rightarrow \\angle{NCB} = \\angle{NMH}$$ Тогда: $$ \\angle HMN =\\angle HCB \\\\ \\angle{CHB} - \\text{ общий} \\\\ \\Rightarrow \\triangle{HNM} \\sim \\triangle{HBC} \\text{ по двум углам} $$\n$$ \\Rightarrow k = \\cos{60^{\\circ}} =\\frac{1}{2}\\\\ MN=\\frac{CB}{2}$$\nЧетырехугольник \\(HMAN\\) – вписанный, т. к. \\(AH\\) – диаметр и \\(∠HMN + HNM = 180^\\circ \\).\n\\(\\angle NHM\\) – вписан в эту же окружность\n$$D=AH=\\frac{MN}{\\sin 60^\\circ}=\\frac{\\frac{CB}{2}}{\\frac{\\sqrt{3}}{2}}=\\frac{CB}{\\sqrt{3}}\\\\ AO=AH\\\\ Ч. т. д.$$\nб)\n$$AH=AO=\\frac{CB}{\\sqrt{3}}=\\sqrt{5}\\\\ \\angle ACB=15^\\circ$$\nПродолжим высоту из точки \\(H = HA_1\\).\nПроведем радиус \\(OB\\).\n\\(\\angle AOB\\) – равнобедренный, т. к. \\(AO = OB\\).\n\\(\\angle AOB\\) – центральный, опирается на дугу \\(AB = 30^\\circ\\) (\\(\\angle ACB\\) опирается на \\(AB = 15^\\circ\\))\n$$\\angle OAB=\\frac{150}{2}=75^\\circ\\Rightarrow\\angle OAA_1=\\angle OAB-\\angle A_1AB=30^\\circ\\\\ \\angle OAH=180-\\angle OAA_1=150^\\circ (т.к.~углы~смежные)\\\\ S_{AHO} = \\mathrm{a} \\cdot \\mathrm{b} \\cdot \\sin{\\angle{(a,b)}}=\\frac{1}{2}\\sqrt{5}\\cdot\\sqrt{5}\\cdot\\sin 150^\\circ=\\frac{1}{2}\\sqrt{5}\\cdot\\sqrt{5}\\cdot\\frac{1}{2}=\\frac{5}{4}$$\nОтвет: \\(\\frac{5}{4}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2485,
+    "title": "17.5 Вписанная и описанная окружности в треугольниках"
+  },
+  "id": 9751,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(A\\) равен \\(120^\\circ\\). Прямые, содержащие высоты \\(BM\\) и \\(CN\\) треугольника \\(ABC\\), пересекаются в точке \\(H\\). Точка \\(O \\) — центр окружности, описанной около треугольника \\(ABC\\).\nа)  Докажите, что \\(AH  =  AO\\).\nб)  Найдите площадь треугольника \\(AHO\\), если \\(BC=\\sqrt{15}\\), \\(\\angle ABC=45^\\circ\\).",
+      "error_conditions": null,
+      "id": 117488,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/Jc4qsTPavcA?start=6379"
+}

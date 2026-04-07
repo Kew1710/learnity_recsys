@@ -1,0 +1,42 @@
+{
+  "comment": "1) CH₂Br-CH₂Br + Mg → CH₂=CH₂ + MgBr₂\n2) CH₂=CH₂ + HBr → CH₃-CH₂Br\n3) CH₃-CH₂Br + NaOH(водн.) → CH₃-CH₂-OH + NaBr\n4) HCOOH + CH₃-CH₂-OH → HCOOC₂H₅ + H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2836,
+    "title": "Генетическая связь между классами органических соединений"
+  },
+  "id": 9034,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\n1,2-дибромэтан → X → бромэтан → Y → этилформиат\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) этилен\n2) ацетилен\n3) этанол\n4) этаналь\n5) хлорэтан",
+      "error_conditions": [],
+      "id": 112694,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

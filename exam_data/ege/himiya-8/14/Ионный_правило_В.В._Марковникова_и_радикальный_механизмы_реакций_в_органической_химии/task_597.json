@@ -1,0 +1,42 @@
+{
+  "comment": "Необходимо вспомнить правило Марковникова: водород присоединяется к наиболее гидрированному атому углерода, бром - к наименее гидрированному\nA) CH₃-CH₂-CH=CH₂ + HBr = CH₃-CH₂-CHBr-CH₃ (2-бромбутан)\nБ) CH₃-CH₂-C≡CH + 2HBr = CH₃-CH₂-CBr₂-CH₃ (2,2-дибромбутан)\nB) CH₃-CH=CH-CH₃ + HBr = CH₃-CH₂-CHBr-CH₃ (2-бромбутан)\nГ) CH₃-C≡C-CH₃ + 2HBr = CH₃-CH₂-CBr₂-CH₃ (2,2-дибромбутан)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2833,
+    "title": "Ионный (правило В.В. Марковникова) и радикальный механизмы реакций в органической химии"
+  },
+  "id": 597,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2424",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между названием вещества и продуктом, преимущественно образующимся при его взаимодействии с бромоводородом: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nНАЗВАНИЕ ВЕЩЕСТВА\nПРОДУКТ РЕАКЦИИ\nA) бутен-11) 1-бромбутанБ) бутин-12) 2-бромбутанB) бутен-23) 1,1-дибромбутанГ) бутин-24) 2,2-дибромбутан 5) 3-бромбетен-1 6) 3,3-дибромбутен-1",
+      "error_conditions": [],
+      "id": 52130,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=13310"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=13310"
+}

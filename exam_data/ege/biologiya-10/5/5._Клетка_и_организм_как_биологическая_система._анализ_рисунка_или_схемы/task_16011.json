@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: больше всего АТФ образуется при окислительном фосфорилировании (36 АТФ) . данный процесс обозначен цифрой 8",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1452,
+    "title": "5. Клетка и организм как биологическая система. (анализ рисунка или схемы)"
+  },
+  "id": 16011,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите стадию энергетического обмена, на которой образуется больше всего АТФ.",
+      "error_conditions": [],
+      "id": 235918,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

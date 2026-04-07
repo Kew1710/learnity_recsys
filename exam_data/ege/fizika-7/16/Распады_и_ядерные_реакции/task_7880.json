@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем уравнение \\(\\alpha\\)-распада, учитывая, что \\(\\alpha\\)-частица – это ядро атома гелия:\n$$_{78}^{174}Pt \\to _{2} ^{4}He+ _{Z} ^{A}X$$\nПолучаем:\n$$Z=78-2=76$$\nОтвет: 76",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3337,
+    "title": "Распады и ядерные реакции"
+  },
+  "id": 7880,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "76",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Демоверсия ЕГЭ 2023\nЯдро платины \\(_{~~78}^{174}Pt\\) испытывает \\(\\alpha\\)-распад, при этом образуются \\(\\alpha\\)-частица и ядро химического элемента \\(_{Z}^{A}X\\). Определите заряд \\(Z\\) (в единицах элементарного заряда) ядра \\(X\\).",
+      "error_conditions": [],
+      "id": 100487,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9O_V_c88S0w?start=4890"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/9O_V_c88S0w?start=4890"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n- \\(x^2 -49 \\leqslant 0 \\Rightarrow (x-7)(x+7) \\leqslant 0 \\Rightarrow x \\in [-7;7] \\)\n- \\(x^2 +49 \\leqslant 0\\) - решений нет\n- \\(x^2 -49 \\geqslant 0 \\Rightarrow (x-7)(x+7) \\geqslant 0 \\Rightarrow x \\in (-\\infty;-7] \\cup [7; +\\infty) \\)\n- \\(x^2 +49 \\geqslant 0\\) - верно для всех x\n\nОтвет: 1",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1968,
+    "title": "13.2 Квадратные неравенства"
+  },
+  "id": 25159,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите неравенство, решение которого изображено на рисунке.\n- \\(x^2 -49 \\leqslant 0\\)\n- \\(x^2 +49 \\leqslant 0\\)\n- \\(x^2 -49 \\geqslant 0\\)\n- \\(x^2 +49 \\geqslant 0\\)",
+      "error_conditions": [],
+      "id": 244816,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

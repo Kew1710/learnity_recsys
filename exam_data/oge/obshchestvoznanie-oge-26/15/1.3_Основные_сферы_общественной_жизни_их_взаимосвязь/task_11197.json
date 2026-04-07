@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1752,
+    "title": "1.3 Основные сферы общественной жизни, их взаимосвязь*"
+  },
+  "id": 11197,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "32121",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между фактами и сферами общественной жизни: к каждому элементу первого столбца подберите соответствующий элемент из второго столбца.\n\nФАКТЫ СФЕРЫ ОБЩЕСТВЕННОЙ ЖИЗНИ\nА) премьера театрального спектакля\nБ) выборы депутатов парламента\nВ) снятие денег с банковского счёта\nГ) всенародное обсуждение законопроекта\nД) закупка фирмой нового оборудования\n\n1) экономическая\n2) политическая\n3) духовная\n\nЗапишите в таблицу выбранные цифры под соответствующими буквами.",
+      "error_conditions": [],
+      "id": 148070,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=15394"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=15394"
+}

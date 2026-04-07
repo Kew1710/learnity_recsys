@@ -1,0 +1,40 @@
+{
+  "comment": "а) Построим сечение плоскостью \\(\\alpha\\):\n\n\\(\\alpha \\parallel AS \\Rightarrow\\) \\(\\alpha\\) пересекает плоскости, в которых лежит \\(AS\\), по прямой \\(\\parallel AS\\)\n\nТогда проведем \\(ML \\parallel AS\\) в \\((ASC)\\)\nАналогично проведем \\(KN\\) в \\((ASB)\\)\n\nТогда \\(MLKN \\ -\\) искомое сечение плоскостью \\(\\alpha\\)\n\nПо т. Фалеса для \\(ML \\parallel AS\\) и \\(\\angle{ACS}\\): $$ \\frac{CL}{LA} = \\frac{CM}{MS} \\\\ \\frac{CL}{LA} = \\frac{4}{1}$$\nч.т.д.\n\nб) \\(𝐾𝐿𝑀𝑁||𝐴𝑆\\) по условию, \\(𝐾𝐿\\in 𝐾𝐿𝑀𝑁\\Rightarrow 𝑑( 𝐴𝑆;𝐾𝐿𝑀𝑁) \\ -\\) искомое\n\nПроведем высоту/биссектрису/медиану \\(AP\\) в \\(\\triangle{ABC}\\)\n\nТогда в \\(\\triangle{SBC} \\ AP\\) тоже будет высотой\n$$\\Rightarrow \\left\\{ \\begin{array}{l}\nBC \\perp AP \\\\ BC \\perp SP\n\\end{array} \\right. \\Leftrightarrow BC \\perp (ASP) \\Rightarrow BC \\perp AS$$\n\nПроведем высоту \\(PH\\) в \\(\\triangle{ASP}\\), тогда: $$ PH \\perp AS, \\ KN \\parallel AS \\Rightarrow PH \\perp LM$$\nПо обратной т. Фалеса: $$ \\frac{AK}{KB} = \\frac{AL}{LC} = \\frac{1}{4} \\Rightarrow KL \\parallel BC$$\nТогда: $$ \\left\\{ \\begin{array}{l}\nBC \\perp (ASP) \\\\ KL \\parallel BC \\\\ PH \\subset{ASP}\n\\end{array} \\right. \\Rightarrow KL \\perp PH $$\nПолучили, что: $$ \\left\\{ \\begin{array}{l}\nPH \\perp KN \\\\ PH \\perp KL\n\\end{array} \\right. \\Rightarrow PH \\perp (KLMN)$$\nТогда расстояние между \\(AS\\) и \\((KLMN)\\) = \\(UH\\), где \\(U = PH \\cap (KLMN)\\)\n\n\\(FE \\subset (KLMN) \\Rightarrow FE \\parallel AS \\Rightarrow \\angle{SAP} = \\angle{EFP}\\) как соответственные \\(\\Rightarrow \\triangle{APS} \\sim \\triangle{FEP}\\) по двум углам \\((\\angle{APS} \\ -\\) общий\\()\\)\n\nВ подобных треугольниках подобны соответственные элементы, следовательно: $$\\Rightarrow \\frac{PH}{PU} = \\frac{PA}{PF}$$\nПо т. Фалеса для \\(KL \\parallel BC\\): $$\\frac{AF}{FP} = \\frac{AK}{KB} = \\frac{1}{4}$$\nПусть \\(AF = x, \\ FP = 4x, \\ AP = 5x \\Rightarrow\\) $$\\frac{PH}{PU} = \\frac{5x}{4x} = \\frac{5}{4} \\\\ \\Rightarrow UH = \\frac{1}{5}PH$$\nРассмотрим площадь треугольника \\(ASP\\): $$S_{ASP} = \\frac{1}{2} \\cdot AS \\cdot PH = \\frac{1}{2} \\cdot AP \\cdot SP \\cdot \\sin\\angle{APS}$$ $$\\Rightarrow PH = \\frac{AP\\cdot SP \\cdot \\sin\\angle{APS}}{AS}$$\n\\(AP = \\dfrac{a\\sqrt{3}}{2} = \\dfrac{AB\\sqrt{3}}{2} = \\dfrac{5\\sqrt{3}}{2}\\) как высота равностороннего треугольника\n\nВ треугольнике \\(SBC\\) по т. Пифагора: $$SP = \\sqrt{SB^2 - BP^2} = \\sqrt{9-\\frac{25}{4}} = \\frac{\\sqrt{11}}{2}$$\nВысота пирамиды \\(SO\\) попадает в точку пересечения медиан/биссектрис/высот, так как пирамида правильная, тогда \\(OP= \\dfrac{1}{3}AP = \\dfrac{5\\sqrt{3}}{6}\\)\nВ прямоугольном треугольнике \\(SOP\\): $$\\cos\\angle{APS} = \\frac{OP}{SP} = \\frac{5\\sqrt{3} \\cdot 2}{6 \\cdot\\sqrt{11}} = \\frac{5\\sqrt{3}}{3\\sqrt{11}} $$\nНайдем синус угла по ОТТ: $$ \\sin\\angle{APS} = \\sqrt{1 - \\frac{25 \\cdot 3}{9 \\cdot 11}} = \\sqrt{1 - \\frac{25}{33}} = \\frac{2\\sqrt{2}}{\\sqrt{33}}$$\nОкончательно получаем: $$ UH = \\frac{1}{5}PH = \\frac{5\\sqrt{3} \\cdot \\sqrt{11} \\cdot 2\\sqrt{2}}{5 \\cdot 2 \\cdot 2 \\cdot \\sqrt{33} \\cdot 3} \\\\ \\Rightarrow UH = \\frac{\\sqrt{2}}{6}$$\n\nОтвет: \\(\\frac{\\sqrt{2}}{6}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2463,
+    "title": "14.4 Расстояние между скрещивающимися прямыми"
+  },
+  "id": 6652,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В правильной треугольной пирамиде \\(𝑆𝐴𝐵𝐶\\) сторона основания \\(𝐴𝐵=5\\), а боковое ребро \\(𝑆𝐴=3\\). На ребрах \\(𝐴𝐵\\) и \\(𝑆𝐶\\) отмечены точки \\(𝐾\\) и \\(𝑀\\) соответственно, причем \\(𝐴𝐾:𝐾𝐵=𝑆𝑀:𝑀𝐶=1:4\\). Плоскость \\(\\alpha \\) содержит прямую \\(𝐾𝑀\\) и параллельна \\(𝑆𝐴\\).\nа) Докажите, что плоскость \\(\\alpha \\) делит ребро \\(𝐴𝐶\\) в отношении \\(1:4\\), считая от вершины \\(𝐴\\).\nб) Найдите расстояние между прямыми \\(𝑆𝐴\\) и \\(𝐾𝑀\\).",
+      "error_conditions": null,
+      "id": 75186,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/I5DDxkoAlJw?start=1500"
+}

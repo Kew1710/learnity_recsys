@@ -1,0 +1,40 @@
+{
+  "comment": "Введём замену \\(x^2 + 4x = t\\). Тогда: $$ \\frac{10}{t} + 23 \\ge 5 t \\\\ \\frac{10}{t} + 23^{\\backslash t} - {5t}^{\\backslash t} \\ge 0 \\\\ \\frac{10+23t-5t^2}{t} \\ge 0 $$ Используем для решения метод интервалов. Для этого найдём нули числителя и нули знаменателя\n\nНули числителя:\n\n$$ 10 + 23t - 5t^2 = 0 \\\\ 5t^2 - 23t - 10 = 0 \\\\ \\mathrm{D} = 23^2 + 4 \\cdot 5 \\cdot 10 = 529 + 200 = 729 = 27^2 \\\\ \\sqrt{\\mathrm{D}} = \\sqrt{27^2} = 27 \\\\ t = \\frac{23 \\pm 27}{2 \\cdot 5} \\Rightarrow \\left[ \\begin{array}{l} t = 5 \\\\ t = -\\frac{4}{10} = - \\frac{2}{5} \\end{array} \\right. $$ Нули знаменателя: $$t = 0$$ Тогда: $$ \\frac{10+23t-5t^2}{t} \\ge 0 \\Leftrightarrow \\frac{5(5-t)\\left(t+\\frac{2}{5}\\right)}{t} \\ge 0 $$\nТогда \\(t \\in \\left(-\\infty; -\\frac{2}{5}\\right]\\)\n\nПроизведём обратную замену: $$ t \\in \\left(-\\infty; -\\frac{2}{5}\\right] \\Leftrightarrow \\left[ \\begin{array}{l} t \\le -\\frac{2}{5} \\\\ \\left\\{ \\begin{array}{l} t > 0 \\\\ t\\le 5 \\end{array} \\right. \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l} x^2+4x \\le -\\frac{2}{5} \\\\ \\left\\{ \\begin{array}{l} x^2+4x > 0 \\\\ x^2+4x\\le 5 \\end{array} \\right. \\end{array} \\right. \\Leftrightarrow \\\\ \\Leftrightarrow \\left[ \\begin{array}{l} 5x^2+20x+2 \\le 0 \\\\ \\left\\{ \\begin{array}{l} x(x+4) > 0 \\\\ x^2+4x-5 \\le 0 \\end{array} \\right. \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l}\\left(x - \\frac{-10-3\\sqrt{10}}{5}\\right)\\left(x - \\frac{-10+3\\sqrt{10}}{5}\\right) \\le 0 \\\\ \\left\\{ \\begin{array}{l} x(x+4) > 0 \\\\ x^2+4x-5 \\le 0 \\end{array} \\right. \\end{array} \\right. $$ Снова используем для решения метод интервалов:\nЗначит: $$ \\left[ \\begin{array}{l}\\left(x - \\frac{-10-3\\sqrt{10}}{5}\\right)\\left(x - \\frac{-10+3\\sqrt{10}}{5}\\right) \\le 0 \\\\ \\left\\{ \\begin{array}{l} x(x+4) > 0 \\\\ x^2+4x-5 \\le 0 \\end{array} \\right. \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l} x \\in \\left[\\frac{-10-3\\sqrt{10}}{5};\\frac{-10+3\\sqrt{10}}{5}\\right] \\\\ \\left\\{ \\begin{array}{l} x \\in (-\\infty; -4) \\cup (0; +\\infty) \\\\ x \\in [-5;1] \\end{array} \\right. \\end{array} \\right. $$\nТогда: $$ \\left[ \\begin{array}{l} x \\in \\left[\\frac{-10-3\\sqrt{10}}{5};\\frac{-10+3\\sqrt{10}}{5}\\right] \\\\ \\left\\{ \\begin{array}{l} x \\in (-\\infty; -4) \\cup (0; +\\infty) \\\\ x \\in [-5;1] \\end{array} \\right. \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l} x \\in \\left[\\frac{-10-3\\sqrt{10}}{5};\\frac{-10+3\\sqrt{10}}{5}\\right] \\\\ x \\in [-5;-4) \\cup (0;1] \\end{array} \\right. $$ Сравним значение выражения \\(\\frac{-10-3\\sqrt{10}}{5}\\) и \\(-4\\): $$ \\frac{-10-3\\sqrt{10}}{5} \\ \\vee \\ -4 \\ \\ | \\cdot 5 \\\\ -10-3\\sqrt{10}\\ \\vee \\ -20 \\ \\ | + 10 \\\\ -3\\sqrt{10} \\ \\vee \\ -10 \\ \\ | : 3 \\\\ -\\sqrt{10} \\ \\vee \\ -\\frac{10}{3} \\\\ \\sqrt{10} = \\sqrt{\\dfrac{90}{9}} < \\sqrt{\\dfrac{100}{9}} = \\dfrac{10}{3} \\Rightarrow -\\sqrt{10} > -\\dfrac{10}{3} \\Rightarrow \\dfrac{-10-3\\sqrt{10}}{5} > -4$$ Сравним значение выражения \\(\\frac{-10+3\\sqrt{10}}{5}\\) и \\(0\\): $$ \\frac{-10+3\\sqrt{10}}{5} \\ \\vee \\ 0 \\ \\ | \\cdot 5 \\\\ -10+3\\sqrt{10}\\ \\vee \\ 0 \\ \\ | + 10 \\\\ 3\\sqrt{10} \\ \\vee \\ 10 \\ \\ | : 3 \\\\ \\sqrt{10} \\ \\vee \\ \\frac{10}{3} \\\\ \\sqrt{10} = \\sqrt{\\dfrac{90}{9}} < \\sqrt{\\dfrac{100}{9}} = \\dfrac{10}{3} \\Rightarrow \\dfrac{-10+3\\sqrt{10}}{5} < 0 $$ Сравним значение выражения \\(\\frac{-10+3\\sqrt{10}}{5}\\) и \\(-4\\): $$ \\frac{-10+3\\sqrt{10}}{5} \\ \\vee \\ -4 \\ \\ | \\cdot 5 \\\\ -10+3\\sqrt{10}\\ \\vee \\ -20 \\ \\ | + 10 \\\\ 3\\sqrt{10} \\ \\vee \\ -10 \\ \\ | : 3 \\\\ \\sqrt{10} \\ \\vee \\ -\\frac{10}{3} \\\\ -\\frac{10}{3} < 0 < \\sqrt{10} \\Rightarrow \\frac{-10+3\\sqrt{10}}{5} > -4 $$ Значит:\n\nТогда: $$ \\left[ \\begin{array}{l} x \\in \\left[\\frac{-10-3\\sqrt{10}}{5};\\frac{-10+3\\sqrt{10}}{5}\\right] \\\\ x \\in [-5;-4) \\cup (0;1] \\end{array} \\right. \\Rightarrow x \\in [-5;-4) \\cup \\left[\\frac{-10-3\\sqrt{10}}{5}; \\frac{-10+3\\sqrt{10}}{5}\\right] \\cup (0;1] $$\nОтвет: \\([-5;-4) \\cup \\left[\\frac{-10-3\\sqrt{10}}{5}; \\frac{-10+3\\sqrt{10}}{5}\\right] \\cup (0;1]\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2468,
+    "title": "15.2 Замена"
+  },
+  "id": 36337,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решить неравенство: \\(\\dfrac{10}{x^2+4x} + 23 \\ge 5(x^2+4x)\\).",
+      "error_conditions": null,
+      "id": 255987,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/watch?v=dQDW_xKHLIQ&t=10035s"
+}

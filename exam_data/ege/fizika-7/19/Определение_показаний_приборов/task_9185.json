@@ -1,0 +1,42 @@
+{
+  "comment": "Из рисунка видно, что между метками «0,2» и «0,4» укладывается 10 делений, значит, цена деления равна 0,02 А. Погрешность по условию равна цене деления. Стрелка амперметра указывает на отметку 0,20 (с точностью до цены деления). Таким образом, показания прибора: (0,20 ± 0,02) А.\n\nОтвет: 0,200,02",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2645,
+    "title": "Определение показаний приборов"
+  },
+  "id": 9185,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,200,02",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задание ЕГЭ 2022 (Урал)\nОпределите показания амперметра (см. рис.), если погрешность прямого измерения силы тока равна цене деления амперметра. Ответ дайте в А. Значение и погрешность запишите слитно без пробела.",
+      "error_conditions": [],
+      "id": 112929,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8_9gA3sIEWo?start=11491"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/8_9gA3sIEWo?start=11491"
+}

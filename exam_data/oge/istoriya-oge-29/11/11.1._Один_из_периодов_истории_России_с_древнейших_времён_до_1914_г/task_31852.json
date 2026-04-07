@@ -1,0 +1,42 @@
+{
+  "comment": "Не левой части марки изображено Крещение Владимира Святославича, а он крестился в г. Корсунь",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3101,
+    "title": "11.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 31852,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите город, в котором произошло событие, изображённое в левой части марки.\n\n1) Константинополь\n2) Корсунь\n3) Новгород\n4) Рязань",
+      "error_conditions": [],
+      "id": 251491,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

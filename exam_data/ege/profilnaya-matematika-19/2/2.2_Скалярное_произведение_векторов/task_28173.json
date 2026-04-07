@@ -1,0 +1,45 @@
+{
+  "comment": "1 способ:\n$$3\\vec{a}=(2,2\\cdot 3;-4\\cdot 3)=(6,6;-12)\\\\ 4\\vec{b}=(-1,25\\cdot 4;-1\\cdot 4)=(-5;-4)$$\nСкалярное произведение найдем по формуле:\n$$3\\vec{a}\\cdot 4\\vec{b}=x_1\\cdot x_2+y_1\\cdot y_2=6,6\\cdot (-5)+(-12)\\cdot (-4)=-33+48=15$$\n2 способ:\n$$3\\vec{a}\\cdot 4\\vec{b}=12\\cdot\\vec{a}\\cdot\\vec{b}=12(x_1\\cdot x_2+y_1\\cdot y_2)=12\\cdot (-2,75+4)=12\\cdot 1,25=15$$\nОтвет: 15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2383,
+    "title": "2.2 Скалярное произведение векторов"
+  },
+  "id": 28173,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны векторы \\(\\vec{a}(2,2;-4)\\) и \\(\\vec{b}(-1,25;-1)\\). Найдите скалярное произведение векторов \\(3\\vec{a}\\) и \\(4\\vec{b}\\).",
+      "error_conditions": [],
+      "id": 247812,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/4wKw-BzjTUQ?si=7bksC3igCyPTheys&t=3028"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/live/4wKw-BzjTUQ?si=7bksC3igCyPTheys&t=3028"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1542,
+    "title": "№23 Базовые"
+  },
+  "id": 23203,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2123_3\nИсполнитель преобразует число на экране. У исполнителя есть две команды, которым присвоены номера:\n1. Отнять 2\n2. Отнять 5\nПервая команда уменьшает число на экране на 2, вторая на 5. Сколько существует программ, для которых при исходном числе 17 результатом является число 1?",
+      "error_conditions": [],
+      "id": 242928,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 480,
+  "topic": {
+    "id": 40,
+    "title": "Количество программ"
+  },
+  "video_link": null
+}

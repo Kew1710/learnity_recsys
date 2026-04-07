@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо условию сопротивления проводников равны: $$R_1=R_2=R$$\nРаботу тока будем искать по формуле: $$A=\\frac{U^2}{R}$$\nРабота тока в первом проводнике равна: $$A_1=\\frac{U_1^2}{R}=\\frac{3^2}{R}=\\frac{9}{R}$$\nА во втором: $$A_2=\\frac{U_2^2}{R}=\\frac{9^2}{R}=\\frac{81}{R}$$\nТогда $$A_2=9A_1$$\nИскомое отношение составляет: $$\\frac{A_2}{A_1}=\\frac{9}{1}=9$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 18370,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке приведена столбчатая диаграмма. На ней представлены значения напряжения на концах двух проводников (1) и (2) одинакового сопротивления. Найдите отношение работы тока \\(\\frac{A_2}{A_1}\\) в этих проводниках за одно и то же время.",
+      "error_conditions": [],
+      "id": 238212,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/LB7z0Uliu60"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/LB7z0Uliu60"
+}

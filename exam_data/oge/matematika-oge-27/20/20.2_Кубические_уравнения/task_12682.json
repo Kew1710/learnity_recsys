@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(x^3+2x^2=9x+18\\)\n\\(x^2(x+2)9(x+2)=0\\)\n\\((x+2)(x^2-9)=0\\)\n\\((x+2)(x-3)(x+3)=0\\)\n\\(x=-2\\) или \\(x=3\\) или \\(x=-3\\)\nОтвет: \\(-2, -3, 3\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2049,
+    "title": "20.2 Кубические уравнения"
+  },
+  "id": 12682,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(x^3+2x^2=9x+18\\) .",
+      "error_conditions": null,
+      "id": 172482,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

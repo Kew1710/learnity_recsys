@@ -1,0 +1,37 @@
+{
+  "comment": "1) 2NaHCO₃ = Na₂CO₃ + CO₂↑ + H₂O\n2) 2KOH + CO₂ = K₂CO₃ + H₂O\n3) 3K₂CO₃ + Cr₂(SO₄)₃ + 3H₂O = 2Cr(OH)₃↓ + 3CO₂↑ + 3K₂SO₄\n4) 2Cr(OH)₃ + 3H₂O₂ + 4KOH = 2K₂CrO₄ + 8H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 753,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Гидрокарбонат натрия прокалили. Выделившийся при этом газ пропустили через избыток раствора гидроксида калия. К полученному раствору прилили раствор сульфата хрома(III) и наблюдали выпадение осадка и выделение газа. Осадок отделили и обработали при нагревании раствором, содержащим пероксид водорода и гидроксид калия, при этом наблюдалось окрашивание раствора в желтый цвет. Напишите уравнения четырех описанных реакций.",
+      "error_conditions": null,
+      "id": 52307,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pWM5ltpZw0w?start=3128"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(8x^2-10x+2=0\\)\n\\(D=b^2-4ac=100-4 \\cdot 8 \\cdot 2=36\\)\n\\(x_1=\\cfrac{10+6}{16}=1\\)\n\\(x_2=\\cfrac{10-6}{16}=0,25\\)\nОтвет: \\(0,25\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2057,
+    "title": "9.4 Полные квадратные уравнения"
+  },
+  "id": 18341,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(8x^2-10x+2=0\\). Если уравнение имеет более одного корня, в ответ запишите меньший из корней.",
+      "error_conditions": [],
+      "id": 238183,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

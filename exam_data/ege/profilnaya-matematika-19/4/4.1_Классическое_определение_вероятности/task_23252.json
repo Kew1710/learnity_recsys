@@ -1,0 +1,45 @@
+{
+  "comment": "Из 25 билетов (общее количество исходов) только 2 (количество благоприятных исходов) содержат вопрос о грибах, поэтому вероятность того, что в случайно выбранном на экзамене билете школьнику достанется вопрос о грибах, равна:\n$$P=\\frac{2}{25}=0,08$$\nОтвет: 0,08",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 23252,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,08",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В сборнике билетов по биологии всего 25 билетов. Только в двух билетах встречается вопрос о грибах. На экзамене выпускнику достаётся один случайно выбранный билет из этого сборника. Найдите вероятность того, что в этом билете будет вопрос о грибах.",
+      "error_conditions": [],
+      "id": 242977,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 63,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=1415s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=1415s"
+}

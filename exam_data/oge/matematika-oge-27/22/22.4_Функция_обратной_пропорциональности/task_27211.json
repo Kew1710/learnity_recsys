@@ -1,0 +1,37 @@
+{
+  "comment": ".",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2009,
+    "title": "22.4 Функция обратной пропорциональности"
+  },
+  "id": 27211,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Постройте график функции \\( y = \\cfrac{1}{2}( | \\cfrac{x}{5,5} - \\cfrac{5,5}{x} | + \\cfrac{x}{5,5} + \\cfrac{5,5}{x}) \\). Определите, при каких значениях \\(m\\) прямая \\(y=m\\) имеет с графиком ровно одну общую точку.",
+      "error_conditions": null,
+      "id": 246850,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

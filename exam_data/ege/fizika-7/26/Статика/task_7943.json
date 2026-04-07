@@ -1,0 +1,37 @@
+{
+  "comment": "Для того чтобы цилиндр в этом случае находился в равновесии, необходимо, чтобы векторная сумма сил, действующих на него, была равна нулю.\n\nЗапишем второй закон Ньютона в проекции на горизонтальную и вертикальную оси:\n\n$$\n\\begin{aligned}\n& N_1-N_2 \\cos a=0 \\Rightarrow N_1=N_2 \\cos a \\\\\n& N_2 \\sin a-m g=0 \\Rightarrow m=\\frac{N_2 \\sin a}{g}\n\\end{aligned}\n$$\n\nРешаем систему с учетом того, что $N_2=n N_1$ :\n$$\n\\begin{gathered}\nN_1=n N_1 \\cos a\\Rightarrow \\cos a=\\frac{1}{n}\\Rightarrow a=\\arccos \\left(\\frac{1}{n}\\right)=\\arccos \\left(\\frac{1}{3}\\right)=70,528^{\\circ} \\\\\nm=\\frac{N_2 \\sin a}{g}=\\frac{n N_1 \\sin a}{g}=\\frac{3\\cdot 10\\cdot\\left(\\sin 70,528^{\\circ}\\right)}{10}=2,8~кг\n\\end{gathered}\n$$\n\nОтвет: 2,8 кг",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2618,
+    "title": "Статика"
+  },
+  "id": 7943,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "0CDBF9\nГладкий цилиндр лежит между двумя плоскостями, одна из которых вертикальна, а линия их пересечения горизонтальна (см. рисунок). Сила давления цилиндра на вертикальную стенку равна \\(10~Н\\) и в \\(n = 3\\) раза меньше, чем сила давления на цилиндр со стороны другой плоскости. Определите массу цилиндра. Сделайте рисунок, на котором укажите силы, действующие на цилиндр. Какие законы Вы использовали в данной задаче? Обоснуйте их применение.",
+      "error_conditions": null,
+      "id": 100726,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=\\frac{( x-15)( x+15)}{\\left( x^{2} +225\\right)^{2}} =0\\Rightarrow x_{1} =-15,x_{2} =15$$\nРассмотрим промежутки \\(( -\\infty ;-15) ,\\ [ -15;15] ,\\ ( 15;+\\infty )\\):\nНа \\(( -\\infty ;-15)\\) производная функции положительна, значит, функция возрастает.\nНа \\([ -15;15]\\) производная функции отрицательна, значит, функция убывает.\nНа \\(( 15;+\\infty )\\) производная функции положительна, значит, функция возрастает.\n\nПолучаем \\(x_{1} =−15\\) - точка максимума.\n\nОтвет: -15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2446,
+    "title": "12.3 Дробно-рациональная функция"
+  },
+  "id": 7597,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку максимума функции \\(y=-\\frac{x}{x^2+225}\\).",
+      "error_conditions": [],
+      "id": 98740,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=4284"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=4284"
+}

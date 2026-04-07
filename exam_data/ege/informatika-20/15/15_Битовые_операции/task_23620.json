@@ -1,0 +1,45 @@
+{
+  "comment": "Python\n\nfor a in range(1000, 1, -1):\nf = True\nfor x in range(1, 10000):\nif not(( x & 30 != 4) or ((x & 35 == 1) <= (x & a == 0))):\nf = False\nbreak\nif f:\nprint(a)\nbreak",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2732,
+    "title": "№15 Битовые операции"
+  },
+  "id": 23620,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "58",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: DOSR2315_4\n(ДОСРОК 2023) Определите наибольшее натуральное число A, при котором логическое выражение\n( x & 30 ≠ 4) ∨ ((x & 35 = 1) → (x & A = 0))\nтождественно истинно (то есть принимает значение 1 при любом натуральном значении переменной x)?",
+      "error_conditions": [],
+      "id": 243345,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": null
+}

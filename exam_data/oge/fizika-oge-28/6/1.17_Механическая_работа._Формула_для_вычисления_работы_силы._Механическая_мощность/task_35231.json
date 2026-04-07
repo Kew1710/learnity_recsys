@@ -1,0 +1,42 @@
+{
+  "comment": "Перемещение шара \\(S\\) составляет: $$S=h_1-h_2=4-3=1~м$$\nРабота силы тяжести считается по формуле: $$A=FS\\cos \\alpha=mgS\\cos \\alpha$$\nСила тяжести и перемещение шара сонаправлены, угол между ними равен нулю, \\(\\cos \\alpha =1\\), формула работы принимает вид: $$A=mgS$$\nПодставим числовые значения: $$A=0,1\\cdot 10\\cdot 1=1~Дж$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3225,
+    "title": "1.17 Механическая работа. Формула для вычисления работы силы. Механическая мощность"
+  },
+  "id": 35231,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Мяч массой 100 г вертикально падает с высоты 4 м, отскакивает от поверхности Земли и поднимается вертикально вверх на высоту 3 м. Чему равна работа силы тяжести на всём пути мяча?\nОтвет: _____ Дж.",
+      "error_conditions": [],
+      "id": 254870,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Возьмём производную: $$ y' = 5\\cos{x} - 6 $$\nПриравняем производную к \\(0\\), чтобы найти стационарные точки: $$ 5\\cos{x} - 6 = 0 \\Rightarrow \\cos{x} = \\dfrac{6}{5} > 1 \\Rightarrow x \\in \\varnothing $$\nПолучили, что уравнение не имеет решений, значит функция не имеет экстремумов \\(\\Rightarrow\\) она либо всегда возрастает, либо всегда убывает\n$$ \\cos{x} \\in \\left[-1;1\\right] \\\\ \\Rightarrow 5\\cos{x} \\in \\left[-5;5\\right] \\\\ \\Rightarrow 5\\cos{x} - 6 \\in \\left[-11;-1\\right]$$ Получили, что производная всегда отрицательна, значит функция убывает на всём отрезке, в таком случае наибольшее значение будет при наименьшем значении \\(x\\): $$ y = 5 \\cdot 0 - 6 \\cdot 0 + 3 = 3 $$\nОтвет: 3",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2447,
+    "title": "12.4 Тригонометрическая функция"
+  },
+  "id": 35865,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y = 5\\sin{x} - 6x + 3\\) на отрезке \\(\\left[0;\\dfrac{\\pi}{2}\\right]\\).",
+      "error_conditions": [],
+      "id": 255504,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=0Stp4w7BeSVMeQPn&t=11517"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=0Stp4w7BeSVMeQPn&t=11517"
+}

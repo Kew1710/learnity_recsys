@@ -1,0 +1,37 @@
+{
+  "comment": "По второму закону Ньютона в проекции на \\(OY\\) в первом случае:\n$$2T_1 - mg - F_a=0~(1)$$\nво втором случае:\n$$2T_2-mg + F_a=0~(2)$$\nСила Ампера:\n$$F_a=IBl\\sin\\alpha$$\nтак как вектор магнитной индукции перпендикулярен проводнику \\(\\sin\\alpha=1\\)\nПоделим \\(2\\) на \\(1\\):\n$$\\frac{T_2}{T_1}=\\frac{mg+IBl}{mg~–~IBl}=\\frac{\\frac{m}{l}g+IB}{\\frac{m}{l}~–~IB}=\\frac{0,01\\cdot 10+5\\cdot 10\\cdot 10^{-3}}{0,01\\cdot 10~–~5\\cdot 10\\cdot 10^{-3}}=3$$\nОтвет: 3",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 5603,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание 22577\nПрямолинейный проводник подвешен горизонтально на двух нитях в однородном магнитном поле с индукцией \\(B=10\\) мТл. Вектор магнитной индукции горизонтален и перпендикулярен проводнику. Во сколько раз изменится сила натяжения нитей при изменении направления тока на противоположное? Масса единицы длины проводника \\(\\frac{m}{l}=0,01\\) кг/м, сила тока в проводнике \\(I=5\\) А.",
+      "error_conditions": null,
+      "id": 71950,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/tcCaqlb_UdM?start=2285"
+}

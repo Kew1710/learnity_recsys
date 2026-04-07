@@ -1,0 +1,45 @@
+{
+  "comment": "Процентная концентрация раствора (массовая доля) равна:\n$$\\omega =\\frac{m_{в-ва}}{m_{р-ра}} \\cdot 100\\%$$\nМасса получившегося раствора по условию равна двум исходным - \\(2m\\), тогда: $$\\frac{0,12m+0,14m}{2m} \\cdot 100\\%=\\frac{0,26}{2} \\cdot 100\\%=13\\%$$\nОтвет: 13",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2434,
+    "title": "10.7 Смеси, сплавы и растворы"
+  },
+  "id": 7399,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Смешали некоторое количество \\(12\\) - процентного раствора некоторого вещества с таким же количеством \\(14\\) - процентного раствора этого вещества. Сколько процентов составляет концентрация получившегося раствора?",
+      "error_conditions": [],
+      "id": 97997,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9ZV8k3kGKyM?start=4908"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/9ZV8k3kGKyM?start=4908"
+}

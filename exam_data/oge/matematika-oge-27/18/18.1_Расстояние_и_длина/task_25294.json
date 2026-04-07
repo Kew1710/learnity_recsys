@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРасстояние (перпендикуляр) от А до ВС равно 4 см",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1990,
+    "title": "18.1 Расстояние и длина"
+  },
+  "id": 25294,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На клетчатой бумаге с размером клетки 1 см × 1 см отмечены точки А, В и С. Найдите расстояние от точки А до прямой ВС. Ответ выразите в сантиметрах.",
+      "error_conditions": [],
+      "id": 244951,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

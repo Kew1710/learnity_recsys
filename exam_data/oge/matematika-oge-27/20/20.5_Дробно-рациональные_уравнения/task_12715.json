@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{1}{(x-3)^2}-\\cfrac{3}{x-3}-3=0\\)\nОДЗ: \\(x-3 \\neq 0\\)\n\\(\\Rightarrow x \\neq 3\\)\nПусть \\(x-3=t\\), тогда \\((x-3)^2=t^2\\)\nУмножим обе части уравнения на \\(t^2 \\neq 0\\)\n\\(1-3t-4t^2=0\\)\n\\(4t^2+3t-1=0\\)\n\\(D=9+12=16\\)\n\\(t_1=\\cfrac{1}{4}\\)\n\\(t_2=-1\\)\n\\(1) x-3=\\cfrac{1}{4}\\)\n\\(x=\\cfrac{13}{4}\\)\n\\(2) x-3=-1\\)\n\\(x=2\\)\nОтвет: \\(\\cfrac{13}{4}; 2\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2052,
+    "title": "20.5 Дробно-рациональные уравнения"
+  },
+  "id": 12715,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(\\cfrac{1}{(x-3)^2}-\\cfrac{3}{x-3}-4=0\\) .",
+      "error_conditions": null,
+      "id": 172515,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

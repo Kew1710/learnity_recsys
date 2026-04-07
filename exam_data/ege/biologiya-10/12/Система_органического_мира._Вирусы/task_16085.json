@@ -1,0 +1,42 @@
+{
+  "comment": "453261\nПояснение: нужно начать с наименьшей единицы систематики: минтай ->трескообразные -> костные рыбы -> рыбы -> позвоночные -> хордовые",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 16085,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "453261",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность систематических таксонов, начиная с наименьшего. Запишите в таблицу соответствующую последовательность цифр.\n1) Хордовые2) Рыбы3) Костные рыбы4) Минтай5) Трескообразные6) Позвоночные",
+      "error_conditions": [],
+      "id": 235992,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Сила упругости шара мала, поэтому давление внутри шара совпадает с давлением снаружи. Условие равновесия шара:\n$$F_A-mg-m_{об}g=0,$$\nгде \\(m\\) – масса гелия\nСила Архимеда:\n$$F_A=\\rho_вgV$$\nОбъем шара:\n$$V=\\frac{4}{3}\\pi r^3$$\nЗапишем уравнение Менделеева-Клапейрона для воздуха:\n$$p=\\frac{mRT}{VM}=\\frac{\\rho RT}{M}\\Rightarrow \\rho_в=\\frac{pM_в}{RT}$$\nДля гелия:\n$$pV=\\frac{m}{M_{He}}RT\\Rightarrow m=\\frac{pVM_{He}}{RT}$$\nПодставим полученные уравнения в условие равновесия:\n$$\\frac{pM_в}{RT}g\\frac{4}{3}\\pi r^3-\\frac{p\\frac{4}{3}\\pi r^3M_{He}}{RT}g=m_{об}g$$\n$$\\frac{pM_в}{RT}\\cdot \\frac{4}{3}\\pi r^3-\\frac{p\\frac{4}{3}\\pi r^3M_{He}}{RT}=m_{об}$$\n$$\\frac{4}{3}\\pi r^3\\frac{p}{RT}(M_в-M_{He})=m_{об}\\\\ r=\\sqrt[3]{\\frac{3}{4}\\cdot \\frac{m_{об}RT}{p(M_в-M_{He})\\pi}}=\\sqrt[3]{\\frac{3}{4}\\cdot \\frac{350\\cdot 8,31\\cdot 288}{10^5(0,029-0,004)\\cdot 3,14}}=4,31~м$$\nМасса одного квадратного метра оболочки:\n$$\\sigma =\\frac{m_{об}}{S}=\\frac{350}{4\\pi r^2}=\\frac{350}{4\\cdot 3,14\\cdot 4,31^2}=1,5~кг/м^2$$\nОтвет: 1,5 \\(кг/м^2\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2653,
+    "title": "МКТ и молекулярная физика"
+  },
+  "id": 9603,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23466\nПри атмосферном давлении \\(10^5\\) Па сферическую оболочку воздушного шара наполняют гелием. Минимальная масса оболочки, при которой шар начинает подниматься в воздух, равна \\(350\\) кг. Температура гелия и окружающего воздуха одинакова и равна \\(15~^\\circ С\\). Найдите массу одного квадратного метра оболочки. Площадь сферы \\(S=4\\pi R^2\\), объем шара \\(V=\\frac{4}{3}\\pi R^3\\).",
+      "error_conditions": null,
+      "id": 115442,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/dQAIblVvDwo"
+}

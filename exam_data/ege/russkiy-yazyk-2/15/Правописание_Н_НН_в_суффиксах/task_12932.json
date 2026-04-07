@@ -1,0 +1,42 @@
+{
+  "comment": "письменном - прилагательное, суффикс -енн-, НН\nпосвящённую - причастие, сов. вид + приставка + зависимые слова, НН\nнарисована - краткое причастие, Н\nиспытанное - причастие, сов. вид + зависимые слова, НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12932,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "124",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\n\nНа письме(1)ом столе отца Антон увидел книгу, посвящё(2)ую морю. На её обложке была нарисова(3)а бегущая по волнам шхуна – не испыта(4)ое ранее волнение охватило мальчика.",
+      "error_conditions": [],
+      "id": 174116,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

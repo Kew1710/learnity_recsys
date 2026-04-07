@@ -1,0 +1,42 @@
+{
+  "comment": "песчаный - прилагательное, суффикс –ан-, Н\nубранными - причастие, сов. вид + приставка, НН\nсеребряный - прилагательное, суффикс –ян-, Н",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12925,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется Н.\nНа картине Айвазовского мы видим, как о песча(1)ый берег бьются волны, вдали на рейде стоят корабли с убра(2)ыми парусами, а на тёмном небосклоне мерцает серебря(3)ый диск луны.",
+      "error_conditions": [],
+      "id": 174109,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

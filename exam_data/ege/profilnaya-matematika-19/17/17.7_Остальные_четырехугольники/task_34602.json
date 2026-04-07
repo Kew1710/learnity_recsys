@@ -1,0 +1,40 @@
+{
+  "comment": "а) По условию \\(ABCD\\) – параллелограмм, тогда \\(AD||BC\\Rightarrow \\angle PAE=\\angle PCB\\) как накрест лежащие. \\(\\angle BPC=\\angle EPA\\) как вертикальные. Значит, \\(\\Delta BPC\\sim\\Delta EPA\\) по двум углам. Тогда:\n$$\\frac{BC}{AE}=\\frac{PC}{AP}=\\frac{BP}{PE}$$\nПо условию \\(E\\) – середина стороны \\(AD\\), то есть \\(AE=\\frac{1}{2}AD=\\frac{1}{2}BC\\) (\\(ABCD\\) – параллелограмм, следовательно, \\(AD=BC\\)). Тогда:\n$$\\frac{BC}{AE}=\\frac{PC}{AP}=\\frac{BP}{PE}=2\\Rightarrow PE=\\frac{1}{2}BP$$\nТреугольник \\(APB\\) по условию прямоугольный. Тогда по теореме Пифагора:\n$$AB^2=AP^2+BP^2\\\\ BP^2=AB^2-AP^2$$\nПо условию \\(AB:BC=\\sqrt{7}:4\\Rightarrow 4AB=\\sqrt{7}BC\\Rightarrow AB=\\frac{\\sqrt{7}}{4}BC\\). Тогда:\n$$BP^2=AB^2-AP^2\\\\ BP^2=\\left(\\frac{\\sqrt{7}}{4}BC\\right)^2-AP^2\\\\ BP^2=\\frac{7}{16}BC^2-AP^2~(I)$$\nТреугольник \\(APE\\) по условию прямоугольный. Тогда по теореме Пифагора:\n$$AE^2=AP^2+PE^2\\\\ AP^2=AE^2-PE^2$$\nПо условию \\(AE=\\frac{1}{2}AD=\\frac{1}{2}BC\\), а \\(PE=\\frac{1}{2}BP\\). Тогда:\n$$AP^2=AE^2-PE^2\\\\ AP^2=\\left(\\frac{1}{2}BC\\right)^2-\\left(\\frac{1}{2}BP\\right)^2\\\\ AP^2=\\frac{1}{4}BC^2-\\frac{1}{4}BP^2~(II)$$\nПодставим \\((II)\\) в \\((I)\\):\n$$BP^2=\\frac{7}{16}BC^2-AP^2=\\frac{7}{16}BC^2-\\frac{1}{4}BC^2+\\frac{1}{4}BP^2\\\\ BP^2-\\frac{1}{4}BP^2=\\frac{7-4}{16}BC^2\\\\ \\frac{3}{4}BP^3=\\frac{3}{16}BC^2\\\\ 4BP^2=BC^2\\\\ \\frac{BC^2}{BP^2}=4$$\nПо условию \\(2AE=AD=BC\\), тогда:\n$$\\frac{BC^2}{BP^2}=\\frac{(2AE)^2}{BP^2}=4\\frac{AE^2}{BP^2}=4\\\\ \\frac{AE^2}{BP^2}=1$$\nПо смыслу \\(AE>0\\) и \\(BP>0\\). Значит:\n$$\\frac{AE^2}{BP^2}=1\\Rightarrow \\frac{AE}{BP}=1\\Rightarrow AE=BP$$\nЧто и требовалось доказать.\n\nб) Площадь параллелограмма может быть найдена как:\n$$S_{ABCD}=AB\\cdot AD\\cdot\\sin\\alpha=\\frac{\\sqrt{7}}{4}BC\\cdot BC\\cdot\\sin\\alpha=\\frac{\\sqrt{7}}{4}BC^2\\cdot\\sin\\alpha$$\nПо условию:\n$$AB:BC=\\sqrt{7}:4\\Rightarrow 4AB=\\sqrt{7}BC\\Rightarrow AB=\\frac{\\sqrt{7}}{4}BC=\\frac{\\sqrt{7}}{4}AD=\\frac{\\sqrt{7}}{4}\\cdot 2AE=\\frac{\\sqrt{7}}{2}AE$$\nИз п. а) \\(PE=\\frac{1}{2}BP\\) и \\(AE=BP\\). Пусть \\(AE=BP=x\\), тогда \\(PE=\\frac{1}{2}BP=\\frac{1}{2}x\\) и \\(BE=BP+PE=x+\\frac{1}{2}x=\\frac{3}{2}x\\).\n\nДля \\(\\Delta ABE\\) \\(AB=\\frac{\\sqrt{7}}{2}AE=\\frac{\\sqrt{7}}{2}x\\), \\(BE=\\frac{3}{2}x\\) и \\(AE=x\\). Тогда по теореме косинусов:\n$$BE^2=AB^2+AE^2-2\\cdot AB\\cdot AE\\cdot\\cos\\alpha\\\\ \\left(\\frac{3}{2}x\\right)^2=\\left(\\frac{\\sqrt{7}}{2}x\\right)^2+x^2-2\\cdot\\frac{\\sqrt{7}}{2}x\\cdot x\\cdot\\cos\\alpha\\\\ \\frac{9}{4}x^2=\\frac{7}{4}x^2+x^2-\\sqrt{7}x^2\\cdot\\cos\\alpha\\\\ \\sqrt{7}x^2\\cdot\\cos\\alpha=\\frac{7}{4}x^2+x^2-\\frac{9}{4}x^2=\\frac{7x^2+4x^2-9x^2}{4}=\\frac{1}{2}x^2$$\nПо смыслу \\(x>0\\), значит, можно поделить обе части уравнения на \\(x^2\\):\n$$\\sqrt{7}\\cos\\alpha=\\frac{1}{2}\\\\ \\cos\\alpha=\\frac{1}{2\\sqrt{7}}$$\nИспользуя основное тригонометрическое тождество \\(\\sin^2\\alpha+\\cos^2\\alpha=1\\), получим:\n$$\\sin\\alpha=\\sqrt{1-\\cos^2\\alpha}=\\sqrt{1-\\left(\\frac{1}{2\\sqrt{7}}\\right)^2}=\\sqrt{1-\\frac{1}{28}}=\\sqrt{\\frac{28-1}{28}}=\\sqrt{\\frac{27}{28}}=\\sqrt{\\frac{9\\cdot 3}{4\\cdot 7}}=\\frac{3}{2}\\cdot\\frac{\\sqrt{3}}{\\sqrt{7}}$$\nТогда:\n$$S_{ABCD}=\\frac{\\sqrt{7}}{4}BC^2\\cdot\\sin\\alpha=\\frac{\\sqrt{7}}{4}BC^2\\cdot\\frac{3}{2}\\cdot\\frac{\\sqrt{3}}{\\sqrt{7}}=6\\sqrt{3}\\\\ BC^2=\\frac{\\sqrt{7}}{4}\\cdot\\frac{3}{2}\\cdot\\frac{\\sqrt{3}}{\\sqrt{7}}=\\frac{6\\sqrt{3}\\cdot 4\\cdot 2}{3\\sqrt{3}}=16\\\\ BC=\\sqrt{16}=4$$\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2487,
+    "title": "17.7 Остальные четырехугольники"
+  },
+  "id": 34602,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В параллелограмме \\(ABCD\\) точка \\(E\\) – середина стороны \\(AD\\). Прямая \\(BE\\) пересекает диагональ \\(AC\\) в точке \\(P\\), при этом \\(BE\\bot AC\\). Известно, что \\(AB:BC=\\sqrt{7}:4\\).\nа) Докажите, что \\(BP=AE\\) параллельны;\nб) Найдите \\(BC\\), если площадь параллелограмма \\(ABCD\\) равна \\(6\\sqrt{3}\\).",
+      "error_conditions": null,
+      "id": 254241,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=f15OpCz2bow&t=6136s"
+}

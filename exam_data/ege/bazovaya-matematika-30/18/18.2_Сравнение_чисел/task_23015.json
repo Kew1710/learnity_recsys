@@ -1,0 +1,42 @@
+{
+  "comment": "По таблице квадратов (есть в справочных материалах) оценим числа: \\(\\sqrt{11} \\approx 3,3\\), \\(\\sqrt{3} \\approx 1,7\\).\nРассмотрим каждое число:\n- \\(\\sqrt{11} + \\sqrt{3} \\approx 3,3 + 1,7 \\approx 5\\) - соответствует точке \\(C\\)\n- \\(\\sqrt{11} \\cdot \\sqrt{3} \\approx 3,3 \\cdot 1,7 \\approx 5,61\\) - соответствует точке \\(D\\)\n- \\(\\sqrt{11} - \\sqrt{3} \\approx 3,3 - 1,7 \\approx 1,6\\) - соответствует точке \\(A\\)\n- \\((\\sqrt{3})^3 - 2 \\approx 3\\cdot \\sqrt{3} - 2 \\approx 3\\cdot 1,7 - 2 \\approx 5,1 - 2 \\approx 3,1\\) - соответствует точке \\(B\\)\n\nОтвет: 3412",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2128,
+    "title": "18.2 Сравнение чисел"
+  },
+  "id": 23015,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3412",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечены точки \\(A, \\; B, \\; C\\;и \\; D\\).\nКаждому из четырёх чисел в левом столбце соответствует отрезок, которому оно принадлежит.\nУстановите соответствие между числами и отрезками\nиз правого столбца.\nДля каждой точки укажите номер соответствующего числа.",
+      "error_conditions": [],
+      "id": 242741,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

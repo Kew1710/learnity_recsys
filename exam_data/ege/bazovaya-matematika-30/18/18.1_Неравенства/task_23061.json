@@ -1,0 +1,42 @@
+{
+  "comment": "Рассмотрим каждое неравенство:\nА) \\(\\frac{x-5}{(x-3)^2} < 0\\). Воспользуемся методом интервалов и учтем, что справа и слева от 3 будут одинаковые знаки, так как выражение \\(x-3\\) в четной степени:\nТогда А - 4.\nБ) \\(5^{-x+1} < \\frac{1}{25} \\Leftrightarrow 5^{-x+1}<5^{-2} \\Leftrightarrow -x+1< -2 \\Leftrightarrow x>3\\). Следовательно, Б - 2.\nВ) \\((x-3)(x-5)>0\\). Воспользуемся методом интервалов:\nСледовательно, В - 1.\nГ) \\(\\log_2 (x-3) < 1 \\Leftrightarrow \\left\\{ \\begin{gathered} x-3>0\\\\x-3<2\\\\\\end{gathered}\\right.\\Leftrightarrow \\left\\{ \\begin{gathered} x>3\\\\x<5\\\\\\end{gathered}\\right.\\). Следовательно, Г - 3.\nОтвет: 4213.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2127,
+    "title": "18.1 Неравенства"
+  },
+  "id": 23061,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4213",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каждому из четырёх неравенств в левом столбце соответствует одно из решений в правом столбце. Установите соответствие между неравенствами и их решениями.\nДля каждого неравенства укажите соответствующий номер решения.",
+      "error_conditions": [],
+      "id": 242787,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

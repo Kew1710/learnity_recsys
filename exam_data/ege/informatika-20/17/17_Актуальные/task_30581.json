@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1519,
+    "title": "№17 Актуальные"
+  },
+  "id": 30581,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "748 826",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Файл содержит последовательность неотрицательных целых чисел, не превышающих 10 000. Назовём парой два идущих подряд элемента последовательности. Определите количество пар, в которых ровно один из двух элементов делится на 3, а модуль их разности меньше наименьшего нечётного элемента последовательности. В ответе запишите два числа: сначала количество найденных пар, а затем - максимальный модуль разности элементов таких пар.\nОтветы запишите через пробел",
+      "error_conditions": [],
+      "id": 250220,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/RayHJzFysrc?feature=share&t=9645"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 36,
+    "title": "Обработка числовой последовательности"
+  },
+  "video_link": "https://www.youtube.com/live/RayHJzFysrc?feature=share&t=9645"
+}

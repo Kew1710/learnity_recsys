@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо теореме Пифагора\n\\(AC^2 = AB^2 + BC^2 \\)\n\\(AC = \\sqrt{AB + BC}\\)\n\\(AC = \\sqrt{400 + 441}\\)\n\\(AC = \\sqrt{841}\\)\n\\(AC = 29\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1976,
+    "title": "15.5 Теорема Пифагора"
+  },
+  "id": 20185,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "29",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Катеты прямоугольного треугольника равны 20 и 21. Найдите гипотенузу этого треугольника.",
+      "error_conditions": [],
+      "id": 240001,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

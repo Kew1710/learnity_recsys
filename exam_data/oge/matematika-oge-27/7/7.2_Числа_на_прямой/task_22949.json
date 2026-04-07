@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо прямой поймем, что число находится между 4 и 5\nВозведем числа в квадрат\n\\( 4^2 = 16\\)\n\\( 5^2 = 25\\)\n\\( \\sqrt{16} < \\sqrt{17} < \\sqrt{22} < \\sqrt{25}\\)\nУвидим, что число на прямой расположено ближе к 4, чем к 5\n\\(\\Rightarrow\\) искомое число - \\(\\sqrt{17}\\)\nОтвет: 1",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22949,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Одно из чисел отмечено на прямой точкой A. Какое это число?",
+      "error_conditions": [],
+      "id": 242675,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

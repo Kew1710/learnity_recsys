@@ -1,0 +1,40 @@
+{
+  "comment": "а) По формуле синуса суммы углов: \\(\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\sin\\beta\\cos\\alpha\\)\n$$2\\sqrt{3}\\sin\\left(\\sin x\\cos\\frac{\\pi}{3}+\\sin\\frac{\\pi}{3}\\cos x\\right)-\\cos 2x=3\\cos x-1\\\\ 2\\sqrt{3}\\left(\\frac{1}{2}\\sin x+\\frac{\\sqrt{3}}{2}\\cos x\\right)-\\cos 2x=3\\cos x-1\\\\ \\sqrt{3}\\sin x+3\\cos x-\\cos 2x=3\\cos x-1$$\nПо формуле косинуса двойного угла: \\(\\cos 2x=1-2\\sin^2x\\)\n$$\\sqrt{3}\\sin x-1+2\\sin^2x=-1\\\\ 2\\sin^2x+\\sqrt{3}\\sin x=0\\Leftrightarrow\\sin x(2\\sin x+\\sqrt{3})=0\\\\ \\displaystyle \\left[ \\begin{array}{l l}\n\\sin x=0\\\\\n\\sin x=-\\frac{\\sqrt{3}}{2}\n\\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l}\nx=\\pi k\\\\\nx=-\\frac{2\\pi }{3} +2\\pi k\\\\\nx=-\\frac{\\pi }{3} +2\\pi k\n\\end{array} \\right. ,k\\in Z$$\nб) Отберем корни на промежутке \\(\\left[2\\pi;\\frac{7\\pi}{2}\\right]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$2\\pi;3\\pi\\\\ 3\\pi+\\frac{\\pi}{3}=\\frac{10\\pi}{3}$$\nОтвет: а) {\\(\\pi k;-\\frac{2\\pi}{3}+2\\pi k;-\\frac{\\pi}{3}+2\\pi k:k\\in Z\\)}, б) \\(2\\pi;3\\pi;\\frac{10\\pi}{3}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 10317,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(2\\sqrt{3}\\sin\\left(x+\\frac{\\pi}{3}\\right)-\\cos 2x=3\\cos x-1\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[2\\pi;\\frac{7\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 137081,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

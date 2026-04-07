@@ -1,0 +1,42 @@
+{
+  "comment": "запятая 2 выделяет придаточное определительное «семена которых можно высевать летом или под зиму»",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 898,
+    "title": "Знаки препинания в сложноподчиненном предложении"
+  },
+  "id": 15300,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расставьте все знаки препинания: укажите цифру(-ы), на месте которой(-ых) в предложении должна(-ы) стоять запятая(-ые).\nЗа обильное цветение (1) ценятся герани (2) семена (3) которых (4) можно высевать летом или под зиму.",
+      "error_conditions": [],
+      "id": 222605,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

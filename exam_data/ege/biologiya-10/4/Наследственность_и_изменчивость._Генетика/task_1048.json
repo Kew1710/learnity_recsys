@@ -1,0 +1,42 @@
+{
+  "comment": "Признак появляется у мужчин в каждом поколении и отсутствует у женщин - значит, он сцеплен с У-хромосомой. Вероятность получить У-хромосому от отца с признаком составляет 50%.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 1048,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "50",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "По изображённой на рисунке родословной определите вероятность (в процентах) рождения в браке 1 ребёнка с признаком, обозначенным чёрным цветом, если признак сцеплен с полом. Ответ запишите в виде числа.",
+      "error_conditions": [],
+      "id": 52608,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8iIZ8H2Dcgs?start=111"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/8iIZ8H2Dcgs?start=111"
+}

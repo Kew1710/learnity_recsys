@@ -1,0 +1,42 @@
+{
+  "comment": "А) Реакция ионного обмена между нерастворимым гидроксидом и кислотой:\nMn(OH)₂ + 2HCl → MnCl₂ + 2H₂O\nБ) Окислительно-восстановительная реакция с участием сильного восстановителя Mn⁺²:\nMnCl₂ + 2H₂O₂ + 4KOH → K₂MnO₄ + 2KCl + 4H₂O\nВ) Окислительно-восстановительная реакция с участием сильного окислителя Mn⁺⁷:\n2KMnO₄ + 16HCl → 5Cl₂ + 2MnCl₂ + 2KCl + 8H₂O\nГ) Взаимодействие металла средней активности (до H₂) с кислотой-неокислителем:\nMn + 2HCl → MnCl₂ + H₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 6239,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5316",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТЫ РЕАКЦИИ\nА) Mn(OH)₂ + HCl1) Cl₂ + MnCl₂ + KCl + H₂OБ) MnCl₂ + H₂O₂ + KOH2) Cl₂ + MnO₂ + KCl + H₂OВ) KMnO₄ + HCl3) K₂MnO₄ + KCl + H₂OГ) Mn + HCl4) Mn(OH)₂ + KCl 5) MnCl₂ + H₂O 6) MnCl₂ + H₂",
+      "error_conditions": [],
+      "id": 72854,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=3392"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=3392"
+}

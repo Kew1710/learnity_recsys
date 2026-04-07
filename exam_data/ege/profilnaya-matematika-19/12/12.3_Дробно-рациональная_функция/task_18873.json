@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=\\frac{2x\\cdot x-(x^2+9)\\cdot 1}{x^2}=\\frac{2x^2-x^2-9}{x^2}=\\frac{(x-3)(x+3)}{x^2}$$\n\\(-3\\) - точка максимума на отрезке \\([-11; -1]\\), значит, в ней достигается наибольшее значение функции:\n$$y(-3)=\\frac{3^2+9}{-3}=-6$$\nОтвет: -6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2446,
+    "title": "12.3 Дробно-рациональная функция"
+  },
+  "id": 18873,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y=\\frac{x^2+9}{x}\\) на отрезке \\([-11;-1]\\).",
+      "error_conditions": [],
+      "id": 238711,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/EhoR_a4s9ys?t=8837"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/EhoR_a4s9ys?t=8837"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Удовлетворяет исходов – \\(1\\).\n$$\\frac{1}{4}=0,25$$\nОтвет: 0,25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 4167,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В случайном эксперименте симметричную монету бросают дважды. Найдите вероятность того, что орёл не выпадет ни разу.",
+      "error_conditions": [],
+      "id": 66588,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WLZb7XtIGlY?start=2063"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/WLZb7XtIGlY?start=2063"
+}

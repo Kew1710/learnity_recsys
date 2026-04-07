@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем формулу КПД,где полезная работа – это подъем груза: $$\\eta=\\frac{A_{п}}{A_{зат}}=\\frac{mgh}{UIt}$$ Подставим числа и найдем напряжение: $$0,6=\\frac{190\\cdot 10\\cdot 9}{U\\cdot 1,5\\cdot 50}\\\\U=\\frac{190\\cdot 10\\cdot 9}{0,6\\cdot 1,5\\cdot 50}= 380~В$$ Ответ: $380~B$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34890,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Транспортер равномерно поднимает груз массой $190$ кг на высоту $9$ м за $50$ с. Сила тока в электродвигателе равна $1,5$ А. КПД двигателя транспортера составляет $60$%. Определите напряжение в электрической сети.",
+      "error_conditions": null,
+      "id": 254529,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

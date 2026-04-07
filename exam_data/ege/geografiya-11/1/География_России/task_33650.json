@@ -1,0 +1,42 @@
+{
+  "comment": "Для выполнения задания необходимо воспользоваться мировой картой.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3321,
+    "title": "География России"
+  },
+  "id": 33650,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 11,
+    "task_count": 0,
+    "title": "География"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "аргентина",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Город Рио-Куарто имеет географические координаты 33° 37' ю.ш. 65° 20' з.д. Определите, на территории какого государства находится этот город.",
+      "error_conditions": [],
+      "id": 253289,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

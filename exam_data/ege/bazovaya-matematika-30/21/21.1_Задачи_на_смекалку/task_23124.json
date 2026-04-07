@@ -1,0 +1,42 @@
+{
+  "comment": "A, B и C могут принимать значения 6, 7 и 8.\nПусть загадали число \\(x\\). По условию имеем равенство \\(x\\cdot A+B-C=172\\).\n$$x\\cdot A=172-( B-C)$$\nРазность \\(( B-C)\\) может принимать значения -2, -1, 0, 1, 2. Тогда произведение \\(x\\cdot A\\) может принимать значения 174, 173, 172, 171, 170.\nНи одно из этих чисел не делится на 7 или на 8. Значит, А = 6, \\(x\\cdot A=174 \\Rightarrow x=29\\).\nОтвет: 29.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2136,
+    "title": "21.1 Задачи на смекалку"
+  },
+  "id": 23124,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "29",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Про натуральные числа A, B и С известно, что каждое из них больше 5, но меньше 9. Загадали натуральное число, затем его умножили на A, потом прибавили к полученному произведению B и вычли С. Получилось 172. Какое число было загадано?",
+      "error_conditions": [],
+      "id": 242850,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

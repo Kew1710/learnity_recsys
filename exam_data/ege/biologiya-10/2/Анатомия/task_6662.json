@@ -1,0 +1,42 @@
+{
+  "comment": "Во время тренировки усиляется кровообращение, чтобы обеспечить непрерывное снабжение мышц кислородом, поэтому пульс и давление увеличиваются. После 20 минут отдыха показатели приходят в норму и снижаются.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 6662,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "22",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Спортивный врач измерил у легкоатлета после окончания тренировки пульс и артериальное давление. Как изменятся эти показатели спустя 20 минут?\nДля каждой величины определите соответствующий характер её изменения:\n1) повысилась\n2) понизилась\n3) не изменилась\nЗапишите в таблицу выбранные цифры для каждой величины. Цифры в ответе могут повторяться.\nПульсАртериальное давление",
+      "error_conditions": [],
+      "id": 75196,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/qjg3QafKnmU?start=413"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/qjg3QafKnmU?start=413"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "$m_{\\text {r }}$ - масса газа внутри шара\n$\\rho_{в}$ - плотность воздуха вокруг шара.\nЗапишем формулу силы Архимеда:\n$$\nF_A=\\rho_в g V\n$$\nШар взлетает, когда сила тяжести, действующая на него, равна силе Архимеда:\n$$\nF_A-m_г g-M_3 g=0 \\text { (1) }\n$$\nВыведем формулу для плотности:\n$$\np V=\\frac{m}{M} R T\\Rightarrow p=\\frac{\\rho R T}{M}\\Rightarrow \\rho=\\frac{p M}{R T}\n$$\nТогда формула для плотности воздуха примет вид:\n$$\n\\rho_в=\\frac{p_0 M_0}{R T_0}\n$$\nЗапишем формулу для массы газа:\n$$\np_0 V=\\frac{m_{\\mathrm{г}}}{M_{\\mathrm{в}}} R T\\Rightarrow m_{\\mathrm{r}}=\\frac{p_0 V M_{\\mathrm{B}}}{R T}\n$$\nПодставим все в (1):\n$$\n\\frac{p_0 M_в}{R T_0} g V-\\frac{p_0 V M_в}{R T} g-M_3 g=0\n$$\n$$\n\\begin{aligned}\n& \\frac{p_0 M_в V}{R T_0}=\\frac{M_3 R T+p_0 V M}{R T} \\\\\n& \\frac{T_0}{p_0 V M_в}=\\frac{T}{M_3 R T+p_0 V M} \\\\\n& T_0=\\frac{T p_0 V M_в}{M_3 R T+p_0 V M}\n\\end{aligned}\n$$\nПодставим численные значения:\n$$\n\\begin{aligned}\n& T_0=\\frac{538\\cdot 10^5 \\cdot 230\\cdot 0,029}{145\\cdot 8,31\\cdot 538+10^5 \\cdot 230\\cdot 0,029}=273 \\mathrm{~К}\\end{aligned}$$\n$$t_0=0^\\circ С$$\nOтвет: $273~К$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2653,
+    "title": "МКТ и молекулярная физика"
+  },
+  "id": 2307,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задача F1122B\nВоздушный шар, оболочка которого имеет массу \\(M = 145~кг\\) и объем \\(V = 230~м^3\\), наполняется при нормальном атмосферном давлении горячим воздухом, нагретым до температуры \\(t=265~^\\circ С\\). Определите максимальную температуру \\(t_0\\) окружающего воздуха, при которой шар начнет подниматься. Оболочка шара нерастяжима и имеет в нижней части небольшое отверстие.",
+      "error_conditions": null,
+      "id": 57262,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/EiBPUnt1_4w?start=2024"
+}

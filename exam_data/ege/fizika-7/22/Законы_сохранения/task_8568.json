@@ -1,0 +1,37 @@
+{
+  "comment": "Так как внутренние силы при взрыве значительно больше силы тяжести, то силой тяжести можно пренебречь. Применим закон сохранения импульса к оси \\(y\\):\n$$0=m_1v_1-m_2v_2\\sin\\alpha \\Rightarrow v_2=\\frac{m_1v_1}{m_2\\sin\\alpha}\\\\ v_2=\\frac{30\\cdot 60}{15\\cdot \\sin 30^\\circ}=240~м/с$$\nОтвет: 240 м/с",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2624,
+    "title": "Законы сохранения"
+  },
+  "id": 8568,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Из артиллерийской пушки выпускают снаряд. В процессе полета он разрывается на два осколка массами \\(30\\) и \\(15\\) кг соответственно. При этом первый осколок летит со скоростью \\(60\\) м/с под углом \\(90^\\circ\\) к траектории еще не разорвавшегося снаряда, а второй – под углом \\(30^\\circ\\). Найдите скорость второго осколка после взрыва. Трением о воздух пренебречь.",
+      "error_conditions": null,
+      "id": 103468,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/ZmmEVK_mqDQ"
+}

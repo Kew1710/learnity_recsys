@@ -1,0 +1,40 @@
+{
+  "comment": "$$2\\cdot 2^{2x}\\cdot 5^x-17\\cdot 2^x\\cdot 5^x-2\\cdot 2^{3x}+8\\cdot 5^x+17\\cdot 2^{2x}-8\\cdot 2^x\\leq0\\\\ 2\\cdot 2^{2x}(5^x-2^x)-17\\cdot 2^x(5^x-2^x)+8\\cdot (5^x-2^x)\\leq 0\\\\ (5^x-2^x)(2\\cdot 2^{2x}-17\\cdot 2^x+8)\\leq 0\\\\ (\\frac{5^x}{2^x}-1)(2^x-8)(2^x-\\frac{1}{2})\\leq 0\\\\ ((\\frac{5}{2})^x-(\\frac{5}{2})^0)(2^x-3^x)(2^x-2^{-1})\\leq 0\\\\ (x-0)(x-3)(x+1)\\leq 0\\\\ x\\in (-\\infty;-1]\\cup [0;3]$$\nОтвет: \\(x\\in ( -\\infty ;-1] \\cup [ 0;3]\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 6415,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(2\\cdot 20^x-17\\cdot 10^x-2\\cdot 8^x+8\\cdot 5^x+17\\cdot 4^x-2^{x+3}\\leq 0\\).",
+      "error_conditions": null,
+      "id": 73501,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/embed/3Z5mmRr6SBY?start=6282"
+}

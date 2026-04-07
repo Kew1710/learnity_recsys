@@ -1,0 +1,42 @@
+{
+  "comment": "Соленость воды определяется в промилле  — ‰ (тысячная доля числа).\n38 ‰  — это значит, что в 1 литре воды содержится 38 грамм соли. В двух литрах: 38 · 2  =  76.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2955,
+    "title": "4.1 Литосфера"
+  },
+  "id": 31130,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "76",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Средняя соленость поверхностных вод Средиземного моря составляет 38 ‰. Определите, сколько граммов солей растворено в двух литрах его воды. Ответ запишите в виде числа.",
+      "error_conditions": [],
+      "id": 250769,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

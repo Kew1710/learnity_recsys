@@ -1,0 +1,42 @@
+{
+  "comment": "2 – тело чувствительного нейрона\n4 – двигательный нейрон\n6 – спинной мозг",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2945,
+    "title": "Нервная система"
+  },
+  "id": 28901,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "135",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верно обозначенные подписи к рисунку, на котором изображена рефлекторная дуга человека. Запишите в таблицу цифры, под которыми они указаны.\n\n1) рецептор\n2) двигательный нейрон\n3) вставочный нейрон\n4) чувствительный нейрон\n5) исполнительный орган\n6) головной мозг",
+      "error_conditions": [],
+      "id": 248540,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2730,
+    "title": "№15 Отрезки"
+  },
+  "id": 929,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "17",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: 543526\nНа числовой прямой даны два отрезка: P = [17; 54] и Q = [37; 83]. Укажите наименьшую возможную длину такого отрезка A, что логическое выражение\n\\((x \\in P) \\to (((x \\in Q) \\wedge \\neg (x \\in A)) \\to \\neg (x \\in P))\\)\n\nистинно (т.е. принимает значение 1) при любом значении переменной х.",
+      "error_conditions": [],
+      "id": 52489,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": null
+}

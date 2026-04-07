@@ -1,0 +1,45 @@
+{
+  "comment": "Осуществим параллельный перенос $A_{1}D_{1}\\Rightarrow BC$ и $AB \\Rightarrow DC$.\n\nРассмотрим треугольник $DCB$:\n\nпо теореме Пифагора найдём $DB = \\sqrt{125}$.\n\nТеперь рассмотрим треугольник $DBB_{1}$(параллельным переносом $AA_{1} \\Rightarrow BB_{1}$):\n\nпо теореме Пифагора найдем $DB_{1} = 15$.\n\nОтвет: 15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2387,
+    "title": "3.4 Диагональ прямоугольного параллелепипеда"
+  },
+  "id": 7015,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В прямоугольном параллелепипеде \\(ABCDA_{1} B_{1} C_{1} D_{1}\\) известно, что \\(AA_{1}=10, AB=5, A_{1} D_{1} =10\\). Найдите длину диагонали \\(DB_{1}\\).",
+      "error_conditions": [],
+      "id": 80945,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

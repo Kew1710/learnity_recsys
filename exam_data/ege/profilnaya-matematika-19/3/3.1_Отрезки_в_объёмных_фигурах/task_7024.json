@@ -1,0 +1,45 @@
+{
+  "comment": "Так как пирамида правильная,\n$$AO=\\frac{AC}{2} =\\frac{32}{2} =16$$\nПо теореме Пифагора:\n$$SA=\\sqrt{SO^2+AO^2}=\\sqrt{30^2+16^2}=\\sqrt{900+256}=34$$\nОтвет: 34",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 7024,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В правильной четырехугольной пирамиде \\(𝑆𝐴𝐵𝐶𝐷\\) с вершиной \\(𝑆\\), точка \\(𝑂 −\\) центр основания, \\(𝑆𝑂=30,\\) \\(𝐴𝐶=32\\). Найдите длину отрезка \\(𝑆𝐴\\).",
+      "error_conditions": [],
+      "id": 80954,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

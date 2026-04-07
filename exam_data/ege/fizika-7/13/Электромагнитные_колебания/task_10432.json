@@ -1,0 +1,42 @@
+{
+  "comment": "Максимальная циклическая частота:\n$$\\omega_m=\\frac{1}{\\sqrt{LC}}=\\frac{1}{\\sqrt{0,8\\cdot 10^{-3}\\cdot 20\\cdot 10^{-9}}}=250000~с^{-1}$$\nОтвет: 250000",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2636,
+    "title": "Электромагнитные колебания"
+  },
+  "id": 10432,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "250000",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "236918\nУченику в ходе лабораторной работы по исследованию электромагнитных колебаний выдано две катушки индуктивностями \\(L_1=0,8\\) мГн и \\(L_2=2\\) мГн и два конденсатора емкостями \\(C_1=20\\) нФ и \\(C_2=35\\) нФ. Определите максимальную циклическую частоту собственных колебаний контура, собранного из выданных ученику приборов. Ответ дайте в \\(с^{-1}\\).",
+      "error_conditions": [],
+      "id": 142254,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

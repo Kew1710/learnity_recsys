@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: 1 — рыльце пестика\n2 — завязь\n3 — семязачаток\n4 — пыльцевход\n5 — пыльник\n6 — лепестки\n7 — чашелистики\n8 — околоцветник",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2525,
+    "title": "Царство Растения. Строение и жизнедеятельность растений"
+  },
+  "id": 16487,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каким номером на рисунке обозначен пыльцевход?",
+      "error_conditions": [],
+      "id": 236394,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=38-\\frac{38}{\\cos^2x}=\\frac{38\\cos^2x-38}{\\cos^2x}=\\frac{38(\\cos^2x-1)}{\\cos^2x}\\\\ 38-\\frac{38}{\\cos^2x}\\leq 0~(т.к.\\cos^2x\\in [0;1], то~\\frac{38}{\\cos^2x}\\geq 0)$$\nт.к. функция убывает, то свое наибольшее значение принимает в левой крайней точке промежутка.\n$$f(0)=38\\cdot 0-38tg 0+20=20$$\nОтвет: 20",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2447,
+    "title": "12.4 Тригонометрическая функция"
+  },
+  "id": 16937,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Условие: найдите наибольшее значение функции \\(y=38x-38tgx+20\\) на отрезке \\(\\left[0;\\frac{\\pi}{4}\\right]\\).",
+      "error_conditions": [],
+      "id": 236839,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/CkkG5Lc4uvY?t=2120"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/CkkG5Lc4uvY?t=2120"
+}

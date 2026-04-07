@@ -1,0 +1,42 @@
+{
+  "comment": "180 / 25 = 7,2 - значит, на 180 рублей можно купить 7 шоколадок.\nЗа каждые две шоколадки будет дана третья бесплатно. Так как 7 / 2 = 3,5, значит 3 шоколадки будут даны в подарок.\nВсего 7 + 3 = 10 шоколадок.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2064,
+    "title": "1.1 Округ­ле­ние с недостатком"
+  },
+  "id": 20522,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Шоколадка стоит 25 рублей. В воскресенье в супермаркете действует специальное предложение: заплатив за две шоколадки, покупатель получает три (одну в подарок). Сколько шоколадок можно получить на 180 рублей в воскресенье?",
+      "error_conditions": [],
+      "id": 240310,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "$$S_{2\\pi рад}=\\pi r^2\\\\ S_{1рад}=\\frac{\\pi r^2}{2\\pi}=\\frac{r^2}{2}$$\nПлощадь сектора найдем по формуле:\n$$S_{\\alpha рад}=\\alpha S_{1рад}, где \\alpha=\\omega t\\Rightarrow S_{\\alpha}=\\omega t\\frac{r^2}{2}$$\nМагнитный поток найдем по формуле:\n$$Ф=BS\\cos 0^\\circ=BS=B\\omega t\\frac{r^2}{2}$$\nЭДС индукции определяется по формуле:\n$$|\\varepsilon_i|=|Ф'(t)|=B\\omega\\frac{r^2}{2}\\\\ \\varepsilon_{общ}=N\\varepsilon_i=NB\\omega\\frac{r^2}{2}$$\nМощность найдем по формуле:\n$$P=\\frac{\\varepsilon_{общ}^2}{R}=N^2B^2\\omega^2\\frac{r^4}{4}=\\frac{20^2\\cdot 1^2\\cdot 50^2\\cdot 0,04^4}{4\\cdot 10}=64~мВт$$\nОтвет: 64 мВт",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2634,
+    "title": "Электромагнитная индукция"
+  },
+  "id": 10552,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23725\nПроволочная рамка в форме полуокружности радиусом \\(r=4\\) см, содержащая \\(N=20\\) витков провода вращается в зазоре между полюсами электромагнита с угловой скоростью \\(\\omega=50\\) с\\(^{-1}\\). Ось вращения рамки проходит вдоль оси \\(O\\) рамки и находится вблизи края области с постоянным однородным магнитным полем с индукцией \\(B=1\\) Тл (см. рисунок), линии которого перпендикулярны плоскости рамки. Концы обмотки рамки замкнуты через скользящие контакты на резистор с сопротивлением \\(R=10\\) Ом. Найдите тепловую мощность, выделяющуюся в резисторе. Сопротивлением рамки можно пренебречь.",
+      "error_conditions": null,
+      "id": 145382,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/9OJn3epPFTI"
+}

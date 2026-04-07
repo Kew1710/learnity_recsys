@@ -1,0 +1,45 @@
+{
+  "comment": "$$ хотя~бы~одна~не~перегорит = 1 - перегорят~все\\\\ 1-перегорела~и~перегорела~и~перегорела\\Rightarrow 1-0,9\\cdot 0,9\\cdot 0,9=0,729\\Rightarrow 1-0,729=0,271$$\nОтвет: 0,271",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2398,
+    "title": "5.4 Произведение событий"
+  },
+  "id": 3943,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,271",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Помещение освещается тремя лампами. Вероятность перегорания каждой лампы в течение года равна \\(0,9\\). Лампы перегорают независимо друг от друга. Найдите вероятность того, что в течение года хотя бы одна лампа не перегорит.",
+      "error_conditions": [],
+      "id": 66364,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/UrgDnSfhvk0?start=3642"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 5,
+    "title": "Сложная вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/UrgDnSfhvk0?start=3642"
+}

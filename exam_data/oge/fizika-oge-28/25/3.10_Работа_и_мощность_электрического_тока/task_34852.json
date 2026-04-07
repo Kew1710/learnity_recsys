@@ -1,0 +1,37 @@
+{
+  "comment": "Полезная работа - работа, идущая на перемещение за счёт силы тяги электровоза, затраченная - работа электрического тока\nКПД равно: $$\\eta=\\frac{А_п}{А_{зат}}=\\frac{F_тS}{IUt}=\\frac{F_тvt}{IUt}$$\nПодставим числа: $$0,84=\\frac{336000\\cdot v}{1200\\cdot 3000} \\\\ 0,84\\cdot 1200=112v \\\\ v=\\frac{0,84\\cdot 1200}{112}=9~\\frac{м}{с}$$\n\nОтвет: $9$ м/с",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34852,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "С какой скоростью движется электровоз, если при этой скорости он развивает силу тяги, равную $336$ кН? Сила тока в обмотке электродвигателя равна $1200$ А, а напряжение сети $3000$ В. КПД двигателя электровоза $84$%.",
+      "error_conditions": null,
+      "id": 254491,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

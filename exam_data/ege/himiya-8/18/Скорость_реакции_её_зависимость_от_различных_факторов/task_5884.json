@@ -1,0 +1,42 @@
+{
+  "comment": "Измельчение твердого вещества всегда приводит к увеличению скорости реакции ввиду увеличения площади поверхности соприкосновения реагирующих веществ\n\nС участием твердых веществ протекают реакции 3 и 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 5884,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все реакции, для которых измельчение твердого вещества приводит к увеличению скорости реакции.\n1) Cl₂ + H₂ = 2HCl\n2) 2C₂H₂ + 5O₂ = 4CO₂ + 2H₂O\n3) Fe + S = FeS\n4) Zn + 2HCl = ZnCl₂ + H₂\n5) CO + 2H₂ = CH₃OH",
+      "error_conditions": [],
+      "id": 72355,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=12851"
+    },
+    "Valid": true
+  },
+  "time_seconds": 360,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=12851"
+}

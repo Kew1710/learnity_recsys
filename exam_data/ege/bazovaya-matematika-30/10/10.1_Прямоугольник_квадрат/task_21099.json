@@ -1,0 +1,42 @@
+{
+  "comment": "Площадь комнаты по проведенным измерениям можно найти по формуле площади прямоугольника \\(S = ab = 4 \\cdot 5,1 = 20,4\\) кв. м. Разница между этим значением и значением, указанным на плане, \\(20,4 - 20,1 = 0,3\\) кв. м.\nОтвет: 0,3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2093,
+    "title": "10.1 Прямоугольник, квадрат"
+  },
+  "id": 21099,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На плане указано, что прямоугольная комната имеет площадь 20,1 кв. м. Точные измерения показали, что ширина комнаты равна 4 м, а длина 5,1 м. На сколько квадратных метров площадь комнаты отличается от площади, указанной на плане?",
+      "error_conditions": [],
+      "id": 240880,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 60,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

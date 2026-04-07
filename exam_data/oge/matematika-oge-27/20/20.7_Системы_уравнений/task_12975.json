@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\begin{cases}& 3x^2+2y^2 = 50(1)\\\\ & 12x^2 + 8y^2 = 50x(2)\\end{cases}\\)\nУмножим обе части первого уравнения на \\(-4\\)\n\\(\\begin{cases}& -12x^2-8y^2 = -50 \\cdot 4(1)\\\\ & 12x^2 + 8y^2 = 50x(2)\\end{cases}\\)\nСложим уравнения (1) и (2)\n\\(-50x = -200\\)\n\\(x=4\\)\nПодставим \\(x = 4\\) в уравнение (1)\n\\(3 \\cdot 16 + 2 \\cdot y^2 = 50\\)\n\\(y^2 = 1\\)\n\\(( y - 1)( y +1) = 0\\)\n\\(y=1\\) или \\(y = -1\\)\n\\(\\begin{cases}& x =4\\\\ & y = 1\\end{cases}\\)\nили\n\\(\\begin{cases}& x =4\\\\ & y = -1\\end{cases}\\)\nОтвет: \\( (4; 1) \\cup (4; -1) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2054,
+    "title": "20.7 Системы уравнений"
+  },
+  "id": 12975,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите систему уравнений \\(\\begin{cases}& 3x^2+2y^2 = 50\\\\ & 12x^2+8y^2 = 50x\\end{cases}\\) .",
+      "error_conditions": null,
+      "id": 174327,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

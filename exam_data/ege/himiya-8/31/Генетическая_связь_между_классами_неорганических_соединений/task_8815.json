@@ -1,0 +1,37 @@
+{
+  "comment": "1) 2NaCl + 2H₂O = 2NaOH + H₂ + Cl₂\n2) 3NaOH + FeCl₃ = Fe(OH)₃ + 3NaCl\n3) 2Fe(OH)₃ = Fe₂O₃ + 3H₂O\n4) Fe₂O₃ + 6HI = 2FeI₂ + I₂ + 3H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8815,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Провели электролиз раствора хлорида натрия. К полученному раствору добавили хлорид железа(III). Выпавший осадок отфильтровали и прокалили. Твёрдый остаток растворили в иодоводородной кислоте. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112017,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

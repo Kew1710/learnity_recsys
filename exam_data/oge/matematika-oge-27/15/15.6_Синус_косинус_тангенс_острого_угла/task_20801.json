@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{BC}{AB} = \\cos{B}\\)\n\\(\\cfrac{13}{16} = \\cfrac{BC}{96}\\)\nОтсюда \\(BC = 13 \\cdot 96 : 16 = 78\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1977,
+    "title": "15.6 Синус, косинус, тангенс острого угла"
+  },
+  "id": 20801,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "78",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике ABC угол C равен 90°, \\( \\cos{B} = \\cfrac{13}{16}\\) , AB=96 . Найдите BC.",
+      "error_conditions": [],
+      "id": 240582,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

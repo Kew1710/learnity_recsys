@@ -1,0 +1,42 @@
+{
+  "comment": "По графику определяем:\n$$E_3-E_1=h\\nu=-0,4-(-3)=2,6~эВ$$\nОтвет: 2,6",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2641,
+    "title": "Квантовая физика"
+  },
+  "id": 14378,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "239013\nНа рисунке ниже изображена схема низших энергетических уровней атомов разреженного атомарного газа. В начальный момент времени атомы находятся в состоянии с энергией \\(E^{(3)}\\). Фотон с какой энергией излучается данным газом при переходе его атомов в состояние с энергией \\(E^{(1)}\\). Ответ дайте в эВ.",
+      "error_conditions": [],
+      "id": 203003,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 42,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

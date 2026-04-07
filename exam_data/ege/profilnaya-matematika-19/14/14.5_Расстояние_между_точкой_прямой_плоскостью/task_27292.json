@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n$$LM\\in (ABD)\\\\ KN\\in (ABC)$$\n\\(LM||KN\\) (так как \\(LMNK\\) – квадрат)\nЗначит, \\(LM||ABC\\) так как \\(LM||\\) прямой, лежащей в плоскости \\(ABC\\)\n$$\\displaystyle \\begin{cases} LM||ABC\\\\ LM||KN\\\\ ( AB C) \\cap ( KLM) =KN\\\\ ( ABD) \\cap ( KLM) =LM \\end{cases} \\Rightarrow LM||AB||KN$$\nАналогично \\(DC||MN||LK\\).\n$$\\displaystyle \\begin{cases} KN||MN\\ по\\ условию\\ ( так\\ как\\ LMNK-квадрат)\\\\ AB||KN \\end{cases} \\Rightarrow AB\\bot MN\\\\ MN||DC$$\nПоэтому, \\(AB\\bot CD\\).\n\nб) Рассмотрим пирамиду \\(MKNB\\), обозначим ее объем \\(V_1\\), \\(h_M\\) – высота из точки \\(M\\) на плоскость \\(ABC\\).\n$$V_1=\\frac{1}{3}\\cdot h_M\\cdot S_{BKN}$$\n\\(V\\) – объем всей пирамиды \\(DABC\\), \\(h\\) – высота из точки \\(D\\) на плоскость \\(ABC\\).\n$$V=\\frac{1}{3}\\cdot h_M\\cdot S_{ABC}=25~ по~условию$$\nТак как \\(KN||AB\\), то \\(AK:KC=BN:NC=2:3\\).\nПусть \\(MM_1\\) и \\(DH\\) - перпендикуляры на плоскость нижнего основания (\\(ABC\\))\nТогда треугольники \\(BMM_1\\) и \\(BDH\\) подобны по двум углам \\((\\angle{MM_1B} = \\angle{DHB} = {90}^{\\circ}\\) и \\(\\angle{DBH} \\ - \\) общий\\()\\), поэтому:\n$$\\frac{MM_1}{DH}=\\frac{BM}{BD}=\\frac{h_M}{h}\\\\ BN:NC=2:3\\Rightarrow NC:BC=\\frac{3}{5}=KN:AB=LM:AB~(так~как~KM=KN)$$\nТак как \\(LM||AB\\), то \\(\\angle{DLM} = \\angle{DAB}\\) и \\(\\angle{DML} = \\angle{DBA}\\) как соответственные \\(\\Rightarrow\\) треугольники \\(DLM\\) и \\(DAB\\) подобны по двум углам, поэтому:\n$$\\frac{LM}{AB}=\\frac{3}{5}=\\frac{DM}{DB}$$\n\\(LM=2\\) по условию, получим:\n$$\\frac{2}{AB}=\\frac{3}{5}\\\\ AB=\\frac{10}{3}\\\\ \\frac{BM}{DB}=\\frac{h_M}{h}=\\frac{2}{5}~(из~подобия~BMM_1~и~BDH)$$\nПусть \\(h_2\\) – высота в треугольнике \\(ABC\\) из вершины \\(C\\), \\(h_3\\) - высота в треугольнике \\(KNB\\) из вершины \\(B\\)\n$$S_{ABC}=\\frac{1}{2}h_2\\cdot AB\\\\ S_{KNB}=\\frac{1}{2}h_3\\cdot KN=\\frac{1}{2}\\cdot\\frac{3}{5}\\cdot AB\\cdot\\frac{2}{5}\\cdot h_2=\\frac{6}{25}S_{ABC}\\\\ V_1=\\frac{1}{3}\\cdot\\frac{2}{5}h_2\\cdot\\frac{6}{25}S_{ABC}=\\frac{2}{5}\\cdot\\frac{6}{25}\\cdot 25=\\frac{12}{5}=\\frac{1}{3}h_B\\cdot S_{KMN}\\\\ h_B=\\frac{12}{5}\\cdot 3\\cdot\\frac{1}{S_{KMN}}=\\frac{12}{5}\\cdot\\frac{3}{2}=\\frac{18}{5}$$\nОтвет: \\(\\frac{18}{5}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2464,
+    "title": "14.5 Расстояние между точкой, прямой, плоскостью"
+  },
+  "id": 27292,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "На рёбрах \\(AC\\), \\(AD\\), \\(BD\\) и \\(BC\\) тетраэдра \\(ABCD\\) отмечены точки \\(K\\), \\(L\\), \\(M\\) и \\(N\\) соответственно, причём \\(AK:KC=2:3\\). Четырёхугольник \\(KLMN\\) - квадрат со стороной \\(2\\).\nа) Докажите, что прямые \\(AB\\) и \\(CD\\) перпендикулярны.\nб) Найдите расстояние от вершины \\(B\\) до плоскости \\(KLM\\), если объём тетраэдра \\(ABCD\\) равен \\(25\\).",
+      "error_conditions": null,
+      "id": 246931,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://youtu.be/fQ1MVFsFzMI?t=13221"
+}

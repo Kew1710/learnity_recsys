@@ -1,0 +1,42 @@
+{
+  "comment": "Центры производства можно посмотреть в атласе 9-го класса на «Экономической карте».",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2973,
+    "title": "6.4 Хозяйство России"
+  },
+  "id": 29528,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В каких двух из перечисленных городов России функционируют крупные металлургические комбинаты полного цикла? Запишите в таблицу цифры, под которыми указаны эти города.\n- Владивосток\n- Череповец\n- Калуга\n- Воронеж\n- Нижний Тагил",
+      "error_conditions": [],
+      "id": 249167,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

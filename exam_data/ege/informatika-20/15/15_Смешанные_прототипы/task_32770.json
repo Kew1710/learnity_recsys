@@ -1,0 +1,45 @@
+{
+  "comment": "Решение:\n\nfor A in range(1,1000):\nflag = True\nfor x in range(1,1000):\nf = (x % A == 0) or ((70<=x<=90) <= (x % 27 != 0))\nif f == 0:\nflag = False\nif flag:\nprint(A)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2735,
+    "title": "№15 Смешанные прототипы"
+  },
+  "id": 32770,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "81",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(ОСН_2_2024)\nB = [70, 90]. Обозначим через ДЕЛ(n, m) утверждение «натуральное число n делится без остатка на натуральное число m». Для какого наибольшего натурального числа А формула\nДЕЛ(x, A) ∨ ((x ∈ B) → ¬ДЕЛ(x,27))\n\nистинна при любом положительном значении x?",
+      "error_conditions": [],
+      "id": 252409,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": null
+}

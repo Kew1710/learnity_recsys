@@ -1,0 +1,45 @@
+{
+  "comment": "Скалярное произведение двух векторов представляет собой число, равное сумме попарных произведений координат этих векторов. Значит, сначала найдем координаты векторов \\(0,6\\vec{a}\\) и \\(1,4\\vec{b}\\):\n$$0,6\\vec{a}(0,6\\cdot 2;0,6\\cdot (-5))\\Rightarrow 0,6\\vec{a}(1,2;-3)\\\\ 1,4\\vec{b}(1,4\\cdot 5;1,4\\cdot7)\\Rightarrow 1,4\\vec{b}(7;9,8)$$\nТогда скалярное произведение \\(0,6\\vec{a}\\cdot 1,4\\vec{b}\\):\n$$0,6\\vec{a}\\cdot 1,4\\vec{b}=x_{0,6\\vec{a}}\\cdot x_{1,4\\vec{b}}+ y_{0,6\\vec{a}}\\cdot y_{1,4\\vec{b}}=1,2\\cdot7+(-3)\\cdot 9,8=8,4-29,4=-21$$\nОтвет: -21",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2383,
+    "title": "2.2 Скалярное произведение векторов"
+  },
+  "id": 26135,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-21",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны векторы \\(\\vec{a}(2;-5)\\) и \\(\\vec{b}(5;7)\\). Найдите скалярное произведение \\(0,6\\vec{a}\\) и \\(1,4\\vec{b}\\).",
+      "error_conditions": [],
+      "id": 245774,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=2778s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=2778s"
+}

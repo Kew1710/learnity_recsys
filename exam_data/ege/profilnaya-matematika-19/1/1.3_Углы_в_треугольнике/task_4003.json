@@ -1,0 +1,45 @@
+{
+  "comment": "$$Пусть\\ \\angle A=2а,\\ \\angle B=2b\\ (см. рис),$$\n$$тогда\\ 2a+2b+66^{\\circ }=180^{\\circ }~|:2\\\\ a+b=57^{\\circ }\\\\ \\angle AOB=180^{\\circ }-(a+b)=123^{\\circ }$$\nОтвет: 123",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2374,
+    "title": "1.3 Углы в треугольнике"
+  },
+  "id": 4003,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(С\\) равен \\(66^\\circ\\), биссектрисы \\(AD\\) и \\(BE\\) пересекаются в точке \\(O\\). Найдите угол \\(AOB\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 66424,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=463"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=463"
+}

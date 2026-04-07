@@ -1,0 +1,42 @@
+{
+  "comment": "При анализе климатограммы видим, что минимальная температура - 25 градусов, максимальная - 30 градусов, осадков выпадает много, в течение одного сезона. Значит точка находится в субэкваториальном климатическом поясе. Самые теплые месяцы (с апреся по октябрь), значит точка в северном полушарии. Выбираем точку С.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2957,
+    "title": "4.3 Атмосфера"
+  },
+  "id": 28648,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Проанализируйте климатограмму и определите, какой буквой на карте обозначен пункт, характеристики климата которого отражены в климатограмме.\n\n- A\n- B\n- C\n- D",
+      "error_conditions": [],
+      "id": 248287,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

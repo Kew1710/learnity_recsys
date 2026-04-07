@@ -1,0 +1,45 @@
+{
+  "comment": "Рассмотрим прямоугольный треугольник \\(SOB\\), в котором катет \\(SO=12\\), катет \\(BO=\\frac{BD}{2}=9\\), вычислим гипотенузу \\(SB\\), получим:\n$$SB=\\sqrt{12^2+9^2}=15\\\\ SA=SB=15$$\nОтвет: 15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 24564,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В правильной четырехугольной пирамиде \\(SABCD\\) точка \\(O\\) - центр основания, \\(S\\) - вершина, \\(SO= 12\\), \\(BD=18\\). Найдите боковое ребро \\(SA\\).",
+      "error_conditions": [],
+      "id": 244240,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/0DWQmmPfw6s?si=Xc1gotErG_7mipGb&t=495"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/live/0DWQmmPfw6s?si=Xc1gotErG_7mipGb&t=495"
+}

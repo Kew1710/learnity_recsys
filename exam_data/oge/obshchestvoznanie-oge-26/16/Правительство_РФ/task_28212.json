@@ -1,0 +1,42 @@
+{
+  "comment": "1) да, Правительство РФ осуществляет управление федеральной собственностью\n2) нет, Государственная Дума объявляет амнистию\n3) нет, Государственная Дума принимает законы\n4) нет, Президент РФ осуществляет помилование",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3070,
+    "title": "Правительство РФ"
+  },
+  "id": 28212,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Правительство Российской Федерации\n\n1) осуществляет управление федеральной собственностью\n2) объявляет амнистию\n3) принимает законы\n4) осуществляет помилование",
+      "error_conditions": [],
+      "id": 247851,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=aE7QwDd4ICG8q63R&t=3699"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=aE7QwDd4ICG8q63R&t=3699"
+}

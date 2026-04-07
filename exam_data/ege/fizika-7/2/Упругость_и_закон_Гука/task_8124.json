@@ -1,0 +1,42 @@
+{
+  "comment": "Так как кубик покоится, то силы упругости компенсируют друг друга и равны по модулю:\n$$|F_{упр1}|=|F_{упр2}|$$\nВоспользуемся законом Гука для двух пружин:\n$$F_{упр1}=k_1\\cdot \\Delta x_1\\\\ F_{упр2}=k_2\\cdot \\Delta x_2$$\nПолучаем:\n$$k_1\\Delta x_1=k_2\\Delta x_2$$\nВыразим \\(k_2\\) и подставим значения:\n$$k_2= \\frac{k_1\\cdot \\Delta x_1}{\\Delta x_2}\\\\ k_2= \\frac{600\\cdot 0,04}{0,03} =800~Н/м$$\nОтвет: 800 Н/м",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2614,
+    "title": "Упругость и закон Гука"
+  },
+  "id": 8124,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "800",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "453892\nКубик массой \\(M=1\\) кг, сжатый с боков пружинами (см. рисунок), покоится на гладком горизонтальном столе. Первая пружина сжата на \\(\\Delta x_1=4\\) см, а вторая сжата на \\(\\Delta x_2=3\\) см. Жёсткость первой пружины \\(k_1=600\\) Н/м. Чему равна жёсткость второй пружины \\(k_2\\)? Ответ дайте в Н/м.",
+      "error_conditions": [],
+      "id": 101146,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XLLcIfkuaLo?start=6127"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/XLLcIfkuaLo?start=6127"
+}

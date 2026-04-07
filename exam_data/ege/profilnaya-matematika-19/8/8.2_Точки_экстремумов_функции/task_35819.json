@@ -1,0 +1,45 @@
+{
+  "comment": "Так как нам дан график производной, то мы должны смотреть на нули функции, в этих точках и будут находиться экстремумы (смена промежутков возрастания и убывания). Не забудем выделить отрезок, указанный в условии:\nВсего у нас 5 нулей функции на заданном отрезке.\n\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2413,
+    "title": "8.2 Точки экстремумов функции"
+  },
+  "id": 35819,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график \\(y = f'(x)\\) производной функции \\(f(x)\\), определенной на интервале \\(\\left(-2;20\\right)\\). Найдите количество точек экстремума функции \\(f(x)\\), принадлежащих отрезку \\(\\left[1;15\\right]\\).",
+      "error_conditions": [],
+      "id": 255458,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=7MyjLTMM671oN7XA&t=1682"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=7MyjLTMM671oN7XA&t=1682"
+}

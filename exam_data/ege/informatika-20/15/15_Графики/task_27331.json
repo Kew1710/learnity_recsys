@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2733,
+    "title": "№15 Графики"
+  },
+  "id": 27331,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "181",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Демо 2024) Для какого наименьшего целого неотрицательного числа А выражение\n(x+2y<A)∨(y>x)∨(x>60)\nтождественно истинно, т.е. принимает значение 1 при любых целых неотрицательных x и y?",
+      "error_conditions": [],
+      "id": 246970,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=UHsjaXeRs6dtvNoy&t=6865"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=UHsjaXeRs6dtvNoy&t=6865"
+}

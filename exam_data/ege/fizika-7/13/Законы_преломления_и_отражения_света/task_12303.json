@@ -1,0 +1,42 @@
+{
+  "comment": "Предельный угол полного отражения – это угол падения света на границу раздела двух сред, при котором весь падающий свет отражается обратно в исходную среду полностью.\n\nЗная синус предельного угла найдем абсолютный показатель преломления:\n$$n=\\frac{\\sin 90^\\circ}{\\sin\\beta_0}=\\frac{1}{0,8}=1,25$$\nОтвет: 1,25",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3334,
+    "title": "Законы преломления и отражения света"
+  },
+  "id": 12303,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23788\nСинус предельного угла полного внутреннего отражения на границе вода – воздух равен \\(0,8\\). Найдите абсолютный показатель преломления воды.",
+      "error_conditions": [],
+      "id": 163166,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/9TPmh145psc"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/9TPmh145psc"
+}

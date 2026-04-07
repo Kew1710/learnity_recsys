@@ -1,0 +1,42 @@
+{
+  "comment": "А) Сплавление амфотерного гидроксида с щелочью:\nZn(OH)₂ + 2NaOH → Na₂ZnO₂ + 2H₂O (сплавление, t°)\nБ) Взаимодействие амфотерного гидроксида с раствором щелочи:\nZn(OH)₂ + 2NaOH → Na₂[Zn(OH)₄]\nВ) Сплавление амфотерного оксида с щелочью:\nZnO + 2NaOH → Na₂ZnO₂ + H₂O (сплавление, t°)\nГ) Реакция ионного обмена между нерастворимым гидроксидом и кислотой:\nZn(OH)₂ + H₂SO₄ → ZnSO₄ + 2H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 4505,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6364",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТ(Ы) РЕАКЦИИ\nА) Zn(OH)₂ + NaOH → (сплавление, t°)1) ZnSO₃ и H₂Б) Zn(OH)₂ + NaOH (р-р) → 2) ZnSO₃ и H₂OВ) ZnO + NaOH → (сплавление, t°)3) Na₂[Zn(OH)₄]Г) Zn(OH)₂ + H₂SO₄ → 4) ZnSO₄ и H₂O 5) Na₂ZnO₂ и H₂ 6) Na₂ZnO₂ и H₂O",
+      "error_conditions": [],
+      "id": 67295,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/6OPhWX_aI18?start=1249"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/6OPhWX_aI18?start=1249"
+}

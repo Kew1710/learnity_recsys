@@ -1,0 +1,42 @@
+{
+  "comment": "1) CH₃-CH₃ → C₂H₄ + H₂\n2) CH₂=CH₂ + H₂O → CH₃-CH₂-OH\n3) 2C₂H₅OH → CH₂=CH-CH=CH₂ + 2H₂O + H₂ (кат. Al₂O₃, ZnO)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2836,
+    "title": "Генетическая связь между классами органических соединений"
+  },
+  "id": 1992,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nэтан → X → Y → бутадиен-1,3\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) C₂H₄\n2) CH₃CHO\n3) C₂H₅OH\n4) CH₃COOH\n5) CH₃COOK",
+      "error_conditions": [],
+      "id": 56423,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=2230"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=2230"
+}

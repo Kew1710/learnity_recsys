@@ -1,0 +1,42 @@
+{
+  "comment": "Веществ с атомной кристаллической решеткой сравнительно немного и их стоит запомнить: алмаз, графит, фосфор красный, карбид кремния, кремний, оксид кремния, бор, нитрид бора\n\nВерные варианты ответа: кремнезём (тривиальное название оксида кремния(IV)) и алмаз (45)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2794,
+    "title": "Тип кристаллической решётки"
+  },
+  "id": 5756,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, которые имеют атомную кристаллическую решётку.\n1)﻿﻿﻿ йод\n2)﻿﻿﻿ лёд\n3)﻿﻿﻿ поваренная соль\n4)﻿﻿﻿ кремнезём\n5) алмаз",
+      "error_conditions": [],
+      "id": 72227,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=6814"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=6814"
+}

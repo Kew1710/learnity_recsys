@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо закону Ома: $$R=\\frac{U}{I}$$\nПри напряжении \\(4\\) В сила тока в проводнике Г равна \\(1\\) А, тогда $$R=\\frac{4}{1}=4~Ом$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 17653,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке представлены графики зависимости силы тока \\(I\\) в проводнике от напряжения \\(U\\) на его концах для четырёх проводников.\nЧему равно электрическое сопротивление проводника Г? Ответ дайте в омах.",
+      "error_conditions": [],
+      "id": 237534,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/iOWftF6A3MA"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/iOWftF6A3MA"
+}

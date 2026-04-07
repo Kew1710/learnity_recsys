@@ -1,0 +1,37 @@
+{
+  "comment": "Изменение внутренней энергии одноатомного идеального газа:\n$$\\Delta U=\\frac{3}{2}\\nu R\\Delta T~(1)$$\nПервый закон термодинамики:\n$$Q=A+\\Delta U~(2)$$\nПодставим (1) в (2):\n$$Q=A+\\frac{3}{2}\\nu R\\Delta T\\Rightarrow \\nu =\\frac{Q-A}{\\frac{3}{2}R\\Delta T}=\\frac{3200-1100}{\\frac{3}{2}\\cdot 8,31\\cdot 84}=2~моль$$\nОтвет: 2 моль",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9496,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23411\nНекоторой порции одноатомного идеального газа сообщают количество теплоты \\(Q=3,2\\) кДж. Известно, что газ при этом совершает работу \\(A=1,1\\) кДж, а его температура увеличивается на \\(\\Delta T=84\\) К. Чему равно число молей газа?",
+      "error_conditions": null,
+      "id": 114999,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/jUFhyyhiByU"
+}

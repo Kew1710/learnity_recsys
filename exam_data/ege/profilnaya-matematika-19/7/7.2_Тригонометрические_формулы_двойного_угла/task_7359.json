@@ -1,0 +1,45 @@
+{
+  "comment": "Вынесем общий множитель за скобки и применим формулу косинуса двойного угла:\n$$3\\sqrt{2}(\\cos^2(\\frac{9\\pi}{8})-\\sin^2(\\frac{9\\pi}{8}))=3\\sqrt{2}\\cos (2\\cdot \\frac{9\\pi}{8})=3\\sqrt{2}\\cos (\\frac{9\\pi}{4})$$\nДля дальнейших вычислений воспользуемся формулой приведения:\n$$3\\sqrt{2}\\cos (2\\pi+\\frac{\\pi}{4})=3\\sqrt{2}\\cos (\\frac{\\pi}{4})=3\\sqrt{2}\\cdot \\frac{\\sqrt{2}}{2}=3$$\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 7359,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(3\\sqrt{2}\\cos^2(\\frac{9\\pi}{8})-3\\sqrt{2}\\sin^2(\\frac{9\\pi}{8})\\).",
+      "error_conditions": [],
+      "id": 83995,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6960"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6960"
+}

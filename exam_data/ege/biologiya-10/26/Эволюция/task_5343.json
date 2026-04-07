@@ -1,0 +1,37 @@
+{
+  "comment": "Элементы ответа:\n1) при определённых условиях в первичной атмосфере Земли был возможен синтез органических соединений;\n2) эти органические соединения концентрировались в океанах (первичный бульон);\n3) со временем возникли фазообособленные системы (коацерватные капли), по сути являвшиеся предшественниками протобионтов (первых примитивных форм жизни",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2532,
+    "title": "Эволюция"
+  },
+  "id": 5343,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Как с точки зрения гипотезы Опарина объясняется возникновение первых живых организмов на Земле? Ответ поясните.",
+      "error_conditions": null,
+      "id": 70752,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/3h85Jro7XqQ?start=641"
+}

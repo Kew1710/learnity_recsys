@@ -1,0 +1,42 @@
+{
+  "comment": "А) Вытеснение слабой летучей кислоты более сильной кислотой из состава кислой соли:\nHCl + KHSO₃ = KCl + SO₂ + H₂O\nБ) Вытеснение слабой летучей кислоты более сильной кислотой из состава средней соли:\n2HCl + K₂SO₃ = 2KCl + SO₂ + H₂O\nВ) Вытеснение слабой летучей кислоты более сильной кислотой из состава кислой соли:\nHCl + KHS = KCl + H₂S\nГ) Вытеснение слабой летучей кислоты более сильной кислотой из состава средней соли:\n2HCl + K₂S = 2KCl + H₂S",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 3944,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3311",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТЫ РЕАКЦИИ\nA) HCl и KHSO₃1) KCl и H₂SБ) HCl и K₂SO₃2) KCl, H₂S и H₂OB) HCl и KHS3) KCl, SO₂ и H₂OГ) HCl и K₂S4) KCl и H₂SO₄ 5) KCl, H₂SO₄ и H₂O 6) KCl, SO₃ и H₂O",
+      "error_conditions": [],
+      "id": 66365,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=14938"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=14938"
+}

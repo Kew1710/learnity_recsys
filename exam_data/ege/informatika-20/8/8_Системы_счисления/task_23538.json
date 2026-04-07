@@ -1,0 +1,45 @@
+{
+  "comment": "Всего 4 буквы, значит работаем с 4сс: А - 0, Б - 1, З - 2, И - 3. Значит, слово ИЗБА эквивалентно числу 3210 в 4сс, а это 228 в 10сс. Следовательно, порядковый номер слова ИЗБА - 229.\n\nPython:\n\nal = 'АБЗИ'\nk = 0\nfor x1 in al:\nfor x2 in al:\nfor x3 in al:\nfor x4 in al:\ns = x1 + x2 + x3 + x4\nk += 1\nif s == 'ИЗБА':\nprint(k)\nbreak",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 23538,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "229",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: DOSR2308_3\n(ДОСРОК 2023) Все 4-буквенные слова, составленные из букв А, Б, З, И, записаны в алфавитном порядке и пронумерованы. Вот начало списка:\n1. АААА\n2. АААБ\n3. АААЗ\n4. АААИ\nПод каким номером стоит слово ИЗБА?",
+      "error_conditions": [],
+      "id": 243263,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

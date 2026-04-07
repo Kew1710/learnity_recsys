@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3119,
+    "title": "1.2.1 Сеть Интернет. Веб-страница, веб-сайт. Структура адресов веб-ресурсов."
+  },
+  "id": 31199,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "67987274735",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Файл winter.jpg был выложен в Интернете по адресу ftp://weather.info/winter.jpg. Потом на сайте создали подкаталог foto, а в нем  — подкаталог 2019, и файл переместили в подкаталог 2019.\nФрагменты нового и старого адресов файла закодированы цифрами от 1 до 9. Запишите последовательность этих цифр, кодирующую адрес файла в сети Интернет после перемещения.\n1)  http:/\n2)  foto\n3)  winter\n4)  2019\n5)  .jpg\n6)  ftp:/\n7)  /\n8)  .info\n9)  weather",
+      "error_conditions": [],
+      "id": 250838,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

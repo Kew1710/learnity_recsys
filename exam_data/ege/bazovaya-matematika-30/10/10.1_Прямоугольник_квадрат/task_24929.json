@@ -1,0 +1,42 @@
+{
+  "comment": "Забор должен проходить по периметру участка. Длина периметра: \\(2 \\cdot (55+40) = 2 \\cdot 95 = 190\\) м.\nПри этом должен быть проезд шириной 3 м, то есть в этом месте забора не будет. Тогда длина забора равна \\(190 - 3 = 187\\) м.\nОтвет: 187 м.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2093,
+    "title": "10.1 Прямоугольник, квадрат"
+  },
+  "id": 24929,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "187",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Участок земли имеет прямоугольную форму. Стороны прямоугольника равны 40 м и 55 м. Найдите длину забора (в метрах), которым нужно огородить участок, предусмотрев проезд шириной 3 м.",
+      "error_conditions": [],
+      "id": 244586,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

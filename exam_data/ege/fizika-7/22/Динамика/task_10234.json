@@ -1,0 +1,37 @@
+{
+  "comment": "Если тело начнет движение, то на тело будет действовать сила трения скольжения. По второму закону Ньютона:\n$$Oy:~F\\sin\\alpha-mg+N=0\\Rightarrow N=mg-F\\sin\\alpha$$\n$$F_{трск}=\\mu N=\\mu (mg-F\\sin\\alpha)=0,8(2\\cdot 10-8\\sin 60^\\circ)=10,46~Н$$\nЕсли тело покоится, то на тело будет действовать сила трения покоя.\n$$F\\cos\\alpha-F_{тр}=0\\Rightarrow F\\cos\\alpha=F_{трп}=8\\cdot \\cos 60^\\circ=4~Н$$\n$$F\\cos\\alpha<F_{трск}\\Rightarrow F_{тр}=F_{трп}=4~Н$$\nОтвет: 4 H",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 10234,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23624\nНа горизонтальном шероховатом столе лежит брусок массой \\(2\\) кг. К нему прикладывают силу \\(F=8\\) Н, направленную под углом \\(60^\\circ\\) к горизонту. Коэффициент трения между бруском и поверхностью стола равен \\(0,8\\). Найдите модуль силы трения, действующей со стороны поверхности стола на брусок.",
+      "error_conditions": null,
+      "id": 122911,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/vdnG_dbnKss"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2735,
+    "title": "№15 Смешанные прототипы"
+  },
+  "id": 24113,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "88",
+          "points": -1
+        }
+      ],
+      "comment": "",
+      "description": "ID: OS2215_12\n(Основная волна 2022)\nДан числовой отрезок B = [70, 90]. Для какого наибольшего целого неотрицательного числа A выражение\n\n$$ДЕЛ(x, А) ∨ ((x ∈ В) → ¬ДЕЛ(x, 22))$$\nтождественно истинно (т.е. принимает значение 1) при любых целых положительных x и y?",
+      "error_conditions": [],
+      "id": 243828,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": -1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": null
+}

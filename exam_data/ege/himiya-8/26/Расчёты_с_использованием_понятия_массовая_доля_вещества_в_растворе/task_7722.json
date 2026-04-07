@@ -1,0 +1,42 @@
+{
+  "comment": "m(соли) = x г\nω = m(в-ва)/m(р-ра)\nω = (m₁(соли) + m(соли))/(m₁(р-ра) + m(соли))\nm₁(соли) = ω₁ • m₁(р-ра) = 0,1 • 150 = 15 г\n0,12 = (15 + x)/(150 + x)\n15 + x = 150 • 0,12 + 0,12x\n0,88x = 3\nx = 3,4\nm(соли) = 3,4 г",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 7722,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Вычислите массу нитрата калия (в граммах), которую следует растворить в 150 г раствора с массовой долей этой соли 10% для получения раствора с массовой долей 12%. (Запишите число с точностью до десятых.)",
+      "error_conditions": [],
+      "id": 100107,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3fJeOtCGF1A?start=7747"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/3fJeOtCGF1A?start=7747"
+}

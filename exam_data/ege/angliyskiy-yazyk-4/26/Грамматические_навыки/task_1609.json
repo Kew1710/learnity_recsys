@@ -1,0 +1,42 @@
+{
+  "comment": "B11 introduction После определенного артикля \"the\" требуется существительное. Оно описывает акт использования чего-то нового.\n\nB12 creatures Для описания живых существ, например, животных, требуется существительное во множественном числе. Выдры даны как пример живых существ, существование которых поставлено под угрозу в результате загрязнения окружающей среды.\n\nB13 choices Здесь требуется существительное во множественном числе, так как глагол 'have' стоит во множественном числе. Стоящее перед пропуском слово 'day-to-day' является прилагательным, описывающим существительное.\n\nB14 affect Слово effect - существительное, a affect - глагол. В данном случае требуется глагол: подлежащим является 'these things', а наречие 'directly' описывает глагол.\n\nB15 politicians Здесь требуется существительное во множественном числе, так как перед пропуском нет неопределенного артикля (а), который означал бы, что нужна форма единственного числа; нет ни определенного артикля (the), ни притяжательного (their), которые означали бы, что существительное может быть в форме единственного числа. В предложении есть только прилагательное \"local', поэтому существительное должно быть в форме множественного числа. Существительное должно обозначать людей, так как предложение рассказывает о людях, которые пишут им письма.\n\nB16 difference Это существительное является частью выражения make a difference, которое означает \"вызывать изменения\". Неопределенный артикль 'а\" требует существительного в форме единственного числа.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 814,
+    "title": "Грамматические навыки"
+  },
+  "id": 1609,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "b11-introduction b12-creatures b13-choices b14-affect b15-politicians b16-difference",
+          "points": 6
+        }
+      ],
+      "comment": "",
+      "description": "Прочитайте приведённый ниже текст. Преобразуйте слова, напечатанные заглавными буквами в конце строк, обозначенных номерами B11-В16 так, чтобы они грамматически и лексически соответствовали содержанию текста. Заполните пропуски полученными словами. Каждый пропуск соответствует отдельному заданию из группы В11-B16.\n\nA DISCOVERY IN THE STUDY OF OLD LANGUAGES\n\n(B11). Air quality in London has improved since the ______ (INTRODUCE) of the congestion charge, which makes people pay to take their cars into central London.\n\n(B12). After decades of being driven away by pollution, ______ (CREATE) such as otters which used to be endangered species are returning to British rivers.\n\n(B13). 'The British are realising that their day-to-day ______ (CHOOSE) have an impact on the environment.\n\n(B14). And they are realising that these things directly ______ (EFFECT) their families 'health,' says recycling campaigner Georgina Bloomfield from the organisation Friends of the Earth.\n\n(B15). So more and more British people are washing out jam jars and putting them in recycling bins or writing to local ______ (POLITICS) about the environment.\n\n(B16). It seems that most British people want to make a ______ (DIFFERENT) - and that's exactly what they're doing.",
+      "error_conditions": [],
+      "id": 53944,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 6,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

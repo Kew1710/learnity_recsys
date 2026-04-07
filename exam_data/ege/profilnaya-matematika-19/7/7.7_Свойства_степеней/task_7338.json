@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{5^{4,4}\\cdot 6^{8,4}}{5^{6,4}\\cdot 6^{6,4}}=\\frac{6^2}{5^2}=\\frac{36}{25}=\\frac{144}{100}=1,44$$\nОтвет: 1,44",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 7338,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,44",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{5^{4,4}\\cdot 6^{8,4}}{30^{6,4}}\\).",
+      "error_conditions": [],
+      "id": 83974,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5885"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5885"
+}

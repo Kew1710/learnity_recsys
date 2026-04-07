@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2911,
+    "title": "Систематика живых организмов"
+  },
+  "id": 27641,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13254",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность систематических таксонов, начиная с наименьшего. Запишите в таблицу соответствующую последовательность цифр.\n\n1) вид Бычий цепень\n2) тип Плоские черви\n3) класс Ленточные черви\n4) домен Эукариоты\n5) царство Животные",
+      "error_conditions": [],
+      "id": 247280,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

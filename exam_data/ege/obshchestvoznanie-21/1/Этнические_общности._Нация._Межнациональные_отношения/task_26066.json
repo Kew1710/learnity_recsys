@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2569,
+    "title": "Этнические общности. Нация. Межнациональные отношения"
+  },
+  "id": 26066,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ниже приведён перечень терминов. Все они, за исключением двух, относятся к признакам любой этнической общности.\n\n1) общность языка; 2) единое гражданство; 3) общность культурных ценностей; 4) социальный статус; 5) этническое самосознание; 6) общая историческая память.\n\nНайдите два термина, «выпадающих» из общего ряда, и запишите в таблицу цифры, под которыми они указаны",
+      "error_conditions": [],
+      "id": 245705,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

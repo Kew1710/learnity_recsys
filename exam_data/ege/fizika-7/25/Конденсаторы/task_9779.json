@@ -1,0 +1,37 @@
+{
+  "comment": "Согласно формуле емкости конденсатора \\(\\downarrow C=\\frac{\\varepsilon\\varepsilon_0S}{d\\uparrow}\\Rightarrow C\\) уменьшается\nУчтем, что \\(U_{конд}=\\varepsilon\\)\nЗаряд на конденсаторе:\n$$\\downarrow q=\\downarrow C\\varepsilon$$\nСледовательно, \\(q\\) уменьшается и \\(\\Delta q<0\\)\n$$A_{ист}+A_{пл}=\\Delta W+Q$$\nЭДС источника найдем по формуле:\n$$\\varepsilon =\\frac{A_{ист}}{\\Delta q}\\Rightarrow A_{ист}=\\varepsilon\\Delta q$$\nИзменение энергии равно:\n$$\\Delta W=W_{кон}-W_{нач}\\\\ W_{нач}=\\frac{q_1\\varepsilon}{2}\\\\ W_{кон}=\\frac{q_2\\varepsilon}{2}\\\\ \\Delta W=\\frac{q_2\\varepsilon}{2}-\\frac{q_1\\varepsilon}{2}=\\frac{\\varepsilon}{2}(q_2-q_1)=\\frac{\\varepsilon}{2}\\Delta q$$\nОбъединим полученные формулы:\n$$\\varepsilon\\Delta q+A_{пл}=\\frac{\\varepsilon}{2}\\Delta q+Q\\Rightarrow A_{пл}=Q+\\varepsilon\\Delta q\\left (\\frac{1}{2}-1\\right )=Q-\\varepsilon\\Delta q\\frac{1}{2}$$\nПолучаем:\n$$A_{пл}=20\\cdot 10^{-6}-200\\cdot \\left (-2\\cdot 10^{-6}\\right )\\cdot \\frac{1}{2}=220~мкДж$$\nОтвет: 220 мкДж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 9779,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23525\nК конденсатору переменной емкости, расстояние между пластинами которого можно менять, через резистор подключают источник постоянного напряжения с ЭДС \\(200\\) В (см. рисунок). Пластины медленно раздвигают. Найдите работу, которая совершается против сил притяжения пластин, если за время движения пластин на резисторе выделяется количество теплоты \\(20\\) мкДж, а заряд конденсатора изменяется на \\(2\\) мкКл.",
+      "error_conditions": null,
+      "id": 118389,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/U51P4kEhyPo"
+}

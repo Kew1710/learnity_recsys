@@ -1,0 +1,42 @@
+{
+  "comment": "Половина отдыхающих составляют 100\\% : 2 = 50\\%\nОтвет: 50.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2114,
+    "title": "15.1 Задачи на проценты"
+  },
+  "id": 29400,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "50",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Половина всех отдыхающих в пансионате — дети. Какой процент от всех отдыхающих составляют дети?",
+      "error_conditions": [],
+      "id": 249039,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

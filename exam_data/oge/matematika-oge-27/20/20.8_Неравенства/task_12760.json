@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\( \\cfrac{-18}{(x+4)^2-10} \\geqslant 0 \\)\n\\( \\Rightarrow (x+4)^2-10<0\\), так как \\( -18<0 \\) и \\( \\cfrac{-18}{(x+4)^2-10} \\geqslant 0 \\)\n\\( (x+4)^2-10<0 \\)\n\\( (x+4)^2-(\\sqrt{10})^2<0 \\)\n\\( (x+4-\\sqrt{10})(x+4+\\sqrt{10})<0 \\)\n\\( (x+4-\\sqrt{10})(x+4+\\sqrt{10})=0 \\)\n\\( x+4-\\sqrt{10}=0 \\) или \\( x+4+\\sqrt{10}=0 \\)\n\\( x=-4+\\sqrt{10 } \\) или \\( x=-4-\\sqrt{10} \\)\nОтвет: \\( x \\in (-4-\\sqrt{10};-4+\\sqrt{10}) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2055,
+    "title": "20.8 Неравенства"
+  },
+  "id": 12760,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство \\(\\cfrac{-18}{(x+4)^2-10} \\geqslant 0\\) .",
+      "error_conditions": null,
+      "id": 172560,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,46 @@
+{
+  "comment": "Реакции соединения - это реакции, при которых происходит соединения нескольких веществ, в результате чего образуется одно сложное вещество\n\n1) Реакция соединения\n2) Реакция замещения\n3) Реакция разложения\n4) Реакция соединения\n5) Реакция разложения",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2892,
+    "title": "Классификация химических реакций"
+  },
+  "id": 34251,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14",
+          "points": 1
+        },
+        {
+          "answer": "41",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два уравнения, соответствующие реакции соединения.\n\n1) \\(4FeO + O_{2} = 2Fe_{2}O_{3}\\)\n2) \\(CuSO_{4} + Fe = FeSO_{4} + Cu\\)\n3) \\(2KClO_{3} = 2KCl + 3O_{2}\\)\n4) \\(CaO + CO_{2} = CaCO_{3}\\)\n5) \\(2Fe(OH)_{3} = Fe_{2}O_{3} + 3H_{2}O\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 253890,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

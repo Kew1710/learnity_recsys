@@ -1,0 +1,45 @@
+{
+  "comment": "$$y'=x-7+\\frac{12}{x}=\\frac{x^2-7x+12}{x}=\\frac{(x-3)(x-4)}{x}$$\nОпределим знаки производной функции и изобразим на рисунке поведение функции.\nИскомая точка максимума \\(x= 3\\).\n\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2445,
+    "title": "12.2 Логарифмическая функция"
+  },
+  "id": 7454,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку максимума функции \\(y=0,5x^2-7x+12\\ln x+8\\).",
+      "error_conditions": [],
+      "id": 98360,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/6vyEv1W23M8?start=4641"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/6vyEv1W23M8?start=4641"
+}

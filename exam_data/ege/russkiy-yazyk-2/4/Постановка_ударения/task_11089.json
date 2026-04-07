@@ -1,0 +1,42 @@
+{
+  "comment": "свЁкла - запоминаем\nподелЕнный - в страдательных причастиях с суффиксом ЁНН ударение будет падать на Ё",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 913,
+    "title": "Постановка ударения"
+  },
+  "id": 11089,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "124",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук. Запишите номера ответов.\n\n- прИбыл\n- прозорлИва\n- свеклА\n- отключЁнный\n- подЕленный",
+      "error_conditions": [],
+      "id": 147962,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

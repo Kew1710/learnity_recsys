@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(x>0, y>0\\) по условию\n\\(\\sqrt{16x^4y^{6}}=4x^2y^3\\)\nПодставим \\(x=6, y=2\\)\n\\(4 \\cdot 36 \\cdot 8 = 1152\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1956,
+    "title": "8.1 Иррациональные числа и выражения"
+  },
+  "id": 19131,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1152",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\sqrt{16x^4y^{6}}\\) при \\(x=6, y=2\\) .",
+      "error_conditions": [],
+      "id": 238969,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$2\\cos^3x-2\\cos x+\\sqrt{3}\\sin^2x=0$$\nИз основного тригонометрического тождества: \\(\\sin^2x=1-\\cos^2x\\)\n$$2\\cos^3x-2\\cos x+\\sqrt{3}(1-\\cos^2x)=0\\\\ -2\\cos x(1-\\cos^2x)+\\sqrt{3}(1-\\cos^2x)=0\\\\ (1-\\cos^2x)(\\sqrt{3}-2\\cos x)=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} \\sqrt{3} -2\\cos x=0\\\\ 1-\\cos^{2} x=0 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\cos x=\\frac{\\sqrt{3}}{2}\\\\ \\cos x=\\pm 1 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} x=\\pm \\frac{\\pi }{6} +2\\pi k\\\\ x=\\pi k \\end{array} \\right. ,k\\in Z$$\nб) Отберем корни на промежутке \\([-\\frac{7\\pi}{2};-2\\pi]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$-2\\pi\\\\ -2\\pi-\\pi=-3\\pi\\\\ -2\\pi-\\frac{\\pi}{6}=-\\frac{13\\pi}{6}$$\nОтвет: а) \\(\\pm\\frac{\\pi}{6}+2\\pi k, k \\in Z ; \\pi k,k\\in Z\\); б) \\(\\{-3\\pi;-\\frac{13\\pi}{6};-2\\pi\\}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2451,
+    "title": "13.2 Метод группировки"
+  },
+  "id": 10455,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(2\\cos x-\\sqrt{3}\\sin^2 x=2\\cos^3 x\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([-\\frac{7\\pi}{2};-2\\pi]\\).",
+      "error_conditions": null,
+      "id": 142324,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

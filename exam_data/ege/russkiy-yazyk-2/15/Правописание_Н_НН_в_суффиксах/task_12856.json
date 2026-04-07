@@ -1,0 +1,42 @@
+{
+  "comment": "доставлена - краткое причастие, Н\nодобрена - краткое причастие, Н\nторжественно - в наречиях столько же Н, сколько в прилагательных, от которых они образованы (торжественный), НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12856,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется Н.\nМодель нового дворца была доставле(1)а в Петербург, одобре(2)а императрицей, после чего торжестве(3)о прошла церемония закладки первого камня.",
+      "error_conditions": [],
+      "id": 174040,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

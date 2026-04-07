@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1805,
+    "title": "6.7 Органы государственной власти Российской Федерации"
+  },
+  "id": 25136,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "К ведению Государственной Думы относится\n1) управление федеральной собственностью\n2) решение вопросов гражданства Российской Федерации\n3) назначение выборов Президента России\n4) объявление амнистии",
+      "error_conditions": [],
+      "id": 244793,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/n12CunaKYco?si=dJd47FOZyzFenQHD&t=1993"
+    },
+    "Valid": true
+  },
+  "time_seconds": 7200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/n12CunaKYco?si=dJd47FOZyzFenQHD&t=1993"
+}

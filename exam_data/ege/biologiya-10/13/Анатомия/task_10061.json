@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 4\nПояснение: 1 – Свободные нервные окончания (болевые рецепторы)\n2 – Рецепторы холода\n3 – Рецепторы давления\n4 – Рецепторы тепла\n5 – Тактильные рецепторы",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10061,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите рисунок «Рецепторы кожи» и выполните задание\n\nКаким номером на рисунке обозначен рецептор тепла?",
+      "error_conditions": [],
+      "id": 121867,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "КПД теплового двигателя:\n$$\\eta =1-\\frac{Q_х}{Q_н}\\\\ \\frac{Q_х}{Q_н}=1-\\eta\\\\ Q_х=Q_н(1-\\eta )=20\\cdot(1-0,4)=20\\cdot 0,6=12~Дж$$\nОтвет: 12 Дж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9472,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23396\nКПД теплового двигателя изменяется в зависимости от количества теплоты, полученного от нагревателя, при постоянном количестве теплоты, отданном холодильнику, согласно приведенной таблице. Какое количество теплоты тепловая машина отдает за цикл холодильнику? Ответ дайте в Дж.\n\\(Q_н, Дж\\)\n20\n30\n40\n50\n60\n\\(\\eta, \\%\\)\n40\n60\n70\n76\n80",
+      "error_conditions": [],
+      "id": 114678,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

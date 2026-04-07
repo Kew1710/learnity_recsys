@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\displaystyle \\begin{cases} x\\geq 0\\\\ 2x+3=x^{2} \\end{cases} \\Leftrightarrow \\begin{cases} x\\geq 0\\\\ x^{2} -2x-3=0 \\end{cases} \\Leftrightarrow \\begin{cases} x\\geq 0\\\\ ( x-3)( x+1) =0 \\end{cases} \\Leftrightarrow \\begin{cases} x\\geq 0\\\\ \\left[ \\begin{array}{l l} x=3\\\\ x=-1 \\end{array} \\right. \\end{cases} \\Leftrightarrow x=3$$\nОтвет: 3.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2401,
+    "title": "6.3 Иррациональные"
+  },
+  "id": 23289,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(\\sqrt{2x+3}=x\\). Если корней окажется несколько, то в ответе запишите наименьший из них.",
+      "error_conditions": [],
+      "id": 243014,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=1898s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=1898s"
+}

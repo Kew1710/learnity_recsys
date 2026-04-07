@@ -1,0 +1,42 @@
+{
+  "comment": "А) S + O₂ = SO₂ (S⁰ - 4ē ⟶ S⁺⁴)\nБ) SO₂ + Cl₂ + 2H₂O = H₂SO₄ + 2HCl (S⁺⁴ - 2ē ⟶ S⁺⁶)\nВ) H₂S + I₂ = S + 2HI (S⁻² - 2ē ⟶ S⁰)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2839,
+    "title": "Реакции окислительно-восстановительные"
+  },
+  "id": 5935,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "342",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между изменением степени окисления элемента и формулами веществ, при взаимодействии которых это изменение происходит: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИЗМЕНЕНИЕ СТЕПЕНИ\nОКИСЛЕНИЯ\nФОРМУЛЫ ВЕЩЕСТВ\nА) S⁰ ⟶ S⁺⁴1) Cu и H₂SO₄ (конц.)Б) S⁺⁴ ⟶ S⁺⁶2) H₂S и I₂В) S⁻² ⟶ S⁰3) S и O₂ 4) SO₂ и Cl₂ (р-р)",
+      "error_conditions": [],
+      "id": 72406,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=14260"
+    },
+    "Valid": true
+  },
+  "time_seconds": 480,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=14260"
+}

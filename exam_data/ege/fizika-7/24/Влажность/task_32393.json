@@ -1,0 +1,37 @@
+{
+  "comment": "Так как \\(T-const\\), то \\(\\rho_н-const\\)\nОтносительная влажность воздуха:\n$$\\varphi_1=\\frac{\\rho_1}{\\rho_н};~\\rho_1=\\frac{m_1}{V_1}\\Rightarrow \\varphi_1=\\frac{m_1}{V_1\\rho_н}\\Rightarrow m_1=\\varphi_1V_1\\rho_н~(1)$$\n$$\\varphi_2=\\frac{\\rho_2}{\\rho_н};~\\rho_2=\\frac{m_2}{V_2}\\Rightarrow \\varphi_2=\\frac{m_2}{V_2\\rho_н}\\Rightarrow m_2=\\varphi_2V_2\\rho_н~(2)$$\n$$\\varphi_3=\\frac{\\rho_3}{\\rho_н};~\\varphi_3=\\frac{m_1+m_2}{V_1+V_2}\\Rightarrow m_1+m_2=\\varphi_3\\left (V_1+V_2\\right )\\rho_н~(3)$$\nПодставим \\((1)\\) и \\((2)\\) в \\((3)\\):\n$$\\varphi_1V_1\\rho_н+\\varphi_2V_2\\rho_н=\\varphi_3\\left (V_1+V_2\\right )\\rho_н$$\nПоделим на \\(V_1\\rho_н\\):\n$$\\varphi_1+\\varphi_2\\frac{V_2}{V_1}=\\varphi_3\\left (1+\\frac{V_2}{V_1}\\right )$$\n$$\\varphi_1-\\varphi_3=\\frac{V_2}{V_1}\\left (\\varphi_3-\\varphi_2\\right )$$\nОтношение объемов:\n$$\\frac{V_2}{V_1}=\\frac{\\varphi_1-\\varphi_3}{\\varphi_3-\\varphi_2}=\\frac{0,6-0,65}{0,65-0,7}=1$$\nОтвет: 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2627,
+    "title": "Влажность"
+  },
+  "id": 32393,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Сосуд разделен тонкой перегородкой на две части. В первой части сосуда находится воздух с относительной влажностью \\(\\varphi_1=60\\)%, во второй части находится воздух с относительной влажностью \\(\\varphi_2=70\\)%. После того, как убрали перегородку, в сосуде установилась относительная влажность воздуха \\(65\\)%. Найдите отношение объемов частей сосуда. Считать, что температура воздуха в частях сосуда одинакова и не изменилась после снятия перегородки.",
+      "error_conditions": null,
+      "id": 252032,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/fvQ1eKtlzLw?t=5473"
+}

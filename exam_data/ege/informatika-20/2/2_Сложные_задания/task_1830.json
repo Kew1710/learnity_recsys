@@ -1,0 +1,45 @@
+{
+  "comment": "PascalPythonvar x,y,z,w:boolean;\nFunction F(n:boolean):integer;\nbegin\nIf n = True then\nF:=1\nelse F:=0;\nend;\nbegin\nprintln('x y z w');\nFor x:=false to true do\nFor y:=false to true do\nFor z:=false to true do\nFor w:=false to true do\nif ( (z <= (x = w))or not(y <= w) ) = False then\nprintln(F(x),F(y),F(z),F(w));\nend.\n\nprint('x y z w')\nfor x in range(2):\nfor y in range(2):\nfor z in range(2):\nfor w in range(2):\nif( (z <= (x == w)) or not(y <= w) ) == False:\nprint(x,y,z,w)\n\nСопоставив две таблицы получим:\nПервые две строки исходной таблицы заполняем единицами\nСмотрим на столбцы где уже есть две единицы и нули со свободным местом и сравниваем с полученной. Под единицей ставим еще одну, под двумя нулями - единицу и на свободное место нолик\n\nCтолбик со всеми единицами - это z\nСтолбик с двумя единицами - это w\nОбратим внимание на строку с тремя единицами, первая единица - это z, вторая - это w, значит третья - это y, а нолик это x\nx wz y\\((z \\to (x \\sim w)) \\vee \\neg (y \\to w)\\)10100011000111 0",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2692,
+    "title": "№2 Сложные задания"
+  },
+  "id": 1830,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "xwzy",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID задания: CB62F5\nТекст задания: Миша заполнял таблицу истинности функции \\((z \\to (x \\sim w)) \\vee \\neg (y \\to w)\\),\nно успел заполнить лишь фрагмент из трёх различных её строк, даже не указав, какому столбцу таблицы соответствует каждая из переменных w, x, y, z.\n\\((z \\to (x \\sim w)) \\vee \\neg (y \\to w)\\) 0 000 00 1 0Определите, какому столбцу таблицы соответствует каждая из переменных w, x, y, z.\nВ ответе напишите буквы w, x, y, z в том порядке, в котором идут соответствующие им столбцы (сначала буква, соответствующая первому столбцу; затем буква, соответствующая второму столбцу, и т.д.). Буквы в ответе пишите подряд, никаких разделителей между буквами ставить не нужно.\nПример. Функция задана выражением \\(\\neg x \\vee y\\), зависящим от двух переменных, а фрагмент таблицы имеет следующий вид.\n\\(\\neg x \\vee y\\)010В этом случае первому столбцу соответствует переменная y, а второму столбцу– переменная x. В ответе следует написать: yx.",
+      "error_conditions": [],
+      "id": 54952,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 21,
+    "title": "Таблицы истинности"
+  },
+  "video_link": null
+}

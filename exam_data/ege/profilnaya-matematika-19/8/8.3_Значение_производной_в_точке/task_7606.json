@@ -1,0 +1,45 @@
+{
+  "comment": "Значение производной – тангенс угла наклона касательной в данной точке. Угол является тупым, поэтому смотрим на смежный с нашим – острый угол, а ответ записываем с противоположным знаком.\n$$tg \\alpha=\\frac{6}{4}=1,5$$\nСледовательно, значение производной в точке \\(х_0\\) равно \\(-1,5\\).\n\nОтвет: -1,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2414,
+    "title": "8.3 Значение производной в точке"
+  },
+  "id": 7606,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-1,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены график функции \\(y=f(x)\\) и касательная к нему в точке с абсциссой \\(х_0\\). Найдите значение производной функции в точке \\(х_0\\).",
+      "error_conditions": [],
+      "id": 99645,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/A7UlKtDHk5w?start=891"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/A7UlKtDHk5w?start=891"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Концентрация раствора равна:\n$$C=\\frac{V_{в-ва}}{V_{р-ра}} \\cdot 100\\%$$\nОбъем вещества в исходном растворе равен \\(0,20\\cdot 8=1,6\\) литра. При добавлении \\(8\\) литров воды общий объем раствора увеличится, а объем растворенного вещества останется прежним. Таким образом, концентрация полученного раствора равна:\n$$\\frac{1,6}{8+8} \\cdot 100\\%=10\\%$$\nОтвет: 10",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2434,
+    "title": "10.7 Смеси, сплавы и растворы"
+  },
+  "id": 7398,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В сосуд, содержащий \\(8\\) литров \\(20\\) - процентного водного раствора некоторого вещества, добавили \\(8\\) литров воды. Сколько процентов составляет концентрация получившегося раствора?",
+      "error_conditions": [],
+      "id": 97996,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9ZV8k3kGKyM?start=4947"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/9ZV8k3kGKyM?start=4947"
+}

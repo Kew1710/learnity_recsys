@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\cup AB=\\angle AOB~(так~как \\angle AOB-центральный)\\\\ \\angle AOB=\\angle AOC\\\\ AO\\perp AC~(радиус~и~касательная)\\\\ в~\\Delta AOC:\\angle AOC=180^\\circ-\\angle OAC-\\angle OCA=180^\\circ-90^\\circ-27^\\circ=63^\\circ$$\nОтвет: 63",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2379,
+    "title": "1.8 Касательная, хорда, секущая"
+  },
+  "id": 3471,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "63",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Угол \\(ACO\\) равен \\(27^{\\circ }\\), где \\(O\\) − центр окружности. Его сторона \\(CA\\) касается окружности. Сторона \\(CO\\) пересекает окружность в точке \\(B\\) (см. рисунок). Найдите величину меньшей дуги \\(AB\\) окружности. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 65140,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=2502"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=2502"
+}

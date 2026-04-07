@@ -1,0 +1,45 @@
+{
+  "comment": "Значение производной функции в точке равно тангенсу угла наклона касательной, проведенной к графику функции в этой точке. В данном случае значение производной функции в точке \\(x_0\\) равно \\(tg\\alpha\\).\n$$tg\\alpha=tg(180^\\circ-\\alpha)=-tg\\angle BAC=-\\frac{BC}{AC}$$\nИз рисунка \\(BC= 7\\), \\(AC=4\\). Тогда:\n$$tg\\alpha=-\\frac{BC}{AC}=-\\frac{7}{4}=-1,75$$\nОтвет: -1,75",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2414,
+    "title": "8.3 Значение производной в точке"
+  },
+  "id": 23398,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-1,75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены график функции \\(y=f(x)\\) и касательная к нему в точке с абсциссой \\(x_0\\). Найдите значение производной функции \\(f(x)\\) в точке \\(x_0\\).",
+      "error_conditions": [],
+      "id": 243123,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=2199s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=2199s"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "разносторонним - прилагательное, стык основы на –н- (сторон) и суффикса –н-, НН\nсопряжены - краткое причастие, Н\nсовершенно - в наречиях столько же Н, сколько в прилагательных, от которых они образованы (совершенный), НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12884,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\nИ.К. Айвазовский обладал исключительно разносторо(1)им дарованием, в котором были счастливо сопряже(2)ы качества, соверше(3)о необходимые для художника-мариниста.",
+      "error_conditions": [],
+      "id": 174068,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

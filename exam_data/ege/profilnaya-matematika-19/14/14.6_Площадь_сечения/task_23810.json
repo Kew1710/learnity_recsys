@@ -1,0 +1,40 @@
+{
+  "comment": "а) В прямоугольных треугольниках \\(ADB\\) и \\(ADC\\) катет \\(AD\\) общий, а \\(AB=AC\\) по условию. Тогда \\(\\Delta ADB=\\Delta ADC\\Rightarrow BD=CD\\), что и требовалось доказать.\n\nб) В прямоугольных треугольниках \\(ADB\\) и \\(CDB\\) катет \\(BD\\) общий, а \\(AB=BC\\) по условию. Тогда \\(\\Delta ADB=\\Delta CDB\\Rightarrow AD=CD\\).\nТреугольник \\(BCD\\) – равнобедренный и прямоугольный, тогда:\n$$BC^2=BD^2+CD^2=2\\cdot CD^2\\\\ BC=\\sqrt{2}\\cdot CD\\\\ CD=\\frac{1}{\\sqrt{2}}\\cdot BC=\\frac{1}{\\sqrt{2}}\\cdot 5\\sqrt{2}=5$$\nТо есть:\n$$AD=BD=CD=5$$\nПо условию:\n$$\\frac{DN}{NC}=\\frac{2}{3}\\Rightarrow DN=\\frac{2}{3}NC\\\\ CD=DN+NC=\\frac{2}{3}NC+NC=\\frac{5}{3}NC\\\\ NC=\\frac{3}{5}CD=\\frac{3}{5}\\cdot 5=3\\\\ DN=\\frac{2}{3}NC=\\frac{2}{3}\\cdot 3=2$$\nАналогично \\(MA=3\\) и \\(DM=2\\).\n\n\\(\\frac{DM}{DA}=\\frac{DN}{DC}\\) и \\( \\angle{ADC}\\) - общий \\(\\Rightarrow \\Delta DAC\\) подобен \\(\\Delta DMN\\), тогда\n$$\\frac{MN}{AC}=\\frac{DN}{DC}=\\frac{2}{5}\\\\ MN=\\frac{2}{5}AC=\\frac{2}{5}\\cdot 5\\sqrt{2}=2\\sqrt{2}$$\nТреугольник \\(BDN\\) прямоугольный, тогда:\n$$BN^2=BD^2+DN^2\\\\ BN=\\sqrt{BD^2+DN^2}\\\\ BN=\\sqrt{5^2+2^2}\\\\ BN=\\sqrt{29}$$\nТреугольник \\(MNB\\) равнобедренный (\\(BN=BM\\)), тогда его площадь равна:\n$$S_{MNB}=\\frac{1}{2}MN\\sqrt{MB^2-\\left(\\frac{MN}{2}\\right)^2}=\\frac{1}{2}\\cdot 2\\sqrt{2}\\cdot\\sqrt{29-2}=\\sqrt{54}=3\\sqrt{6}$$\nОтвет: \\(3\\sqrt{6}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2465,
+    "title": "14.6 Площадь сечения"
+  },
+  "id": 23810,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В пирамиде \\(ABCD\\) рёбра \\(DA\\), \\(DB\\) и \\(DC\\) попарно перпендикулярны, а \\(AB=BC=AC=5\\sqrt{2}\\).\nа) Докажите, что \\(BD=CD\\).\nб) На рёбрах \\(DA\\) и \\(DC\\) отмечены точки \\(M\\) и \\(N\\) соответственно, причём \\(DM:MA=DN:NC= 2:3\\). Найдите площадь сечения \\(MNB\\).",
+      "error_conditions": null,
+      "id": 243529,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=6737s"
+}

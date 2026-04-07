@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем формулу для перемещения при равноускоренном движении через квадраты скоростей и ускорение:\n\n$$S = \\frac{v^2-{v_0}^2}{2a}$$\n\nГде \\(v_0\\) - начальная скорость автомобиля, \\(v\\) - конечная скорость автомобиля, \\(S\\) - пройденный путь.\n\nПодставим численные значения, учитывая, что автомобиль трогается с места, поэтому его начальная скорость равна нулю:\n\n$$S=\\frac{15^2-0^2}{2\\cdot 5} = 22,5 ~м$$\n\nОтвет: 22,5 м",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2622,
+    "title": "Кинематика"
+  },
+  "id": 7883,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание 22482\nАвтомобиль трогается с места и движется с постоянным ускорением \\(5~\\frac{м}{с^2}\\). Какой путь прошел автомобиль, если его скорость в конце пути оказалась равной \\(15\\) м/с?",
+      "error_conditions": null,
+      "id": 100490,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 900,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Ca-M0-15sKg?start=8152"
+}

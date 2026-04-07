@@ -1,0 +1,40 @@
+{
+  "comment": "Замена: \\(2^x=t\\)\n$$\\frac{7}{t-32}-\\frac{1}{t-8}\\geq 0\\\\ \\frac{7t-56-t+32}{(t-32)(t-8)}\\geq 0\\\\ \\frac{6t-24}{(t-32)(t-8)}\\geq 0$$\nПоделим на \\(6\\) обе части неравенства:\n$$\\frac{t-4}{(t-32)(t-8)}\\geq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l} t >32\\\\ \\begin{cases} t\\geq 4\\\\ t< 8 \\end{cases} \\end{array} \\right.$$\nВернемся к замене:\n$$\\displaystyle \\left[ \\begin{array}{l l} 2^{x} >2^{5}\\\\ \\begin{cases} 2^{x} \\geq 2^{2}\\\\ 2^{x} < 2^{3} \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} x >5\\\\ \\begin{cases} x\\geq 2\\\\ x< 3 \\end{cases} \\end{array} \\right.$$\nОтвет: \\(x\\in [2;3)\\cup (5;+\\infty)\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 17217,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{7}{2^x-32}\\geq\\frac{1}{2^x-8}\\).",
+      "error_conditions": null,
+      "id": 237102,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/ZjiTg9aJD40?feature=share&t=6248"
+}

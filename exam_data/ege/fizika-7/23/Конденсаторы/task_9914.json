@@ -1,0 +1,37 @@
+{
+  "comment": "Конденсатор успеет перезарядиться, сила тока после замыкания будет равна нулю.\nПосле замыкания ключа. Ток не течет, следовательно:\n$$\\varepsilon=U_C+Ir=U_C$$\nЭнергия конденсатора будет равна:\n$$W_C=\\frac{CU^2}{2}=\\frac{C\\varepsilon^2}{2}=\\frac{3\\cdot 10^{-6}\\cdot 12^2}{2}=216~мкДж$$\nОтвет: 216 мкДж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 9914,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "235611\nК батарее, ЭДС которой равна \\(\\varepsilon=\\)12 В, подключили конденсатор емкостью \\(С=3\\) мкФ и резистор сопротивлением \\(R=15\\) Ом. Внутреннее сопротивление батареи равно \\(r=1\\) Ом. В начальный момент времени ключ был замкнут (см. рисунок). Определите энергию конденсатора через минуту после размыкания ключа \\(K\\).",
+      "error_conditions": null,
+      "id": 120050,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/_CtYcqwaRJQ"
+}

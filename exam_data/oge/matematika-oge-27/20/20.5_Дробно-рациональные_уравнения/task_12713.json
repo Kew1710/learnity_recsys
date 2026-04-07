@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{1}{(x-2)^2}+\\cfrac{1}{x-2}-6=0\\)\nОДЗ: \\(x-2 \\neq 0\\)\n\\(\\Rightarrow x \\neq 2\\)\nПусть \\(x-2=t\\), тогда \\((x-2)^2=t^2\\)\nУмножим обе части уравнения на \\(t^2 \\neq 0\\)\n\\(1+t-6t^2=0\\)\n\\(6t^2-t-1=0\\)\n\\(D=1+24=25\\)\n\\(t_1=-\\cfrac{1}{3}\\)\n\\(t_2=\\cfrac{1}{2}\\)\n\\(1) x-2=-\\cfrac{1}{3}\\)\n\\(x=\\cfrac{5}{3}\\)\n\\(2) x-2=\\cfrac{1}{2}\\)\n\\(x=\\cfrac{5}{2}\\)\nОтвет: \\(\\cfrac{5}{3}; \\cfrac{5}{2}\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2052,
+    "title": "20.5 Дробно-рациональные уравнения"
+  },
+  "id": 12713,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(\\cfrac{1}{(x-2)^2}+\\cfrac{1}{x-2}-6=0\\) .",
+      "error_conditions": null,
+      "id": 172513,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

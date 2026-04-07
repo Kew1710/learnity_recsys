@@ -1,0 +1,42 @@
+{
+  "comment": "Одновалентные элементы - те, которые могут образовать только 1 связь. Это водород, галогены в основном (невозбуждённом) состоянии\n\nМетодом исключения верные варианты ответа: SO₃ (сера VI, кислород II) и CS₂ (сера II, углерод IV) (35)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2789,
+    "title": "Ковалентная химическая связь"
+  },
+  "id": 5349,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, в молекулах которых нет одновалентных элементов.\n1)﻿﻿﻿ CH₄\n2)﻿﻿﻿ COCl₂\n3) SO₃\n4)﻿﻿﻿ PF₃\n5)﻿﻿﻿ CS₂",
+      "error_conditions": [],
+      "id": 70903,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/KSjEzTkH_bg?start=1662"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/KSjEzTkH_bg?start=1662"
+}

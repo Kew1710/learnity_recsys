@@ -1,0 +1,37 @@
+{
+  "comment": "По 2 закону Ньютона до движения лифта:\n$$F_г-mg-F_{атм}=0;~F_г=p_1S;~F_{атм}=p_0S$$\n$$p_1S-mg-p_0S=0\\Rightarrow p_1=\\frac{mg}{S}+p_0$$\nПо 2 закону Ньютона во время движения лифта:\n$$F_{г2}-mg-F_{атм}=-ma;~F_{г2}=p_2S$$\n$$p_2S-mg-p_0S=-ma\\Rightarrow p_2=\\frac{m(g-a)}{S}+p_0$$\nТ.к. \\(\\nu,~T-const\\Rightarrow pV=const\\Rightarrow p_1V_1=p_2V_2\\)\n$$V_1=Sh;~V_2=S(h+\\Delta h)$$\n$$\\left (\\frac{mg}{S}+p_0\\right )Sh=\\left (\\frac{m(g-a)}{S}+p_0\\right )S(h+\\Delta h)$$\n$$mgh+p_0Sh=p_0Sh+m(g-a)h+p_0S\\Delta h+m(g-a)\\Delta h$$\n$$mgh=mgh-mah+p_0S\\Delta h+mg\\Delta h-ma\\Delta h$$\nПлощадь поршня:\n$$S=\\frac{m(ah-g\\Delta h+a\\Delta h)}{P_0\\Delta h}=\\frac{4\\cdot (2,5\\cdot 0,1-10\\cdot 0,02+2,5\\cdot 0,02)}{10^5\\cdot 0,02}=0,0002~м^2=2~см^2$$\nОтвет: 2 см\\(^2\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2653,
+    "title": "МКТ и молекулярная физика"
+  },
+  "id": 18856,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23И330\nВ теплоизолированном герметичном сосуде с гладкими стенками, стоящем на полу неподвижного лифта, под тяжелым подвижным поршнем массой \\(4\\) кг находится одноатомный идеальный газ, при этом расстояние от дна сосуда до поршня \\(h=10\\) см. Лифт начинает двигаться вниз с постоянным ускорением \\(2,5\\) м/с\\(^2\\), из-за чего поршень смещается вверх на \\(2\\) см. Определите площадь поршня. Давление в лифте равно атмосферному \\(10^5\\) Па, изменение температуры в сосуде считать пренебрежимо малым.",
+      "error_conditions": null,
+      "id": 238694,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/HH5orvHm9L4?feature=share&t=10074"
+}

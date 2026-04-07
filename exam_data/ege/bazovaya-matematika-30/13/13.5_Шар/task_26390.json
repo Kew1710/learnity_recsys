@@ -1,0 +1,42 @@
+{
+  "comment": "Возьмем из справочных материалов формулу для площади поверхности шара \\(S = 4\\pi r^2\\). Запишем для каждого шара:\n$$S_б = 4\\pi r_б^2 = 4\\pi \\cdot 9^2$$\n$$S_м = 4\\pi r_м^2 = 4\\pi \\cdot 3^2$$\nТогда\n$$\\frac{S_б}{S_м} = \\frac{4\\pi \\cdot 9^2}{4\\pi \\cdot 3^2} = 9$$\nОтвет: в 9 раз.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2252,
+    "title": "13.5 Шар"
+  },
+  "id": 26390,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны два шара с радиусами 9 и 3. Во сколько раз площадь поверхности большего шара больше площади поверхности меньшего?",
+      "error_conditions": [],
+      "id": 246029,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

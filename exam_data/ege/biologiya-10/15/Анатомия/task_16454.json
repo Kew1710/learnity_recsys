@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Под цифрами 146 — функции продолговатого мозга.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16454,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "235",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nФункции промежуточного мозга — регуляция\n- работы сердца\n- температуры тела\n- обмена веществ\n- мочеиспускания\n- работы желез внутренней секреции\n- дыхания",
+      "error_conditions": [],
+      "id": 236361,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 47,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

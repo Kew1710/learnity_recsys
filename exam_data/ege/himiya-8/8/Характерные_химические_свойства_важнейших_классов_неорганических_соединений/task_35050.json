@@ -1,0 +1,42 @@
+{
+  "comment": "А) Окислительно-восстановительная реакция с участием сильного восстановителя I⁻:\nFe₂O₃ + 6HI = 2FeI₂ + I₂ + 3H₂O\nБ) Окисление иодида калия концентрированной серной кислотой (кислотой-окислителем):\n8KI + 5H₂SO₄(конц.) = 4K₂SO₄ + I₂ + 4H₂S + 4H₂O\nВ) Вытеснение одной кислоты другой более сильной кислотой в жестких условиях:\nNaCl(тв.) + H₂SO₄(конц.) = HCl + NaHSO₄\nГ) Окислительно-восстановительная реакция с участием смешанновалентного (железо (II) и (III)) оксида и сильного восстановителя I⁻:\nFe₃O₄ + 8HI = 3FeI₂ + I₂ + 4H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 35050,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1361",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТЫ РЕАКЦИИ\nА) Fe₂O₃ и HI1) FeI₂, I₂ и H₂OБ) KI и H₂SO₄(конц.)2) FeI₂ и H₂OВ) NaCl(тв.) и H₂SO₄(конц.) 3) K₂SO₄, I₂, H₂S и H₂OГ) Fe₃O₄ и HI 4) K₂SO₄, I₂, SO₂ и H₂O 5) Cl₂, Na₂SO₄ и H₂O 6) HCl и NaHSO₄",
+      "error_conditions": [],
+      "id": 254689,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nCaPB0j3TRI?t=3116s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/nCaPB0j3TRI?t=3116s"
+}

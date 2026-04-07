@@ -1,0 +1,45 @@
+{
+  "comment": "$$V_{цил}=\\pi R^2\\cdot h$$\nГипотенуза прямоугольного треугольника в основании призмы равна \\(2R\\). По теореме Пифагора для треугольника в основании получим:\n$$2R=\\sqrt{10^2+9^2}\\\\ 4R^2=181\\\\ R^2=\\frac{181}{4}\\\\ V_{цил}=\\pi\\cdot\\frac{181}{4}\\cdot\\frac{2}{\\pi}=90,5$$\nОтвет: 90,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 16784,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "90,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В основании прямой призмы лежит прямоугольный треугольник с катетами \\(10\\) и \\(9\\). Боковые ребра равны \\(\\frac{2}{\\pi}\\). Найдите объем цилиндра описанного около этой призмы.",
+      "error_conditions": [],
+      "id": 236690,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=5725"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=5725"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2542,
+    "title": "Общественный прогресс"
+  },
+  "id": 24223,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ниже приведён перечень терминов. Все они, за исключением двух, относятся к понятию «общественный регресс».\n\n1) деградация; 2) возврат к изжившим себя формам; 3) спад; 4) совершенствование; 5) подъём; 6) упадок культуры.\n\nНайдите два термина, «выпадающих» из общего ряда, и запишите в таблицу цифры, под которыми они указаны.",
+      "error_conditions": [],
+      "id": 243938,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 7200,
+  "topic": null,
+  "video_link": null
+}

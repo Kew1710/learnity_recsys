@@ -1,0 +1,42 @@
+{
+  "comment": "Последовательность прохождения сигналов по сенсорной зрительной системе:\n1) роговица\n5) хрусталик\n3) стекловидное тело\n6) сетчатка\n4) зрительный нерв\n2) зрительная зона коры мозга",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 5431,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "153642",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность прохождения сигналов по сенсорной зрительной системе. Запишите в таблицу соответствующую последовательность цифр.\n1) роговица\n2) зрительная зона коры мозга\n3) стекловидное тело\n4) зрительный нерв\n5) хрусталик\n6) сетчатка",
+      "error_conditions": [],
+      "id": 71778,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YwnOUckAF4g?start=896"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YwnOUckAF4g?start=896"
+}

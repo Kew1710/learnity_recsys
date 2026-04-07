@@ -1,0 +1,45 @@
+{
+  "comment": "Заметим, что минимальное значение степенного выражение достигается тогда, когда степень минимальна (так как \\(2 > 1\\)). Заметим, что в степени у двойки также находится степенное выражение, для которого утверждение выше верно.\n\nВ итоге мы дошли до параболы, ветви которой направлены вверх. Своё наименьшее значение она достигает в вершине, найдём координаты вершины: $$ x_в = \\dfrac{8}{2 \\cdot 1} = 4 $$\nОтвет: 4",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 35868,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y = 2^{2^{x^2-8x+10}} + 3\\)",
+      "error_conditions": [],
+      "id": 255507,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=4g8_pq0jV4gwbgN0&t=11927"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=4g8_pq0jV4gwbgN0&t=11927"
+}

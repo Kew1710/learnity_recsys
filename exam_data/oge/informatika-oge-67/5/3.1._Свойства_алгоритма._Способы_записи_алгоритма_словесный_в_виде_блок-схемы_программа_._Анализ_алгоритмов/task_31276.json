@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3154,
+    "title": "3.1. Свойства алгоритма. Способы записи алгоритма (словесный, в виде блок-схемы, программа). Анализ алгоритмов."
+  },
+  "id": 31276,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "У исполнителя Альфа две команды, которым присвоены номера:\n1. прибавь 1;\n2. умножь на b\n(b  — неизвестное натуральное число; b ≥ 2).\nПервая из них увеличивает число на экране на 1, вторая умножает его на b. Алгоритм для исполнителя Альфа  — это последовательность номеров команд. Найдите значение числа b, при котором из числа 6 по алгоритму 11211 будет получено число 82.",
+      "error_conditions": [],
+      "id": 250915,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

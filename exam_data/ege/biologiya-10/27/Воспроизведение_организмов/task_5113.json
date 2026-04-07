@@ -1,0 +1,37 @@
+{
+  "comment": "Схема решения задачи включает:\n1) в зоне роста 42 хромосомы, в зоне созревания 21 хромосома;\n2) в зоне роста клетка растёт, она находится в интерфазе, количество хромосом не меняется;\n3) в зоне созревания происходит мейоз, в конце зоны клетки становятся гаплоидными",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2514,
+    "title": "Воспроизведение организмов"
+  },
+  "id": 5113,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Соматическая клетка крысы имеет 42 хромосомы. Сколько хромосом будет содержать клетки полового пути самца этой крысы в конце зоны роста и\nконце зоны созревания гамет? Ответ поясните. Какие процессы происходят в этих зонах?",
+      "error_conditions": null,
+      "id": 70501,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/I6R3teoYAqI?start=1030"
+}

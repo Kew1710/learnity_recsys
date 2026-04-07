@@ -1,0 +1,42 @@
+{
+  "comment": "$$4^{5x-1}=4^{4x+1}$$\n$$5x-1 = 4x + 1$$\n$$5x - 4x = 1 + 1 \\Rightarrow x = 2$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2124,
+    "title": "17.3 Показательные уравнения"
+  },
+  "id": 27955,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(4^{5x-1}=4^{4x+1}\\)",
+      "error_conditions": [],
+      "id": 247594,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2689,
+    "title": "№1 Несимметричные графы"
+  },
+  "id": 27733,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "33",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Пробник_1 ФИПИ 2024) На рисунке схема дорог Н-ского района изображена в виде графа, в таблице содержатся сведения о протяженности каждой из этих дорог (в километрах).\n\nНомер пункта\n1\n2\n3\n4\n5\n6\n7\n8\nНомер пункта\n1\n\n9\n\n18\n12\n\n2\n\n33\n4\n\n11\n3\n9\n\n15\n4\n\n17\n\n23\n5\n\n33\n\n17\n\n24\n\n6\n18\n4\n\n22\n\n7\n12\n\n24\n22\n\n8\n\n11\n15\n23\n\nТак как таблицу и схему рисовали независимо друг от друга, нумерация населённых пунктов в таблице никак не связана с буквенными обозначениями на графе. Определите, какова сумма протяженностей дорог из пункта С в пункт G и из пункта H в пункт E.\nВ ответе запишите целое число.",
+      "error_conditions": [],
+      "id": 247372,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 20,
+    "title": "Графы"
+  },
+  "video_link": null
+}

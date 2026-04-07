@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: хлоропласт имеет двумембранное строение, 1 – наружная мембрана, 3 – внутренняя мембрана, а 2 – это как раз межмембранное пространство.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1452,
+    "title": "5. Клетка и организм как биологическая система. (анализ рисунка или схемы)"
+  },
+  "id": 16049,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Под каким номером обозначено межмембранное пространство?",
+      "error_conditions": [],
+      "id": 235956,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

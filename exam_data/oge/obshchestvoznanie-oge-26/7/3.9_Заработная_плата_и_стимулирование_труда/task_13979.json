@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1773,
+    "title": "3.9 Заработная плата и стимулирование труда"
+  },
+  "id": 13979,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Марк работает курьером в интернет-магазине. Его заработная плата определяется количеством доставленных товаров. Как называется такая форма (тип) оплаты труда?\n\n1) оклад\n2) сдельная\n3) премиальная\n4) прогрессивная",
+      "error_conditions": [],
+      "id": 182932,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=7970"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=7970"
+}

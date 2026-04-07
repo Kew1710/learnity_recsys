@@ -1,0 +1,42 @@
+{
+  "comment": "ЭДС индукции, генерируемая в рамке:\n$$\\varepsilon_i=\\frac{|\\Delta Ф|}{\\Delta t}=\\frac{24\\cdot 10^{-3}}{2}=12\\cdot 10^{-3}~В=12~мВ$$\nОтвет: 12",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2634,
+    "title": "Электромагнитная индукция"
+  },
+  "id": 32350,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "За время \\(2\\) с магнитный поток, пронизывающий проволочную рамку, равномерно уменьшается от \\(24\\) мВб до нуля. Определите, какая ЭДС при этом генерируется в рамке. Ответ дайте в мВ.",
+      "error_conditions": [],
+      "id": 251989,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/PEHWbqzOXA0?t=1593"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/PEHWbqzOXA0?t=1593"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Заметим, что квадратный трехчлен \\(4-4x-x^2\\) с отрицательным старшим коэффициентом достигает максимума в точке \\(x=-\\frac{b}{2a}=\\frac{-(-4)}{2\\cdot (-1)}=\\frac{4}{-2}=-2\\).\nПоскольку функция \\(y=\\sqrt{x}\\) возрастающая, а заданная функция определена при найденном значении переменной, она достигает максимума в той же точке, в которой достигает максимума подкоренное выражение.\nОтвет: -2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 18272,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найти точку максимума функции \\(y=\\sqrt{4-4x-x^2}\\).",
+      "error_conditions": [],
+      "id": 238114,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 49,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/uxUZa4d2BSc?t=5447"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/uxUZa4d2BSc?t=5447"
+}

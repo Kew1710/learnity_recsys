@@ -1,0 +1,37 @@
+{
+  "comment": "Переведем площадь в $м^2$: $$S=1~мм^2=1\\cdot 10^{-6}~м^2$$\nОпределим сопротивление: $$R=\\frac{U}{I} \\\\ R=\\frac{24}{3}=8~Ом$$\nС другой стороны сопротивление равно: $$R=\\frac{{\\rho_с}l}{S} \\\\ 8=\\frac{0,4\\cdot l}{1} \\\\l=20~м$$\nЗапишем формулу массы: $$m={\\rho}V={\\rho}Sl$$\nПодставим в формулу массы числовые значения и найдём плотность никелиновой проволоки: $$0,176=\\rho\\cdot 1\\cdot 10^{-6}\\cdot 20\\\\ \\rho=\\frac{0,176}{10^{-6}\\cdot 20}=8800~\\frac{кг}{м^3}$$\n\nОтвет: $8800~\\frac{кг}{м^3}$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 34864,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Определите плотность никелиновой проволоки площадью поперечного сечения $1$ мм\\(^2\\) и массой $176$ г, из которой изготовлен реостат, если при напряжении на его концах $24$ В сила протекающего тока равна $3$ А.",
+      "error_conditions": null,
+      "id": 254503,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

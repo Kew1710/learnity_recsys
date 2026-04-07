@@ -1,0 +1,42 @@
+{
+  "comment": "В метафазе мейоза 2 хромосомный набор n2c. В профазе митоза хромосомный набор 2n2c. В телофазе мейоза 1 хромосомный набор n2c.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2512,
+    "title": "Клетка — генетическая единица живого. Митоз и мейоз"
+  },
+  "id": 8434,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "617",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Проанализируйте таблицу «Деление клетки». Заполните пустые ячейки таблицы, используя термины и формулы, приведённые в списке. Для каждой ячейки, обозначенной буквой, выберите соответствующий термин из предложенного списка\nДеление клетки\nСпособ деления Фаза деления Количество ДНК и хромосом митоз Б 2n4c Мейоз 1 телофаза В А метафаза n2c Список терминов и формул\n1) профаза\n2) nc\n3) 2n2c\n4) анафаза\n5) метафаза II\n6) мейоз 2\n7) n2c\n8) 4n4c",
+      "error_conditions": [],
+      "id": 102715,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/zhsHlZD6Uhk"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/zhsHlZD6Uhk"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Так как треугольник прямоугольны, то:\n$$MB=MC=MA\\Rightarrow \\angle MBC=\\angle MCB={21}^{\\circ}\\\\ \\angle MAC=\\angle CAB={69}^{\\circ}$$\nТак как \\(CM\\) – биссектриса, то:\n$$\\angle DCA=\\angle DCB={45}^{\\circ}\\Rightarrow \\angle DCM={69}^{\\circ}-{45}^{\\circ}={24}^{\\circ}$$\nОтвет: 24",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2373,
+    "title": "1.2 Углы и отрезки в прямоугольном треугольнике"
+  },
+  "id": 32443,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Острый угол \\(B\\) прямоугольного треугольника \\(ABC\\) равен \\(21^\\circ\\). Найдите величину угла между биссектрисой \\(CD\\) и медианой \\(CM\\), проведёнными из вершины прямого угла \\(C\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 252082,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=e-XLcXzJ0t0qrD2X&t=7875"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=e-XLcXzJ0t0qrD2X&t=7875"
+}

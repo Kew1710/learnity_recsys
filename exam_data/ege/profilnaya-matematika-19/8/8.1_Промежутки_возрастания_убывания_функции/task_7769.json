@@ -1,0 +1,45 @@
+{
+  "comment": "Отрицательным значениям производной соответствуют интервалы, на которых функция \\(f(x)\\) убывает. В этих интервалах лежат точки \\(x_3,x_4,x_5, x_9\\).\nТаких точек \\(4\\).\n\nОтвет: 4.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2412,
+    "title": "8.1 Промежутки возрастания/убывания функции"
+  },
+  "id": 7769,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график дифференцируемой функции \\(y=f(x)\\). На оси абсцисс отмечены девять точек: \\(x_1,x_2,…,x_9\\). Найдите все отмеченные точки, в которых производная функции \\(f(x)\\) отрицательна. В ответе укажите количество этих точек.",
+      "error_conditions": [],
+      "id": 100176,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/H0IUCrZBRME?start=1846"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/H0IUCrZBRME?start=1846"
+}

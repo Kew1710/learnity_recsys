@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1253,
+    "title": "Русская проза"
+  },
+  "id": 24661,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 12,
+    "task_count": 0,
+    "title": "Литература"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "214",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между персонажами и их характеристиками. К каждой позиции первого столбца подберите соответствующую позицию из второго столбца.\nПЕРСОНАЖИ\nA)  Евгений Базаров\nБ)  Аркадий Кирсанов\nB)  Павел Петрович\nХАРАКТЕРИСТИКИ\n1)  «мякенький, либеральный барич»\n2)  «самоломаный»\n3)  «добрый малый, но ... человек отставной»\n4)  «самоуверен, немного насмешлив и как-то забавно желчен»",
+      "error_conditions": [],
+      "id": 244328,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

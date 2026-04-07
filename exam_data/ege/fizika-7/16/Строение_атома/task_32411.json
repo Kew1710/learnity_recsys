@@ -1,0 +1,42 @@
+{
+  "comment": "Наименее распространенный изотоп калия имеет массовое число \\(41\\) и зарядовое число \\(19\\). Число протонов равно зарядовому числу – \\(19\\).\nОтвет: 19",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3336,
+    "title": "Строение атома"
+  },
+  "id": 32411,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Опираясь на данные фрагмента периодической системы химических элементов Д. И. Менделеева, представленного на рисунке, определите число протонов в ядре наименее распространенного изотопа калия. Нижний индекс около массового числа указывает распространенность изотопа в природе (в процентах).",
+      "error_conditions": [],
+      "id": 252050,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/ArUe2rWb1fM?t=2059"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/ArUe2rWb1fM?t=2059"
+}

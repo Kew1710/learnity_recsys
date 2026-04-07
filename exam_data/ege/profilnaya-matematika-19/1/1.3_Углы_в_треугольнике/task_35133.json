@@ -1,0 +1,45 @@
+{
+  "comment": "По свойству углов треугольника в \\(\\Delta ABC\\) \\(\\angle A+\\angle B+\\angle C=180^\\circ\\). Тогда \\(\\angle C=180^\\circ-\\angle A-\\angle B=180^\\circ-14^\\circ-100^\\circ=66^\\circ\\). Тогда \\(\\angle BCE=180^\\circ-\\angle ACB=180^\\circ-66^\\circ=114^\\circ\\) как смежный.\n\n\\(\\angle CBD=180^\\circ-\\angle ABC=180^\\circ-100^\\circ=80^\\circ\\) как смежный.\n\nПо условию \\(CD\\) – биссектриса внешнего угла при вершине \\(C\\) (\\(\\angle BCE\\)), то есть:\n$$\\angle BCD=\\angle ECD=\\frac{\\angle BCE}{2}=\\frac{114^\\circ}{2}=57^\\circ$$\nСогласно свойству углов треугольника в \\(\\Delta BCD\\) \\(\\angle BCD+\\angle CDB+\\angle CBD=180^\\circ\\). Тогда \\(\\angle CDB=180^\\circ-\\angle BCD-\\angle CBD=180^\\circ-57^\\circ-80^\\circ=43^\\circ\\).\n\nПо условию для \\(\\Delta BCD\\) и \\(\\Delta ECD\\): \\(CE=CB\\) и \\(\\angle BCD=\\angle ECD\\). Сторона \\(CD\\) – общая. Тогда \\(\\Delta BCD=\\Delta ECD\\Rightarrow \\angle BDC=\\angle EDC=43^\\circ\\).\n$$\\angle BDE=\\angle BDC+\\angle EDC=43^\\circ+43^\\circ=86^\\circ$$\nОтвет: 86",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2374,
+    "title": "1.3 Углы в треугольнике"
+  },
+  "id": 35133,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "86",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(A\\) равен \\(14^\\circ\\), угол \\(B\\) равен \\(100^\\circ\\). \\(CD\\) – биссектриса внешнего угла при вершине \\(C\\), причём точка \\(D\\) лежит на прямой \\(AB\\). На продолжении стороны \\(AC\\) за точку \\(C\\) выбрана такая точка \\(E\\), что \\(CE=CB\\). Найдите угол \\(BDE\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 254772,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=qLtea66lhyw&t=2610s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=qLtea66lhyw&t=2610s"
+}

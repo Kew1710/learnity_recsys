@@ -1,0 +1,62 @@
+{
+  "comment": "деревянный - прилагательное, слово-исключение (оловянный, стеклянный, деревянный), НН\nвиданной - прилагательное, исключение, НН\nзанавешены - краткое причастие, Н\nухоженный - причастие, сов. вид + приставка, НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 792,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "124",
+          "points": 1
+        },
+        {
+          "answer": "142",
+          "points": 1
+        },
+        {
+          "answer": "214",
+          "points": 1
+        },
+        {
+          "answer": "241",
+          "points": 1
+        },
+        {
+          "answer": "421",
+          "points": 1
+        },
+        {
+          "answer": "412",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите цифру(-ы), на месте которой(-ых) пишется НН.\nНа берегу некогда полноводной реки путник увидел деревя(1)ый дом невида(2)ой в этих местах постройки, окна которого были занавеше(3)ы, перед домом был разбит ухоже(4)ый палисадник.",
+      "error_conditions": [],
+      "id": 52352,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

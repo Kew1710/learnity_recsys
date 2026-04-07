@@ -1,0 +1,42 @@
+{
+  "comment": "Если луч прошел через двойной фокус до того, как попал на линзу, то дальше он также пройдет через двойной фокус, подходит $2$ луч",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3280,
+    "title": "3.24 Линза. Ход лучей в линзе. Фокусное расстояние линзы. Оптическая сила линзы"
+  },
+  "id": 34384,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён ход луча, падающего на тонкую линзу с фокусным расстоянием F.\nКакая из линий –– $1$, $2$, $3$ или $4$ –– соответствует ходу прошедшего через линзу луча?\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254023,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

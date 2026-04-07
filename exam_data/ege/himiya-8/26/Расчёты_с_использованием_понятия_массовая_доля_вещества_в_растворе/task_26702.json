@@ -1,0 +1,42 @@
+{
+  "comment": "m₁(р-ра) = x г\nm(соли) = ω₁ • m₁(р-ра) = 0,08x г\nω = m(соли)/m(р-ра)\nω₂ = m(соли)/(m₁(р-ра) - m₁(воды))\n0,14 = 0,08x/(x - 12)\n0,08x = 0,14x – 1,68\n0,06x = 1,68\nx = 28\nm₁(р-ра) = 28 г",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 26702,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "28",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Вычислите массу 8% раствора, из которой необходимо выпарить 12 г воды для получения 14% раствора. (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 246341,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

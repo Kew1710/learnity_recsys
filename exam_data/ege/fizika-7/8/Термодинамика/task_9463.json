@@ -1,0 +1,42 @@
+{
+  "comment": "Согласно первому закону термодинамики:\n$$Q=\\Delta U+A\\\\ V=const\\Rightarrow A=0\\Rightarrow Q=\\Delta U=-30~кДж$$\nСледовательно, газ отдал 30 кДж\nОтвет: 30 кДж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9463,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "233815\nИзменение состояния постоянного количества идеального газа показано на \\(pV\\)-диаграмме. Внутренняя энергия газа уменьшилась на \\(30\\) кДж. Найдите количество теплоты, которое отдал газ. Ответ дайте в кДж.",
+      "error_conditions": [],
+      "id": 114625,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/w76O4C4yGEs"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/w76O4C4yGEs"
+}

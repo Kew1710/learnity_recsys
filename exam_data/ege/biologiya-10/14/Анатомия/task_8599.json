@@ -1,0 +1,42 @@
+{
+  "comment": "На рисунке продолговатый мозг обозначен цифрой 2, а кора больших полушарий цифрой 3.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 8599,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12211",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между особенностью строения и функцией головного мозга и его отделом.\nСТРОЕНИЕ ФУНКЦИЯ А) содержит дыхательный центр\nБ) поверхность поделена на доли\nВ) воспринимает и обрабатывает информацию от органов чувств\nГ) регулирует деятельность сердечно-сосудистой системы\nД) содержит центры защитных реакций организма — кашля и чихания\n1) 2\n2) 3\nЗапишите в ответ цифры, расположив их в порядке, соответствующем буквам:\nA Б В Г Д",
+      "error_conditions": [],
+      "id": 103661,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+}

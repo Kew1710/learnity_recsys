@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nНайдем, сколько всего мест в амфитеатре\n\\(S_n =\\cfrac{2a_1 + d(n-1)}{2} \\cdot n \\)\n\\(S_{12} = \\cfrac{2 \\cdot 15 + 3(12-1)}{2} \\cdot 12 = \\cfrac{63 \\cdot 12}{2} = 63 \\cdot 6 = 378\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1970,
+    "title": "14.1 Арифметическая прогрессия"
+  },
+  "id": 20036,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "378",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В амфитеатре 12 рядов. В первом ряду 15 мест, а в каждом следующем на 3 места больше, чем в предыдущем. Сколько всего мест в амфитеатре?",
+      "error_conditions": [],
+      "id": 239869,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

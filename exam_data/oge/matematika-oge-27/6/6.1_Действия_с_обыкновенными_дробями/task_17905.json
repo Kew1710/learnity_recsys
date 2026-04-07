@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( \\cfrac{1}{\\cfrac{1}{21} +\\cfrac{1}{28}} =\\cfrac{1}{\\cfrac{1}{12}}=\\cfrac{12}{1}=12\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1932,
+    "title": "6.1 Действия с обыкновенными дробями"
+  },
+  "id": 17905,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( \\cfrac{1}{\\cfrac{1}{21} + \\cfrac{1}{28}} \\) .",
+      "error_conditions": [],
+      "id": 237757,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

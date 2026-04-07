@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\log_2((x-1)(x^2+3))\\leq\\log_2((4x-x^2-3)(5-x))$$\nТак как логарифм по основанию 2 монотонно возрастает, то равносильно:\n$$(x-1)(x^2+3)\\leq (4x-x^2-3)(5-x)$$\nЕсли \\(\\displaystyle \\begin{cases} ( x-1)\\left( x^{2} +3\\right) >0\\\\ 5-x >0 \\end{cases}\\), то и \\(4x-x^2-3>0\\)\n$$\\displaystyle \\begin{cases} ( x-1)\\left( x^{2} +3\\right) >0\\\\ 5-x >0 \\end{cases}$$\nТак как \\(x^2+3>0\\) всегда, то, чтобы произведение \\((x-1)(x^2+3)\\) было больше \\(0\\) нужно, чтобы второй множитель тоже был больше нуля.\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} x-1 >0\\\\ 5-x >0 \\end{cases}\\\\ \\begin{cases} x >1\\\\ x< 5 \\end{cases} \\end{array}$$\nПолучается \\(x\\in (1;5)\\)\nВозвращаемся к неравенству\n$$(x-1)(x^2+3)\\leq (4x-x^2-3)(5-x)\\\\ (x-1)(x^2+3)\\leq (x-3)(1-x)(5-x)\\\\ (x-1)(x^2+3)-(x-3)(1-x)(5-x)\\leq 0\\\\ (x-1)(x^2+3)+(x-3)(x-1)(5-x)\\leq 0\\\\ (x-1)(x^2+3+(x-3)(5-x))\\leq 0\\\\ (x-1)(x^2+3+5x-x^2-15+3x)\\leq 0\\\\ (x-1)(8x-12)\\leq 0\\\\ 4(x-1)(2x-3)\\leq 0\\\\ (x-1)(2x-3)\\leq 0$$\n$$\\displaystyle \\begin{cases} x\\geq 1\\\\ x\\leq 1,5 \\end{cases}$$\nУчитываем ограничения, получаем ответ.\n\nОтвет: \\(x\\in (1;1,5]\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2469,
+    "title": "15.3 Разность и сумма логарифмов"
+  },
+  "id": 11599,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\log_2((x-1)(x^2+3))\\leq\\log_2(4x-x^2-3)+\\log_2(5-x)\\).",
+      "error_conditions": null,
+      "id": 149268,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

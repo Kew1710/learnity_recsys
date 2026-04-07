@@ -1,0 +1,42 @@
+{
+  "comment": "Найдём, чему равна цена деления. Выберем любые два соседних значения (пусть это будут 0 и 100 см). Между ними десять делений, значит, ЦД = (100-0)/10=10 см. Аналогично для второй линейки, (10-0)/10=1 мм.\nОтвет: 10 см и 1 мм",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3239,
+    "title": "1.31 Технические устройства: механика"
+  },
+  "id": 34150,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунках представлены изображения фрагментов двух линеек. Цена деления линеек равна соответственно\n\n1) 10 см и 1 мм\n2) 10 см и 1 см\n3) 100 см и 10 мм\n4) 100 мм и 10 мм",
+      "error_conditions": [],
+      "id": 253789,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

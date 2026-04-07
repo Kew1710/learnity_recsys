@@ -1,0 +1,42 @@
+{
+  "comment": "Существенное похолодание возможно в случае прохождения холодного атмосферного фронта. Он находится рядом с Покрвском.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2957,
+    "title": "4.3 Атмосфера"
+  },
+  "id": 31035,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Карта погоды составлена на 8 июля. В каком из перечисленных городов, показанных на карте, на следующий день наиболее вероятно существенное похолодание?\n- Хабаровск\n- Вилюйск\n- Покровск\n- Иркутск",
+      "error_conditions": [],
+      "id": 250674,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

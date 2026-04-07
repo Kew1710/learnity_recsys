@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2717,
+    "title": "№10 Редактор текста"
+  },
+  "id": 28732,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "68",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Пробник_3 ФИПИ 2024) С помощью текстового редактора определите, сколько раз встречается отдельное слово “мой” или “Мой” в тексте повести А.И Куприна “Поединок”. Другие формы этого слова учитывать не следует. В ответе укажите только число.",
+      "error_conditions": [],
+      "id": 248371,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/4hBJRobc0v0?si=m72Qe8D6nfMqtb-s&t=2677"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 29,
+    "title": "Редактор текста"
+  },
+  "video_link": "https://youtu.be/4hBJRobc0v0?si=m72Qe8D6nfMqtb-s&t=2677"
+}

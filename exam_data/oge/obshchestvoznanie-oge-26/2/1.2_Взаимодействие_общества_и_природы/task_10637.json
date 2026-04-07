@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1751,
+    "title": "1.2 Взаимодействие общества и природы"
+  },
+  "id": 10637,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Катастрофическое наводнение уничтожило посевы, привело к разрушениям в населенных пунктах, оказавшихся в зоне затопления. Данный пример иллюстрирует влияние\n\n1) общества на развитие природы\n2) природы на развитие общества\n3) техники и технологий на развитие общества\n4) культуры на развитие природы",
+      "error_conditions": [],
+      "id": 145857,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=6025"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=6025"
+}

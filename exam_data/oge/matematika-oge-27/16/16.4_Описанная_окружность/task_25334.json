@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо признаку вписанного четырехугольника:\n\\( \\angle A + \\angle C = 180^o \\)\n\\( \\angle C = 180 - 48 = 132^o \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1982,
+    "title": "16.4 Описанная окружность"
+  },
+  "id": 25334,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "132",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Угол А четырехугольника ABCD, вписанного в окружность, равен 48\\(^o\\). Найдите угол С этого четырехугольника. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 244991,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

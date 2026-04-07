@@ -1,0 +1,42 @@
+{
+  "comment": "По 3-ему закону Ньютона сила Кулона, с которой левое тело действует на правое, равна по модулю силе Кулона, с которой правое тело действует на левое, но противоположна по направлению:\n$$|\\vec F_{12}| = |\\vec F_{21}|$$\nСила Кулона в начале:\n$$F_{к.нач}=\\frac{k \\cdot q_1 \\cdot q_2}{r^2}$$\nСила Кулона в конце:\n$$F_{к.кон}=\\frac{k \\cdot q_1 \\cdot q_2}{2 \\cdot 2 \\cdot (5r)^2}=\\frac{k\\cdot q_1\\cdot q_2}{100r^2}=\\frac{F_н}{100}=\\frac{16мН}{100}=0,16~мН$$\nОтвет: 0,16 мН",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2630,
+    "title": "Электрическое поле"
+  },
+  "id": 9617,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23471\nМодуль силы Кулона, с которой левое заряженное точечное тело действует на правое, равен 16 мН. Чему равен модуль силы Кулона, с которой правое заряженное точечное тело будет действовать на левое, если заряд каждого тела уменьшить в 2 раза, а расстояние между ними увеличить в 5 раз? Ответ дайте в мН.",
+      "error_conditions": [],
+      "id": 116510,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/gOx5AAtaTuc"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/gOx5AAtaTuc"
+}

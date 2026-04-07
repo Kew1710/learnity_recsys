@@ -1,0 +1,42 @@
+{
+  "comment": "Дыхательная система является частью одного человеческого организма.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2508,
+    "title": "Уровни организации и признаки живых систем"
+  },
+  "id": 5507,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "организменный",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Уровни организации живой природы» и заполните ячейку, вписав соответствующий термин.\nУровень\nПример\n?\nДыхательная система человекаЭкосистемныйТаёжный лес",
+      "error_conditions": [],
+      "id": 71854,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/yxJISonNnuk"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/yxJISonNnuk"
+}

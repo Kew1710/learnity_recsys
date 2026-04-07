@@ -1,0 +1,42 @@
+{
+  "comment": "запятые 1 и 4 выделяют придаточное определительное «множество форм которой можно найти даже в «бытовых» произведениях Н.В. Гоголя»",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 898,
+    "title": "Знаки препинания в сложноподчиненном предложении"
+  },
+  "id": 15441,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расставьте все знаки препинания: укажите цифру(-ы), на месте которой(-ых) в предложении должна(-ы) стоять запятая(-ые).\nФантастика (1) множество форм (2) которой (3) можно найти даже в «бытовых» произведениях Н.В. Гоголя (4) пронизывает всё творчество писателя.",
+      "error_conditions": [],
+      "id": 223410,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

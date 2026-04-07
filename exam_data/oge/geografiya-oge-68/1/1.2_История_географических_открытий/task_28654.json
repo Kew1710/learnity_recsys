@@ -1,0 +1,42 @@
+{
+  "comment": "Первое кругосветное путешествие в истории было совершено под командованием Фернана Магеллана с 20 сентября 1519-го по 6 сентября 1522 года",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2953,
+    "title": "1.2 История географических открытий"
+  },
+  "id": 28654,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой мореплаватель командовал экспедицией, совершившей первое кругосветное плавание?\n- Джеймс Кук\n- Христофор Колумб\n- Васко да Гама\n- Фернан Магеллан",
+      "error_conditions": [],
+      "id": 248293,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

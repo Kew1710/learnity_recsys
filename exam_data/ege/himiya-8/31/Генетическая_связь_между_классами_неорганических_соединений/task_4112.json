@@ -1,0 +1,37 @@
+{
+  "comment": "1) 2Na + 2H₂O = 2NaOH + H₂↑\n2) NaOH + SO₂ = Na₂SO₃ + H₂O\n3) 3Na₂SO₃ + Na₂Cr₂O₇ + 4H₂SO₄ = 4Na₂SO₄ + Cr₂(SO₄)₃ + 4H₂O\n4) Cr₂(SO₄)₃ + 3Na₂CO₃ + 3H₂O = 2Cr(OH)₃↓ + 3CO₂↑ + 3Na₂SO₄",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 4112,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Натрий прореагировал с водой. Через образовавшийся раствор пропустили оксид серы (IV) до образования средней соли. Полученную при этом соль поместили в раствор, содержащий дихромат натрия и серную кислоту. Образовавшееся при этом соединение хрома вступило в реакцию с раствором карбоната натрия. Напишите уравнения четырех описанных реакций.",
+      "error_conditions": null,
+      "id": 66533,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/PqTe_O2GHvM?start=7865"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2911,
+    "title": "Систематика живых организмов"
+  },
+  "id": 27647,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12435",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность систематических таксонов, начиная с наименьшего. Запишите в таблицу соответствующую последовательность цифр.\n\n1) род Белые акулы\n2) класс Хрящевые рыбы\n3) тип Хордовые\n4) подтип Позвоночные\n5) царство Животные",
+      "error_conditions": [],
+      "id": 247286,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

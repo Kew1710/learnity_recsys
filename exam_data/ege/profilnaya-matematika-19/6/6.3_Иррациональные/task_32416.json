@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\sqrt{22-3x}=2\\Rightarrow 22-3x=4\\Rightarrow 18=3x\\Rightarrow x=6$$\nОтвет: 6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2401,
+    "title": "6.3 Иррациональные"
+  },
+  "id": 32416,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\sqrt{22-3x}=2\\).",
+      "error_conditions": [],
+      "id": 252055,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=bXswTBOqyzQIiZ9K&t=3056"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=bXswTBOqyzQIiZ9K&t=3056"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем объём заданного многогранника, как разность объёмов большого и маленького многогранника:\n$$V=V_1-V_2=5\\cdot 4\\cdot 4-2\\cdot 1\\cdot 1=80-2=78$$\nОтвет: 78",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2388,
+    "title": "3.5 Площадь поверхности составного многогранника"
+  },
+  "id": 24558,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "78",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите объем многогранника, изображенного на рисунке (все двугранные углы прямые).",
+      "error_conditions": [],
+      "id": 244234,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=tP44fHcW6ejh_PH8&t=8722"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=tP44fHcW6ejh_PH8&t=8722"
+}

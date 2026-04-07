@@ -1,0 +1,45 @@
+{
+  "comment": "На промежутках \\((-7;5]\\) и \\((4;6)\\) \\(f'(x)\\geq 0\\), следовательно, функция возрастает. На промежутке \\((-5;4]\\) \\(f'(x)\\leq 0\\), следовательно, функция убывает. В точке минимума функции производная должна менять знак с \\(\"-\"\\) на \\(\"+\"\\). Следовательно, наименьшее значение функция принимает в точке \\(x=4\\).\n\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2413,
+    "title": "8.2 Точки экстремумов функции"
+  },
+  "id": 25475,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график \\(y=f'(x)\\) - производной функции \\(f(x)\\), определенной на интервале \\((-7,6)\\). Найдите точку минимума функции \\(f(x)\\).",
+      "error_conditions": [],
+      "id": 245132,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=RQqXFKqrj0c&t=747s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/watch?v=RQqXFKqrj0c&t=747s"
+}

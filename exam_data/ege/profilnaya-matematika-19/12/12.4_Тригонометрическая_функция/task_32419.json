@@ -1,0 +1,45 @@
+{
+  "comment": "Возьмём производную \\(y'=-10\\sin x-14\\), проанализируем \\(-10\\sin x\\in [-10;10]\\), \\(-10\\sin x-14\\in [-24;-4]\\), значит, производная отрицательна при любых \\(x\\), в таком случае функция убывает при всех \\(x\\), значит, при наибольшем \\(x\\) значение функции будет наименьшим:\n$$y=10\\cos 0-14\\cdot 0+5=10+5=15$$\nОтвет: 15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2447,
+    "title": "12.4 Тригонометрическая функция"
+  },
+  "id": 32419,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y=10\\cos x-14x+5\\) на отрезке \\(\\left[-\\frac{3\\pi}{2};0\\right]\\).",
+      "error_conditions": [],
+      "id": 252058,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=kWIjaHzpTPEUwh-8&t=3398"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=kWIjaHzpTPEUwh-8&t=3398"
+}

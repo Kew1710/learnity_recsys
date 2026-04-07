@@ -1,0 +1,37 @@
+{
+  "comment": "https://disk.yandex.ru/d/Wsfx2XDl7zmDLQ",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 818,
+    "title": "Чтение текста вслух"
+  },
+  "id": 952,
+  "is_obsolete": false,
+  "number": 41,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Task 1. Imagine that you are preparing a project with your friend. You have found some interesting material for the presentation and you want to read this text to your friend. You have 1.5 minutes to read the text silently, then be ready to read it out loud. You will not have more than 1.5 minutes to read it.\n\nThere was a time when Scotland was not part of the United Kingdom. The unification of the two happened in 1603, when King James VI of Scotland became King James I of England. When he moved to London, it marked the end to Scottish independence.\n\nScotland officially became part of the United Kingdom in 1707. That year Scotland's government moved its seat of power to London. However, Scotland managed to keep its legal and education systems. That is why the marriage laws of Scotland differ from that of England. Couples in England who are under the age of 18 must have their parents' permission to get married, but in Scotland anyone is allowed to marry at the age of 16.\n\nNowadays there are roughly 45 percent of Scottish people who want Scotland to break free from British rule. Their dream is to have Scotland establish its own independent parliament and to have full rights in the European parliament.",
+      "error_conditions": null,
+      "id": 52512,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Общее сопротивление в цепи:\n$$R_{общ}=\\frac{R_1R_2}{R_1+R_2}=\\frac{12\\cdot 4}{12+4}=3~Ом$$\nПо закону Ома для полной цепи:\n$$I=\\frac{\\varepsilon}{R_{общ}+r}$$\nТ.к. соединение параллельное, то:\n$$U_C=U_{R_{общ}}=IR_{общ}=\\frac{\\varepsilon R_{общ}}{R_{общ}+r}$$\nЭнергия конденсатора:\n$$W=\\frac{CU_C^2}{2}=\\frac{C}{2}\\cdot (\\frac{\\varepsilon R_{общ}}{R_{общ}+r})^2\\Rightarrow\\varepsilon =\\frac{R_{общ}+r}{R_{общ}}\\cdot\\sqrt{\\frac{2W}{C}}=\\frac{3+0,6}{3}\\cdot\\sqrt{\\frac{2\\cdot 8\\cdot 10^{-6}}{4\\cdot 10^{-6}}}=2,4~В$$\nОтвет: 2,4 В",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 10049,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23594\nДва резистора, сопротивления которых \\(R_1=4\\) Ом и \\(R_2=12\\) Ом, соединены параллельно и подключены к источнику постоянного тока с внутренним сопротивлением \\(r=0,6\\) Ом. Также к источнику подключают конденсатор емкостью \\(C=4\\) мкФ, как показано на принципиальной схеме цепи. Энергия электрического поля конденсатора \\(W=8\\) мкДж. Определите ЭДС источника тока.",
+      "error_conditions": null,
+      "id": 121453,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/pz3C9w5PK5M"
+}

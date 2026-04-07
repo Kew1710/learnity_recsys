@@ -1,0 +1,42 @@
+{
+  "comment": "1) для оплодотворения мохообразным, как и водорослям, требуется вода.\n3) тело мхов преставлено талломом или листостебельным побегом.\n4) у мхов и некоторых водорослей домирующая стадия - это гаметофит.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2526,
+    "title": "Многообразие растений"
+  },
+  "id": 7863,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "256",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nМохообразные, в отличие от зелёных водорослей,\n1) не требуют воды для размножения\n2) имеют покровную ткань\n3) имеют недифференцированный таллом\n4) имеют доминирующую стадию — гаметофит\n5) образуют коробочку со спорами\n6) имеют специализированные органы полового",
+      "error_conditions": [],
+      "id": 100363,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/7DY1qfrrB2A?start=421"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/7DY1qfrrB2A?start=421"
+}

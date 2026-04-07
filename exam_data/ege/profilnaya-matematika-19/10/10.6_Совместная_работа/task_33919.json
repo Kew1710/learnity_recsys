@@ -1,0 +1,45 @@
+{
+  "comment": "Обозначим всю работу за единицу. Вспомним, что Работа \\(=\\) скорость \\(\\cdot \\) время. Составим табличку:\nТрубы\nРабота\nСкорость\nВремя\n$$1$$\n$$1$$\n$$\\frac{1}{10}$$\n$$10$$\n$$2$$\n$$1$$\n$$\\frac{1}{35}$$\n$$35$$\n$$3$$\n$$1$$\n$$\\frac{1}{14}$$\n$$14$$\n$$1+2+3$$\n$$1$$\n$$\\frac{1}{10}+\\frac{1}{35}+\\frac{1}{14}$$\n$$?$$\nТак как при работе вместе трубы не меняют скорость, то скорость их совместной работы равна сумме скоростей каждой трубы:\n$$\\frac{1}{10}+\\frac{1}{35}+\\frac{1}{14}=\\frac{7+2+5}{70}=\\frac{14}{70}=\\frac{1}{5}$$\nТогда:\n$$1=\\frac{1}{5}\\cdot t\\Rightarrow t=5$$\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2433,
+    "title": "10.6 Совместная работа"
+  },
+  "id": 33919,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Первая труба наполняет резервуар за \\(10\\) минут, вторая за \\(35\\) минут, а третья за \\(14\\) минут. За сколько минут они наполнят резервуар вместе?",
+      "error_conditions": [],
+      "id": 253558,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/xvpYzq8aERk?si=E0WXwxQnCY7Lu9m4&t=1166"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/live/xvpYzq8aERk?si=E0WXwxQnCY7Lu9m4&t=1166"
+}

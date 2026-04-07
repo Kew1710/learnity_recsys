@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем длину вектора \\(a\\):\n$$|a|=\\sqrt{4^2+(-1)^2}=\\sqrt{17}$$\nТогда длина вектора \\(b\\):\n$$|b|=2,5|a|=2,5\\sqrt{17}=\\sqrt{\\frac{25\\cdot 17}{4}}=\\sqrt{(b_0)^2+8^2}$$\nПолучим:\n$$b_0^2=\\frac{25\\cdot 17}{4}-64=\\frac{425-256}{4}=\\frac{169}{4}$$\nОткуда:\n$$b_0=\\pm\\frac{13}{2}$$\nПо условию требуют большее значение:\n$$b_0=\\frac{13}{2}=6,5$$\nОтвет: 6,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2382,
+    "title": "2.1 Сумма и разность векторов, умножение вектора на число"
+  },
+  "id": 28179,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны векторы \\(\\vec{a}(4;-1)\\) и \\(\\vec{b}(b_0;8)\\). Найдите \\(b_0\\), если \\(|\\vec{b}|=2,5|\\vec{a}|\\). Если таких значений несколько, в ответ запишите большее из них.",
+      "error_conditions": [],
+      "id": 247818,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/4wKw-BzjTUQ?si=ZQwC5Z54p8Itrtc-&t=9420"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/live/4wKw-BzjTUQ?si=ZQwC5Z54p8Itrtc-&t=9420"
+}

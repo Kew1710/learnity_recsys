@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(\\vec{e}\\) – итоговый вектор, то есть \\(\\vec{e}=\\vec{a}+\\vec{b}+\\vec{c}\\). Тогда координаты \\(\\vec{e}\\) могут быть найдены как сумма соответствующих координат исходных векторов:\n$$\\vec{e}(x_{\\vec{a}}+x_{\\vec{b}}+x_{\\vec{c}};y_{\\vec{a}}+y_{\\vec{b}}+y_{\\vec{c}})$$\nЗначит, сначала необходимо найти координаты векторов \\(\\vec{a}\\), \\(\\vec{b}\\) и \\(\\vec{c}\\). Используем для этого рисунок:\nТогда:\n$$\\vec{a}(4;-3)\\\\ \\vec{b}(0;4)\\\\ \\vec{c}(-8;2)$$\nНайдем координаты \\(\\vec{e}\\):\n$$\\vec{e}(x_{\\vec{a}}+x_{\\vec{b}}+x_{\\vec{c}}; y_{\\vec{a}}+y_{\\vec{b}}+y_{\\vec{c}})\\Rightarrow \\vec{e}(4+0+(-8);(-3)+4+2)\\Rightarrow \\vec{e}(-4;3)$$\nТеперь найдем длину вектора \\(\\vec{e}\\). Длина вектора равна квадратному корню из суммы квадратов его координат. То есть:\n$$|\\vec{e}|=\\sqrt{x^2_{\\vec{e}}+y^2_{\\vec{e}}}=\\sqrt{(-4)^2+3^2}=\\sqrt{16+9}=\\sqrt{25}=5$$\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2382,
+    "title": "2.1 Сумма и разность векторов, умножение вектора на число"
+  },
+  "id": 26134,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной плоскости изображены векторы \\(\\vec{a}\\), \\(\\vec{b}\\) и \\(\\vec{c}\\). Найдите длину вектора \\(\\vec{a}+\\vec{b}+\\vec{c}\\).",
+      "error_conditions": [],
+      "id": 245773,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=2615s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=2615s"
+}

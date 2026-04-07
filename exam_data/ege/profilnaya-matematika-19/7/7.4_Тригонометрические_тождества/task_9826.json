@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\sin\\alpha^2+\\cos\\alpha^2=1\\\\ \\cos\\alpha=\\pm\\sqrt{1-\\sin\\alpha^2}=\\pm\\sqrt{1-(\\frac{2\\sqrt{5}}{5})^2}=\\pm\\sqrt{1-\\frac{20}{25}}=\\pm\\sqrt{\\frac{1}{5}}$$\nТ.к. \\(\\alpha\\in(\\frac{\\pi}{2};\\pi)\\), то:\n$$\\cos\\alpha=-\\frac{1}{5}=-0,2\\\\ tg\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{\\frac{2\\sqrt{5}}{5}}{-\\frac{1}{5}}=-2$$\nОтвет: -2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2408,
+    "title": "7.4 Тригонометрические тождества"
+  },
+  "id": 9826,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите \\(tg\\alpha\\), если \\(\\sin\\alpha=\\frac{2\\sqrt{5}}{5}\\) и \\(\\alpha\\in(\\frac{\\pi}{2};\\pi)\\).",
+      "error_conditions": [],
+      "id": 119765,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=7988"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=7988"
+}

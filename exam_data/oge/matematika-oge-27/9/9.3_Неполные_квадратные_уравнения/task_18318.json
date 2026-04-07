@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 4x(x-4)=0\\)\n\\(4x=0\\) или \\(x-4=0\\)\n\\(x=0\\) или \\(x=4\\)\nОтвет: \\(4\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2056,
+    "title": "9.3 Неполные квадратные уравнения"
+  },
+  "id": 18318,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(4x^2-16x=0\\). Если уравнение имеет более одного корня, в ответ запишите больший из корней.",
+      "error_conditions": [],
+      "id": 238160,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

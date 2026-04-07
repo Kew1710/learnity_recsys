@@ -1,0 +1,46 @@
+{
+  "comment": "Биохимический критерий отражает сходство химического состава (белков, нуклеиновых кислот и др.) и особенности обмена веществ у особей данного вида. Поэтому синтез и накопление алкалоидов является биохимическим критерием.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2532,
+    "title": "Эволюция"
+  },
+  "id": 5452,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "биохимический",
+          "points": 1
+        },
+        {
+          "answer": "биохимический",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Критерии вида» и заполните ячейку, вписав соответствующий термин.\nКритерий вида\nХарактеристика\n?\nСпособность белены чёрной синтезировать и накапливать алкалоидыМорфологическийДлина хвоста синицы не превышает длины её тела",
+      "error_conditions": [],
+      "id": 71799,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/j-it6EXF-5M?start=8"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/j-it6EXF-5M?start=8"
+}

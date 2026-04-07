@@ -1,0 +1,45 @@
+{
+  "comment": "\\(g(x)=\\frac{1}{3}x\\), \\(k\\) – тангенс угла наклона прямой \\(\\left(\\frac{2}{6}=\\frac{1}{3}\\right)\\)\n\nВозьмем точку с координатами \\((1;1)\\) и подставим в \\(f(x):1=a\\cdot 1\\Rightarrow a=1\\)\nПолучаем: \\(f(x)=\\sqrt{x}\\)\n\nЧтобы найти точки пересечения графиков, приравняем их:\n$$g(x)=f(x)\\\\ \\frac{1}{3}=\\sqrt{x}|\\cdot 3\\\\ x=3\\sqrt{x}|~^2\\\\ x^2=9x\\\\ x^2-9x=0\\\\ x(x-9)=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} x=0\\ -\\ точка\\ A\\\\ x=9\\ -\\ точка\\ B \\end{array} \\right.$$\nАбсцисса точки \\(B=9\\).\n\nОтвет: 9.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2443,
+    "title": "11.7 Поиск точки пересечения графиков"
+  },
+  "id": 18190,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены графики функций видов \\(f(x)=a\\sqrt{x}\\) и \\(g(x)=kx\\), пересекающиеся в точках \\(A\\) и \\(B\\). Найдите абсциссу точки \\(B\\).",
+      "error_conditions": [],
+      "id": 238033,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/hUGNOqyVQh4?t=2561"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://youtu.be/hUGNOqyVQh4?t=2561"
+}

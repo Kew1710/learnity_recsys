@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПусть высота, проведенная из точки C, равна CH\nОпустим высоту BM\nТак, BM = DH = 11\nОтсюда \\(BC - AH - AM = 14 - 11 = 3\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1985,
+    "title": "17.2 Трапеция"
+  },
+  "id": 21490,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Высота равнобедренной трапеции, проведённая из вершины C, делит основание AD на отрезки длиной 11 и 14. Найдите длину основания BC.",
+      "error_conditions": [],
+      "id": 241257,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

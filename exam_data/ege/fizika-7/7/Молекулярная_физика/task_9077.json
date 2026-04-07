@@ -1,0 +1,42 @@
+{
+  "comment": "Так как процесс изобарный, то \\(\\frac{V}{T}-const\\)\nСледовательно:\n$$\\frac{V_1}{T_1}=\\frac{V_2}{T_2}$$\n$$\\frac{V_2}{V_1}=\\frac{T_2}{T_1}=2$$\nОбъем увеличили на \\(150~дм^3\\), следовательно:\n\\(V_2=V_1+150\\)\n\\(V_1+150=2V_1\\)\n\\(V_1=150~ дм^3\\)\nОтвет: 150",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2626,
+    "title": "Молекулярная физика"
+  },
+  "id": 9077,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "150",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задание ЕГЭ 2022 (Дальний Восток)\nС идеальным газом происходит изобарный процесс, в котором для увеличения объема газа на \\(150~дм^3\\) его температуру увеличивают в \\(2\\) раза. Масса газа постоянна. Каким был первоначальный объем газа? Ответ дайте в \\(дм^3\\) .",
+      "error_conditions": [],
+      "id": 112800,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8_9gA3sIEWo?start=2163"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/8_9gA3sIEWo?start=2163"
+}

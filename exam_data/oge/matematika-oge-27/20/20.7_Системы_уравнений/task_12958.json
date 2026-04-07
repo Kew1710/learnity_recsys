@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\begin{cases}& 3x^2-4x = y(1)\\\\ & 3x-4 = y(2)\\end{cases}\\)\nПравые части уравнения равны, значит левые части тоже равны\n\\(3x^2 - 4x = 3x - 4\\)\n\\(3x^2 -7x +4 = 0\\)\n\\(D = 49 - 48 = 1\\)\nОтсюда \\(x_1 = 1; x_2 = \\cfrac{4}{3}\\)\nПодставим в уравнение (1) \\(x = 1\\)\n\\(3 -4 = -1\\)\n\\(y = -1\\)\nПодставим в уравнение (2) \\(x = \\cfrac{4}{3}\\)\n\\(3 \\cdot \\cfrac{4}{3} -4 = 0\\)\n\\(y = 0\\)\n\\(\\begin{cases}& x = 1\\\\ & y = -1\\end{cases}\\)\nили\n\\(\\begin{cases}& x =\\cfrac{4}{3}\\\\ & y = 0\\end{cases}\\)\nОтвет: \\( (1; -1) \\cup (\\cfrac{4}{3}; 0) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2054,
+    "title": "20.7 Системы уравнений"
+  },
+  "id": 12958,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите систему уравнений \\(\\begin{cases}& 3x^2-4x = y\\\\ & 3x-4 = y\\end{cases}\\) .",
+      "error_conditions": null,
+      "id": 174310,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

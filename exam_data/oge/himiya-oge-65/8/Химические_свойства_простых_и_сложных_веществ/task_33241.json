@@ -1,0 +1,46 @@
+{
+  "comment": "Оксид кальция (CaO) - основный оксид. Реагирует с кислотными реагентами, а также с водой (так как ему соответствует сильное основание):\n3) \\(3CaO + P_{2}O_{5} = Ca_{3}(PO_{4})_{2}\\)\n4) \\(CaO + H_{2}S = CaS + H_{2}O\\)\nОсновные оксиды не реагируют с солями (\\(CuCl_{2}\\) и \\(NaNO_{3}\\)) и с основными оксидами (\\(FeO\\))",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2889,
+    "title": "Химические свойства простых и сложных веществ"
+  },
+  "id": 33241,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        },
+        {
+          "answer": "43",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какие два из перечисленных веществ вступают в реакцию с оксидом кальция?\n\n1) \\(CuCl_{2}\\)\n2) \\(NaNO_{3}\\)\n3) \\(P_{2}O_{5}\\)\n4) \\(H_{2}S\\)\n5) \\(FeO\\)\n\nЗапишите номера выбранных ответов",
+      "error_conditions": [],
+      "id": 252880,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

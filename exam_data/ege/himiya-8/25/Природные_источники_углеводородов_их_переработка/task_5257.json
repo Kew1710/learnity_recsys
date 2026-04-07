@@ -1,0 +1,42 @@
+{
+  "comment": "А) этилен – получают при крекинге нефти\nБ) метан – выделяют из природного газа (основной его компонент)\nВ) метанол – получают из синтез-газа",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2851,
+    "title": "Природные источники углеводородов, их переработка"
+  },
+  "id": 5257,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "214",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между органическим веществом и способом его промышленного получения: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nОРГАНИЧЕСКОЕ ВЕЩЕСТВО\nСПОСОБ ПОЛУЧЕНИЯ\nА) этилен1) выделяют из природного газаБ) метан2) получают при крекинге нефтиВ) метанол3) получают в процессе ароматизации нефти 4) получают из синтез-газа",
+      "error_conditions": [],
+      "id": 70645,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/UJWWP4a4BA8?start=2193"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/UJWWP4a4BA8?start=2193"
+}

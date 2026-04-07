@@ -1,0 +1,42 @@
+{
+  "comment": "Удельную теплоемкость можно найти из формулы: $$Q=cm(t_{2}-t_{1})\\\\\n\\text{Подставим числовые значения из графика:}\\\\300000=c\\cdot 2\\cdot (400-100)\\\\c=500\\frac{Дж}{кг\\cdot °С}$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3247,
+    "title": "2.8 Нагревание и охлаждение тел. Количество теплоты. Удельная теплоёмкость"
+  },
+  "id": 34037,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "500",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке представлен график зависимости температуры t твёрдого тела от полученного им количества теплоты Q. Масса тела – $2$ кг. Чему равна удельная теплоёмкость вещества этого тела?\nОтвет: _________________$\\frac{Дж}{кг\\cdot °С}$",
+      "error_conditions": [],
+      "id": 253676,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

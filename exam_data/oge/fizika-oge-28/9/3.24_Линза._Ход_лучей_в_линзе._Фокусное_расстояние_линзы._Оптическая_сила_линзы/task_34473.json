@@ -1,0 +1,42 @@
+{
+  "comment": "Луч, прошедший через фокусное расстояние F,дальше должен пойти параллельно главной оптической оси,т.к. если бы луч изначально шёл перпендикулярно линзе,то он пошёл бы через фокус.Выбираем ($3$)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3280,
+    "title": "3.24 Линза. Ход лучей в линзе. Фокусное расстояние линзы. Оптическая сила линзы"
+  },
+  "id": 34473,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён ход падающего на линзу луча.\nКакая из линий – $1$, $2$, $3$ или $4$ – соответствует ходу прошедшего через линзу луча?\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254112,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

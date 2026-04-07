@@ -1,0 +1,42 @@
+{
+  "comment": "присуждено - краткое причастие, Н\nпоручено - краткое причастие, Н\nвоенные - прилагательное, стык основы на –н- (воен) и суффикса –н-, НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 14415,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется Н.\nВ 1844 году за выдающиеся заслуги художнику И.К. Айвазовскому было присужде(1)о звание академика и поруче(2)о написать все русские вое(3)ые порты на Балтийском море.",
+      "error_conditions": [],
+      "id": 206527,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 42,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

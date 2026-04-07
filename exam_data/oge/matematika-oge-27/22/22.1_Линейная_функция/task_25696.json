@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПостроим три линейные функции на одной координатной плоскости и отметим их решение на указанных промежутках.\n- \\( y = -2,5x , x < 2\\)\n\nx20y-0,5-2,5\n2. \\( y =-x+1,5, \\leqslant x \\leqslant 3\\)\nx23y-0,5-1,53. \\( y =x-5, x > 3\\)\nx35y-20Теперь ответим на вопрос задачи. При m = 0,5 и при -2 < m < -1,5 прямая y = m имеет с графиком ровно 2 общие точки.\nОтвет: -2 < m < -1,5 и m = 0,5",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2006,
+    "title": "22.1 Линейная функция"
+  },
+  "id": 25696,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Постройте график функции y =\\(\\begin{cases}x-2,5, \\rm{если } \\: x < 2\\\\ -x+1,5, если \\: 2 \\leqslant x \\leqslant 3,\\\\ x-5, \\rm{если} \\: x > 3 \\end{cases} \\).\nОпределите, при каких значениях \\(m\\) прямая \\(y=m\\) имеет с графиком ровно две общие точки.",
+      "error_conditions": null,
+      "id": 245353,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

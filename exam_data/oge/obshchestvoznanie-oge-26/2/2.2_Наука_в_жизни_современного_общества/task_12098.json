@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1760,
+    "title": "2.2 Наука в жизни современного общества"
+  },
+  "id": 12098,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какая из перечисленных истин опирается на научные знания?\n\n1) «В конце апреля лисы переселяются из старых нор в новые».\n\n2) «Сильный треск кузнечиков в поле предвещает сухую погоду».\n\n3) «Пока лиственница иголки не осыплет, снега не будет».\n\n4) «При дыхании человек поглощает кислород и выдыхает углекислый газ».",
+      "error_conditions": [],
+      "id": 153935,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/swp0whOuZ08?start=12063"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/swp0whOuZ08?start=12063"
+}

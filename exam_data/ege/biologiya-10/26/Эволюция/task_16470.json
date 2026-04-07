@@ -1,0 +1,37 @@
+{
+  "comment": "ОТВЕТ:\n1) Органические остатки подвергаются быстрому разложению\n2) Трупы одних животных поедают другие животные\n3) Погибшие животные, не имеющие скелета, не подвергаются окаменелости\n4) Только небольшая часть останков попадает в условия, благоприятные для превращения в окаменелости и отпечатки\n5) На данный момент обнаружена только малая часть ископаемых останков",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2532,
+    "title": "Эволюция"
+  },
+  "id": 16470,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Палеопатология использует ископаемые формы (остатки, окаменелости, отпечатки) для установления хода эволюции на Земле. Укажите не менее 4-х причин неполной палеонтологической летописи.",
+      "error_conditions": null,
+      "id": 236377,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/zfgCnGgM0iM?feature=share&t=713"
+}

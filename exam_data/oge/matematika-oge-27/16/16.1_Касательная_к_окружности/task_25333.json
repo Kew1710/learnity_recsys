@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( \\angle ABC = \\cfrac{1}{2} \\smile AB = \\cfrac{1}{2} \\cdot 148 = 74 \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1979,
+    "title": "16.1 Касательная к окружности"
+  },
+  "id": 25333,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "74",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На окружности отмечены точки А и В так, что меньшая дуга АВ равна 148 \\(^o\\). Прямая ВС касается точки В так, что угол АВС острый. Найдите угол АВС. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 244990,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

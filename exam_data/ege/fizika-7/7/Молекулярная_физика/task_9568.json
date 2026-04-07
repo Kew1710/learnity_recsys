@@ -1,0 +1,42 @@
+{
+  "comment": "$$P_1=\\frac{2}{3}nE$$\n$$P_2=\\frac{2}{3}\\frac{n}{4}\\cdot5E$$\n$$P_2=\\frac{5}{4}P_1$$\nПри уменьшении концентрации в \\(4\\) раза и увеличении энергии в \\(5\\) раз давление увеличится в \\(\\frac{5}{4}\\) раз. Тогда \\(P_2=\\frac{5}{4}\\cdot 184=230\\) кПа\nОтвет: 230",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2626,
+    "title": "Молекулярная физика"
+  },
+  "id": 9568,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "230",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23451\nВ начальный момент времени в сосуде находится аргон под давлением \\(184\\) кПа. Определите, чему будет равно конечное давление газа, если его концентрацию уменьшат в \\(4\\) раза, а среднюю кинетическую энергию молекул повысят в \\(5\\) раз. Ответ дайте в кПа.",
+      "error_conditions": [],
+      "id": 115383,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/F4DqxENSEn8"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/F4DqxENSEn8"
+}

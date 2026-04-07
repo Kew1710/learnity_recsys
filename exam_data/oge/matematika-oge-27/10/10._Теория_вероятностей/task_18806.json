@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(P=\\cfrac{15-9}{15}=\\cfrac{6}{15}=0,4\\) - вероятность того, что случайно выбранная чашка окажется с синими цветами",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2043,
+    "title": "10. Теория вероятностей"
+  },
+  "id": 18806,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "У бабушки 15 чашек: 9 с красными цветами, остальные с синими. Бабушка наливает чай в случайно выбранную чашку. Найдите вероятность того, что это будет чашка с синими цветами.",
+      "error_conditions": [],
+      "id": 238644,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

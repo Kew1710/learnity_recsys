@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nВысота ромба равна \\( 4 \\cdot 2 = 8\\)\nПлощадь ромба равна произведению высоты на его сторону\n\\(S = 8 \\cdot 12 = 96\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1988,
+    "title": "17.5 Площадь четырехугольников"
+  },
+  "id": 21563,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "96",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Сторона ромба равна 12, а расстояние от точки пересечения диагоналей ромба до неё равно 4. Найдите площадь ромба.",
+      "error_conditions": [],
+      "id": 241330,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 71,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

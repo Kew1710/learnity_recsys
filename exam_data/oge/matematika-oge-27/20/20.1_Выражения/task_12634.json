@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(2a - 5b + 7 = 6(5a - 2b + 7)\\)\n\\(2a - 5b + 7 = 30a - 12b + 42\\)\n\\(30a - 12b + 42 - 2a + 5b - 7 = 0\\)\n\\(28a - 7b + 35 = 0\\)\n\\(28a - 7b = -35\\)\n\\(28a - 7b + 40 = -35 +40 = 5\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1923,
+    "title": "20.1 Выражения"
+  },
+  "id": 12634,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите значение выражения \\(28a-7b+40\\) , если \\(\\cfrac{2a-5b+7}{5a-2b+7}=6\\) .",
+      "error_conditions": null,
+      "id": 172227,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

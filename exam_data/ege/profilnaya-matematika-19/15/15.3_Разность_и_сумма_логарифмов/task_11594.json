@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\log_2((x-1)(x^2+2))\\leq \\log_22+\\log_2(x^2+3x-4)-\\log_2x\\\\ \\log_2((x-1)(x^2+2))-\\log_22+\\log_2x\\leq\\log_2(x^2+3x-4)\\\\ \\log_2((x-1)(x^2+2))+\\log_2\\frac{x}{2}\\leq\\log_2(x^2+3x-4)\\\\ \\log_2\\left(\\frac{(x-1)(x^2+2)x}{2}\\right)\\leq\\log_2(x^2+3x-4)$$\nТак как логарифм по основанию 2 монотонно возрастает, то равносильно:\n$$\\frac{(x-1)(x^2+2)x}{2}\\leq x^2+3x-4$$\nЕсли \\(\\displaystyle \\begin{cases} ( x-1)\\left( x^{2} +2\\right) >0\\\\ \\frac{x}{2} >0 \\end{cases}\\), то и \\(x^2+3x-4>0\\)\n$$\\displaystyle \\begin{cases} ( x-1)\\left( x^{2} +2\\right) >0\\\\ \\frac{x}{2} >0 \\end{cases}$$\nТак как \\(x^2+2>0\\) всегда, то, чтобы произведение было положительным, нужно чтобы и второй множитель был больше нуля\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} ( x-1) >0\\\\ \\frac{x}{2} >0 \\end{cases}\\\\ \\begin{cases} x >1\\\\ x >0 \\end{cases} \\end{array}$$\nПолучается \\(x\\in (1;+\\infty)\\)\n\nВозвращаемся к неравенству:\n$$\\frac{(x-1)(x^2+2)x}{2}\\leq x^2+3x-4\\\\ \\frac{(x-1)(x^2+2)x}{2}\\leq (x+4)(x-1)\\\\ (x-1)(x^2+2)\\cdot\\frac{x}{2}-(x+4)(x-1)\\leq 0\\\\ (x-1)((x^2+2)\\cdot\\frac{x}{2}-x-4)\\leq 0\\\\ (x-1)\\left(\\frac{x^3}{2}+2-x-4\\right)\\leq 0\\\\ (x-1)\\left(\\frac{x^3}{2}-x-2\\right)\\leq 0\\\\ (x-1)(x^3-2x-4)\\leq 0\\\\ (x-1)(x-2)(x^2+2x+2)\\leq 0\\\\ x^2+2x+2>0~всегда,~значит~можно~сократить\\\\ (x-1)(x-2)\\leq 0$$\n$$\\displaystyle \\begin{cases} x\\geq 1\\\\ x\\leq 2 \\end{cases}$$\nУчитывая ограничения, получаем ответ.\n\nОтвет: \\(x\\in (1;2]\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2469,
+    "title": "15.3 Разность и сумма логарифмов"
+  },
+  "id": 11594,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\log_2((x-1)(x^2+2))\\leq 1+\\log_2(x^2+3x-4)-\\log_2x\\).",
+      "error_conditions": null,
+      "id": 149263,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Клетка, способная к горизонтальной передаче генов, обозначена на рисунке цифрой 1. Это бактериальная клетка. Бактериальные клетки способны передавать друг другу плазмиды.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1452,
+    "title": "5. Клетка и организм как биологическая система. (анализ рисунка или схемы)"
+  },
+  "id": 16686,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каким номером на схеме обозначена клетка, способная к горизонтальной передаче генов?",
+      "error_conditions": [],
+      "id": 236593,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

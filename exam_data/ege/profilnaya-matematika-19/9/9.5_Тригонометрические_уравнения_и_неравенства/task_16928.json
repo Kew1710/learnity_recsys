@@ -1,0 +1,45 @@
+{
+  "comment": "Подставим известные значения в уравнения:\n$$2,1=\\frac{2\\cdot 21\\cdot\\sin\\alpha}{10}\\\\ \\frac{1}{2}=\\sin\\alpha\\\\ \\alpha=30$$\nОтвет: 30",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2425,
+    "title": "9.5 Тригонометрические уравнения и неравенства"
+  },
+  "id": 16928,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Мяч бросили под углом \\(\\alpha\\) к плоской горизонтальной поверхности земли. Время полета мяча (в секундах) определяется по формуле \\(t=\\frac{2U_0\\sin\\alpha}{g}\\). При каком наименьшем значении угла \\(\\alpha\\) (в градусах) время полета будет не меньше \\(2,1\\) секунды, если мяч бросают с начальной скоростью \\(U_0=21\\) м/с? Считайте, что ускорение свободного падения \\(g=10\\) м/с\\(^2\\).",
+      "error_conditions": [],
+      "id": 236830,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/EhoR_a4s9ys?t=11196"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://youtu.be/EhoR_a4s9ys?t=11196"
+}

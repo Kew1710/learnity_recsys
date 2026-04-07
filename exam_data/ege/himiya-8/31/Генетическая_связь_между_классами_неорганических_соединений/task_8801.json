@@ -1,0 +1,37 @@
+{
+  "comment": "1) 2Na + H₂ = 2NaH\n2) NaH + H₂O = NaOH + H₂↑\n3) Cu + 4HNO₃ = Cu(NO₃)₂ + 2NO₂↑ + 2H₂O\n4) 2NaOH + 2NO₂ = NaNO₂ + NaNO₃ + H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8801,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Натрий нагрели в атмосфере водорода. При добавлении к полученному веществу воды наблюдали выделение газа и образование прозрачного раствора. Через этот раствор пропустили бурый газ, который был получен в результате взаимодействия меди с концентрированным раствором азотной кислоты. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112003,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

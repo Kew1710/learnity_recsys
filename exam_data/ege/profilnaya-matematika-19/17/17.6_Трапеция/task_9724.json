@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(O\\) - середина \\(AB\\) (\\(O\\) - центр окружности), \\(Q\\) - середина \\(DC\\).\nТогда \\(OQ\\) - средняя линия \\(\\Rightarrow OQ\\) параллельна \\(HD\\), и \\(OQ=\\frac{BC+AD}{2}\\)\n\nПроведем \\(BH\\): \\(\\angle BHA={90}^{\\circ}\\) (опирается на диаметр).\n\nПроведем высоту \\(CT\\)\n\\(AH=TD\\) (равнобедренная трапеция)\n\\(HT=BC\\) (\\(HBCT\\) - прямоугольник)\n\nТогда \\(AH+TD=AD-HT=AD-BC\\), иначе \\(2TD=AD-BC\\Rightarrow TD=\\frac{AD-BC}{2}\\)\n$$HD=HT+TD=BC+\\frac{AD-BC}{2}=\\frac{2BC+AD-BC}{2}=\\frac{AD+BC}{2}$$\nЗначит \\(HD=OQ\\) и \\(HD\\) параллельна \\(OQ \\Rightarrow HOQD\\) - параллелограмм ч.т.д.\n\nб)\n\\(\\angle BAD=\\angle CDA={60}^{\\circ}\\) (трапеция равнобедренная)\nТ. к. \\(OH\\) параллельна \\(QD\\), то \\(\\angle OHA=\\angle QDA={60}^{\\circ}\\) (соответственные)\nЗначит \\(\\Delta OAH\\) – равносторонний (все углы по 60) с стороной \\(R\\) - радиус окружности\n\nИз пункта а: \\(AH=TD\\), значит \\(AH=TD=R\\)\nИз пункта а: \\(HT=BC=2\\)\nЗначит:\n$$AD=AH+HT+TD=2+2R$$\nПроведем радиус \\(OL\\) к касательной \\(СD\\Rightarrow OL\\bot CD\\)\nТ. к. \\(QOHD\\) - параллелограмм, то \\(OQ=HD=2+R\\)\n\\(\\angle OQL=\\angle ADC={60}^{\\circ}\\) (соответсвенные)\n\nИз \\(\\Delta OQL\\):\n$$\\sin{{60}^{\\circ}}=\\frac{OL}{OQ}\\Rightarrow\\frac{R}{R+2}=\\frac{\\sqrt{3}}{2}\\Rightarrow2R=\\sqrt{3}R+2\\sqrt{3}\\Rightarrow\\\\ R=\\frac{2\\sqrt{3}}{2-\\sqrt{3}}=\\frac{2\\sqrt{3}(2+\\sqrt{3})}{(2-\\sqrt{3})(2+\\sqrt{3})}=\\frac{4\\sqrt{3}+6}{1}=4\\sqrt{3}+6$$\nТогда:\n$$AD=2+2(4\\sqrt{3}+6)=14+8\\sqrt{3}$$\nОтвет: \\(14+8\\sqrt{3}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2486,
+    "title": "17.6 Трапеция"
+  },
+  "id": 9724,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дана равнобедренная трапеция \\(ABCD\\) с основаниями \\(BC\\) и \\(AD\\). На стороне \\(AB\\) как на диаметре построена окружность с центром в точке \\(O\\), касающаяся стороны \\(CD\\) и повторно пересекающая основание \\(AD\\) в точке \\(H\\). Точка \\(Q\\) - середина стороны \\(CD\\).\nа)  Докажите, что \\(OQDH\\) - параллелограмм.\nб)  Найдите \\(AD\\), если \\(\\angle{BAD}  =  {60}^{\\circ}, \\ BC = 2\\).",
+      "error_conditions": null,
+      "id": 117449,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Песчаный удавчик - хищная змея (1,3), является сухопутной и охотится на земле (4).",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2947,
+    "title": "Экология"
+  },
+  "id": 29979,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "134",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите из приведенного ниже списка три характеристики, которые можно использовать для экологического описания песчаного удавчика.\nСписок характеристик:\n1) хищное животное\n2) обитает на суше, добывает пищу в воде\n3) консумент второго порядка\n4) активно охотится на земле\n5) консумент первого порядка\n6) растительноядное животное\n\nЗапишите в таблицу номера выбранных характеристик.",
+      "error_conditions": [],
+      "id": 249618,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

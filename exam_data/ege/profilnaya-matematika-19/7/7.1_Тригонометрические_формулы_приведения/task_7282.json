@@ -1,0 +1,45 @@
+{
+  "comment": "$$-42tg34^{\\circ}\\cdot tg(90-34)^{\\circ}+6$$\nИспользуем формулу привидения:\n$$-42tg34\\cdot ctg34+6=6-42=-36$$\nОтвет: -36",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 7282,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(-42tg34^{\\circ}\\cdot tg56^{\\circ}+6\\).",
+      "error_conditions": [],
+      "id": 83798,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=4333"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=4333"
+}

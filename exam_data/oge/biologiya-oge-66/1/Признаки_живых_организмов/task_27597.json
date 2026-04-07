@@ -1,0 +1,50 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2910,
+    "title": "Признаки живых организмов"
+  },
+  "id": 27597,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "обмен веществ и энергии",
+          "points": 1
+        },
+        {
+          "answer": "обмен веществ",
+          "points": 1
+        },
+        {
+          "answer": "метаболизм",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены связи растения с окружающей средой.\nКакое ОБЩЕЕ свойство живых систем иллюстрируют эти связи?",
+      "error_conditions": [],
+      "id": 247236,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Всего ораторов:\n$$ 34 + 8 + 4 + 4 = 50 $$\n$$\\frac{4}{50}=0,08$$\nОтвет: 0,08",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 8097,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,08",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В чемпионате по толканию пафосных речей участвуют \\(34\\) оратора из Перу, \\(8\\) из Испании, \\(4\\) из Парагвая и \\(4\\) из Израиля. Порядок, котором выступают ораторы, определяется жребием. Найдите вероятность того, что оратор, который выступает последним, окажется из Израиля.",
+      "error_conditions": [],
+      "id": 101078,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": null
+}

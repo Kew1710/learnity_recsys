@@ -1,0 +1,45 @@
+{
+  "comment": "Нарисуем числовую прямую с количеством решенных задач и вероятностями:\nИскомой вероятностью будет разность между двумя вероятностями:\n$$0,66-0,61=0,05$$\nОтвет: 0,05",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2394,
+    "title": "4.2 Теоремы вероятностей"
+  },
+  "id": 18710,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,05",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Вероятность того, что на тестировании по физике учащийся А. верно решит больше 6 задач, равна 0,61. Вероятность того, что А. верно решит больше 5 задач, равна 0,66. Найдите вероятность того, что А. верно решит ровно 6 задач.",
+      "error_conditions": [],
+      "id": 238551,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 52,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=7846"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=7846"
+}

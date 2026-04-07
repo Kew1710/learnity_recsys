@@ -1,0 +1,45 @@
+{
+  "comment": "Сначала найдём координаты векторов. Для этого определим координаты начальной и конечной точек каждого вектора:\nКоординаты вектора равны разности соответствующих координат его конца и начала, тогда:\n$$\\vec{a}((5-1);(8-2))\\Rightarrow \\vec{a}(4;6)\\\\ \\vec{b}((11-5);(3-5))\\Rightarrow \\vec{b}(6;-2)$$\nТогда скалярное произведение \\(\\vec{a}\\cdot\\vec{b}\\):\n$$\\vec{a}\\cdot \\vec{b}=x_a\\cdot x_b+y_a\\cdot y_b=4\\cdot 6-6\\cdot 2=12$$\nОтвет: 12",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2383,
+    "title": "2.2 Скалярное произведение векторов"
+  },
+  "id": 23244,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной плоскости изображены векторы \\(\\vec{a}\\) и \\(\\vec{b}\\). Найдите скалярное произведение \\(\\vec{a}\\cdot\\vec{b}\\).",
+      "error_conditions": [],
+      "id": 242969,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=410s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=410s"
+}

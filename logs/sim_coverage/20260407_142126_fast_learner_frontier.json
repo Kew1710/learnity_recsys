@@ -1,0 +1,98 @@
+{
+  "ts": "2026-04-07T14:21:26.262472+00:00",
+  "profile": "fast_learner",
+  "grade": 8,
+  "variant": "frontier",
+  "student_id": "222a6385-97a8-4ca3-8063-d8c64e4b4461",
+  "tasks_done": 200,
+  "accuracy": 0.47,
+  "plan_focus_rate": 1.0,
+  "plan_mastered_true": 6,
+  "plan_mastered_visible": 5,
+  "coverage_pct": 60.0,
+  "steps_completed": 2,
+  "plan_kcs": [
+    "kc_sqrt_simplify",
+    "kc_sqrt_function",
+    "kc_quadratic_function",
+    "kc_quadratic_eq",
+    "kc_quadratic_factoring",
+    "kc_biquadratic_eq",
+    "kc_linear_inequality",
+    "kc_absolute_value_eq",
+    "kc_area_parallelogram",
+    "kc_pythagorean_know"
+  ],
+  "plan_kc_vis_at_creation": {
+    "kc_sqrt_simplify": 0.3,
+    "kc_sqrt_function": 0.3,
+    "kc_quadratic_function": 0.3,
+    "kc_quadratic_eq": 0.3,
+    "kc_quadratic_factoring": 0.3,
+    "kc_biquadratic_eq": 0.3,
+    "kc_linear_inequality": 0.3,
+    "kc_absolute_value_eq": 0.3,
+    "kc_area_parallelogram": 0.3,
+    "kc_pythagorean_know": 0.3
+  },
+  "plan_kc_final": {
+    "kc_sqrt_simplify": {
+      "true": 0.846,
+      "vis": 0.822,
+      "tasks": 29
+    },
+    "kc_sqrt_function": {
+      "true": 0.839,
+      "vis": 0.806,
+      "tasks": 32
+    },
+    "kc_quadratic_function": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_quadratic_eq": {
+      "true": 0.909,
+      "vis": 0.913,
+      "tasks": 27
+    },
+    "kc_quadratic_factoring": {
+      "true": 0.944,
+      "vis": 0.815,
+      "tasks": 37
+    },
+    "kc_biquadratic_eq": {
+      "true": 0.937,
+      "vis": 0.812,
+      "tasks": 46
+    },
+    "kc_linear_inequality": {
+      "true": 0.822,
+      "vis": 0.612,
+      "tasks": 29
+    },
+    "kc_absolute_value_eq": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_area_parallelogram": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_pythagorean_know": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    }
+  },
+  "all_kc_tasks": {
+    "kc_biquadratic_eq": 46,
+    "kc_quadratic_factoring": 37,
+    "kc_sqrt_function": 32,
+    "kc_sqrt_simplify": 29,
+    "kc_linear_inequality": 29,
+    "kc_quadratic_eq": 27
+  }
+}

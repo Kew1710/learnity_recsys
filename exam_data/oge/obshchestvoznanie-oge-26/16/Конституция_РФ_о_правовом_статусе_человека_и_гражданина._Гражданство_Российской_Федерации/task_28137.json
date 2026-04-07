@@ -1,0 +1,42 @@
+{
+  "comment": "1) да, уплата налогов - это обязанность гражданина РФ\n2) нет, защита чести и достоинства - это личное право\n3) нет, участие в деятельности политических партий - это политическое право\n4) нет, обращение в государственные органы - это политическое право",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3065,
+    "title": "Конституция РФ о правовом статусе человека и гражданина. Гражданство Российской Федерации"
+  },
+  "id": 28137,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Что из перечисленного ниже является конституционной обязанностью гражданина Российской Федерации?\n\n1) уплата налогов\n2) защита чести и достоинства\n3) участие в деятельности политических партий\n4) обращение в государственные органы",
+      "error_conditions": [],
+      "id": 247776,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=Py0A0cciX39XwfG9&t=1236"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=Py0A0cciX39XwfG9&t=1236"
+}

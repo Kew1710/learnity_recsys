@@ -1,0 +1,45 @@
+{
+  "comment": "Поскольку оба условия (зависимость объема спроса и выручка предприятия за месяц) должны выполниться, можем объединить их в систему:\n$$\\displaystyle \\begin{cases} 150=pq\\\\ q=65-5p \\end{cases}$$\nПодставим вместо \\(q\\) в первом выражении \\(65 - 5p\\):\n$$\\displaystyle \\begin{cases} 150=p( 65-5p)\\\\ q=65-5p \\end{cases} =\\begin{cases} p^{2} -13p+30=0\\\\ q=65-5p \\end{cases} ,\\ отсюда\\ p=3;\\ p=10.$$\nНаибольшая цена - \\(10\\).\n\nОтвет: 10",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2426,
+    "title": "9.6 Квадратные уравнения и неравенства"
+  },
+  "id": 9246,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Зависимость объема спроса \\(q\\) (единиц в месяц) на продукцию предприятия - монополиста от цены \\(p\\) (тыс. руб.) задаётся формулой \\(q = 65 - 5\\) p. Выручка предприятия за месяц \\(r\\) (в тыс. руб.) вычисляется по формуле \\(r(p) = pq\\). Определите наибольшую цену \\(p\\), при которой месячная выручка \\(r(p)\\) cоставит не менее \\(150\\) тыс. руб. Ответ приведите в тыс. руб.",
+      "error_conditions": [],
+      "id": 113019,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/lzwsmeGl20E?start=1198"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/embed/lzwsmeGl20E?start=1198"
+}

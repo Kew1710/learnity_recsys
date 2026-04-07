@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2540,
+    "title": "Социальные институты"
+  },
+  "id": 23993,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "145",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите верные суждения об обществе и социальных институтах и запишите цифры, под которыми они указаны.\n\n1) Социальные институты выполняют функцию социализации человека.\n2) Общественный прогресс характеризуется деградацией, возвратом к уже отжившим структурам и отношениям.\n3) Общество представляет собой закрытую систему, не взаимодействующую с внешней средой.\n4) Общество является постоянно развивающейся динамической системой.\n5) В широком смысле под обществом понимают обособившуюся от природы, но связанную с ней часть мира, включающую в себя способы взаимодействия и формы объединения людей.",
+      "error_conditions": [],
+      "id": 243708,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/DNQAuPJfC3A?si=e_ozR8KfrIFKts07&t=2276"
+    },
+    "Valid": true
+  },
+  "time_seconds": 7200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/DNQAuPJfC3A?si=e_ozR8KfrIFKts07&t=2276"
+}

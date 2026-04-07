@@ -1,0 +1,37 @@
+{
+  "comment": "1) Вирус (вирус иммунодефицита человека, ВИЧ);\n2) От человека к человеку инфекции могут передаваться воздушно-капельным, контактно-бытовым путем, через кровь и иные физиологические жидкости, при половом контакте (ВИЧ передается через кровь, грудное молоко, половые контакты).",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2917,
+    "title": "Бактерии и вирусы"
+  },
+  "id": 30127,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Объект, изображённый на рисунках, вызывает инфекционное заболевание у человека. Что это за объект? Каким путём происходит передача инфекции от человека к человеку?",
+      "error_conditions": null,
+      "id": 249766,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

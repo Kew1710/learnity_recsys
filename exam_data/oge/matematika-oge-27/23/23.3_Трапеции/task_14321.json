@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - трапеция\n\\( \\angle ABC =60\\)\n\\( \\angle BCD=150 \\)\nCD=33\nНайти:\nАВ-?\nРешение:\n1) Проведём \\( СН \\perp AD, AK \\perp BC \\)\n\\( CH, AK \\) - высоты ABCD\n\\(\\Rightarrow CH=AK \\)\n2) т.к. \\(CH \\perp AD, BC||AD \\Rightarrow CH \\perp BC \\)\n\\( \\Rightarrow \\angle BCH=90\\)\n\\( \\angle HCD=\\angle BCD- \\angle BCH=150-90=60^o\\)\n3) \\( \\triangle CHD\\) - прямоугольный\n\\( \\Rightarrow \\cfrac{CH}{CD}=\\cos{HCD} \\)\n\\( CH=CD \\cdot \\cos{HCD} =16,5 \\)\n4) \\( \\triangle ABK \\) - прямоугольный\n\\( \\cfrac{AК}{AB}=\\sin{B}\\)\n\\( AB=AK:\\sin{60} =\\cfrac{33}{2}:\\cfrac{\\sqrt{3}}{2}=11\\sqrt{3}\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2012,
+    "title": "23.3 Трапеции"
+  },
+  "id": 14321,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите боковую сторону AB трапеции ABCD, если углы ABC и BCD равны соответственно 60° и 150°, а CD = 33.",
+      "error_conditions": null,
+      "id": 202450,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

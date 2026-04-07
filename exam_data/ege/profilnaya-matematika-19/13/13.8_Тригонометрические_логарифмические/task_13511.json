@@ -1,0 +1,40 @@
+{
+  "comment": "а) \\(\\log_{3-4\\cos^2x}(9-16\\cos^4x)=2+\\log_{3-4\\cos^2x}2\\)\n$$\\log_{3-4\\cos^2x}(9-16\\cos^4x)=\\log_{3-4\\cos^2x}(3-4\\cos^2x)^2+\\log_{3-4\\cos^2x}2\\\\ \\log_{3-4\\cos^2x}(9-16\\cos^4x)=\\log_{3-4\\cos^2x}(2\\cdot (9-24\\cos^2x+16\\cos^4x))$$\n\\(\\displaystyle \\begin{cases}\n9-16\\cos^{4} x=18-48\\cos^{2} x+32\\cos^{4} x\\\\\n3-4\\cos^{2} x\\neq 1\\\\\n3-4\\cos^{2} x >0\n\\end{cases}\\)\n$$3-4\\cos^2x\\ne 1\\Rightarrow x\\ne\\frac{\\pi}{4}+\\frac{\\pi k}{2},k\\in Z\\\\ 3-4\\cos^2x>0\\Rightarrow\\cos x\\in (-\\frac{\\sqrt{3}}{2};\\frac{\\sqrt{3}}{2})$$\n\\(48\\cos^4x+48\\cos^2x+9=0\\)\n\\(\\sqrt{D}=24\\)\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\left[ \\begin{array}{l l}\n\\cos^{2} x=\\frac{3}{4} -не\\ подходит,\\ т.к.\\ \\cos^{2} x< \\frac{3}{4}\\\\\n\\cos^{2} x=\\frac{1}{4}\n\\end{array} \\right.\\\\\n\\left[ \\begin{array}{l l}\n\\cos x=\\frac{1}{2}\\\\\n\\cos x=-\\frac{1}{2}\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\nx=\\pm \\frac{\\pi }{3} +2\\pi k,k\\in Z\\\\\nx=\\pm \\frac{2\\pi }{3} +2\\pi k,k\\in Z\n\\end{array} \\right.\n\\end{array}$$\nб) Отберем корни на промежутке \\(\\left[-\\frac{\\pi}{3};\\frac{2\\pi}{3}\\right]\\) с помощью тригонометрической окружности.\n$$x=-\\frac{\\pi}{3};x=\\frac{\\pi}{3};x=\\frac{2\\pi}{3}$$\nОтвет: а) \\(\\pm \\frac{\\pi }{3} +2\\pi k,k\\in Z\\); \\(\\pm \\frac{2\\pi }{3} +2\\pi k,k\\in Z\\); б) \\(\\frac{2\\pi}{3}\\); \\(\\frac{\\pi}{3}\\); \\(-\\frac{\\pi}{3}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2457,
+    "title": "13.8 Тригонометрические + логарифмические"
+  },
+  "id": 13511,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\log_{3-4\\cos^2x}(9-16\\cos^4x)=2+\\frac{1}{\\log_2(3-4\\cos^2x)}\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[-\\frac{\\pi}{3};\\frac{2\\pi}{3}\\right]\\).",
+      "error_conditions": null,
+      "id": 179275,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

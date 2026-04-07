@@ -1,0 +1,42 @@
+{
+  "comment": "Так как сопротивление не меняется, то определим его: $$R=\\frac{U}{I}$$\nПодставим числа: $$R=\\frac{4}{1}=4~Ом$$\nНапряжение в свою очередь равно: $$U=IR \\\\ U=2,5\\cdot 4=10~В$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 33423,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В таблице представлены результаты исследования зависимости силы тока от напряжения на концах резистора. Какое значение напряжения должно стоять в пустой клетке?\n\nU, В\n4\n8\n\nI, А\n1\n2\n2,5\nОтвет: ____________ В",
+      "error_conditions": [],
+      "id": 253062,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Огородить забором необходимо 2 стороны участка длиной 500 м и 1 сторону длиной 1000 м, то есть \\(2 \\cdot 500+1000=2000\\)м.\nОтвет: 2000.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2093,
+    "title": "10.1 Прямоугольник, квадрат"
+  },
+  "id": 24934,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2000",
+          "points": 0
+        }
+      ],
+      "comment": "",
+      "description": "Участок земли под строительство санатория имеет форму прямоугольника, стороны которого равны 1000 м и 500 м. Одна из больших сторон участка идёт вдоль моря, а три остальные стороны нужно огородить забором. Найдите длину этого забора. Ответ дайте в метрах.",
+      "error_conditions": [],
+      "id": 244591,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 42,
+      "points": 0,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Лисица является консументов, т.к.\n1) гетеротроф, хищник\n2) поедает растительноядных животных\n5) регулирует численность особей в популяции мышей",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 6120,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "125",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Консументом леса является лисица обыкновенная, так как она\n1) гетеротроф, хищник\n2) поедает растительноядных животных\n3) потребляет солнечную энергию\n4) выполняет роль редуцента\n5) регулирует численность особей в популяции мышей\n6) накапливает в теле глюкозу",
+      "error_conditions": [],
+      "id": 72591,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/7DY1qfrrB2A?start=852"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/7DY1qfrrB2A?start=852"
+}

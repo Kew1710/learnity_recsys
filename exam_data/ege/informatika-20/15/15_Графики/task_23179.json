@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2733,
+    "title": "№15 Графики"
+  },
+  "id": 23179,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2115_0\nДля какого наименьшего целого числа А формула (2𝑥 + 𝑦 ̸= 70) ∨ (𝑥 < 𝑦) ∨ (𝑥 < 𝐴) тождественно истинна, то есть принимает значение 1 при любых целых неотрицательных x и y?",
+      "error_conditions": [],
+      "id": 242904,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Решение программой\n\nnumbers = '012345678'\nchet = '02468'\nnechet = '1357'\nk = 0\nfor x1 in '12345678':\nfor x2 in numbers:\nfor x3 in numbers:\nfor x4 in numbers:\nfor x5 in numbers:\ns = x1+x2+x3+x4+x5\nif s.count('3') == 2:\nflag = 0\nif (s[0] == '2' and s[1] in nechet) or (s[4] == '2' and s[3] in nechet):\nflag = 1\nfor i in range(1, len(s)-1):\nif s[i] == '2' and (s[i-1] in nechet or s[i+1] in nechet):\nflag = 1\nif flag == 0:\nk += 1\nprint(k)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2711,
+    "title": "№8 Комбинаторика"
+  },
+  "id": 23769,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3352",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2308_12\n(ОСН 2023) Сколько существует девятеричных пятизначных чисел, которые содержат в своей записи ровно две цифры 3, в которых нечетная цифра не стоит рядом с цифрой 2?",
+      "error_conditions": [],
+      "id": 243488,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 58,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

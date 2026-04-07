@@ -1,0 +1,37 @@
+{
+  "comment": "Выделяемую мощность на $1$ резисторе можно вычислить по формуле: $P=I^{2}R_1$\nНайдем силу тока в цепи: $$I=\\frac{U_2}{R_2}=\\frac{24}{8}=3~A$$\nТогда мощность на резисторе $1$ равна: $$P=I^{2}R_1=3^{2}\\cdot 4=36~Вт$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34638,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Два резистора соединены, как показано на рисунке. Сопротивление резисторов: \\(R_1\\) = $4$ Ом, \\(R_2\\) = $8$ Ом. Какая мощность выделяется в первом резисторе, если напряжение на втором резисторе равно $24$ В?",
+      "error_conditions": null,
+      "id": 254277,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

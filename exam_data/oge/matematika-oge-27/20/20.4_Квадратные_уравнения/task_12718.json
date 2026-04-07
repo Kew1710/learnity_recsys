@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(x(x+3)^2=4(x+3)\\)\n\\(x(x+3)^2-4(x+3)=0\\)\n\\((x+3)(x(x+3)-4)=0\\)\n\\((x+3)(x^2+3x-4)=0\\)\n\\(x=-3\\) или \\(x^2+3x-4=0 (2)\\)\n\\( (2) x^2+3x-4=0\\)\n\\(D=9+16=25\\)\n\\(x_1=1\\)\n\\(x_2=-4\\)\nОтвет: \\(-4; -3; 1\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2051,
+    "title": "20.4 Квадратные уравнения"
+  },
+  "id": 12718,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(x(x^2+6x+9)=4(x+3)\\) .",
+      "error_conditions": null,
+      "id": 172518,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

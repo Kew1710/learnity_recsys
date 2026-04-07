@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2688,
+    "title": "№1 Симметричные графы"
+  },
+  "id": 30526,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Досрок 2024) На рисунке схема дорог изображена в виде графа, в таблице содержатся сведения о длине этих дорог в километрах. Так как таблицу и схему рисовали независимо друг от друга, нумерация населённых пунктов в таблице никак не связана с буквенными обозначениями на графе\n\nП1 П2 П3 П4 П5 П6 П7 П1 5 18 8П2 5 73 П3 7 4 П4 34 13 П5 18 211П6 132 12П7 8 1112\n\nКаждому населенному пункту на схеме соответствует номер в таблице, но неизвестно, какой именно номер. Определите длину дороги между пунктами К и Г на схеме. В ответе запишите только число.",
+      "error_conditions": [],
+      "id": 250165,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/skXTB_9AOcw?si=HbOXka2Uyh3E0b4i&t=941"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 20,
+    "title": "Графы"
+  },
+  "video_link": "https://www.youtube.com/live/skXTB_9AOcw?si=HbOXka2Uyh3E0b4i&t=941"
+}

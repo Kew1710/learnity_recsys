@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3145,
+    "title": "2.6.2 Действия над логическими операциями."
+  },
+  "id": 31194,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ниже приведена программа, записанная на пяти языках программирования.\n\nБейсикPythonDIM k, s AS INTEGER INPUT s INPUT k IF s \\ 2 = k THEN     PRINT \"ДА\" ELSE      PRINT \"НЕТ\" END IFs = int(input()) k = int(input()) if s // 2 == k:     print(\"ДА\") else:     print(\"НЕТ\")\n\nПаскальАлгоритмический языкvar s, k: integer; begin     readln(s);     readln(k);     if s div 2 = k         then writeln ('ДА')         else writeln ('НЕТ') end.алг нач цел s, k ввод s ввод k если div(s, 2) = k     то вывод \"ДА\"     иначе вывод \"НЕТ\" все конС++#include <iostream> using namespace std; int main() {     int s, k;     cin >> s;     cin >> k;     if (s / 2 == k)         cout << \"ДА\";     else          cout << \"НЕТ\";     return 0; }\nБыло проведено 9 запусков программы, при которых в качестве значений переменных s и k вводились следующие пары чисел:\n\n(1, 1); (8, 4); (14, 10); (20, 1); (7, 3); (10, 5); (10, 2); (4, 1); (1, 0).\n\nСколько было запусков, при которых программа напечатала «НЕТ»?",
+      "error_conditions": [],
+      "id": 250833,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

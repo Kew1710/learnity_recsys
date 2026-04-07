@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nТак как один угол прямоугольного треугольника, который образует высота, равен \\(45^o\\), то другой его угол равен \\(45^o\\) \\(\\Rightarrow\\) другой катет треугольника также равен \\(5\\) (треугольник равнобедренный)\nТак, большее основание трапеции равно \\(15-5 = 10\\)\nМеньшее основание трапеции равно \\(10 - 5 = 5\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1985,
+    "title": "17.2 Трапеция"
+  },
+  "id": 21487,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В равнобедренной трапеции известна высота, большее основание и угол при основании (см. рисунок). Найдите меньшее основание.",
+      "error_conditions": [],
+      "id": 241254,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

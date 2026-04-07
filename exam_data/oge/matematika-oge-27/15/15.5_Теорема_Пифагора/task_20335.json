@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо теореме Пифагора\n\\(AB = \\sqrt{1600 + 900}\\)\n\\(AB = 50\\)\nВ прямоугольном треугольнике гипотенуза является диметром\n\\(R = \\cfrac{AB}{2} = \\cfrac{50}{2} = 25\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1976,
+    "title": "15.5 Теорема Пифагора"
+  },
+  "id": 20335,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике ABC известно, что AC=40, BC=30, угол C равен 90°. Найдите радиус описанной окружности этого треугольника.",
+      "error_conditions": [],
+      "id": 240129,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

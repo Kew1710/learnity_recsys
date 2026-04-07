@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: тк они оба без признака, но у них рождается ребенок с признаком, значит они гетерозиготы, а признак рецессивный. при скрещивании гетерозигот, вероятность рождения рецессивной гомозиготы = ¼ = 25%",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 16048,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "По изображенной родословной определите вероятность (в процентах) рождения в браке между 4 и 1 ребенка с признаком. В ответе запишите только соответствующее число.",
+      "error_conditions": [],
+      "id": 235955,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

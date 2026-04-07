@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n$$BC\\parallel AD$$\nПроведем \\(BN\\) и \\(CN\\)\n\\(S_{NBL}=S_{CLN}\\) (высоты, проведенные к сторонам \\(BL\\) и \\(LC\\) совпадают)\n$$S_{ABLN}=S_{NLCD}\\\\ S_{ABN}+S_{NBL}=S_{NLC}+S_{NCB}$$\nЗначит:\n$$S_{ABN}=S_{NCB}$$\nТак как \\(AN = ND\\) и площади равны, то высоты равны.\nОбе высоты перпендикулярны \\(AD\\), между собой они параллельны. Тогда высоты образуют параллелограмм, следовательно \\(BC\\parallel AD\\).\n\nб) Пусть \\(BC=2x,AD=2y\\).\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ KM=\\frac{2x+2y}{2} =x+y\\\\\nS_{KBCM} =\\frac{BC+KM}{2} \\cdotp h=\\frac{2x+x+y}{2} \\cdotp h=\\frac{3x+y}{2} \\cdotp h\\\\\nS_{AKMD} =\\frac{KM+AD}{2} \\cdotp h=\\frac{x+y+2y}{2} \\cdotp h=\\frac{x+3y}{2} \\cdotp h\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\frac{S_{KBCM}}{S_{AKMD}} =\\frac{( 3x+y) h}{2} :\\frac{( x+3y) h}{2} =\\frac{11}{17}\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\frac{11}{17} =\\frac{( 3x+y) h}{2} \\cdotp \\frac{2}{( x+3y) h} =\\frac{3x+y}{3y+x}\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ 33y+11x=51x+17y\\Rightarrow 16y=40x\n\\end{array}$$\nНам нужно найти отношение \\(\\frac{BC}{AD}=\\frac{x}{y}\\).\nЗначит:\n$$\\frac{BC}{AD}=\\frac{16}{40}=\\frac{4}{10}=\\frac{2}{5}$$\nОтвет: \\(\\frac{2}{5}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2487,
+    "title": "17.7 Остальные четырехугольники"
+  },
+  "id": 18387,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В выпуклом четырехугольнике \\(ABCD\\) точки \\(K\\), \\(L\\), \\(M\\) и \\(N\\) – середины сторон \\(AB\\), \\(BC\\), \\(CD\\) и \\(AD\\) соответственно. Площади четырехугольников \\(ABLN\\) и \\(NLCD\\) равны, а площади четырехугольников \\(KBCM\\) и \\(AKMD\\) относятся как \\(11:17\\).\nа) Докажите, что прямые \\(BC\\) и \\(AD\\) параллельны.\nб) Найдите отношение \\(BC\\) к \\(AD\\).",
+      "error_conditions": null,
+      "id": 238229,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=B5hiaZ4zu_o#t=345m46s"
+}

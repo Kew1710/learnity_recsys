@@ -1,0 +1,45 @@
+{
+  "comment": "Всего количество спортсменов:\n$$3+6+4+7=20$$\nТак как по условию, \\(4\\) спортсмена из Норвегии, то искомая вероятность:\n$$\\frac{4}{20}=\\frac{2}{10}=0,2$$\nОтвет: 0,2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 4806,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В соревнованиях по толканию ядра участвуют \\(3\\) спортсмена из Дании, \\(6\\) из Швеции, \\(4\\) из Норвегии и \\(7\\) из Финляндии. Порядок, в котором выступают спортсмены, определяется жребием. Найдите вероятность того, что спортсмен, который выступает последним, окажется из Норвегии.",
+      "error_conditions": [],
+      "id": 70038,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WLZb7XtIGlY?start=675"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/WLZb7XtIGlY?start=675"
+}

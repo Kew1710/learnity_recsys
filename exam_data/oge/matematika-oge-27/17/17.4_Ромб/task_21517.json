@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nСумма односторонних углов ромба равна \\(180^o\\)\n\\( \\angle BCD = 180 - 102 = 78^o\\)\n\\( \\angle ACD = \\angle BCD : 2 = 78 : 2 = 39^o\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1987,
+    "title": "17.4 Ромб"
+  },
+  "id": 21517,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "39",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В ромбе ABCD угол ABC равен 102°. Найдите угол ACD. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 241284,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

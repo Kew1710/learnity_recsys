@@ -1,0 +1,42 @@
+{
+  "comment": "- 1712,5 : 100 = 17,125\n- 226,8 : 17,125 = 13,2437956\n\nОтвет округляем до целого, получаем 13%",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2973,
+    "title": "6.4 Хозяйство России"
+  },
+  "id": 29659,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Используя данные таблицы «Земельная площадь России на начало 2018 г.», определите долю (в %) поверхностных вод, включая болота, от общей земельной площади. Полученный результат округлите до целого числа.\n\nВсего земель\n1712,5\nв том числе:\n\nсельскохозяйственные угодья\n222,0\nлесные угодья\n870,7\nповерхностные воды, включая болота\n226,8\nдругие земли\n393,0",
+      "error_conditions": [],
+      "id": 249298,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\cup AB=360^{\\circ}-\\cup AC-\\cup CB=360^{\\circ}-125^{\\circ}-79^{\\circ}=156^{\\circ}\\\\ \\angle ACB=\\frac{\\cup AB}{2}=\\frac{156^{\\circ}}{2}=78^{\\circ}~(как\\ вписанный)$$\nОтвет: 78",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2378,
+    "title": "1.7 Центральные и вписанные углы"
+  },
+  "id": 4033,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "78",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На окружности отмечены точки \\(A,B\\) и \\(C\\). Дуга окружности \\(AC\\), не содержащая точку \\(B\\), составляет \\(125^{\\circ }\\). Дуга окружности \\(BC\\), не содержащая точку \\(A\\), составляет \\(79^{\\circ}\\). Найдите вписанный угол \\(ACB\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 66454,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=1675"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=1675"
+}

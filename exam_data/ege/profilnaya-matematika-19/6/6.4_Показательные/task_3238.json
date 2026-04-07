@@ -1,0 +1,45 @@
+{
+  "comment": "Так как функции данного уравнения приведены к одинаковым основаниям, можем приравнять их степени:\n$$4^{4+x}=4^1\\\\ 4+x=1\\\\ x=-3$$\nОтвет: -3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2402,
+    "title": "6.4 Показательные"
+  },
+  "id": 3238,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(4^{4+x}=4\\).",
+      "error_conditions": [],
+      "id": 64817,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3086"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3086"
+}

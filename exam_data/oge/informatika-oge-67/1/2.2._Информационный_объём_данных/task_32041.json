@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3128,
+    "title": "2.2. Информационный объём данных."
+  },
+  "id": 32041,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "же",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В одной из кодировок Unicode каждый символ кодируется 16 битами.\nВова написал текст (в нём нет лишних пробелов):\n\n«Вздыхать и думать про себя:\nКогда же чёрт возьмёт тебя!»\n\nУченик вычеркнул из текста одно слово. Заодно он вычеркнул ставший лишним пробел – два пробела не должны идти подряд.\nПри этом размер нового предложения в данной кодировке оказался на 6 байт меньше, чем размер исходного предложения. Напишите в ответе вычеркнутое слово.",
+      "error_conditions": [],
+      "id": 251680,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

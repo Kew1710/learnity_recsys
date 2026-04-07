@@ -1,0 +1,37 @@
+{
+  "comment": "Переведем площадь в $м^2$: $$S=2~мм^2=2\\cdot 10^{-6}~м^2$$\nНайдем массу: $$m={\\rho}V={\\rho}Sl$$\nОпределим сопротивление: $$R=\\frac{U}{I} \\\\ R=\\frac{24}{4}=6~Ом$$\nС другой стороны сопротивление равно: $$R=\\frac{{\\rho_с}l}{S} \\\\ 6=\\frac{0,1\\cdot l}{2} \\\\ 12=0,1l \\\\ l=120~м$$\nПодставляем в формулу массы: $$m=7800\\cdot 2\\cdot 10^{-6}\\cdot 120=1,872~кг$$\n\nОтвет: 1,872 кг",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 34836,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Определите массу железной проволоки площадью поперечного сечения $2$ мм\\(^2\\), из которой изготовлен реостат, включённый в сеть, если напряжение на его концах $24$ В, а сила тока $4$ А.",
+      "error_conditions": null,
+      "id": 254475,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

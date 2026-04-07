@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем закон Джоуля-Ленца: $$Q=I^2Rt$$\nВыразим силу тока: $$I^2=\\frac{Q}{Rt}$$\nВозьмем точку из графика: $$Q=3~кДж; \\ t=1~мин$$\nПодставим числа: $$I^2=\\frac{3\\cdot10^3}{2\\cdot 1\\cdot 60}=25$$\nТаким образом, получаем, что: $$I=\\sqrt{25}=5~А$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3267,
+    "title": "3.11 Закон Джоуля-Ленца"
+  },
+  "id": 33481,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке показан график зависимости количества теплоты Q, выделяемого на резисторе, от времени t. Чему равна сила тока, протекающего через резистор, если известно, что электрическое сопротивление резистора равно 2 Ом?",
+      "error_conditions": [],
+      "id": 253120,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "$$z=v_Bt\\\\ d=v_BT\\Rightarrow v_B=\\frac{d}{T}$$\nПо второму закону Ньютона:\n$$ma_ц=F_л,a_ц=\\frac{v^2_г}{R},F_л=qv_гB\\sin\\beta ,\\beta =90^\\circ$$\nтак как \\(v_г\\perp B\\)\n$$m\\frac{v^2_г}{R}=qv_гB\\Rightarrow v_г=\\frac{qBR}{m}$$\nПериод найдем по формуле:\n$$T=\\frac{2\\pi R}{v_г}\\\\ v_B=\\frac{v_гd}{2\\pi R}=\\frac{qBR}{m}\\cdot \\frac{d}{2\\pi R}=\\frac{qBd}{2m\\pi}$$\nСкорости связаны уравнением:\n$$v^2=v^2_B+v^2_г=\\frac{q^2B^2d^2}{4m^2\\pi^2}+\\frac{q^2B^2R^2}{m^2}\\\\ v^2=\\frac{q^2B^2}{m^2}\\left (\\frac{d^2}{4\\pi^2}+R^2\\right )\\Rightarrow B=\\frac{mv}{q}\\cdot \\frac{1}{\\sqrt{\\frac{d^2}{4\\pi^2}+R^2}}$$\nПодставим значения:\n$$B=\\frac{9,1\\cdot 10^{-31}\\cdot 1,1\\cdot 10^6}{1,6\\cdot 10^{-19}}\\cdot \\frac{1}{\\sqrt{\\frac{0,25^2}{4\\cdot 3,14^2}+0,12^2}}=58,1\\cdot 10^{-6}Тл$$\nОтвет: \\(58,1\\cdot 10^{-6}~Тл\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 10338,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23661\nЭлектрон по винтовой линии движется в однородном магнитном поле. Скорость электрона равна \\(1100\\) км/с, радиус винтовой линии \\(10\\) см, шаг винта \\(25\\) см. Найдите индукцию магнитного поля.",
+      "error_conditions": null,
+      "id": 137669,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/7oT3TWhLozM"
+}

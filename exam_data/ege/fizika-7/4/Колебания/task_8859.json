@@ -1,0 +1,42 @@
+{
+  "comment": "Циклическая частота колебаний пружинного маятника:\n$$\\omega =\\frac{2\\pi}{T}=\\frac{2\\pi}{2\\pi\\sqrt{\\frac{m}{k}}}=\\sqrt{\\frac{k}{m}}$$\nПри увеличении массы гири в 4 раза:\n$$\\omega_1 =\\sqrt{\\frac{k}{4m}}=\\frac{1}{2} \\sqrt{\\frac{k}{m}}=\\frac{\\omega}{2}$$\nТо есть циклическая частота изменения кинетической энергии уменьшится в 2 раза:\n$$\\omega_1 =\\frac{\\omega}{2}=\\frac{5}{2}=2,5~с^{-1}$$\nЧастота колебаний маятника вдвое меньше частоты изменения кинетической энергии:\n$$\\frac{\\omega_1}{2}=\\frac{2,5}{2}=1,25~с^{-1}$$\nОтвет: 1,25 \\(с^{-1}\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2620,
+    "title": "Колебания"
+  },
+  "id": 8859,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Кинетическая энергия вертикального пружинного маятника изменяется с циклической частотой \\(5\\) с\\(^{-1}\\). Какой станет циклическая частота колебаний маятника, если массу его груза увеличить в 4 раза? Ответ дайте в с\\(^{-1}\\).",
+      "error_conditions": [],
+      "id": 112079,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

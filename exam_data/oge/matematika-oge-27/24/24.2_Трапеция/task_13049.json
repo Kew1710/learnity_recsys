@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - трапеция\nВС=2\nAD=32\nBD=8\nДоказать:\n\\( \\triangle CBD \\sim \\triangle BDA\\)\n1. \\( \\angle CBD = \\angle BDA\\) - накрест лежащие при BC// AD и секущей BD\n\\( \\cfrac{BC}{BD}=\\cfrac{BD}{AD} \\)\n\\( \\cfrac{2}{8}=\\cfrac{8}{32}=\\cfrac{1}{4} \\)\n\\( \\Rightarrow \\triangle CBD \\sim \\triangle BDA\\) - по 2-ум пропорциональным сторонам и углу между ними, ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1944,
+    "title": "24.2 Трапеция"
+  },
+  "id": 13049,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Основания BC и AD трапеции ABCD равны соответственно 2 и 32, BD=8. Докажите, что треугольники CBD и BDA подобны.",
+      "error_conditions": null,
+      "id": 175189,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(t_F=23\\) по условию\n\\(t_C= \\cfrac{5}{9} (23 -32)=\\cfrac{5}{9} \\cdot (-9)=-5 \\) - стольким градусам по шкале Цельсия соответствует \\(23\\) градусов по шкале Фаренгейта",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2060,
+    "title": "12.2 Физика"
+  },
+  "id": 19009,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Перевести значение температуры по шкале Фаренгейта в шкалу Цельсия позволяет формула \\(t_C= \\cfrac{5}{9} (t_F -32)\\) , где \\(t_C\\) – температура в градусах Цельсия, \\(t_F\\) – температура в градусах Фаренгейта. Скольким градусам по шкале Цельсия соответствует \\(23\\) градусов по шкале Фаренгейта?",
+      "error_conditions": [],
+      "id": 238847,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

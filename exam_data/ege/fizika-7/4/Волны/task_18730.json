@@ -1,0 +1,42 @@
+{
+  "comment": "Чтобы звук вернулся к стрелку, он должен дважды пройти глубину шахты. Следовательно:\n$$2h=vt\\Rightarrow t=\\frac{2h}{v}=\\frac{2\\cdot 170}{340}=1~с$$\nОтвет: 1 с",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2621,
+    "title": "Волны"
+  },
+  "id": 18730,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23И218\nУ входа в вертикальную шахту произведён выстрел. Через какое время после выстрела звук выстрела вернётся к стрелку, отразившись от дна шахты, если её глубина \\(170\\) м? Скорость звука в воздухе принять равной \\(340\\) м/с. Ответ дайте в с.",
+      "error_conditions": [],
+      "id": 238571,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=lF1HErCLfr4&t=6315s&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D1%83%D1%85%D0%B8%D0%BD"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/watch?v=lF1HErCLfr4&t=6315s&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D1%83%D1%85%D0%B8%D0%BD"
+}

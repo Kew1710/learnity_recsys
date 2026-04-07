@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nВозведем в квадрат все числа\n\\( (\\sqrt{27})^2 = 27\\)\n\\(1) 2^2 = 4\\)\n\\(3^2 = 9\\)\n\\(2) 5^2 = 25\\)\n\\(6^2 = 36\\)\n\\(3) 12^2 = 144\\)\n\\(14^2 = 196\\)\n\\(4) 26^2 = 676\\)\n\\(28^2 = 784\\)\nПоймем, что число \\( \\sqrt{27}\\) заключено между числами 5 и 6\nОтвет: 2",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23967,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Между какими целыми числами заключено число…",
+      "error_conditions": [],
+      "id": 243682,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

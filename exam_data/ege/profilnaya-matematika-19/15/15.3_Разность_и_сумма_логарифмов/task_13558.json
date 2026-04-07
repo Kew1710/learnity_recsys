@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\begin{cases}\nx\\sqrt{2} >0\\\\\n\\frac{x}{1-x}>0\\\\\n\\log_{7}\\left( 2x^{2}\\right) -\\log_{7}\\left(\\frac{x}{1-x}\\right) \\leq \\log_{7}\\left( 8x^{2} +\\frac{1}{x} -5\\right)\n\\end{cases}\\\\\n\\begin{cases}\nx >0\\ ( 1)\\\\\nx< 1\\ ( 2)\\\\\n\\log_{7}\\left(\\frac{2x^{2}( 1-x)}{x}\\right) \\leq \\log_{7}\\left( 8x^{2} +\\frac{1}{x} -5\\right) \\ ( 3)\n\\end{cases}\n\\end{array}$$\n\\(\\frac{2x^2(1-x)}{x}>0\\) в силу (1) и (2), и \\(0<\\frac{2x^2(1-x)}{x}<8x^2+\\frac{1}{x}-5\\)\n$$\\displaystyle \\begin{cases}\nx >0\\ \\\\\nx< 1\\ \\\\\n\\frac{2x^{2}( 1-x)}{x} \\leq 8x^{2} +\\frac{1}{x} -5\n\\end{cases}$$\nРешим 3-е неравенство:\n$$\\frac{2x^2(1-x)}{x}\\leq 8x^2+\\frac{1}{x}-5$$\nУмножим обе части неравенства на \\(x\\), так как \\(x>0\\)\n$$2x^2(1-x)\\leq 8x^3+1-5x\\\\ 2x^2-2x^3\\leq 8x^3+1-5x\\\\ 10x^3-2x^2-5x+1\\geq 0\\\\ 2x^2(5x-1)-(5x-1)\\geq 0\\\\ (5x-1)(2x^2-1)\\geq 0\\\\ (5x-1)(\\sqrt{2}x-1)(\\sqrt{2}x+1)\\geq 0\\\\ (x-\\frac{1}{5})(x-\\frac{1}{\\sqrt{2}})(x+\\frac{1}{\\sqrt{2}})\\geq 0$$\nПрименим метод интервалов:\nУчитывая ограничения:\nОтвет: \\(x\\in (0;\\frac{1}{5}] \\cup [\\frac{1}{\\sqrt{2}};1)\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2469,
+    "title": "15.3 Разность и сумма логарифмов"
+  },
+  "id": 13558,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(2\\log_7(x\\sqrt{2})-\\log_7(\\frac{x}{1-x})\\leq\\log_7(8x^2+\\frac{1}{x}-5)\\).",
+      "error_conditions": null,
+      "id": 180013,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "\\(p_2=p_н\\)\nУравнение Клапейрона-Менделеева в начале:\n$$p_1V_1=\\frac{m_1}{M}RT~(1)$$\nУравнение Клапейрона-Менделеева после сжатия:\n$$p_нV_2=\\frac{m_2}{M}RT~(2)$$\nОтносительная влажность:\n$$\\varphi=\\frac{p_1}{p_н}\\Rightarrow p_1=p_н\\varphi$$\nПоделим (1) на (2):\n$$\\frac{p_1V_1}{p_нV_2}=\\frac{m_1}{m_2}; \\frac{\\varphi p_н}{p_н}\\cdot\\frac{V_1}{V_2}=\\frac{m_1}{m_2}\\Rightarrow m_1=\\frac{m_2\\varphi V_1}{V_2}=0,012\\cdot 0,6\\cdot 5=0,036~кг=36~г$$\nЕсли уменьшить объем в \\(\\frac{5}{3}\\) раз, то пар станет насыщенным. При дальнейшем уменьшении объема давление газа меняться не будет и будет равно \\(p_н\\) при некоторой температуре и будет выпадать конденсат.\n1) \\(\\uparrow\\varphi=\\frac{\\rho\\uparrow}{\\rho_н}\\)\n2) \\(\\uparrow\\rho=\\frac{m}{V\\downarrow}\\)\n\nОтвет: 36 г",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 14286,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23443\nОтносительная влажность воздуха в цилиндрической емкости под поршнем в начале наблюдения равна \\(60\\)%. Воздух изотермически сжимают, уменьшая его объем в \\(5\\) раз. Определите массу водяных паров в емкости до сжатия, если в конце наблюдения в ней осталось \\(12\\) г водяных паров.",
+      "error_conditions": null,
+      "id": 197271,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/XvvrKWj0cAM"
+}

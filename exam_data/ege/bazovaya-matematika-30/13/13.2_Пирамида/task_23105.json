@@ -1,0 +1,42 @@
+{
+  "comment": "В правильной треугольной пирамиде боковая поверхность состоит из трёх равных равнобедренных треугольников. Рассмотрим один такой треугольник:\nЗдесь \\(AC=16,\\; AB=BC=17\\), \\(BH\\) - высота и медиана (следовательно, \\(AH=HC=8\\)).\nВ треугольнике \\(ABH\\) по теореме Пифагора найдем \\(BH\\):\n$$BH=\\sqrt{AB^{2} -AH^{2}} =\\sqrt{17^{2} -8^{2}} =15$$\nПлощадь \\(ABC\\): \\(S=\\frac{1}{2} AC\\cdot BH=\\frac{1}{2} \\cdot 16\\cdot 15=120\\).\nПлощадь боковой поверхности пирамиды: \\(3S=3\\cdot 120=360\\).\nОтвет: 360.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2249,
+    "title": "13.2 Пирамида"
+  },
+  "id": 23105,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "408",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Стороны основания правильной треугольной пирамиды равны 16, а боковые рёбра равны 17. Найдите площадь боковой поверхности этой пирамиды.",
+      "error_conditions": [],
+      "id": 242831,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

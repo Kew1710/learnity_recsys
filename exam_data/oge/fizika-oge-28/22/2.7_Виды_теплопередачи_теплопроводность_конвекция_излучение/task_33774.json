@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ:\n1. Металл на ощупь в жару кажется горячее, чем дерево.\n2. Металл обладает лучшей теплопроводностью, чем дерево. Поэтому нагретый на солнце металл будет быстрее передавать тепло пальцам руки.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3246,
+    "title": "2.7 Виды теплопередачи: теплопроводность, конвекция, излучение"
+  },
+  "id": 33774,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Зимой на улице металл на ощупь холоднее дерева. Каким будет казаться на ощупь металл по сравнению с деревом на солнце в летнюю жару? Ответ поясните.",
+      "error_conditions": null,
+      "id": 253413,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/-SrHxrKwtzA?si=pnWpV7OYNzSE5kw6&t=384"
+}

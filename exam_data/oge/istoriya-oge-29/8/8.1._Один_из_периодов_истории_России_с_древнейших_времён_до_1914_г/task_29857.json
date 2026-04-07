@@ -1,0 +1,42 @@
+{
+  "comment": "Представленная в задании карта посвящена отступлению Наполеона в Россию в ходе Отечественной войны 1812 г., а это девятнадцатый век",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3098,
+    "title": "8.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 29857,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "девятнадцатый",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите век, когда произошли события, отражённые на схеме. Ответ запишите словом.",
+      "error_conditions": [],
+      "id": 249496,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

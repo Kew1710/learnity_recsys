@@ -1,0 +1,42 @@
+{
+  "comment": "A) Разрушение и необратимый гидролиз комплексной соли трёхвалентного металла под действием избытка кислотного оксида:\nNa[Al(OH)₄] + SO₂(изб.) → NaHSO₃ + Al(OH)₃\nБ) Взаимодействие амфотерного металла с раствором щёлочи:\n2Al + 2NaOH + 6H₂O → 2Na[Al(OH)₄] + 3Н₂\nB) Взаимодействие амфотерного оксида с раствором щёлочи:\nAl₂O₃ + 2NaOH + 3H₂O → 2Na[Al(OH)₄]\nГ) Совместный гидролиз соли трёхвалентного металла:\n2AlCl₃ + 3Na₂SO₃ + 3H₂O → 2Al(OH)₃ + 3SO₂ + 6NaCl",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 26713,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5341",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТЫ РЕАКЦИИ\nA) Na[Al(OH)₄] + SO₂(изб.) →1) Al(OH)₃, SO₂ и NaClБ) Al + NaOH(р-р) →2) Al(OH)₃, SO₃ и NaClB) Al₂O₃ + NaOH(р-р) → 3) Na[Al(OH)₄] и Н₂Г) AlCl₃ + Na₂SO₃(р-р) →4) Na[Al(OH)₄] 5) NaHSO₃ и Al(OH)₃ 6) NaAlO₂ и Н₂О",
+      "error_conditions": [],
+      "id": 246352,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

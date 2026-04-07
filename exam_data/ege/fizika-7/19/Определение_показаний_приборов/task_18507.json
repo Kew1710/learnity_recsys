@@ -1,0 +1,42 @@
+{
+  "comment": "\\(5\\) делений \\(=\\) \\(100\\) В\n\\(1\\) делений \\(=\\) \\(20\\) В\nСледовательно, вольтметр показывает \\(80\\) В.\nУчитывая то, что погрешность равна цене деления, получаем \\(80\\pm 20\\).\n\nОтвет: 8020",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2645,
+    "title": "Определение показаний приборов"
+  },
+  "id": 18507,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8020",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23987\nВольтметр с погрешностью прямого измерения, равной цене деления, изображен на рисунке ниже. Определите значение электрического напряжения. Ответ дайте в В. Значение и погрешность запишите слитно без пробела.",
+      "error_conditions": [],
+      "id": 238349,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/q1LHPj4mn_E"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/q1LHPj4mn_E"
+}

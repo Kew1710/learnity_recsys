@@ -1,0 +1,37 @@
+{
+  "comment": "Работа равна изменению энергии. Сначала изменение энергии было равно:\n$$\\frac{mv^2_1}{2}=qU$$\nКогда скорость стала равна \\(v_2\\), изменение энергии стало равно:\n$$\\frac{mv^2_2}{2}-\\frac{mv^2_1}{2}=qU\\Rightarrow \\frac{mv^2_2}{2}=2qU$$\nСледовательно, после пролета \\(N\\)-го оборота он ускорялся \\(2N\\) раз.\nПолучаем:\n$$\\frac{mv^2_{2N}}{2}=2NqU$$\nПо второму закону Ньютона:\n$$\\frac{mv^2_{2N}}{R_{кон}}=qv_{2N}B\\Rightarrow v_{2N}=\\frac{qBR_{кон}}{m}\\\\ \\frac{m}{2}\\cdot \\left (\\frac{qBR_{кон}}{m}\\right )^2=2NqU\\Rightarrow N=\\frac{qB^2R^2_{кон}}{4mU}$$\nПодставим значения:\n$$N=\\frac{(3\\cdot 1,6\\cdot 10^{-19})1,8^2\\cdot 1,6^2}{4\\cdot 2\\cdot 10^{-26}\\cdot 600}=82944$$\nОтвет: 82944",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 10343,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23662\nРазность потенциалов между дуантами в циклотроне \\(U=600\\) В. Найдите количество оборотов, которое успел совершить ион \\(Al^{3+}\\), двигаясь в магнитном поле с индукцией \\(B=1,8\\) Тл, если радиус конечной орбиты иона составил \\(1,6\\) м. Масса иона алюминия \\(m=2\\cdot 10^{-26}\\) кг.",
+      "error_conditions": null,
+      "id": 137690,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/4WHjpv3x6bw"
+}

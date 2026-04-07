@@ -1,0 +1,37 @@
+{
+  "comment": "1) CuSO₄ + Fe = FeSO₄ + Cu\n2) FeSO₄ + Ba(NO₃)₂ = BaSO₄ + Fe(NO₃)₂\n3) 4Fe(NO₃)₂ = 2Fe₂O₃ + 8NO₂ + O₂\n4) Fe₂O₃ + 6HI = 2FeI₂ + I₂ + 3H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8842,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В раствор сульфата меди(II) поместили железную пластинку. По окончании реакции пластинку вынули, а к образовавшемуся зеленоватому раствору добавляли по каплям раствор нитрата бария до тех пор, пока не прекратилось образование осадка. Осадок отфильтровали, раствор выпарили, оставшуюся сухую соль прокалили на воздухе. При этом образовался красно-коричневый порошок, который обработали концентрированной иодоводородной кислотой. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112062,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

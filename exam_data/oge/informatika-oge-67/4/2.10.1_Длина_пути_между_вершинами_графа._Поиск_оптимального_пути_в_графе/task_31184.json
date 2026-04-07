@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3151,
+    "title": "2.10.1 Длина пути между вершинами графа. Поиск оптимального пути в графе."
+  },
+  "id": 31184,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Иван-Царевич спешит выручить Марью-Царевну из плена Кощея. В таблице указана протяженность дорог между пунктами, через которые он может пройти. Укажите длину самого короткого участка кратчайшего пути от Ивана-Царевича до Марьи Царевны (от точки И до точки М). Передвигаться можно только по дорогам, указанным в таблице:\n\nАБВГИМА 1 1 Б 2 13В12 Г 61И11 6 8М 3 18",
+      "error_conditions": [],
+      "id": 250823,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

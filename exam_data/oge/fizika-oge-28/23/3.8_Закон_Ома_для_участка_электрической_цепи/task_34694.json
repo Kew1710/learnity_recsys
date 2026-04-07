@@ -1,0 +1,37 @@
+{
+  "comment": "Напряжение в проводнике можно найти с помощью закона Ома: $$U=I\\cdot R$$ Сила тока нам известна,найдём сопротивление через формулу: $$R=\\frac{\\rho l}{S}\\\\R=\\frac{1,1\\cdot 2}{1}=2,2~Ом$$ Подставим все числа в первую формулу: $$U=1\\cdot 2,2=2,2~B$$ Ответ: $2,2~B$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 34694,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В прямой нихромовой проволоке с площадью сечения $1~мм^2$ сила постоянного тока равна $1$ А. Каково напряжение между теми точками этой проволоки, которые находятся друг от друга на расстоянии $2$ м?",
+      "error_conditions": null,
+      "id": 254333,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

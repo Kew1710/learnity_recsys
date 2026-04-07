@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: пропишем генотипы: АаВв (дигетерозиготы) с аавв (так как анализирующее скрещивание). Сцепление полное, поэтому 1 организм будет образовывать только 2 типа гамет АВ и ав (или Ав и аВ), а второй один тип гамет – ав. поэтому соотношение фенотипов будет 1:1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 16108,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите соотношение фенотипов при анализирующем скрещивании дигетерозиготы при полном сцеплении и при полном доминировании.",
+      "error_conditions": [],
+      "id": 236015,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

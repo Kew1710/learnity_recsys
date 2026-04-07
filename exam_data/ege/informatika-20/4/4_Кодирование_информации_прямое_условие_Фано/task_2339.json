@@ -1,0 +1,45 @@
+{
+  "comment": "Построим дерево.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1483,
+    "title": "№4 Кодирование информации, прямое условие Фано"
+  },
+  "id": 2339,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "111",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задание 8032.\nДля передачи по каналу связи сообщения, состоящего только из символов А, Б, В и Г, используется неравномерный (по длине) код: А – 0; Б – 10; В – 110. Каким кодовым словом нужно кодировать символ Г, чтобы длина его была минимальной, а код при этом допускал однозначное разбиение кодированного сообщения на символы?",
+      "error_conditions": [],
+      "id": 59207,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": {
+    "id": 23,
+    "title": "Условие Фано"
+  },
+  "video_link": null
+}

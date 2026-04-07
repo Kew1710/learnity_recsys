@@ -1,0 +1,42 @@
+{
+  "comment": "Т.к. частота увеличивается вправо по шкале,получается, что цифрой $1$ обозначены радиоволны,потому что у них самая маленькая частота.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3275,
+    "title": "3.19 Электромагнитные волны. Шкала электромагнитных волн"
+  },
+  "id": 34475,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какая из цифр ($1–5$) соответствует на рисунке диапазону радиоволн на шкале электромагнитных волн?\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254114,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

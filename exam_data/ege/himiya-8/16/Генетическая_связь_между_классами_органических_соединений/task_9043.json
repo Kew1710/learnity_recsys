@@ -1,0 +1,42 @@
+{
+  "comment": "1) CH₃-CH₃ + Br₂ → CH₃-CH₂Br + HBr (hv)\n2) CH₃-CH₂Br + KOH(водн.) → CH₃-CH₂-OH + KBr\n3) 5CH₃-CH₂-OH + 4KMnO₄ + 6H₂SO₄ → 5CH₃COOH + 2K₂SO₄ + 4MnSO₄ + 11H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2836,
+    "title": "Генетическая связь между классами органических соединений"
+  },
+  "id": 9043,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nC₂H₆ → X → Y → CH₃COOH\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) бромэтан\n2) ацетальдегид\n3) этанол\n4) 1,2-дихлорэтан\n5) этандиол-1,2",
+      "error_conditions": [],
+      "id": 112742,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

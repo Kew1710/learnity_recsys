@@ -1,0 +1,45 @@
+{
+  "comment": "Приведем функции данного уравнения к одинаковым основаниям и приравняем их степени:\n$$8^{9-x}=8^2\\\\ 9-x=2\\\\ x=7$$\nОтвет: 7",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2402,
+    "title": "6.4 Показательные"
+  },
+  "id": 3389,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(8^{9-x}=64\\).",
+      "error_conditions": [],
+      "id": 65058,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3894"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3894"
+}

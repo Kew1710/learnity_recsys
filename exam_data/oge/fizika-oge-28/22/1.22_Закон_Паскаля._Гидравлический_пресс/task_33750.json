@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ: яйцо разлетится.\nОбъяснение: в твердом теле (вареное яйцо) давление передается по направлению действия силы, поэтому образуется отверстие. В жидкостях, согласно закону Паскаля, давление передается по всем направлениям.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3230,
+    "title": "1.22 Закон Паскаля. Гидравлический пресс"
+  },
+  "id": 33750,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Если выстрелить из мелкокалиберной пневматической винтовки в варёное яйцо, то в яйце образуется отверстие. Что произойдёт, если выстрелить в сырое яйцо? Ответ поясните.",
+      "error_conditions": null,
+      "id": 253389,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

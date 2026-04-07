@@ -1,0 +1,37 @@
+{
+  "comment": "Найдем плечи сил, действующих на стержень, а также их моменты.\n$$\\sin \\alpha=\\frac{d_1}{AC}\\Rightarrow d_1=AC\\sin \\alpha$$\n$$\\sin \\alpha=\\frac{d_2}{AB}\\Rightarrow d_2=AB\\sin \\alpha$$\n$$M_1=m_1gd_1=m_1g\\cdot AC\\sin \\alpha$$\n$$M_2=m_2gd_2=m_2g\\cdot AB\\sin \\alpha$$\n$$\\sin \\left ( \\alpha+\\beta \\right )=\\frac{d_3}{AB}\\Rightarrow d_3=AB\\sin \\left (\\alpha+\\beta \\right )$$\n$$M_3=T\\cdot AB\\sin \\left (\\alpha+\\beta \\right )$$\nРассмотрим вращение стержня относительно оси, проходящей перпендикулярно плоскости рисунка через точку \\(A\\):\n$$M_1+M_2=M_3$$\n$$m_1gd_1=m_1g\\cdot AC\\sin \\alpha+m_2gd_2=m_2g\\cdot AB\\sin \\alpha=T\\cdot AB\\sin \\left (\\alpha+\\beta \\right )$$\nПо второму закону Ньютона для груза \\(M\\):\n$$T-Mg=0\\Rightarrow T=Mg$$\n$$m_1gd_1=m_1g\\cdot AC\\sin \\alpha+m_2gd_2=m_2g\\cdot AB\\sin \\alpha=Mg\\cdot AB\\sin \\left (\\alpha+\\beta \\right )$$\n$$AB\\left (M\\sin \\left (\\alpha+\\beta \\right )-m_2\\sin \\alpha \\right )=m_1\\cdot AC\\sin \\alpha$$\nИскомое расстояние:\n$$AB=\\frac{m_1\\cdot AC\\sin \\alpha}{M\\sin \\left (\\alpha+\\beta \\right )-m_2\\sin \\alpha}$$\n$$AB=\\frac{0,2\\cdot 25~см\\cdot 30^\\circ}{0,1\\cdot \\sin \\left (30^\\circ+30^\\circ\\right )-0,15\\cdot \\sin 30^\\circ}\\approx 68,3~см$$\n\nОтвет: 68,3 см\n\nОбоснование:\n\n1) Рассмотрим задачу в системе отсчета, связанной с Землей. Будем считать эту систему отсчета инерциальной (ИСО).\n2) Тело \\(M\\) покоится, следовательно, запишем условия равновесия.\n3) Стержень \\(AB\\) – твердое тело, следовательно, распишем правило моментом относительно точки \\(A\\).\n4) Нить невесома, блок идеален (масса блока пренебрежимо мала, трения нет), поэтому модуль силы натяжения нити в любой ее точке один и тот же.\n5) Стержень невесомый, поэтому в решении не учитываем его массу.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2618,
+    "title": "Статика"
+  },
+  "id": 7947,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание BBC367\nНевесомый стержень \\(AB\\) с двумя малыми грузами массами \\(m_1=200\\) г и \\(m_2=100\\) г, расположенными в точках \\(C\\) и \\(B\\) соответственно, шарнирно закреплен в точке \\(A\\). Груз массой \\(M=100\\) г подвешен к невесомому блоку за невесомую и нерастяжимую нить, другой конец которой соединен с нижним концом стержня, как показано на рисунке. Вся система находится в равновесии: если стержень отклонен от вертикали на угол \\(\\alpha = 30^{\\circ}\\), а нить составляет угол с вертикалью, равный \\(\\beta=30^{\\circ}\\). Расстояние \\(AC=b=25\\) см. Определите длину \\(l\\) стержня \\(AB\\). Сделайте рисунок с указанием сил, действующих на груз \\(M\\) и стержень. Какие законы Вы использовали в данной задаче? Обоснуйте их применение.",
+      "error_conditions": null,
+      "id": 100740,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/r_KKPPa3No0?start=6077"
+}

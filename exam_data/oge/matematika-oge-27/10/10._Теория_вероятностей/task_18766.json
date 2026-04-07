@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(P=\\cfrac{9}{30}=\\cfrac{3}{10}=0,3\\) - вероятность того, что приедет жёлтое такси",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2043,
+    "title": "10. Теория вероятностей"
+  },
+  "id": 18766,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В фирме такси в данный момент свободно 30 машин: 1 чёрная, 9 жёлтых и 20 зелёных. По вызову выехала одна из машин, случайно оказавшаяся ближе всего к заказчику. Найдите вероятность того, что к нему приедет жёлтое такси.",
+      "error_conditions": [],
+      "id": 238605,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а) По формуле косинуса двойного угла: \\(\\cos 2x=1-2\\sin^2x\\)\n$$4\\sin^3x+2\\sqrt{3}(1-2\\sin^2x)+3\\sin x-2\\sqrt{3}=0\\\\ 4\\sin^3x+2\\sqrt{3}-4\\sqrt{3}\\sin^2x+3\\sin x-2\\sqrt{3}=0\\\\ 4\\sin^3x-4\\sqrt{3}\\sin^2x+3\\sin x=0\\\\ \\sin x(4\\sin^2x-4\\sqrt{3}\\sin x+3)=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} \\sin x=0\\\\ \\left( 2\\sin x-\\sqrt{3}\\right)^{2} =0 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\sin x=0\\\\ \\sin x=\\frac{\\sqrt{3}}{2} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} x=\\pi k\\\\ x=\\frac{\\pi }{3} +2\\pi k\\\\ x=\\frac{2\\pi }{3} +2\\pi k \\end{array} \\right. ,k\\in Z$$\nб) Отберем корни на промежутке \\([-3\\pi;-\\frac{3\\pi}{2}]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$-2\\pi+\\frac{\\pi}{3}=-\\frac{5\\pi}{3}\\\\ -3\\pi+\\pi=-2\\pi\\\\ -3\\pi$$\nОтвет: {\\(\\pi k;\\frac{\\pi}{3}+2\\pi k;\\frac{2\\pi}{3}+2\\pi k:k\\in Z\\)}, б) \\(-3\\pi;-2\\pi;-\\frac{5\\pi}{3}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 10456,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(4\\sin^3x+2\\sqrt{3}\\cos 2x+3\\sin x=2\\sqrt{3}\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([-3\\pi;-\\frac{3\\pi}{2}]\\).",
+      "error_conditions": null,
+      "id": 142325,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/XWpUtQMg60w?si=OETFiyawwKvb1IKO&t=1150"
+}

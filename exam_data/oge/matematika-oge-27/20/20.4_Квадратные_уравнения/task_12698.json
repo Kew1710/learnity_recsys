@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nТ.к. \\((x^2-16)^2 \\geq 0\\) и \\((x^2+x-12)^2 \\geq 0, \\Rightarrow (x^2-16)^2+(x^2+x-12)^2\\geq 0\\) только когда\n\\(\\begin{cases}x^2-16=0 (1) \\\\x^2+x-12=0 (2)\\end{cases}\\)\n\\((1) x^2-16=0\\)\n\\((x-4)(x+4)=0\\)\n\\((2) x^2+x-12=0\\)\n\\(D=1+48=49\\)\n\\(x_1=\\cfrac{-1-7}{2}\\)\n\\(x_1=-4\\)\n\\(x_2=\\cfrac{-1+7}{2}\\)\n\\(x_2=3\\)\n\\(\\begin{cases}(x-4)(x+4)=0 \\\\x=-4; x=3\\end{cases}\\)\n\\(\\begin{cases}x=4; x=-4 \\\\x=3; x=-4\\end{cases}\\)\n\\(\\Rightarrow x=-4\\\\\\)\nОтвет:\\(-4\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2051,
+    "title": "20.4 Квадратные уравнения"
+  },
+  "id": 12698,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\((x^2-16)^2+(x^2+x-12)^2=0\\) .",
+      "error_conditions": null,
+      "id": 172498,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

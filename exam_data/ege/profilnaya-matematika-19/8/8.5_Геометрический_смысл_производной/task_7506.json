@@ -1,0 +1,45 @@
+{
+  "comment": "Если касательная параллельна \\(y=3x\\), то ее угловой коэффициент \\(k=3\\). Используя геометрический смысл производной, получаем:\n$$k=3=tg\\alpha =f'(x)$$\nПо графику определяем, что \\(f'(x)=3~в~точке~x=5\\).\n\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2416,
+    "title": "8.5 Геометрический смысл производной"
+  },
+  "id": 7506,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график \\(y=f'(x)~-\\) производной функции \\(f(x)\\), определенной на интервале \\((-4;6\\)). Найдите абсциссу точки, в которой касательная к графику функции \\(y=f(x)\\) параллельна прямой \\(y=3x\\) или совпадает с ней.",
+      "error_conditions": [],
+      "id": 98511,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/K4PEcMlzxyU?start=3281"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/K4PEcMlzxyU?start=3281"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\angle CAD=\\angle DBC~(так~как~опираются~на~дугу~CD)\\Rightarrow\\angle DBC=37^\\circ$$\nСледовательно, складываем эти углы:\n$$37 + 61 = 98$$\nОтвет: 98",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2378,
+    "title": "1.7 Центральные и вписанные углы"
+  },
+  "id": 25410,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "98",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Четырёхугольник \\(ABCD\\) вписан в окружность. Угол \\(ABD\\) равен \\(61^\\circ\\), угол \\(CAD\\) равен \\(37^\\circ\\). Найдите угол \\(ABC\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 245067,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=280qZwzueqw&t=500s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=280qZwzueqw&t=500s"
+}

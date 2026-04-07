@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\n\\(\\angle B=63^o \\)\n\\( \\angle C=87^o \\)\nR = 11\nBC-?\nРешение:\n1) \\(\\angle A= 180-(\\angle B +\\angle C)=180-(63+87)=30^o \\)\n2) По теореме синусов:\n\\( \\cfrac{BC}{\\sin{A}}=2R \\)\n\\( BC=2R \\cdot \\sin{A}=2 \\cdot 11 \\cdot \\cfrac{1}{2}=11\\)\nОтвет: 11",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2013,
+    "title": "23.4 Окружность"
+  },
+  "id": 17153,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Углы B и C треугольника ABC равны соответственно 63° и 87°. Найдите BC, если радиус окружности, описанной около треугольника ABC, равен 11.",
+      "error_conditions": null,
+      "id": 237041,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

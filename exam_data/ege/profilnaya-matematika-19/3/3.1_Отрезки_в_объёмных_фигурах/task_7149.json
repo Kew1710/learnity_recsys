@@ -1,0 +1,45 @@
+{
+  "comment": "Так как пирамида правильная, то\n$$BD=AC,\\\\ OC=\\frac{AC}{2} =\\frac{42}{2} =21$$\nПо теореме Пифагора\n$$SO=\\sqrt{SC^{2} -OC^{2}} =\\sqrt{35^{2} -21^{2}} =\\sqrt{1225-441} =28$$\nОтвет: 28",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 7149,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "28",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В правильной четырехугольной пирамиде \\(𝑆𝐴𝐵𝐶𝐷\\) с вершиной \\(𝑆\\), точка \\(𝑂 −\\) центр основания, \\(𝑆𝐶=35, 𝐵𝐷=42.\\) Найдите длину отрезка \\(𝑆𝑂\\).",
+      "error_conditions": [],
+      "id": 82942,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

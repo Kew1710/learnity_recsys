@@ -1,0 +1,37 @@
+{
+  "comment": "Interviewer: Hello everybody! It's Teenagers Round the World Channel. Our guest today is a teenager from Russia and we are going to discuss life in big cities and in small towns. We’d like to know our guest’s point of view on this issue. Please answer five questions. So, let’s get started.\n\nInterviewer: What part of Russia do you live in? Do you live in a city or in a small town?\n\nStudent: Well, I currently live in Derbent. It’s the southernmost city in Russia, located in Dagestan on the Caspian Sea. It’s not very large, but it’s self-contained and has everything I need.\n\nInterviewer: What else would you like our listeners to know about the place where you live?\n\nStudent: You know, Derbent is one of the oldest cities in the world. It’s over 5000 years old.\n\nInterviewer: What can you tell us about the places of interest in your hometown?\n\nStudent: Derbent is an ancient city, and it’s like a huge museum. It has a fortress, Naryn-Kala. UNESCO recognized the old part of Derbent as a World Heritage site in 2003. Besides, there are magnificent mountains and a beautiful view on the shore nearby. No wonder that it’s a popular tourist destination.\n\nInterviewer: What are the advantages and disadvantages of living in a big city?\n\nStudent: Well, what I’d say is an advantage is that schools and healthcare are better. The disadvantage is that people are not so friendly and there is a lot of traffic. This means people waste a lot of their time just sitting in their cars.\n\nInterviewer: Would you like to live in a big city or in a small town in ten years time? Why?\n\nStudent: In ten years’ time, I hope to be living in a big city. There are always more job opportunities and things to do.\n\nInterviewer: Thank you very much for your interview.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 820,
+    "title": "Условный диалог-интервью"
+  },
+  "id": 1615,
+  "is_obsolete": false,
+  "number": 43,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "https://disk.yandex.ru/d/qxr3xfTofM0V5w",
+      "error_conditions": null,
+      "id": 53950,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 5,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

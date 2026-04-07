@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1760,
+    "title": "2.2 Наука в жизни современного общества"
+  },
+  "id": 12111,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Верны ли следующие суждения о цели науки?\nА. Цель науки –– регулировать нравственные и правовые отношения.\nБ. Цель науки –– отражать действительность в художественных образах.\n\n1) верно только А\n\n2) верно только Б\n\n3) верны оба суждения\n\n4) оба суждения неверны",
+      "error_conditions": [],
+      "id": 153948,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/swp0whOuZ08?start=12358"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/swp0whOuZ08?start=12358"
+}

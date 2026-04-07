@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\frac{9^x-3^{x+1}-19}{3^x-6}+\\frac{9^{x+1}-3^{x+4}+2}{3^x-9}\\leq 10\\cdot 3^x+3\\\\ \\frac{3^{2x}-3^{x+1}-19}{3^x-6}+\\frac{9\\cdot 3^{2x}-81\\cdot 3^x+2}{3^x-9}\\leq 10\\cdot 3^x+3$$\nЗамена: \\(3^x=t\\)\n$$\\frac{t^2-3t-19}{t-6}+\\frac{9t^2-81t+2}{t-9}\\leq 10t+3$$\nРазделим \\(t^2-3t-19\\) на \\(t-6\\) и \\(9t^2-81t+2\\) на \\(t-9\\):\n$$t+3-\\frac{1}{t-6}+9t+\\frac{2}{t-9}\\leq 10t+3\\\\ \\frac{2}{t-9}-\\frac{1}{t-6}\\leq 0$$\nПриведем дроби к общему знаменателю:\n$$\\frac{2t-12t-t+9}{(t-9)(t-6)}\\leq 0\\\\ \\frac{(t-3)}{(t-9)(t-6)}\\leq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l} t\\leq 3\\\\ \\begin{cases} t >6\\\\ t< 9 \\end{cases} \\end{array} \\right.$$\nОбратная замена:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\left[ \\begin{array}{l l} 3^{x} \\leq 3\\\\ \\begin{cases} 3^{x} >6\\\\ 3^{x} < 9 \\end{cases} \\end{array} \\right.\\Rightarrow \\left[ \\begin{array}{l l} x \\leq 1\\\\ \\begin{cases} x >\\log_36\\\\ x < 2 \\end{cases} \\end{array} \\right.\\\\ \\ \\ x\\in ( -\\infty ;1] \\cup (\\log_{3} 6;2) \\end{array}$$\nОтвет: \\(x\\in ( -\\infty ;1] \\cup (\\log_{3} 6;2)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 25110,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{9^x-3^{x+1}-19}{3^x-6}+\\frac{9^{x+1}-3^{x+4}+2}{3^x-9}\\leq 10\\cdot 3^x+3\\).",
+      "error_conditions": null,
+      "id": 244767,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/BJLZKvia4_s?feature=share&t=2053"
+}

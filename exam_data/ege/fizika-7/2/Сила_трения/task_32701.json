@@ -1,0 +1,42 @@
+{
+  "comment": "По второму закону Ньютона:\n$$Oy:~N-mg=0\\Rightarrow N=mg$$\n$$Ox:~F-F_{тр}=0;~F_{тр}=\\mu N\\Rightarrow F=\\mu mg$$\nСилы, прикладываемые к брускам в каждом случае:\n$$F_1=\\mu_1m_1g$$\n$$F_2=\\mu_2m_2g$$\n$$\\frac{F_2}{F_1}=\\frac{\\mu_2}{\\mu_1}\\cdot \\frac{m_2}{m_1}$$\nИскомая сила:\n$$F_2=F_1\\cdot \\frac{\\mu_2}{\\mu_1}\\cdot \\frac{m_2}{m_1}$$\n$$F_2=5\\cdot 2\\cdot 7=70~Н$$\nОтвет: 70",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2615,
+    "title": "Сила трения"
+  },
+  "id": 32701,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "70",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На горизонтальной шероховатой поверхности стола лежит деревянный брусок массой \\(1\\) кг. Чтобы сдвинуть его с места, необходимо приложить горизонтальную силу, равную по модулю \\(5\\) Н. Деревянный брусок заменили на стальной массой \\(7\\) кг. Коэффициент трения стального бруска в \\(2\\) раза больше, чем у деревянного. Какую горизонтальную силу нужно приложить к стальному бруску, чтобы сдвинуть его с места? Ответ дайте в Н.",
+      "error_conditions": [],
+      "id": 252340,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/R6U_uM8955U?t=741"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/R6U_uM8955U?t=741"
+}

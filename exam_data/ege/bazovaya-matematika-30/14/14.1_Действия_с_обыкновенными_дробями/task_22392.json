@@ -1,0 +1,42 @@
+{
+  "comment": "$$\\frac{18}{7} \\cdot \\frac{14}{3} : \\frac{4}{5} = \\frac{18 \\cdot 14}{7 \\cdot 3} \\cdot \\frac{5}{4} = \\frac{6 \\cdot 2 \\cdot 5}{1 \\cdot 4} = 15$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2110,
+    "title": "14.1 Действия с обыкновенными дробями"
+  },
+  "id": 22392,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения\n$$\\frac{18}{7} \\cdot \\frac{14}{3} : \\frac{4}{5}$$",
+      "error_conditions": [],
+      "id": 242133,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

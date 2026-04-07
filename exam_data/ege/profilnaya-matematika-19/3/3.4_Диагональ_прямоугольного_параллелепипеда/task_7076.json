@@ -1,0 +1,45 @@
+{
+  "comment": "Длина диагонали$(d)$ в прямоугольном параллелепипеде рассчитывается по формуле: квадратный корень из суммы квадратов ширины$(a)$, длины$(b)$ и высоты$(c)$:\n\nтогда $d = \\sqrt{a^2+b^2+c^2}$\n\n$CA_{1} = \\sqrt{6^2+17^2+6^2}=\\sqrt{361}=19$\n\nОтвет: 19",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2387,
+    "title": "3.4 Диагональ прямоугольного параллелепипеда"
+  },
+  "id": 7076,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В прямоугольном параллелепипеде \\(ABCDA_{1} B_{1} C_{1} D_{1}\\) известно, что \\(CC_{1}=6, CD=17, AD=6.\\) Найдите длину диагонали \\(CA_{1}\\).",
+      "error_conditions": [],
+      "id": 81006,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

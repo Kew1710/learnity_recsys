@@ -1,0 +1,37 @@
+{
+  "comment": "Для сопоставления можно взять следующие произведения:\n- А.С. Пушкин “Кто, волны, вас остановил…”.\n- Б.Л. Пастернак “Волны”.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2687,
+    "title": "Лирика конца XIX — XX в."
+  },
+  "id": 25728,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 12,
+    "task_count": 0,
+    "title": "Литература"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Назовите произведение отечественной поэзии первой половины XX в. (с указанием автора), в котором затронута тема разбушевавшейся стихии. В чем схожи (или различны) выбранное произведение и приведенное стихотворение А.А. Фета?",
+      "error_conditions": null,
+      "id": 245385,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 8,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

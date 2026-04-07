@@ -1,0 +1,46 @@
+{
+  "comment": "Реакции соединения - это реакции, при которых при присоединении двух веществ образуется одно сложное\n\n1) \\(3Mg + 2Fe(NO_{3})_{3} = 3Mg(NO_{3})_{2} + 2Fe\\) - реакция замещения\n2) \\(2FeCl_{2} + Cl_{2} = 2FeCl_{3}\\) - реакция соединения\n3) \\(CuO + 2HCl = CuCl_{2} + H_{2}O\\) - реакция обмена\n4) \\(2CO + O_{2} = 2CO_{2}\\) - реакция соединения\n5) \\(2Na + 2H_{2}O = 2NaOH +H_{2}\\) - реакция замещения",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2892,
+    "title": "Классификация химических реакций"
+  },
+  "id": 34217,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        },
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите две пары веществ, между которыми протекает реакция соединения.\n\n1) магний и нитрат железа(III)\n2) хлорид железа(II) и хлор\n3) оксид меди(II) и соляная кислота\n4) оксид углерода(II) и кислород\n5) натрий и вода\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 253856,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

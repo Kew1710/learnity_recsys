@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nЧетырехугольник \\(CNMA\\) – вписанный (\\(\\angle C+\\angle M=90^{\\circ}+90^{\\circ}=180^{\\circ}\\) как сумма противоположных углов в четырехугольнике)\n\\(\\angle CAN=\\angle CMN\\) (вписанные углы, опираются на одну дугу \\(NC\\)), ч.т.д.\n\nб) \\(\\frac{R_{ANB}}{R_{CBM}}\\) – найти, \\(tg\\angle BAC=\\frac{4}{3}\\)\nЗаметим, что \\(\\Delta ANB\\) и \\(\\Delta CBM\\) имеют общий угол \\(B\\)\nПо теореме синусов в \\(\\Delta ANB\\):\n$$R_{ANB}=\\frac{AN}{2\\sin\\angle B}$$\nПо теореме синусов в \\(\\Delta CBM\\):\n$$R_{CBM}=\\frac{CM}{2\\sin\\angle B}$$\nНайдем отношение радиусов окружностей, описанных около \\(\\Delta ANB\\) и \\(\\Delta CBM\\):\n$$\\frac{R_{ANB}}{R_{CBM}}=\\frac{AN}{2\\sin\\angle B}:\\frac{CM}{2\\sin\\angle B}=\\frac{AN}{2\\sin\\angle B}\\cdot\\frac{2\\sin B}{CM}=\\frac{AN}{CM}$$\n\\(AN\\) – диаметр, т.к. на него опирается \\(\\angle C=90^{\\circ}\\)\nПусть \\(R\\) – радиус окружности, описанной около \\(CNMA\\)\n\\(\\Delta CMA\\) вписан в эту же окружность\nПо теореме синусов для \\(\\Delta CMA\\):\n\\(2R=\\frac{CM}{\\sin\\angle CAM}\\), \\(AN=2R\\) (\\(\\angle NMA=90^{\\circ}\\), прямой угол опирается на диаметр)\nПриравняем \\(2R\\):\n$$\\frac{CM}{\\sin\\angle CAM}=AN$$\nПоделим правую и левую часть на \\(CM\\):\n$$\\frac{AN}{CM}=\\frac{1}{\\sin\\angle CAM}$$\n\\(\\angle CAM=\\angle BAC\\), тогда\n$$\\frac{AN}{CM}=\\frac{1}{\\sin\\angle BAC}$$\nИз условия известно, что \\(tg\\angle BAC=\\frac{4}{3}\\).\nПо определению тангенса:\n$$\\frac{\\sin\\angle BAC}{\\cos\\angle BAC}=\\frac{4}{3}$$\nПо основному тригонометрическому тождеству:\n$$\\frac{\\sin\\angle BAC}{\\sqrt{1-\\sin^2\\angle BAC}}=\\frac{4}{3}$$\nПреобразуем выражение с помощью перекрёстного умножения, получим:\n$$4\\sqrt{1-\\sin^2\\angle BAC}=3\\sin\\angle BAC$$\nВозведём обе части уравнения в квадрат, получим:\n$$16-16\\sin^2\\angle BAC=9\\sin^2\\angle BAC\\\\ 25\\sin^2\\angle BAC=16\\\\ sin^2\\angle BAC=\\frac{16}{25}\\\\ \\sin\\angle BAC=\\frac{4}{5}$$\nТ. к. искомый угол острый, синус его положительный.\nЗная синус \\(\\angle BAC\\), найдем отношение:\n$$\\frac{AN}{CM}=\\frac{1}{\\sin\\angle BAC}=\\frac{1}{\\frac{4}{5}}=\\frac{5}{4}$$\nОтвет: \\(\\frac{5}{4}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2485,
+    "title": "17.5 Вписанная и описанная окружности в треугольниках"
+  },
+  "id": 9729,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Точка \\(M\\) - середина гипотенузы \\(AB\\) прямоугольного треугольника \\(ABC\\). Серединный перпендикуляр к гипотенузе пересекает катет \\(BC\\) в точке \\(N\\).\nа) Докажите, что \\(\\angle CAN=\\angle CMN\\).\nб) Найдите отношение радиусов окружностей, описанных около треугольников \\(ANB\\) и \\(CBM\\), если \\(tg\\angle BAC=\\frac{4}{3}\\).",
+      "error_conditions": null,
+      "id": 117466,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/B5hiaZ4zu_o?start=597"
+}

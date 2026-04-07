@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(x^2-3x+\\sqrt{3-x}=\\sqrt{3-x}+10\\)\nОДЗ: \\(3-x \\geq 0\\)\n\\(x\\leq 3\\)\n\\(x^2-3x+\\sqrt{3-x}-\\sqrt{3-x}-10=0\\)\n\\(x^2-3x-10=0\\)\n\\(D=9+40=49\\)\n\\(x_1=\\cfrac{3-7}{2}\\)\n\\(x_1=-2\\)\n\\(x_2=\\cfrac{3+7}{2}\\)\n\\(x_2=5\\) - не удовлетворяет ОДЗ.\nОтвет: \\(-2\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2050,
+    "title": "20.3 Иррациональные уравнения"
+  },
+  "id": 12690,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(x^2-3x+\\sqrt{3-x}=\\sqrt{3-x}+10\\) .",
+      "error_conditions": null,
+      "id": 172490,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

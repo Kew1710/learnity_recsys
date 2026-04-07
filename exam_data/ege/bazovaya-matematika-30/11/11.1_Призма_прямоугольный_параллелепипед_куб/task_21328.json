@@ -1,0 +1,42 @@
+{
+  "comment": "Объем аквариума: \\(80 \\cdot 30 \\cdot 40 = 96000\\) кубических сантиметров.\nТак как \\(1 \\; л = 1000 \\; кубических \\; сантиметров\\), то \\(96000 \\; кубических \\; сантиметров = 96 \\; л\\).\nОтвет: 96",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2098,
+    "title": "11.1 Призма, прямоугольный параллелепипед, куб"
+  },
+  "id": 21328,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "96",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Аквариум имеет форму прямоугольного параллелепипеда с размерами 80 см × 30 см × 40 см. Сколько литров составляет объём аквариума? В одном литре 1000 кубических сантиметров.",
+      "error_conditions": [],
+      "id": 241103,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

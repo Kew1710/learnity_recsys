@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 52143\nПоследовательность: шейный => грудной => поясничный => крестцовый => хвостовой",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10267,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "52143",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите, в какой последовательности располагаются отделы в позвоночнике человека и млекопитающего, начиная с шейного.\n\n1) поясничный\n2) грудной\n3) хвостовой\n4) крестцовый\n5) шейный",
+      "error_conditions": [],
+      "id": 123007,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

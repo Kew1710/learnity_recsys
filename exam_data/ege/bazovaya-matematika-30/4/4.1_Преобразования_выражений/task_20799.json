@@ -1,0 +1,42 @@
+{
+  "comment": "$$l = 50 \\; см, \\; n = 1600$$\n$$s = 1600 \\cdot 50 \\; см = 80000 см = 800 м$$\nОтвет: 800 метров.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 20799,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "800",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Зная длину своего шага, человек может приближённо подсчитать пройденное им расстояние по формуле \\(s = nl\\), где \\(n\\) - число шагов, \\(l\\) - длина шага. Какое расстояние прошёл человек, если\n\\(l = 50\\) см, \\(n = 1600\\)? Ответ дайте в метрах.",
+      "error_conditions": [],
+      "id": 240580,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

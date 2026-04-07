@@ -1,0 +1,37 @@
+{
+  "comment": ".",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1822,
+    "title": "Математика ОГЭ"
+  },
+  "id": 17578,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В выпуклом четырёхугольнике NPQM диагональ NQ является биссектрисой угла PNM и пересекается с диагональю PM в точке S. Найдите NS, если известно, что около четырёхугольника NPQM можно описать окружность PQ=86, SQ=43.",
+      "error_conditions": null,
+      "id": 237459,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

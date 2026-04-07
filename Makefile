@@ -1,4 +1,4 @@
-.PHONY: up down logs migrate migrate-create seed dev stop dev-logs dev-status test lint play stats install restart-retrieval restart-retrieval-baseline ab ab-quick
+.PHONY: up down logs migrate migrate-create seed dev stop dev-logs dev-status test lint play stats install restart-retrieval restart-retrieval-baseline ab ab-quick backend-up backend-migrate backend-run backend-down
 
 PYTHON  = .venv/bin/python
 PIP     = .venv/bin/pip
@@ -43,16 +43,16 @@ dev:
 	@mkdir -p .pids logs
 	@echo "→ Запускаем сервисы..."
 	@NEO4J_URI=bolt://localhost:7688 \
-	 $(UVICORN) services.profile.main:app   --port 8001 --reload >logs/profile.log   2>&1 & echo $$! > .pids/profile.pid
+	 $(UVICORN) services.profile.main:app   --port 8001 --reload --reload-dir services >logs/profile.log   2>&1 & echo $$! > .pids/profile.pid
 	@NEO4J_URI=bolt://localhost:7688 \
-	 $(UVICORN) services.graph.main:app     --port 8002 --reload >logs/graph.log     2>&1 & echo $$! > .pids/graph.pid
-	@$(UVICORN) services.task_bank.main:app --port 8003 --reload >logs/task_bank.log 2>&1 & echo $$! > .pids/task_bank.pid
+	 $(UVICORN) services.graph.main:app     --port 8002 --reload --reload-dir services >logs/graph.log     2>&1 & echo $$! > .pids/graph.pid
+	@$(UVICORN) services.task_bank.main:app --port 8003 --reload --reload-dir services >logs/task_bank.log 2>&1 & echo $$! > .pids/task_bank.pid
 	@PROFILE_URL=http://localhost:8001 GRAPH_URL=http://localhost:8002 TASK_BANK_URL=http://localhost:8003 \
-	 $(UVICORN) services.retrieval.main:app --port 8004 --reload >logs/retrieval.log 2>&1 & echo $$! > .pids/retrieval.pid
+	 $(UVICORN) services.retrieval.main:app --port 8004 --reload --reload-dir services >logs/retrieval.log 2>&1 & echo $$! > .pids/retrieval.pid
 	@PROFILE_URL=http://localhost:8001 RETRIEVAL_URL=http://localhost:8004 \
-	 $(UVICORN) services.gateway.main:app   --port 8005 --reload >logs/gateway.log   2>&1 & echo $$! > .pids/gateway.pid
+	 $(UVICORN) services.gateway.main:app   --port 8005 --reload --reload-dir services >logs/gateway.log   2>&1 & echo $$! > .pids/gateway.pid
 	@PROFILE_URL=http://localhost:8001 GRAPH_URL=http://localhost:8002 \
-	 $(UVICORN) services.macro.main:app     --port 8006 --reload >logs/macro.log     2>&1 & echo $$! > .pids/macro.pid
+	 $(UVICORN) services.macro.main:app     --port 8006 --reload --reload-dir services >logs/macro.log     2>&1 & echo $$! > .pids/macro.pid
 	@sleep 2
 	@echo ""
 	@echo "✅ Сервисы запущены:"
@@ -133,6 +133,41 @@ linucb:
 		$(if $(PLAN_KC),--plan-kc $(PLAN_KC),) \
 		$(if $(PLAN_VARIANT),--plan-variant $(PLAN_VARIANT),) \
 		$(if $(PLAN_BUDGET),--plan-budget $(PLAN_BUDGET),)
+
+# ─── Backend (Go) интеграция ──────────────────────────────────────────────────
+
+BACKEND_DIR    = backend/learnity
+BACKEND_PG_DSN = "host=localhost port=5433 user=postgres password=postgres dbname=postgres sslmode=disable"
+GOOSE          = $(HOME)/go/bin/goose
+
+backend-up:
+	@echo "→ Поднимаем backend инфраструктуру (PG:5433 + Redis:6379)..."
+	docker compose -f docker-compose.backend.yml up -d
+	@echo "→ Ждём готовности PostgreSQL..."
+	@until docker exec $$(docker compose -f docker-compose.backend.yml ps -q backend-postgres) pg_isready -U postgres >/dev/null 2>&1; do sleep 1; done
+	@echo "✅ Backend инфраструктура готова"
+
+backend-migrate: backend-up
+	@echo "→ Запускаем миграции через psql..."
+	@$(PYTHON) -c "\
+import os, re; \
+d='$(BACKEND_DIR)/migrations'; \
+files=sorted(f for f in os.listdir(d) if f.endswith('.sql')); \
+parts=[re.search(r'-- \+goose Up\n(.*?)(?:-- \+goose Down|\Z)', open(os.path.join(d,f)).read(), re.DOTALL) for f in files]; \
+sql='\n\n'.join(m.group(1).strip() for m in parts if m and m.group(1).strip()); \
+open('/tmp/_backend_migrations.sql','w').write(sql)"
+	@docker exec -i learnity-backend-postgres-1 psql -U postgres -d postgres < /tmp/_backend_migrations.sql
+	@echo "✅ Миграции применены"
+
+backend-run:
+	@echo "→ Запускаем backend (Go) на :8080..."
+	@echo "   Swagger: http://localhost:8080/swagger/index.html"
+	cd $(BACKEND_DIR) && env $$(grep -v '^#' .env.local.integration | grep -v '^$$' | \
+	  sed 's/POSTGRES_CONN=.*/POSTGRES_CONN=postgres:\/\/postgres:postgres@localhost:5433\/postgres?sslmode=disable/' | \
+	  xargs) go run cmd/main.go
+
+backend-down:
+	docker compose -f docker-compose.backend.yml down
 
 # ─── Тесты / Lint ─────────────────────────────────────────────────────────────
 

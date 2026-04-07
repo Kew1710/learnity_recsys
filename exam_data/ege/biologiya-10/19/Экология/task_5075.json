@@ -1,0 +1,42 @@
+{
+  "comment": "Биогенное вещество - известняк, нефть\nБиокосное вещество - почва, ил\nКосное вещество - гранит, песок",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 5075,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "132213",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между примерами и видами вещества биосферы: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\nПРИМЕРЫВИДЫ ВЕЩЕСТВАА) известняк\nБ) гранит\nВ) почва\nГ) ил\nД) нефть\nЕ) песок\n1) биогенное\n2) биокосное\n3) косное\nЗапишите в таблицу выбранные цифры под соответствующими буквами.\nАБВГДЕ",
+      "error_conditions": [],
+      "id": 70426,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/vrxhAYdDauo?start=1065"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/vrxhAYdDauo?start=1065"
+}

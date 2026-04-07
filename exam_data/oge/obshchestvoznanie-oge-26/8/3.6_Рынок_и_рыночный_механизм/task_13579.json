@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1770,
+    "title": "3.6 Рынок и рыночный механизм"
+  },
+  "id": 13579,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В стране Z существует товарное производство и денежное обращение. Большинство занятых трудятся в промышленности и сфере обслуживания. Какая дополнительная информация позволит сделать вывод о том, что экономика страны Z имеет рыночный характер?\n\n1) Промышленное производство сосредоточено на крупных предприятиях.\n2) В стране гарантировано равенство различных форм собственности.\n3) Отношения между работником и работодателем регулируются трудовым законодательством.\n4) Несовершеннолетним работникам предоставляются льготы.",
+      "error_conditions": [],
+      "id": 180934,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=17154"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=17154"
+}

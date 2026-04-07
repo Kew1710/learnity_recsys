@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ:\n1. 1-Губчатое вещество, 2 – трубчатая часть (полость) кости.\n2. Губчатое вещество заполнено красным костным мозгом –кроветворная функция.\n3. Полость (длинной трубчатой кости) заполнена желтым костным мозгом (жировая ткань)- запасающая функция.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10287,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какие структуры кости взрослого человека обозначены на рисунке цифрами 1 и 2? Чем заполнены полости в этих структурах у взрослого человека? Какие функции выполняет содержимое полостей?",
+      "error_conditions": null,
+      "id": 123027,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "\\(4^x+(a-6)2^x=(2+3|a|)2^x+(a-6)(3|a|+2)\\), пусть \\(2^x=t\\), \\(t>0\\)\nТак как \\(f(x)=2^x\\) - строго монотонная функция, то одному значению \\(x\\) соответсвует единственное значение функции, тогда можем рассматривать параметр только относительно переменной \\(t\\).\n$$t(t+(a-6))=(2+3|a|)(t+(a-6))\\\\ (t+a-6)(t-2-3|a|)=0$$\n\\(\\displaystyle \\left[ \\begin{array}{l l} t=-a+6\\\\ t=2+3|a| \\end{array} \\right. \\), вспомним про ограничение\n\\(1\\) решение\n\\(2\\) решение\n$$\\displaystyle \\begin{cases} t >0\\\\ t=2+3|a| \\end{cases} \\Rightarrow a\\in R$$\n$$\\displaystyle \\begin{cases} t >0\\\\ t=-a+6 \\end{cases} \\Rightarrow a< 6$$\nПроверим совпадение корней: \\(-a+6=2+3|a|\\).\nЕсли \\(a\\geq 0\\Rightarrow -a+6=2+3a\\Rightarrow a=1\\).\nЕсли \\(a<0\\Rightarrow -a+6=2-3a\\Rightarrow a=-2\\).\n\nПолучим:\nИтого:\n\\(1\\) решение при \\(a\\in \\{2\\}\\cup \\{1\\}\\cup [6;+\\infty)\\).\n\\(2\\) решения при \\(a\\in (-\\infty;-2)\\cup (-2;1)\\cup (1;6)\\).\n\nТак как нам необходимо \\(1\\) решение: \\(a\\in \\{2\\}\\cup \\{1\\}\\cup [6;+\\infty)\\).\n\nОтвет: \\(\\{2\\}\\cup \\{1\\}\\cup [6;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2494,
+    "title": "18.5 Уравнение с параметром, сводящееся к квадратному"
+  },
+  "id": 34733,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения параметра \\(a\\), при каждом из которых уравнение\n$$4^x+(a-6)2^x=(2+3|a|)2^x+(a-6)(3|a|+2)$$\nимеет единственное решение.",
+      "error_conditions": null,
+      "id": 254372,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=Yb29GpKX9pPk1ox_&t=2878"
+}

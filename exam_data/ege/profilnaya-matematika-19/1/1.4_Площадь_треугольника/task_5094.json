@@ -1,0 +1,45 @@
+{
+  "comment": "\\(\\triangle{CDE}\\sim \\triangle{CBA}\\) по двум углам \\((\\angle{C}\\) - общий, \\(\\angle{CED} = \\angle{CBA}\\) как соответственные\\()\\) $$k=\\frac{1}{2}\\\\ \\frac{S_{CDE}}{S_{CBA}}=k^2=\\frac{1}{4}\\\\ S_{CBA}=4\\cdot S_{CDE}=24\\\\ S_{CDE}=6\\\\ S_{ABED}=24-6=18$$\nОтвет: 18",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2375,
+    "title": "1.4 Площадь треугольника"
+  },
+  "id": 5094,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "18",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь треугольника \\(ABC\\) равна \\(24, DE\\) − средняя линия, параллельная стороне \\(𝐴𝐵\\).Найдите площадь трапеции \\(ABED\\).",
+      "error_conditions": [],
+      "id": 70482,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=3748"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=3748"
+}

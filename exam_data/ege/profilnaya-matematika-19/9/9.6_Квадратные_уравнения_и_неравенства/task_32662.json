@@ -1,0 +1,45 @@
+{
+  "comment": "Из условия известно: \\(a=3\\) м/с\\(^2\\), \\(v_0=24\\) м/с, \\(S=90\\) м, подставим в уравнение движения\n$$90=24t-\\frac{3t^2}{2}\\Rightarrow 180=48t-3t^2\\Rightarrow t^2-16t+60=0\\Rightarrow\n\\begin{equation*} \\left[ \\begin{array}{l l} t=6\\\\ t=10 \\end{array} \\right. \\end{equation*}$$\nТак как в условии задачи сказано, что автомобиль только тормозил, то значит, что раннее время и есть время торможения, то есть \\(6\\)\n\nОтвет: 6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2426,
+    "title": "9.6 Квадратные уравнения и неравенства"
+  },
+  "id": 32662,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Автомобиль, движущийся со скоросью \\(v_0=24\\) м/с, начал торможение с постоянным ускорением \\(a=3\\) м/с\\(^2\\). За \\(t\\) секунд после начала торможения он прошел путь \\(S=v_0t-\\frac{at^2}{2}\\) (м). Определите время прошедшее с момента начала торможения, если известно, что за это время автомобиль проехал \\(90\\) метров. Ответ дайте в секундах.",
+      "error_conditions": [],
+      "id": 252301,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/I7JRhoI6vUk?si=FCh2DI7Kfsyvmuss&t=830"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/live/I7JRhoI6vUk?si=FCh2DI7Kfsyvmuss&t=830"
+}

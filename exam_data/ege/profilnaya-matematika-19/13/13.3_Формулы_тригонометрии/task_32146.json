@@ -1,0 +1,40 @@
+{
+  "comment": "а) Преобразуем исходное уравнение, воспользовавшись формулой косинуса двойного угла \\(\\cos 2\\alpha=1-2\\sin^2\\alpha\\Rightarrow \\sin^2\\alpha=\\frac{1-\\cos 2\\alpha}{2}\\) и косинуса суммы двух углов \\(\\cos (\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta\\):\n$$4\\cdot\\frac{1-\\cos\\left(2x+\\frac{7\\pi}{4}\\right)}{2}+\\sqrt{2}\\sin 2x=1\\\\ 2\\cdot\\left(1-\\cos\\left(2x+\\frac{7\\pi}{4}\\right)\\right)+\\sqrt{2}\\sin 2x=1\\\\ 2\\cdot\\left(1-\\left(\\cos 2x\\cos\\frac{7\\pi}{4}-\\sin 2x\\sin \\frac{7\\pi}{4}\\right)\\right)+\\sqrt{2}\\sin 2x=1\\\\ 2\\cdot\\left(1-\\left(\\cos 2x\\cos\\left(2\\pi-\\frac{\\pi}{4}\\right)-\\sin 2x\\sin \\left(2\\pi-\\frac{\\pi}{4}\\right)\\right)\\right)+\\sqrt{2}\\sin 2x=1\\\\ 2\\cdot\\left(1-\\left(\\cos 2x\\cos\\frac{\\pi}{4}-\\sin 2x\\cdot\\left(-\\sin\\frac{\\pi}{4}\\right)\\right)\\right)+\\sqrt{2}\\sin 2x=1\\\\ 2\\cdot\\left(1-\\left(\\cos 2x\\cdot\\frac{\\sqrt{2}}{2}+\\sin 2x\\cdot\\frac{\\sqrt{2}}{2}\\right)\\right)+\\sqrt{2}\\sin 2x=1\\\\ 2\\cdot\\left(1-\\cos 2x\\cdot\\frac{\\sqrt{2}}{2}-\\sin 2x\\cdot\\frac{\\sqrt{2}}{2}\\right)+\\sqrt{2}\\sin 2x=1\\\\ 2-\\sqrt{2}\\cos 2x-\\sqrt{2}\\sin 2x+\\sqrt{2}\\sin 2x=1\\\\ 1-\\sqrt{2}\\cos 2x=0\\\\ \\cos 2x=\\frac{1}{\\sqrt{2}}\\\\ 2x=\\pm\\frac{\\pi}{4}+2\\pi n,n\\in Z\\\\ x=\\pm\\frac{\\pi}{8}+\\pi n,n\\in Z$$\nб) С помощью числовой окружности отберем корни, которые принадлежат промежутку \\(\\left[\\frac{9\\pi}{2};6\\pi\\right]\\).\nПолучим значения:\n$$\\frac{39\\pi}{8};\\frac{41\\pi}{8};\\frac{47\\pi}{8}$$\nОтвет: а) \\(x=\\pm\\frac{\\pi}{8}+\\pi n\\), \\(n\\in Z\\); б) \\(\\frac{39\\pi}{8}\\); \\(\\frac{41\\pi}{8}\\); \\(\\frac{47\\pi}{8}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 32146,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(4\\sin^2\\left(x+\\frac{7\\pi}{8}\\right)+\\sqrt{2}\\sin 2x=1\\).\nб) Найдите все корни уравнения, принадлежащие промежутку \\(\\left[\\frac{9\\pi}{2};6\\pi\\right]\\).",
+      "error_conditions": null,
+      "id": 251785,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/watch?v=DKrf2NzdmDs&t=5745s"
+}

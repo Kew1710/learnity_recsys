@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{2^{-3} \\cdot 2^{19}}{2^{13}} = \\cfrac{2^{16}}{2^{13}} = 2^3 = 8\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1957,
+    "title": "8.2 Рациональные алгебраические выражения"
+  },
+  "id": 19877,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\cfrac{2^{-3} \\cdot 2^{19}}{2^{13}} \\) .",
+      "error_conditions": [],
+      "id": 239715,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

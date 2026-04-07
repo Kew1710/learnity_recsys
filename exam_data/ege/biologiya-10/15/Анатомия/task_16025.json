@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: 1 – иммунная реакция, 2 – физиологический процесс, 6 – не связано со свертываемостью крови (в данных процессах участвует кальций)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16025,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "345",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите цифры, под которыми они указаны. Для процесса свертывания крови характерно:\n1) образование антител\n2) разрушение эритроцитов\n3) образование тромба\n4) разрушение тромбоцитов\n5) превращение фибриногена в фибрин\n6) увеличение концентрации NaCl",
+      "error_conditions": [],
+      "id": 235932,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

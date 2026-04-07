@@ -1,0 +1,42 @@
+{
+  "comment": "$$(1,7 + 2,8) \\cdot 4,8 = 4,5 \\cdot 4,8 = 21,6$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2111,
+    "title": "14.2 Действия с десятичными дробями"
+  },
+  "id": 22454,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "21,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения\n$$(1,7 + 2,8) \\cdot 4,8$$",
+      "error_conditions": [],
+      "id": 242195,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

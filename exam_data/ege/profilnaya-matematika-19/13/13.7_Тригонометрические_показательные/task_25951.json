@@ -1,0 +1,40 @@
+{
+  "comment": "Сделаем замену: \\(4^{\\cos{x}} = t\\), \\(t>0\\)\n$$2t^2-9t+4=0\\\\ D=81-4\\cdot 2\\cdot 4=49=7^2\\\\ t_1=\\frac{9+7}{4}=4\\\\ t_2=\\frac{9-7}{4}=\\frac{1}{2}$$\nТогда получаем: $$\\displaystyle \\left[ \\begin{array}{l l} t=4\\\\ t=\\frac{1}{2} \\end{array} \\right.$$\nСделаем обратную замену: $$\\displaystyle \\left[ \\begin{array}{l l} 4^{\\cos x} =4^{1}\\\\ 4^{\\cos x} =2^{-1} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\cos x=1\\\\ 2\\cos x=-1 \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\cos x=1\\\\ \\cos x=-\\frac{1}{2} \\end{array} \\right.$$ $$\\displaystyle \\left[ \\begin{array}{l l} x=2\\pi n,n\\in Z\\\\ x=\\pm \\frac{2\\pi }{3} +2\\pi n,n\\in Z \\end{array} \\right.$$\nб) Нарисуем тригонометрическую окружность и отметим на ней точки, принадлежащие отрезку \\(\\left[-3\\pi;-\\frac{3\\pi}{2}\\right]\\):\n$$-3\\pi+\\pi=-2\\pi\\\\ -3\\pi+\\frac{\\pi}{3}=-\\frac{8\\pi}{3}$$\nОтвет: а) \\(x=2\\pi n\\), \\(n\\in Z\\); \\(x=\\pm\\frac{2\\pi}{3}+2\\pi n\\), \\(n\\in Z\\); б) \\(-2\\pi\\); \\(-\\frac{8\\pi}{3}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2456,
+    "title": "13.7 Тригонометрические + показательные"
+  },
+  "id": 25951,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(2\\cdot 16^{\\cos x}-9\\cdot 4^{\\cos x}+4=0\\).\nб) Найдите все корни этого уравнения, принадлежащие отрезку \\(\\left[-3\\pi;-\\frac{3\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 245590,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/watch?v=mCkdEWvhbf8&t=1500s"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Составляем пропорцию:\n2 507 509  — 100%\n1 933 741  — Х.\nИмеем (1 933 741· 100) : 2 507 509  =  77%.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2973,
+    "title": "6.4 Хозяйство России"
+  },
+  "id": 29662,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "77",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите долю городского населения (в %) в общей численности населения Волгоградской области, если известно, что общая численность её населения на 1 января 2019 г. составляла 2 507 509 человек, а численность городского населения – 1 933 741 человек. Полученный результат округлите до целого числа.",
+      "error_conditions": [],
+      "id": 249301,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\begin{cases}\n2x-x^{2} =2ay-a^{2} y^{2}\\\\\n2x-x^{2} \\geq 0\\\\\ny=x^{2}\n\\end{cases} \\Leftrightarrow \\begin{cases}\nx^{2} -2x+2ay-a^{2} y^{2} =0\\\\\n2x-x^{2} \\geq 0\\\\\ny=x^{2}\n\\end{cases} \\Leftrightarrow \\begin{cases}\n2( ay-x) -( ay-x)( ay+x) =0\\\\\n2x-x^{2} \\geq 0\\\\\ny=x^{2}\n\\end{cases} \\Leftrightarrow \\\\\n\\Leftrightarrow \\begin{cases}\n( ay-x)( 2-ay-x) =0\\\\\nx( 2-x) \\geq 0\\\\\ny=x^{2}\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\nx=ay\\\\\nx=2-ay\n\\end{array} \\right.\\\\\nx\\geq 0\\\\\nx\\leq 2\\\\\ny=x^{2}\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\nx=ax^{2}\\\\\nx=2-ax^{2}\n\\end{array} \\right.\\\\\nx\\geq 0\\\\\nx\\leq 2\\\\\ny=x^{2}\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\nx( ax-1) =0\\\\\nax^{2} +x-2=0\n\\end{array} \\right.\\\\\nx\\geq 0\\\\\nx\\leq 2\\\\\ny=x^{2}\n\\end{cases}$$\nНайдем корни уравнения \\(ax^{2} +x-2=0\\):\n$$D=1+8a\\Rightarrow x_{1} =\\frac{-1+\\sqrt{1+8a}}{2a} ,x_{2} =\\frac{-1-\\sqrt{1+8a}}{2a}$$\nПолучаем систему:\n$$\\begin{cases}\n\\left[ \\begin{array}{l l}\nx_{1} =0\\\\\nx_{2} =\\frac{1}{a}\\\\\nx_{3} =\\frac{-1+\\sqrt{1+8a}}{2a}\\\\\nx_{4} =\\frac{-1-\\sqrt{1+8a}}{2a}\n\\end{array} \\right.\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ x\\geq 0\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ x\\leq 2\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ y=x^{2}\n\\end{cases}$$\nТак как по условию \\(a >0\\), то случай \\(a=0\\) рассматривать не будем.\n\nНачнем смотреть принадлежность корней условию \\(\\begin{cases}\nx\\geq 0\\\\\nx\\leq 2\n\\end{cases} \\Rightarrow x_{1} =0\\) - принадлежит этому интервалу, 1 корень есть.\n$$x_{2} =\\frac{1}{a} \\Rightarrow \\begin{cases}\n\\frac{1}{a} \\geq 0\\\\\n\\frac{1}{a} \\leq 2\n\\end{cases} \\Leftrightarrow a\\geq \\frac{1}{2}\\\\ x_{3} =\\frac{-1+\\sqrt{1+8a}}{2a} \\Rightarrow \\begin{cases}\n\\frac{-1+\\sqrt{1+8a}}{2a} \\geq 0\\\\\n\\frac{-1+\\sqrt{1+8a}}{2a} \\leq 2\n\\end{cases}$$\nПо условию \\(a >0\\), можем умножить обе части на знаменатель:\n$$\\begin{cases}\n-1+\\sqrt{1+8a} \\geq 0\\\\\n-1+\\sqrt{1+8a} \\leq 4a\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\sqrt{1+8a} \\geq 1\\\\\n\\sqrt{1+8a} \\leq 4a+1\n\\end{cases} \\Leftrightarrow \\begin{cases}\na >0\\ ( по\\ условию\\ a >0)\\\\\n1+8a\\leq 16a^{2} +8a+1\n\\end{cases} \\Leftrightarrow \\begin{cases}\na >0\\\\\n16a^{2} \\geq 0\n\\end{cases} \\Rightarrow a\\geq 0\\\\ x_{4} < 0 ~всегда ~при~ a >0$$\nПроверим совпадение корней: \\(x_{1} =0\\) и \\(x_{2} =\\frac{1}{a}\\) никогда не совпадают.\nПроверим совпадение \\(x_{1} =0\\) и \\(x_{3} =\\frac{-1+\\sqrt{1+8a}}{2a} \\Leftrightarrow 0=\\frac{-1+\\sqrt{1+8a}}{2a} \\Leftrightarrow a=0\\) - не подходит по условию. Проверим совпадение \\(x_{2} =\\frac{1}{a}\\) и \\(x_{3} =\\frac{-1+\\sqrt{1+8a}}{2a} \\Leftrightarrow -1+\\sqrt{1+8a} =2\\Leftrightarrow \\sqrt{1+8a} =3\\Leftrightarrow 1+8a=9\\Leftrightarrow a=1\\).\nИсходя из предыдущих размышлений о существовании корней: \\(x_{1}\\) всегда, \\(x_{2}\\) при \\(a\\geq \\frac{1}{2}\\), \\(x_{3}\\) при \\(a >0,x_{4}\\) никогда, совпадение при \\(a=1\\).\n\nДелаем вывод, что \\(a\\in [\\frac{1}{2} ;1) \\cup ( 1,+\\infty )\\)\n\nОтвет: \\(a\\in [\\frac{1}{2} ;1) \\cup ( 1,+\\infty )\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2492,
+    "title": "18.3 Системы уравнений и неравенств"
+  },
+  "id": 6899,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все положительные значения параметра \\(a\\), при которых система\n$$\\displaystyle \\begin{cases}\n\\sqrt{2x-x^{2}} =\\sqrt{2ay-a^{2} y^{2}}\\\\\n\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ y=x^{2}\n\\end{cases}$$\nимеет ровно три решения.",
+      "error_conditions": null,
+      "id": 77464,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/embed/Q3fqNWRZ99Q?start=9687"
+}

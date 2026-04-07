@@ -1,0 +1,45 @@
+{
+  "comment": "На координатной прямой отметим значение вероятности, что новый тостер прослужит больше года, равную 0,93 и вероятность того, что он прослужит больше двух лет, равную 0,82.\nТогда, из рисунка видно, что вероятность того, что он прослужит меньше двух лет, но больше года равна:\n$$0,93-0,82=0,11$$\nОтвет: 0,11",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2394,
+    "title": "4.2 Теоремы вероятностей"
+  },
+  "id": 9903,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Вероятность того, что новый тостер прослужит больше года, равна 0,93. Вероятность того, что он прослужит больше двух лет, равна 0,82, Найдите вероятность того, что он прослужит меньше двух лет, но больше года.",
+      "error_conditions": [],
+      "id": 120039,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=3897"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=3897"
+}

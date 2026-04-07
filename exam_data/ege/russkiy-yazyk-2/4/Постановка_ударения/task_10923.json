@@ -1,0 +1,42 @@
+{
+  "comment": "ободрИть - в инфинитивах ударение падает на Ить, Ать, Ять, ировАть\nосвЕдомиться – от вЕдать",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 913,
+    "title": "Постановка ударения"
+  },
+  "id": 10923,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "134",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук. Запишите номера ответов.\n\n- каталОг\n- обОдрить\n- полилА\n- обзвонИт\n- осведомИться",
+      "error_conditions": [],
+      "id": 147691,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

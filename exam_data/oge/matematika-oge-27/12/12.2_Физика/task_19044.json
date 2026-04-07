@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(ω=9\\)c\\(^{-1}\\) - по условию\n\\(\\alpha=243\\) м/c\\(^2\\)\n\\(R-?\\)\n\\(\\alpha =ω^2 R\\)\n\\(243=9^2 \\cdot R\\)\n\\(243=81 \\cdot R\\)\n\\(R=\\cfrac{243}{81}=3\\)м",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2060,
+    "title": "12.2 Физика"
+  },
+  "id": 19044,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Центростремительное ускорение при движении по окружности (в м/c\\(^2\\)) можно вычислить по формуле \\(\\alpha =ω^2 R\\) , где \\(ω\\) – угловая скорость (в с\\(^{−1}\\)), а R – радиус окружности. Пользуясь этой формулой, найдите радиус R (в метрах), если угловая скорость равна \\(9\\) с\\(^{−1}\\), а центростремительное ускорение равно \\(243\\) м/c\\(^2\\). Ответ дайте в метрах.",
+      "error_conditions": [],
+      "id": 238882,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

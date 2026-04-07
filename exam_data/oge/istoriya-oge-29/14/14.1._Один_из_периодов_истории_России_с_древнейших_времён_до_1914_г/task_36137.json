@@ -1,0 +1,42 @@
+{
+  "comment": "4) «Преподобный Дмитрий Прилуцкий, с житием» - икона, созданная Дионисием в конце XV - начале XVI в.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3104,
+    "title": "14.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 36137,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "1) «Слово о законе и благодати»;\n2) «Повесть временных лет»;\n3) «Повесть об Азовском осадном сидении донских казаков»;\nСоздателем какого из приведённых памятников культуры является Дионисий? Укажите порядковый номер этого памятника культуры.",
+      "error_conditions": [],
+      "id": 255786,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

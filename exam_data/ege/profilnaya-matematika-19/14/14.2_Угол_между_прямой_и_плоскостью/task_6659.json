@@ -1,0 +1,40 @@
+{
+  "comment": "а) 1) Рассмотрим \\(\\triangle ABS\\): \\(M\\) - середина \\(AS\\) и \\(MN \\| SB \\Rightarrow MN\\) - средняя линия \\(\\triangle ABS \\Rightarrow AN = NB\\).\n2) Рассмотрим \\(\\triangle AOB\\): \\(AO\\) и \\(OB\\) - радиусы \\(\\Rightarrow \\triangle AOB\\) - равнобедренный \\(\\Rightarrow ON\\) - высота, так как \\(AN = NB\\).\nПолучили, что \\( AN \\perp ON\\). Ч.Т.Д.\n\nб) Проведем в \\(\\triangle AOS\\) прямую \\(MH \\| SO\\), так как \\(SO\\) - высота конуса, то \\(AO\\) - проекция \\(AS\\) на основание, а \\(HB\\) - проекция \\(MB\\) на основание \\((SO \\perp (AOB) \\Rightarrow MH \\perp (AOB))\\).\nТогда \\(\\angle MBH\\) - искомый.\n\\(MH = \\dfrac{\\sqrt{51}}{2}\\) как средняя линия треугольника \\(ASB\\).\nВ прямоугольном треугольнике \\(MHB\\) мы знаем \\(MH\\), чтобы найти \\(\\angle MBH\\) нужно найти \\(BH\\).\nПо теореме косинусов из треугольника \\( AOB\\): \\(OB^{2} = AO^{2} + AB^{2} - 2 \\cdot AO \\cdot AB \\cdot \\cos{\\angle{OAB}}\\)\nПо теореме косинусов из треугольника \\(AHB\\) (так как \\(AH = HO = 4, MH\\) - средняя линия треугольника \\(AOS\\) \\((AM = MS, MH \\| SO))\\): \\(HB^{2} = AB^{2} + AH^{2} - 2 \\cdot AB \\cdot AH \\cdot \\cos{\\angle{OAB}}\\). Учтем, что \\(AH = HO \\Rightarrow AH = \\dfrac{1}{2} AO\\), и получим: \\({HB}^{2} = {AB}^{2} + \\dfrac{1}{4}{AO}^{2} - AB \\cdot AO \\cdot \\cos{\\angle{OAB}}\\).\nИз этих двух записанных теорем выразим \\(AO \\cdot AB \\cdot \\cos{\\angle{OAB}}\\) и приравняем между собой, получим: $${AO}^{2} + {AB}^{2} - {OB}^{2} = {2AB}^{2} + \\dfrac{1}{2}{AO}^{2} - {2HB}^{2} \\Rightarrow {HB}^2 = \\dfrac{{AB}^2 - \\dfrac{1}{2}{AO}^2 + OB^2}{2} \\Rightarrow {HB}^2 = \\dfrac{153}{4} \\Rightarrow \\\\ \\Rightarrow HB = \\dfrac{\\sqrt{51} \\cdot \\sqrt{3}}{2}.$$\nВ прямоугольном треугольнике \\(MHB\\) \\(tg{\\angle{MBH}} = \\dfrac{MH}{HB} = \\dfrac{1}{\\sqrt{3}} \\Rightarrow \\angle{MBH} = 30^{\\circ}\\).\n\nОтвет: \\(30^{\\circ}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2461,
+    "title": "14.2 Угол между прямой и плоскостью"
+  },
+  "id": 6659,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Радиус основания конуса с вершиной \\(𝑆\\) и центром основания \\(𝑂\\) равен \\(5\\), а его высота равна \\(\\sqrt{51}\\). Точка \\(𝑀\\) - середина образующей \\(𝑆𝐴\\) конуса, а точки \\(𝑁\\) и \\(𝐵\\) лежат на основании конуса, причем прямая \\(𝑀𝑁\\) параллельна образующей конуса \\(𝑆𝐵\\).\nа) Докажите, что \\(\\angle 𝐴𝑁𝑂\\) - прямой.\nб) Найдите угол между прямой \\(𝐵𝑀\\) и плоскостью основания конуса, если \\(𝐴𝐵=8\\).",
+      "error_conditions": null,
+      "id": 75193,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/UydNtLBGtDY?start=2229"
+}

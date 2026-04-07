@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРассмотрим треугольники BOC и AOD\n\\(\\angle CBD = \\angle BDA\\) - накрест лежащие\n\\(\\angle BOC = \\angle AOD\\) - вертикальные\n\\( \\Rightarrow \\triangle BOC \\sim \\triangle AOD\\) - по 2-ум углам\n\\(\\cfrac{BC}{AD} = \\cfrac{CO}{AO} = \\cfrac{6}{13}\\)\n\\(\\cfrac{38 - AO}{AO} = \\cfrac{6}{13}\\)\n\\(19AO = 494\\)\n\\(AO = 26\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1989,
+    "title": "17.6 Подобные треугольники в трапеции"
+  },
+  "id": 22548,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "26",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Диагонали AC и BD трапеции ABCD с основаниями BC и AD пересекаются в точке O, BC=6, AD=13, AC=38 . Найдите AO.",
+      "error_conditions": [],
+      "id": 242287,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

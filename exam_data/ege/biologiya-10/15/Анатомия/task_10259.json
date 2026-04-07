@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 456\nЛучевая и плечевая кости, ребро и грудига соединены подвижно. Грудные позвонки соединены полуподвижно",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10259,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "456",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны. Какие пары костей соединены неподвижно?\n\n1) лучевая и плечевая кости\n2) 3 и 4 грудные позвонки\n3) ребро и грудина\n4) затылочная и височная кости\n5) подвздошная и седалищная кости\n6) 2 и 3 позвонки крестцового отдела",
+      "error_conditions": [],
+      "id": 122999,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

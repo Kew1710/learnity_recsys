@@ -1,0 +1,37 @@
+{
+  "comment": "2NaHCO₃ + 2KOH = Na₂CO₃ + K₂CO₃ + 2H₂O\n2Na⁺ + 2HCO₃⁻ + 2K⁺ + 2OH⁻ = 2Na⁺ + 2K⁺ + 2CO₃²⁻ + 2H₂O\nHCO₃⁻ + OH⁻ = CO₃²⁻ + H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2801,
+    "title": "Реакции ионного обмена"
+  },
+  "id": 7736,
+  "is_obsolete": false,
+  "number": 30,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Для выполнения задания используйте следующий перечень веществ: перманганат калия, гидрокарбонат натрия, сульфит натрия, сульфат бария, гидроксид калия, пероксид водорода. Допустимо использование воды в качестве среды протекания реакции.Из предложенного перечня веществ выберите кислую соль и вещество, которое вступает с этой кислой солью в реакцию ионного обмена. Запишите молекулярное, полное и сокращённое ионное уравнения реакции с участием выбранных веществ.",
+      "error_conditions": null,
+      "id": 100121,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/3fJeOtCGF1A?start=9085"
+}

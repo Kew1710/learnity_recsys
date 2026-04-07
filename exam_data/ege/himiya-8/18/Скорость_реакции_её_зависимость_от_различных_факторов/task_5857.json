@@ -1,0 +1,42 @@
+{
+  "comment": "Уменьшение концентрации кислоты приведет к уменьшению скорости тех реакции, в которых реагентами являются кислоты или образуемые ими в водных растворах ионы H⁺\nЭто реакции 2, 3 и 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 5857,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "234",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все реакции, для которых уменьшение концентрации кислоты приведет к уменьшению скорости реакции\n1) SO₂ + H₂O = H₂SO₃\n2) CH₃NH₂ + H⁺ = CH₃NH₃⁺\n3) Al₂O₃ + 3H₂SO₄ = Al₂(SO₄)₃ + 3H₂O\n4) Mg + 2H⁺ = Mg²⁺ + H₂\n5) Cl₂ + H₂O = HCl + HClO",
+      "error_conditions": [],
+      "id": 72328,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=12371"
+    },
+    "Valid": true
+  },
+  "time_seconds": 360,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=12371"
+}

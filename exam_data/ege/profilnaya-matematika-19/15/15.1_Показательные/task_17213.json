@@ -1,0 +1,40 @@
+{
+  "comment": "Замена: \\(5^x=t\\)\nВернемся к неравенству:\n$$\\frac{6}{t-125}\\leq \\frac{1}{t-25}\\\\ \\frac{6}{t-125}-\\frac{1}{t-25}\\leq 0\\\\ \\frac{6t-150-t+125}{(t-125)(t-25)}\\leq 0\\\\ \\frac{5t-25}{(t-125)(t-25)}\\leq 0$$\nПоделим на \\(5\\) обе части неравенства:\n$$\\frac{t-5}{(t-125)(t-25)}\\leq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l} t\\leq 5\\\\ \\begin{cases} t >25\\\\ t< 125 \\end{cases} \\end{array} \\right.$$\nВернемся к замене:\n$$\\displaystyle \\left[ \\begin{array}{l l} 5^{x} \\leq 5^{1}\\\\ \\begin{cases} 5^{x} >5^{2}\\\\ 5^{x} < 5^{3} \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} x\\leq 1\\\\ \\begin{cases} x >2\\\\ x< 3 \\end{cases} \\end{array} \\right.$$\nОтвет: \\(x\\in (-\\infty;1]\\cup (2;3)\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 17213,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{6}{5^x-125}\\leq \\frac{1}{5^x-25}\\).",
+      "error_conditions": null,
+      "id": 237099,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/ZjiTg9aJD40?feature=share&t=4861"
+}

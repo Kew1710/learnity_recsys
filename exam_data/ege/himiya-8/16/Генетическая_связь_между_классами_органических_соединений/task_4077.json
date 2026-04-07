@@ -1,0 +1,42 @@
+{
+  "comment": "1) CH₂=CH₂ + HBr → CH₃CH₂Br\n2) CH₃CH₂Br + NaOH(водн.) → CH₃CH₂OH + NaBr\n3) 2CH₃CH₂OH → C₂H₅-O-C₂H₅ + H₂O (кат. H₂SO₄)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2836,
+    "title": "Генетическая связь между классами органических соединений"
+  },
+  "id": 4077,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "51",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) CH₃-CH₂-OH\n2) CH₂CI-CH₂Cl\n3) CH₃-CH₃\n4) CH≡CH\n5) CH₃CH₂Br",
+      "error_conditions": [],
+      "id": 66498,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/PqTe_O2GHvM?start=5172"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/PqTe_O2GHvM?start=5172"
+}

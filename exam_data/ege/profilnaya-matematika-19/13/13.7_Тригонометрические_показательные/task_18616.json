@@ -1,0 +1,40 @@
+{
+  "comment": "а) Проведем замену \\(t=9^{\\cos x}\\), тогда уравнение запишется в виде:\n$$t^2-12t+27=0\\\\ t=3~или~t=9$$\nПри \\(t=3,9^{\\cos x}=3\\Rightarrow \\cos x=\\frac{1}{2}\\Rightarrow x=\\pm \\frac{\\pi}{3}+2\\pi k,k\\in Z\\)\nПри \\(t=9,9^{\\cos x}=9\\Rightarrow \\cos x=1\\Rightarrow x=2\\pi k,k\\in Z\\)\n\nб) Отберем корни уравнения, принадлежащие промежутку \\([-4\\pi ;-\\frac{5\\pi}{2}]\\) помощи числовой окружности:\nНам подойдут корни: \\(-4\\pi ,-4\\pi +\\frac{\\pi}{3}=-\\frac{11\\pi}{3}\\).\n\nОтвет: а) \\(2\\pi k,\\pm \\frac{\\pi}{3}+2\\pi k,k\\in Z\\); б) \\(-4\\pi ,-\\frac{11\\pi}{3}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2456,
+    "title": "13.7 Тригонометрические + показательные"
+  },
+  "id": 18616,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(81^{\\cos x}-12\\cdot 9^{\\cos x}+27=0\\).\nб) Укажите корни этого уравнения, принадлежащие промежутку \\([-4\\pi ;-\\frac{5\\pi}{2}]\\).",
+      "error_conditions": null,
+      "id": 238458,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/watch?v=mjYrpyXrhBM&t=9674s"
+}

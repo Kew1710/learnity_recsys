@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\n\\( \\triangle ABC\\) - прямоугольный\nАС=21\nВС=28\n\\( CH \\perp AB \\)\nНайти:\nСН-?\nРешение:\n\\( 1. AC^2+BC^2=AB^2\\) - по теореме Пифагора\n\\( AB=\\sqrt{AC^2+BC^2} = \\sqrt{21^2+28^2}=\\sqrt{1225}=35 \\)\n\\( 2. S_{ABC}=\\cfrac{1}{2}CH \\cdot AB \\)\n\\( S_{ABC}=\\cfrac{1}{2}AC \\cdot BC \\)\n\\( \\Rightarrow \\cfrac{1}{2}CH \\cdot AB = \\cfrac{1}{2}AC \\cdot BC \\)\n\\( CH \\cdot AB = AC \\cdot BC \\)\n\\( CH=\\cfrac{AC \\cdot BC}{AB} = \\cfrac{21 \\cdot 28}{35}=16,8\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2010,
+    "title": "23.1 Прямоугольные треугольники"
+  },
+  "id": 14294,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Катеты прямоугольного треугольника равны 21 и 28. Найдите высоту, проведённую к гипотенузе.",
+      "error_conditions": null,
+      "id": 201829,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

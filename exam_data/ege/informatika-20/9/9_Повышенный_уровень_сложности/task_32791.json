@@ -1,0 +1,45 @@
+{
+  "comment": "Решение:\n\nf = open('9.txt')\nk = 0\nfor s in f:\na = [int(x) for x in s.split()]\na = [x for x in a if a.count(x) == 1]\nif len(a) == 4 and max(a) + min(a) > sum(a) - max(a) - min(a):\nk += 1\nprint(k)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2715,
+    "title": "№9 Повышенный уровень сложности"
+  },
+  "id": 32791,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7224",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Резерв_2024) Откройте файл электронной таблицы, содержащей в каждой строке четыре натуральных числа. Определите количество строк таблицы, в которых все числа различны. При этом сумма максимального и минимального числа больше суммы остальных.",
+      "error_conditions": [],
+      "id": 252430,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 28,
+    "title": "Электронные таблицы"
+  },
+  "video_link": null
+}

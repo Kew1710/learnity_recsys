@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\sin \\angle CAB=\\sin \\angle CBA$$\nпоскольку \\(\\Delta ABC\\) - равнобедренный по условию; в \\(\\Delta AHB\\):\n$$\\sin \\angle HBA=\\frac{AH}{AB} =\\frac{1}{2} =0,5$$\nОтвет: 0,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2372,
+    "title": "1.1 Тригонометрия в прямоугольном треугольнике"
+  },
+  "id": 4071,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC~AC=BC, AB=2,\\) высота \\(AH\\) равна \\(1\\). Найдите синус угла \\(CAB\\).",
+      "error_conditions": [],
+      "id": 66492,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=4077"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=4077"
+}

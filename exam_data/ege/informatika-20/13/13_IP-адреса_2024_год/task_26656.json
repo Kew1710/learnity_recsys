@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2877,
+    "title": "№13 IP-адреса (2024 год)"
+  },
+  "id": 26656,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "224",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Два узла, находящиеся в одной сети, имеют IP-адреса 221.175.5.70 и 221.175.29.68. Укажите наибольшее возможное значение третьего слева байта маски сети. Ответ запишите в виде десятичного числа.",
+      "error_conditions": [],
+      "id": 246295,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 45,
+    "title": "IP-адреса"
+  },
+  "video_link": null
+}

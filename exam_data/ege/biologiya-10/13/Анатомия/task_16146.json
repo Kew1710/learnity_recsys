@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Молоточек, наковальня, стремечко – косточки среднего уха. Под цифрой 3 – стремечко\n1 – ушная раковина\n2 – наружный слуховой проход\n3 – стремечко\n4 – барабанная перепонка\n5 – евстахиева труба\n6 – улитка\n7– полукружные каналы",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16146,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите рисунок «Слуховой анализатор» и выполните задание\n\nКакой цифрой на рисунке обозначена косточка среднего уха?",
+      "error_conditions": [],
+      "id": 236053,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

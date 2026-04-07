@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\log_3(-6-5x)=\\log_33^2\\\\ -6-5x=9\\\\ -5x=15\\\\ x=-3$$\nОтвет: -3.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2403,
+    "title": "6.5 Логарифмические"
+  },
+  "id": 16830,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\log_3(-6-5x)=2\\).",
+      "error_conditions": [],
+      "id": 236735,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=8514s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=8514s"
+}

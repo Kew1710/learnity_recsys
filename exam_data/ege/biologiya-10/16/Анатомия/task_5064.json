@@ -1,0 +1,42 @@
+{
+  "comment": "Последовательность кровеносных сосудов, которые проходит кислород на пути от лёгких к мышцам ног:\n5) лёгочная вена\n3) левый желудочек\n1) брюшная аорта\n4) наружная подвздошная артерия\n2) капилляры мышц",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 5064,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "53142",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность кровеносных сосудов, которые проходит кислород на пути от лёгких к мышцам ног. Запишите в таблицу соответствующую последовательность цифр.\n1) брюшная аорта\n2) капилляры мышц\n3) левый желудочек\n4) наружная подвздошная артерия\n5) лёгочная вена",
+      "error_conditions": [],
+      "id": 70323,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/vrxhAYdDauo?start=810"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/vrxhAYdDauo?start=810"
+}

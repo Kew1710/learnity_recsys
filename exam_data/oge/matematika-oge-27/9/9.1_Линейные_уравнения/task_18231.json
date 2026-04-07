@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(x^2+20x+100=25-10x+x^2\\)\n\\(20x+10x=25-100\\)\n\\(30x=-75\\)\n\\(x=-2,5\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1928,
+    "title": "9.1 Линейные уравнения"
+  },
+  "id": 18231,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-2,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\((x+10)^2=(5-x)^2\\) .",
+      "error_conditions": [],
+      "id": 238073,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

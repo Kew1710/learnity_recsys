@@ -1,0 +1,45 @@
+{
+  "comment": "Так как основания показательных функций равны, имеем право приравнять их степени:\n$$\\log_4(2x+5)=1\\\\ 4=2x+5\\\\ x=-0,5$$\nОтвет: -0,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2404,
+    "title": "6.6 Смешанные"
+  },
+  "id": 3221,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(2^{\\log_4(2x+5)}=2\\).",
+      "error_conditions": [],
+      "id": 64798,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=2858"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=2858"
+}

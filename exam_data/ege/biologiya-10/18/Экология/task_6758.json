@@ -1,0 +1,42 @@
+{
+  "comment": "3) зарастание луга - биотическое воздействие.\n4) землетрясение, 5) лесной пожар - абиотическое воздействие.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 6758,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "126",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны. Какие из приведённых событий, влияющих на экосистемы, относят к антропогенным воздействиям?\n1) вырубка лесов\n2) сжигание ископаемого топлива\n3) зарастание луга\n4) землетрясение\n5) лесной пожар\n6) посев пшеницы",
+      "error_conditions": [],
+      "id": 75292,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/VjDJV7daq4g?start=2496"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/VjDJV7daq4g?start=2496"
+}

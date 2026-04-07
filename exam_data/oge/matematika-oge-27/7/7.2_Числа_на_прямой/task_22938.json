@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРасставим числа в порядке возрастания:\n-0,93; -0,39; -0,09; 0,03\n\\(\\Rightarrow\\) число -0,09 соответствует точке C\nОтвет: 3",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22938,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой точки A, B, C и D соответствуют числам -0,39; -0,09; -0,93; 0,03\nКакой точке соответствует число -0,09?",
+      "error_conditions": [],
+      "id": 242664,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

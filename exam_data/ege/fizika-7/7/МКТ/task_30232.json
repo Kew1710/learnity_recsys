@@ -1,0 +1,42 @@
+{
+  "comment": "Давление газа:\n$$в~6\\uparrow p=в~3\\uparrow nkT\\uparrow в~2$$\nОтвет: 6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2625,
+    "title": "МКТ"
+  },
+  "id": 30232,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Температуру разреженного газа увеличили в \\(2\\) раза, а концентрацию его молекул увеличили в \\(3\\) раза. Во сколько раз увеличилось давление газа?",
+      "error_conditions": [],
+      "id": 249871,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/HewA56AMpZQ?t=1340"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/HewA56AMpZQ?t=1340"
+}

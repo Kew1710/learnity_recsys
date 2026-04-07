@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничения: \\(x>0\\)\nВернемся к неравенству:\n$$\\frac{\\log_416+\\log_4x^4+11}{(\\log_4x)^2-9}\\geq -1\\\\ \\frac{2+4\\log_4|x|+11}{(\\log_4x)^2-9}\\geq -1$$\nТ. к. \\(x>0\\), то:\n$$\\frac{13+4\\log_4x}{(\\log_4x)^2-9}+1\\geq 0$$\nЗамена: \\(\\log_4x=t\\)\n$$\\frac{13+4t}{t^2-9}+1\\geq 0\\\\ \\frac{13+4t+t^2-9}{t^2-9}\\geq 0\\\\ \\frac{t^2+4t+4}{(t-3)(t+3)}\\geq 0\\\\ \\frac{(t+2)^2}{(t-3)(t+3)}\\geq 0$$\nНе забываем про петельку. Знак, переходя через эту точку, не меняется, но сама точка подходит, т. к. знак нестрогий.\n$$\\displaystyle \\left[ \\begin{array}{l l} t< -3\\\\ t=-2\\\\ t >3 \\end{array} \\right.$$\nВернемся к замене:\n$$\\displaystyle \\left[ \\begin{array}{l l} \\log_{4} x< -3\\\\ \\log_{4} x=-2\\\\ \\log_{4} x >3 \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\log_{4} x< \\log_{4}\\frac{1}{64}\\\\ \\log_{4} x=\\log_{4}\\frac{1}{16}\\\\ \\log_{4} x >\\log_{4} 64 \\end{array} \\right. \\Rightarrow \\begin{cases} x >0\\\\ \\left[ \\begin{array}{l l} x< \\frac{1}{64}\\\\ x=\\frac{1}{16}\\\\ x >64 \\end{array} \\right. \\end{cases}$$\nОтвет: \\( x\\in \\left( 0;\\frac{1}{64}\\right) \\cup \\left\\{\\frac{1}{16}\\right\\} \\cup ( 64;+\\infty )\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2468,
+    "title": "15.2 Замена"
+  },
+  "id": 17212,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{\\log_4(16x^4)+11}{(\\log_4x)^2-9}\\geq -1\\).",
+      "error_conditions": null,
+      "id": 237098,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/ZjiTg9aJD40?feature=share&t=1531"
+}

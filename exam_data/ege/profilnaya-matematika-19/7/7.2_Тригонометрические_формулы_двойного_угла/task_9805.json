@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\sqrt{27}(\\sqrt{4}\\cos^2\\frac{\\pi}{12}-1)=\\\\ =\\sqrt{27}(2\\cos^2\\frac{\\pi}{12}-1)=\\\\ =\\sqrt{27}(\\cos\\frac{\\pi}{6})=\\sqrt{27}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{9}{2}=4,5$$\nОтвет: 4,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 9805,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\sqrt{108}\\cos^2\\frac{\\pi}{12}-\\sqrt{27}\\).",
+      "error_conditions": [],
+      "id": 119584,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=2998"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=2998"
+}

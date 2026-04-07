@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(a_1 = 1\\)\n\\(a_{140} = 140\\)\nПо формуле\n\\(S_n = \\cfrac{(a_1 + a_n) \\cdot n}{2}\\)\nНайдем длину всей ломаной:\n\\(S_{140} = \\cfrac{(1+ 140) \\cdot 140 }{2} = 141 \\cdot 70 = 9870\\)\nДлина ломаной равна \\(2S\\)\n\\(2S = 2 \\cdot 9870 = 19740\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1970,
+    "title": "14.1 Арифметическая прогрессия"
+  },
+  "id": 20070,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19740",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На клетчатой бумаге с размером клетки 1×1 нарисована «змейка», представляющая из себя ломаную, состоящую из чётного числа звеньев, идущих по линиям сетки. На рисунке изображён случай, когда последнее звено имеет длину 10. Найдите длину ломаной, построенной аналогичным образом, последнее звено которой имеет длину 140.",
+      "error_conditions": [],
+      "id": 239897,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

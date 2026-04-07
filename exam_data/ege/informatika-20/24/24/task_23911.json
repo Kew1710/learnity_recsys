@@ -1,0 +1,45 @@
+{
+  "comment": "with open('/24_2.txt') as f:\ns = f.readline()\nalf = '123456789ABCDEFGH'\nk = 0\nmaxk = 0\nfor i in range(len(s)):\nif s[i] in alf:\nk +=1\nmaxk = max(maxk,k)\nelse:\nk = 0\nprint(maxk)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 23911,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "53",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2324_4\n(ОСН 2023) Текстовый файл состоит из символов, обозначающих заглавные буквы латинского алфавита и цифры от 1 до 9 включительно. Определите в прилагаемом файле максимальное количество идущих подряд символов, которые могут представлять запись числа в восемнадцатеричной системе счисления. Для выполнения этого задания следует написать программу.\nПримечание. Цифры, числовое значение которых превышает 9, обозначены латинскими буквами, начиная с буквы А.",
+      "error_conditions": [],
+      "id": 243630,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1080,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": null
+}

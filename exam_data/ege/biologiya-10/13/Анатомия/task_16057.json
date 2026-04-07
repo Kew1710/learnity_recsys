@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Поджелудочная железа – железа смешанной секреции, так как выделяет гормоны инсулин и глюкагон (эндокринная функция) в кровь, а пищеварительные ферменты в просвет двенадцатиперстной кишки (экзокринная функция) .",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16057,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите рисунок «Пищеварительная система человека» и выполните задание\nКаким номером на рисунке обозначен орган, относящийся к железе смешанной секреции?",
+      "error_conditions": [],
+      "id": 235964,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

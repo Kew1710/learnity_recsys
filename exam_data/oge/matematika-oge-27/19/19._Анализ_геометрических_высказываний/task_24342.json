@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n- Все высоты равностороннего треугольника равны - верно\n- Всякий равносторонний треугольник является равнобедренным - верно\n- Всякий равносторонний треугольник является остроугольным - верно",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2034,
+    "title": "19. Анализ геометрических высказываний"
+  },
+  "id": 24342,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите номера верных утверждений.\n- Все высоты равностороннего треугольника равны.\n- Всякий равносторонний треугольник является равнобедренным.\n- Всякий равносторонний треугольник является остроугольным.",
+      "error_conditions": [],
+      "id": 244056,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

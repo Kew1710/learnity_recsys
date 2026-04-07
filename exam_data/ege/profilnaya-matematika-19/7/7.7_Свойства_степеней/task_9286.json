@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{(4\\cdot 7)^{2,9}}{28^{1,9}}=\\frac{28^{2,9}}{28^{1,9}}=28^{(2,9-1,9)}=28$$\nОтвет: 28",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 9286,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "28",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения: \\(\\frac{4^{2,9}\\cdot 7^{2,9}}{28^{1,9}}\\).",
+      "error_conditions": [],
+      "id": 113189,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1033"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1033"
+}

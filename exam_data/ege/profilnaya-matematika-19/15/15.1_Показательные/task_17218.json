@@ -1,0 +1,40 @@
+{
+  "comment": "Замена: \\(3^x=t\\)\n$$t-\\frac{702}{t-1}\\geq 0\\\\ \\frac{t^2-t-702}{t-1}\\geq 0\\\\ \\frac{(t-27)(t+26)}{t-1}\\geq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l} t\\geq 27\\\\ \\begin{cases} t\\geq -26\\\\ t< 1 \\end{cases} \\end{array} \\right.$$\nВернемся к замене:\n$$\\displaystyle \\left[ \\begin{array}{l l} 3^{x} \\geq 3^{3}\\\\ \\begin{cases} 3^{x} \\geq -26\\\\ 3^{x} < 3^{0} \\end{cases} \\end{array} \\right.$$\nТ. к. \\(3^x>0\\), то:\n$$\\displaystyle \\left[ \\begin{array}{l l} x \\geq 3\\\\ x< 0 \\end{array} \\right.$$\nОтвет: \\(x\\in (-\\infty;0)\\cup [3;+\\infty)\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 17218,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(3^x-\\frac{702}{3^x-1}\\geq 0\\).",
+      "error_conditions": null,
+      "id": 237103,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/ZjiTg9aJD40?feature=share&t=6459"
+}

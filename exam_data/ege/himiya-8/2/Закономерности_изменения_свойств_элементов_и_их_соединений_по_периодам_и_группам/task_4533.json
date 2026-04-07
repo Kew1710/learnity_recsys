@@ -1,0 +1,42 @@
+{
+  "comment": "Элементы одного периода – O, C, N (2 период)\nВосстановительные способности простых веществ, образуемых элементами, увеличиваются при движении по периоду справа налево. Верный порядок: O, N, C",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2785,
+    "title": "Закономерности изменения свойств элементов и их соединений по периодам и группам"
+  },
+  "id": 4533,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "354",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из указанных в ряду химических элементов выберите три элемента, которые в Периодической системе химических элементов Д. И. Менделеева находятся в одном периоде.\nРасположите эти элементы в порядке усиления восстановительной способности.\n1) Ca\n2) H\n3) O\n4) C\n5) N",
+      "error_conditions": [],
+      "id": 67323,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=442"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=442"
+}

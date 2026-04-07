@@ -1,0 +1,45 @@
+{
+  "comment": "Решение:\n\nk = 5\nfor i in range(800_001,10**10):\nmas = []\nfor j in range(2,int(i**0.5) + 1):\nif i % j == 0:\nmas.append(j)\nmas.append(i//j)\nmas.sort()\nfor j in mas:\nif j != 9 and j % 10 == 9:\nprint(i,j)\nk -= 1\nbreak\nif not k:\nbreak",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1547,
+    "title": "№25 Нахождение делителей"
+  },
+  "id": 32809,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "800001 309 800003 47059 800004 409 800006 269 800007 39",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Резерв_2024) Напишите программу, которая перебирает целые числа, большие 800000 в порядке возрастания и ищет среди них такие, у которых есть натуральный делитель, оканчивающиеся на цифру 9 и неравный ни самому числу, ни числу 9. В ответе запишите в первой строке таблицы первые пять найденных чисел в порядке возрастания, а во втором столбце - наименьший делитель для каждого из них, оканчивается цифрой 9, неравный ни самому числу, ни числу 9.\nФормат ответа: число делитель число делитель…",
+      "error_conditions": [],
+      "id": 252448,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 42,
+    "title": "Маски и делители"
+  },
+  "video_link": null
+}

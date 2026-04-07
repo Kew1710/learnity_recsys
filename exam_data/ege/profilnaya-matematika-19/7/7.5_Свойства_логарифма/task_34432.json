@@ -1,0 +1,45 @@
+{
+  "comment": "$$81^{\\log_9\\sqrt{8}} = 9^{2\\cdot \\log_9\\sqrt{8}}=9^{\\log_98}=8$$\nОтвет: 8",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 34432,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(81^{\\log_9\\sqrt{8}}\\).",
+      "error_conditions": [],
+      "id": 254071,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=ApMWElJeyPE765Jz&t=4250"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=ApMWElJeyPE765Jz&t=4250"
+}

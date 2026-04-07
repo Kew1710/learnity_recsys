@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 16685,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "211",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите соотношение фенотипов при скрещивании двух дигетерозигот, если доминантный аллель сцеплен с рецессивным у обоих родителей, а кроссинговер не происходит. Ответ запишите в виде правильной последовательности цифр, показывающих соотношение получившихся фенотипов в порядке их убывания.",
+      "error_conditions": [],
+      "id": 236592,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

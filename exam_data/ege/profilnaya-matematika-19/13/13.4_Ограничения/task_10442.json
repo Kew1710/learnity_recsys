@@ -1,0 +1,40 @@
+{
+  "comment": "а) Ограничения:\n$$\\displaystyle \\begin{cases}\n4tgx-3\\neq 0\\\\\nx\\neq \\frac{\\pi }{2} +\\pi k,k\\in Z\n\\end{cases} \\Leftrightarrow \\begin{cases}\ntgx\\neq \\frac{3}{4}\\\\\nx\\neq \\frac{\\pi }{2} +\\pi k,k\\in Z\n\\end{cases} \\Leftrightarrow \\begin{cases}\nx\\neq arctg\\frac{3}{4} +\\pi k,k\\in Z\\\\\nx\\neq \\frac{\\pi }{2} +\\pi k,k\\in Z\n\\end{cases}\\\\ 5\\cos x+4=0\\\\ \\cos x=-\\frac{4}{5}\\Leftrightarrow x=\\pi\\pm\\arccos\\frac{4}{5}+2\\pi k,k\\in Z$$\nИз ограничения \\(tgx\\ne\\frac{3}{4}\\) найдем \\(\\cos x\\):\n$$\\cos^2x=\\frac{1}{1+tg^2x};\\cos^2x\\ne\\frac{1}{1+\\frac{9}{16}}\\Leftrightarrow\\cos x\\ne\\pm\\frac{4}{5}$$\nПокажем на окружности:\nУчитывая ограничения, нам подходит только \\(x=\\pi-\\arccos\\frac{4}{5}+2\\pi k,k\\in Z\\)\n\nб) Отберем корни на промежутке \\([-4\\pi;-\\frac{5\\pi}{2}]\\) с помощью тригонометрической окружности\nНам подходит корень:\n$$-3\\pi-\\arccos\\frac{4}{5}$$\nОтвет: {\\(\\pi-\\arccos\\frac{4}{5}+2\\pi k:k\\in Z\\)}, б) \\(-3\\pi-\\arccos\\frac{4}{5}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2453,
+    "title": "13.4 Ограничения"
+  },
+  "id": 10442,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\frac{5\\cos x+4}{4tgx-3}=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([-4\\pi;-\\frac{5\\pi}{2}]\\).",
+      "error_conditions": null,
+      "id": 142309,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

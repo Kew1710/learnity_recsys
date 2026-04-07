@@ -1,0 +1,42 @@
+{
+  "comment": "Показания амперметра:\n\\(I=\\frac{\\varepsilon}{R_Р+R+r}\\) - ответ 1.\n\nПоказания вольтметра:\n\\(U_{внеш}=I(R+R_р)=\\frac{\\varepsilon (R+R_р)}{R_Р+R+r}\\) - ответ 4.\n\nОтвет: 41",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 18909,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "41",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "23И54\nВ цепь, состоящую из источника тока с ЭДС \\(\\varepsilon\\) и внутренним сопротивлением \\(r\\), последовательно соединенных резистора и реостата, сопротивления которых равны \\(R\\) и \\(R_р\\) соответственно, подключают амперметр и вольтметр, как показано на рисунке. Приборы считать идеальными. Установите соответствие между показаниями приборов и формулами, по которым их можно определить. К каждой позиции первого столбца подберите соответствующую позицию из второго и запишите в таблицу выбранные цифры под соответствующими буквами.\nПОКАЗАНИЯ ПРИБОРОВ\nФОРМУЛЫ\nА) показания вольтметра\nБ) показания амперметра\n1) \\(\\frac{\\varepsilon}{R+R_р+r}\\)\n2) \\(\\varepsilon (R+R_р+r)\\)\n3) \\(\\frac{\\varepsilon r}{R+R_р+r}\\)\n4) \\(\\frac{\\varepsilon (R+R_р)}{R+R_р+r}\\)\nА\nБ",
+      "error_conditions": [],
+      "id": 238747,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/6AyT6j0YrGA?feature=share&t=3326"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/6AyT6j0YrGA?feature=share&t=3326"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Скалярное произведение двух векторов может быть найдено, с одной стороны, как произведение модулей этих векторов на косинус угла между ними, а с другой стороны как сумма попарных произведений координат этих векторов. То есть:\n$$x_{\\vec{a}}\\cdot x_{\\vec{b}}+y_{\\vec{a}}\\cdot y_{\\vec{b}}=|\\vec{a}|\\cdot|\\vec{b}|\\cdot\\cos\\alpha\\Rightarrow\\cos\\alpha=\\frac{x_{\\vec{a}}\\cdot x_{\\vec{b}}+y_{\\vec{a}}\\cdot y_{\\vec{b}}}{|\\vec{a}|\\cdot |\\vec{b}|}$$\nНайдем координаты векторов. Используем для этого рисунок:\nТогда:\n$$\\vec{a}(-3;6)\\\\ \\vec{b}(8;-4)$$\nТеперь найдем длины векторов \\(\\vec{a}\\) и \\(\\vec{b}\\). Длина вектора равна квадратному корню из суммы квадратов его координат. То есть:\n$$|\\vec{a}|=\\sqrt{x^2_{\\vec{a}}+y^2_{\\vec{a}}}=\\sqrt{(-3)^2+6^2}=\\sqrt{9+36}=\\sqrt{45}=3\\sqrt{5}\\\\ |\\vec{b}|=\\sqrt{x^2_{\\vec{b}}+y^2_{\\vec{b}}}=\\sqrt{8^2+(-4)^2}=\\sqrt{64+16}=\\sqrt{80}=4\\sqrt{5}$$\nТогда:\n$$\\cos\\alpha=\\frac{x_{\\vec{a}}\\cdot x_{\\vec{b}}+y_{\\vec{a}}\\cdot y_{\\vec{b}}}{|\\vec{a}|\\cdot|\\vec{b}|}=\\frac{(-3)\\cdot 8+6\\cdot (-4)}{3\\sqrt{5}\\cdot 4\\sqrt{5}}=\\frac{-24-24}{3\\cdot 4\\cdot 5}=-\\frac{48}{3\\cdot4\\cdot 5}=-\\frac{4}{5}=-0,8$$\nОтвет: -0,8",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2383,
+    "title": "2.2 Скалярное произведение векторов"
+  },
+  "id": 26136,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-0,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной плоскости изображены векторы \\(\\vec{a}\\) и \\(\\vec{b}\\). Найдите \\(\\cos\\alpha\\), где \\(\\alpha\\) – угол между векторами \\(\\vec{a}\\) и \\(\\vec{b}\\).",
+      "error_conditions": [],
+      "id": 245775,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=2967s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=2967s"
+}

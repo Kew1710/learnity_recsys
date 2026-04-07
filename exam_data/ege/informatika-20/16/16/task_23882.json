@@ -1,0 +1,45 @@
+{
+  "comment": "import sys\ndef f(n):\nif n < 7:\nreturn 7\nelse:\nreturn n + 1 + f(n-2)\nsys.setrecursionlimit(10**5)\nprint(f(2024)-f(2020))",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1518,
+    "title": "№16"
+  },
+  "id": 23882,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4048",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2316_4\n(ОСН 2023) Алгоритм вычисления значения функции F(n), где n - натуральное число, задан следующими соотношениями:\nF(n) = 7 при n < 7;\nF(n) = n + 1 + F(n-2), если n >= 7.\nЧему равно значение выражения F(2024) - F(2020)?",
+      "error_conditions": [],
+      "id": 243601,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 35,
+    "title": "Рекурсия"
+  },
+  "video_link": null
+}

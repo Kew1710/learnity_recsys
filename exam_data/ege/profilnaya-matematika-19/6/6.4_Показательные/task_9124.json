@@ -1,0 +1,45 @@
+{
+  "comment": "Это показательное уравнение. Для решения таких уравнений нужно обе части привести к одному основанию. Основание это то, что стоит внизу. В нашем номере это \\(2\\).\n\nМы знаем, что \\(2=2^2\\).\n$$2^{-4+x}=2^1$$\nОснования одинаковые, значит, показатели тоже равны:\n$$-4+x=1\\\\ x=5$$\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2402,
+    "title": "6.4 Показательные"
+  },
+  "id": 9124,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(2^{-4+x}=2\\).",
+      "error_conditions": [],
+      "id": 112859,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=2620"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=2620"
+}

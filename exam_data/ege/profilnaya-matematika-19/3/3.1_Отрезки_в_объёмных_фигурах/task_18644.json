@@ -1,0 +1,45 @@
+{
+  "comment": "По свойству окружности \\(d=2r\\), так как \\(d=40\\), то \\(r=20\\).\nРассмотрим прямоугольный треугольник \\(ABO\\), где \\(AO\\) - радиус, \\(BA\\) – длина образующей, \\(BO\\) - высота.\nПо теореме Пифагора:\n$$BO=\\sqrt{AB^2-AO^2}=\\sqrt{625-400}=\\sqrt{225}=15$$\nОтвет: 15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 18644,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Диаметр основания конуса равен \\(40\\), а длина образующей − \\(25\\). Найдите высоту конуса.",
+      "error_conditions": [],
+      "id": 238486,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=1005"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=1005"
+}

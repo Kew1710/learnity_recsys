@@ -1,0 +1,42 @@
+{
+  "comment": "Элементы одной подгруппы – Cl, F, Br (VIIА группа)\nКислотные свойства водородных соединений, образуемых элементами, увеличиваются при движении по группе сверху вниз. Верный порядок: F, Cl, Br",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2785,
+    "title": "Закономерности изменения свойств элементов и их соединений по периодам и группам"
+  },
+  "id": 4769,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "314",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из указанных в ряду химических элементов выберите три элемента, которые в Периодической системе химических элементов Д. И. Менделеева находятся в одной подгруппе.\nРасположите выбранные элементы в порядке усиления кислотных свойств образуемых ими водородных соединений.\n1) Cl\n2) Mn\n3) F\n4) Br\n5) Fe",
+      "error_conditions": [],
+      "id": 69998,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=1240"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=1240"
+}

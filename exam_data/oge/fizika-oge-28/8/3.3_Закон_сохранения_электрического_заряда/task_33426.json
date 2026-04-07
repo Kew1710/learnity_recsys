@@ -1,0 +1,42 @@
+{
+  "comment": "Шарики одинаковые, поэтому после соединения они будут иметь равный заряд.\nПо закону сохранения заряда: $$q_1+q_2=2q \\\\ q=\\frac{q_1+q_2}{2}=\\frac{-10\\cdot 10^{-9}+(-2\\cdot 10^{-9})}{2}=-6\\cdot 10^{-9}~Кл=-6~нКл$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3259,
+    "title": "3.3 Закон сохранения электрического заряда"
+  },
+  "id": 33426,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Одному из двух одинаковых шариков сообщили заряд –10 нКл, другому — заряд –2 нКл. Затем шарики привели в соприкосновение. Какими станут заряды шариков после соединения?\n\nОтвет:___________нКл.",
+      "error_conditions": [],
+      "id": 253065,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

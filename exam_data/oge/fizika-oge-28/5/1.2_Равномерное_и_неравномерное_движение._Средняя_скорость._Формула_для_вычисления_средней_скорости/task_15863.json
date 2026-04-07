@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПереведем время в секунды: \\(t = 0,5~мин = 0, 5\\cdot 60~с = 30~с\\), а расстояние в метры:\n\\(S = 150~см =\\frac{150}{100} м = 1,5~м\\)\nСреднюю скорость найдем, поделив весь путь на общее время: $$v =\\frac{S}{t}$$\nПодставим числовые значения: $$v = \\frac{1,5}{30} = 0,05~м/с$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3209,
+    "title": "1.2 Равномерное и неравномерное движение. Средняя скорость. Формула для вычисления средней скорости:"
+  },
+  "id": 15863,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,05",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Металлический шарик движется по демонстрационному столу учителя и за \\(0,5\\) мин. проходит путь, равный \\(150\\) см. Чему равна средняя скорость шарика?\nОтвет:___________ м/с.",
+      "error_conditions": [],
+      "id": 235770,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/RiY7cxah3VY"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/RiY7cxah3VY"
+}

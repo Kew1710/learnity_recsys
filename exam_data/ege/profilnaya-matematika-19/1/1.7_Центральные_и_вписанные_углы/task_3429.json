@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\cup AD=\\frac{360^{\\circ }}{5}=72^{\\circ }\\ (по\\ условию)\\\\ \\angle ABD=\\frac{\\cup AD}{2}=\\frac{72^{\\circ }}{2}=36^{\\circ }\\ (как\\ вписанный)$$\nОтвет: 36",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2378,
+    "title": "1.7 Центральные и вписанные углы"
+  },
+  "id": 3429,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите вписанный угол, опирающийся на дугу, равную \\(\\frac{1}{5}\\) окружности. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 65098,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=1188"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=1188"
+}

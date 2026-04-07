@@ -1,0 +1,42 @@
+{
+  "comment": "3) «Слово о законе и благодати» - “Слово” представляет собой торжественную речь митрополита Илариона в середине XI в",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3104,
+    "title": "14.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 34794,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "1) «Повесть о разорении Рязани Батыем»;\n2) «Житие Сергия Радонежского»;\n3) «Слово о законе и благодати»\nАвтором какого из приведённых памятников культуры является митрополит Иларион? Укажите порядковый номер этого памятника культуры.",
+      "error_conditions": [],
+      "id": 254433,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

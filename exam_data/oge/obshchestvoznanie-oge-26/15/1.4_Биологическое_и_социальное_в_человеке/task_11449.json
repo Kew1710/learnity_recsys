@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1753,
+    "title": "1.4 Биологическое и социальное в человеке"
+  },
+  "id": 11449,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12122",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между примерами и видами потребностей: к каждому элементу первого столбца подберите соответствующий элемент из второго столбца.\n\nПРИМЕРЫ\n\nА) в воде и пище\nБ) в достижении карьерного роста\nВ) в поддержании нормального теплообмена\nГ) в развитии трудовых навыков\nД) в дружеском общении и поддержке\nВИДЫ ПОТРЕБНОСТЕЙ\n\n1) биологические\n2) социальные\n\nЗапишите в таблицу выбранные цифры под соответствующими буквами.\n\nАБВГД",
+      "error_conditions": [],
+      "id": 149020,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=20157"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=20157"
+}

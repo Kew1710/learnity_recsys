@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1768,
+    "title": "3.4 Производство, производительность труда. Разделение труда и специализация"
+  },
+  "id": 13439,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Верны ли следующие суждения о взаимосвязи специализации и обмена?\n\nВзаимосвязь специализации и обмена позволила\nА. сочетать стремление людей получать как можно больше разнообразных товаров и услуг со способностью отдельного человека, фирмы производить лишь небольшой ассортимент благ.\nБ. быстрее получать в максимальном ассортименте больший объём качественных благ.\n\n1) верно только А\n2) верно только Б\n3) верны оба суждения\n4) оба суждения неверны",
+      "error_conditions": [],
+      "id": 179017,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=11337"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=11337"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "На каждой из 4 позиций может стоять 4 буквы, таким образом 4*4*4*4=256\n\nРешение программой:\n\nPythonPascalword = '1234'\nk = 0\nfor x1 in word:\nfor x2 in word:\nfor x3 in word:\nfor x4 in word:\ns = x1 + x2 + x3+ x4\nk += 1\nprint(k)\n\nВторой вариант\n\nfrom itertools import *\n\nk = 0\nfor s in product(\"1234\", repeat = 4):\nk += 1\nprint(k)\n\nbegin\nvar str:='1234';\nvar count:=0;\nforeach var x1 in str do\nforeach var x2 in str do\nforeach var x3 in str do\nforeach var x4 in str do\ncount += 1;\nprint(count);\nend.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2711,
+    "title": "№8 Комбинаторика"
+  },
+  "id": 827,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "256",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID задания: D1868F\nНекоторый алфавит содержит четыре различных символа. Сколько четырехсимвольных слов можно составить из данного алфавита (символы в слове могут повторяться)?",
+      "error_conditions": [],
+      "id": 52387,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

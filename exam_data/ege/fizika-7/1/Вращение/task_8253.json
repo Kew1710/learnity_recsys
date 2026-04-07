@@ -1,0 +1,42 @@
+{
+  "comment": "Найдем линейную скорость по формуле:\n$$v=\\omega R=60\\cdot 0,36=21,6~м/с$$\nОтвет: 21,6 м/c",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2611,
+    "title": "Вращение"
+  },
+  "id": 8253,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "21,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Материальная точка движется по окружности радиусом \\(36\\) см с угловой скоростью \\(1\\) мин\\(^{-1}\\). Определите линейную скорость этой точки. Ответ дайте м/с.",
+      "error_conditions": [],
+      "id": 101707,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 900,
+  "topic": null,
+  "video_link": null
+}

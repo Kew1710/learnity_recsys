@@ -1,0 +1,42 @@
+{
+  "comment": "Площадь одной клетки на плане равна \\(1\\;м^2\\). Отмеченный участок занимает 14 клеток, значит его площадь равна \\(14\\;м^2\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2091,
+    "title": "9.2 Четырёхугольник на квадратной решетке"
+  },
+  "id": 26993,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "",
+      "error_conditions": [],
+      "id": 246632,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2689,
+    "title": "№1 Несимметричные графы"
+  },
+  "id": 23609,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID: OS2201_4\n(Основная волна 2022)\n\nНа рисунке схема дорог Н-ского района изображена в виде графа, в таблице содержатся данные о протяженности дорог между населёнными пунктами (в километрах). Так как таблицу и схему рисовали независимо друг от друга, то нумерация населённых пунктов в таблице никак не связана с буквенными обозначениями на графе.Определите, какова сумма протяженностей дорог из пункта A в пункт C и из пункта E в пункт G.",
+      "error_conditions": [],
+      "id": 243334,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 20,
+    "title": "Графы"
+  },
+  "video_link": null
+}

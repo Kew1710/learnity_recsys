@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: начинаем с самого низкого ранка – вид варан серый – надсемейство варанообразные – ящерицы – класс пресмыкающиеся (рептилии) – подтип позвоночные – тип хордовые",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 16022,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123456",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность систематических групп, начиная с самого низкого ранга.\n- Варан серый\n- Варанообразные\n- Ящерицы\n- Пресмыкающиеся\n- Позвоночные\n- Хордовые",
+      "error_conditions": [],
+      "id": 235929,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

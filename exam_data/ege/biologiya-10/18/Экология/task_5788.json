@@ -1,0 +1,42 @@
+{
+  "comment": "Биокосное вещество – вещество, в создании которого принимают участие живые организмы (почва, ил, воздух атмосферы, прудовые воды).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 5788,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "345",
+          "points": 3
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны. К биокосному веществу биосферы относят\n1) каменный уголь\n2) торф\n3) почву\n4) воздух современной атмосферы\n5) прудовую воду\n6) известняк",
+      "error_conditions": [],
+      "id": 72259,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tvaExnbHnFE?start=1023"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/tvaExnbHnFE?start=1023"
+}

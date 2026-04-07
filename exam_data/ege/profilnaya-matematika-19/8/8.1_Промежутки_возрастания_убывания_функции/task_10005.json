@@ -1,0 +1,45 @@
+{
+  "comment": "Производная положительна в точках, где функция возрастает. Функция возрастает в точках \\(x_1\\), \\(x_3\\), \\(x_4\\), \\(x_5\\), \\(x_8\\). Их количество равно 5.\n\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2412,
+    "title": "8.1 Промежутки возрастания/убывания функции"
+  },
+  "id": 10005,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график функции \\(y=f(x)\\). На оси абсцисс отмечено восемь точек: \\(x_1\\), \\(x_2\\), \\(x_3\\), \\(x_4\\), \\(x_5\\), \\(x_6\\), \\(x_7\\), \\(x_8\\). В ответе укажите количество точек (из отмеченных), в которых производная функции \\(f(x)\\) положительна.",
+      "error_conditions": [],
+      "id": 120887,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/hM8siPFYMl0?start=3456"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/hM8siPFYMl0?start=3456"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Домножим и разделим выражение на 2, далее воспользуемся формулой синуса двойного угла:\n$$5\\sin\\frac{11\\pi}{12}\\cdot \\cos\\frac{11\\pi}{12}=\\frac{5}{2}\\cdot 2\\sin\\frac{11\\pi}{12}\\cdot \\cos\\frac{11\\pi}{12}=\\frac{5}{2}\\sin (2\\cdot \\frac{11\\pi}{12})=\\frac{5}{2}\\sin \\frac{11\\pi}{6}=\\frac{5}{2}\\cdot (-\\frac{1}{2})=-1,25$$\nОтвет: -1,25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 7453,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-1,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(5\\sin\\frac{11\\pi}{12}\\cdot \\cos\\frac{11\\pi}{12}\\).",
+      "error_conditions": [],
+      "id": 98359,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/bO0w6n587V4?start=5128"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/bO0w6n587V4?start=5128"
+}

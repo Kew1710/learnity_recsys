@@ -1,0 +1,42 @@
+{
+  "comment": "Пусть \\(x\\) - количество белых шаров, \\(4x\\) - черных. Тогда всего шаров \\(x + 4x = 5x\\).\nВероятность того, что случайно взятый шар - белый, равна\n$$\\frac{x}{5x} = 0,2$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2079,
+    "title": "5.1 Классическое определение вероятности"
+  },
+  "id": 20823,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В ящике находятся чёрные и белые шары, причём чёрных в 4 раза больше, чем белых. Из ящика случайным образом достали один шар. Найдите вероятность того, что он будет белым.",
+      "error_conditions": [],
+      "id": 240604,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

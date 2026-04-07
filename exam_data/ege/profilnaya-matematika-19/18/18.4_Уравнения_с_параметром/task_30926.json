@@ -1,0 +1,40 @@
+{
+  "comment": "$$a|x+1|+(1-a)|x-1|+2=0$$\nРассмотрим случаи раскрытия модулей:\nТогда наше уравнение равносильно совокупности:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\left[ \\begin{array}{l l} \\begin{cases} x\\leq -1\\\\ a( -x-1) +( 1-a)( -x+1) +2=0 \\end{cases}\\\\ \\begin{cases} -1< x< 1\\\\ a( x+1) +( 1-a)( -x+1) +2=0 \\end{cases}\\\\ \\begin{cases} x\\geq 1\\\\ a( x+1) +( 1-a)( x-1) +2=0 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\leq -1\\\\ -ax-a-x+ax+1-a+2=0 \\end{cases}\\\\ \\begin{cases} -1< x< 1\\\\ ax+a-x+ax+1-a+2=0 \\end{cases}\\\\ \\begin{cases} x\\geq 1\\\\ ax+a+x-1-ax+a+2=0 \\end{cases} \\end{array} \\right. \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\leq -1\\\\ x=-2a+3 \\end{cases}\\\\ \\begin{cases} -1< x< 1\\\\ 2ax-x=-3 \\end{cases}\\\\ \\begin{cases} x\\geq 1\\\\ x=-2a-1 \\end{cases} \\end{array} \\right. \\end{array}$$\nПоработаем с первой системой: \\(\\displaystyle \\begin{cases} x\\leq -1\\\\ x=-2a+3 \\end{cases}\\), найдём, при каких значениях параметра неравенство выполняется:\n$$-2a+3\\leq -1\\Rightarrow -2a\\leq -4\\Rightarrow a\\geq 2$$\nПоработаем со второй системой: \\(\\displaystyle \\begin{cases} -1<x<1\\\\ 2ax-x=-3 \\end{cases}\\). Выразим \\(x\\): \\(x(2a-1)=-3\\), если \\(2a-1=0\\), то получим \\(0=-3\\) неверно, значит:\n$$2a-1\\ne 0\\Rightarrow x=\\frac{-3}{2a-1}$$\nТеперь найдем значения параметра, при которых неравенство выполняется: \\(\\displaystyle \\begin{cases} \\frac{-3}{2a-1} >-1\\\\ \\frac{-3}{2a-1} < 1 \\end{cases}\\)\n$$\\displaystyle \\begin{cases} \\frac{-3+( 2a-1)}{2a-1} >0\\\\ \\frac{-3-( 2a-1)}{2a-1} < 0 \\end{cases} \\Rightarrow \\begin{cases} \\frac{2a-4}{2a-1} >0\\\\ \\frac{-2a-2}{2a-1} < 0 \\end{cases} \\Rightarrow \\begin{cases} \\frac{a-2}{2a-1} >0\\\\ \\frac{a+1}{2a-1} >0 \\end{cases}$$\nСистема имеет решение, при \\(a\\in (-\\infty;-1)\\cup (2;+\\infty)\\)\n\nПоработаем с третьей системой: \\(\\displaystyle \\begin{cases} x\\geq 1\\\\ x=-2a-1 \\end{cases}\\), найдём, при каких значениях параметра неравенство выполняется:\n$$-2a-1\\geq 1\\Rightarrow -2a\\geq 2\\Rightarrow a\\leq -1$$\nИсключим совпадение корней:\n1) Рассматривать корни первой и третьей системы не надо, так как они существуют при разных значениях параметра.\n\n2) Сравним корни первой и второй системы:\n$$\\frac{-3}{2a-1}=-2a+3\\Rightarrow -3=(-2a+3)(2a-1)\\Rightarrow -3=-4a^2+2a+6a-3\\Rightarrow \\\\ \\Rightarrow 4a^2-8a=0\\Rightarrow \\displaystyle \\left[ \\begin{array}{l l} a=0\\\\ a=2 \\end{array} \\right.$$\nОбласти пересечения решений ни одно значение не принадлежит.\n\n3) Сравним корни второй и третьей системы:\n$$\\frac{-3}{2a-1}=-2a-1\\Rightarrow -3=(-2a-1)(2a-1)\\Rightarrow -3=-4a^2+2a-2a+1\\Rightarrow \\\\ \\Rightarrow 4a^2=4\\Rightarrow \\displaystyle \\left[ \\begin{array}{l l} a=-1\\\\ a=1 \\end{array} \\right.$$\nОбласти пересечения решений ни одно значение не принадлежит.\n\nВернемся к совокупности:\n$$\\displaystyle \\left[ \\begin{array}{l l} \\begin{cases} a\\geq 2\\\\ x_1=-2a+3 \\end{cases}\\\\ \\begin{cases} \\left[ \\begin{array}{l l} a< -1\\\\ a >2 \\end{array} \\right.\\\\ x_2=\\frac{-3}{2a-1} \\end{cases}\\\\ \\begin{cases} a\\leq -1\\\\ x_3=-2a-1 \\end{cases} \\end{array} \\right.$$\nОбщее решение:\nИтого:\n\\(a\\in (-\\infty;-1)\\cup (2;+\\infty)\\) – \\(2\\) решения\n\\(a=\\{-1\\}\\cup \\{2\\}\\) – \\(1\\) решение\n\\(a\\in (-1;2)\\) – \\(0\\) решений\n\nНам необходимо \\(2\\) решения, следовательно: \\(a\\in (-\\infty;-1)\\cup (2;+\\infty)\\).\n\nОтвет: \\((-\\infty;-1)\\cup (2;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2493,
+    "title": "18.4 Уравнения с параметром"
+  },
+  "id": 30926,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения \\(a\\), при каждом из которых уравнение\n$$a|x+1|+(1-a)|x-1|+2=0$$\nимеет ровно два различных корня.",
+      "error_conditions": null,
+      "id": 250565,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/TXZ_eIkobJ4?si=wiiqclXZmDtK-Oil&t=6857"
+}

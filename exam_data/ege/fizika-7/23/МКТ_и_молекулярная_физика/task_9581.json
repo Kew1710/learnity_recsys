@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем уравнение Менделеева-Клапейрона для состояния 1:\n$$p_1V_1=\\frac{N_1}{N_A}\\nu RT_1~(1)$$\nДля состояния 2:\n$$p_2V_2=\\frac{N_2}{N_A}\\nu RT_2~(2)$$\nРазделим уравнение 1 на уравнение 2:$$\\frac{p_1}{p_2}\\cdot \\frac{V_1}{V_2}=\\frac{N_1}{N_2}\\cdot \\frac{T_1}{T_2}\\Rightarrow \\frac{N_1}{N_2}=\\frac{p_1}{p_2}\\cdot \\frac{V_1}{V_2}\\cdot \\frac{T_2}{T_1}=\\frac{5}{2}\\cdot \\frac{0,2}{0,5}\\cdot 1,8=1,8$$\nОтвет: 1,8",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2653,
+    "title": "МКТ и молекулярная физика"
+  },
+  "id": 9581,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "234514\nВ сосуде под поршнем находится воздух, переходящий из состояния \\(1\\) в состояние \\(2\\) (см. рисунок). Его абсолютная температура при этом повышается в \\(1,8\\) раз. Между поршнем и стенками сосуда имеется зазор, сквозь который может просачиваться воздух. Рассчитайте отношение \\(\\frac{N_1}{N_2}\\) числа молекул газа в сосуде в начале и конце опыта. Считать, что воздух – идеальный газ.",
+      "error_conditions": null,
+      "id": 115396,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/BEW_101CYbI"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем реакцию: $$^{22}_{11}Na{\\rightarrow} _{Z}^{A}X+^{0}_{-1}\\beta$$\nЗапишем закон сохранения заряда: $$11=Z-1 \\\\ Z=12$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3285,
+    "title": "4.1 Радиоактивность. Альфа-, бета-, гамма-излучения. Реакции альфа- и бета-распада"
+  },
+  "id": 34547,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Радиоактивный изотоп натрия $^{22}_{11}Na$ испытывает $\\beta^{-}$ распад. Чему равно зарядовое число ядра, полученного в результате этого распада?\n\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254186,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

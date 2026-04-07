@@ -1,0 +1,45 @@
+{
+  "comment": "Объемы этих фигур находятся по формулам:\n$$ V_{шар} = {4 \\pi r^3 \\over 3} $$\n$$ V_{цил} = \\pi r^2 h $$\nТак как шар вписан в цилиндр, то их радиусы совпадают, а высота цилиндра равна 2-м радиусам:\n$$ h = 2r \\Rightarrow V_{цил} = 2 \\pi r^3 $$\nИз этих формул легко найти отношение объемов:\n$$ {V_{шар} \\over V_{цил}} = {2 \\over 3} \\Rightarrow V_{цил} = 1,5 \\cdot V_{шар} = 1,5 \\cdot 18 = 27 $$\nОтвет: 27",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 7224,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "27",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Шар, объем которого равен \\(18\\), вписан в цилиндр. Найдите объем цилиндра.",
+      "error_conditions": [],
+      "id": 83336,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=8841"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=8841"
+}

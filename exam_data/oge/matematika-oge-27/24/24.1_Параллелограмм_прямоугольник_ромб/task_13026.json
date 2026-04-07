@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - параллелограмм\nAM - биссектриса \\( \\angle A \\)\nBM - биссектриса \\( \\angle B \\)\nТ. \\( M \\in CD \\)\nДоказать:\nCM=MD\nДоказательство:\n1) \\( \\angle BAM = \\angle AMD\\) - накрест лежащие при AB// CD и секущей АМ\nТ.к. \\( \\angle BAM= \\angle MAD\\) - т.к. AM - биссектриса\n\\( \\Rightarrow \\angle MAD = \\angle AMD \\)\n\\( \\Rightarrow \\triangle ADM \\) - равнобедренный\n\\( \\Rightarrow AD=DM\\)\n2) \\( \\angle ABM = \\angle BMC\\) - накрест лежащие при AB//CD и секущей ВМ\nТ.к. \\( \\angle ABM = \\angle CBM \\) (ВМ - биссектриса)\n\\( \\Rightarrow \\angle CBM = \\angle CMB \\)\n\\( \\triangle CBM\\) - равнобедренный; ВС=СМ\n3) AD=BC (ABCD - параллелограмм)\n\\( \\Rightarrow AD=BC=CM=MD\\), ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1943,
+    "title": "24.1 Параллелограмм, прямоугольник, ромб"
+  },
+  "id": 13026,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Биссектрисы углов A и B параллелограмма ABCD пересекаются в точке M, лежащей на стороне CD. Докажите, что M – середина CD.",
+      "error_conditions": null,
+      "id": 175080,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

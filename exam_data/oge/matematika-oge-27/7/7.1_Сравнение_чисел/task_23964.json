@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРазделим 68 на 13\n\\(\\cfrac{68}{13} \\approx 5,23\\)\nРазделим 79 на 13\n\\(\\cfrac{79}{13} \\approx 6,08\\)\nРазделим 82 на 13\n\\(\\cfrac{82}{13} \\approx 6,31\\)\nРазделим 89 на 13\n\\(\\cfrac{89}{13} \\approx 6,85\\)\nТак, отрезку \\([5; 6]\\) принадлежит число \\(\\cfrac{68}{13}\\)\nОтвет: 1",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23964,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какое из данных чисел принадлежит …",
+      "error_conditions": [],
+      "id": 243679,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

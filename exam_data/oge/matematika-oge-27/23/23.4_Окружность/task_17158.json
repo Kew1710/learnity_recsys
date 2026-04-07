@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\n\\(\\angle B=73^o \\)\n\\( \\angle C=77^o \\)\nR = 9\nBC-?\nРешение:\n1) \\(\\angle A= 180-(\\angle B +\\angle C)=180-(73+77)=30^o \\)\n2) По теореме синусов:\n\\( \\cfrac{BC}{\\sin{A}}=2R \\)\n\\( BC=2R \\cdot \\sin{A}=2 \\cdot 9 \\cdot \\cfrac{1}{2}=9\\)\nОтвет: 9",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2013,
+    "title": "23.4 Окружность"
+  },
+  "id": 17158,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Углы B и C треугольника ABC равны соответственно 73° и 77°. Найдите BC, если радиус окружности, описанной около треугольника ABC, равен 9.",
+      "error_conditions": null,
+      "id": 237046,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

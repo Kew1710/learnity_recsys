@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{5^{24}}{5^{22}}=5^2=25$$\nОтвет: 25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 7340,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\((5^4)^6:5^{22}\\).",
+      "error_conditions": [],
+      "id": 83976,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6000"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6000"
+}

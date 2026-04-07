@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nНайдем, сколько метров пролетит камень за первые четыре секунды\n\\(S_n = \\cfrac{2 \\cdot a_1 + d(n-1)}{2} \\cdot n\\)\n\\(S_{4} = \\cfrac{2 \\cdot 11 + 10(4-1)}{2} \\cdot 4 = \\cfrac{52 \\cdot 4}{2} =104\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1970,
+    "title": "14.1 Арифметическая прогрессия"
+  },
+  "id": 20051,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "104",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Камень бросают в глубокое ущелье. При этом в первую секунду он пролетает 11 метров, а в каждую следующую секунду на 10 метров больше, чем в предыдущую, до тех пор, пока не достигнет дна ущелья. Сколько метров пролетит камень за первые четыре секунды?",
+      "error_conditions": [],
+      "id": 239879,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

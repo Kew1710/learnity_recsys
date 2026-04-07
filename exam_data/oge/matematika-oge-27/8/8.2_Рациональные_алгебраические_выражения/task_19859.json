@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{(5^2)^{-8}}{5^{-18}} = \\cfrac{5^{-16}}{5^{-18}} = 5^{-16+18} = 5^2 = 25 \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1957,
+    "title": "8.2 Рациональные алгебраические выражения"
+  },
+  "id": 19859,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\cfrac{(5^2)^{-8}}{5^{-18}}\\) .",
+      "error_conditions": [],
+      "id": 239697,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 49,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

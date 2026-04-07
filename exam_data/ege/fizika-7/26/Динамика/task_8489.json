@@ -1,0 +1,37 @@
+{
+  "comment": "$$\\alpha =\\frac{\\beta}{2}=70^\\circ$$\nПо второму закону Ньютона в проекции на ось:\n$$Oy:N\\sin\\alpha -mg+F_{тр}\\cos\\alpha =0~(1)\\\\ Ox:-N\\cos\\alpha +F_{тр}\\sin\\alpha =ma_ц~(2)$$\nСила трения:\n$$F_{тр}=\\mu N~(3)$$\nПодставим (3) в (1):\n$$N\\sin\\alpha -mg+\\mu N\\cos\\alpha =0\\Rightarrow N(\\sin\\alpha +\\mu\\cos\\alpha )=mg~(4)$$\nПодставим (3) в (2):\n$$-N\\cos\\alpha +\\mu N\\sin\\alpha =ma_ц\\Rightarrow N(\\mu \\sin\\alpha -\\cos\\alpha )=ma_ц~(5)$$\nЦентростремительное ускорение:\n$$a_ц=\\omega^2R$$\nНайдем \\(R\\) из прямоугольного треугольника:\n$$\\sin\\alpha =\\frac{R}{l}\\Rightarrow R=l\\sin\\alpha ,$$\nтогда\n$$a_ц=\\omega^2l\\sin\\alpha~(6)$$\nПоделим (5) на (4):\n$$\\frac{\\mu\\sin\\alpha -\\cos\\alpha}{\\sin\\alpha +\\mu\\cos\\alpha}=\\frac{a_ц}{g}\\Rightarrow a_ц=g\\frac{\\mu\\sin\\alpha -\\cos\\alpha}{\\sin\\alpha +\\mu\\cos\\alpha}~(7)$$\nПодставим (6) в (7):\n$$\\omega^2l\\sin\\alpha =g\\frac{\\mu\\sin\\alpha -\\cos\\alpha}{\\sin\\alpha +\\mu\\cos\\alpha}\\Rightarrow l=\\frac{g}{\\omega^2\\sin\\alpha}\\cdot \\frac{\\mu\\sin\\alpha -\\cos\\alpha}{\\sin\\alpha +\\mu\\cos\\alpha}=\\frac{10}{5^2\\sin 70^\\circ}\\cdot \\frac{0,78\\sin 70^\\circ -\\cos 70^\\circ}{\\sin 70^\\circ +0,78\\cos 70^\\circ}\\approx 0,138~м$$\n\nОбоснование:\n- Рассмотрим систему отсчёта, связанную с землей. Будем считать её инерциальной (ИСО)\n- Так как размер тела мал то используем модель материальной точки\n- В ИСО используем второй закон Ньютона для материальной точки\n- Так как угловая скорость максимальная, то \\(F_{тр}=\\mu N\\), но тело не движется\n\nОтвет: 0,138 м",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 8489,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Полый конус, обращенный вершиной вверх, вращается вокруг оси симметрии. На его наружной шероховатой поверхности, на расстоянии \\(l\\) от вершины, находится монета. Максимальная угловая скорость вращения конуса, при которой монета не слетит с его поверхности, \\(\\omega =5~ рад/с\\), коэффициент трения между монетой и поверхностью конуса \\(\\mu =0,78\\). Определите, на каком расстоянии от вершины конуса находится монета, если угол при его вершине \\(\\beta =140^\\circ\\). Обоснуйте применимость использованных законов.",
+      "error_conditions": null,
+      "id": 102839,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/akizWzpfoIM"
+}

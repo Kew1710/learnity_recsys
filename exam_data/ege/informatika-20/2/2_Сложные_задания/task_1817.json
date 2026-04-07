@@ -1,0 +1,45 @@
+{
+  "comment": "PascalPythonvar x,y,z,w:boolean;\nFunction F(n:boolean):integer;\nbegin\nIf n = True then\nF:=1\nelse F:=0;\nend;\nbegin\nprintln('x y z w');\nFor x:=false to true do\nFor y:=false to true do\nFor z:=false to true do\nFor w:=false to true do\nif ( (not(x) and not(y)) or (y = z) or w ) = False then\nprintln(F(x),F(y),F(z),F(w));\nend.\n\nprint('x y z w')\nfor x in range(2):\nfor y in range(2):\nfor z in range(2):\nfor w in range(2):\nif( (not(x) and not(y)) or (y == z) or w ) == False:\nprint(x,y,z,w)\n\nПроанализировав обе таблицы получим, про в пропущенные клеточки вставляем нули\nСтолбец с тремя нулями - это w\nСтолбец с одной единицей - это z\nСмотрим на строку где есть одна единица, значит последний столбец будет y, а первый - x\n\nx wz y\\((\\neg x \\wedge \\neg y) \\vee (y\\sim z) \\vee w\\)0 00101010 010010",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2692,
+    "title": "№2 Сложные задания"
+  },
+  "id": 1817,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "xwzy",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID задания: 93333D\nТекст задания: Миша заполнял таблицу истинности функции \\((\\neg x \\wedge \\neg y) \\vee (y\\sim z) \\vee w\\), но успел заполнить лишь фрагмент из трёх различных её строк, даже не указав, какому столбцу таблицы соответствует каждая из переменных w, x, y, z.\n\\((\\neg x \\wedge \\neg y) \\vee (y\\sim z) \\vee w\\) 00101 1 010 10Определите, какому столбцу таблицы соответствует каждая из переменных w, x, y, z.\nВ ответе напишите буквы w, x, y, z в том порядке, в котором идут соответствующие им столбцы (сначала буква, соответствующая первому столбцу; затем буква, соответствующая второму столбцу, и т.д.). Буквы в ответе пишите подряд, никаких разделителей между буквами ставить не нужно.\nПример. Функция задана выражением \\(\\neg x \\vee y\\), зависящим от двух переменных, а фрагмент таблицы имеет следующий вид.\n\\(\\neg x \\vee y\\)010В этом случае первому столбцу соответствует переменная y, а второму столбцу – переменная x. В ответе следует написать yx.",
+      "error_conditions": [],
+      "id": 54939,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 21,
+    "title": "Таблицы истинности"
+  },
+  "video_link": null
+}

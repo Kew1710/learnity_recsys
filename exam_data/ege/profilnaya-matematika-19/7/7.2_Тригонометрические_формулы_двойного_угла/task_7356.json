@@ -1,0 +1,45 @@
+{
+  "comment": "Вынесем общий множитель за скобки и применим формулу косинуса двойного угла:\n$$\\sqrt{2}(1-2\\sin^2(\\frac{15\\pi}{8}))=\\sqrt{2}\\cos (2\\cdot \\frac{15\\pi}{8})=\\sqrt{2}\\cos (\\frac{15\\pi}{4})$$\nДля дальнейших вычислений воспользуемся формулой приведения:\n$$\\sqrt{2}\\cos (4\\pi-\\frac{\\pi}{4})=\\sqrt{2}\\cos (\\frac{\\pi}{4})=\\sqrt{2}\\cdot \\frac{\\sqrt{2}}{2}=1$$\nОтвет: 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 7356,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\sqrt{2}-2\\sqrt{2}\\sin^2(\\frac{15\\pi}{8})\\).",
+      "error_conditions": [],
+      "id": 83992,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6807"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6807"
+}

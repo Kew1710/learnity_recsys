@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: На рисунке изображён фотосинтез. Этот процесс иллюстрирует такой признак живых систем, как обмен веществ.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2508,
+    "title": "Уровни организации и признаки живых систем"
+  },
+  "id": 16711,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "обмен веществ",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Признаки живых систем» и заполните ячейку, вписав соответствующий термин.\nПризнаки живых систем\nИллюстрации примеров\nРазмножение ?",
+      "error_conditions": [],
+      "id": 236618,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$5x+47=8^3\\\\ 5x+47=512\\\\ x=93$$\nОтвет: 93",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2403,
+    "title": "6.5 Логарифмические"
+  },
+  "id": 36280,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "93",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\log_8(5x+47)=3\\).",
+      "error_conditions": [],
+      "id": 255930,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=tXc3x4aDLhc&t=1799s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/watch?v=tXc3x4aDLhc&t=1799s"
+}

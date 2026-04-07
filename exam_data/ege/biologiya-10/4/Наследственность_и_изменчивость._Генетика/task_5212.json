@@ -1,0 +1,42 @@
+{
+  "comment": "P: aaBb x Aabb\nG: aB, ab x Ab, ab\nF: 1AaBb : 1aaBb : 1Aabb : 1aabb. Т.е. вероятность появления ребенка ааbb - это ¼ (25%).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 5212,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какова вероятность рождения голубоглазого (а), светловолосого (в) ребенка от брака голубоглазого темноволосого отца с генотипом ааВв и кареглазой светловолосой матери с генотипом Аавв?\nОтвет запишите в виде числа, показывающего искомую вероятность в процентах. Знак % не используйте.",
+      "error_conditions": [],
+      "id": 70600,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/FDv1hdEYPUI?start=133"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/FDv1hdEYPUI?start=133"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Систематические категории растений:\nЦарство (Растения) => Отдел (Покрытосеменные) => Класс (Двудольные) => Семейство (Пасленовые) => Род (Петунья) => Вид (Петунья гибридная).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 6108,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "21534",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите иерархическую последовательность систематических категорий в царстве растений, начиная с наибольшей.\n1) двудольные\n2) покрытосеменные\n3) петунья\n4) петунья гибридная\n5) пасленовые",
+      "error_conditions": [],
+      "id": 72579,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/7DY1qfrrB2A?start=545"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/7DY1qfrrB2A?start=545"
+}

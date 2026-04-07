@@ -1,0 +1,45 @@
+{
+  "comment": "$$27^2=3^{5x+5}\\\\ (3^3)^2=3^{5x+5}\\\\ 3^6=3^{5x+5}$$\nОснования степеней равны, значит, показатели тоже:\n$$6=5x+5\\\\ x=\\frac{1}{5}=0,2$$\nОтвет: 0,2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2404,
+    "title": "6.6 Смешанные"
+  },
+  "id": 3192,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\log_{27}3^{5x+5}=2\\).",
+      "error_conditions": [],
+      "id": 64738,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=2434"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=2434"
+}

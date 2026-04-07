@@ -1,0 +1,42 @@
+{
+  "comment": "При сжигании сероводорода в избытке кислорода образуется оксид серы(IV):\n2H₂S + 3O₂ = 2H₂O + 2SO₂\nСульфит кальция образуется при пропускании сернистого ангидрида в раствор гидроксида кальция:\nSO₂ + Ca(OH)₂ = CaSO₃ + H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 9101,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) O₂ (изб.)\n2) CO₂\n3) Ca(NO₃)₂\n4) Ca(OH)₂\n5) HNO₃ (конц.)",
+      "error_conditions": [],
+      "id": 112836,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Потенциальная энергия маятника:\n$$E=\\frac{kx^2}{2}$$\nСмещение маятника, начиная с момента \\(t=0\\), будет вновь максимально по модулю через половину периода колебаний. В этот момент потенциальная энергия маятника вернется к своему исходному значению.\n$$t=\\frac{T}{2}=\\frac{2,8}{2}=1,4~с$$\nОтвет: 1,4 с",
+  "difficulty": 1,
+  "exam_topic": {
+    "id": 2620,
+    "title": "Колебания"
+  },
+  "id": 15912,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Смещение груза пружинного маятника от положения равновесия меняется с течением времени по закону \\(x=A\\cos(\\frac{2\\pi }{T}t)\\), где период \\(T = 2,8\\) с. Через какое минимальное время, начиная с момента \\(t = 0\\), потенциальная энергия маятника вернется к своему исходному значению? Ответ дайте в с.",
+      "error_conditions": [],
+      "id": 235819,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/NxDULvZhO20?t=527"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/NxDULvZhO20?t=527"
+}

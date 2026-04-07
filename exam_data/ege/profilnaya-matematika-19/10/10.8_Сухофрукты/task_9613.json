@@ -1,0 +1,45 @@
+{
+  "comment": "Сухое вещество одинаковое в изюме и в винограде.\n\n1) \\(100-19=81\\%\\) сухого вещества в изюме\n2) \\(38\\cdot 0,81=30,78\\) сухого вещества должно быть\n3) \\(100-82=18\\%\\) сухого вещества в винограде\n4) \\(30,78 ~кг-18\\%\\)\n\nНайдем 1%:\n$$\\frac{30,78}{18}$$\nНайдем 100%:\n$$\\frac{3078}{18}=171$$\nОтвет: 171",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2435,
+    "title": "10.8 Сухофрукты"
+  },
+  "id": 9613,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "171",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Изюм получается в процессе сушки винограда. Сколько килограммов винограда потребуется для получения 38 килограммов изюма, если виноград содержит 82% воды, а изюм содержит 19% воды?",
+      "error_conditions": [],
+      "id": 116471,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=1969"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=1969"
+}

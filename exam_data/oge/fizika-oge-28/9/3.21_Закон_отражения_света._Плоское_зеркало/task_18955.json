@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРасстояние от зеркала до точки должно быть равно расстоянию от зеркала до изображения этой точки, поэтому выбираем рисунок 4",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3277,
+    "title": "3.21 Закон отражения света. Плоское зеркало"
+  },
+  "id": 18955,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Предмет ABCD отражается в плоском зеркале. На каком из рисунков (1-4) правильно показано изображение A\\(_1\\)B\\(_1\\)C\\(_1\\)D\\(_1\\) этого предмета в зеркале?\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 238793,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/y8RxtAz2geY"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/y8RxtAz2geY"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Рассмотрим вращение относительно точки \\(O\\), по правилу рычага \\(F_1 \\cdot l_1=F_2 \\cdot l_2\\), где \\(F_1=mg\\), \\(F_2=F\\):\n$$mg\\cdot 60~см=F\\cdot 80~см\\\\ F=mg\\frac{6}{8}=\\frac{3}{4}\\cdot 4\\cdot 10=30~Н$$\nОтвет: 30 Н",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2618,
+    "title": "Статика"
+  },
+  "id": 8732,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Мальчик собрался в поход. Он свернул все необходимое в платок, подвесил на легкую деревянную палку длиной \\(1,4\\) м и закинул ее на плечо (см. рисунок). Определите силу, которую мальчику необходимо было приложить к концу этой палки, чтобы удержать систему в равновесии, если суммарный вес его вещей составил \\(4\\) кг, а плечо этой силы \\(80\\) см. Ответ дайте в Н.",
+      "error_conditions": [],
+      "id": 111617,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/rRBhmTGHrc4"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/rRBhmTGHrc4"
+}

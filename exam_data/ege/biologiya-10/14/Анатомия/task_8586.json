@@ -1,0 +1,42 @@
+{
+  "comment": "На рисунке обозначены: 4 - желудок, 5 - поджелудочная железа, 6 - тонкий кишечник.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 8586,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "231121",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между характеристиками и структурами, обозначенными выше цифрами 4, 5, 6; к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\nХарактеристика Орган А. Выделяет трипсиноген\nБ. Основное место всасывание питательных веществ в кровь и лимфу\nВ. Низкий рН\nГ. Расщепление белков до пептидов\nД. Железа смешанной секреции\nЕ. Фермент пепсин\n- 4\n\n2. 5\n3. 6",
+      "error_conditions": [],
+      "id": 103648,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+}

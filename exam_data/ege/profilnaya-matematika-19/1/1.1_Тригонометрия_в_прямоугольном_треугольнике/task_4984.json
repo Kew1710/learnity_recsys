@@ -1,0 +1,45 @@
+{
+  "comment": "$$tgA=\\frac{CB}{AC}=\\frac{5}{12}\\\\ CB=\\frac{5}{2}\\\\ AB=\\sqrt{AC^2+CB^2}\\ (по\\ теореме\\ Пифагора)\\\\ AB=\\sqrt{6^2+2,5^2}=6,5$$\nОтвет: 6,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2372,
+    "title": "1.1 Тригонометрия в прямоугольном треугольнике"
+  },
+  "id": 4984,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(C\\) равен \\(90^{\\circ }, AC=6, tg A=\\frac{5}{12}\\). Найдите \\(AB\\).",
+      "error_conditions": [],
+      "id": 70218,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=1040"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=1040"
+}

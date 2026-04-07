@@ -1,0 +1,42 @@
+{
+  "comment": "Из всех детей Ивана Калиты помимо Ивана Красного (1353–1359 гг.) в Московском княжестве правил Симеон Гордый (1340 -1353 гг.)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3102,
+    "title": "12.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 30745,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "иванкрасный",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Заполните пропуск в схеме.",
+      "error_conditions": [],
+      "id": 250384,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Накопление продуктов обмена веществ и части запасных веществ происходит в вакуоли растительной клетки.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1452,
+    "title": "5. Клетка и организм как биологическая система. (анализ рисунка или схемы)"
+  },
+  "id": 8404,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каким номером на рисунке обозначен органоид, накапливающий продукты обмена веществ клетки?",
+      "error_conditions": [],
+      "id": 102536,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/BRry8BC1gGk"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/BRry8BC1gGk"
+}

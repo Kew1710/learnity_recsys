@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(\\angle OKN=90^\\circ\\) (радиус перпендикулярен касательной).\nПусть \\(\\angle NOK=\\angle \\alpha\\).\n\\(\\angle NCM=2\\gamma\\Rightarrow \\angle NCO=\\angle MCO=\\gamma\\) (\\(CO\\) - биссектриса, так как \\(O\\) - центр вписанной окружности и является точкой пересечения биссектрис).\nВозьмем \\(\\angle NMC=\\beta\\), \\(\\angle AMN=180^\\circ -\\beta\\) (смежный), \\(MO\\) - биссектриса угла \\(AMN\\) (окружность вписана в угол \\(M\\))\n$$\\angle OMN=\\frac{\\angle AMN}{2}=\\frac{{180}^{\\circ}-\\beta}{2}={90}^{\\circ}-\\frac{\\beta}{2}$$\n\\(\\angle MNC=\\varphi \\Rightarrow\\angle KMN={180}^{\\circ}-\\varphi\\), \\(NO\\) - биссектриса.\nОтсюда получаем:\n$$\\angle KNO=\\angle ONM={90}^{\\circ}-\\frac{\\varphi}{2}$$\nУ нас получается, что:\n$$\\varphi+\\beta +2\\gamma =180^\\circ\\Rightarrow \\frac{\\varphi}{2}+\\frac{\\beta}{2}=90^\\circ -\\gamma\\\\ \\angle MON=180^\\circ -(90^\\circ-\\frac{\\beta}{2})-(90^\\circ -\\frac{\\varphi}{2})={180}^{\\circ}-{90}^{\\circ}+\\frac{\\beta}{2}-{90}^{\\circ}+\\frac{\\varphi}{2}=\\frac{\\beta}{2}+\\frac{\\varphi}{2}={90}^{\\circ}-\\gamma\\\\ \\angle KOC={90}^{\\circ}-\\gamma$$\nТогда получается, что \\(\\angle MON=\\angle KOC\\)\n$$\\angle MOC+\\angle CON=\\angle KON+\\angle CON\\Rightarrow\\angle MOC=\\angle KON$$\nЧто и требовалось доказать.\n\nб) Запишем площадь трапеции \\(AMNP\\):\n$$S_{AMNP}=\\frac{MN+AP}{2}\\cdot r=\\frac{2+AO+OP}{2}\\cdot r$$\n\\(\\angle ONM=\\angle NOP\\) (как накрест лежащие), \\(PO=PN\\) (так как углы \\(PON\\) и \\(ONP\\) равны \\(90^\\circ -\\frac{\\varphi}{2}\\))\nОтсюда значит, что треугольник \\(PON\\) - равнобедренный, значит:\n$$PO=PN$$\nТогда:\n$$S_{AMNP}=\\frac{2+AM+PN}{2}\\cdot r=\\frac{(2+6)}{2}\\cdot r=4r\\\\ \\frac{S_{AMNP}}{S_{ABC}}=\\frac{4r}{pr}=\\frac{4}{p}=\\frac{2}{7}\\Rightarrow p=\\frac{4\\cdot 7}{2}=14$$\nГде \\(p\\) – полупериметр треугольника \\(ABC\\). Значит, периметр будет равен:\n$$P_{ABC}=p\\cdot 2=14\\cdot 2=28$$\nОтвет: 28.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2485,
+    "title": "17.5 Вписанная и описанная окружности в треугольниках"
+  },
+  "id": 18380,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружность с центром \\(O\\), вписанная в треугольник \\(ABC\\), касается стороны \\(BC\\) в точке \\(K\\). К этой окружности проведена касательная, параллельная биссектрисе \\(AP\\) треугольника и пересекающая стороны \\(AC\\) и \\(BC\\) в точках \\(M\\) и \\(N\\) соответственно.\nа) Докажите, что \\(\\angle MOC=\\angle NOK\\).\nб) Найдите периметр треугольника \\(ABC\\), если отношение площадей трапеции \\(AMNP\\) и треугольника \\(ABC\\) равно \\(2:7\\), \\(MN = 2, AM+PN = 6\\).",
+      "error_conditions": null,
+      "id": 238222,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=B5hiaZ4zu_o#t=286m32s"
+}

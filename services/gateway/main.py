@@ -12,17 +12,47 @@
   GET  /health
 """
 
+import asyncio
+import os
 import uuid
+import logging
+import time
+from contextlib import asynccontextmanager
 from typing import Optional
 
 import httpx
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import Response, StreamingResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from . import clients
+from . import clients, kafka_producer
+from .kafka_consumer import run_consumer
+from .simulate import router as simulate_router
 from services.clustering.cluster import assign_cluster_for_new_student, save_student_cluster
 
-app = FastAPI(title="Gateway Service")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    await kafka_producer.start()
+    task = asyncio.create_task(run_consumer())
+    yield
+    task.cancel()
+    try:
+        await task
+    except asyncio.CancelledError:
+        pass
+    await kafka_producer.stop()
+
+
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8080")
+
+app = FastAPI(title="Learnity Gateway", lifespan=lifespan)
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.include_router(simulate_router)
+app.mount("/static", StaticFiles(directory="services/gateway/static"), name="static")
+logger = logging.getLogger(__name__)
 
 
 # ---------------------------------------------------------------------------
@@ -87,23 +117,23 @@ async def create_student(req: CreateStudentRequest):
             kcs = await clients.get_all_kcs(http)
             cold_start_result = await clients.cold_start_student(http, student_id, kcs)
             cold_start_mastery = cold_start_result.get("mastery", {})
-        except httpx.HTTPStatusError:
+        except httpx.HTTPStatusError as e:
             # cold_start не критичен — ученик создан, продолжаем без инициализации mastery
-            pass
+            logger.warning("cold_start skipped for student=%s: %s", student_id, e)
 
         # Назначение в A/B эксперимент (50/50)
         try:
             await clients.assign_experiment(http, student_id)
-        except httpx.HTTPStatusError:
-            pass  # не критично
+        except httpx.HTTPStatusError as e:
+            logger.warning("experiment assignment failed for student=%s: %s", student_id, e)
 
         # Назначение кластера по ближайшему центроиду
         try:
             cluster_id = assign_cluster_for_new_student(cold_start_mastery)
             if cluster_id is not None:
                 await save_student_cluster(uuid.UUID(student_id), cluster_id)
-        except Exception:
-            pass  # кластеризация не критична
+        except Exception as e:
+            logger.warning("cluster assignment failed for student=%s: %s", student_id, e)
 
     return result
 
@@ -114,6 +144,7 @@ async def submit_answer(student_id: uuid.UUID, req: SubmitAnswerRequest):
     Главный эндпоинт горячего пути.
     Принимает ответ ученика, обновляет mastery, возвращает следующее задание.
     """
+    started = time.perf_counter()
     async with httpx.AsyncClient(trust_env=False) as http:
 
         # 1. Обновить mastery в Profile
@@ -164,8 +195,8 @@ async def submit_answer(student_id: uuid.UUID, req: SubmitAnswerRequest):
 
             try:
                 await clients.update_bandit_reward(http, student_id, req.task_id, reward)
-            except httpx.HTTPStatusError:
-                pass  # не блокируем основной путь
+            except httpx.HTTPStatusError as e:
+                logger.warning("bandit reward update failed for student=%s task=%s: %s", student_id, req.task_id, e)
 
         # 3. Проверить пороги учебного плана (не критично)
         try:
@@ -174,8 +205,8 @@ async def submit_answer(student_id: uuid.UUID, req: SubmitAnswerRequest):
                 updated_mastery=mastery_update.get("updated_mastery", {}),
                 consecutive_errors=mastery_update.get("consecutive_errors", {}),
             )
-        except httpx.HTTPStatusError:
-            pass
+        except httpx.HTTPStatusError as e:
+            logger.warning("plan threshold check failed for student=%s: %s", student_id, e)
 
         # 4. Получить следующее задание
         try:
@@ -184,6 +215,16 @@ async def submit_answer(student_id: uuid.UUID, req: SubmitAnswerRequest):
             if e.response.status_code == 404:
                 raise HTTPException(status_code=404, detail=e.response.json().get("detail", "No tasks available"))
             raise HTTPException(status_code=502, detail="Retrieval service error") from e
+
+    elapsed_ms = (time.perf_counter() - started) * 1000.0
+    logger.info(
+        "submit_answer completed student=%s task=%s score=%.3f source=%s latency_ms=%.1f",
+        student_id,
+        req.task_id,
+        req.score,
+        req.recommendation_source,
+        elapsed_ms,
+    )
 
     return {
         "mastery_update": mastery_update,
@@ -202,3 +243,19 @@ async def get_next_task(student_id: uuid.UUID, last_subject: Optional[str] = Non
                 raise HTTPException(status_code=404, detail=e.response.json().get("detail", "No tasks available"))
             raise HTTPException(status_code=502, detail="Retrieval service error") from e
     return recommendation
+
+
+# ---------------------------------------------------------------------------
+# Proxy → backend (чтобы integration-test.html не получал CORS)
+# ---------------------------------------------------------------------------
+
+@app.api_route("/backend/{path:path}", methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"])
+async def proxy_backend(path: str, request: Request):
+    url = f"{BACKEND_URL}/{path}"
+    if request.url.query:
+        url += f"?{request.url.query}"
+    body = await request.body()
+    headers = {k: v for k, v in request.headers.items() if k.lower() not in ("host", "content-length", "origin", "referer")}
+    async with httpx.AsyncClient(trust_env=False, timeout=30) as http:
+        resp = await http.request(method=request.method, url=url, content=body, headers=headers)
+    return Response(content=resp.content, status_code=resp.status_code, headers=dict(resp.headers))

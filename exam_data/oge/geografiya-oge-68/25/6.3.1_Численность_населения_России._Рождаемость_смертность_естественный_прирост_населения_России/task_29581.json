@@ -1,0 +1,42 @@
+{
+  "comment": "193 082 человека проживает в Пскове\n496 447 человек проживает в Липецке\n1,567 миллиона человек проживает в Новосибирске",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2979,
+    "title": "6.3.1 Численность населения России. Рождаемость, смертность, естественный прирост населения России"
+  },
+  "id": 29581,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "312",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расположите перечисленные ниже города в порядке увеличения в них численности населения. Запишите в таблицу получившуюся последовательность цифр.\n- Липецк\n- Новосибирск\n- Псков",
+      "error_conditions": [],
+      "id": 249220,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

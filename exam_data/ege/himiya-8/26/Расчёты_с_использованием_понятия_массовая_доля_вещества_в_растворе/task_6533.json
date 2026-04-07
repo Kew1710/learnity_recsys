@@ -1,0 +1,42 @@
+{
+  "comment": "m(15% р-ра) = x г\nm(80% р-ра) = y г\nω(р-ра) = m(в-ва)/m(р-ра)\nω(40% р-ра) = (m₁(в-ва) + m₂(в-ва))/m(40% р-ра)\nm₁(в-ва) = ω • m(15% р-ра) = 0,15x\nm₂(в-ва) = ω • m(80% р-ра) = 0,8y\n0,4 = (0,15x + 0,8y)/650\n(1) 0,15x + 0,8y = 260 г\n(2) x + y = 650 г\nx = 400\ny = 250\nm(15% р-ра) = 400 г",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 6533,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "400",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Вычислите массу 15% раствора уксусной кислоты (в граммах), который нужно смешать с 80% уксусной кислотой для получения 650 г раствора с массовой долей 40%. (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 73619,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Z9Ra2MdipEM?start=5282"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Z9Ra2MdipEM?start=5282"
+}

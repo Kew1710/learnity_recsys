@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nСнизу указано зарядовое число, равное количеству протонов, т.е. ядро этого атома содержит \\(20\\) протонов. Сверху указано массовое число, оно равно суммарному числу нейтронов и протонов, тогда в ядре этого атома содержится \\(44-20=24\\) нейтрона",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3287,
+    "title": "4.3 Состав атомного ядра. Изотопы"
+  },
+  "id": 34544,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Сколько нейтронов содержит ядро изотопа кальция $^{44}_{20}Ca$?\n\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254183,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

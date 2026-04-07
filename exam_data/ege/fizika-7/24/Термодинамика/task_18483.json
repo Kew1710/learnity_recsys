@@ -1,0 +1,37 @@
+{
+  "comment": "Прямая, изображающая процесс 3-1 описывается уравнением:\n$$p_0=cV_0\\\\ p_{23}=p_3=p_2=2cV_0\\Rightarrow p_{23}=2p_0$$\nРабота на участке 2-3 равна площади под графиком:\n$$A_{23}=\\frac{1}{2}\\cdot V_0\\cdot p_0=\\frac{p_0V_0}{2}$$\n1 закон термодинамики для участка 1-2:\n$$Q_{12}=\\Delta U_{12}+A_{12};$$\n\\(A_{12}=0\\), т.к. \\(V=const\\).\n$$\\Delta U_{12}=\\frac{3}{2}(2p_0V_0-p_0V_0)=\\frac{3}{2}p_0V_0\\Rightarrow Q_{12}=\\frac{3}{2}p_0V_0$$\n1 закон термодинамики для участка 2-3:\n$$Q_{23}=A_{23}+\\Delta U_{23}\\\\ A_{23}=2p_0(2V_0-V_0)=2p_0V_0\\\\ \\Delta U_{23}=\\frac{3}{2}(2p_02V_0-2p_0V_0)=3p_0V_0\\\\ Q_{23}=2p_0V_0+3p_0V_0=5p_0V_0$$\nРассмотрим участок 3-1:\nОбъем уменьшается, следовательно, работа газа отрицательна.\n$$p_0V_0=\\nu RT_1\\\\ p_02V_0=\\nu RT_3\\\\ T_1<T_3\\Rightarrow\\Delta U_{31}<0$$\n1 закон термодинамики для участка 3-1:\n$$Q_{31}=\\Delta U_{31}+A_{31}<0\\Rightarrow Q_н=Q_{12}+Q_{23}$$\nКПД определяется по формуле:\n$$\\eta=\\frac{A_{цикла}}{Q_н}=\\frac{\\frac{p_0V_0}{2}}{1,5p_0V_0+5p_0V_0}=\\frac{0,5}{1,5+5}=7,7\\%$$\nОтвет: 7,7%",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 18483,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23964\nОдноатомный идеальный газ совершает циклический процесс 1-2-3-1, показанный на рисунке ниже. Масса газа постоянна. Найдите КПД цикла.",
+      "error_conditions": null,
+      "id": 238325,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/gFjj8vGD2cQ"
+}

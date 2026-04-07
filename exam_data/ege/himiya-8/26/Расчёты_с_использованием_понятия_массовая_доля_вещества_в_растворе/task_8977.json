@@ -1,0 +1,42 @@
+{
+  "comment": "m₁(соли) = ω₁ • m₁(р-ра) = 0,06 • 150 = 9 г\nω = m(соли)/m(р-ра)\nω = (m₁(соли) + m(соли))/(m₁(р-ра) + m(соли) - m(воды))\nω₂ = (9 + 5)/(150 + 5 - 10) = 14/145 = 0,097\nω₂ = 9,7%",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 8977,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9,7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из 150 г раствора с массовой долей бромида натрия 6% выпарили 10 г воды и добавили 5 г той же соли. Чему равна массовая доля соли в полученном растворе? (Запишите число с точностью до десятых).",
+      "error_conditions": [],
+      "id": 112579,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

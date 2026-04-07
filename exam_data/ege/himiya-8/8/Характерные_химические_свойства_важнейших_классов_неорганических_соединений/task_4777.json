@@ -1,0 +1,42 @@
+{
+  "comment": "А) Взаимодействие кислотного оксида с раствором щелочи:\nCl₂O₇ + 2KOH → 2KClO₄ + H₂O\nБ) Диспропорционирование хлора в горячем водном растворе щелочи:\n3Cl₂ + 6KOH → 5KCl + KClO₃ + 3H₂O (t°)\nВ) Реакция сопропорционирования хлора:\nKClO₃ + 6HCl → 3Cl₂ + KCl + 3H₂O\nГ) Электролиз раствора соли, образованной сильным основанием и бескислородной кислотой:\n2KCl + 2H₂O → H₂ + Cl₂ + 2KOH (электролиз)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 4777,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2345",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТЫ РЕАКЦИИ\nА) Cl₂O₇ + KOH → 1) KClO₃ + H₂OБ) Cl₂ + KOH (р-р) → (t°)2) KClO₄ + H₂OВ) KClO₃ + HCl → 3) KCl + KClO₃ + H₂OГ) KCl + H₂O → (электролиз)4) Cl₂ + KCl + H₂O 5) H₂ + Cl₂ + KOH 6) KOH + HCl",
+      "error_conditions": [],
+      "id": 70006,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=2613"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=2613"
+}

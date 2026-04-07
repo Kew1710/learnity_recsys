@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2717,
+    "title": "№10 Редактор текста"
+  },
+  "id": 27326,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Демо 2024) Определите, сколько раз в тексте главы II повести А.И. Куприна «Поединок» встречается сочетание букв «все» или «Все» только в составе других слов, но не как отдельное слово. В ответе укажите только число.",
+      "error_conditions": [],
+      "id": 246965,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=U5LaEjhEQihXYFJU&t=4490"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 29,
+    "title": "Редактор текста"
+  },
+  "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=U5LaEjhEQihXYFJU&t=4490"
+}

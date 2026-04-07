@@ -1,0 +1,37 @@
+{
+  "comment": "Mg(HCO₃)₂ + H₂SO₄ = MgSO₄ + 2CO₂ + 2H₂O\nMg²⁺ + 2HCO₃⁻ + 2H⁺ + SO₄²⁻ = Mg²⁺ + SO₄²⁻ + 2CO₂ + 2H₂O\nHCO₃⁻ + H⁺ = CO₂ + H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2801,
+    "title": "Реакции ионного обмена"
+  },
+  "id": 1601,
+  "is_obsolete": false,
+  "number": 30,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Для выполнения задания используйте следующий перечень веществ: хромат натрия, серная кислота, силикат калия, гидрокарбонат магния, оксид фосфора(V), нитрит натрия. Допустимо использование водных растворов этих веществ.Из предложенного перечня веществ выберите вещества, между которыми может протекать реакция ионного обмена. В ходе этой реакции выделяется бесцветный газ. Запишите молекулярное, полное и сокращенное ионное уравнения реакции с участием выбранных веществ.",
+      "error_conditions": null,
+      "id": 53936,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/sAsox5Q0qjE?start=6801"
+}

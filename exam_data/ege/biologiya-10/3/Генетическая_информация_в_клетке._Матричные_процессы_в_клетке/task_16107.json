@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение. Яйцеклетка содержит гаплоидный набор хромосом. Эритроциты человека утрачивают ядро в процессе созревания, но НЕЗРЕЛЫЙ эритроцит содержит диплоидное ядро, 46 хромосом.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2511,
+    "title": "Генетическая информация в клетке. Матричные процессы в клетке"
+  },
+  "id": 16107,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "46",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Яйцеклетка человека имеет 23 хромосомы. Сколько хромосом содержит незрелый эритроцит человека?",
+      "error_conditions": [],
+      "id": 236014,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

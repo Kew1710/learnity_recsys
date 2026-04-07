@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРассмотрим \\(\\triangle ABH\\)\n\\(\\angle AHB = 90^o\\) т.к. \\(BH\\) - высота\n\\(\\angle ABH = 180 - 90 - 46 = 44^o\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1973,
+    "title": "15.2 Сумма углов треугольника"
+  },
+  "id": 20129,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "44",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В остроугольном треугольнике ABC проведена высота BH, \\( \\angle BAC=46\\)° . Найдите угол ABH. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 239952,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

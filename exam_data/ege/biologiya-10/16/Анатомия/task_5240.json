@@ -1,0 +1,42 @@
+{
+  "comment": "Последовательность передачи нервного импульса по дуге условного слюноотделительного рефлекса у человека на звонок:\n3) рецепторы слуха\n2) чувствительный нейрон\n1) слуховой центр коры мозга\n4) временная связь\n5) центр слюноотделения\n7) двигательный нейрон\n6) слюнные железы",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 5240,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3214576",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность передачи нервного импульса по дуге условного слюноотделительного рефлекса у человека на звонок.\n1) слуховой центр коры мозга\n2) чувствительный нейрон\n3) рецепторы слуха\n4) временная связь\n5) центр слюноотделения\n6) слюнные железы\n7) двигательный нейрон",
+      "error_conditions": [],
+      "id": 70628,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/FDv1hdEYPUI?start=720"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/FDv1hdEYPUI?start=720"
+}

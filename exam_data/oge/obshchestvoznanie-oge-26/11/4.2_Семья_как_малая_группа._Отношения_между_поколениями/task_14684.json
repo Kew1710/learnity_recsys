@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1781,
+    "title": "4.2 Семья как малая группа. Отношения между поколениями"
+  },
+  "id": 14684,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Верны ли следующие суждения о семье и семейных отношениях?\n\nА. Одна из функций современной семьи – развитие рыночных экономических отношений.\nБ. Семья, представленная двумя-тремя поколениями кровных родственников, называется малой.\n\n1) верно только А\n\n2) верно только Б\n\n3) верны оба суждения\n\n4) оба суждения неверны",
+      "error_conditions": [],
+      "id": 213200,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/pmPVUQFQs_U?start=2811"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pmPVUQFQs_U?start=2811"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "По условию $${Q_н}=4{Q_х}$$\nКПД теплового двигателя:\n$$\\eta =1-\\frac{Q_х}{Q_н}=1-\\frac{Q_х}{4Q_х}=1-\\frac{1}{4}=0,75=75\\%$$\nОтвет: 75%",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9473,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23397\nЧему равен КПД тепловой машины, в которой количество теплоты, полученное от нагревателя, в \\(4\\) раза больше количества теплоты, отданного холодильнику? Ответ дайте в процентах.",
+      "error_conditions": [],
+      "id": 114679,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/SxRQNY3d03o"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/SxRQNY3d03o"
+}

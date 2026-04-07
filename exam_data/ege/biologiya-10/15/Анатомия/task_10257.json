@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 346\nВисочная и лобная кости соединены с теменной неподвижно с помощью шва.\nПозвонки грудного отдела соединены полуподвижно",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10257,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "346",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Какие кости в скелете человека соединяются подвижно?\n\n1) височная и теменная\n2) позвонки грудного отдела\n3) нижняя челюсть с черепом\n4) бедренная и тазовая\n5) лобная и теменная\n6) бедра и голени",
+      "error_conditions": [],
+      "id": 122997,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

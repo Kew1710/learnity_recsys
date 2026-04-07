@@ -1,0 +1,37 @@
+{
+  "comment": "Элементы ответа:\n1) растения занимают первый трофический уровень в агроэкосистеме;\n2) энергию для набора биомассы растения получают из солнечного света;\n3) животные находятся на втором трофическом уровне;\n4) только 10% процентов энергии переходит с одного уровня надругой;\n5) поэтому для того, чтобы прокормить скот, необходимо\nвырастить гораздо больше растений",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2520,
+    "title": "Селекция. Работы Н. И. Вавилова"
+  },
+  "id": 5266,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Объясните, почему выращивать растительные культуры энергетически выгоднее, чем заниматься животноводством?",
+      "error_conditions": null,
+      "id": 70654,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/-TFiwzO2nuY?start=714"
+}

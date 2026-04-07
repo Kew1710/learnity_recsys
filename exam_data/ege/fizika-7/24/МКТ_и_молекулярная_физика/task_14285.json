@@ -1,0 +1,37 @@
+{
+  "comment": "Уравнение Клапейрона-Менделеева до и после нагрева соответственно:\n$$p_1V=\\frac{N_1}{N_A}RT_1$$\n$$p_2V=\\frac{N_2}{N_A}RT_2$$\nПоделим верхнее выражение на нижнее:\n$$\\frac{p_1}{p_2}=\\frac{N_1}{N_2}\\cdot\\frac{T_1}{T_2}$$\n$$\\frac{N_2}{N_1}=\\frac{T_1}{T_2}\\cdot\\frac{p_2}{p_1}$$\nНачальное количество молекул:\n$$N_1=N_0$$\nРаспавшиеся молекулы: \\(\\alpha N_0\\), при распаде их количество: \\(2\\alpha N_0\\)\nНераспавшиеся молекулы: \\(N_0-\\alpha N_0=N_0(1-\\alpha)\\)\nКонечное количество молекул:\n$$N_2=N_0(1-\\alpha)+2\\alpha N_0$$\n$$\\frac{N_0(1-\\alpha)+2\\alpha N_0}{N_0}=\\frac{T_1}{T_2}\\cdot\\frac{p_2}{p_1}$$\n$$1+\\alpha=\\frac{T_1}{T_2}\\cdot\\frac{p_2}{p_1}$$\nДоля распавшихся молекул:\n$$\\alpha=\\frac{T_1}{T_2}\\cdot\\frac{p_2}{p_1}-1=\\frac{1}{12}\\cdot\\frac{60~атм}{4~атм}-1=\\frac{5}{4}-1=0,25$$\nОтвет: 0,25",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2653,
+    "title": "МКТ и молекулярная физика"
+  },
+  "id": 14285,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23872\nВ закрытом баллоне с толстыми стенками под давлением \\(4\\) атм находится кислород при температуре \\(300\\) К. Газ нагревают, увеличивая его температуру в \\(12\\) раз, при этом давление в баллоне увеличивается до \\(60\\) атм и часть молекул распадается на атомы. Чему равна доля распавшихся молекул?",
+      "error_conditions": null,
+      "id": 197270,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/QkGC-mG2WHY"
+}

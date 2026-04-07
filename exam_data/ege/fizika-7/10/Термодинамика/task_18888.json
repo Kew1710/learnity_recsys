@@ -1,0 +1,42 @@
+{
+  "comment": "1) \\(T\\downarrow\\Rightarrow\\Delta U<0\\), \\(V\\downarrow\\Rightarrow A<0\\)\n2) \\(T=const\\Rightarrow\\Delta U=0\\), \\(V\\uparrow\\Rightarrow A>0\\)\n\nОтвет: 31",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 18888,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "31",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "23И416\nГрафик циклического процесса, проведенного с одним молем идеального одноатомного газа, представлен на рисунке. Установите соответствие между участками циклического процесса и изменениями физических величин на этих участках (\\(\\Delta U\\) – изменение внутренней энергии, \\(A\\) – работа газа). К каждой позиции первого столбца подберите соответствующую позицию второго столбца.\nУЧАСТКИ ЦИКЛА\nИЗМЕНЕНИЯ ФИЗИЧЕСКИХ ВЕЛИЧИН\nА) \\(CD\\)\nБ) \\(DA\\)\n1) \\(\\Delta U=0\\), \\(A>0\\)\n2) \\(\\Delta U=0\\), \\(A<0\\)\n3) \\(\\Delta U<0\\), \\(A<0\\)\n4) \\(\\Delta U<0\\), \\(A>0\\)\nА\nБ",
+      "error_conditions": [],
+      "id": 238726,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=M4eEhB0kHyY&t=1127s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/watch?v=M4eEhB0kHyY&t=1127s"
+}

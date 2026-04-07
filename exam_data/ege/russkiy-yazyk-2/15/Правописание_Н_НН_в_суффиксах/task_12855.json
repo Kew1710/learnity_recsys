@@ -1,0 +1,42 @@
+{
+  "comment": "изображена - краткое причастие, Н\nвписана - краткое причастие, Н\nнарисованным - причастие, сов. вид + приставка, НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12855,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется Н.\nНа картине изображе(1)а весёлая деревенская свадьба, пёстрая масса людей удачно вписа(2)а в пейзаж – широкий, с прекрасно нарисова(3)ым высоким голубым небом.",
+      "error_conditions": [],
+      "id": 174039,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

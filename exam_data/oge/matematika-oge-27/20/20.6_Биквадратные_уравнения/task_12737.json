@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\((x^2)^2-(2x-8)^2=0\\)\n\\((x^2-(2x-8))(x^2+(2x-8))=0\\)\n\\((1)x^2-2x+8=0\\) или \\((2)x^2+2x-8=0\\)\n\\((1) x^2-2x+8=0\\)\n\\(D=4-32<0\\) - нет решений\n\\((2) x^2+2x-8=0\\)\n\\(D=4+32=36\\)\n\\(x_1=-4\\)\n\\(x_2=2\\)\nОтвет: \\(-4 ; 2\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2053,
+    "title": "20.6 Биквадратные уравнения"
+  },
+  "id": 12737,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(x^4=(2x-8)^2\\) .",
+      "error_conditions": null,
+      "id": 172537,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

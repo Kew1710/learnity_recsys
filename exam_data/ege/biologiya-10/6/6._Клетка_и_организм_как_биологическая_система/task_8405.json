@@ -1,0 +1,42 @@
+{
+  "comment": "1 - аппарат Гольджи\n2 - хлоропласт\n3 - митохондрия\n4 - гранулярная эндоплазматическая сеть",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1453,
+    "title": "6. Клетка и организм как биологическая система."
+  },
+  "id": 8405,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "431242",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между органоидами клетки и их характеристиками.\nХАРАКТЕРИСТИКИ\nА)   содержит прикреплённые рибосомы\nБ)   обеспечивает аэробное окисление углеводов\nВ)   участвует в модификации белков после синтеза\nГ)   обеспечивает автотрофное питание клетки\nД)  отвечает за первичный синтез белков\nЕ)   содержит хлорофилл\nОРГАНОИДЫ\n1)  1\n2)  2\n3) 3\n4) 4",
+      "error_conditions": [],
+      "id": 102540,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/BRry8BC1gGk"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/BRry8BC1gGk"
+}

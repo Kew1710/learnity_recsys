@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n$$p=\\frac{2}{3}nE_1 $$\n$$E_1=\\frac{3}{2}\\cdot\\frac{p}{n}$$\nДавление увеличилось в \\(2\\) раза, концентрация увеличилась в \\(6\\) раз, следовательно, энергия должна уменьшиться в \\(3\\) раза, чтобы сохранить равенство между частями уравнения.\n$$2\\cdot p=\\frac{2}{3}6n\\cdot E_2$$\n$$E_2=\\frac{1}{3}\\cdot\\frac{3}{2}\\cdot\\frac{p}{n}$$\n$$E_2=\\frac{1}{3}\\cdot E_1$$\nОтвет:\\(3\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2625,
+    "title": "МКТ"
+  },
+  "id": 8467,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задание 18869\nКонцентрация атомов гелия, находящегося в сосуде под подвижным поршнем, увеличилась в \\(6\\) раз. Давление газа при этом возросло в \\(2\\) раза. Во сколько раз уменьшилась при этом средняя энергия теплового движения атомов гелия?",
+      "error_conditions": [],
+      "id": 102797,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/0jwDgNhv3o0?start=2277"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/0jwDgNhv3o0?start=2277"
+}

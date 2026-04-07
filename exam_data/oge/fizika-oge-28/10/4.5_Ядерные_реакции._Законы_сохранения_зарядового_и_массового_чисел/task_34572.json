@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем закон сохранения массы: $$A+50=255+3\\cdot 1 \\\\ A=208$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3289,
+    "title": "4.5 Ядерные реакции. Законы сохранения зарядового и массового чисел"
+  },
+  "id": 34572,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "208",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Элемент резерфордий можно получить при бомбардировке ядер изотопа X ядрами изотопа титана $^{50}_{22}Ti$ в соответствии с реакцией X+ $^{50}_{22}Ti$ → $^{255}_{104}Rf$ + $3\\cdot ^{1}_{0}n$. Какое массовое число имеет изотоп X?\n\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254211,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

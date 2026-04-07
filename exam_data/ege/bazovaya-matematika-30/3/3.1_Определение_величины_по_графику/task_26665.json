@@ -1,0 +1,42 @@
+{
+  "comment": "На высоте 6,5 км атмосферное давление равно 320 миллиметров ртутного столба.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2074,
+    "title": "3.1 Определение величины по графику"
+  },
+  "id": 26665,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "320",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На графике изображена зависимость атмосферного давления от высоты над уровнем моря. На горизонтальной оси отмечена высота над уровнем моря в километрах, на вертикальной — давление в миллиметрах ртутного столба.\nОпределите по графику, чему равно атмосферное давление на высоте 6,5 км. Ответ дайте в миллиметрах ртутного столба.",
+      "error_conditions": [],
+      "id": 246304,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

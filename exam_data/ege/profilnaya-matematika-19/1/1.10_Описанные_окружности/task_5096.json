@@ -1,0 +1,45 @@
+{
+  "comment": "$$Так\\ как\\ четырехугольник\\ вписан\\ в\\ окружность,\\ сумма\\ его\\ противоположных\\ углов\\ равна\\ \\ 180^{\\circ }$$\n$$\\angle BAD+\\angle BCD=180^\\circ\\\\ 136^\\circ+\\angle BCD=180^\\circ\\\\ \\angle BCD=44^\\circ$$\nОтвет: 44",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2381,
+    "title": "1.10 Описанные окружности"
+  },
+  "id": 5096,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "44",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Четырехугольник \\(ABCD\\) вписан в окружность. Угол \\(BAD\\) равен \\(136^{\\circ }\\). Найдите угол \\(BCD\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 70484,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=3900"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=3900"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Электроемкости конденсаторов в начальный момент времени: $$C_1=\\frac{\\varepsilon \\varepsilon_0 S}{d}=C$$ $$C_2=\\frac{2\\varepsilon \\varepsilon_0 S}{d}=2C$$\nЗаряды в начале равны:\n$$q_1=C_1U_0\\\\ q_2=C_2U_0$$\nЗаряды после замыкания ключа равны:\n$$q'_1=C_1U_к$$ $$q'_2=C_2U_к$$ \\(U_к\\) - напряжение после замыкания ключа\nЗапишем ЗСЗ:\n$$q_1+q_2=q'_1+q'_2\\Rightarrow C_1U_0+C_2U_0=C_1U_к+C_2U_к$$\nЭлектроемкость второго конденсатора в конце:\n$$C'_2=\\frac{\\varepsilon_0S}{d}=\\frac{C}{\\varepsilon}$$\nПодставим емкости конденсаторов:\n$$CU_0+2CU_0=CU_к+\\frac{C}{\\varepsilon}U_к\\\\ 3CU_0=CU_к\\left (1+\\frac{1}{\\varepsilon}\\right )\\Rightarrow U_к=\\frac{3U_0}{1+\\frac{1}{\\varepsilon}}$$\nОтвет: \\(U_к=\\frac{3U_0}{1+\\frac{1}{\\varepsilon}}\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 9778,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23524\nПлоские конденсаторы с одинаковыми геометрическими параметрами \\(C_1~и~C_2\\) были соединены параллельно и заряжены до напряжения \\(U\\). Конденсаторы отключили от источника, разомкнув ключ К (см. рисунок). Пространство между обкладками конденсаторов заполнено жидкими диэлектриками с диэлектрическими проницаемостями \\(\\varepsilon\\) и 2\\(\\varepsilon\\) соответственно. Найдите разность потенциалов между обкладками, если из правого конденсатора вытечет диэлектрик.",
+      "error_conditions": null,
+      "id": 118388,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/SkUSUFVcAXw"
+}

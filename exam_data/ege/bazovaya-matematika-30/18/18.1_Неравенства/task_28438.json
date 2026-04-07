@@ -1,0 +1,42 @@
+{
+  "comment": "Вспомним, что у логарифмов есть ограничения. Для всех неравенств они одинаковые: \\(x>0\\) (*). Но пригодятся они только для тех неравенств, у которых ответ получился со знаком “\\(<\\)” (противоположным знаку неравенства из (*)).\nРассмотрим каждое неравенство:\nА) \\(\\log_2 x > 1 \\Leftrightarrow x > 2\\). Следовательно, А - 4.\nБ) \\(\\log_2 x < -1 \\Leftrightarrow \\left\\{ \\begin{gathered} x < \\frac{1}{2}\\\\x>0\\\\\\end{gathered}\\right.\\). Следовательно, Б - 1.\nВ) \\(\\log_2 x > -1 \\Leftrightarrow x > \\frac{1}{2}\\). Следовательно, В - 2.\nГ) \\(\\log_2 x < 1 \\Leftrightarrow \\left\\{ \\begin{gathered} x < 2\\\\x>0\\\\\\end{gathered}\\right.\\). Следовательно, Г - 3.\nОтвет: 4123.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2127,
+    "title": "18.1 Неравенства"
+  },
+  "id": 28438,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каждому из четырёх неравенств в левом столбце соответствует одно из решений в правом столбце. Установите соответствие между неравенствами и их решениями.\nНЕРАВЕНСТВА\nРЕШЕНИЯ\nА) \\(\\log_2 x > 1\\)\nБ) \\(\\log_2 x < −1\\)\nВ) \\(\\log_2 x > −1\\)\nГ) \\(\\log_2 x < 1\\)1) \\(0 < x < \\frac{1}{2}\\)\n2) \\(x > \\frac{1}{2}\\)\n3) \\(0 < x < 2\\)\n4) \\(x > 2\\)Для каждого неравенства укажите соответствующий номер решения.",
+      "error_conditions": [],
+      "id": 248077,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

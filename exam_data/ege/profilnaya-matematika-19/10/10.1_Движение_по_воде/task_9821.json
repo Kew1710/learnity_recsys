@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(х\\) - скорость течения реки, тогда скорость баржи по течению равна \\(8+x\\), а скорость баржи против течения равна \\(8-x\\).\nСоставим таблицу:\n\\(S\\)\n\\(v\\)\n\\(t\\)\nПо течению\\(30\\)\n\\(8+x\\)\n\\(\\frac{30}{8+x}\\)\nПротив течения\\(30\\)\n\\(8-x\\)\n\\(\\frac{30}{8-x}\\)\nВремя движения равно 8 часов, тогда:\n$$\\frac{30}{8+x}+\\frac{30}{8-x}=8\\\\ x=2$$\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2428,
+    "title": "10.1 Движение по воде"
+  },
+  "id": 9821,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Баржа в 10:00 вышла из пункта А в пункт В, расположенный в 30 км от А. Пробыв в пункте В 4 часа, баржа отправилась назад и вернулась в пункт А в 22:00 того же дня. Определите (в км/ч) скорость течения реки, если известно, что собственная скорость баржи равна 8 км/ч.",
+      "error_conditions": [],
+      "id": 119725,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=7265"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=7265"
+}

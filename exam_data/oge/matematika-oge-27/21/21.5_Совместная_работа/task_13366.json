@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПусть х л/мин пропускает 2 труба\nТогда х-3 л/мин пропускает 1 труба\n\\( \\cfrac{260}{x-3}-\\cfrac{260}{x}=6 \\)\nУмножим на \\( x(x-3) \\neq 0 \\)\n\\( x^2-3x-130=0 \\)\n\\( D=9+4 \\cdot 130= 529 \\)\n\\( x_1=-10\\) - не удовлетворяет условию задачи\n\\( x_2=13\\)\nОтвет: 13 л/мин",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1940,
+    "title": "21.5 Совместная работа"
+  },
+  "id": 13366,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Первая труба пропускает на 3 литра воды в минуту меньше, чем вторая труба. Сколько литров воды в минуту пропускает вторая труба, если резервуар объёмом 260 литров она заполняет на 6 минут быстрее, чем первая труба?",
+      "error_conditions": null,
+      "id": 178268,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

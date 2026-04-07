@@ -1,0 +1,37 @@
+{
+  "comment": ".",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1822,
+    "title": "Математика ОГЭ"
+  },
+  "id": 17451,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В трапеции ABCD боковая сторона AB перпендикулярна основанию BC. Окружность проходит через точки C и D и касается прямой AB в точке E. Найдите расстояние от точки E до прямой CD, если AD=8, BC=4.",
+      "error_conditions": null,
+      "id": 237332,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nПродлим стороны \\(AB\\) и \\(CD\\). \\(K\\) - точка пересечения.\n\\(AD=2BC\\), \\(AD||BC\\), как основания трапеции. Значит \\(BC\\) - средняя линия треугольника \\(AKD\\).\nТо есть \\(B\\) и \\(C\\) - середины сторон \\(AK\\) и \\(DK\\).\n\n\\(MB\\) - медиана и высота, значит треугольник \\(AMK\\) равнобедренный, \\(AM=MK\\).\n\n\\(MC\\) - медиана и высота, значит треугольник \\(DMK\\) равнобедренный, \\(DM=MK\\).\n\n\\(AM=DM\\), Ч.т.д.\n\nб) Дополнительное построение: \\(MH\\) - высота треугольника \\(AMD\\). \\(AM=DM\\), значит \\(\\Delta AMD\\) равнобедренный, \\(MH\\) - высота и медиана.\n$$AH=HD=\\frac{AD}{2}$$\nПусть \\(BC=x\\), тогда \\(AD=2x\\), \\(AH=HD=MH=x\\).\nТреугольники \\(AMH\\) и \\(DMH\\) равнобедренный и прямые, значит углы при основании равны 45.\n$$\\angle MAD=\\angle MDA=45\\\\ \\angle MDC=\\angle MDK−\\angle MDA=50−45=5$$\nТреугольник \\(DMK\\) равнобедренный, \\(\\angle MDC=\\angle MKD=5\\).\nТреугольник \\(AMK\\) равнобедренный, \\(\\angle KAM=\\angle AKM\\).\n\nСумма углов треугольника равна 180:\n$$\\angle MAD+\\angle MDA+\\angle MDC+\\angle MKD+\\angle KAM+\\angle AKM=180\\\\45+45+5+5+2\\cdot\\angle KAM=180\\\\ \\angle KAM=40\\\\ \\angle BAD=\\angle KAM+\\angle MAD=40+45=85$$\nОтвет: 85.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2486,
+    "title": "17.6 Трапеция"
+  },
+  "id": 9745,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дана трапеция \\(ABCD\\) с основаниями \\(AD\\) и \\(BC\\), причем \\(AD=2BC\\) и точка \\(M\\) внутри трапеции, такая, что \\(\\angle ABM=\\angle DCM=90\\).\nа)  Докажите, что \\(AM=DM\\).\nб)  Найдите угол \\(BAD\\), если угол \\(CDA\\) равен \\(50^\\circ\\), а высота, проведённая из точки \\(M\\) к \\(AD\\), равна \\(BC\\).",
+      "error_conditions": null,
+      "id": 117482,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/Z04_3slgGM4"
+}

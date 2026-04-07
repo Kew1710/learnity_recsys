@@ -1,0 +1,40 @@
+{
+  "comment": "а) Пусть \\(AB\\cap DC=S\\), \\(BH\\cap EC=K\\), \\(ED\\cap AH=L\\).\nПусть \\(BC\\) - меньшее основание. Продлим \\(AB\\) и \\(CD\\) до пересечения в точке \\(S\\). По условию \\(EC\\bot SD\\) и \\(AH\\bot SD\\), следовательно,\n$$EC||AH$$\nРассмотрим \\(\\Delta SCE\\), \\(\\Delta SBC\\), \\(\\Delta SHE\\), \\(\\Delta SAD\\), они подобны по \\(2\\)-ум углам \\(\\angle S\\) - общий и углы по \\(90^\\circ\\), следовательно:\n$$\\frac{SC}{SE}=\\frac{SH}{SA}=\\frac{SB}{SC}=\\frac{SA}{SD}$$\nВозьмём отношение:\n$$\\frac{SC}{SE}=\\frac{SA}{SD}\\Rightarrow SE=\\frac{SD\\cdot SC}{SA}$$\nРассмотрим: \\(\\frac{SB}{SE}=SB\\):\n$$\\frac{SD\\cdot SC}{SA}=\\frac{SB\\cdot SA}{SD\\cdot SC}~(1)$$\nВыберем отношение \\(\\frac{SH}{SA}=\\frac{SB}{SC}\\Rightarrow SB=\\frac{SH\\cdot SC}{SA}\\), подставим в \\((1)\\).\n$$\\frac{SB\\cdot SA}{SD\\cdot SC}=\\frac{SA}{SD\\cdot SC}\\cdot\\frac{SH\\cdot SC}{SA}=\\frac{SH}{SD}, получили~\\frac{SB}{SE}=\\frac{SH}{SD}$$\nТогда рассмотрим \\(\\Delta SBH\\) и \\(\\Delta SED\\), они подобны по отношению \\(\\frac{SB}{SE}=\\frac{SH}{SD}\\) и общему углу \\(\\angle S\\).\nЗначит, что \\(\\angle SHB=\\angle SDE\\) - эти углы соответственные при прямых \\(BH\\) и \\(ED\\), так как они равны, то \\(BH||ED\\), ч.т.д.\n\nб)\n\\(\\angle BCD=135^\\circ\\), тогда \\(\\angle SDA=45^\\circ\\).\nПолучили, что \\(\\Delta SAD\\) - равнобедренный.\n\\(AH\\) - высота и медиана, тогда \\(SH=AH=DH\\). Получим, что \\(\\frac{SH}{SD}=\\frac{1}{2}\\).\nВспомним, что \\(\\Delta SBH\\) и \\(\\Delta SED\\) подобны.\n$$\\frac{SB}{SE}=\\frac{SH}{SD}=\\frac{1}{2}, т.е. \\frac{BH}{ED}=\\frac{1}{2}$$\nОтвет: \\(\\frac{1}{2}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2486,
+    "title": "17.6 Трапеция"
+  },
+  "id": 34732,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дана трапеция \\(ABCD\\) с боковой стороной \\(AB\\), которая перпендикулярна основаниям. Из точки \\(A\\) на сторону \\(CD\\) опущен перпендикуляр \\(AH\\). На стороне \\(AB\\) взята точка \\(E\\) так, что прямые \\(CE\\) И \\(CD\\) перпендикулярны.\nа) Докажите, что прямые \\(BH\\) и \\(ED\\) параллельны.\nб) Найдите отношение \\(BH\\) и \\(ED\\), если \\(\\angle BCD=135^\\circ\\).",
+      "error_conditions": null,
+      "id": 254371,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=hWlw6PSMteQVcHAI&t=5155"
+}

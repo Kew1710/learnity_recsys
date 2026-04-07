@@ -1,0 +1,37 @@
+{
+  "comment": "Период обращения частицы равен:\n$$T=\\frac{2\\pi R}{v}$$\nРаспишем период для каждой частицы:\n$$T_1=\\frac{2\\pi R_1}{v_1}~(1)\\\\ T_2=\\frac{2\\pi R_2}{v_2}~(2)$$\nПо определению импульса:\n$$p=mv$$\nПо условию импульсы частиц равны, тогда:\n$$\\frac{v_2}{v_1}=\\frac{1}{4}~(3)$$\nПоделим \\(2\\) на \\(1\\):\n$$\\frac{T_2}{T_1}=\\frac{2\\pi R_2}{v_2}\\cdot\\frac{v_1}{2\\pi R_1}=\\frac{R_2}{R_1}\\cdot\\frac{v_1}{v_2}=\\frac{1}{2}\\cdot 4=2$$\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 5668,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание D798EB\nДве частицы с отношением масс \\(\\frac{m_1}{m_2}=4\\) движутся в однородных магнитных полях, перпендикулярных их скоростям: первая – в поле с индукцией \\(\\vec{B_1}\\); вторая – в поле с индукцией \\(\\vec{B_2}\\). Найдите отношение времен \\(\\frac{T_2}{T_1}\\), затраченных частицами на один оборот, если их импульсы одинаковы, а отношение радиусов траекторий \\(\\frac{R_2}{R_1}=\\frac{1}{2}\\).",
+      "error_conditions": null,
+      "id": 72034,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

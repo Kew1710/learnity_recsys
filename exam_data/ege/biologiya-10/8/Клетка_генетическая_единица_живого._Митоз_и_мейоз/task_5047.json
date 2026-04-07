@@ -1,0 +1,42 @@
+{
+  "comment": "Правильная последовательность:\n4) конденсация хромосом\n2) прикрепление микротрубочек к кинетохорам\n3) хромосомы выстраиваются на экваторе\n1) укорачивание нитей веретена деления\n5) цитокинез",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2512,
+    "title": "Клетка — генетическая единица живого. Митоз и мейоз"
+  },
+  "id": 5047,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42315",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность этапов митоза. Запишите в таблицу соответствующую последовательность цифр.\n1) укорачивание нитей веретена деления\n2) прикрепление микротрубочек к кинетохорам\n3) хромосомы выстраиваются на экваторе\n4) конденсация хромосом\n5) цитокинез",
+      "error_conditions": [],
+      "id": 70301,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/vrxhAYdDauo?start=405"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/vrxhAYdDauo?start=405"
+}

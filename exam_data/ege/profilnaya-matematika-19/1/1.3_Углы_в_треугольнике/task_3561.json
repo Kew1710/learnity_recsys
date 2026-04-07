@@ -1,0 +1,45 @@
+{
+  "comment": "Из четырехугольника \\(ADOE\\):\n$$\\angle DOE=360^{\\circ }-90^{\\circ }-90^{\\circ }-50^{\\circ }=130^{\\circ }$$\nОтвет: 130",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2374,
+    "title": "1.3 Углы в треугольнике"
+  },
+  "id": 3561,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "130",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(A\\) равен \\(50^{\\circ }\\), углы \\(B\\) и \\(C\\) острые, высоты \\(BD\\) и \\(CE\\) пересекаются в точке \\(O\\). Найдите угол \\(DOE\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 65230,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/ecvvrNJZ_JM?t=6368"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://youtu.be/ecvvrNJZ_JM?t=6368"
+}

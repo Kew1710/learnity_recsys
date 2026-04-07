@@ -1,0 +1,37 @@
+{
+  "comment": "1) KClO₃ = KCl + O₂\n2) 3Fe + 2O₂ = Fe₃O₄\n3) 2Fe₃O₄ + 10H₂SO₄ = 3Fe₂(SO₄)₃ + SO₂ + 10H₂O\n4) Fe₂(SO₄)₃ + 3Na₂CO₃ + 3H₂O = 2Fe(OH)₃ + 3CO₂ + 3Na₂SO₄",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8964,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Хлорат калия нагрели в присутствии катализатора. Выделившийся бесцветный газ прореагировал с раскалённым железом с образованием железной окалины. Твёрдый остаток растворили в необходимом количестве концентрированной серной кислоты, при этом наблюдали выделение газа с резким запахом. К полученному прозрачному раствору добавили раствор карбоната калия и наблюдали образование бурого осадка и выделение газа. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112566,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

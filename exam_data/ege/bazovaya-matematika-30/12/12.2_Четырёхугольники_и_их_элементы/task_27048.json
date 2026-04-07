@@ -1,0 +1,42 @@
+{
+  "comment": "Так как диагонали делят углы пополам, значит они являются биссектрисами. Тогда данный параллелограмм - ромб.\nДиагонали ромба точкой пересечения делятся пополам и образуют прямой угол. Значит \\(AO = \\frac{1}{2} \\cdot AC = \\frac{1}{2} \\cdot 42 = 21\\), \\(OB = \\frac{1}{2} \\cdot DB = \\frac{1}{2} \\cdot 40 = 20\\) и сторону \\(AB\\) можно найти по теореме Пифагора:\n$$AB^2 = AO^2 + OB^2 = 21^2 + 20^2 = 441 + 400 = 841 → AB = 29$$\nУ ромба все стороны равны, поэтому \\(P = 4 \\cdot AB = 4 \\cdot 29 = 116\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2105,
+    "title": "12.2 Четырёхугольники и их элементы"
+  },
+  "id": 27048,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "116",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В параллелограмме \\(ABCD\\) диагонали делят его углы пополам и равны 40 и 42. Найдите периметр параллелограмма \\(ABCD\\).",
+      "error_conditions": [],
+      "id": 246687,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

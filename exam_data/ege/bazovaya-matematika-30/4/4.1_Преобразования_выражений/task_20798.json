@@ -1,0 +1,42 @@
+{
+  "comment": "$$t = 10$$\n$$C = 150 + 11(10 - 5) = 150 + 11 \\cdot 5 = 150 + 55 = 205$$\nОтвет: 205 рублей.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 20798,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "205",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В фирме «Эх, прокачу!» стоимость поездки на такси длительностью меньше 5 минут составляет 150 рублей. Если поездка длится 5 минут или более, то её стоимость (в рублях) рассчитывается по формуле \\(C = 150 + 11(t - 5)\\), где \\(t\\) - длительность поездки, выраженная в минутах \\((t ≥ 5)\\). Пользуясь этой формулой, рассчитайте стоимость 10-минутной поездки. Ответ укажите в рублях.",
+      "error_conditions": [],
+      "id": 240579,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

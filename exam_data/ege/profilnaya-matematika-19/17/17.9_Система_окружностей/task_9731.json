@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(\\angle POC=\\angle PCO\\)\n\nПроведем \\(AP\\)\n\\(AO\\), \\(BO\\), \\(CO\\) – биссектрисы\n\nВ \\(\\triangle{ABC}\\):\n\\(\\angle{A} = 2\\alpha\\), \\(\\angle B=2\\beta\\), \\(\\angle C=2\\gamma\\)\n\nТ.к. \\(AO\\) – часть биссектрисы, то \\(\\angle BAO=\\angle OAC=\\alpha\\),\nАналогично \\(\\angle BCO=\\angle OCA=\\gamma\\) и \\(\\angle ABP=\\angle PBC=\\beta\\)\n\\(\\angle ABP=\\angle ACP\\) (вписанные, опираются на одну дугу \\(АР\\)) \\(\\Rightarrow\\angle ACP=\\beta\\)\n\\(\\angle POC\\) – внешний для \\(\\triangle{BOC}\\), тогда: \\(\\angle POC=\\angle OBC+\\angle OCB=\\gamma+\\beta\\)\nИ \\(\\angle POC=\\angle PCO=\\gamma+\\beta\\) (\\(\\angle PCO=\\angle PCA+\\angle ACO\\)), ч.т.д.\n\nб) Аналогично \\(\\angle PAC=\\angle PBC\\) (вписанные, опираются на одну дугу \\(PC\\))\n\\(\\angle AOP\\) внешний для \\(\\triangle AOB\\)\n$$\\angle AOP=\\angle BAO+\\angle ABO=\\alpha+\\beta \\\\ \\angle PAO=\\angle POA=\\alpha+\\beta \\ \\ (\\angle PAO=\\angle PAC+\\angle CAO)$$\nСледовательно, \\(AP=OP=PC\\) (стороны равнобедренного треугольников \\(APO\\) и \\(OPC\\)).\n\n\\(S_{APC} - ?, \\angle ABC=120^\\circ, R=4\\)\n\n\\(ABCP\\) - вписанный \\(\\Rightarrow \\angle{ABC} + \\angle{APC} = {180}^{\\circ} \\Rightarrow \\angle{APC} = {180}^{\\circ} - \\angle{ABC} = {120}^{\\circ}\\)\n\nПо теореме синусов для \\(\\triangle ACP\\):\n$$\\frac{AC}{2\\sin ABC}=R=4\\\\ AC=4\\cdot 2\\sin{{120}^{\\circ}}=4\\cdot 2\\cdot\\frac{\\sqrt{3}}{2}=4\\sqrt{3}\\\\ \\beta=\\frac{\\angle ABC}{2}=60^{\\circ}\\\\ \\angle PAC=\\angle ACP=\\beta =60^\\circ\\\\ S \\ (равностороннего ~треугольника)=\\frac{1}{2}\\cdot\\alpha^2\\cdot\\sin 60\\\\ S_{APC}=\\frac{1}{2}\\cdot4^2\\cdot\\frac{\\sqrt{3}}{2}=\\frac{\\sqrt{3}\\cdot 16\\cdot 3}{4}=12\\sqrt{3}$$\nОтвет: \\(12\\sqrt{3}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2489,
+    "title": "17.9 Система окружностей"
+  },
+  "id": 9731,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Точка \\(O\\) – центр вписанной в треугольник \\(ABC\\) окружности. Прямая \\(BO\\) вторично пересекает описанную около этого треугольника окружность в точке \\(P\\).\nа) Докажите, что \\(\\angle POC=\\angle PCO\\).\nб) Найдите площадь треугольника \\(APC\\), если радиус окружности, описанной около треугольника \\(ABC\\), равен \\(4\\), а \\(\\angle ABC=120^\\circ\\).",
+      "error_conditions": null,
+      "id": 117468,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/B5hiaZ4zu_o?start=7431"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$((\\frac{5}{2})^{-1})^{\\cos x}+(\\frac{5}{2})^{\\cos x}=2\\\\ (\\frac{5}{2})^{-\\cos x}+(\\frac{5}{2})^{\\cos x}=2$$\nЗамена \\((\\frac{5}{2})^{\\cos x}=t,t>0\\)\n$$\\frac{1}{t}+t=2\\\\ \\frac{1+t^2-2t}{t}=0$$\nТак как \\(t>0\\), то можно избавиться от знаменателя\n$$t^2-2t+1=0\\Leftrightarrow (t-1)^2=0\\Leftrightarrow t=1\\\\ (\\frac{5}{2})^{\\cos x}=1\\Leftrightarrow (\\frac{5}{2})^{\\cos x}=(\\frac{5}{2})^0\\\\ \\cos x=0\\Leftrightarrow x=\\frac{\\pi}{2}+\\pi k,k\\in Z$$\nб) Отберем корни на промежутке \\([-3\\pi;-\\frac{3\\pi}{2}]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$-3\\pi+\\frac{\\pi}{2}=-\\frac{5\\pi}{2}\\\\ -\\frac{3\\pi}{2}$$\nОтвет: {\\(\\frac{\\pi}{2}+\\pi k, k\\in Z\\)}, б) \\(-\\frac{5\\pi}{2}\\); \\(-\\frac{3\\pi}{2}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2456,
+    "title": "13.7 Тригонометрические + показательные"
+  },
+  "id": 10482,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\((\\frac{2}{5})^{\\cos x}+(\\frac{5}{2})^{\\cos x}=2\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([-3\\pi;-\\frac{3\\pi}{2}]\\).",
+      "error_conditions": null,
+      "id": 143539,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

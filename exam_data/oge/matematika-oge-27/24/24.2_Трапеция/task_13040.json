@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - трапеция\nЕВ=ЕА\nДоказать:\n\\( S_{ECD}=\\cfrac{1}{2}S_{ABCD} \\)\nДоказательство:\n1. Проведем \\( HK \\perp BC\\) через т. Е\n2. \\( S_{EBC}=\\cfrac{1}{2}EH \\perp BC\\)\n\\( S_{AED}=\\cfrac{1}{2}EK \\cdot AD \\)\n3.\\( \\triangle EHB \\) и \\( \\triangle AEK \\)\n\\( \\angle HEB = \\angle AEK\\) - вертикальные\nАЕ=ЕВ - по условию\n\\( \\triangle EHB = \\triangle AEK\\) - по гипотенузе и острому углу\n\\( \\Rightarrow EH=EK=\\cfrac{1}{2}HK \\)\n\\( \\Rightarrow S_{EBC}=\\cfrac{1}{2}\\cfrac{1}{2} HK \\cdot BC \\)\n\\( \\Rightarrow S_{AED}=\\cfrac{1}{2}\\cfrac{1}{2} HK \\cdot AD \\)\n\\( S_{EBC}+S_{AED}=\\cfrac{1}{2}\\cfrac{1}{2} HK \\cdot BC=\\cfrac{1}{2}\\cfrac{1}{2} HK \\cdot AD=\\cfrac{1}{2} \\cdot \\cfrac{1}{2}\\cdot HK(BC+AD)=\\cfrac{1}{2}\\cfrac{BC+AD}{2} \\cdot HK=\\cfrac{1}{2}S_{ABCD}\\), ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1944,
+    "title": "24.2 Трапеция"
+  },
+  "id": 13040,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Точка E – середина боковой стороны AB трапеции ABCD. Докажите, что площадь треугольника ECD равна половине площади трапеции.",
+      "error_conditions": null,
+      "id": 175128,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

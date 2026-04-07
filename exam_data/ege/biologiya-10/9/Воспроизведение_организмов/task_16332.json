@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Цифрой 2 на рисунке обозначен процесс переноса мужских половых клеток (спермиев) на женский гаметофит для дальнейшего оплодотворения. Для этого процесса мхам необходимо наличие воды",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2514,
+    "title": "Воспроизведение организмов"
+  },
+  "id": 16332,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каким номером на рисунке обозначена стадия жизненного цикла мха кукушкин лён, для протекания которой необходимо наличие капельной влаги?",
+      "error_conditions": [],
+      "id": 236239,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

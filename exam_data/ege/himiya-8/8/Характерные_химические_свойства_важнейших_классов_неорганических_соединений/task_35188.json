@@ -1,0 +1,42 @@
+{
+  "comment": "А) Взаимодействие активного металла с кислотой-окислителем:\n4Mg + 5H₂SO₄ = 4MgSO₄ + H₂S + 4H₂O\nБ) Взаимодействие основного оксида с кислотой-неокислителем:\nMgO + H₂SO₄ = MgSO₄ + H₂O\nВ) Взаимодействие соли слабой кислоты с более сильной кислотой-неокислителем:\nMg(NO₂)₂ + H₂SO₄ = MgSO₄ + 2HNO₂\nГ) Кислотный гидролиз бинарного соединения:\nMg₃N₂ + 4H₂SO₄ = 3MgSO₄ + (NH₄)₂SO₄",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 35188,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4651",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТЫ РЕАКЦИИ\nA) Mg и H₂SO₄ (конц.)1) MgSO₄ и (NH₄)₂SO₄Б) MgO и H₂SO₄ (разб.)2) MgSO₄ и H₂B) Mg(NO₂)₂ и H₂SO₄ (разб.)3) MgSO₄, N₂ и H₂OГ) Mg₃N₂ и H₂SO₄ (разб.)4) MgSO₄, H₂S и H₂O 5) MgSO₄ и HNO₂ 6) MgSO₄ и H₂O",
+      "error_conditions": [],
+      "id": 254827,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/O-lOInk7drY?t=2827s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/O-lOInk7drY?t=2827s"
+}

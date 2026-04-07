@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2940,
+    "title": "Пищеварительная система"
+  },
+  "id": 27816,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "451263",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность прохождения пищи по пищеварительному тракту человека. Запишите цифры в правильной последовательности в таблицу.\n\n1) пищевод\n2) желудок\n3) толстый кишечник\n4) ротовая полость\n5) глотка\n6) тонкий кишечник",
+      "error_conditions": [],
+      "id": 247455,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

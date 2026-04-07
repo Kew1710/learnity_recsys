@@ -1,0 +1,45 @@
+{
+  "comment": "Так как основания логарифмов одинаковы и они равны, значит и их аргументы равны, то есть:\n$$8-x=5\\Rightarrow x=3$$\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2403,
+    "title": "6.5 Логарифмические"
+  },
+  "id": 34682,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\log_9(8-x)=\\log_95\\).",
+      "error_conditions": [],
+      "id": 254321,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=-9HpdM6vjrXd6XMJ&t=548"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=-9HpdM6vjrXd6XMJ&t=548"
+}

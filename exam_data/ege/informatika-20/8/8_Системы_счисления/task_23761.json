@@ -1,0 +1,45 @@
+{
+  "comment": "slovo = 'АГМНСТУ'\nk = 1\ncount = 0\nflag = 0\nfor x1 in slovo:\nfor x2 in slovo:\nfor x3 in slovo:\nfor x4 in slovo:\nfor x5 in slovo:\nfor x6 in slovo:\ns = x1+x2+x3+x4+x5+x6\nif s[0] != 'А' and s.count('М') == 2 and s.count('У') <= 1 and flag == 0:\nprint(k)\nflag = 1\nbreak\nk += 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 23761,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16824",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2308_4\n(ОСН 2023) Все шестибуквенные слова, составленные из букв M, A, H, Г, У, С, Т, записаны в алфавитном порядке и пронумерованы.\nВот начало списка:\n1. АААААА\n2. ΑΑΑΑΑГ\n3. ΑΑΑΑΑМ\n4. ΑΑΑΑΑН\n5. AAAAAС\n6. ΑΑΑΑΑΤ\n7. АААААУ\nПод каким номером в списке стоит первое слово, которое не начинается с буквы А, содержит только две буквы М и не более одной буквы У?",
+      "error_conditions": [],
+      "id": 243480,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

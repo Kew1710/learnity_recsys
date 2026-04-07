@@ -1,0 +1,42 @@
+{
+  "comment": "Составляем пропорцию:\n1 014 065  — 100%\n677 060  — Х.\nИмеем (677 060· 100) : 1 014 065 =  67%.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2973,
+    "title": "6.4 Хозяйство России"
+  },
+  "id": 29667,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "67",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите долю городского населения (в %) в общей численности населения Астраханской области, если известно, что общая численность её населения на 1 января 2019 г. составляла 1 014 065 человек, а численность городского населения – 677 060 человек. Полученный результат округлите до целого числа.",
+      "error_conditions": [],
+      "id": 249306,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

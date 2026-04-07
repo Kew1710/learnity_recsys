@@ -1,0 +1,37 @@
+{
+  "comment": "Пусть бусинка сместилась вправо на расстояние \\(x\\). Сила Кулона, действующая со стороны левого заряда \\(q\\):\n$$F_{к1}=\\frac{kqQ}{(L+x)^2}~(1)$$\nСила Кулона, действующая со стороны правого заряда \\(q\\):\n$$F_{к2}=\\frac{kqQ}{(L-x)^2}~(2)$$\nПо второму закону Ньютона в проекции на \\(Ox\\):\n$$ma_x=-F_{к2}+F_{к1}~(3)$$\nПодставим (1) и (2) в (3):\n$$ma_x-\\frac{kqQ}{(L+x)^2}+\\frac{kqQ}{(L-x)^2}=0\\\\ ma_x+kqQ(\\frac{1}{(L-x)^2}-\\frac{1}{(L+x)^2})=0\\\\ a_x+\\frac{kqQ}{m}(\\frac{(L+x)^2-(L-x)^2}{(L-x)^2(L+x)^2})=0\\\\ a_x+\\frac{kqQ}{m}(\\frac{L^2+2Lx+x^2-(L^2-2Lx+x^2)}{(L-x)^2(L+x)^2})=0\\\\ a_x+\\frac{kqQ}{m}\\cdot \\frac{4Lx}{(L-x)^2(L+x)^2}=0$$\nТак как малые колебания, то \\(x\\ll L\\Rightarrow L-x\\approx L\\approx L+x\\)\n$$a_x+\\frac{kqQ}{m}\\cdot \\frac{4Lx}{L^4}=0\\\\ a_x+\\frac{4lqQ}{mL^3}x=0$$\nУравнение колебаний:\n$$a_x+\\omega^2x=0\\Rightarrow \\omega^2=\\frac{4kqQ}{mL^3}\\Rightarrow \\omega =\\sqrt{\\frac{4kqQ}{mL^3}}$$\nПериод колебаний:\n$$T\\uparrow =\\frac{2\\pi}{\\omega}=\\frac{2\\pi\\sqrt{mL^3}}{\\sqrt{4kqQ\\downarrow}}$$\nПри уменьшении модуля заряда шарика в 9 раз период колебаний увеличится в 3 раза.\nОтвет: 3",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2630,
+    "title": "Электрическое поле"
+  },
+  "id": 9774,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "21518\nВ центре непроводящего горизонтального стержня длиной \\(2L\\) находится шарик массой \\(m\\), обладающий положительным зарядом \\(Q>0\\). По краям стержня закрепили два одинаковых положительных заряда \\(q>0\\). Шарик совершает колебания относительно положения равновесия, перемещаясь по стержню без трения, период его колебаний \\(T\\). Определите изменение периода колебаний шарика при уменьшении модуля его заряда в \\(9\\) раз.",
+      "error_conditions": null,
+      "id": 117812,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/j5imaj2IlBI"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{российские~спортсмены~кроме~Георгия}{все~спортсмены~кроме~Георгия}=\\frac{6}{25}=\\frac{24}{100}=0,24$$\nОтвет: 0,24",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 4170,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Перед началом первого тура чемпионата по настольному теннису участников разбивают на игровые пары случайным образом с помощью жребия. Всего в чемпионате участвует \\(26\\) теннисистов, среди которых \\(7\\) спортсменов из России, в том числе Георгий Бочкин. Найдите вероятность того, что в первом туре Георгий Бочкин будет играть с каким-либо спортсменом из России.",
+      "error_conditions": [],
+      "id": 66591,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WLZb7XtIGlY?start=2390"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/WLZb7XtIGlY?start=2390"
+}

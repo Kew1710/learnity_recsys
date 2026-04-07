@@ -1,0 +1,42 @@
+{
+  "comment": "Альфа-частица - ядро атома гелия.\n$$^{160}_{75}Am\\rightarrow ^4_2\\alpha+^A_ZY\\\\ 75=2+z\\Rightarrow z=73$$\nОтвет: 73",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3337,
+    "title": "Распады и ядерные реакции"
+  },
+  "id": 13496,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "73",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ВТ18\nВ результате распада из ядра \\(^{160}_{~~75}Am\\) вылетели альфа-частица и ядро \\(^A_ZY\\). Чему равно зарядовое число в полученном ядре?",
+      "error_conditions": [],
+      "id": 179175,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/n1_3ft5xkZw?start=5765"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/n1_3ft5xkZw?start=5765"
+}

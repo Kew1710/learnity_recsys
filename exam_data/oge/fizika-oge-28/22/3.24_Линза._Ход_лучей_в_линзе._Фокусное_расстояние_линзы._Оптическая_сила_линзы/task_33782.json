@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ:\nКапли воды, случайным образом могут попасть на поверхности листьев. Они имеет форму плоско-выпуклой собирающей линзы. Световые лучи, проходя через каплю преломляются. В результате световой поток концентрируется на участках меньших, чем мог бы в отсутствии капли. В результате этого листья растений могут получить ожоги.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3280,
+    "title": "3.24 Линза. Ход лучей в линзе. Фокусное расстояние линзы. Оптическая сила линзы"
+  },
+  "id": 33782,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Огородникам не рекомендуется поливать растения при ярком солнечном свете, так как это может повлечь их ожог. Объясните почему.",
+      "error_conditions": null,
+      "id": 253421,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/uZNH_FkC4Os?si=jdn3HbdGu0x2oRlE&t=1202"
+}

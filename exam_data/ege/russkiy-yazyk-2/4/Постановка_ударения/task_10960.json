@@ -1,0 +1,42 @@
+{
+  "comment": "обзвонИт - от глагола обзвонИть; в личных формах глаголов на Ишь, Ит, Им, Ите\nшофЁр - заимствование из французского языка (а мы знаем, что во французском языке ударение всегда на последний слог)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 913,
+    "title": "Постановка ударения"
+  },
+  "id": 10960,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук. Запишите номера ответов.\n\n- цепОчка\n- обнялАсь\n- обострЁнный\n- обзвОнит\n- шОфер",
+      "error_conditions": [],
+      "id": 147740,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

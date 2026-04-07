@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПусть 1 - это половина пути\nТогда 2 =весь путь\nV(ср)=\\( \\cfrac{S}{t} \\)\nV(ср)=\\( \\cfrac{1+1}{\\cfrac{1}{34}+\\cfrac{1}{51}}=\\cfrac{2}{\\cfrac{34S+51S}{ 34\\cdot 51}}=\\cfrac{2 \\cdot 34 \\cdot 51}{85}=\\cfrac{204}{5}=40,8\\)\nОтвет: 40,8 км/ ч",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1939,
+    "title": "21.4 Средняя скорость"
+  },
+  "id": 13317,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Первую половину трассы автомобиль проехал со скоростью 34 км/ч, а вторую – со скоростью 51 км/ч. Найдите среднюю скорость автомобиля на протяжении всего пути.",
+      "error_conditions": null,
+      "id": 178153,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

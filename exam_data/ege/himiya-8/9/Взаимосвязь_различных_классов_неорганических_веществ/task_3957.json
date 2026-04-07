@@ -1,0 +1,42 @@
+{
+  "comment": "В одну стадию можно получить гидроксид железа(III) по реакции ионного обмена с щелочью:\nFeCl₃ + 3NaOH = Fe(OH)₃↓ + 3NaCl\nПолученный осадок растворяется под действием раствора серной кислоты с образованием соли:\n2Fe(OH)₃ + 3H₂SO₄(разб.) = Fe₂(SO₄)₃ + 6H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 3957,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "31",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) H₂SO₄ (разб.)\n2) NH₄NO₃\n3) Fe(OH)₃\n4) Fe(OH)₂\n5) Fe₂O₃",
+      "error_conditions": [],
+      "id": 66378,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=16621"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=16621"
+}

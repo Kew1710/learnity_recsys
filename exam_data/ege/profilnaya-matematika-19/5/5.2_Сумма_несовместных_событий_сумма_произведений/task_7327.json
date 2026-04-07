@@ -1,0 +1,45 @@
+{
+  "comment": "Вероятность сыграть в ничью\n$$1-0,3-0,3=0,4$$\nВ и В или В и Н или Н и В\n$$0,3\\cdot 0,3+0,3\\cdot 0,4+0,4\\cdot 0,3=0,33$$\nОтвет: 0,33",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2396,
+    "title": "5.2 Сумма несовместных событий (сумма произведений)"
+  },
+  "id": 7327,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,33",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Чтобы пройти в следующий круг соревнований, футбольной команде нужно набрать хотя бы \\(4\\) очка в двух играх. Если команда выигрывает, она получает \\(3\\) очка, в случае ничьей – \\(1\\) очко, если проигрывает – \\(0\\) очков. Найдите вероятность того, что команде удастся выйти в следующий круг соревнований. Считайте, что в каждой игре вероятности выигрыша и проигрыша одинаковы и равны \\(0,3\\).",
+      "error_conditions": [],
+      "id": 83843,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/DwSX_wHVsps?start=5971"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 5,
+    "title": "Сложная вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/DwSX_wHVsps?start=5971"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Суммы длин противоположных сторон четырехугольника равны, так как в него вписана окружность (по условию):\n$$AB+CD=BC+AD=12+15=27\\\\ l-средняя~линия\\\\ l=\\frac{BC+AD}{2}=\\frac{27}{2}=13,5$$\nОтвет: 13,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2380,
+    "title": "1.9 Вписанные окружности"
+  },
+  "id": 3421,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Боковые стороны трапеции, описанной около окружности, равны \\(12\\) и \\(15\\). Найдите среднюю линию трапеции.",
+      "error_conditions": [],
+      "id": 65090,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=679"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=679"
+}

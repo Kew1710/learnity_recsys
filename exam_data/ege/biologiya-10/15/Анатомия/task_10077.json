@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 256\nПояснение: Сальные железы, потовые и молочные относятся к экзокринным железам (железам внешней секреции). Остальные структуры не выполняют секреторную функцию.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10077,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "256",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны. Какие структуры кожи выполняют секреторную функцию?\n1) корни волос\n2) сальные железы\n3) роговой слой клеток\n4) мышечные волокна\n5) потовые железы\n6) молочные железы",
+      "error_conditions": [],
+      "id": 121883,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{a^{14} \\cdot (b^4)^3}{(a \\cdot b)^{12}} = \\cfrac{a^{14} \\cdot b^{12}}{a^{12} \\cdot b^{12}} = a^{14-12} = a^2\\)\nПодставим \\(a=3\\)\n\\(3^2 = 9\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1957,
+    "title": "8.2 Рациональные алгебраические выражения"
+  },
+  "id": 19589,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\cfrac{a^{14} \\cdot (b^4)^3}{(a \\cdot b)^{12}}\\) при \\(a=3, b=\\sqrt{3}\\) .",
+      "error_conditions": [],
+      "id": 239427,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

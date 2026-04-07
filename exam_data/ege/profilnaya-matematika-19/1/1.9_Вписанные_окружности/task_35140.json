@@ -1,0 +1,45 @@
+{
+  "comment": "Если окружность вписана в ромб, значит, она касается всех его сторон. Пусть \\(L\\) – точка касания окружностью стороны \\(DC\\), а \\(K\\) – точка касания окружностью стороны \\(AB\\).\n\nТак как радиус окружности, проведённый в точку касания, перпендикулярен касательной, то \\(\\angle OLC=90^\\circ\\) и \\(\\angle OKA=90^\\circ\\). \\(ABCD\\) – ромб, значит, \\(AB||DC\\). \\(LO\\bot DC\\), \\(OK\\bot AB\\) и \\(AB||DC\\), тогда точки \\(L\\), \\(K\\) и \\(O\\) лежат на одной прямой, то есть \\(LK\\) – высота ромба \\(ABCD\\) и \\(LK=2r\\), где \\(r=4,5\\) – радиус вписанной в этот ромб окружности.\n\nПроведём из точки \\(D\\) ещё одну высоту ромба \\(DH\\). Тогда \\(DH=LK=2r=2\\cdot 4,5=9\\).\n\nПо построению \\(DH\\) – высота ромба \\(ABCD\\), то есть \\(DH\\bot AB\\), тогда \\(\\Delta AHD\\) – прямоугольный и:\n$$\\sin\\angle DAB=\\frac{DH}{AD}\\\\ AD=\\frac{DH}{\\sin\\angle DAB}=\\frac{9}{\\frac{1}{2}}=18$$\nОтвет: 18",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2380,
+    "title": "1.9 Вписанные окружности"
+  },
+  "id": 35140,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "18",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Острый угол ромба равен \\(30^\\circ\\). Радиус вписанной в этот ромб окружности равен \\(4,5\\). Найдите сторону ромба.",
+      "error_conditions": [],
+      "id": 254779,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=qLtea66lhyw&t=3406s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=qLtea66lhyw&t=3406s"
+}

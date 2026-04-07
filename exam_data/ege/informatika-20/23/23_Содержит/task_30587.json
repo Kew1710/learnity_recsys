@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1543,
+    "title": "№23 Содержит"
+  },
+  "id": 30587,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Исполнитель преобразует число на экране. У исполнителя есть три команды, которым присвоены номера:\n1. Прибавить 1\n2. Прибавить 3\n3. Умножить на 2\nСколько существует таких программ, которые исходное число 2 преобразуют в число 14 и при этом траектория вычислений содержит число 6 и число 10?",
+      "error_conditions": [],
+      "id": 250226,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/j0PA--FK9iE?si=JtnurGY8TMLvhsnT&t=2999"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 40,
+    "title": "Количество программ"
+  },
+  "video_link": "https://www.youtube.com/live/j0PA--FK9iE?si=JtnurGY8TMLvhsnT&t=2999"
+}

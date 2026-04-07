@@ -1,0 +1,45 @@
+{
+  "comment": "Используем формулу приведения:\n$$\\frac{19}{\\cos^237^{\\circ}+1+\\cos^2(90-37)^{\\circ}}=\\frac{19}{\\cos^237^{\\circ}+1+\\sin^237^{\\circ}}=\\frac{19}{2}=9,5$$\nОтвет: 9,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 7289,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{19}{\\cos^237^{\\circ}+1+\\cos^253^{\\circ}}\\).",
+      "error_conditions": [],
+      "id": 83805,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=4971"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=4971"
+}

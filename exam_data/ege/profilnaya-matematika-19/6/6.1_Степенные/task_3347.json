@@ -1,0 +1,45 @@
+{
+  "comment": "$$(x-5)^3=4^3\\\\ x-5=4\\\\ x=9$$\nОтвет: 9",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2399,
+    "title": "6.1 Степенные"
+  },
+  "id": 3347,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\((x-5)^3=64\\).",
+      "error_conditions": [],
+      "id": 65016,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3654"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3654"
+}

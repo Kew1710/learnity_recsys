@@ -1,0 +1,37 @@
+{
+  "comment": "\\(MgCO_{3}\\) = \\(MgO\\) + \\(CO_{2}\\)\n\\(MgO\\) + 2\\(HCl\\) = \\(MgCl_{2}\\) + \\(H_{2}O\\)\n\\(MgCl_{2}\\) + 2\\(NaOH\\) = \\(Mg(OH)_{2}\\) + 2\\(NaCl\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2904,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 36549,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дана схема превращений:\nt∘\n\\(MgCO_{3}\\) →X → \\(MgCl_{2}\\) → \\(Mg(OH)_{2}\\)\nНапишите молекулярные уравнения реакций, с помощью которых можно осуществить указанные превращения.",
+      "error_conditions": null,
+      "id": 256199,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

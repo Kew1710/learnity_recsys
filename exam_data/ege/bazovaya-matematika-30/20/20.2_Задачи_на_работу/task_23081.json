@@ -1,0 +1,42 @@
+{
+  "comment": "Скорость заполнения бака первым насосом равна \\(\\frac{1}{45}\\) часть бака/мин., вторым - \\(\\frac{1}{55}\\) часть бака/мин., третьим - \\(\\frac{1}{66}\\) часть бака/мин. (1 час 6 минут = 66 минут).\nСкорость заполнения при совместной работе равна:\n$$\\frac{1}{45} + \\frac{1}{55} + \\frac{1}{66} = \\frac{22+18+15}{990} = \\frac{1}{18}$$\nЗначит, работая вместе, насосы наполнят бак за 18 минут.\nОтвет: 18.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2133,
+    "title": "20.2 Задачи на работу"
+  },
+  "id": 23081,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "18",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Первый насос наполняет бак за 45 минут, второй — за 55 минут, а третий — за 1 час 6 минут. За сколько минут наполнят бак три насоса, работая одновременно?",
+      "error_conditions": [],
+      "id": 242807,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

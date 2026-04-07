@@ -1,0 +1,45 @@
+{
+  "comment": "Решение программой:\nPythonPascalfrom itertools import *\nglas = 'ИОА'\nk = 0\nfor s in product(\"НИКОЛАЙ\", repeat = 4):\nif s[0] != 'Й':\nflag = 0\nfor i in s:\nif i in glas:\nflag = 1\nif flag == 1:\nk += 1\n\nprint(k)\nbegin\nvar word:= 'НИКОЛАЙ';\nvar glas := 'ИОА';\nvar count:= 0;\nforeach var x1 in word do\nforeach var x2 in word do\nforeach var x3 in word do\nforeach var x4 in word do\nbegin\nvar s:= x1 + x2 + x3 + x4;\nif s[1] <> 'Й' then\nbegin\nvar flag:=0;\nforeach var j in s do\nif j in glas then\nflag := 1;\nif flag = 1 then\ncount += 1;\nend;\nend;\nprint(count);\nend.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2711,
+    "title": "№8 Комбинаторика"
+  },
+  "id": 10755,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1866",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Николай составляет 4-буквенные коды из букв Н, И, К, О, Л, А, Й. Каждую букву можно использовать любое количество раз, при этом код не может начинаться с буквы Й и должен содержать хотя бы одну гласную. Сколько различных кодов может составить Николай?",
+      "error_conditions": [],
+      "id": 147515,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

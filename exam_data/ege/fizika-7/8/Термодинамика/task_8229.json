@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем формулу для КПД тепловой машины:\n$$ \\eta=\\frac{Q_н-Q_х}{Q_н}=1-\\frac{Q_х}{Q_н}$$\nВыразим \\(Q_н\\):\n$$Q_н=\\frac{Q_х}{1-\\eta}=\\frac{60}{1-0,4}=100~Дж$$\n\nОтвет: \\(100~Дж\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 8229,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "100",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задание 4B0E9D\nТепловая машина с КПД \\(40\\%\\) за цикл работы отдаёт холодильнику количество теплоты, равное \\(60~Дж\\). Какое количество теплоты машина получает за цикл от нагревателя? Ответ дайте в Дж.",
+      "error_conditions": [],
+      "id": 101540,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/fZ0wjO-uj5k?start=1861"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/fZ0wjO-uj5k?start=1861"
+}

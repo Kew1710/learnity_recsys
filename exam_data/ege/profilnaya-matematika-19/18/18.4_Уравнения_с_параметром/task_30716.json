@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\sqrt{x-a}(\\sin x-\\cos x)=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} x_{1} =a\\\\ \\begin{cases} \\sin x-\\cos x=0\\\\ x-a\\geq 0 \\end{cases} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} x_{1} =a\\\\ a\\in [ 0;\\pi ] \\end{cases}\\\\ \\begin{cases} \\sin x=\\cos x\\\\ x\\geq a \\end{cases} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} x_{1} =a\\\\ a\\in [ 0;\\pi ] \\end{cases}\\\\ \\begin{cases} x_{2} =\\frac{\\pi }{4}\\\\ \\frac{\\pi }{4} \\geq a \\end{cases} \\end{array} \\right.$$\nКорни \\(x_1\\) и \\(x_2\\) совпадают при: \\(a=\\frac{\\pi}{4}\\)\nОтвет: \\((-\\infty;0);\\left[\\frac{\\pi}{4};\\pi\\right]\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2493,
+    "title": "18.4 Уравнения с параметром"
+  },
+  "id": 30716,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения \\(a\\), при каждом из которых уравнение\n$$\\sqrt{x-a}\\cdot\\sin x=\\sqrt{x-a}\\cdot\\cos x$$\nимеет на отрезке \\([0;\\pi ]\\) ровно один корень.",
+      "error_conditions": null,
+      "id": 250355,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/TXZ_eIkobJ4?si=ub_X3G18UL6O7qyS&t=3400"
+}

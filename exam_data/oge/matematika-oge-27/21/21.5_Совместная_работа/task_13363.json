@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПусть х д/ч делает рабочий\nТогда х-10 д/ч делает 2 рабочий\n\\( \\cfrac{60}{x-10}-\\cfrac{60}{x}=3 \\)\nУмножим на \\( x(x-10) \\neq 0\\)\n\\(-3x^2 + 30x +600=0\\)\nПоделим на -3\n\\(x^2-10x-200=0\\)\n\\( D=100 +800 =900 \\)\n\\( x_1=-10 \\) - не удовлетворяет условию задачи\n\\( x_2= 20 \\)\nОтвет: 20д/ч",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1940,
+    "title": "21.5 Совместная работа"
+  },
+  "id": 13363,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Первый рабочий за час делает на 10 деталей больше, чем второй, и выполняет заказ, состоящий из 60 деталей, на 3 часа быстрее, чем второй рабочий, выполняющий такой же заказ. Сколько деталей в час делает первый рабочий?",
+      "error_conditions": null,
+      "id": 178254,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

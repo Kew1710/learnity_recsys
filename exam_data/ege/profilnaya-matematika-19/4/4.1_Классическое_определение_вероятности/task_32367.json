@@ -1,0 +1,45 @@
+{
+  "comment": "Если в \\(5\\) из \\(50\\) билетов встречается вопрос по теме “Великая Отечественная война”, то в \\(50-5=45\\) - не встречается, тогда вероятность, что в случайном билете не будет этой темы:\n$$\\frac{45}{50}=\\frac{9}{10}=0,9$$\nОтвет: 0,9",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 32367,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В сборнике билетов по истории всего \\(50\\) билетов, в пяти из них встречается вопрос по теме “Великая Отечественная война”. Найдите вероятность того, что в случайно выбранном на экзамене билете школьнику не достанется вопрос по теме “Великая Отечественная война”.",
+      "error_conditions": [],
+      "id": 252006,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=TFQFyz-j-SLKhNrp&t=2110"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=TFQFyz-j-SLKhNrp&t=2110"
+}

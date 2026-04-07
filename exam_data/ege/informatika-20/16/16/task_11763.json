@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1518,
+    "title": "№16"
+  },
+  "id": 11763,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1510",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Алгоритм вычисления значения функции F(n), где n – натуральное число, задан следующими соотношениями:\n\nF(n) = 2 при n < 3;\n\nF(n) = F(n − 2) - F(n-1) + 2, если n > 2 и при этом n чётно;\n\nF(n) = F(n-1) - F(n-2) - 2, если n > 2 и при этом n нечётно.\n\nЧему равно значение функции F(29)?",
+      "error_conditions": [],
+      "id": 150670,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 35,
+    "title": "Рекурсия"
+  },
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "А) Щёлочь – растворимое основание, образованное щелочным или щёлочноземельным металлом. Подходит Ca(OH)₂\nБ) Средняя соль – продукт полного замещения атомов водорода кислоты на атомы металла или катионы аммония. Подходит Ca₃(PO₄)₂\nВ) Кислотный оксид – оксид неметалла (кроме несолеобразующих CO, N₂O, NO) или металла со степенью окисления +5 и выше. Подходит CrO₃",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2796,
+    "title": "Классификация неорганических веществ"
+  },
+  "id": 6574,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "458",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Среди предложенных формул веществ, расположенных в пронумерованных ячейках, выберите формулы: А) щёлочи; Б) средней соли; В) кислотного оксида.\n1\nHMnO₄\n\n2\nH₂CrO₄\n\n3\nAl(OH)₃\n\n4\nCa(OH)₂\n\n5\nCa₃(PO₄)₂\n\n6\nHNO₃\n\n7\nNO\n\n8\nCrO₃\n\n9\nCaO",
+      "error_conditions": [],
+      "id": 75073,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/2IPTvGKki7M?start=2007"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/2IPTvGKki7M?start=2007"
+}

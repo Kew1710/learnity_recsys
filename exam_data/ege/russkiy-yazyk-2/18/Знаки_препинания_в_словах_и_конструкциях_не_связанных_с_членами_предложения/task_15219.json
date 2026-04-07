@@ -1,0 +1,42 @@
+{
+  "comment": "запятые 2 и 3 выделяют обращение",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 899,
+    "title": "Знаки препинания в словах и конструкциях, не связанных с членами предложения"
+  },
+  "id": 15219,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расставьте недостающие знаки препинания: укажите все цифры, на месте которых в предложениях должны стоять запятые.\nКолокольчик ли? Дальнее эхо ли?\nВсё спокойно впивает (1) грудь.\nСтой (2) душа (3) мы с тобой (4) проехали\nЧерез бурный положенный путь.\n(С.А. Есенин)",
+      "error_conditions": [],
+      "id": 222482,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

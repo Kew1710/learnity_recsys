@@ -1,0 +1,42 @@
+{
+  "comment": "Мощность в первой цепи:\n$$P_{Л21}=\\frac{U^2}{4R}$$\nСила тока во второй цепи по закону Ома для участка цепи:\n$$I=\\frac{U}{2R+4R}=\\frac{U}{6R}$$\nМощность во второй цепи:\n$$P_{Л22}=I^24R=\\frac{4RU^2}{36R^2}=\\frac{U^2}{9R}$$\nНайдем отношение мощностей:\n$$\\frac{P_{Л21}}{P_{Л22}}=\\frac{1}{4}\\cdot\\frac{9}{1}=\\frac{9}{4}=2,25$$\nОтвет: 2,25",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 9861,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "235416\nСопротивление лампочки \\(Л_1\\) равно \\(2R\\), сопротивление лампочки \\(Л_2\\) равно \\(4R\\). Лампочки подключают двумя разными способами, они изображены на рисунках 1 и 2. Найдите отношение мощностей \\(\\frac{Р_{Л21}}{Р_{Л22}}\\), которые выделяются на лампочке \\(Л_2\\) в первом и во втором случае.",
+      "error_conditions": [],
+      "id": 119894,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/hWk34lC04Mw"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/hWk34lC04Mw"
+}

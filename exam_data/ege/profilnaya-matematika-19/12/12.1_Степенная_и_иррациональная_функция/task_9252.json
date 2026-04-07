@@ -1,0 +1,45 @@
+{
+  "comment": "$$y=(x^2+20x+100)\\cdot (x+4)+2\\\\ y'=(2x+20)\\cdot (x+4)+(x^2+20x+100)=(x+10)\\cdot (3x+18)\\\\ x_1=-10;x_2=-6$$\nТочка минимума равна \\(-6\\).\n\nОтвет: -6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 9252,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y=(x+10)^2\\cdot (x+4)+2\\).",
+      "error_conditions": [],
+      "id": 113038,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_QfEbxEjc74?start=2682"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/_QfEbxEjc74?start=2682"
+}

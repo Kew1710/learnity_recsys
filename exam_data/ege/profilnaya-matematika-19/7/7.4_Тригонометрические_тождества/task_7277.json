@@ -1,0 +1,45 @@
+{
+  "comment": "Согласно основному тригонометрическому тождеству:\n$$\\cos\\alpha=\\sqrt{1-(\\sin\\alpha)^2}\\\\ \\cos\\alpha =\\sqrt{1-\\frac{116}{841}}=\\sqrt{1-\\frac{4}{29}}=\\sqrt{\\frac{25}{29}},так~как~\\alpha\\in 1~четверти\\\\ tg\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{2\\sqrt{29}}{29}\\cdot \\sqrt{\\frac{29}{25}}=\\frac{2}{5}=0,4$$\nОтвет: 0,4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2408,
+    "title": "7.4 Тригонометрические тождества"
+  },
+  "id": 7277,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(tg\\alpha\\), если \\(\\sin\\alpha=\\frac{2\\sqrt{29}}{29}\\) и \\(\\alpha\\in (0;\\frac{\\pi}{2})\\).",
+      "error_conditions": [],
+      "id": 83793,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=3465"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=3465"
+}

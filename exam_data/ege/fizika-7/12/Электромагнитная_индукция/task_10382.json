@@ -1,0 +1,37 @@
+{
+  "comment": "Разность потенциалов движущегося проводника:\n$$U=vbl\\cos\\alpha;$$\nТак как \\(\\vec{B}\\) перпендикулярен движению, то \\(\\cos\\alpha=1\\).\n$$U=vbl=1\\cdot 0,4\\cdot 0,3=0,12~В$$\nОтвет: 0,12 В",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2634,
+    "title": "Электромагнитная индукция"
+  },
+  "id": 10382,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23658\nВ однородном магнитном поле с постоянной скоростью, направленной перпендикулярно вектору индукции, равной \\(0,3\\) Тл, движется прямой проводник. Длина проводника равна \\(0,4\\) м, его скорость \\(1\\) м/с. Найдите разность потенциалов между концами проводника. Ответ дайте в В.",
+      "error_conditions": null,
+      "id": 138676,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/4_RjrJW9Pj4"
+}

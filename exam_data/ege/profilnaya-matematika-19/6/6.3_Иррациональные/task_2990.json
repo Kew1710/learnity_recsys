@@ -1,0 +1,45 @@
+{
+  "comment": "$$(\\sqrt{2x+31})^2=9^2\\\\ 2x+31=81\\\\ 2x=50\\\\ x=25$$\nОтвет: 25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2401,
+    "title": "6.3 Иррациональные"
+  },
+  "id": 2990,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\sqrt{2x+31}=9\\).",
+      "error_conditions": [],
+      "id": 64518,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=329"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=329"
+}

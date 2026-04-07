@@ -1,0 +1,40 @@
+{
+  "comment": "а) Пусть \\(\\alpha\\) - проходящая через \\(K\\) и параллельная основанию пирамиды плоскость \\(\\Rightarrow\\)\n1) В \\((ASB)\\): \\(\\alpha ~ \\| ~ (ABC)\\), тогда прямая в \\(\\alpha\\) пересекает \\((ASB)\\) по прямой параллельной \\(AB \\Rightarrow KQ \\| AB.\\)\n2) В \\((BSC)\\): \\(\\alpha ~\\| ~(ABC)\\), тогда прямая в \\(\\alpha\\) пересекает \\((BSC)\\) по прямой параллельной \\(BC \\Rightarrow QP \\| BC.\\)\n3) В \\((ASC)\\): \\(\\alpha ~\\| ~(ABC)\\), тогда прямая в \\(\\alpha\\) пересекает \\((ASC)\\) по прямой параллельной \\(AC \\Rightarrow KP \\| AC.\\)\n\\(\\Rightarrow\\) в \\(\\triangle{ASB}\\): \\(AK = KS, ~KQ \\| AB \\Rightarrow KQ\\) - средняя линия \\(\\Rightarrow SQ = QB\\).\nАналогично получим, что \\(QP\\) и \\(KP\\) также являются средними линиями соответственно в треугольниках \\(SBC\\) и \\(ASC\\).\nПусть \\(E = QP \\cap SN\\), тогда по теореме Фалеса для \\(\\angle{BSN}\\) и \\(QP \\| BC\\):\n$$\\dfrac{SQ}{QB} = \\dfrac{SE}{EN} = \\dfrac{1}{1} \\Rightarrow \\text{Ч.Т.Д.}$$\n\nб) \\(\\alpha ~\\| ~(ABC) \\Rightarrow \\angle{((ABC), (APQ))} = \\angle{(\\alpha, (APQ))} \\Rightarrow\\) будем искать угол между \\(\\alpha\\) и \\((APQ)\\).\n\\(QP\\) - прямая пересечения данных плоскостей.\n1) \\(QE = EP\\) \\((\\)доказывается через равенство треугольников \\(QSE\\) и \\(PSE)\\)\n2) \\(\\triangle{KQP}\\) - равносторонний, так как подобен равностороннему \\(\\triangle{ABC}\\) по трем пропорциональным сторонам \\((KQ = \\dfrac{1}{2}AB\\) и т.д.\\() ~\\Rightarrow\\) т.к. \\(QE = EP\\), то \\(KE \\perp QP\\)\n3) \\(\\triangle{AQB} = \\triangle{APC}\\) по двум сторонам и углу между ними \\((AB = AC, ~BQ = PC, ~\\angle{ABQ} = \\angle{ACP}\\) (так как в правильной треугольной пирамиде боковые грани представляют собой равные равнобедренные треугольники)\\() \\Rightarrow AQ = AP \\Rightarrow \\triangle{AQP}\\) - равнобедренный \\(\\Rightarrow\\) т.к. \\(QE = EP\\), то \\(AE \\perp QP\\)\n\nПолучили, что \\(\\angle{AEK}\\) - искомый.\n\nВ \\(\\triangle{KQP}\\) все стороны равны \\(\\dfrac{1}{2}AB = \\dfrac{24}{2} = 12 ~(QE = EP = \\dfrac{1}{2}QP = 6)\\)\n\\(\\Rightarrow\\) по т. Пифагора (или по свойству высоты в правильном треугольнике) \\(KE = 12 \\cdot \\dfrac{\\sqrt{3}}{2} = 6\\sqrt{3}\\) \\(~(\\)в \\(\\triangle{ABC}\\) соответственно \\(AN = 2KE = 12\\sqrt{3})\\)\nВ \\(\\triangle{SBC}\\): \\(SE = EN\\) (из пункта а), тогда \\(EN = \\dfrac{1}{2}SN\\).\nВысота правильной пирамиды делит высоты/медианы/биссектрисы основания в отношении 2 к 1 считая от вершины \\(\\Rightarrow\\)\n\\(\\Rightarrow HN = HC = \\dfrac{2}{3}AN = \\dfrac{2\\cdot12\\sqrt{3}}{3} = 8\\sqrt{3} \\Rightarrow\\)\n\n\\(\\Rightarrow\\) По т. Пифагора в \\(\\triangle{SHC}\\): \\({SC}^{2} = 4 \\cdot 16 \\cdot 3 + 4 \\cdot 49 = 4 \\cdot 97 \\Rightarrow SC = 2\\sqrt{97}\\)\n\\(\\Rightarrow AK = PC = BQ = \\dfrac{1}{2}SC = \\sqrt{97}\\)\n\nВ \\(\\triangle{ASB}\\) по т. косинусов: \\(\\cos{\\angle{ABS}} = \\dfrac{{AB}^{2} + {BS}^{2} - {AS}^{2}}{2\\cdot AB \\cdot BS} = \\dfrac{24\\cdot 24}{2 \\cdot 24 \\cdot 2\\sqrt{97}} = \\dfrac{6}{\\sqrt{97}}\\)\n\nВ \\(\\triangle{AQB}\\) по т. косинусов:\n$${AQ}^{2} = {AB}^{2} + {BQ}^{2} - 2\\cdot AB \\cdot BQ \\cdot \\cos{\\angle{ABS}}\\\\ {24}^{2} + 97 - 2 \\cdot 24 \\cdot \\sqrt{97} \\cdot \\dfrac{6}{\\sqrt{97}} = {24}^{2} + 97 - 12 \\cdot 24 = 24(24-12) + 97 = \\\\ = 240 + 48 + 97 = 385 \\Rightarrow AQ = AP = \\sqrt{385}$$\nВ \\(\\triangle{AQE}\\) по т. Пифагора: \\({AE}^{2} = {AQ}^{2} - {QE}^{2} = 385 - 36 = 349 \\Rightarrow AE = \\sqrt{349}\\)\n\nВ \\(\\triangle{AEK}\\) по т. косинусов: \\(\\cos{\\angle{AEK}} = \\dfrac{{KE}^{2} + {AE}^{2} - {AK}^{2}}{2\\cdot KE \\cdot AE} = \\dfrac{36\\cdot 3 + 349 - 97}{2\\cdot 6\\sqrt{3} \\cdot \\sqrt{349}} = \\dfrac{360}{12\\cdot\\sqrt{3}\\cdot\\sqrt{349}} = \\dfrac{30}{\\sqrt{1047}}\\)\n$$\\Rightarrow \\angle{AEK} = \\arccos{\\dfrac{30}{\\sqrt{1047}}}.$$\nОтвет: \\(\\arccos\\dfrac{30}{\\sqrt{1047}}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2462,
+    "title": "14.3 Угол между плоскостями"
+  },
+  "id": 6864,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дана правильная треугольная пирамида \\(𝑆𝐴𝐵𝐶,𝐴𝐵=24\\), высота \\(𝑆𝐻\\), проведенная к основанию, равна \\(14\\), точка \\(𝐾\\) - середина \\(𝐴𝑆\\), точка \\(𝑁\\) - середина \\(BC\\). Плоскость, проходящая через точку \\(𝐾\\) и параллельная основанию пирамиды, пересекает ребра \\(𝑆𝐵\\) и \\(𝑆𝐶\\) в точках \\(𝑄\\) и \\(𝑃\\) соответственно.\nа) Докажите, что \\(𝑃𝑄\\) проходит через середину отрезка \\(𝑆𝑁\\).\nб) Найдите угол между плоскостью основания и плоскостью \\(𝐴𝑃𝑄\\).",
+      "error_conditions": null,
+      "id": 76891,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/TlLLwqWNe0w?start=201"
+}

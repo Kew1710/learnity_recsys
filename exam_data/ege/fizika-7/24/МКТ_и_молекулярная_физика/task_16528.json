@@ -1,0 +1,37 @@
+{
+  "comment": "По закону Дальтона:\n$$p=p_с+p_в~(1),$$\nгде \\(p_с\\) – парциальное давление сухой составляющей воздуха, \\(p_в\\) – парциальное давление водяного пара, \\(m_с=m-m_п\\), где \\(m_с\\) – масса сухого воздуха.\n\nРаспишем уравнение Менделеева-Клапейрона для сухого воздуха:\n$$p_сV=\\frac{m-m_п}{M_{возд}}RT\\Rightarrow p_с=\\frac{m-m_п}{M_{возд}}\\frac{RT}{V}$$\nРаспишем уравнение Менделеева-Клапейрона для паров воды:\n$$p_вV=\\frac{m_п}{M_{возд}}RT\\Rightarrow p_в=\\frac{m_п}{M_{возд}}\\frac{RT}{V}$$\nПодставим полученные давления в формулу для (1):\n$$p=\\frac{m_пRT}{M_{возд}V}+\\frac{m-m_п}{M_{возд}}\\frac{RT}{V}\\Rightarrow V=\\frac{RT}{p}\\left (\\frac{m_п}{M_{возд}}+\\frac{m-m_п}{M_{возд}}\\right )=$$\n$$=\\frac{8,31\\cdot 363}{2\\cdot 10^5}\\left (\\frac{5\\cdot 10^{-3}}{0,018}+\\frac{0,04-0,005}{0,029}\\right )=0,0224~м^3$$\nОтвет: \\(0,0244~м^3\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2653,
+    "title": "МКТ и молекулярная физика"
+  },
+  "id": 16528,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В закрытом сосуде находится влажный воздух массой \\(m=40\\) г при температуре \\(t=90~^\\circ С\\) и давлении \\(p=2\\cdot 10^5\\) Па. Масса паров воды в сосуде \\(m_п=5\\) г. Определите объем сосуда.",
+      "error_conditions": null,
+      "id": 236435,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/puL77KZfepE?t=6083"
+}

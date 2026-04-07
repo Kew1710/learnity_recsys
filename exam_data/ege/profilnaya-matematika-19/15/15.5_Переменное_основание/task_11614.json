@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничения:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} x^{2} -6x+10 >0-всегда\\\\ x^{2} -6x+10\\neq 1\\\\ 5x^{2} +3 >0-всегда\\\\ 4x^{2} +7x+3 >0 \\end{cases}\\\\ \\begin{cases} x^{2} -6x+9\\neq 0\\\\ \\left[ \\begin{array}{l l} x< -1\\\\ x >-\\frac{3}{4} \\end{array} \\right. \\end{cases}\\\\ \\begin{cases} x\\neq 3\\\\ \\left[ \\begin{array}{l l} x< -1\\\\ x >-\\frac{3}{4} \\end{array} \\right. \\end{cases} \\end{array}$$\nПолучается \\(x\\in (-\\infty;1)~\\cup ~(-\\frac{3}{4};3)~\\cup ~(3;+\\infty)\\)\nПереходим к неравенству:\n$$\\frac{2}{2}\\log_{(x^2-6x+10)^2}(5x^2+3)\\leq\\log_{x^2-6x+10}(4x^2+7x+3)\\\\ \\log_{(x^2-6x+10)^2}(5x^2+3)\\leq\\log_{x^2-6x+10}(4x^2+7x+3)\\\\ (x^2-6x+10-1)(5x^2+3-4x^2-7x-3)\\leq 0\\\\ (x^2-6x+9)(x^2-7x)\\leq 0\\\\ x(x-3)^2(x-7)\\leq 0$$\nУчитывая ограничения, получаем ответ\n\nОтвет: \\(x\\in [0;3)~\\cup ~(3;7]\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2471,
+    "title": "15.5 Переменное основание"
+  },
+  "id": 11614,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(2\\log_{(x^2-6x+10)^2}(5x^2+3)\\leq\\log_{x^2-6x+10}(4x^2+7x+3)\\).",
+      "error_conditions": null,
+      "id": 149295,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

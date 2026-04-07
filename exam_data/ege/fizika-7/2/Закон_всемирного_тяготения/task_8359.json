@@ -1,0 +1,42 @@
+{
+  "comment": "Из условия:\n$$\\frac{M_ф}{M_д}=5;\\\\ \\frac{D_д}{D_a}=\\frac{2R_д}{2R_ф}=\\frac{R_д}{R_ф}=2,5,$$\nгде \\(M_ф\\), \\(M_д\\)- масса Фобоса и Деймоса соответственно;\n\\(D_ф, D_д\\) - диаметр орбиты Фобоса и Деймоса соответственно.\n\nПо закону всемирного тяготения:\n$$F=G\\frac{M_1M_2}{R^2}$$\nТогда отношение сил притяжения между Марсом и Фобосом и Марсом и Деймосом:\n$$\\frac{F_ф}{F_д}=\\frac{G\\frac{M_м \\cdot M_ф}{{R_ф}^2}}{G\\frac{M_м \\cdot M_д}{{R_д}^2}}=\\frac{M_ф}{M_д}\\cdot \\frac{{R_д}^2}{{R_ф}^2}=5\\cdot 2,5^2=31,25$$\nОтвет: 31,25",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3207,
+    "title": "Закон всемирного тяготения"
+  },
+  "id": 8359,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "31,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "230714\nВокруг Марса вращаются два естественных спутника – Деймос и Фобос. Известно, что масса Деймоса в \\(5\\) раз меньше Фобоса, а диаметр его орбиты в \\(2,5\\) раза больше диаметра орбиты Фобоса. Определите, во сколько раз сила притяжения между Марсом и Фобосом больше силы притяжения между Марсом и Деймосом.",
+      "error_conditions": [],
+      "id": 102134,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/AqoNdJThWyU"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://youtu.be/AqoNdJThWyU"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nСилу электрического тока можно найти по формуле: $$I=\\frac{q}{t}$$\nЗа \\(4\\) через проводник прошел заряд равный \\(4\\) Кл: $$I=\\frac{4}{4}=1~А$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3262,
+    "title": "3.6 Постоянный электрический ток. Действия электрического тока. Сила тока. Напряжение"
+  },
+  "id": 33425,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "По проводнику течёт постоянный электрический ток. На рисунке отображена зависимость величины заряда \\(q\\), проходящего через проводник, от времени \\(t\\). Чему равна сила электрического тока в проводнике?\n\nОтвет: _________А.",
+      "error_conditions": [],
+      "id": 253064,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jzuykZP3Wn4?si=qnc9pNtHhuD8eUUu&t=60"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/jzuykZP3Wn4?si=qnc9pNtHhuD8eUUu&t=60"
+}

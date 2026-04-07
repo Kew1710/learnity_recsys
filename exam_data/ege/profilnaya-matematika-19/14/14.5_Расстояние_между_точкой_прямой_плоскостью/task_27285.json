@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n$$LK\\in ABS\\\\ LK||MN\\\\ MN||ABS\\\\ MN\\in SDC$$\nИз всего этого следует, что\n$$LK||MN||общей~прямой~плоскостей~SDC~и~SAB\\\\ AB\\in ABS\\\\ DC||AB\\\\ DC||ABS\\\\ DC\\in SDC$$\nИз всего этого следует, что\n$$AB||DC||общей~прямой~плоскостей~SDC~и~SAB$$\nИз всего вышесказанного:\n$$LK||MN||AB||DC||общей~прямой~плоскостей~SDC~и~SAB$$\nТреугольники \\(SLK\\) и \\(SAB\\) подобны по двум углам (угол \\(S\\) общий, углы \\(SLK\\) и \\(SAB\\) равны как соответственные):\n$$\\frac{LK}{AB}=\\frac{SK}{SB}=\\frac{3}{4}$$\nЗначит, \\(AB=4=DC=2MN\\).\nИ еще \\(MN||DC\\), а значит, что \\(MN\\) – средняя линия, пересекает стороны \\(SD\\) и \\(SC\\) в их серединах.\n\nб)\nИз подобия треугольников \\(SLK\\) и \\(SAB\\):\n$$AB=4\\\\ BC=\\frac{S_{основания}}{AB}=\\frac{24}{4}=6=TR$$\nПусть \\(PE\\) пересекает \\(TR\\) в точке \\(D_1\\).\nПо теореме Менелая для \\(STR\\) и секущей \\(PE\\):\n$$\\frac{SE}{ER}\\cdot\\frac{RD_1}{DT}\\cdot\\frac{TP}{PS}=1\\\\ 1\\cdot\\frac{RD_1}{DT}\\cdot\\frac{1}{3}=1\\\\ \\frac{RD_1}{DT}=\\frac{3}{1}$$\nОтсюда \\(D_1T=3\\).\nПусть \\(EW\\bot TR\\) и \\(PQ\\bot TR\\)\n$$\\begin{cases} EW||SH\\\\ SE=ER \\end{cases} \\Rightarrow EW-средняя~линия~и~WH=WR=\\frac{TR}{4}=\\frac{3}{2}\\\\ \\frac{TP}{TS}=\\frac{1}{4}=\\frac{TQ}{TH},TH=\\frac{3}{4}\\\\ D_1Q=3+\\frac{3}{4}=\\frac{15}{4}\\\\ QR=HR+HQ=\\frac{6}{2}+\\frac{6}{2}-\\frac{3}{4}=\\frac{15}{4}\\\\ \\Delta D_1PQ\\sim\\Delta D_1EW~по~двум~углам~(\\angle{D_1}~общий, \\angle{D_1QP}=\\angle{D_1WE}= {90}^{\\circ})\\\\ \\frac{D_1P}{PE}=\\frac{D_1Q}{QM}=\\frac{15}{4}:\\frac{15}{4}=\\frac{1}{1}$$\nПо теореме Пифагора для \\(\\triangle{EWD_1}\\):\n$$EW^2=D_1E^2-D_1W^2=(4+4)^2-\\left(9-\\frac{3}{2}\\right)^2=\\frac{31}{4}\\\\ EW=\\frac{\\sqrt{31}}{2}\\\\ SH=2EW=\\sqrt{31}$$\nОтвет: \\(\\sqrt{31}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2464,
+    "title": "14.5 Расстояние между точкой, прямой, плоскостью"
+  },
+  "id": 27285,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В основании четырехугольной пирамиды \\(SABCD\\) лежит прямоугольник \\(ABCD\\). На ребрах \\(SA\\), \\(SB\\), \\(SC\\) и \\(SD\\) отмечены точки \\(L\\), \\(K\\), \\(N\\) и \\(M\\) соответственно так, что четырехугольник \\(KLMN\\)  — трапеция с основанием \\(KL=3\\) и \\(MN=2\\). Известно, что \\(SK:KB=3:1\\).\nа) Докажите, что плоскость \\(KLM\\) пересекает ребра \\(SC\\) и \\(SD\\) в их серединах.\nб) Найдите высоту \\(SH\\) пирамиды, если точка пересечения диагоналей пирамиды совпадает с точкой \\(H\\), площадь основания равна \\(24\\), а площадь сечения \\(KLMN=10\\).",
+      "error_conditions": null,
+      "id": 246924,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://youtu.be/fQ1MVFsFzMI?t=4950"
+}

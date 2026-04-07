@@ -1,0 +1,42 @@
+{
+  "comment": "Восстановитель – элемент, который в ходе окислительно-восстановительной реакции отдаёт электроны и повышает свою степень окисления\nА) Na⁰ - 1ē ⟶ Na⁺¹ – восстановитель Na\nБ) Na⁰ - 1ē ⟶ Na⁺¹ – восстановитель Na\nВ) 2N⁻³ - 6ē ⟶ N₂⁰ – восстановитель NH₃",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2839,
+    "title": "Реакции окислительно-восстановительные"
+  },
+  "id": 5913,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "443",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между уравнением реакции и формулой вещества, являющегося восстановителем в данной реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nУРАВНЕНИЕ РЕАКЦИИ\nФОРМУЛА ВОССТАНОВИТЕЛЯ\nА) 2NH₃ + 2Na = 2NaNH₂ + H₂1) NOБ) H₂S + 2Na = Na₂S + H₂2) H₂SВ) 4NH₃ + 6NO = 5N₂ + 6H₂O3) NH₃ 4) Na",
+      "error_conditions": [],
+      "id": 72384,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=13855"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=13855"
+}

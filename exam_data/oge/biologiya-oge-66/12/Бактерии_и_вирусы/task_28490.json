@@ -1,0 +1,42 @@
+{
+  "comment": "Вирусы не имеют клеточного строения, одноклеточными микроскопическими организмами являются бактерии.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2917,
+    "title": "Бактерии и вирусы"
+  },
+  "id": 28490,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Верны ли следующие суждения о вирусах?\nА. Вирусы — это одноклеточные микроскопические организмы.\nБ. Вирусы вызывают такие заболевания, как грипп, ветряная оспа, полиомиелит.\n1) верно только А\n2) верно только Б\n3) верны оба суждения\n4) оба суждения неверны",
+      "error_conditions": [],
+      "id": 248129,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

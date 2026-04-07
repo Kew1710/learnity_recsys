@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nПусть \\(\\angle BAD = \\alpha\\)\n\\(\\angle BAD = \\angle BMN\\) (\\(MN\\) – средняя линия, \\(MN || AD\\Rightarrow\\) углы соответственные).\n$$\\angle ABC + \\angle BAD = 180^\\circ ~(как ~внутренние ~односторонние)\\\\ \\angle ABC = {180}^{\\circ} – \\alpha \\\\ \\angle ABC + \\angle CQP = 180^\\circ ~(PBCQ – вписанный)\\\\ \\angle CQP = {180}^{\\circ}- \\angle ABC = {180}^{\\circ}– ({180}^{\\circ}– \\alpha) = \\alpha\\\\ \\angle PQN = {180}^{\\circ}– \\angle CQP = {180}^{\\circ}– \\alpha (смежные)\\\\ \\angle PQN +\\angle PMN = {180}^{\\circ}– \\alpha + \\alpha = 180^\\circ \\Rightarrow MPQN – вписанный\\\\ Ч. т. д.$$\nб) Окружность, описанная около \\(\\Delta MPQ\\) – та же окружность, описанная около \\(MPQN\\) и окружность, описанная около \\(\\Delta MPN\\)\n\\(PN\\) – медиана в \\(\\Delta CPD\\), где \\(\\angle CPD = 90^\\circ \\Rightarrow PN =\\frac{CD}{2}=14\\)\n$$R=\\frac{PN}{2\\sin\\alpha}$$\nПроведем \\(BS || CD\\), тогда \\(BCDS\\) – параллелограмм\n$$BC = SD = 3\\\\ AS = AD – SD = 20 – 3 = 17\\\\ BS = CD = 28 \\text{ (т. к. } BCDS - \\text{параллелограмм)}$$\nПо теореме косинусов:\n$$BS^2=AB^2+AS^2-2AB\\cdot AS\\cdot\\cos\\alpha \\\\ 28^2=25^2+17^2-2\\cdot 25\\cdot 17\\cdot\\cos\\alpha \\\\ \\cos\\alpha=\\frac{13}{85}\\\\ 1-\\cos^2\\alpha=\\sin^2\\alpha \\\\ \\sin\\alpha=\\frac{84}{85}$$ По теореме синусов: $$ R=\\frac{PN}{2\\sin\\alpha}=\\frac{14}{2\\sin\\alpha}=\\frac{85}{12}$$\nОтвет: \\(\\frac{85}{12}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2486,
+    "title": "17.6 Трапеция"
+  },
+  "id": 9754,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дана трапеция \\(ABCD\\) с основаниями \\(BC\\) и \\(AD\\). Точки \\(M\\) и \\(N\\) являются серединами сторон \\(AB\\) и \\(CD\\) соответственно. Окружность, проходящая через точки \\(B\\) и \\(С\\), пересекает отрезки \\(BM\\) и \\(CN\\) в точках \\(P\\) и \\(Q\\) (отличных от концов отрезков).\nа)  Докажите, что точки \\(M\\), \\(N\\), \\(P\\) и \\(Q\\) лежат на одной окружности.\nб)  Найдите радиус окружности, описанной около треугольника \\(MPQ\\), если прямая \\(DP\\) перпендикулярна прямой \\(PC\\), \\(AB  =  25\\), \\(BC  =  3\\), \\(CD  =  28\\), \\(AD  =  20\\).",
+      "error_conditions": null,
+      "id": 117491,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

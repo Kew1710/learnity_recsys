@@ -1,0 +1,45 @@
+{
+  "comment": "Вероятность суммы двух несовместных событий равна сумме вероятностей этих событий:\n$$0,2+0,35=0,55$$\nОтвет: 0,55",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2394,
+    "title": "4.2 Теоремы вероятностей"
+  },
+  "id": 9803,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,55",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На экзамене по геометрии школьник отвечает на один вопрос из списка экзаменационных вопросов. Вероятность того, что это вопрос по теме «Вписанная окружность», равна 0,2. Вероятность того, что это вопрос по теме «Внешние углы», равна 0,35. Вопросов, которые одновременно относятся к этим двум темам, нет. Найдите вероятность того, что на экзамене школьнику достанется вопрос по одной из этих двух тем.",
+      "error_conditions": [],
+      "id": 119582,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=2824"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=2824"
+}

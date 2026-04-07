@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2876,
+    "title": "№13 IP-адреса (2020 год)"
+  },
+  "id": 26645,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Статград 2018) Для узла с IP-адресом 93.138.164.49 адрес сети равен 93.138.160.0 Для скольких различных значений маски это возможно?",
+      "error_conditions": [],
+      "id": 246284,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=SM3lSLcmu8Q"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 45,
+    "title": "IP-адреса"
+  },
+  "video_link": "https://www.youtube.com/watch?v=SM3lSLcmu8Q"
+}

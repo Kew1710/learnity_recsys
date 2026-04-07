@@ -1,0 +1,42 @@
+{
+  "comment": "1) нет, право на участие в управлении делами государства - это политическое право\n2) да, право на защиту своей чести и доброго имени - это личное право\n3) нет, право на социальное обеспечение - это социально-экономическое право\n4) нет, право на благоприятную окружающую среду - это экологическое право",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3065,
+    "title": "Конституция РФ о правовом статусе человека и гражданина. Гражданство Российской Федерации"
+  },
+  "id": 28134,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "К личным (гражданским) правам граждан Российской Федерации относится право на\n\n1) участие в управлении делами государства\n2) защиту своей чести и доброго имени\n3) социальное обеспечение\n4) благоприятную окружающую среду",
+      "error_conditions": [],
+      "id": 247773,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=s-Q_UbcYCd6Lqqrc&t=1098"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=s-Q_UbcYCd6Lqqrc&t=1098"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем координаты векторов:\nТаким образом, координаты вектора \\(a\\): \\((2;3)\\), а \\(b\\): \\((2;-1)\\). Скалярное произведение двух векторов равно сумме произведений соответственных координат:\n$$\\vec{a}\\cdot\\vec{b}=2\\cdot 2+3\\cdot (-1)=1$$\nОтвет: 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2383,
+    "title": "2.2 Скалярное произведение векторов"
+  },
+  "id": 32287,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной плоскости изображены векторы \\(\\overrightarrow{a}\\) и \\(\\overrightarrow{b}\\), координатами которых являются целые числа. Найдите скалярное произведение \\(\\overrightarrow{a} \\cdot \\overrightarrow{b}\\).",
+      "error_conditions": [],
+      "id": 251926,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=JhU4VJgn_ELMVT7h&t=490"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=JhU4VJgn_ELMVT7h&t=490"
+}

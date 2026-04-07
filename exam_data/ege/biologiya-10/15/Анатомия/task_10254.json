@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 234\nСлабое развитие мышц, постоянное ношение тяжестей в одной руке и ношение в детстве обуви без каблука приводит к искривлению позвоночника и плоскостопию",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10254,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "234",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "К искривлению позвоночника или развитию плоскостопия может привести\n1) активный образ жизни\n2) слабое развитие мышц\n3) постоянное ношение тяжестей в одной руке\n4) ношение обуви без каблука в детстве\n5) стрессовая ситуация\n6) нарушение режима питания",
+      "error_conditions": [],
+      "id": 122994,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

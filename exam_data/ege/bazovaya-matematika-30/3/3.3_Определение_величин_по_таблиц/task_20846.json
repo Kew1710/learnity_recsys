@@ -1,0 +1,42 @@
+{
+  "comment": "Рассмотрим лучшие попытки для каждого спортсмена: Лаптев - 55,5; Монакин - 56; Таль - 54,5; Овсов - 53.\nТогда места распределились следующим образом:\n- Монакин\n- Лаптев\n- Таль\n- Овсов\n\nЗначит, Лаптев занял второе место.\nОтвет: 2.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2137,
+    "title": "3.3 Определение величин по таблиц"
+  },
+  "id": 20846,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Результаты соревнований по метанию молота представлены в таблице.\nМеста распределяются по результату лучшей попытки каждого спортсмена: чем дальше он метнул молот, тем лучше.\nКакое место занял спортсмен Лаптев?",
+      "error_conditions": [],
+      "id": 240627,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

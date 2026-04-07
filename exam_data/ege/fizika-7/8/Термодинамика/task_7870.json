@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем первый закон термодинамики:\n$$Q=\\Delta{U}+A$$\nТак как газ получил тепло, то \\(Q=300~Дж\\). Поскольку внутренняя энергия уменьшилась, то \\(\\Delta{U}=-100~Дж\\).\nПолучаем:\n$$A=Q-\\Delta{U}=300-(-100)=400~Дж$$\nОтвет: 400 Дж",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 7870,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "400",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Демоверсия ЕГЭ 2023\nГаз получил количество теплоты, равное \\(300\\) Дж, при этом внутренняя энергия газа уменьшилась на \\(100\\) Дж. Масса газа не менялась. Какую работу совершил газ в этом процессе? Ответ дайте в Дж.",
+      "error_conditions": [],
+      "id": 100374,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9O_V_c88S0w?start=2350"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/9O_V_c88S0w?start=2350"
+}

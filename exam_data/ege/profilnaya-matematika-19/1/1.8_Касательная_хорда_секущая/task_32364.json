@@ -1,0 +1,45 @@
+{
+  "comment": "Мы знаем, что радиус, проведённый в точку касания, перпендикулярен касательной, следовательно, \\(\\Delta ACO\\) – прямоугольный, следовательно, \\(\\angle AOC=90^\\circ – 62^\\circ =28^\\circ \\) (сумма острых углом прямоугольного треугольника). Так как \\(\\angle AOC\\) опирается на дугу \\(AB\\) и является центральным, то дуга \\(AB=28^\\circ\\).\n\nОтвет: 28",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2379,
+    "title": "1.8 Касательная, хорда, секущая"
+  },
+  "id": 32364,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "28",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Угол \\(ACO\\) равен \\(62^\\circ\\). Его сторона \\(CA\\) касается окружности с центром в точке \\(O\\). Отрезок \\(CO\\) пересекает окружность в точке \\(B\\) (см. рис.). Найдите градусную меру дуги \\(AB\\) окружности, заключённой внутри этого угла. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 252003,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=TbsMQimXuY-XpjzM&t=2018"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=TbsMQimXuY-XpjzM&t=2018"
+}

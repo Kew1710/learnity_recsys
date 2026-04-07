@@ -1,0 +1,37 @@
+{
+  "comment": "Формула дифракционной решетки:\n$$d\\sin\\varphi =\\lambda k$$\nГде длина волны:\n$$\\lambda =\\frac{c}{\\nu}$$\nОбъединим формулы:\n$$\\sin\\varphi =\\frac{ck}{\\nu d}$$\nУчитывая, что \\(\\sin\\varphi <1\\)\n$$\\frac{ck}{\\nu d}<1\\Rightarrow k<\\frac{\\nu d}{c}$$\nПодставим значения:\n$$k<\\frac{5,2\\cdot 10^{14}\\cdot 3\\cdot 10^{-6}}{3\\cdot 10^8}=5,2\\Rightarrow k_\\max =5$$\nКоличество дифракционных максимумов:\n$$N=N_1+N_2+1=5+5+1=11$$\n\\(N_1~-\\)количество максимумов выше центральной оси\n\\(N_2~-\\)количество максимумов ниже центральной оси\nОтвет: 11",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 18446,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "231083\nДифракционная решетка с периодом \\(d=3\\cdot 10^{-6}~м\\) нормально освещается плоской монохроматической волной с частотой \\(5,2\\cdot 10^{14}~Гц\\). Сколько дифракционных максимумов доступно для наблюдения?",
+      "error_conditions": null,
+      "id": 238288,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/jfYJ8VwfbAs"
+}

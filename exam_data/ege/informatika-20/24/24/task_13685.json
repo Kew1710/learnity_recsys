@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 13685,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "26",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Текстовый файл состоит не более чем из \\(10^{6}\\) символов и содержит только заглавные буквы латинского алфавита.\nОпределите максимальное количество идущих подряд символов, среди которых нет 2 подряд идущих символов из набора Q, R, S (в том числе и повторяющихся).\nДля выполнения этого задания следует написать программу.",
+      "error_conditions": [],
+      "id": 181347,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/fnruNV_QBkQ?start=7260"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1500,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": "https://www.youtube.com/embed/fnruNV_QBkQ?start=7260"
+}

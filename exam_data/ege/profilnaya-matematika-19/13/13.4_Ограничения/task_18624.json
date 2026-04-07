@@ -1,0 +1,40 @@
+{
+  "comment": "а) Дробь равняется нулю, когда ее числитель равен нулю, а знаменатель нет.\nПоэтому рассмотрим ограничение:\n$$2\\cos x-\\sqrt{3}\\neq 0\\Rightarrow \\cos x\\neq \\frac{\\sqrt{3}}{2}\\Rightarrow x\\neq \\pm \\frac{\\pi}{6}+2\\pi k,k\\in Z$$\nЧислитель дроби равен нулю:\n$$2\\sin^2x-\\sin x=0\\Rightarrow \\sin x(2\\sin x-1)=0\\\\ \\sin x=0~или~\\sin x=\\frac{1}{2}$$\n1) \\(\\sin x=0\\Rightarrow x=\\pi k,k\\in Z\\) - удовлетворяет ограничению.\n2) \\(\\sin x=\\frac{1}{2}\\Rightarrow x=\\frac{\\pi}{6}+2\\pi k,\\frac{5\\pi}{6}+2\\pi k,k\\in Z\\) - ограничению удовлетворяет только серия \\(x=\\frac{5\\pi}{6}+2\\pi k,k\\in Z\\).\n\nб) Отберем корни уравнения, принадлежащие промежутку \\([\\frac{3\\pi}{2};3\\pi ]\\), при\nпомощи числовой окружности:\nНам подойдут:\n$$2\\pi ,3\\pi ,2\\pi +\\frac{5\\pi}{6}=\\frac{17\\pi}{6}$$\nОтвет: а) \\(\\pi k,\\frac{5\\pi}{6}+2\\pi k,k\\in Z\\); б) \\(2\\pi ,\\frac{17\\pi}{6},3\\pi\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2453,
+    "title": "13.4 Ограничения"
+  },
+  "id": 18624,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\frac{2\\sin^2x-\\sin x}{2\\cos x-\\sqrt{3}}=0\\).\n\nб) Укажите корни этого уравнения, принадлежащие промежутку \\([\\frac{3\\pi}{2};3\\pi ]\\).",
+      "error_conditions": null,
+      "id": 238466,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/watch?v=mjYrpyXrhBM&t=12388s"
+}

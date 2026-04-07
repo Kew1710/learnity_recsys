@@ -1,0 +1,40 @@
+{
+  "comment": "Введем ограничения:\n$$\\displaystyle \\begin{cases}\n8x^{2} +7 >0 & \\\\\nx^{2} +x+1 >0 & \\Rightarrow \\begin{cases}\nx \\in \\mathbb{R} & \\\\\nx \\in \\mathbb{R} & \\\\\nx∈ ( -\\infty ;-5) \\cup \\left( -\\frac{35}{8} ;+\\infty \\right) &\n\\end{cases}\\\\\n\\frac{x}{x+5} +7 >0 &\n\\end{cases}$$\nРешаем неравенство:\n$$\\log_{11}\\frac{8x^2+7}{x^2+x+1}\\geq \\log_{11}\\frac{8x+35}{x+5}$$\nТак как \\(\\log_{11}\\) - монотонно возрастающая функция, то перейдем к сравнению оснований с сохранением знака неравенства:\n$$\\frac{8x^2+7}{x^2+x+1}\\geq \\frac{8x+35}{x+5}\\\\ \\frac{8x^3+40x^2+7x+35}{(x+5)(x^2+x+1)}\\geq \\frac{8x^3+43x^2+43x+35}{(x+5)(x^2+x+1)}\\\\ \\frac{3x^2+36x}{(x+5)(x^2+x+1)}\\leq 0\\\\ \\frac{3x(x+12)}{(x+5)(x^2+x+1)}\\leq 0$$\nОткуда \\(x\\leq -12\\); \\(-5<x\\leq 0\\). Учитывая ограничения \\(x<5\\) и \\(x>-\\frac{35}{8}\\), получаем:\n$$\n\\left[\n\\begin{array}{l}\nx \\leq 12 \\\\\n\\left\\{\n\\begin{array}{l}\nx > -\\frac{35}{8} \\\\\nx \\leq 0\n\\end{array}\n\\right.\n\\end{array}\n\\right.\n$$\nОтвет: \\((-∞;-12]\\cup (-\\frac{35}{8};0]\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2470,
+    "title": "15.4 Свойства логарифма"
+  },
+  "id": 7833,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\log_{11}(8x^2+7)-\\log_{11}(x^2+x+1)\\geq \\log_{11}(\\frac{x}{x+5}+7)\\).",
+      "error_conditions": null,
+      "id": 100333,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

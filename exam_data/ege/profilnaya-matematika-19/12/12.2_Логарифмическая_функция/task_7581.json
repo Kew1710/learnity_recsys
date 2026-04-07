@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=\\frac{1}{x+9} -10=\\frac{-10x-89}{x+9} =\\frac{-10x-89}{x+9} =0\\\\ x_{1} =-9,x_{2} =-8,9$$\nРассмотрим промежутки \\(( -\\infty ;-9) ,\\ ( -9;-8,9] ,\\ ( -8,9;+\\infty )\\):\nНа \\(( -\\infty ;-9)\\) производная функции отрицательна, значит, функция убывает.\nНа \\(( -9;-8,9]\\) производная функции положительна, значит, функция возрастает.\nНа \\((-8,9;+\\infty )\\) производная функции отрицательна, значит, функция убывает.\n\nПолучаем \\(x_{2} =-8,9\\) - точка максимума.\n\nОтвет: -8,9",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2445,
+    "title": "12.2 Логарифмическая функция"
+  },
+  "id": 7581,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-8,9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдем точку максимума функции \\(y=\\ln(x+9)-10x+7\\).",
+      "error_conditions": [],
+      "id": 98724,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=1584"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=1584"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "$$\\frac{mv^2}{R}=qvB\\Rightarrow v=\\frac{qBR}{m}\\Rightarrow R=\\frac{mv}{qB}\\\\ AC=2R\\Rightarrow AC=\\frac{2mv}{qB}\\Rightarrow B=\\frac{2mv}{q\\cdot AC}=\\frac{2\\cdot 8\\cdot 10^{-7}\\cdot 3\\cdot 10^4}{0,2}=0,24~Тл$$\nОтвет: 0,24",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 11852,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23749\nДля исследования частиц используется масс-спектрометр, в камере которого создается однородное магнитное поле. Перпендикулярно вектору индукции и стенке \\(AC\\) камеры устройства влетает пучок ионов со скоростью \\(v=3\\cdot 10^4\\) м/с через отверстие \\(A\\), как показано на рисунке. В результате движения ионы попадают в точку \\(C\\), при этом \\(AC=20\\) см, а отношение массы иона к его заряду \\(\\frac{m}{q}=8\\cdot 10^{-7}\\) кг/Кл. Определите модуль индукции магнитного поля.",
+      "error_conditions": null,
+      "id": 151738,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

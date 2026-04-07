@@ -1,0 +1,42 @@
+{
+  "comment": "Воспользуемся формулой сокращенного умножения \\((a-b)(a+b)=a^2+b^2\\) (её можно найти в справочных материалах)\n$$(\\sqrt{15} - \\sqrt{2})(\\sqrt{15} + \\sqrt{2}) = (\\sqrt{15})^2 - (\\sqrt{2})^2 = 15 - 2 = 13$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2120,
+    "title": "16.4 Действия с иррациональными выражениями"
+  },
+  "id": 29634,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения\n$$(\\sqrt{15} - \\sqrt{2})(\\sqrt{15} + \\sqrt{2})$$",
+      "error_conditions": [],
+      "id": 249273,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

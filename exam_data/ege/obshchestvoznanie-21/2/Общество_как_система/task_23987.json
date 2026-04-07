@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2145,
+    "title": "Общество как система"
+  },
+  "id": 23987,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "245",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите верные суждения об обществе и запишите цифры, под которыми они указаны.\n\n1) Общество и природа не связаны между собой.\n2) Общество – это совокупность людей и их взаимодействий.\n3) Сферы жизни общества однотипны.\n4) Динамика общества проявляется в его развитии.\n5) Экономическая сфера общества включает в себя взаимодействия людей в процессе производства, обмена, потребления и распределения материальных благ и услуг.",
+      "error_conditions": [],
+      "id": 243702,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/DNQAuPJfC3A?si=DJ4rITDJSkSAa_sJ&t=1776"
+    },
+    "Valid": true
+  },
+  "time_seconds": 7200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/DNQAuPJfC3A?si=DJ4rITDJSkSAa_sJ&t=1776"
+}

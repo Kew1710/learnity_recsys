@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nAB, CD - хорды\nAB = 40\nCD = 42\nOM = 21\nРешение:\n\\( ND = \\cfrac{CD}{2} = 21\\)\n\\( ND = OM = 21\\)\n\\( OB = OD = R\\)\n\\( \\angle OMB = \\angle OND = 90^o\\)\n\\( \\Rightarrow \\triangle OMB = \\triangle OND\\)\n\\( \\Rightarrow ON = \\cfrac{AB}{2 } = 20\\)\nОтвет: 20",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2013,
+    "title": "23.4 Окружность"
+  },
+  "id": 14332,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Отрезки AB и CD являются хордами окружности. Найдите расстояние от центра окружности до хорды CD, если AB = 40, CD = 42, а расстояние от центра окружности до хорды AB равно 21.",
+      "error_conditions": null,
+      "id": 202461,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

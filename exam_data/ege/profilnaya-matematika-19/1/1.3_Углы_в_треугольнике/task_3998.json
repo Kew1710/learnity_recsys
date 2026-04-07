@@ -1,0 +1,45 @@
+{
+  "comment": "Из четырехугольника \\(ADOE\\):\n$$\\angle DOE=360^{\\circ }-90^{\\circ }-90^{\\circ }-47^{\\circ }=133^{\\circ }$$\nОтвет: 133",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2374,
+    "title": "1.3 Углы в треугольнике"
+  },
+  "id": 3998,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "133",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(A\\) равен \\(47^{\\circ }\\), углы \\(B\\) и \\(C\\) острые, высоты \\(BD\\) и \\(CE\\) пересекаются в точке \\(O\\). Найдите угол \\(DOE\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 66419,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=259"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=259"
+}

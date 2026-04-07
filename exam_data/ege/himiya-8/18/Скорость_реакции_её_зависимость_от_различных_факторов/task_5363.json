@@ -1,0 +1,42 @@
+{
+  "comment": "От давления углекислого газа не зависит скорость тех реакций, в которых он не выступает в качестве реагента - реакции 1, 2 и 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 5363,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "125",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все реакции, скорость которых не зависит от давления углекислого газа.\n1) C + O₂ = CO₂\n2) CaCO₃ + 2HNO₃(р-р) = Ca(NO₃)₂ + CO₂ + H₂O\n3) CO₂ + Ca(OH)₂ = CaCO₃ + H₂O\n4) 2CO₂ + 2Na₂O₂ = 2Na₂CO₃ + O₂\n5) 2NaHCO₃ = Na₂CO₃ + CO₂ + H₂O",
+      "error_conditions": [],
+      "id": 70917,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/KSjEzTkH_bg?start=4075"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/KSjEzTkH_bg?start=4075"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nНайдем внешний угол AOB, он равен: \\(360 - 140 = 220^o\\)\n\\(1^o = \\cfrac{98}{140}\\)\nТак, длина большей дуги равна \\(220 \\cdot \\cfrac{98}{140} = 154\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2241,
+    "title": "16.6 Длина окружности и площадь круга"
+  },
+  "id": 21379,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "154",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На окружности с центром O отмечены точки A и B так, что \\( \\angle AOB=140^o\\) . Длина меньшей дуги AB равна 98. Найдите длину большей дуги.",
+      "error_conditions": [],
+      "id": 241154,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": ".",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1822,
+    "title": "Математика ОГЭ"
+  },
+  "id": 17398,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Боковые стороны AB и CD трапеции ABCD равны соответственно 28 и 35, а основание BC равно 7. Биссектриса угла ADC проходит через середину стороны AB. Найдите площадь трапеции.",
+      "error_conditions": null,
+      "id": 237280,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

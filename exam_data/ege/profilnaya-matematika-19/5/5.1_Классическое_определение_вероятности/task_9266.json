@@ -1,0 +1,45 @@
+{
+  "comment": "Распишем всевозможные исходы, при условии, что \\(1\\) очко не выпало ни разу.\n2 и 23 и 24 и 25 и 26 и 22 и 33 и 34 и 35 и 36 и 32 и 43 и 44 и 45 и 46 и 42 и 53 и 54 и 55 и 56 и 52 и 63 и 64 и 65 и 66 и 6Всего исходов:\n$$5\\cdot 5=25$$\nНайдем количество благоприятных исходов для события «сумма очков равна четырем»: 1) \\(2\\) и \\(2\\).\n\nТогда искомая вероятность равна:\n$$\\frac{1}{25}=0,04$$\nОтвет: 0,04",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2449,
+    "title": "5.1 Классическое определение вероятности"
+  },
+  "id": 9266,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,04",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Игральную кость бросили два раза. Известно, что \\(1\\) очко не выпало ни разу. Найдите при этом условии вероятность события «сумма очков равна четырем».",
+      "error_conditions": [],
+      "id": 113052,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Yu92P7ueg44?start=1114"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 5,
+    "title": "Сложная вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/Yu92P7ueg44?start=1114"
+}

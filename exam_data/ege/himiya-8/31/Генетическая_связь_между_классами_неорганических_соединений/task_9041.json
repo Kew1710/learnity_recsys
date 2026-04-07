@@ -1,0 +1,37 @@
+{
+  "comment": "1) Cu + 4HNO₃ = Cu(NO₃)₂ + 2NO₂ + 2H₂O\n2) 2NO₂ + 4Zn = 4ZnO + N₂\n3) ZnO + 2NaOH + H₂O = Na₂[Zn(OH)₄]\n4) Na₂[Zn(OH)₄] + 2CO₂ = 2NaHCO₃ + Zn(OH)₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 9041,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Медь растворили в концентрированной азотной кислоте. Выделившийся газ пропустили над нагретым порошком цинка. Образовавшееся твёрдое вещество добавили к раствору гидроксида натрия. Через полученный раствор пропустили избыток углекислого газа, при этом наблюдали образование осадка.\nНапишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112736,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

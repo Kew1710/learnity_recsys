@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1776,
+    "title": "3.12 Экономические цели и функции государства"
+  },
+  "id": 14043,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Государство обеспечивает поддержание правопорядка, оказание населению медицинских и образовательных услуг. Какую функцию государства\nв экономической жизни иллюстрирует данный пример?\n\n1) перераспределение доходов\n2) производство общественных благ\n3) регулирование денежного обращения\n4) проведение антиинфляционной политики",
+      "error_conditions": [],
+      "id": 183800,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=10491"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=10491"
+}

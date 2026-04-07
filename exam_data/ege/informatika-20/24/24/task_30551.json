@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 30551,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "17",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Досрок 2024) Текстовый файл состоит из символов латинского алфавита Q, W, R и цифр 1, 2, 4. Определите максимальное количество идущих подряд символов (длину непрерывной подпоследовательности), среди которых буквы чередуются с цифрами (никакая буква не может стоять рядом с другой буквой и никакая цифра не может стоять рядом с другой цифрой). Для выполнения этого задания следует написать программу.\n\nФайл",
+      "error_conditions": [],
+      "id": 250190,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/skXTB_9AOcw?si=m6ojI7IseXepnAMu&t=8317"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1080,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": "https://www.youtube.com/live/skXTB_9AOcw?si=m6ojI7IseXepnAMu&t=8317"
+}

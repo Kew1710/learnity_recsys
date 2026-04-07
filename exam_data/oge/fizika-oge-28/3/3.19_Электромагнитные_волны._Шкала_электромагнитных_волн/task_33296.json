@@ -1,0 +1,42 @@
+{
+  "comment": "Всегда не меняется период и частота при переходе из одной среды в другую (выбираем 4)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3275,
+    "title": "3.19 Электромагнитные волны. Шкала электромагнитных волн"
+  },
+  "id": 33296,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "При переходе электромагнитной волны из воздуха в стекло не меняется\n1) только скорость распространения\n2) длина волны и частота\n3) длина волны и скорость распространения\n4) период и частота",
+      "error_conditions": [],
+      "id": 252935,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

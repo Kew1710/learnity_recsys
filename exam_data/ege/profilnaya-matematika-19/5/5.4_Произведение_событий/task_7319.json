@@ -1,0 +1,45 @@
+{
+  "comment": "Вероятность попадания равна \\(0,9\\), следовательно, вероятность промаха равна \\(0,1\\). Таким образом, вероятность того, что стрелок попадет в первую мишень и не попадет в три последние равна:\n$$0,9\\cdot 0,1\\cdot 0,1\\cdot 0,1= 0,0009$$\nОтвет: 0,0009",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2398,
+    "title": "5.4 Произведение событий"
+  },
+  "id": 7319,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,0009",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Стрелок стреляет по одному раз в каждую из четырех мишеней. Вероятность попадания в мишень при каждом отдельном выстреле равна \\(0,9\\). Найдите вероятность того, что стрелок попадет в первую мишень и не попадет в три последние?",
+      "error_conditions": [],
+      "id": 83835,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/UrgDnSfhvk0?start=2626"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 5,
+    "title": "Сложная вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/UrgDnSfhvk0?start=2626"
+}

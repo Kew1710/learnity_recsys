@@ -1,0 +1,42 @@
+{
+  "comment": "$$P=nkT_1$$\n$$T_1=\\frac{P}{nk}$$\n$$T_2=\\frac{2P}{\\frac{n}{4}k}=8\\frac{P}{nk}$$\n$$T_2=8T_1$$\nПри уменьшении концентрации в 4 раза и увеличении давления в 2 раза температура увеличится в 8 раз.\nОтвет: 8",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2625,
+    "title": "МКТ"
+  },
+  "id": 9569,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23452\nОбъем газа, находящегося в сосуде, увеличился. В результате этого концентрация молекул газа уменьшилась в \\(4\\) раза, а их давление на стенки сосуда выросло в \\(2\\) раза. Во сколько раз увеличилась абсолютная температура газа?",
+      "error_conditions": [],
+      "id": 115384,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/Y-TsFBml81c"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/Y-TsFBml81c"
+}

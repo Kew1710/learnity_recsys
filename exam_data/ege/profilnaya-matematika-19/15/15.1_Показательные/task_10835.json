@@ -1,0 +1,40 @@
+{
+  "comment": "$$5^{3x}-5^{2x}+\\frac{4\\cdot 5^{2x}-20}{5^x-5}\\leq 4$$\nЗамена: \\(5^x=t,t>0\\)\n$$t^3-t^2+\\frac{4t^2-20}{t-5}-4\\leq 0$$\nПриводим к общему основанию:\n$$\\frac{(t^4-5t^3-t^3+5t^2+4t^2-20-4t+20)}{t-5}\\leq 0\\\\ \\frac{t^4-6t^3+9t^2-4t}{t-5}\\leq 0\\\\ \\frac{t(t^3-6t^2+9t-4)}{t-5}\\leq 0\\\\ \\frac{t(t-1)(t^2-5t+4)}{t-5}\\leq 0\\\\ \\frac{t(t-1)(t-1)(t-4)}{t-5}\\leq 0$$\nПолучаем совокупность:\n$$\\displaystyle \\begin{cases}\n\\left[ \\begin{array}{l l}\n\\begin{cases}\nt\\geq 4\\\\\nt< 5\n\\end{cases}\\\\\nt=1\n\\end{array} \\right.\\\\\nt >0\n\\end{cases}$$\nОбратная замена:\n$$\\displaystyle \\begin{cases}\n\\left[ \\begin{array}{l l}\n\\begin{cases}\n5^{x} \\geq 4\\\\\n5^{x} < 5\n\\end{cases}\\\\\n5^{x} =1\n\\end{array} \\right.\\\\\n5^{x} >0\n\\end{cases}\\\\ 5^x>0~всегда\\\\ \\displaystyle \\left[ \\begin{array}{l l}\n\\begin{cases}\n5^{x} \\geq 5^{\\log_{5} 4}\\\\\n5^{x} < 5^{1}\n\\end{cases}\\\\\n5^{x} =5^{0}\n\\end{array} \\right.\\\\ \\displaystyle \\left[ \\begin{array}{l l}\n\\begin{cases}\nx\\geq \\log_{5} 4\\\\\nx< 1\n\\end{cases}\\\\\nx=0\n\\end{array} \\right.$$\nОтвет: \\(x\\in[\\log_54;1)~\\cup\\) {\\(0\\)}",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 10835,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(125^x-25^x+\\frac{4\\cdot 25^x-20}{5^x-5}\\leq 4\\).",
+      "error_conditions": null,
+      "id": 147595,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

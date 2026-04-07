@@ -1,0 +1,42 @@
+{
+  "comment": "$$F = 38\\; Н, \\; k = 2\\; Н/м$$\n$$F = kx \\Rightarrow x = \\frac{F}{k} = \\frac{38}{2} = 19 \\; м$$\nОтвет: 19 метров.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 28263,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Закон Гука можно записать в виде \\(F = kx\\), где \\(F\\) - сила (в ньютонах), с которой растягивают пружину, \\(x\\) - абсолютное удлинение пружины (в метрах), а \\(k\\) - коэффициент упругости.\nПользуясь этой формулой, найдите \\(x\\) (в метрах), если \\(F = 38\\) Н и \\(k = 2\\) Н/м.",
+      "error_conditions": [],
+      "id": 247902,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

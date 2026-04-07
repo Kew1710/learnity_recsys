@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(\\vec{e}\\) – итоговый вектор, то есть \\(\\vec{e}=\\vec{a}-\\vec{b}+\\vec{c}\\). Тогда координаты \\(\\vec{e}\\) могут быть найдены как сумма соответствующих координат исходного вектора \\(\\vec{c}\\) и разности соответствующих координат исходных векторов \\(\\vec{a}\\) и \\(\\vec{b}\\):\n$$\\vec{e}((1-(-3)+4);(2-6+(-2)))\\Rightarrow \\vec{e}(8;-6)$$\nТеперь найдём длину вектора \\(\\vec{e}\\). Длина вектора равна квадратному корню из суммы квадратов его координат. То есть:\n$$|\\vec{e}|=\\sqrt{x^2_e+y^2_e}=\\sqrt{8^2+(-6)^2}=10$$\nОтвет: 10",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2382,
+    "title": "2.1 Сумма и разность векторов, умножение вектора на число"
+  },
+  "id": 23246,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны векторы \\(\\vec{a}(1;2)\\), \\(\\vec{b}(-3;6)\\) и \\(\\vec{c}(4;-2)\\). Найдите длину вектора \\(\\vec{a}-\\vec{b}+\\vec{c}\\).",
+      "error_conditions": [],
+      "id": 242971,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=681s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/watch?v=lmJJkT50DJk&t=681s"
+}

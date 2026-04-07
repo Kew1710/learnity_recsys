@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=11\\cdot \\frac{1}{x+4}-11=\\frac{-x-3}{x+4}\\\\ \\frac{-x-3}{x+4}=0\\\\ x_1=-4, x_2=-3$$\nРассмотрим промежутки \\(( -\\infty ;-4) ,\\ ( -4;-3] ,\\ ( -3;+\\infty )\\):\nНа \\((-\\infty ;-4)\\) производная функции отрицательна, значит, функция убывает.\nНа \\((-4;-3]\\) производная функции положительна, значит, функция возрастает.\nНа \\((-3;+\\infty)\\) производная функции отрицательна, значит, функция убывает.\n\nПолучаем \\(x_{2} =-3\\) - точка максимума, она принадлежит промежутку \\([-3,5;0]\\), тогда найдем \\(f( -3)\\):\n$$y=11\\cdot \\ln(-3+4)+33-5=28$$\nОтвет: 28",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2445,
+    "title": "12.2 Логарифмическая функция"
+  },
+  "id": 7576,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "28",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y=11\\cdot \\ln(x+4)-11х-5\\) на отрезке \\([-3,5;0]\\).",
+      "error_conditions": [],
+      "id": 98719,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=205"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=205"
+}

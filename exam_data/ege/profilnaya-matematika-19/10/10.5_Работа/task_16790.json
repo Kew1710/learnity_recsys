@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(x\\) – количество деталей, которое изготавливает за час первый рабочий.\n\n\\(s\\)\n\\(v\\)\n\\(T\\)\n1\n\\(209\\)\n\\(x\\)\n\\(\\frac{209}{x}\\)\n2\n\\(209\\)\n\\(x-8\\)\n\\(\\frac{209}{x-8}\\)\n$$\\frac{209}{x-8}-\\frac{209}{x}=8\\\\ \\frac{209x-209(x-8)-8x(x-8)}{x(x-8)}=0\\\\ -8x^2+64x+1672=0\\\\ -x^2+8x+209=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} x=19\\\\ x=-11\\ -\\ не\\ подходит,\\ т.к.\\ x >0 \\end{array} \\right.$$\nОтвет: 19",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2432,
+    "title": "10.5 Работа"
+  },
+  "id": 16790,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Заказ на изготовление \\(209\\) деталей первый рабочий выполняет на \\(8\\) часов быстрее, чем второй. Сколько деталей за час изготавливает первый рабочий, если известно, что он за час изготавливает на \\(8\\) деталей больше, чем второй?",
+      "error_conditions": [],
+      "id": 236696,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=6189"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=6189"
+}

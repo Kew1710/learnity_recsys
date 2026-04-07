@@ -1,0 +1,45 @@
+{
+  "comment": "События не зависят друг от друга, поэтому вероятность их одновременного исполнения – произведение вероятностей каждого по отдельности. То есть вероятность, что все \\(4\\) столика заняты жиробасами равна\n$$0,2\\cdot 0,2\\cdot 0,2\\cdot 0,2=0,0016$$\nОтвет: 0,0016",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2398,
+    "title": "5.4 Произведение событий"
+  },
+  "id": 16799,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,0016",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Во вкусно и точка \\(4\\) столика. Каждый из них занят жиробасом с вероятностью \\(0,2\\). Найдите вероятность того, что в случайный момент времени все \\(4\\) столика заняты одновременно. (считайте, что жиробасы заходят независимо друг от друга)",
+      "error_conditions": [],
+      "id": 236704,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=7891"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 5,
+    "title": "Сложная вероятность"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=7891"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1253,
+    "title": "Русская проза"
+  },
+  "id": 24643,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 12,
+    "task_count": 0,
+    "title": "Литература"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "341",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между героями и их характеристиками.\n\nА) Разумихин\nБ) Порфирий Петрович\nВ) Мармеладов\n\n1)Отец Сони, бывший чиновник, пьяница\n2)Несостоявщийся жених сестры Раскольникова\n3)самый близкий друг Раскольникова\n4)следователь по делу об убийстве старухи",
+      "error_conditions": [],
+      "id": 244310,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

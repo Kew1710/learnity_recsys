@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДоказать:\n\\( ST \\perp MN\\)\n1. Проведем MA, MB - радиусы окр.\n\\( \\Rightarrow MS=MT \\)\n2. Проведем NS=NT - радиусы\nт. N равноудалена от концов отрезка ST\nт. N равноудалена от концов отрезка ST\n\\( \\Rightarrow MN\\) - серединный перпендикуляр к ST\n\\( \\Rightarrow MN \\perp ST\\) , ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1946,
+    "title": "24.4 Окружность"
+  },
+  "id": 13065,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружности с центрами в точках M и N пересекаются в точках S и T, причём точки M и N лежат по одну сторону от прямой ST. Докажите, что прямые MN и ST перпендикулярны.",
+      "error_conditions": null,
+      "id": 175640,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

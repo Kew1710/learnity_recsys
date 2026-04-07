@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем координаты вектора \\(2\\vec{a}\\):\n$$2\\vec{a} = (3\\cdot 2;-3\\cdot 2)=(6;-6)$$\nТогда координаты вектора \\(2\\vec{a}-\\vec{b}\\) равны:\n$$2\\vec{a}-\\vec{b}=(6-(-6);-6-(-1))=(6+6;-6+1)\\\\ 2\\vec{a}-\\vec{b} = (12;-5)$$\nДлина вектора:\n$$|2\\vec{a}-\\vec{b}|=\\sqrt{12^2+(-5)^2}=\\sqrt{169}=13$$\nОтвет: 13",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2382,
+    "title": "2.1 Сумма и разность векторов, умножение вектора на число"
+  },
+  "id": 24680,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны векторы \\(\\vec{a}(3;-3)\\) и \\(\\vec{b}(-6;-1)\\). Найдите длину вектора \\(2\\vec{a}-\\vec{b}\\).",
+      "error_conditions": [],
+      "id": 244346,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": null
+}

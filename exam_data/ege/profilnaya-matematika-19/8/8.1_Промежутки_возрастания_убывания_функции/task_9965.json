@@ -1,0 +1,45 @@
+{
+  "comment": "Производная функции \\(f(x)\\) отрицательна в точках убывания функции: \\(x_2\\), \\(x_3\\), \\(x_4\\). Таким образом, условию удовлетворяют три точки.\n\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2412,
+    "title": "8.1 Промежутки возрастания/убывания функции"
+  },
+  "id": 9965,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график дифференцируемой функции \\(y=f(x)\\) и отмечены шесть точек на оси абсцисс: \\(x_1\\), \\(x_2\\), \\(x_3\\), \\(x_4\\), \\(x_5\\), \\(x_6\\). В скольких из этих точек производная функции \\(f(x)\\) отрицательна?",
+      "error_conditions": [],
+      "id": 120526,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/68v9uQwfrzg?start=2940"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/68v9uQwfrzg?start=2940"
+}

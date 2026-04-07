@@ -1,0 +1,42 @@
+{
+  "comment": "меняются обе части числительного: 1 — как два, три, четыре (чем? — двумя); 2 — как «ноты» во мн. ч. (чем? — нотами), получаем «двумя нотами» и «двумястами»",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 910,
+    "title": "Морфологические нормы (образование форм слова)"
+  },
+  "id": 11319,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "двумястами",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В одном из выделенных ниже слов допущена ошибка в образовании формы слова. Исправьте ошибку и запишите слово правильно.\n\nнет ТУФЕЛЬ\nсвыше ТРЁХСОТ человек\nДВУМЯСТА журналами\nПРИЛЯГТЕ на кровать\nне ЕЗДИ туда",
+      "error_conditions": [],
+      "id": 148577,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

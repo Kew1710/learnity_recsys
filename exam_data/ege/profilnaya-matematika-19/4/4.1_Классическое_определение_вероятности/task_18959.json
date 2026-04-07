@@ -1,0 +1,45 @@
+{
+  "comment": "$$P=\\frac{N_{благоприятных}}{N_{всего}}$$\nЧисло благоприятных событий - это сумки без дефектов. Найдем сколько всего сумок без дефектов:\n$$200-4=196\\\\ P=\\frac{196}{200}=\\frac{98}{100}=0,98$$\nОтвет: 0,98.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 18959,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,98",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Фабрика выпускает сумки. В среднем 4 сумки из 200 имеют скрытые дефекты. Найдите вероятность того, что купленная сумка окажется без дефектов.",
+      "error_conditions": [],
+      "id": 238797,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/_crN6qXTZ5o?t=10141"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://youtu.be/_crN6qXTZ5o?t=10141"
+}

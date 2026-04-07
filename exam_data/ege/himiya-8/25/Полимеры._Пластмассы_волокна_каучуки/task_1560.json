@@ -1,0 +1,42 @@
+{
+  "comment": "А) Изопрен – тривиальное название 2-метилбутадиена-1,3, мономер изопренового каучука\nБ) Хлорэтен - мономер поливинилхлорида\nВ) Этен - мономер полиэтилена",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2853,
+    "title": "Полимеры. Пластмассы, волокна, каучуки"
+  },
+  "id": 1560,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "421",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между названием мономера и формулой полимера, который получают из данного мономера: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nНАЗВАНИЕ МОНОМЕРА\nФОРМУЛА ПОЛИМЕРА\nA) изопрен1) Б) хлорэтен2) B) этен3) 4)",
+      "error_conditions": [],
+      "id": 53876,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/pA4_RK5ADqk?start=4924"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pA4_RK5ADqk?start=4924"
+}

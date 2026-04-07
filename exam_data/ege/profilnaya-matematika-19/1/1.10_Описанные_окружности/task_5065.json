@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\angle ABC=\\angle ABD+\\angle DBC\\\\ \\angle ABD=\\angle ABC-\\angle DBC\\\\ \\angle DBC=\\angle DAC=44^{\\circ}~(вписанные~опираются~на~одну~дугу)\\\\ \\angle ABD=98^{\\circ}-44^{\\circ}=54^{\\circ}$$\nОтвет: 54",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2381,
+    "title": "1.10 Описанные окружности"
+  },
+  "id": 5065,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "54",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Четырехугольник \\(ABCD\\) вписан в окружность. Угол \\(ABC\\) равен \\(98^{\\circ }\\), угол \\(CAD\\) равен \\(44^{\\circ }\\). Найдите угол \\(ABD\\).Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 70324,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=3355"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=3355"
+}

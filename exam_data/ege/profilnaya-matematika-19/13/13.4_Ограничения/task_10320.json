@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$\\displaystyle \\begin{cases}\n13\\sin^{2} x-5\\sin x=0\\ ( 1)\\\\\n13\\cdot \\cos x+12\\neq 0\\ ( 2)\n\\end{cases}$$\nОграничение (2): \\(13\\cdot\\cos x+12\\ne 0\\Leftrightarrow\\cos x\\ne -\\frac{12}{13}\\), найдем \\(\\sin x\\):\n$$\\sin x=\\pm\\sqrt{1-\\cos^2x}=\\pm\\sqrt{1-\\frac{144}{169}}=\\pm\\frac{5}{13}$$\nРассмотрим (1):\n$$13\\sin^2x-5\\sin x=0\\Leftrightarrow \\displaystyle \\left[ \\begin{array}{l l}\n\\sin x=0\\\\\n\\sin x=\\frac{5}{13}\n\\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l}\nx=\\pi k\\\\\nx=\\arcsin\\frac{5}{13} +2\\pi k\\\\\nx=\\pi -\\arcsin\\frac{5}{13} +2\\pi k\n\\end{array} \\right. ,k\\in Z$$\nЗначит система примет вид:\n$$\\displaystyle \\begin{cases}\n\\left[ \\begin{array}{l l}\nx=\\pi k\\\\\nx=\\arcsin\\frac{5}{13} +2\\pi k\\\\\nx=\\pi -\\arcsin\\frac{5}{13} +2\\pi k\n\\end{array} \\right.\\\\\n\\cos x\\neq -\\frac{12}{13}\n\\end{cases} ,k\\in Z$$\n\\(x=\\pi-\\arcsin\\frac{5}{13}+2\\pi k\\) - не подходит, так как в этой точке \\(\\cos x=-\\frac{12}{13}\\)\n$$\\displaystyle \\left[ \\begin{array}{l l}\nx=\\pi k\\\\\nx=\\arcsin\\frac{5}{13} +2\\pi k\n\\end{array} \\right. ,k\\in Z$$\nОтберем корни на промежутке \\(\\left[-3\\pi;-\\frac{3\\pi}{2}\\right]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$-3\\pi;-2\\pi\\\\ -2\\pi+\\arcsin\\frac{5}{13}$$\nОтвет: а) {\\(\\pi k;\\arcsin\\frac{5}{13}+2\\pi k:k\\in Z\\)}, б) \\(-3\\pi;-2\\pi;-2\\pi+\\arcsin\\frac{5}{13}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2453,
+    "title": "13.4 Ограничения"
+  },
+  "id": 10320,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(\\frac{13\\sin^2x-5\\sin x}{13\\cdot\\cos x+12}=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[-3\\pi;-\\frac{3\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 137526,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 12,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

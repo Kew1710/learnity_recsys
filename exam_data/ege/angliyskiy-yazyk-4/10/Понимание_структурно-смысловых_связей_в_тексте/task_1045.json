@@ -1,0 +1,42 @@
+{
+  "comment": "К тексту А подходит заголовок 4. Choosing a Course of Action (Начать действовать). См. скрин. (Суть текста : главное - твое решение начать действовать и решение достичь цели)\n\nК тексту В подходит заголовок 8. Setting Goals (постановка целей). См. скрин. (Суть текста: важна четкая и понятная цель)\n\nК тексту С подходит заголовок 5. Staying Focused (оставаться сфокусированным). См. скрин. (Суть текста: главное - сфокусироваться на задаче, несмотря на все отвлечения. Сила воли нам поможет.)\n\nК тексту D подходит заголовок 1. Remembering the 3D's (Помни о трех D: defer (отложить дело), delegate,delete) См. скрин.\n\nК тексту E подходит заголовок 7. Having Commitment (обязательство). См. скрин. (В общем, чтобы чего-то достичь, будь готов взять на себя обязательства и работать столько, сколько потребуется)\n\nК тексту F подходит заголовок 2. Having Self-Belief (Верь в себя). См.скрин. (Не сомневайся в себе, иначе не видать тебе успеха. Нужно верить, что все получится)\n\nК тексту G подходит заголовок 3. Taking Action (Действуй). См. скрин. (Делай! Иначе ничего не получится.)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 812,
+    "title": "Понимание структурно-смысловых связей в тексте"
+  },
+  "id": 1045,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "a4 b8 c5 d1 e7 f2 g3",
+          "points": 7
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между заголовками 1-8 и текстами А-G. Занесите свои ответы в таблицу. Используйте каждую цифру только один раз. В задании один заголовок лишний.\n\n1. Remembering the 3D's\n2. Having Self-Belief\n3. Taking Action\n4. Choosing a Course of Action\n5. Staying Focused\n6. Investing Money\n7. Having Commitment\n8. Setting Goals\n\nA. One of the first steps in the process of becoming successful is to make the decision to achieve something. All of us know that nothing can move forward until that first decision to do so is made. The initial action is always the decision to go ahead, which many people tend to overlook. So, decide on moving forward, put your decision down in writing, just to keep it in focus, and then carry on from there.\n\nB. Having clarity of vision and purpose is perhaps one of the most important factors of achieving success. The fact is that most people simply have no idea about what they really want. Clarity means understanding exactly what you want and how it will affect your life. Once you acquire clarity of vision and purpose, the next vital step of becoming successful is determining the aims you want to achieve.\n\nC. You should be able to accomplish what you set out to do with unwavering concentration. Life is full of distractions - TV, family, e-mail and telephones - all of which can be completely overwhelming. How can you concentrate on your goals? Willpower is one of the factors although willpower alone will not be sufficient to achieve your aims. One of the best ways is to make a plan and then stick to it.\n\nD. Before beginning any new activity, examine it to see if it will help in moving you nearer to your goals. If a certain activity can be put away for a later time, defer it. If that activity can be done by somebody else, delegate it. And if it does not really need to be done at all, it can be deleted. This kind of close examination of each activity will help in keeping you focused on the things that are really important.\n\nE. Success often involves being willing to pay the price that everything has. The price may not be in monetary termE. Success often involves being willing to pay the price that everything has. The price may not be in monetary terms. It could be sacrifice, effort, time, and also money, or maybe something else. The point is that in order to become successful, you must be ready to work hard and to put all your effort into achieving your purpose. Success takes a lot of dedication.s. It could be sacrifice, effort, time, and also money, or maybe something else. The point is that in order to become successful, you must be ready to work hard and to put all your effort into achieving your purpose. Success takes a lot of dedication.\n\nF. Lack of confidence is one of the biggest hurdles that many people need to get over in order to become successful. People often think they are not good enough or not smart enough, which can actually prevent them from finding the success they seek. It is common knowledge that if you think you can do something, you will, and conversely, if you think that it cannot be done, it will lead to failure.\n\nG. Nothing can be achieved until action is taken to achieve it. After all the above steps of making a decision, setting goals, making plans and choosing a strategy, you will need to go ahead and act on what you want to achieve. By putting your plan of action into play, you will get to what you set out to achieve - becoming successful!",
+      "error_conditions": [],
+      "id": 52605,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 7,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

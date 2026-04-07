@@ -1,0 +1,45 @@
+{
+  "comment": "По свойству сторон куба очевидно, что прямая \\(AD\\) перпендикулярна пересекающимся прямым \\(DD_{1}\\) и \\(CD\\), принадлежащим плоскости \\(DD_{1} C_{1} C\\), следовательно, прямая \\(AD\\) перпендикулярна плоскости \\(DD_{1} C_{1} C\\) (по признаку перпендикулярности прямой и плоскости), значит, она перпендикулярна прямой \\(AD\\), тоже принадлежащей вышеупомянутой плоскости куба.\nОтвет: 90",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2385,
+    "title": "3.2 Углы в объемных фигурах"
+  },
+  "id": 7082,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "90",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В кубе \\(ABCDA_{1} B_{1} C_{1} D_{1}\\) найдите угол между прямыми \\(CD_{1}\\) и \\(AD\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 81348,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=364"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=364"
+}

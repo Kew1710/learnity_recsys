@@ -1,0 +1,42 @@
+{
+  "comment": "Элементы одного периода – Mg, P, Al (3 период)\nКоличество валентных электронов уменьшается при движении по периоду справа налево (с уменьшением номера группы). Верный порядок: P, Al, Mg",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2785,
+    "title": "Закономерности изменения свойств элементов и их соединений по периодам и группам"
+  },
+  "id": 5714,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "451",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из указанных в ряду химических элементов выберите три элемента, которые в Периодической системе химических элементов Д. И. Менделеева находятся в одном периоде.\nРасположите выбранные элементы в порядке уменьшения числа валентных электронов.\n1) Mg\n2) Mn\n3) Rb\n4) P\n5) Al",
+      "error_conditions": [],
+      "id": 72185,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=4528"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=4528"
+}

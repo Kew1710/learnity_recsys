@@ -1,0 +1,42 @@
+{
+  "comment": "За весь период наименьшая цена была 1 октября - 967,5 рублей.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2074,
+    "title": "3.1 Определение величины по графику"
+  },
+  "id": 28752,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "967,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке жирными точками показана цена золота, установленная Центробанком РФ во все рабочие дни в октябре 2009 года. По горизонтали указываются числа месяца, по вертикали — цена золота в рублях за грамм. Для наглядности жирные точки на рисунке соединены линией.\nОпределите по рисунку наименьшую цену золота за данный период. Ответ дайте в рублях за грамм.",
+      "error_conditions": [],
+      "id": 248391,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

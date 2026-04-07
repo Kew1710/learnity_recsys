@@ -1,0 +1,42 @@
+{
+  "comment": "Карта посвящена восстанию Степана Разина 1667-1671 гг. (XVII в.). Понять можно по направлению движения восстания и, например, границам территорий, которые оно охватило. Поскольку восстание пришлось на 1667-1671 гг., то это относится к правлению Алексея Михайловича, правившего с 1645 по 1676 гг.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3099,
+    "title": "9.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 34772,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "алексеймихайлович",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Назовите российского монарха, в годы правления которого произошли события, обозначенные на схеме.",
+      "error_conditions": [],
+      "id": 254411,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

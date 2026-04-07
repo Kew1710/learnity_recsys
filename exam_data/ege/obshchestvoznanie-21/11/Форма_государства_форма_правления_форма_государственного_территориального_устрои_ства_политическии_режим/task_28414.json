@@ -1,0 +1,42 @@
+{
+  "comment": "Ценности 1 и 3 относятся к недемократическому государству. Парламент также может существовать и в недемократическом государстве.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2188,
+    "title": "Форма государства: форма правления, форма государственного (территориального) устройства, политический режим"
+  },
+  "id": 28414,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "456",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "К политическим ценностям демократического общества относятся:\n- Однопартийная система\n- Парламентаризм\n- Безальтернативные выборы\n- Права человека\n- Правовое государство\n- Политический плюрализм",
+      "error_conditions": [],
+      "id": 248053,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

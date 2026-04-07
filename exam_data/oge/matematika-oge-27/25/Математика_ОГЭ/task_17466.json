@@ -1,0 +1,37 @@
+{
+  "comment": ".",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1822,
+    "title": "Математика ОГЭ"
+  },
+  "id": 17466,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В треугольнике ABC известны длины сторон AB=12, AC=72 , точка O – центр окружности, описанной около треугольника ABC. Прямая BD, перпендикулярная прямой AO, пересекает сторону AC в точке D. Найдите CD.",
+      "error_conditions": null,
+      "id": 237347,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

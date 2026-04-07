@@ -1,0 +1,45 @@
+{
+  "comment": "$$30^{3,7}=(5\\cdot 6)^{3,7}=5^{3,7}\\cdot 6^{3,7}$$\nТогда:\n$$\\frac{5^{5,7}\\cdot 6^{4,7}}{30^{3,7}}=\\frac{5^{5,7}\\cdot 6^{4,7}}{5^{3,7}\\cdot 6^{3,7}}=5^{5,7-3,7}\\cdot 6^{4,7-3,7}=5^2\\cdot 6=150$$\nОтвет: 150",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 25473,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "150",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{5^{5,7}\\cdot 6^{4,7}}{30^{3,7}}\\).",
+      "error_conditions": [],
+      "id": 245130,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=RQqXFKqrj0c&t=545s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/watch?v=RQqXFKqrj0c&t=545s"
+}

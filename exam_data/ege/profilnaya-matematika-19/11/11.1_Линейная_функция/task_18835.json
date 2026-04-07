@@ -1,0 +1,45 @@
+{
+  "comment": "Возьмём на графике первую точку с координатами \\((0; -1)\\). Тогда:\n$$f(0)=b=-1$$\nВозьмём на графике вторую точку с координатами \\((1; 1)\\). Тогда:\n$$f(1)=k+b=k-1=1\\Rightarrow k=2$$\nТогда \\(f(x)=2x-1\\) и \\(f(6)=2\\cdot 6-1=11\\).\nОтвет: 11",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2437,
+    "title": "11.1 Линейная функция"
+  },
+  "id": 18835,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ha рисунке изображен график функции вида \\(f(x)=kx+b\\). Найдите значение \\(f(6)\\).",
+      "error_conditions": [],
+      "id": 238673,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=9775s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=9775s"
+}

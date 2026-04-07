@@ -1,0 +1,42 @@
+{
+  "comment": "Изомеры – вещества с одинаковой молекулярной формулой, но с разным строением\n\n1) этилацетат - C₄H₈O₂\n2) 2-гидроксипропиональдегид - C₃H₆O₂\n3) метилэтиловый эфир - C₃H₈O\n4) бутаналь - C₄H₈O\n5) этиловый эфир муравьиной кислоты - C₃H₆O₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2808,
+    "title": "Изомерия (структурная и пространственная)"
+  },
+  "id": 35319,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня веществ выберите два вещества, которые являются изомерами.\n1) этилацетат\n2) 2-гидроксипропиональдегид\n3) метилэтиловый эфир\n4) бутаналь\n5) этиловый эфир муравьиной кислоты",
+      "error_conditions": [],
+      "id": 254958,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/IdmfJgDoyjA?t=2888s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/IdmfJgDoyjA?t=2888s"
+}

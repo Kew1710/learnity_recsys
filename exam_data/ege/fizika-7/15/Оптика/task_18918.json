@@ -1,0 +1,42 @@
+{
+  "comment": "По закону Снеллиуса:\n$$n_{возд}\\sin\\alpha\\downarrow=n_{воды}\\sin\\beta\\downarrow$$\nПоказатель преломления воды не зависит от угла падения.\n\nОтвет: 23",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 18918,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "23И64\nВ лаборатории в университете студент решил провести опыт по преломлению света (см. рисунок). Как изменятся при уменьшении угла падения угол преломления света, распространяющегося в воде, и показатель преломления воды?\nДля каждой величины определите соответствующий характер изменения:\n1) увеличится\n2) уменьшится\n3) не изменится\nЗапишите в таблицу выбранные цифры для каждой физической величины. Цифры в ответе могут повторяться.\nУгол преломления света\nПоказатель преломления воды",
+      "error_conditions": [],
+      "id": 238756,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=QRPTINejA50&t=3060s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/watch?v=QRPTINejA50&t=3060s"
+}

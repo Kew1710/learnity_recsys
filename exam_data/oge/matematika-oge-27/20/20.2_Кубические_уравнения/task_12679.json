@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(x^3+6x^2=4x+24\\)\n\\(x^2(x+6)-4(x+6)=0\\)\n\\((x+6)(x^2-4)=0\\)\n\\((x+6)(x-2)(x+2)=0\\)\n\\(x=-6\\) или \\(x=2\\) или \\(x=-2\\)\nОтвет: \\(-6, -2, 2\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2049,
+    "title": "20.2 Кубические уравнения"
+  },
+  "id": 12679,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(x^3+6x^2=4x+24\\) .",
+      "error_conditions": null,
+      "id": 172479,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

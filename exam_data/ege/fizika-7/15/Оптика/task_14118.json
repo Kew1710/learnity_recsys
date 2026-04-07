@@ -1,0 +1,42 @@
+{
+  "comment": "Т.к. углы малые \\(\\sin\\varphi\\approx tg\\varphi=\\frac{x}{L}\\)\nУсловие главного дифракционного максимума:\n$$d\\sin\\varphi=\\lambda k\\\\ d\\frac{x}{L}=\\lambda k\\Rightarrow x=\\frac{\\lambda kL}{d}$$\nВ начале:\n$$3x_0=\\frac{\\lambda L}{d}~(1)$$\nДля решетки \\(F\\):\n$$2x_0=\\frac{\\lambda L}{d_2}~(2)$$\nДля решетки \\(G\\):\n$$x_0=\\frac{\\lambda L}{d_3}~(3)$$\nПоделим первое уравнение на второе:\n$$\\frac{3}{2}=\\frac{d_2}{d}\\Rightarrow d_2=\\frac{3}{2}d$$\nПоделим первое уравнение на третье:\n$$\\frac{3}{1}=\\frac{d_3}{d}\\Rightarrow d_3=3d$$\nСледовательно, А-1, Б-2.\n\nОтвет: 12",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 14118,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "23842\nМонохроматический пучок света нормально падает на дифракционную решетку с периодом \\(d\\). За решеткой расположен объектив, в фокальной плоскости которого наблюдаются дифракционные максимумы (см.рисунок). Углы дифракции малы, а максимумы показаны точками, цифрами обозначены их номера. Далее эту дифракционную решетку поочередно заменяют другими дифракционными решетками - \\(F\\) и \\(G\\).\nУстановите соответствие между схемами дифракционных максимумов и периодами используемых дифракционных решеток.\nСХЕМА ДИФРАКЦИОННЫХ МАКСИМУМОВ\nПЕРИОД ДИФРАКЦИОННОЙ РЕШЕТКИ\nА) \\(F\\)\nБ) \\(G\\)\n1) \\(\\frac{3}{2}d\\)\n2) \\(3d\\)\n3) \\(2d\\)\n4) \\(d\\)\nА\nБ",
+      "error_conditions": [],
+      "id": 185117,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/1riEkpFKfbk"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/1riEkpFKfbk"
+}

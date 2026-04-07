@@ -1,0 +1,45 @@
+{
+  "comment": "Значение производной в точке равно тангенсу угла наклона касательной к этой точке относительно положительного направления оси \\(x\\).\nДостроим до треугольника: противолежащий катет равен \\(7\\), а прилежащий \\(5\\). Значит,\n$$f'(x)=tg(\\alpha )=\\frac{7}{5}=1,4$$\nОтвет: 1,4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2416,
+    "title": "8.5 Геометрический смысл производной"
+  },
+  "id": 9997,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены график функции \\(y=f(x)\\) и касательная к нему в точке с абсциссой \\(x_0\\). Найдите значение производной функции \\(f(x)\\) в точке \\(x_0\\).",
+      "error_conditions": [],
+      "id": 120879,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/hM8siPFYMl0?start=3033"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/hM8siPFYMl0?start=3033"
+}

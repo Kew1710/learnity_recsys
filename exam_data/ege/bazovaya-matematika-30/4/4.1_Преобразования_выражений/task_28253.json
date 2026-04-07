@@ -1,0 +1,42 @@
+{
+  "comment": "$$a = 15,\\; b = 28, \\; c = 41,\\; R = \\frac{205}{6}$$\n$$S = \\frac{15 \\cdot 28 \\cdot 41}{4 \\cdot \\frac {205}{6}} = \\frac{15 \\cdot 28 \\cdot 41 \\cdot 6}{4 \\cdot 205} = \\frac{5 \\cdot 3 \\cdot 4 \\cdot 7 \\cdot 41 \\cdot 6}{4 \\cdot 5 \\cdot 41} = 3 \\cdot 7 \\cdot 6 = 126$$\nОтвет: 126",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 28253,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "126",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь треугольника можно вычислить по формуле \\(S = \\frac{abc}{4R}\\), где \\(a, \\; b\\) и \\(c\\) - стороны треугольника, а \\(R\\) - радиус окружности, описанной около этого треугольника.\nПользуясь этой формулой, найдите площадь \\(S\\), если \\(a = 15,\\; b = 28, \\; c = 41\\) и \\(R = \\frac{205}{6}\\).",
+      "error_conditions": [],
+      "id": 247892,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <title>Learnity × Backend — Integration Test</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #0f1117; color: #e2e8f0; padding: 24px; }
+    h1 { font-size: 1.4rem; margin-bottom: 24px; color: #7c3aed; }
+    h2 { font-size: 1rem; color: #94a3b8; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 1200px; }
+    .card { background: #1e2130; border: 1px solid #2d3148; border-radius: 8px; padding: 16px; }
+    .card.full { grid-column: 1 / -1; }
+    label { display: block; font-size: 0.8rem; color: #94a3b8; margin-bottom: 4px; margin-top: 10px; }
+    input, select { width: 100%; padding: 7px 10px; background: #0f1117; border: 1px solid #2d3148; border-radius: 4px; color: #e2e8f0; font-size: 0.85rem; }
+    input:focus, select:focus { outline: none; border-color: #7c3aed; }
+    button { margin-top: 12px; padding: 8px 16px; background: #7c3aed; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; width: 100%; }
+    button:hover { background: #6d28d9; }
+    button:disabled { background: #374151; color: #6b7280; cursor: default; }
+    button.secondary { background: #1e40af; }
+    button.secondary:hover { background: #1d4ed8; }
+    button.danger { background: #991b1b; }
+    button.danger:hover { background: #b91c1c; }
+    .log { background: #080a10; border: 1px solid #1e2130; border-radius: 4px; padding: 12px; height: 280px; overflow-y: auto; font-family: monospace; font-size: 0.78rem; margin-top: 12px; }
+    .log .entry { margin-bottom: 6px; line-height: 1.5; }
+    .log .ts { color: #475569; }
+    .log .out { color: #34d399; }
+    .log .in  { color: #60a5fa; }
+    .log .err { color: #f87171; }
+    .log .info{ color: #fbbf24; }
+    .badge { display: inline-block; font-size: 0.7rem; padding: 2px 8px; border-radius: 12px; margin-left: 8px; }
+    .badge.ok  { background: #064e3b; color: #34d399; }
+    .badge.err { background: #450a0a; color: #f87171; }
+    .status { font-size: 0.8rem; color: #94a3b8; margin-top: 8px; }
+    #token-display { font-size: 0.75rem; color: #6b7280; margin-top: 6px; word-break: break-all; }
+    .section-title { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .step { display: inline-block; width: 20px; height: 20px; border-radius: 50%; background: #7c3aed; color: white; font-size: 0.7rem; text-align: center; line-height: 20px; flex-shrink: 0; }
+  </style>
+</head>
+<body>
+<h1>Learnity × Backend — Integration Test</h1>
+
+<div class="grid">
+
+  <!-- STEP 1: Register -->
+  <div class="card">
+    <div class="section-title"><span class="step">1</span><h2>Регистрация студента</h2></div>
+    <label>Email</label>
+    <input id="reg-email" value="student@test.com"/>
+    <label>Login</label>
+    <input id="reg-login" value="student1"/>
+    <label>Fullname</label>
+    <input id="reg-fullname" value="Test Student"/>
+    <label>Password</label>
+    <input id="reg-password" type="password" value="test1234"/>
+    <label>Grade</label>
+    <select id="reg-grade">
+      <option value="5">5</option><option value="6">6</option>
+      <option value="7">7</option><option value="8" selected>8</option>
+      <option value="9">9</option><option value="10">10</option><option value="11">11</option>
+    </select>
+    <button onclick="register()">Зарегистрировать</button>
+    <div id="reg-log" class="log"></div>
+  </div>
+
+  <!-- STEP 2: Login -->
+  <div class="card">
+    <div class="section-title"><span class="step">2</span><h2>Вход</h2></div>
+    <label>Login</label>
+    <input id="login-login" value="student1"/>
+    <label>Password</label>
+    <input id="login-password" type="password" value="test1234"/>
+    <button onclick="login()">Войти</button>
+    <div class="status">Токен: <span id="token-display">—</span></div>
+    <div id="login-log" class="log"></div>
+  </div>
+
+  <!-- STEP 3: Recsys WS -->
+  <div class="card full">
+    <div class="section-title"><span class="step">3</span><h2>Recsys WebSocket — запрос заданий</h2></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">
+      <div>
+        <label>Subject</label>
+        <select id="ws-subject">
+          <option value="algebra">algebra</option>
+          <option value="geometry">geometry</option>
+          <option value="arithmetic">arithmetic</option>
+        </select>
+        <button onclick="wsConnect()" id="btn-connect">Подключиться к WS</button>
+        <button onclick="wsDisconnect()" id="btn-disconnect" class="danger" disabled>Отключиться</button>
+      </div>
+      <div>
+        <button onclick="requestTask()" id="btn-task" class="secondary" disabled style="margin-top:34px">Запросить задание</button>
+        <div class="status" id="ws-status">WS: не подключён</div>
+      </div>
+      <div>
+        <label>student_id (для mastery)</label>
+        <input id="mastery-student" placeholder="UUID студента"/>
+        <label>Skill keys (через запятую, пусто = все)</label>
+        <input id="mastery-skills" placeholder="kc_linear_eq_1var, ..."/>
+        <button onclick="requestMastery()" id="btn-mastery" class="secondary" disabled>Запросить Mastery</button>
+      </div>
+    </div>
+    <div id="ws-log" class="log"></div>
+  </div>
+
+</div>
+
+<script>
+  const BACKEND = 'http://localhost:8005/backend';  // проксируется через gateway (нет CORS)
+  const LEARNITY = 'http://localhost:8001';
+  const WS_BACKEND = 'ws://localhost:8080';  // WS напрямую (gateway не умеет проксировать WS)
+  let token = null;
+  let ws = null;
+  let lastStudentId = null;
+
+  function ts() {
+    return new Date().toLocaleTimeString('ru', {hour12:false});
+  }
+
+  function log(id, cls, msg) {
+    const el = document.getElementById(id);
+    const div = document.createElement('div');
+    div.className = 'entry';
+    div.innerHTML = `<span class="ts">[${ts()}]</span> <span class="${cls}">${msg}</span>`;
+    el.appendChild(div);
+    el.scrollTop = el.scrollHeight;
+  }
+
+  async function apiFetch(url, opts={}) {
+    const headers = {'Content-Type': 'application/json', ...(opts.headers||{})};
+    if (token) headers['Authorization'] = 'Bearer ' + token;
+    const r = await fetch(BACKEND + url, {...opts, headers});
+    const body = await r.json().catch(() => ({}));
+    return {status: r.status, body};
+  }
+
+  async function register() {
+    const payload = {
+      email: document.getElementById('reg-email').value,
+      login: document.getElementById('reg-login').value,
+      fullname: document.getElementById('reg-fullname').value,
+      password: document.getElementById('reg-password').value,
+      grade: parseInt(document.getElementById('reg-grade').value),
+      role: 'student',
+    };
+    log('reg-log', 'info', `→ POST /api/registration ${JSON.stringify(payload)}`);
+    try {
+      const {status, body} = await apiFetch('/api/registration', {method:'POST', body: JSON.stringify(payload)});
+      if (status === 200) {
+        lastStudentId = body.id || body.student_id || body.user_id;
+        document.getElementById('mastery-student').value = lastStudentId || '';
+        document.getElementById('login-login').value = payload.login;
+        log('reg-log', 'out', `✓ ${status} — id=${lastStudentId} <span class="badge ok">OK</span>`);
+        log('reg-log', 'info', `⏳ Learnity обрабатывает STUDENT_REGISTERED через Kafka...`);
+        setTimeout(() => checkLearnityProfile(lastStudentId), 3000);
+      } else {
+        log('reg-log', 'err', `✗ ${status} — ${JSON.stringify(body)} <span class="badge err">ERR</span>`);
+      }
+    } catch(e) { log('reg-log', 'err', `✗ ${e.message}`); }
+  }
+
+  async function checkLearnityProfile(studentId) {
+    if (!studentId) return;
+    try {
+      const r = await fetch(LEARNITY + '/students/' + studentId);
+      if (r.status === 200) {
+        const d = await r.json();
+        const kcs = Object.keys(d.mastery||{}).length;
+        log('reg-log', 'out', `✓ Learnity: профиль создан, mastery по ${kcs} KC`);
+      } else {
+        log('reg-log', 'err', `✗ Learnity: профиль не найден (${r.status})`);
+      }
+    } catch(e) { log('reg-log', 'err', `✗ Learnity check: ${e.message}`); }
+  }
+
+  async function login() {
+    const payload = {
+      input: document.getElementById('login-login').value,
+      password: document.getElementById('login-password').value,
+    };
+    log('login-log', 'info', `→ POST /api/login`);
+    try {
+      const {status, body} = await apiFetch('/api/login', {method:'POST', body: JSON.stringify(payload)});
+      if (status === 200) {
+        token = body.access_token || body.token;
+        document.getElementById('token-display').textContent = token ? token.substring(0,40)+'...' : 'нет токена';
+        document.getElementById('btn-connect').disabled = !token;
+        document.getElementById('btn-mastery').disabled = !token;
+        log('login-log', 'out', `✓ Токен получен <span class="badge ok">OK</span>`);
+      } else {
+        log('login-log', 'err', `✗ ${status} — ${JSON.stringify(body)}`);
+      }
+    } catch(e) { log('login-log', 'err', `✗ ${e.message}`); }
+  }
+
+  function wsConnect() {
+    if (!token) { alert('Сначала войдите'); return; }
+    const url = `${WS_BACKEND}/api/v1/recsys/ws?access_token=${token}`;
+    log('ws-log', 'info', `→ WS connect: ${url.substring(0,60)}...`);
+    ws = new WebSocket(url);
+
+    ws.onopen = () => {
+      document.getElementById('ws-status').textContent = 'WS: подключён ✓';
+      document.getElementById('btn-connect').disabled = true;
+      document.getElementById('btn-disconnect').disabled = false;
+      document.getElementById('btn-task').disabled = false;
+      log('ws-log', 'out', `✓ WebSocket подключён`);
+    };
+
+    ws.onmessage = (e) => {
+      let data;
+      try { data = JSON.parse(e.data); } catch { data = e.data; }
+      log('ws-log', 'in', `← ${JSON.stringify(data)}`);
+      if (data.type === 'task.recommended' || data.task_id) {
+        log('ws-log', 'out', `🎯 Задание: task_id=${data.task_id}  topic=${data.topic}  source=${data.recommendation_source}`);
+      }
+    };
+
+    ws.onerror = (e) => log('ws-log', 'err', `✗ WS error`);
+    ws.onclose = (e) => {
+      document.getElementById('ws-status').textContent = 'WS: закрыт';
+      document.getElementById('btn-connect').disabled = false;
+      document.getElementById('btn-disconnect').disabled = true;
+      document.getElementById('btn-task').disabled = true;
+      log('ws-log', 'info', `WS закрыт (code=${e.code})`);
+    };
+  }
+
+  function wsDisconnect() {
+    if (ws) ws.close();
+  }
+
+  function requestTask() {
+    if (!ws || ws.readyState !== WebSocket.OPEN) { alert('WS не подключён'); return; }
+    const subject = document.getElementById('ws-subject').value;
+    const msg = {type: 'task_request', subject};
+    ws.send(JSON.stringify(msg));
+    log('ws-log', 'out', `→ ${JSON.stringify(msg)}`);
+  }
+
+  async function requestMastery() {
+    if (!token) { alert('Сначала войдите'); return; }
+    const studentId = document.getElementById('mastery-student').value.trim();
+    const skillsRaw = document.getElementById('mastery-skills').value.trim();
+    const skillKeys = skillsRaw ? skillsRaw.split(',').map(s=>s.trim()).filter(Boolean) : [];
+    if (!studentId) { alert('Укажи student_id'); return; }
+
+    // Через WS
+    if (ws && ws.readyState === WebSocket.OPEN) {
+      const msg = {type: 'mastery_request', student_id: studentId, skill_keys: skillKeys};
+      ws.send(JSON.stringify(msg));
+      log('ws-log', 'out', `→ ${JSON.stringify(msg)}`);
+    } else {
+      log('ws-log', 'err', 'WS не подключён, подключись сначала');
+    }
+  }
+</script>
+</body>
+</html>

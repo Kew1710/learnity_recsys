@@ -1,0 +1,42 @@
+{
+  "comment": "глиняного - прилагательное, суффикс –ян-, Н\nсплетённой - причастие, сов. вид + приставка + зависимые слова, НН\nвыписаны - краткое причастие, Н",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12917,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите цифру(-ы), на месте которых пишется НН.\nИ густое молоко, льющееся из глиня(1)ого кувшина, и пышный каравай в искусно сплетё(2)ой корзине, и сползающая салфетка выписа(3)ы художником во всех деталях и с особой выразительностью.",
+      "error_conditions": [],
+      "id": 174101,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 47,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2911,
+    "title": "Систематика живых организмов"
+  },
+  "id": 27632,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42135",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность систематических таксонов, начиная с наименьшего. Запишите в таблицу соответствующую последовательность цифр.\n\n1) семейство Розоцветные\n2) род Малина\n3) класс Двудольные\n4) вид Малина лесная\n5) отдел Покрытосеменные",
+      "error_conditions": [],
+      "id": 247271,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

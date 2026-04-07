@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\n\\( AB||CD \\)\nAC пересекает BD в точке М\nАВ=12\nCD=48\nАС=35\nМС-?\nРешение:\n1) Рассмотрим \\( \\triangle ABM\\) и \\( \\triangle DMC \\)\n\\( \\angle MDC =\\angle MBA\\) - накрест лежащие при AB||CD и секущей BD\n\\( \\angle AMB = \\angle DMC\\) - вертикальные\nТогда \\( \\triangle AMB \\sim \\triangle DMC\\) - по 2-ум углам\nПусть МС=х, тогда АМ=АС-МС=35-х\n\\( \\cfrac{AB}{DC}=\\cfrac{AM}{MC} \\)\n\\( \\cfrac{12}{48}=\\cfrac{35-x}{x}\\) - сократим на 12\n\\(x=4(35-x)\\)\n\\(x=140-4x \\)\n\\(5x=140 \\)\n\\(x=28\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2011,
+    "title": "23.2 Подобные треугольники"
+  },
+  "id": 14307,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Отрезки AB и DC лежат на параллельных прямых, а отрезки AC и BD пересекаются в точке M. Найдите MC, если AB = 12, СD = 48, AС = 35.",
+      "error_conditions": null,
+      "id": 202433,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

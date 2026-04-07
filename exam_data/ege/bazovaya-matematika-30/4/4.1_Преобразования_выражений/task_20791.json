@@ -1,0 +1,42 @@
+{
+  "comment": "$$v=4 \\; \\text{м/с} \\; и \\; m=10 \\; кг$$\n$$E = \\frac{10 \\cdot 4^2}{2} = \\frac{10 \\cdot 16}{2} = 10 \\cdot 8 = 80$$\nОтвет: 80 джоулей",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 20791,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "80",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Кинетическая энергия тела (в джоулях) вычисляется по формуле \\(E = \\frac{mv^2}{2}\\), где \\(m\\) - масса тела (в килограммах), а \\(v\\) его скорость (в м/с). Пользуясь этой формулой, найдите \\(E\\) (в джоулях), если \\(v=4\\) м/с и \\(m=10\\) кг.",
+      "error_conditions": [],
+      "id": 240572,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

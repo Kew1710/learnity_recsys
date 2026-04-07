@@ -1,0 +1,45 @@
+{
+  "comment": "Искомый многогранник является треугольной пирамидой, объем которой считается по формуле:\n$$ V = {1 \\over 3} S_{осн} h $$\nВ основании лежит прямоугольный треугольник \\( ABC \\), его площадь:\n$$ S_{осн} = {1 \\over 2} \\cdot AB \\cdot BC = {1 \\over 2} \\cdot 7 \\cdot 6 = 21 $$\nВысота равна \\( AA_1 \\), тогда объем:\n$$ V = {1 \\over 3} \\cdot 21 \\cdot 5 = 35 $$\nОтвет: 35",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 7226,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В прямоугольном параллелепипеде \\(𝐴𝐵𝐶𝐷𝐴_{1} 𝐵_{1} 𝐶_{1} 𝐷_{1}\\) известно, что \\(𝐴𝐵=7,𝐵𝐶=6,𝐴 𝐴_{1} =5\\). Найдите объем многогранника, вершинами которого являются точки \\(𝐴,𝐵,𝐶,𝐵_{1}\\).",
+      "error_conditions": [],
+      "id": 83339,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=2553"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=2553"
+}

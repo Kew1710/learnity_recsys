@@ -1,0 +1,42 @@
+{
+  "comment": "Увеличение определим по формуле:\n$$Г=\\frac{f}{d}\\Rightarrow f=Гd=4\\cdot 1=4~см=40~мм$$\nОтвет: 40 мм",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3335,
+    "title": "Тонкие линзы"
+  },
+  "id": 13005,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "40",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "238015\nМальчик в пасмурный день рассматривает при помощи лупы муравьев и видит их мнимое изображение, увеличенное в \\(4\\) раза. Рассматриваемый муравей расположен на расстоянии \\(1\\) см от лупы. На каком расстоянии от линзы находится его изображение? Ответ дайте в мм.",
+      "error_conditions": [],
+      "id": 174890,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/wgjBwdJVA4w"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/wgjBwdJVA4w"
+}

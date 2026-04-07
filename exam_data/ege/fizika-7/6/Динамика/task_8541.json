@@ -1,0 +1,42 @@
+{
+  "comment": "А) Ищем модуль проекции силы тяжести на ось \\(Ox\\):\n\nЗапишем проекцию силы тяжести на ось \\(X\\):\n$$\n\\begin{aligned}\n& O_x: m g_x=-m g \\sin \\alpha \\\\\n& \\left|m g_x\\right|=m g \\sin \\alpha\n\\end{aligned}\n$$\nБ) Ищем модуль работы силы трения при движении вверх:\nЗапишем проекцию силы реакции опоры на ось \\(Y\\):\n$$\nO_y: N-m g \\cos \\alpha=0 \\Rightarrow N=m g \\cos \\alpha\n$$\nЗапишем формулу для силы трения:\n$$\nF_{\\tau \\mathrm{p}}=\\mu N=\\mu m g \\cos \\alpha\n$$\nЗапишем формулу для работы:\n$$\nA=F S \\cos \\alpha\n$$\nСледовательно, $A_{\\text {тр }}=\\mu m g \\cos \\alpha S \\cos 180^{\\circ}=\\mu m g \\cos \\alpha S \\cdot(-1)$\nСледовательно, $\\left|A_{\\text {тр }}\\right|=\\mu m g S \\cos \\alpha$\n\nОтвет: 14",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 8541,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "14",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Задание BB393E\nПосле удара шайба массой \\(m\\) начала скользить с начальной скоростью \\(v_0\\) вверх по плоскости, установленной под углом \\(\\alpha \\) к горизонту (см. рисунок). Переместившись вдоль оси \\(Ox\\) на расстояние \\(s,\\) шайба соскользнула в исходное положение. Коэффициент трения шайбы о плоскость равен \\(\\mu \\).\nУстановите соответствие между физическими величинами и формулами, по которым их можно рассчитать.\nК каждой позиции первого столбца подберите соответствующую позицию из второго столбца и запишите в таблицу выбранные цифры под соответствующими буквами.\nФИЗИЧЕСКИЕ ВЕЛИЧИНЫ\nФОРМУЛЫ\nА) модуль проекции силы тяжести на ось \\(Ox\\)1) \\(mgsin\\alpha \\)Б) модуль работы силы трения при движении вверх2) \\(smg(\\mu cos\\alpha +sin\\alpha) \\) 3) \\(mg(\\mu cos\\alpha −sin\\alpha) \\) 4) \\(\\mu smgcos\\alpha \\)А\nБ",
+      "error_conditions": [],
+      "id": 103044,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ca-M0-15sKg?start=1667"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Ca-M0-15sKg?start=1667"
+}

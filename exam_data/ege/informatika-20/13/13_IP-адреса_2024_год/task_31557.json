@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2877,
+    "title": "№13 IP-адреса (2024 год)"
+  },
+  "id": 31557,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В терминологии сетей TCP/IP маской сети называют двоичное число, которое показывает, какая часть IP - адреса узла сети относится к адресу сети, а какая — к адресу узла в этой сети. Адрес сети получается в результате применения поразрядной конъюнкции к заданному адресу узла и его маске.\nСеть задана IP -адресом 192.168.134.64 и сетевой маской 255.255.255.192.\nСколько в этой сети IP-адресов, для которых количество единиц в двоичной записи IP - адреса кратно 5?\nВ ответе укажите только число.",
+      "error_conditions": [],
+      "id": 251196,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/4hBJRobc0v0?si=nCqWbFa-srn2Ht0S&t=3187"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 45,
+    "title": "IP-адреса"
+  },
+  "video_link": "https://youtu.be/4hBJRobc0v0?si=nCqWbFa-srn2Ht0S&t=3187"
+}

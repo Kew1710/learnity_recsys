@@ -1,0 +1,40 @@
+{
+  "comment": "а) По формуле косинуса двойного угла: \\(\\cos 2x=2\\cos^2x-1\\)\n$$4\\cos^4x+9(2\\cos^2x-1)-1=0\\\\ 4\\cos^4x+18\\cos^2x-9-1=0\\\\ 4\\cos^4x+18\\cos^2x-10=0\\\\ \\displaystyle 2\\cos^{4} x+9\\cos^{2} x-5=0\\Leftrightarrow \\left[ \\begin{array}{l l}\n\\cos^{2} x=-5\\\\\n\\cos^{2} x=\\frac{1}{2}\n\\end{array} \\right.$$\n\\(\\cos^2x=-5\\) - не имеет решений\n$$\\displaystyle \\cos^{2} x=\\frac{1}{2} \\Leftrightarrow \\cos x=\\pm \\frac{\\sqrt{2}}{2} \\Leftrightarrow \\left[ \\begin{array}{l l}\nx=\\pm \\frac{\\pi }{4} +2\\pi k\\\\\nx=\\pm \\frac{3\\pi }{4} +2\\pi k\n\\end{array} \\right. ,k\\in Z\\Leftrightarrow x=\\frac{\\pi }{4} +\\frac{\\pi k}{2} ,k\\in Z$$\nб) Отберем корни на промежутке \\(\\left[3\\pi;\\frac{9\\pi}{2}\\right]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$3\\pi+\\frac{\\pi}{4}=\\frac{13\\pi}{4}\\\\ 3\\pi+\\frac{3\\pi}{4}=\\frac{15\\pi}{4}\\\\ \\frac{9\\pi}{2}-\\frac{\\pi}{4}=\\frac{17\\pi}{4}$$\nОтвет: а) \\(\\frac{\\pi}{4}+\\frac{\\pi k}{2}, k\\in Z\\), б) \\(\\frac{13\\pi}{4};\\frac{15\\pi}{4};\\frac{17\\pi}{4}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 10365,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(4\\cos^4x+9\\cos 2x-1=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[3\\pi;\\frac{9\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 137758,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 56,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

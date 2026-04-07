@@ -1,0 +1,37 @@
+{
+  "comment": "Доказательство:\nДано:\n\\(ABCD\\) - параллелограмм\n\\(AC\\) пересекает \\(BD\\) в точке \\(O\\)\n\\(O \\in PQ\\)\n\\(PQ\\) пересекает \\(AB\\) в т. \\(P\\)\n\\(PQ\\) пересекает \\(CD\\) в т. \\(Q\\)\nДоказать:\n\\(BP=DQ\\)\nРешение:\n1) Рассмотрим \\(\\triangle BPO\\) и \\(\\triangle OQD\\)\n\\(\\angle BOP = \\angle QOD\\) - вертикальные\n\\(AO=OC\\) - св-во параллелограмма\n\\(\\angle BPO = \\angle ODC\\) - накрест лежащие при \\(AB//CD\\) и секущей \\(BD\\)\n\\(\\Rightarrow \\triangle BPO = \\triangle OQD\\) - по стороне и 2-ум прилежащим к ней углам\n\\(\\Rightarrow BP=QD\\) - соответственные элементы, ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1943,
+    "title": "24.1 Параллелограмм, прямоугольник, ромб"
+  },
+  "id": 13019,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Через точку O пересечения диагоналей параллелограмма ABCD проведена прямая, пересекающая стороны AB и CD в точках P и Q соответственно. Докажите, что отрезки BP и DQ равны.",
+      "error_conditions": null,
+      "id": 175073,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

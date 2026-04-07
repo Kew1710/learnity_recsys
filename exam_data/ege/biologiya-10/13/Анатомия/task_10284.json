@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ Г\nА - лопатка\nБ - грудина\nВ - позвонок\nГ - таранная кость\nД - бедренная кость\nЕ - кость фаланги",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10284,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "г",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой буквой обозначена таранная кость?",
+      "error_conditions": [],
+      "id": 123024,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "А) Несолеобразующие оксиды нужно запомнить: NO, CO, N₂O. Подходит NO\nБ) Двухосновная кислота – кислота, которая содержит два атома водорода (две OH-группы). Подходит щавелевая кислота H₂C₂O₄ (HOOC-COOH)\nВ) Комплексная соль – это сложное вещество, в состав которого входят комплексный катион и анион, либо катион и комплексный анион (признак - наличие в формуле внутренней координационной сферы, обозначаемой квадратными скобками [ ]). Подходит K₄[Fe(CN)₆]",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2796,
+    "title": "Классификация неорганических веществ"
+  },
+  "id": 4772,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "561",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Среди предложенных формул/названий веществ, расположенных в пронумерованных ячейках, выберите формулы/названия: А) несолеобразующего оксида; Б) двухосновной кислоты; В) комплексной соли.\n1\nK₄[Fe(CN)₆]\n\n2\nHCOOH\n\n3\nH₆TeO₆\n\n4\nN₂O₃\n\n5\nNO\n\n6\nH₂C₂O₄\n\n7\nNH₄Fe(SO₄)₂ ･ 12H₂O\n\n8\nKHCO₃\n\n9\nCaOCl₂",
+      "error_conditions": [],
+      "id": 70001,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=1592"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=1592"
+}

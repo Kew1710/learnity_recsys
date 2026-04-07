@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nИзначально длина пружины была равна \\(1\\) см, а после того, как на нее подвесили груз, она стала равна \\(2\\) см, значит, $$\\Delta l=2-1=1~см=\\frac{1}{100}~м=0,01~м$$\nПо показаниям динамометра видно, что масса груза равна \\(2\\) кг\nСила упругости пружины равна силе тяжести груза: $$F_у=mg\\\\ k\\Delta l=mg$$\nПодставим числовые значения и найдем жесткость: $$k\\cdot 0,01=2\\cdot 10 \\\\ 0,01k=20 \\\\ k=\\frac{20}{0,01}=2000~Н/м$$",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3221,
+    "title": "1.13 Деформация тела. Упругие и неупругие деформации. Закон упругой деформации (закон Гука)"
+  },
+  "id": 16918,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2000",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Чему равна жесткость пружины бытового безмена, изображенного на рисунке? Ответ дайте в Н/м.",
+      "error_conditions": [],
+      "id": 236820,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/VM3AI0P4IJI"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/VM3AI0P4IJI"
+}

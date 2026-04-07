@@ -1,0 +1,45 @@
+{
+  "comment": "К ответу 1455 прибавляем 150 (это количество символов Y, на которые мы разделили строку), т.е. начальное значение su = 150",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 28747,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1605",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Пробник_3 ФИПИ 2024) Текстовый файл состоит из символов T, U, V, W, X, Y и Z. В прилагаемом файле определите максимальное количество идущих подряд символов (длину непрерывной подпоследовательности), среди которых символ Y встречается не более 150 раз. Для выполнения этого задания следует написать программу.\n\nФайл",
+      "error_conditions": [],
+      "id": 248386,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/4hBJRobc0v0?si=a7Msi_7OeS-eX6i_&t=5760"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1080,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": "https://youtu.be/4hBJRobc0v0?si=a7Msi_7OeS-eX6i_&t=5760"
+}

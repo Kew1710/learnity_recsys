@@ -1,0 +1,37 @@
+{
+  "comment": "КПД равен: $$\\eta=\\frac{A_п}{A_{зат}}$$\nВ данном случае затраченная работа - произведение полезной мощности на время: $$A_п=Pt \\\\ t=\\frac{S}{v}=\\frac{100}{100}=1~ч=3600~с$$\nЗатраченная - работа по сгоранию бензина: $$A_{зат}=qm$$\nПодставим: $$\\eta=\\frac{Pt}{qm} \\\\ \\eta=\\frac{46\\cdot 10^3\\cdot 3600}{4,6\\cdot 10^7\\cdot 10} \\\\ \\eta=0,36$$\n\nОтвет: 0,36",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3252,
+    "title": "2.13 Внутренняя энергия сгорания топлива. Удельная теплота сгорания топлива"
+  },
+  "id": 33995,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Полезная мощность двигателя автомобиля составляет 46 кВт. Каков КПД двигателя, если при средней скорости 100 км/ч он потребляет 10 кг бензина на 100 км пути?",
+      "error_conditions": null,
+      "id": 253634,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

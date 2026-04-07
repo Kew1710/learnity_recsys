@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничения:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\begin{cases}\n2+\\frac{2}{x} >0\\\\\nx+3 >0\\\\\n\\frac{6+x}{x^{2}} >0\n\\end{cases}\\\\\n\\begin{cases}\n\\frac{x+1}{x} >0\\\\\nx >-3\\\\\n\\frac{6+x}{x^{2}} >0\n\\end{cases}\\\\\n\\begin{cases}\n\\left[ \\begin{array}{l l}\nx< -1\\\\\nx >0\n\\end{array} \\right.\\\\\nx >-3\\\\\nx > -6\\\\\nx\\neq 0\n\\end{cases}\n\\end{array}$$\nИтоговое ограничение: \\(x\\in (-3;-1)\\cup (0;+\\infty)\\)\nВернемся к неравенству:\n$$\\log_7\\frac{2x+2}{x(x+3)}\\leq\\log_7\\frac{6+x}{x^2}\\\\ \\frac{2x+2}{x(x+3)}\\leq\\frac{6+x}{x^2}\\\\ \\frac{2x+2}{x(x+3)}-\\frac{6+x}{x^2}\\leq 0\\\\ \\frac{2x^2+2x-x^2-9x-18}{x^2(x+3)}\\leq 0\\\\ \\frac{x^2-7x-18}{x^2(x+3)}\\leq 0\\\\ \\frac{(x-9)(x+2)}{x^2(x+3)}\\leq 0$$\nПрименим метод интервалов:\nУчитывая ограничения:\nОтвет: \\(x\\in [-2;-1)\\cup (0;9]\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2469,
+    "title": "15.3 Разность и сумма логарифмов"
+  },
+  "id": 13557,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\log_7(2+\\frac{2}{x})-\\log_7(x+3)\\leq\\log_7\\frac{6+x}{x^2}\\).",
+      "error_conditions": null,
+      "id": 179973,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Осуществим параллельный перенос \\(CD → AB\\), тогда угол \\(B_{1}AB-\\) искомый.\nТак как \\(ABCDA_{1}B_{1}C_{1}D_{1}-\\) куб, то \\(AB=BB_{1}\\), следовательно, имеем равнобедренный прямоугольный треугольник \\(B_{1}BA\\) с прямым углом \\(B\\), значит, углы при основании равны \\(45\\), то есть искомый угол.\nОтвет: 45",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2385,
+    "title": "3.2 Углы в объемных фигурах"
+  },
+  "id": 7091,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В кубе \\(ABCDA_{1} B_{1} C_{1} D_{1}\\) найдите угол между прямыми \\(AB_{1}\\) и \\(CD\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 81357,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=6033"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=6033"
+}

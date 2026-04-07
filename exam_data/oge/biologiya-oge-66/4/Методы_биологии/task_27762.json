@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2912,
+    "title": "Методы биологии"
+  },
+  "id": 27762,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Изучите график зависимости массы тела человека от возраста в течение первых 24 лет (по оси х отложен возраст человека (годы), а по оси у - масса его тела (кг)).\nКакие два из приведённых ниже описаний характеризуют данную зависимость в указанном возрастном интервале?\n\nМасса тела человека\n1) перестаёт расти после 17 лет\n2) растёт равномерно с 2 до 10 лет\n3) не увеличивается после 12 лет\n4) скачала растёт, потом снижается\n5) растёт на протяжении всей жизни",
+      "error_conditions": [],
+      "id": 247401,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

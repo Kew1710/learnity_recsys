@@ -1,0 +1,37 @@
+{
+  "comment": "Распишем второй закон Ньютона на оси:\n$$ Ox:~ma = N $$\n$$ Oy:~F_{тр} - mg = 0 $$\n$$ F_{тр} = \\mu N $$\nПолучим выражение:\n$$ \\mu ma = mg \\Rightarrow a = \\frac{g}{ \\mu } = \\frac{10}{0,2} = 50~м/с^2 $$\n\nОтвет: 50 \\(м/с^2\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 13896,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "К подвижной вертикальной стене прикладывают груз массой \\(5\\) кг. Коэффициент трения между грузом и стенкой равен \\(0,2\\). Найдите минимальное ускорение, с которым нужно передвигать стенку влево, чтобы груз не соскользнул вниз.",
+      "error_conditions": null,
+      "id": 181677,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://youtu.be/bR86hN8GuZU"
+}

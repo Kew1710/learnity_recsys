@@ -1,0 +1,42 @@
+{
+  "comment": "Вероятность того, что случайно выбранный насос подтекает:\n$$\\frac{6}{150} = 0,04$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2079,
+    "title": "5.1 Классическое определение вероятности"
+  },
+  "id": 26821,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,04",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В среднем из 150 садовых насосов, поступивших в продажу, 6 насосов подтекают. Найдите вероятность того, что один случайно выбранный для контроля насос подтекает.",
+      "error_conditions": [],
+      "id": 246460,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

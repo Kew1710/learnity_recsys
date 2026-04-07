@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо теореме синусов\n\\(2R = \\cfrac{AB}{\\sin{C}}\\)\n\\(R = \\cfrac{AB}{2 \\sin{C}} = \\cfrac{20}{ 1} = 20\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1983,
+    "title": "16.5 Теорема синусов"
+  },
+  "id": 21271,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике ABC угол C равен 150°, AB=20 . Найдите радиус окружности, описанной около этого треугольника.",
+      "error_conditions": [],
+      "id": 241046,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

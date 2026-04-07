@@ -1,0 +1,42 @@
+{
+  "comment": "По формуле силы тяжести:\n$$F_2=mg_2\\Rightarrow g_2=\\frac{F_2}{m}=\\frac{30}{60}=0,5~м/с^2$$\nОтвет: 0,5",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3207,
+    "title": "Закон всемирного тяготения"
+  },
+  "id": 10236,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23626\nЗависимость модуля силы \\(F\\) взаимодействия точечного тела массой \\(60\\) кг и некоторой планеты от расстояния \\(r\\) между ними изображена на графике ниже. Радиус планеты \\(6371\\) км. Найдите величину ускорения свободного падения на расстоянии от центра планеты, равном двум радиусам этой планеты. Ответ дайте в м/с\\(^2\\).",
+      "error_conditions": [],
+      "id": 122913,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/v_xFFQmkzeQ"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/v_xFFQmkzeQ"
+}

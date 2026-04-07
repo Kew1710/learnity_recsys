@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{7^3\\cdot (2\\cdot 7)^{1,6}}{14^{2,6}}=\\frac{343\\cdot 14^{1,6}}{14^{2,6}}=343\\cdot 14^{-1}=\\frac{343}{14}=24,5$$\nОтвет: 24,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 9288,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{2^{1,6}\\cdot 7^{4,6}}{14^{2,6}}\\).",
+      "error_conditions": [],
+      "id": 113191,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1156"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1156"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2715,
+    "title": "№9 Повышенный уровень сложности"
+  },
+  "id": 27774,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "277",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Пробник_1 ФИПИ 2024) Откройте файл электронной таблицы, содержащей в каждой строке семь натуральных чисел. Определите количество строк таблицы, для чисел которых выполнены оба условия:\n– в строке есть ровно одно число, которое повторяется трижды, и четыре числа без повторений;\n– среднее арифметическое неповторяющихся чисел строки меньше повторяющегося числа.\nВ ответе запишите только число",
+      "error_conditions": [],
+      "id": 247413,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 360,
+  "topic": {
+    "id": 28,
+    "title": "Электронные таблицы"
+  },
+  "video_link": null
+}

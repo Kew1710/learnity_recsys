@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 2\nПояснение: 1 – Дистальный извитой каналец\n2 – Капсула Шумлянского-Боумена\n3 – Приносящая артериола\n4 – Петля Генле\n5 – Проксимальный извитой каналец\n6 – Собирательная трубка",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10068,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите рисунок «Строение нефрона» и выполните задание:\nКаким номером на рисунке обозначена Капсула Шумлянского – Боумена?",
+      "error_conditions": [],
+      "id": 121874,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

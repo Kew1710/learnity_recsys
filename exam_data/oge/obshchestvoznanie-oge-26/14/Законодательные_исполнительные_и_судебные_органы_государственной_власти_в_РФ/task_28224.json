@@ -1,0 +1,42 @@
+{
+  "comment": "А) нет, исполнительную власть осуществляет Правительство РФ, а Государственная Дума - законодательную\nБ) нет, федеральные законы принимает Государственная Дума, одобряет Совет Федерации, подписывает Президент РФ",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3067,
+    "title": "Законодательные, исполнительные и судебные органы государственной власти в РФ"
+  },
+  "id": 28224,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Верны ли следующие суждения об органах государственной власти Российской Федерации?\n\nА. Исполнительную власть осуществляет Государственная Дума.\nБ. Федеральные законы принимаются Правительством Российской Федерации.\n\n1) верно только А\n2) верно только Б\n3) верны оба суждения\n4) оба суждения неверны",
+      "error_conditions": [],
+      "id": 247863,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=Z1lF3y4qKE2pDMDX&t=3058"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=Z1lF3y4qKE2pDMDX&t=3058"
+}

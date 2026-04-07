@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПротиволежащие углы параллелограмма равны\nСумма внутренних прилежащих к одной стороне углов параллелограмма равна 180°\nОтсюда меньший угол параллелограмма равен \\(180 - 111 = 69^o\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1984,
+    "title": "17.1 Параллелограмм"
+  },
+  "id": 21432,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "69",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Один из углов параллелограмма равен 111°. Найдите меньший угол этого параллелограмма. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 241207,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

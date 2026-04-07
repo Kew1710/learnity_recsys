@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(O\\) - центр окружности, тогда \\(BO\\) – биссектриса, следовательно:\n$$\\angle OBA=\\frac{\\angle ABC}{2}={30}^{\\circ}$$\nПроведем радиус \\(OL\\Rightarrow OL \\bot AB\\) (радиус \\(\\bot\\) касательной).\n\nИз прямоугольного \\(\\Delta LBO\\): \\(OB=2OL=2R\\) (катет лежащий против угла в \\(30^\\circ\\)\nРассмотрим \\(\\Delta OBM\\): \\(OM=R\\), \\(OB=2R\\Rightarrow BM<2R+R\\Rightarrow BM<3R\\) (по условию существования треугольника).\n\nб)\n\\(\\angle OMB=\\alpha\\)\nПо теореме косинусов в \\(\\Delta OMB\\):\n$$OB^2=OM^2+MB^2-2OM\\cdot MB\\cos\\alpha\\\\ 4R^2=R^2+6,25R^2-5R^2\\cos\\alpha\\\\ \\cos\\alpha=\\frac{3,25R^2}{5R^2}=\\frac{325}{500}=\\frac{13}{20}$$\n\\(\\sin{\\angle{BMC}}=\\sin ({90}^{\\circ}-\\alpha)\\), т.к. \\(OM\\bot AC\\) (радиус \\(\\bot\\) касательной)\n$$\\sin{\\angle{BMC}}=\\sin ({90}^{\\circ}-\\alpha)=\\cos\\alpha=\\frac{13}{20}=0,65$$\nОтвет: 0,65.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2485,
+    "title": "17.5 Вписанная и описанная окружности в треугольниках"
+  },
+  "id": 9719,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(ABC\\) равен \\(60^\\circ\\). Окружность, вписанная в треугольник, касается стороны \\(AC\\) в точке \\(M\\).\nа)  Докажите, что отрезок \\(BM\\) не больше утроенного радиуса вписанной в треугольник окружности.\nб)  Найдите \\(\\sin\\angle BMC\\) если известно, что отрезок \\(BM\\) в \\(2,5\\) раза больше радиуса вписанной в треугольник окружности.",
+      "error_conditions": null,
+      "id": 117436,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

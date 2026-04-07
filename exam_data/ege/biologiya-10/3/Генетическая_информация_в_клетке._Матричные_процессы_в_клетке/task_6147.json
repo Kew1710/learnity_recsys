@@ -1,0 +1,42 @@
+{
+  "comment": "В диплоидной соматической клетке 2 половые хромосомы.\nВ гаплоидной половой клетке 1 половая хромосома.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2511,
+    "title": "Генетическая информация в клетке. Матричные процессы в клетке"
+  },
+  "id": 6147,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В соматической клетке тела курицы 78 хромосом. Какое количество половых хромосом будет содержать сперматозоид петуха? В ответе запишите только количество хромосом.",
+      "error_conditions": [],
+      "id": 72618,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/aDfXdMNLE94?start=66"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/aDfXdMNLE94?start=66"
+}

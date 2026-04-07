@@ -1,0 +1,42 @@
+{
+  "comment": "странном - прилагательное, стык основы на –н- (стран) и суффикса –н-, НН\nнарисованной - причастие, сов. вид + приставка + зависимые слова, НН\nочерчены - краткое причастие, Н",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12868,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\nНа стра(1)ом и грозном фоне закатного неба зубчатая стена хвойного леса казалась отчётливо нарисова(2)ой, а кое-где торчавшие над ней прозрачные круглые верхушки берёз словно были очерче(3)ы на небе лёгкими штрихами.",
+      "error_conditions": [],
+      "id": 174052,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "$$R = 6 \\; Ом \\; и \\; U = 12 \\; В$$\n$$P = \\frac{12^2}{6} = \\frac{144}{6} = 24$$\nОтвет: 24 ватта",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 20796,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Мощность постоянного тока (в ваттах) вычисляется по формуле \\(P = \\frac{U^2}{R}\\), где \\(U\\) - напряжение (в вольтах), \\(R\\) - сопротивление (в омах). Пользуясь этой формулой, найдите \\(P\\) (в ваттах), если \\(R = 6\\) Ом и \\(U = 12\\) В.",
+      "error_conditions": [],
+      "id": 240577,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

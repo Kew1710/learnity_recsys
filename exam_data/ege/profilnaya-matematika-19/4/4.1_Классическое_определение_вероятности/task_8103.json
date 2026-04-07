@@ -1,0 +1,45 @@
+{
+  "comment": "Всего исходов:\n$$Возможные~исходы$$$$OOOO$$$$OOOP$$$$OOPO$$$$OPOO$$$$POOO$$$$PPOO$$$$POOP$$$$OOPP$$$$OPOP$$$$POPO$$$$OPPO$$$$PPPO$$$$PPOP$$$$POPP$$$$OPPP$$$$PPPP$$Нам подходят исходы, где орел выпадет ровно два раза. Благоприятных исходов \\(-3\\):\n$$\\frac{3}{8}=0,375$$\nОтвет: 0,375",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 8103,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,375",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В случайном эксперименте симметричную монету бросают трижды. Найдите вероятность того, что орел выпадает ровно два раза.",
+      "error_conditions": [],
+      "id": 101084,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": null
+}

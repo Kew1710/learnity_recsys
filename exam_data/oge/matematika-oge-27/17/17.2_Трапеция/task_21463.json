@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nВ равнобедренной трапеции углы при каждом основании равны\nСумма меньших углов трапеции равна 102, \\(\\Rightarrow\\) один меньший угол равен \\(51^o\\)\nТак, один больший угол равен \\(180 - 51 = 129^o\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1985,
+    "title": "17.2 Трапеция"
+  },
+  "id": 21463,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "129",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Сумма двух углов равнобедренной трапеции равна 102°. Найдите больший угол трапеции. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 241231,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

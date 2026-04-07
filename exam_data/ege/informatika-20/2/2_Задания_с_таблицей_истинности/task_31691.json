@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2691,
+    "title": "№2 Задания с таблицей истинности"
+  },
+  "id": 31691,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "zxyw",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Миша заполнял таблицу истинности логической функции F\n¬(z →x ) ∨ (y ≡ w) ∨ y,\nно успел заполнить лишь фрагмент из трёх различных её строк, дже не указав, какому столбцу таблицы соответствует каждая из переменных w, x, y, z.\n\n?\n?\n?\n?\nF\n0\n1\n0\n0\n\n0\n1\n0\n0\nОпределите, какому столбцу таблицы соответствует каждая из переменных w, x, y, z.\nВ ответе напишите буквы w, x, y, z в том порядке, в котором идут соответствующие им столбцы (сначала буква, соответствующая первому столбцу; затем буква, соответствующая второму столбцу, и т.д.). Буквы в ответе пишите подряд, никаких разделителей между буквами ставить не нужно.",
+      "error_conditions": [],
+      "id": 251330,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/t5hgmvqjG9A?si=fxTj5DHTD0He9kH3&t=792"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 21,
+    "title": "Таблицы истинности"
+  },
+  "video_link": "https://www.youtube.com/live/t5hgmvqjG9A?si=fxTj5DHTD0He9kH3&t=792"
+}

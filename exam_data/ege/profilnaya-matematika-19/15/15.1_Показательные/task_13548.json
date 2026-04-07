@@ -1,0 +1,40 @@
+{
+  "comment": "Преобразуем:\n$$\\frac{2^{2x}+7\\cdot 2^x-48}{2^x-32}-1\\leq 0$$\nЗамена: \\(2^x=t\\)\n$$\\frac{t^2+7t-48}{t-32}-1\\leq 0\\\\ \\frac{t^2+7t-48-t+32}{t-32}\\leq 0\\\\ \\frac{t^2+6t-16}{t-32}\\leq 0\\\\ \\frac{(t+8)(t-2)}{t-32}\\leq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l}\nt\\leq -8\\\\\n\\begin{cases}\nt\\geq 2\\\\\nt< 32\n\\end{cases}\n\\end{array} \\right.$$\nВернемся к замене:\n$$\\displaystyle \\left[ \\begin{array}{l l}\n2^{x} \\leq -8\\\\\n\\begin{cases}\n2^{x} \\geq 2\\\\\n2^{x} < 32\n\\end{cases}\n\\end{array} \\right.$$\n\\(2^x\\leq -8\\) - нет решений, т.к. \\(2^x>0\\), тогда:\n$$\\displaystyle \\begin{cases}\n2^{x} \\geq 2\\\\\n2^{x} < 32\n\\end{cases} \\Rightarrow \\begin{cases}\nx\\geq 1\\\\\nx< 5\n\\end{cases}$$\nОтвет: \\(x\\in [1;5)\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 13548,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{4^x+7\\cdot 2^x-48}{2^x-32}\\leq 1\\).",
+      "error_conditions": null,
+      "id": 179312,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

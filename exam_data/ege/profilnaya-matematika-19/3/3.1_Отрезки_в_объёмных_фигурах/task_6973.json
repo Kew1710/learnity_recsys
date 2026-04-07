@@ -1,0 +1,45 @@
+{
+  "comment": "Рассмотрим треугольник \\(ABO\\). Так как \\(BO\\) высота, то треугольник \\(ABO\\) прямоугольный. Найдем сторону \\(AO\\). Она является радиусом окружности, лежащей в основании.\nПо теореме Пифагора:\n$$r=AO=\\sqrt{AB^2-BO^2}=\\sqrt{41^2-9^2}=40$$\nМы помним, что диаметр равен двум радиусам:\n$$ d = 2r = 2 \\cdot 40 = 80 $$\nОтвет: 80",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 6973,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "80",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Высота конуса равна \\(9\\), а длина образующей равна \\(41\\). Найдите диаметр основания конуса.",
+      "error_conditions": [],
+      "id": 80903,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

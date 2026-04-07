@@ -1,0 +1,40 @@
+{
+  "comment": "а) Точки \\(M\\) и \\(N\\) лежат на окружности диаметром \\(BC\\), поэтому:\n$$\\angle ANM=180^{\\circ } -\\angle NMC=\\angle ABC$$\nЗначит, треугольники \\(ANM\\) и \\(ABC\\) подобны по двум углам \\((\\angle{BAC} \\ - \\) общий, \\(\\angle{ABC} = \\angle{ANM})\\) с коэффициентом подобия:\n$$\\frac{AM}{AC} =\\cos \\angle BAC=\\frac{1}{2}$$\nСледовательно, радиус окружности, описанной около треугольника \\(ANM\\), равен \\(\\frac{1}{2} AO\\). Точки \\(M\\) и \\(N\\) лежат на окружности диаметром \\(AH\\), поэтому \\(AH=AO\\).\n\nб) Сумма углов треугольника \\(ABC\\) равна \\(180^{\\circ }\\), поэтому \\(\\angle ACB=75^{\\circ}\\). Тогда \\(\\angle AOB=150^{\\circ }\\) (центральный угол в два раза больше вписанного угла, опирающегося на ту же дугу). Тогда из суммы углов равнобедренного треугольника \\(AOB:\\angle OAB=15^{\\circ }\\). Поэтому:\n$$\\angle HAO=\\angle CAB-\\angle CAH-\\angle OAB=60^{\\circ } -15^{\\circ } -15^{\\circ } =30^{\\circ }$$\nИмеем:\n$$S_{AHO} =\\frac{AH\\cdot AO\\cdot \\sin 30^{\\circ }}{2} =\\frac{r^{2}}{4}$$\nПо теореме синусов для треугольника \\(ABC\\):\n$$\\frac{BC}{\\sin \\angle CAB} =\\frac{6\\sqrt{3}}{\\sin 60^{\\circ }} =12=2r$$\nОткуда \\(r=6\\) и \\(S_{AHO} =9\\).\n\nОтвет: 9.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2485,
+    "title": "17.5 Вписанная и описанная окружности в треугольниках"
+  },
+  "id": 6707,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В остроугольном треугольнике \\(ABC\\), \\(\\angle A=60^{\\circ }\\). Высоты \\(BN\\) и \\(CM\\) треугольника \\(ABC\\) пересекаются в точке \\(H\\). Точка \\(O\\) - центр окружности, описанной около \\(\\angle ABC\\).\nа) Докажите, что \\(AH=AO\\).\nб) Найдите площадь треугольника \\({AHO}\\) если \\(BC=6\\sqrt{3}\\), \\(\\angle ABC=45^{\\circ }\\).",
+      "error_conditions": null,
+      "id": 75241,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/iJWOfgo-S_E?start=3607"
+}

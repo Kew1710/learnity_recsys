@@ -1,0 +1,46 @@
+{
+  "comment": "1) Неверно.\n$$\\uparrow U=\\frac{3}{2}\\uparrow\\nu RT$$\n2) Неверно. В состоянии 1 пар насыщенный.\n3) Верно.\n$$\\rho\\downarrow=\\frac{m}{V\\uparrow}$$\n4) Верно. Вода испаряется, значит, ее масса уменьшается.\n5) Неверно.\n$$Q=A+\\Delta U; \\Delta U=0; A>0\\Rightarrow Q>0$$\nОтвет: 34",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 18800,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 2
+        },
+        {
+          "answer": "43",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "23И317\nКапля воды и водяной пар находятся в сосуде под поршнем, который может передвигаться без трения. На рисунке представлена \\(pV\\) - диаграмма, на которой показан изотермический процесс 1-2-3, происходящий с водяным паром. Проанализировав диаграмму, выберите все верные утверждения о процессах.\n1) Внутренняя энергия пара в процессе 1-2 не изменяется.\n2) Состояние 1 соответствует состоянию, в котором водяной пар является ненасыщенным.\n3) В ходе процесса 2-3 плотность водяного пара уменьшается.\n4) В ходе процесса 1-2 масса капли воды уменьшается.\n5) В ходе процесса 2-3 водяной пар отдает положительное значение количества теплоты.",
+      "error_conditions": [],
+      "id": 238638,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ycnnc7h0B5U?feature=share&t=4801"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/Ycnnc7h0B5U?feature=share&t=4801"
+}

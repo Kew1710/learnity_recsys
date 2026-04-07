@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(HKMA\\) – вписанный четырехугольник (\\(\\angle HKA=\\angle HMA=90^\\circ\\), опираются на один отрезок \\(AH\\)).\n\nПусть \\(\\angle BAC=\\angle BCA=\\alpha\\) (\\(\\Delta ABC\\) равнобедренный).\n\n\\(\\angle AHK=2\\alpha\\) (\\(HK\\) – высота, проведенная из прямого угла)\n\\(\\angle MAK=\\alpha\\Rightarrow\\angle MHK=\\alpha\\) (вписанный, опирается на дугу \\(MK\\))\n$$\\angle AHM=\\angle AHK-\\angle MHK=2\\alpha-\\alpha=\\alpha$$\nТогда дуга \\(AM=2\\alpha\\) (\\(\\angle AHM\\) вписанный) и дуга \\(MK=2\\alpha\\) \\((\\angle MHK\\) вписанный\\()\\).\n\n\\(AM=MK\\), т.к. равные хорды стягивают равные дуги, ч.т.д.\n\nб) \\(MK-?\\)\n\\(AB=BC=5\\), \\(AC=8\\)\n\n\\(\\sin\\alpha=\\frac{AH}{AC}\\) (из \\(\\Delta AHC\\))\n\nРассмотрим \\(\\Delta ABC\\):\n\\(BL\\) – высота, медиана и биссектриса по построению\n\\(LC=4\\), \\(DC=5\\), по теореме Пифагора \\(BL=3\\) (Египетский треугольник)\n$$\\sin\\alpha=\\frac{3}{5}=\\frac{AH}{AC}=\\frac{AH}{8}$$\nОтсюда \\(AH=\\frac{24}{5}\\).\n\nРассмотрим \\(\\Delta AHM\\):\n$$\\sin\\alpha=\\frac{3}{5}=\\frac{AM}{AH}\\\\ AM=AH\\cdot\\sin\\alpha=\\frac{24}{5}\\cdot\\frac{3}{5}=\\frac{72}{25}$$\nОтвет: \\(\\frac{72}{25}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2482,
+    "title": "17.2 Высоты треугольника, ортоцентр"
+  },
+  "id": 9736,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В равнобедренном треугольнике \\(ABC\\) на продолжение боковой стороны \\(BC\\) опущена высота \\(AH\\). Из точки \\(H\\) на сторону \\(AB\\) и основание \\(AC\\) опущены перпендикуляры \\(HK\\) и \\(HM\\).\nа) Докажите, что отрезки \\(AM\\) и \\(MK\\) равны.\nб) Найдите \\(MK\\), если \\(AB=5\\), \\(AC=8\\).",
+      "error_conditions": null,
+      "id": 117473,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/B5hiaZ4zu_o?start=13399"
+}

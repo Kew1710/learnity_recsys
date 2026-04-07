@@ -1,0 +1,42 @@
+{
+  "comment": "$$10~ дел = 1~ кПа\\\\ 1 ~дел = 0,1~ кПа$$\nПогрешность равна цене деления\nИсходя из рисунка, делаем вывод, что стрелка показывает 100,6 кПа\nИтог: 100,6 \\(\\pm\\) 0,1 кПа\nОтвет: 100,60,1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2645,
+    "title": "Определение показаний приборов"
+  },
+  "id": 9165,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "100,60,1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "BA8438\nПри помощи барометра измеряют атмосферное давление (см. рисунок). Определите показания барометра, если погрешность прямого измерения равна цене деления шкалы прибора. Ответ дайте в кПа. Значение и погрешность запишите слитно без пробела.",
+      "error_conditions": [],
+      "id": 112905,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/lC_7a8uPGTk?start=1159"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/lC_7a8uPGTk?start=1159"
+}

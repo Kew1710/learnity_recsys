@@ -1,0 +1,45 @@
+{
+  "comment": "Функция \\(f(x)\\) является производной от функции \\(F(x)\\), следовательно, решением уравнения \\(f(x)=0\\) на отрезке [-5;2] является множество всех точек на данном отрезке, в которых касательная к графику функции \\(F(x)\\) параллельна оси \\(Ox\\).\nСчитаем количество таких точек (вершин графика первообразной на заданном отрезке). Насчитываем 3.\n\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2418,
+    "title": "8.7 График первообразной"
+  },
+  "id": 9973,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график \\(y=F(x)\\) одной из первообразных некоторой функции \\(f(x)\\), определённой на интервале (− 7; 5). Пользуясь рисунком, определите количество решений уравнения \\(f(x)=0\\) на отрезке [− 5;  2].",
+      "error_conditions": [],
+      "id": 120855,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/hM8siPFYMl0?start=490"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/hM8siPFYMl0?start=490"
+}

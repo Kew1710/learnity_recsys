@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\frac{2^{2x}-6\\cdot 2^x-20}{2^x-32}\\geq 1$$\nЗамена: \\(2^x=t\\)\n$$\\frac{t^2-6t-20}{t-32}-1\\geq 0\\\\ \\frac{t^2-6t-20-t+32}{t-32}\\geq 0\\\\ \\frac{t^2-7t+12}{t-32}\\geq 0\\\\ \\frac{(t-3)(t-4)}{t-32}\\geq 0$$\nПолучаем совокупность:\n$$\\displaystyle \\left[ \\begin{array}{l l} \\begin{cases} t\\geq 3\\\\ t\\leq 4 \\end{cases}\\\\ t >32 \\end{array} \\right.$$\nОбратная замена:\n$$\\displaystyle \\left[ \\begin{array}{l l} \\begin{cases} 2^{x} \\geq 3\\\\ 2^{x} \\leq 4 \\end{cases}\\\\ 2^{x} >32 \\end{array} \\right.\\\\ \\left[ \\begin{array}{l l} \\begin{cases} 2^{x} \\geq 2^{\\log_{2} 3}\\\\ 2^{x} \\leq 2^{2} \\end{cases}\\\\ 2^{x} >2^{5} \\end{array} \\right.\\\\ \\left[ \\begin{array}{l l} \\begin{cases} x\\geq \\log_{2} 3\\\\ x\\leq 2 \\end{cases}\\\\ x >5 \\end{array} \\right.$$\nОтвет: \\(x\\in [\\log_23;2]~\\cup (5;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 11417,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{4^x-6\\cdot 2^x-20}{2^x-32}\\geq 1\\).",
+      "error_conditions": null,
+      "id": 148965,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

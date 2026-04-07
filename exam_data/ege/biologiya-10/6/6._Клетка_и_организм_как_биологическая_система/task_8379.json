@@ -1,0 +1,42 @@
+{
+  "comment": "1 - эктодерма\n2 - мезодерма\n3 - энтодерма",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1453,
+    "title": "6. Клетка и организм как биологическая система."
+  },
+  "id": 8379,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "321312",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между структурой организма человека и зародышевым листком, из которого она сформировалась.\nПРОИЗВОДНЫЕ ЗАРОДЫШЕВЫЙ ЛИСТОК A) Печеночный вырост\nБ) Кровеносные сосуды\nB) Нервы\nГ) Эпителий средней кишки\nД) Эпителий кожи\nЕ) Мышцы\n1) 1\n2) 2\n3) 3\nЗапишите в ответ цифры, расположив их в порядке, соответствующем буквам:\nA Б В Г Д",
+      "error_conditions": [],
+      "id": 102483,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/BRry8BC1gGk"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/BRry8BC1gGk"
+}

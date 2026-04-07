@@ -1,0 +1,40 @@
+{
+  "comment": "Преобразуем исходную систему:\n$$\\displaystyle \\begin{cases} a\\left( x^{4} +4\\right) =y+2( 1-|x|)\\\\ |x|+|y|=2 \\end{cases} \\Leftrightarrow \\begin{cases} y=a\\left( x^{4} +4\\right) -2( 1-|x|) \\ \\ ( 1)\\\\ |y|=2-|x| \\end{cases}$$\nРассмотрим отдельно уравнение \\((1)\\). Для этого рассмотрим функцию \\(f(x)=a(x^4+4)-2(1-|x|)\\). Так как \\(f(-x)=a((-x)^4+4)-2(1-|-x|)=a(x^4+4)-2(1-|x|)=f(x)\\), то есть рассматриваемая функция \\(f(x)\\) – чётная, то любому значению \\(f(x)\\) соответствуют два значения аргумента: \\(\\pm x\\). Тогда исходное уравнение \\((1)\\), а, значит, и исходная система, будут иметь единственное решение только при \\(x=0\\):\n$$\\displaystyle \\begin{cases} y=a\\left( 0^{4} +4\\right) -2( 1-|0|)\\\\ |y|=2-|0| \\end{cases} \\Leftrightarrow \\begin{cases} y=4a-2\\\\ |y|=2 \\end{cases} \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} y=2\\\\ 2=4a-2 \\end{cases}\\\\ \\begin{cases} y=-2\\\\ -2=4a-2 \\end{cases} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} y=2\\\\ a=1 \\end{cases}\\\\ \\begin{cases} y=-2\\\\ a=0 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} a=0\\\\ a=1 \\end{array} \\right.$$\nПроверим полученные значения параметра.\n1) \\(a=0\\):\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} a\\left( x^{4} +4\\right) =y+2( 1-|x|)\\\\ |x|+ |y|=2 \\end{cases} \\Leftrightarrow \\begin{cases} 0=y+2( 1-|x|)\\\\ |y|=2-|x| \\end{cases} \\Leftrightarrow \\begin{cases} y=2|x|-2\\\\ |y|=2-|x| \\end{cases} \\Leftrightarrow \\\\ \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} y\\geq 0\\\\ y=2-|x|\\\\ 2-|x|=2|x|-2 \\end{cases}\\\\ \\begin{cases} y< 0\\\\ y=|x|-2\\\\ |x|-2=2|x|-2 \\end{cases} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} y\\geq 0\\\\ y=2-|x|\\\\ 3|x|=4 \\end{cases}\\\\ \\begin{cases} y< 0\\\\ y=|x|-2\\\\ |x|=0 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} y\\geq 0\\\\ y=2-\\frac{4}{3}\\\\ |x|=\\frac{4}{3} \\end{cases}\\\\ \\begin{cases} y< 0\\\\ y=-2\\\\ |x|=0 \\end{cases} \\end{array} \\right. \\Leftrightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} y\\geq 0\\\\ y=\\frac{2}{3}\\\\ |x|=\\frac{4}{3} \\end{cases}\\\\ \\begin{cases} y< 0\\\\ y=-2\\\\ |x|=0 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x=\\frac{4}{3}\\\\ y=\\frac{2}{3} \\end{cases}\\\\ \\begin{cases} x=-\\frac{4}{3}\\\\ y=\\frac{2}{3} \\end{cases}\\\\ \\begin{cases} x=0\\\\ y=-2 \\end{cases} \\end{array} \\right. \\end{array}$$\nСледовательно, при \\(a=0\\) система имеет три решения, значит, \\(a=0\\) не подходит.\n\n2) \\(a=1\\):\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} a\\left( x^{4} +4\\right) =y+2( 1-|x|)\\\\ |x|+ |y|=2 \\end{cases} \\Leftrightarrow \\begin{cases} x^{4} +4=y+2( 1-|x|)\\\\ |y|=2-|x| \\end{cases} \\Leftrightarrow \\begin{cases} y=x^{4} +4+2|x|-2\\\\ |y|=2-|x| \\end{cases} \\Leftrightarrow \\\\ \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} y\\geq 0\\\\ y=2-|x|\\\\ 2-|x|=x^{4} +4+2|x|-2 \\end{cases}\\\\ \\begin{cases} y< 0\\\\ y=|x|-2\\\\ |x|-2=x^{4} +4+2|x|-2 \\end{cases} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} y\\geq 0\\\\ y=2-|x|\\\\ -3|x|=x^{4} \\end{cases}\\\\ \\begin{cases} y< 0\\\\ y=|x|-2\\\\ -|x|=x^{4} +4 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} y\\geq 0\\\\ y=2-|x|\\\\ x\\in \\emptyset \\end{cases}\\\\ \\begin{cases} y< 0\\\\ y=-2\\\\ x=0 \\end{cases} \\end{array} \\right. \\Leftrightarrow \\begin{cases} y=-2\\\\ x=0 \\end{cases} \\end{array}$$\nСледовательно, при \\(a=1\\) система имеет только одно решение, значит, \\(a=1\\) подходит.\n\nТаким образом, исходное уравнение имеет ровно одно решение при \\(a=1\\).\n\nОтвет: \\(a=1\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2497,
+    "title": "18.8 Четность, монотонность и ограниченность"
+  },
+  "id": 34333,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения \\(a\\), при каждом из которых система\n$$\\displaystyle \\begin{cases} a\\left( x^{4} +4\\right) =y+2( 1-|x|)\\\\ |x|+|y|=2 \\end{cases}$$\nимеет единственное решение.",
+      "error_conditions": null,
+      "id": 253972,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/watch?v=IunlrnyrRY8&t=5685s"
+}

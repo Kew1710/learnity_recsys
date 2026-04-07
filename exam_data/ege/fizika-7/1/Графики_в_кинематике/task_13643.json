@@ -1,0 +1,42 @@
+{
+  "comment": "Путь – площадь между графиком скорости и осью \\(t\\):\n$$S=S_1+S_2$$\nНайдем площади по формуле площади прямоугольного треугольника $S=\\frac{1}{2}ab$:\n$$S_1=\\frac{1}{2}\\cdot 4\\cdot 1=2~м\\\\ S_2=\\frac{1}{2}\\cdot 4\\cdot 1=2~м$$\nТаким образом:\n$$S=2+2=4~м$$\nОтвет: 4 м",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2609,
+    "title": "Графики в кинематике"
+  },
+  "id": 13643,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23531\nМатериальная точка движется вдоль оси \\(Ox\\). На рисунке приведен график зависимости проекции ее скорости от времени. Определите путь, пройденный материальной точкой за первые \\(2\\) с наблюдения. Ответ дайте в м.",
+      "error_conditions": [],
+      "id": 180998,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/kFCJonRDQ8Q"
+    },
+    "Valid": true
+  },
+  "time_seconds": 900,
+  "topic": null,
+  "video_link": "https://youtu.be/kFCJonRDQ8Q"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "1) В этом пункте нам подходит высказывание 2. The computer has brought many changes quickly , так как основная мысль именно в этом. См. подчеркнутый текст\n\n2) В этом пункте подходит высказывание 5. Selling computers is not a profitable business today, так как в монологе речь идет о спаде цен на компьютеры, их продавать стало не так выгодно.\n\n3) Speaker C говорит о потребностях (demands/needs), о которых следует подумать при покупке компьютера. Поэтому здесь подходит пункт 7. Considering one's demands is wise when buying a computer.\n\n4) Speaker D утверждает,что мы используем компьютеры не только для работы, но и для развлечений (онлайн игры, например), поэтому здесь отлично подходит пункт 1. The computer can serve as a tool of entertainment.\n\n5) Speaker E утверждает, что компьютер стал частью жизни каждого из нас,мы используем его каждый день, поэтому здесь подходит 6. The computer is a part of everyday life of most people.\n\n6) Speaker F говорит о том, что существуют разные виды компьютеров, каждый из которых служит определенной цели, поэтому здесь подходит утверждение 3. There are various computers to serve every purpose.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 808,
+    "title": "Понимание основного содержания прослушанного текста"
+  },
+  "id": 1668,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "a2 b5 c7 d1 e6 f3",
+          "points": 6
+        }
+      ],
+      "comment": "",
+      "description": "https://disk.yandex.ru/d/_JdzfPBDCdO78A\n\nВы услышите 6 высказываний. Установите соответствие между высказываниями каждого говорящего A - F и утверждениями, данными в списке 1-7. Используйте каждое утверждение, обозначенное соответствующей цифрой, только один раз. В задании есть одно лишнее утверждение. Вы услышите запись дважды. Занесите свои ответы в таблицу.\n\n1. The computer can serve as a tool of entertainment.\n2. The computer has brought many changes quickly.\n3. There are various computers to serve every purpose.\n4. A computer is so essential that its failure is a disaster.\n5. Selling computers is not a profitable business today.\n6. The computer is a part of everyday life of most people.\n7. Considering one's demands is wise when buying a computer.",
+      "error_conditions": [],
+      "id": 54550,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 6,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

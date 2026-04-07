@@ -1,0 +1,42 @@
+{
+  "comment": "А) Кислотный оксид – оксид неметалла, кроме несолеобразующих (CO, N₂O, NO), или металла со степенью окисления +5 и выше. Подходит Mn₂O₇\nБ) Амфотерный гидроксид – гидроксид металла со степенью окисления +3 или +4, в том числе и некоторых металлов со степенью окисления +2 (Zn(OH)₂, Be(OH)₂, Sn(OH)₂, Pb(OH)₂). Подходит Fe(OH)₃\nВ) Двухосновная кислота – кислота, которая содержит два атома водорода (две OH-группы). Подходит кремниевая кислота (H₂SiO₃)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2797,
+    "title": "Номенклатура неорганических веществ (тривиальная и международная)"
+  },
+  "id": 5777,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "794",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Среди предложенных формул/названий веществ, расположенных в пронумерованных ячейках, выберите формулы/названия: А) кислотного оксида; Б) амфотерного гидроксида; В) двухосновной кислоты.\n1\nLiHSO₄\n\n2\nгидроксид магния\n\n3\nхлорная кислота\n\n4\nкремниевая\nкислота\n5\nNa₃P\n\n6\nCaO\n\n7\nMn₂O₇\n\n8\nNH₄Cl\n\n9\nFe(OH)₃",
+      "error_conditions": [],
+      "id": 72248,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=8331"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=8331"
+}

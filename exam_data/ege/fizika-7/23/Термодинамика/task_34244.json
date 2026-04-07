@@ -1,0 +1,37 @@
+{
+  "comment": "Полезная работа, совершенная газом:\n$$A=P\\tau$$\nКПД теплового двигателя:\n$$\\eta =\\frac{A}{Q_н}$$\nДля двигателя, работающего по циклу Карно, также справедлива формула:\n$$\\eta =1-\\frac{T_х}{T_н}$$\nОбъединим выражения:\n$$1-\\frac{T_х}{T_н}=\\frac{P\\tau}{Q_н}$$\n$$\\frac{T_х}{T_н}=1-\\frac{P\\tau}{Q_н}$$\nТемпература нагревателя двигателя:\n$$T_н=\\frac{1}{1-\\frac{P\\tau}{Q_н}}=\\frac{1}{1-\\frac{12000\\cdot 180}{20\\cdot 10^6}}\\approx 345,3~К$$\nОтвет: 345,3 К",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 34244,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Рабочее тело теплового двигателя мощностью \\(12\\) кВт, работающего по циклу Карно, за \\(3\\) мин работы получило от нагревателя количество теплоты, равное \\(20\\) МДж. Температура холодильника равна \\(35\\) \\(^\\circ С\\). Какова температура нагревателя?",
+      "error_conditions": null,
+      "id": 253883,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/lLeODiRo2yg?t=4974"
+}

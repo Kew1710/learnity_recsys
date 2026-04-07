@@ -1,0 +1,42 @@
+{
+  "comment": "4P + 5O₂ = 2P₂O₅\n\nК увеличению скорости химической реакции между фосфором и кислородом приведут повышение температуры и увеличение концентрации кислорода (реагент)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 4549,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все внешние воздействия, которые приводят к увеличению скорости химической реакции между фосфором и кислородом.\n1) охлаждение реакционной смеси\n2) повышение температуры\n3) добавление ингибитора\n4) увеличение концентрации кислорода\n5) понижение давления",
+      "error_conditions": [],
+      "id": 67339,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=1998"
+    },
+    "Valid": true
+  },
+  "time_seconds": 360,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=1998"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nАВС - треугольник\nАC = 3\nВМ - медиана\nНайти:\nАС - ?\nРешение:\nТ.к высота AD, перпендикулярная медиане BM, делит ее пополам, то треугольник ABM является равнобедренным.\n\\( \\Rightarrow AB = AM\\)\nТ.к. BM - медиана, то AM=MC=AB\nТогда \\( AB = \\cfrac{AC}{2} = \\cfrac{3}{2} = 1,5\\)\nОтвет: 1,5",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2011,
+    "title": "23.2 Подобные треугольники"
+  },
+  "id": 17162,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Прямая AD, перпендикулярная медиане ВМ треугольника АВС, делит её пополам. Найдите сторону АВ, если сторона АС равна 3.",
+      "error_conditions": null,
+      "id": 237050,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

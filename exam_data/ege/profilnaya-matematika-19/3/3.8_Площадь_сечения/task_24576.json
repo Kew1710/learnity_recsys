@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем радиус основания по теореме Пифагора:\n$$\\sqrt{10^2-8^2}=6$$\nПлощадь осевого сечения конуса состоит из двух прямоугольных треугольников с катетами \\(6\\) и \\(8\\):\n$$S_{осн}=2\\cdot (\\frac{6\\cdot 8}{2})=48$$\nОтвет: 48",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2391,
+    "title": "3.8 Площадь сечения"
+  },
+  "id": 24576,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "48",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Высота конуса равна 8, а длина образующей - 10. Найдите площадь осевого сечения этого конуса.",
+      "error_conditions": [],
+      "id": 244251,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

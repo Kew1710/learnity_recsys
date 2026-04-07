@@ -1,0 +1,40 @@
+{
+  "comment": "а) Пусть \\(BC\\cup AE=L\\), \\(\\angle AED=\\angle LEC\\) как вертикальные, \\(\\angle ADE=\\angle LCE\\) как накрест лежащие при параллельных прямых, \\(DE=CE\\), значит треугольники \\(AED\\) и \\(LEC\\) равны.\n\n\\(KO||AE\\), значит треугольники \\(KBO\\) и \\(ABE\\) подобны (\\(\\angle{ABE}\\) - общий, \\(\\angle{BKO} = \\angle{BAE}\\) как соответственные), \\(KO:AE=BO:BE\\).\n\\(CO||EL\\), значит треугольники \\(CBO\\) и \\(LBE\\) подобны (\\(\\angle{LBE}\\) - общий, \\(\\angle{BOC} = \\angle{BEL}\\) как соответственные), \\(CO:EL=BO:BE\\).\n\\(KO:AE=CO:EL\\), \\(AE=EL\\) из равенства треугольников, значит \\(CO=KO\\), Ч.т.д.\n\nб) Треугольники \\(AED\\) и \\(LEC\\) равны, значит площадь трапеции \\(ABCD\\) равна площади треугольника \\(ABL\\).\n\n\\(KC||AL\\), значит треугольники \\(BCK\\) и \\(BLA\\) подобны (\\(\\angle{ABL}\\) - общий, \\(\\angle{BCK} = \\angle{BLA}\\) как соответственные).\n$$S_{KBC}:S_{ABL}=k^2=\\frac{9}{64}$$\nЗначит, \\(k=\\frac{3}{8}\\)\n$$BC : BL = BC : (BC+CL)=\\frac{3}{8}\\\\ BC:CL =\\frac{3}{5}= BC:AD$$\nОтвет: \\(\\frac{3}{8}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2486,
+    "title": "17.6 Трапеция"
+  },
+  "id": 9744,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Точка \\(E\\) — середина боковой стороны \\(CD\\) трапеции \\(ABCD\\). На стороне \\(AB\\) взяли точку \\(K\\) так, что прямые \\(CK\\) и \\(AE\\) параллельны. Отрезок \\(CK\\) и \\(BE\\) пересекаются в точке \\(O\\).\nа) Доказать, что \\(CO=KO\\).\nб) Найти отношение оснований трапеции \\(BC\\) и \\(AD\\), если площадь треугольника \\(BCK\\) составляет \\(\\frac{9}{64}\\) площади трапеции \\(ABCD\\).",
+      "error_conditions": null,
+      "id": 117481,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ljjOVFoQp3M?start=5946"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "По второму закону Ньютона в проекции на оси:\n$$Ox:F-T\\sin\\alpha =0\\Rightarrow T\\sin\\alpha =F~(1)\\\\ Oy:T\\cos\\alpha -mg=0\\Rightarrow T\\cos\\alpha =mg~(2)$$\nПоделим (1) на (2):\n$$\\frac{T\\sin\\alpha}{T\\cos\\alpha}=\\frac{F}{mg}\\Rightarrow tg\\alpha =\\frac{F}{mg}~(3)$$\nСила, действущая на заряд со стороны электрического поля:\n$$F=Eq~(4)$$\nПодставим (4) в (3):\n$$tg\\alpha =\\frac{Eq}{mg}\\Rightarrow q=\\frac{mgtg\\alpha}{E}=\\frac{2\\cdot 10^{-3}\\cdot 10\\cdot tg45^\\circ}{80\\cdot 10^3}=250~нКл$$\nОтвет: 250 нКл",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2630,
+    "title": "Электрическое поле"
+  },
+  "id": 9662,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23497\nНа нить, прикрепленную к потолку, подвесили маленький шарик массой \\(m=2\\) г, обладающий зарядом \\(q\\). В области нахождения шарика создали горизонтальное однородное электрическое поле, напряженность которого \\(E=80\\) кВ/м, после чего нить с подвешенным шариком отклонилась на \\(45^\\circ\\). Определите заряд шарика \\(q\\).",
+      "error_conditions": null,
+      "id": 117164,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

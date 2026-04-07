@@ -1,0 +1,42 @@
+{
+  "comment": "$$x^2 - 9x = -20$$\n$$x^2 - 9x + 20 = 0$$\nНайдем дискриминант:\n$$D = b^2 - 4ac = 9^2 - 4 \\cdot 1 \\cdot 20 = 81 - 80 = 1$$\nТогда\n$$x_1 = \\frac{-b-\\sqrt{D}}{2a} = \\frac{9-1}{2} = 4$$\n$$x_2 = \\frac{-b+\\sqrt{D}}{2a} = \\frac{9+1}{2} = 5$$\n\\(x_2=5\\) - больший корень\nОтвет: 5.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2122,
+    "title": "17.1 Линейные, квадратные, кубические уравнения"
+  },
+  "id": 30176,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(x^2 - 9x = -20\\).\nЕсли уравнение имеет более одного корня, в ответе укажите больший из них.",
+      "error_conditions": [],
+      "id": 249815,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

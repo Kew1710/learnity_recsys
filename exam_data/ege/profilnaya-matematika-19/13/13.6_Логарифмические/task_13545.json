@@ -1,0 +1,40 @@
+{
+  "comment": "а) ОДЗ: \\(\\displaystyle \\begin{cases}\n\\cos x\\neq 0\\\\\n2\\sin^{2} x >0\\\\\n\\sqrt{2}\\cos x >0\\\\\n\\log_{31}\\left(\\sqrt{2}\\cos x\\right) \\neq 0\n\\end{cases} \\Rightarrow \\begin{cases}\nx\\neq \\frac{\\pi }{2} +\\pi k,k\\in Z\\\\\nx\\neq \\pi k,k\\in Z\\\\\n\\cos x >0\\\\\nx\\neq \\pm \\frac{\\pi }{4} +2\\pi k,k\\in Z\n\\end{cases}\\)\n$$(tgx+\\sqrt{3})\\log_{13}(2\\sin^2x)=0\\\\ \\displaystyle \\left[ \\begin{array}{l l}\ntgx=-\\sqrt{3}\\\\\n\\log_{13}\\left( 2\\sin^{2} x\\right) =0\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\nx=-\\frac{\\pi }{3} +\\pi k,k\\in Z\\\\\n\\sin x=\\pm \\frac{\\sqrt{2}}{2}\n\\end{array} \\right.\\\\ \\displaystyle \\left[ \\begin{array}{l l}\nx=-\\frac{\\pi }{3} +\\pi k,k\\in Z\\\\\nx=\\frac{\\pi }{4} +\\frac{\\pi k}{2} ,k\\in Z\n\\end{array} \\right.$$\nC учетом ограничений: \\(x=-\\frac{\\pi }{3} +2\\pi k,k\\in Z\\)\nб) Отберем корни на промежутке \\(\\left[\\frac{3\\pi}{2};\\frac{5\\pi}{2}\\right]\\) с помощью тригонометрической окружности.\n$$x=2\\pi-\\frac{\\pi}{3}=\\frac{5\\pi}{3}$$\nОтвет: а) \\(-\\frac{\\pi }{3} +2\\pi k,k\\in Z\\); б) \\(\\frac{5\\pi}{3}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2455,
+    "title": "13.6 Логарифмические"
+  },
+  "id": 13545,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\frac{(tgx+\\sqrt{3})\\log_{13}(2\\sin^2x)}{\\log_{31}(\\sqrt{2}\\cos x)}=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[\\frac{3\\pi}{2};\\frac{5\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 179309,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

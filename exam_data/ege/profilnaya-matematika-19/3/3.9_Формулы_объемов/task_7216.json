@@ -1,0 +1,45 @@
+{
+  "comment": "Площадь основания отсеченной пирамиды будет в \\(4\\) раза меньше основания всей пирамиды, поскольку при таком условии в два раза уменьшаются высота основания и сторона, к которой эта высота проведена:\n$$\\frac{116}{4} =29$$\nОтвет: 29",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 7216,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "29",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Объем правильной четырехугольной пирамиды \\(𝑆𝐴𝐵𝐶𝐷\\) равен \\(116\\). Точка \\(𝐸\\) середина ребра \\(𝑆𝐵\\). Найдите объем треугольной пирамиды \\(𝐸𝐴𝐵𝐶\\).",
+      "error_conditions": [],
+      "id": 83327,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=8059"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=8059"
+}

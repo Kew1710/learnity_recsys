@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1763,
+    "title": "2.5 Мораль. Гуманизм. Патриотизм, гражданственность"
+  },
+  "id": 12366,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "мораль",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Заполните пропуск в таблице.\nФорма духовной культуры\nХарактеристика\nИскусство\nПредставляет собой отражение окружающей действительности в художественных образах…\nОбщепринятые представления о добре и зле, правильном и ошибочном, плохом и хорошем",
+      "error_conditions": [],
+      "id": 163522,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/1mJZI63CuCA?start=1863"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/1mJZI63CuCA?start=1863"
+}

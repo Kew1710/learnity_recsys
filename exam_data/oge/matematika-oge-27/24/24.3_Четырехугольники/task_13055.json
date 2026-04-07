@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD четырехугольник\n\\( \\angle ABD =\\angle ACD \\)\nДоказать:\n\\( \\angle DAC = \\angle DBC\\)\nДоказательство:\nТ.к. четырехугольник ABCD выпуклый и \\( \\angle ABD = \\angle ACD \\), около ABCD можно описать окружность.\n\\( \\Rightarrow \\angle DAC = \\angle DBC\\) как вписанные углы, опирающиеся на одну дугу DC, ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1945,
+    "title": "24.3 Четырехугольники"
+  },
+  "id": 13055,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В выпуклом четырёхугольнике ABCD углы ABD и ACD равны. Докажите, что углы DAC и DBC также равны.",
+      "error_conditions": null,
+      "id": 175347,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "1) Na₂SiO₃ + 2HNO₃ = 2NaNO₃ + H₂SiO₃ - реакция ионного обмена\n2) CuCl₂ + 2KOH = Cu(OH)₂ + 2KCl - реакция ионного обмена\n3) Zn(OH)₂ + 2KOH = K₂[Zn(OH)₄] - реакция соединения\n4) 3CuO + 2NH₃ = 3Cu + N₂ +3H₂O - окислительно-восстановительная реакция\n5) ZnCO₃ + H₂SO₄ = ZnSO₄ + CO₂ + H₂O - реакция обмена",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2837,
+    "title": "Классификация химических реакций в неорганической и органической химии"
+  },
+  "id": 1552,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "125",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все реакции, которые относят к реакциям обмена.\n1) взаимодействие силиката натрия с азотной кислотой\n2) взаимодействие хлорида меди(II) с гидроксидом калия\n3) взаимодействие гидроксида цинка с гидроксидом калия\n4) взаимодействие оксида меди(II) с аммиаком\n5) взаимодействие карбоната цинка с серной кислотой",
+      "error_conditions": [],
+      "id": 53868,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/pA4_RK5ADqk?start=4036"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pA4_RK5ADqk?start=4036"
+}

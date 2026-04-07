@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1767,
+    "title": "3.3 Экономические системы и собственность"
+  },
+  "id": 13206,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Работники фирмы «Добрый дом», занимающейся производством строительных материалов, получают дивиденды от ценных бумаг этого предприятия. Это право сохраняется за ними даже в случае увольнения. Какую форму собственности представляет данная фирма?\n\n1) государственную\n2) кооперативную\n3) индивидуальную частную\n4) акционерную",
+      "error_conditions": [],
+      "id": 177802,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7658"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7658"
+}

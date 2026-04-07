@@ -1,0 +1,37 @@
+{
+  "comment": "- руководитель КПСС – Л. И. Брежнев;\n- обоснование: на медали указано, что она выпущена к 15-летию запуска первого в мире искусственного спутника Земли, который состоялся в 1957 г. 1957 + 15 = 1972. В 1972 г. высшим руководителем КПСС был Л. И. Брежнев (1964-1982 гг.).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1436,
+    "title": "15. Работa с изображениями"
+  },
+  "id": 23403,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 5,
+    "task_count": 0,
+    "title": "История"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Укажите высшего руководителя КПСС в год, когда была выпущена данная памятная медаль. Используя изображение, приведите одно любое обоснование Вашего ответа.\n\nИсточник: Демоверсия, 2024",
+      "error_conditions": null,
+      "id": 243128,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": null
+}

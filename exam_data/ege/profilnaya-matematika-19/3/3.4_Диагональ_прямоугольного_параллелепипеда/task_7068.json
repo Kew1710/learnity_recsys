@@ -1,0 +1,45 @@
+{
+  "comment": "Длина диагонали$(d)$ в прямоугольном параллелепипеде рассчитывается по формуле: квадратный корень из суммы квадратов ширины$(a)$, длины$(b)$ и высоты$(c)$:\n\nтогда $d = \\sqrt{a^2+b^2+c^2}$\n\n$BD_{1} = \\sqrt{12^2+12^2+1^2}=\\sqrt{289}=17$\n\nОтвет: 17",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2387,
+    "title": "3.4 Диагональ прямоугольного параллелепипеда"
+  },
+  "id": 7068,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "17",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В прямоугольном параллелепипеде \\(ABCDA_{1} B_{1} C_{1} D_{1}\\) известно, что \\(AA_{1}=12, A_{1} B_{1}=12, B_{1} C_{1}=1\\). Найдите длину диагонали \\(BD_{1}\\).",
+      "error_conditions": [],
+      "id": 80998,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

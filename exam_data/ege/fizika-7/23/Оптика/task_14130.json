@@ -1,0 +1,37 @@
+{
+  "comment": "$$k_{max}=12$$\nУсловие интерференционных максимумов дифракционной решетки:\n$$d\\sin\\varphi=k\\lambda,$$\nОткуда:\n$$\\sin\\varphi=\\frac{k\\lambda}{d}~(1)$$\nЧтобы интерференционный максимум попадал на решетку, должно выполняться условие:\n$$\\varphi<90^{\\circ}\\Rightarrow\\sin\\varphi<1~(2)$$\nПодставим \\((2)\\) в \\((1)\\):\n$$\\frac{k\\lambda}{d}<1,$$\nОткуда:\n$$\\frac{\\lambda \\cdot 13}{d}\\geq 1;~\\lambda \\geq \\frac{d}{13}=\\frac{1,1\\cdot 10^{-5}}{13}\\approx 846~нм$$\n$$\\lambda<\\frac{d}{12}=\\frac{1,1\\cdot 10^{-5}}{12}\\approx 916,67~нм$$\nОтвет: \\(846~нм\\leq \\lambda < 916,67~нм\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 14130,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23854\nДифракционная решетка с периодом \\(d=1,1\\cdot 10^{-2}~мм\\) нормально освещается плоской монохроматической волной. При каких значениях длины волны на экране будет наблюдаться \\(25\\) максимумов?",
+      "error_conditions": null,
+      "id": 189284,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/P1yxHKNhRS4"
+}

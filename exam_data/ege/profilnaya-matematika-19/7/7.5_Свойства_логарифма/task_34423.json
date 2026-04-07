@@ -1,0 +1,45 @@
+{
+  "comment": "$$(1-\\log_432)(1-\\log_832)=(1-\\log_{2^2}2^5)(1-\\log_{2^3}2^5)=\\left(1-\\frac{5}{2}\\right)\\left(1-\\frac{5}{3}\\right)=\\\\ =\\frac{2-5}{2}\\cdot\\frac{3-5}{3}=-\\frac{3}{2}\\cdot\\left(-\\frac{2}{3}\\right)=1$$\nОтвет: 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 34423,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\((1-\\log_432)(1-\\log_832)\\).",
+      "error_conditions": [],
+      "id": 254062,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=cbOhJs5V4w6-3gh7&t=3649"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=cbOhJs5V4w6-3gh7&t=3649"
+}

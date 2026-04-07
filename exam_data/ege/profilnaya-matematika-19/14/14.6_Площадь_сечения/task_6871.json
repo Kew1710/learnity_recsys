@@ -1,0 +1,40 @@
+{
+  "comment": "а) Пирамида правильная, поэтому высота \\(SO\\) делит медиану/высоту/биссектрису \\(BL\\) в отношении \\(2 : 1\\), то есть: $$ \\frac{BO}{OL} = \\frac{2}{1}$$\nВ \\((BSL)\\) проведем \\(KH \\parallel SO \\Rightarrow KH \\perp (ABC) \\Rightarrow KH \\subset \\alpha\\)\n\nТогда по т. Фалеса для \\(KH \\parallel SO\\) и \\(\\angle{SBO}\\): $$ \\frac{SK}{KB} = \\frac{OH}{HB} \\\\ \\frac{7}{3} = \\frac{OH}{HB}$$\nПусть \\(BO = 2x \\Rightarrow OL = x \\Rightarrow\\) $$ OH + HB = BO = 2x$$\nПусть \\(OH = 7y, \\ HB = 3y \\Rightarrow\\) $$OH + HB = 2x = 7y + 3y = 10y \\\\ 2x = 10y \\\\ x = 5y \\\\ \\Rightarrow BO = 2x = 10y, \\ OL = 5y \\\\ \\Rightarrow HL = HO + OL = 7y + 5y = 12y$$\nТогда, если \\(C \\in \\alpha\\), то справедлива теорема Менелая для треугольника \\(BLA\\) и секущей \\(MC\\):\n\n$$\\frac{BH}{HL} \\cdot \\frac{LC}{CA} \\cdot \\frac{AM}{MB} = 1 \\\\ \\frac{3y}{12y} \\cdot \\frac{\\frac{1}{2}CA}{CA} \\cdot \\frac{8}{1} = 1 \\\\ \\Rightarrow \\frac{1}{4} \\cdot \\frac{1}{2} \\cdot 8 = 1$$\n\nЭто верно \\(\\Rightarrow C \\in \\alpha\\)\nч.т.д.\n\nб) \\(\\triangle{KHB} \\sim \\triangle{SOB}\\) по двум углам \\((\\angle{KHB} = \\angle{SOB}\\) как соответственные и \\(\\angle{SBO} \\ -\\) общий\\()\\) $$ \\Rightarrow \\frac{KH}{SO} = \\frac{BK}{BS} \\\\ \\frac{KH}{SO} = \\frac{3}{10} \\\\ \\Rightarrow KH = \\frac{3}{10}SH$$\n\\(BL = \\dfrac{a\\sqrt{3}}{2} = \\dfrac{AB\\sqrt{3}}{2} = \\dfrac{9\\sqrt{3}}{2}\\) как высота правильного треугольника \\(\\Rightarrow BO = \\dfrac{2}{3}BL = 3\\sqrt{3}\\)\n\nВ треугольнике \\(SOB\\) по т. Пифагора: $$SO = \\sqrt{SB^2-BO^2}=\\sqrt{43 - 27} = \\sqrt{16} = 4$$ $$ \\Rightarrow KH = \\frac{3}{10} \\cdot 4 = \\frac{12}{10} = \\frac{6}{5} $$\n\\(CM\\) найдем из треугольника \\(BMC\\) по теореме косинусов:\n$$CM^2=1+81-2\\cdot 9\\cdot 1\\cdot \\cos60^\\circ=73$$\nТогда:\n$$S_{MKL} =\\frac{1}{2} \\cdot \\frac{6}{5} \\cdot \\sqrt{73} =\\frac{3\\sqrt{73}}{5}$$\nОтвет: \\(\\frac{3\\sqrt{73}}{5}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2465,
+    "title": "14.6 Площадь сечения"
+  },
+  "id": 6871,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дана правильная треугольная пирамида \\(SABC\\), в которой \\(AB=9\\), точка \\(M\\) лежит на ребре \\(AB\\) так, что \\(AM=8\\). Точка \\(K\\) делит сторону \\(SB\\) так, что \\(SK:KB=7:3\\). Ребро \\(SA=\\sqrt{43}\\). Точки \\(M\\) и \\(K\\) принадлежат плоскости \\(\\alpha\\), которая перпендикулярна плоскости \\(ABC\\).\nа) Докажите, что точка \\(C\\) принадлежит плоскости \\(\\alpha \\).\nб) Найдите площадь сечения \\(\\alpha \\).",
+      "error_conditions": null,
+      "id": 76898,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/UYOOdcih6qc?start=5327"
+}

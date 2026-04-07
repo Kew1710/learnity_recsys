@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1760,
+    "title": "2.2 Наука в жизни современного общества"
+  },
+  "id": 12078,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Особенность научного знания состоит в том, что оно\n\n1) основано на художественных образах\n\n2) направлено на создание материальных ценностей\n\n3) стремится к объективности\n\n4) всегда применяется в реальной жизни",
+      "error_conditions": [],
+      "id": 153915,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/swp0whOuZ08?start=11674"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/swp0whOuZ08?start=11674"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Систематические категории растений:\nЦарство (Растения) => Отдел (Цветковые) => Класс (Двудольные) => Порядок => Семейство (Фиалковые) => Род (Фиалка) => Вид (Фиалка трехцветная).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 5233,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42513",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность расположения систематических категорий, используемых при классификации растений, начиная с наибольшей. Запишите в ответ соответствующую последовательность цифр.\n1) фиалка\n2) двудольные\n3) фиалка трёхцветная\n4) покрытосеменные\n5) фиалковые",
+      "error_conditions": [],
+      "id": 70621,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/FDv1hdEYPUI?start=586"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/FDv1hdEYPUI?start=586"
+}

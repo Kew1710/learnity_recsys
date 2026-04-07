@@ -1,0 +1,45 @@
+{
+  "comment": "with open('/24_1.txt') as f:\ns = f.readline().split('T')\nk = 210\nmaxs = 0\nsu = k\nfor i in range(k+1):\nsu += len(s[i])\nmaxs = max(maxs,su)\nfor i in range(1, len(s)-k-1):\nsu = su - len(s[i-1]) + len(s[i+k])\nmaxs = max(maxs,su)\nprint(maxs)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 23909,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10985",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2324_2\n(ОСН 2023) Текстовый файл состоит из символов T, U, V, W, X, Y и Z. Определите в прилагаемом файле максимальное количество идущих подряд символов (длину непрерывной последовательности), среди которых символ T встречается не более 210 раз.\nДля выполнения этого задания следует написать программу.",
+      "error_conditions": [],
+      "id": 243628,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1080,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": null
+}

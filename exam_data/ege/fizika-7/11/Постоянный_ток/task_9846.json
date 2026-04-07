@@ -1,0 +1,42 @@
+{
+  "comment": "Выберем на прямой удобную для расчета точку, которая попадает в целочисленное значение силы тока и напряжения.\n\nИспользуем закон Ома для участка цепи:\n$$R=\\frac{U}{I}=\\frac{6}{4\\cdot 10^{-3}}=1,5\\cdot 10^3~Ом=1,5~кОм$$\nОтвет: 1,5 кОм",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 9846,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23541\nГрафик зависимости силы тока в резисторе от напряжения между его концами изображен на рисунке ниже. Найдите сопротивление резистора. Ответ дайте в кОм.",
+      "error_conditions": [],
+      "id": 119879,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/SkHbOjFMKA0"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/SkHbOjFMKA0"
+}

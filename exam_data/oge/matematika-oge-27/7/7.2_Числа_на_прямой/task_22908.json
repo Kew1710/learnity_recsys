@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nЗаметим, что \\(y < 0 < x \\) и \\( |x| < |y|\\)\n\\( 1) x^2y < 0 \\). Верно\n\\(2) xy^2 > 0\\). Верно\n\\(3) x + y > 0\\). Неверно\n\\(4) y - x <0\\). Верно\nОтвет: 3",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22908,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечены числа. Какое из приведённых утверждений для этих чисел неверно?",
+      "error_conditions": [],
+      "id": 242635,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 49,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

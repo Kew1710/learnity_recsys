@@ -1,0 +1,42 @@
+{
+  "comment": "Сейчас плата за телефон составляет 350 рублей - это 100%. В следующем году плата станет 100% + 4% = 104%.\n$$\\frac{350 \\cdot 104\\%}{100\\%} = 350 \\cdot 1,04 = 350 + 350 \\cdot 0,04 = 350 + 14 = 364 \\; рублей$$\nОтвет: 364 рублей.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2114,
+    "title": "15.1 Задачи на проценты"
+  },
+  "id": 29357,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "364",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ежемесячная плата за телефон составляет 350 рублей. В следующем году она увеличится на 4%. Сколько рублей будет составлять ежемесячная плата за телефон в следующем году?",
+      "error_conditions": [],
+      "id": 248996,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(-2x-3x=4\\)\n\\(-5x=4\\)\n\\(x=-\\cfrac{4}{5}\\)\n\\(x=-0,8\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1928,
+    "title": "9.1 Линейные уравнения"
+  },
+  "id": 18195,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-0,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(-2x-4=3x\\) .",
+      "error_conditions": [],
+      "id": 238038,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

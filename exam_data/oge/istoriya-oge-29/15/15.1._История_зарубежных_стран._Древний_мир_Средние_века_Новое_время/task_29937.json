@@ -1,0 +1,42 @@
+{
+  "comment": "Америго Веспуччи является итальянским путешественником и мореплавателем, который в 1501-1502 гг. совершил поход к берегам Бразилии, и нашел Америку",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3105,
+    "title": "15.1. История зарубежных стран. Древний мир, Средние века, Новое время"
+  },
+  "id": 29937,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "1) зарождение демократии в Древней Греции\n2) великое переселение народов\n3) Великие географические открытия\n4) восстание сипаев\n\nУчастником какого из перечисленных событий, процессов был Америго Веспуччи?",
+      "error_conditions": [],
+      "id": 249576,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "А) P⁺⁵ ⟶ P⁺⁵ – не проявляет окислительно-восстановительных свойств\nБ) P⁺³ - 2ē ⟶ P⁺⁵ – является восстановителем\nВ) P⁺¹ + 4ē ⟶ P⁻³ и P⁺¹ - 4ē ⟶ P⁺⁵ – является и окислителем, и восстановителем",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2839,
+    "title": "Реакции окислительно-восстановительные"
+  },
+  "id": 4800,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "423",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между схемой реакции и свойством фосфора, которое этот элемент проявляет в данной реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nСХЕМА РЕАКЦИИ\nСВОЙСТВО ФОСФОРА\nА) POCl₃ + H₂O ⟶ H₃PO₄ + HCl1) является окислителемБ) P₂O₃ + HNO₃ ⟶ H₃PO₄ + NO + H₂O2) является восстановителемВ) H₃PO₂ ⟶ PH₃ + H₃PO₄3) является и окислителем,\nи восстановителем\n4) не проявляет окислительно-\nвосстановительных свойств",
+      "error_conditions": [],
+      "id": 70032,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=4257"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/48Xa5lPSquE?start=4257"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Неэффективное:\n\nf = open('27A.txt')\nn,k = map(int,f.readline().split())\na = [int(x) for x in f]\nmaxs = 0\nfor i in range(n - k):\nfor j in range(i + k, n):\nmaxs = max(a[i] + a[j], maxs)\nprint(maxs)\n\nЭффективное:\n\nf = open('27B.txt')\nn,k = map(int,f.readline().split())\na = [int(x) for x in f]\nmaxs = 0\nmaxo = 0\nfor i in range(k, n)\nold = a[i - k]\nnew = a[i]\nmaxo = max(maxo, old)\nmaxs = max(maxs, maxo + new)\nprint(maxs)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1551,
+    "title": "№27"
+  },
+  "id": 23676,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19996 715998",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "ЗАДАНИЕ, не входящее в ЕГЭ 2025 года\n(ДОСРОК 2023) Метеорологическая служба ежеминутно снимает показания прибора. Требуется найти контрольное значение – наибольшую сумму двух результатов измерений, выполненных с интервалом не менее, чем в К минут.\nВходные данные\nДаны два входных файла, каждый из которых содержит в первой строке количество чисел N (9 ≤ N ≤ 10 000 000) интервал K (10 ≤ K ≤ 2 000 000). В каждой из последующих N строк записано одно натуральное число, не превышающее 10 000.\n\nПример входных данных для k=8:\n10 8\n1\n3\n5\n4\n6\n7\n9\n10\n12\n11\nПример выходных данных для приведённого выше примера входных данных:\n14\n\nВ ответе укажите два числа: сначала контрольное значение для файла A, затем – для файла B.\n\nФайл А: 27A.txt\nФайл В: 27_B.txt",
+      "error_conditions": [],
+      "id": 243400,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2100,
+  "topic": {
+    "id": 44,
+    "title": "Эффективные алгоритмы"
+  },
+  "video_link": null
+}

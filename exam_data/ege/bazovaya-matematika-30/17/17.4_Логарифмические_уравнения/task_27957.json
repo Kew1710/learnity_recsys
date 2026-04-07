@@ -1,0 +1,42 @@
+{
+  "comment": "$$\\log_{17} (29 - 6x) = \\log_{17} 5$$\n$$29 - 6x = 5$$\n$$6x = 29 - 5$$\n$$6x = 24\\Rightarrow x = 4$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2125,
+    "title": "17.4 Логарифмические уравнения"
+  },
+  "id": 27957,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\log_{17} (29 - 6x) = \\log_{17} 5\\).",
+      "error_conditions": [],
+      "id": 247596,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

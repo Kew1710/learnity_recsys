@@ -1,0 +1,45 @@
+{
+  "comment": "Осуществим параллельный перенос \\(BC_{1} \\Rightarrow AD_{1}\\).\nРассмотрим треугольник \\(A D_{1} C\\): \\(A D_{1} = D_{1} C = CA\\) (как диагонали равных квадратов, слагающих грани и основания куба).\nТаким образом, данный треугольник равносторонний, то есть все углы равны \\(60^{\\circ }\\).\nСледовательно, искомый угол также равен \\(60^{\\circ }\\).\nОтвет: 60",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2385,
+    "title": "3.2 Углы в объемных фигурах"
+  },
+  "id": 7203,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "60",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В кубе \\(ABCDA_{1} B_{1} C_{1} D_{1}\\) найдите угол между \\(CD_{1}\\) и \\(BC_{1}\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 83314,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/VDEuB7NUXfk?si=hcmMGitsjsG-KKU3&t=420"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/live/VDEuB7NUXfk?si=hcmMGitsjsG-KKU3&t=420"
+}

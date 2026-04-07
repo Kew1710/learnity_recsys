@@ -1,0 +1,42 @@
+{
+  "comment": "Выразим напряжение из формулы энергии: $$Q=UIt$$\nПереведем время в секунды: $t=0,5~мин=30~с$\nВыразим напряжение: $$U=\\frac{Q}{It} \\\\ U=\\frac{900}{0,5\\cdot 30}=60~В$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 33430,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "60",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "За 0,5 мин. работы электрическая лампа потребляет 900 Дж при силе тока через неё, равной 0,5 А. Чему равно напряжение на лампе?\n\nОтвет:_____________В.",
+      "error_conditions": [],
+      "id": 253069,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

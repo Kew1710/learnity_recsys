@@ -1,0 +1,40 @@
+{
+  "comment": "Заметим, что если \\(a=0\\), то получим равенство \\(0=2\\), что неверно, тогда можем поделить обе части на \\(2\\).\n\\(x=\\frac{2}{a}\\), имеет решение при любом \\(a\\), отличном от \\(0\\).\n\nОтвет: \\(\\left\\{ \\begin{array}{l} x \\in \\varnothing ~ при ~ a = 0 \\\\ x = \\dfrac{2}{a} ~ при ~ a \\neq 0 \\end{array} \\right.\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2493,
+    "title": "18.4 Уравнения с параметром"
+  },
+  "id": 35208,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(ax=2\\) с параметром \\(a\\).",
+      "error_conditions": null,
+      "id": 254847,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/9L45G5F3TGo?si=8Cusd2pGccBciR5b&t=1065"
+}

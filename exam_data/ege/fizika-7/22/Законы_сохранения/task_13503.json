@@ -1,0 +1,37 @@
+{
+  "comment": "$$E_{нач}=mg(h+d),$$\nтак как\n$$E_{кин.нач.}=0,E_{п.нач.}=mg(h+d)$$\n\\(E_{кон}=0\\), так как тело остановилось.\n$$A_{непотенц}=\\Delta E_{мех}\\\\ A_{непотенц}=A_C+A_B\\\\ \\Delta E_{мех}=0-mg(h+d)\\\\ A_C=F_Cd\\cos 180^\\circ =-F_Cd\\\\ A_B=F_Bh\\cos 180^\\circ =-F_Bh\\\\ -F_Cd-F_Bh=-mg(h+d)\\Rightarrow F_B=\\frac{mg(h+d)-F_Cd}{h}$$\nПодставим значения:\n$$F_B=\\frac{1\\cdot 10(1+0,1)-100\\cdot 0,1}{1}=1~Н$$\nОтвет: 1 Н\n\nВ видео решении приведен разбор задачи в исходной формулировке, где уровень отсчета берется от земли, но в решении подразумевается, что отсчет высоты взят от поверхности снега",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2624,
+    "title": "Законы сохранения"
+  },
+  "id": 13503,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "ВТ25\nШар массой \\(1\\) кг свободно падает с высоты \\(1\\) м и углубляется в снег на глубину \\(10\\) см. Известно, что средняя сила сопротивления снега равна \\(100\\) Н. Чему равна средняя сила сопротивления воздуха? Считать, что начальная высота, на которой находится шарик, отсчитывается от поверхности снега.",
+      "error_conditions": null,
+      "id": 179182,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/n1_3ft5xkZw?start=7694"
+}

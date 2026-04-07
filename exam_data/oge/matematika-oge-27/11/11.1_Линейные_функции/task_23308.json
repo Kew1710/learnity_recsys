@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(y = kx + b\\) - уравнение прямой\nКоэффициент k равен тангенсу угла наклона прямой к оси Ox\n1) По пересечению прямой с Oy поймем, что \\(b=0\\)\nПрямая направлена вверх, \\(\\Rightarrow k > 0\\)\n\\(tg{a} = \\cfrac{1}{3} \\)\nСоответствие с формулой В\n2) По пересечению прямой с Oy поймем, что \\(b=0\\)\nПрямая направлена вверх, \\(\\Rightarrow k > 0\\)\n\\(tg{a} = \\cfrac{3}{1} = 3 \\)\nСоответствие с формулой А\n3) По пересечению прямой с Oy поймем, что \\(b=0\\)\nПрямая направлена вниз, \\(\\Rightarrow k < 0\\)\n\\(tg{a} = -\\cfrac{1}{3} \\)\nСоответствие с формулой Б\nОтвет: 231",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1963,
+    "title": "11.1 Линейные функции"
+  },
+  "id": 23308,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "231",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между графиками функций и формулами, которые их задают.",
+      "error_conditions": [],
+      "id": 243033,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

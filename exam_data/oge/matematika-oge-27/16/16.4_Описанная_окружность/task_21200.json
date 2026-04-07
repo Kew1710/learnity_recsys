@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nТреугольник ABC равнобедренный по условию\nЗначит \\(\\angle BAC = \\angle BCA = \\cfrac{180-66}{2} = 57^o\\)\nУгол BAC является вписанным, опирается на дугу BC\nУгол BOC является центральным, опирается на дугу BC, и равен \\( 57 \\cdot 2 = 114^o\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1982,
+    "title": "16.4 Описанная окружность"
+  },
+  "id": 21200,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "114",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Окружность с центром в точке O описана около равнобедренного треугольника ABC, в котором AB=BC и \\( \\angle ABC=66\\) . Найдите величину угла BOC. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 240975,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

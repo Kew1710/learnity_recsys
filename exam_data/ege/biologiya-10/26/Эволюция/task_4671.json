@@ -1,0 +1,37 @@
+{
+  "comment": "l) популяции одного вида оказываются в разных условиях, но в пределах прежнего неразделённого ареала;\n2) особи с полезными для жизни мутациями в определённых экологических нишах сохраняются естественным отбором и рас- пространяются в популяции;\n3) постепенно изменяется генофонд популяции, особи разных популяций перестают скрешиваться между собой, возникает репродуктивная изоляция, что приводит к формированию нового вида.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2532,
+    "title": "Эволюция"
+  },
+  "id": 4671,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Опишите механизм экологического видообразования в природе.",
+      "error_conditions": null,
+      "id": 67841,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/L6NmLiGzwSU?start=1290"
+}

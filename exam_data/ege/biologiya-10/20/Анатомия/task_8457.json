@@ -1,0 +1,42 @@
+{
+  "comment": "На рисунке изображен фагоцитоз - осуществляет защиту организма.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 8457,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "175",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите рисунок с изображение процесса, происходящего в крови человека. Заполните пустые ячейки таблицы, используя элементы, приведенные в списке. Для каждой ячейки, обозначенной буквой, выберите соответствующий элемент из предложенного списка.\nНазвание процесса Значение для организма человека Тип клеток крови (А) (Б) (В)\nСписок элементов:\n1. фагоцитоз\n2. пиноцитоз\n3. экзоцитоз\n4. эритроциты\n5. лейкоциты\n6. питание организма\n7. защита организма\n8. транспорт веществ",
+      "error_conditions": [],
+      "id": 102754,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/p_q7eD109W8"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/p_q7eD109W8"
+}

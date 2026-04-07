@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем реакцию: $$^{90}_{38}Sr{\\rightarrow} ^{A}_{Z}X+^{0}_{-1}\\beta$$\nЗапишем закон сохранения массы: $$90=A+0 \\\\ A=90$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3285,
+    "title": "4.1 Радиоактивность. Альфа-, бета-, гамма-излучения. Реакции альфа- и бета-распада"
+  },
+  "id": 34534,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "90",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ядро стронция $^{90}_{38}Sr$ претерпело $\\beta^{-}$ распад. Каково массовое число образовавшегося ядра?\n\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254173,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

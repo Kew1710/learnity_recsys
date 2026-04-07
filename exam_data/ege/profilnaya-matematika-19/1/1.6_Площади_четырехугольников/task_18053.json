@@ -1,0 +1,45 @@
+{
+  "comment": "Параллелограмм разбивается на \\(4\\) треугольника, площади которых равны. (\\(S_{треугольника}\\), где \\(h\\) – высота, \\(a\\) – основание). Высоты равны, так как это высоты одного параллелограмма. Основания равны, т.к. точка \\(H\\) – середина \\(AD\\), точка \\(K\\) – середина \\(CB\\).\nПлощадь трапеции \\(BHDC\\) составляет \\(\\frac{3}{4}\\) от площади параллелограмма \\(ABCD\\).\n$$S_{BHDC}=\\frac{3}{4}\\cdot 142=35,5\\cdot 3=106,5$$\nОтвет: 106,5.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2377,
+    "title": "1.6 Площади четырехугольников"
+  },
+  "id": 18053,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "106,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь параллелограмма \\(ABCD\\) равна \\(142\\). Точка \\(H\\) – середина стороны \\(AD\\). Найдите площадь трапеции \\(BHDC\\).",
+      "error_conditions": [],
+      "id": 237897,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/ovq8OCkG_rQ?t=2486"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://youtu.be/ovq8OCkG_rQ?t=2486"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничение: \\(x>0\\)\n$$\\frac{\\log_381+\\log_3x}{\\log_3x-4}+\\frac{\\log_3x-4}{\\log_381+\\log_3x}\\geq\\frac{24-8\\log_3x}{\\log_3^2x-16}$$\nЗамена: \\(\\log_3x=t\\)\n$$\\frac{t+4}{t-4}+\\frac{t-4}{t+4}-\\frac{24-8t}{t^2-16}\\geq 0\\\\ \\frac{t+4}{t-4}+\\frac{t-4}{t+4}-\\frac{24-8t}{(t-4)(t+4)}\\geq 0\\\\ \\frac{(t+4)^2+(t-4)^2-24+8t}{(t-4)(t+4)}\\geq 0\\\\ \\frac{t^2+8t+16+t^2-8t+16-24+8t}{(t-4)(t+4)}\\geq 0\\\\ \\frac{2t^2+8t+8}{(t-4)(t+4)}\\geq 0\\\\ \\frac{t^2+4t+4}{(t-4)(t+4)}\\geq 0\\\\ \\frac{(t+2)^2}{(t-4)(t+4)}\\geq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l} t >4\\\\ t=-2\\\\ t< -4 \\end{array} \\right.\\\\ \\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} x >0\\\\ \\left[ \\begin{array}{l l} \\log_{3} x >4\\\\ \\log_{3} x=-2\\\\ \\log_{3} x< -4 \\end{array} \\right. \\end{cases}\\\\ \\begin{cases} x >0\\\\ \\left[ \\begin{array}{l l} \\log_{3} x >\\log_{3} 81\\\\ \\log_{3} x=\\log_{3}\\frac{1}{9}\\\\ \\log_{3} x< \\log_{3}\\frac{1}{81} \\end{array} \\right. \\end{cases} \\end{array}$$\nТак как логарифм по основанию 3 монотонно возрастает, то равносильно:\n$$\\displaystyle \\begin{cases} x >0\\\\ \\left[ \\begin{array}{l l} x >81\\\\ x=\\frac{1}{9}\\\\ x< \\frac{1}{81} \\end{array} \\right. \\end{cases}$$\nОтвет: \\(x\\in (0;\\frac{1}{81})~\\cup\\) {\\(\\frac{1}{9}\\)} \\(\\cup ~(81;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2470,
+    "title": "15.4 Свойства логарифма"
+  },
+  "id": 11511,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{\\log_3(81x)}{\\log_3x-4}+\\frac{\\log_3x-4}{\\log_3(81x)}\\geq\\frac{24-\\log_3x^8}{\\log_3^2x-16}\\).",
+      "error_conditions": null,
+      "id": 149180,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

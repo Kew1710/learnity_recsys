@@ -1,0 +1,42 @@
+{
+  "comment": "Восстановитель – элемент, который в ходе окислительно-восстановительной реакции отдаёт электроны и повышает свою степень окисления\nА) S⁻² - 2ē ⟶ S⁰ – восстановитель H₂S\nБ) S⁺⁴ - 2ē ⟶ S⁺⁶ – восстановитель SO₂\nВ) 2I⁻¹ - 2ē ⟶ I₂⁰ – восстановитель HI",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2839,
+    "title": "Реакции окислительно-восстановительные"
+  },
+  "id": 5931,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "134",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между уравнением реакции и формулой вещества, являющегося восстановителем в данной реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nУРАВНЕНИЕ РЕАКЦИИ\nФОРМУЛА ВОССТАНОВИТЕЛЯ\nА) 2H₂S + SO₂ = 3S + 2H₂O1) H₂SБ) SO₂ + NO₂ = SO₃ + NO2) SВ) S + 2HI = I₂ + H₂S3) SO₂ 4) HI",
+      "error_conditions": [],
+      "id": 72402,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=14100"
+    },
+    "Valid": true
+  },
+  "time_seconds": 480,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=14100"
+}

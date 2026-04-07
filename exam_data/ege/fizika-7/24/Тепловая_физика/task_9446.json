@@ -1,0 +1,37 @@
+{
+  "comment": "Количество теплоты, необходимое для парообразования:\n$$Q_{\\mathrm{п}}=Lm_0,$$\nгде \\(m_0\\) – масса испарившейся воды. Количество теплоты, необходимое для для нагрева воды до \\(t_3 = 100~^\\circ \\mathrm{С}\\):\n$$Q_{\\mathrm{нагр}}=cm_0\\left (t_3-t_1\\right )$$\nКоличество теплоты, необходимое для охлаждения цилиндра до \\(t_3 = 100~^\\circ \\mathrm{С}\\):\n$$Q_{\\mathrm{охл}}=c_{\\mathrm{м}}M\\left (t_2-t_3\\right )$$\nТепловой баланс:\n$$Q_{\\mathrm{охл}}=Q_{\\mathrm{п}}+Q_{\\mathrm{нагр}}$$\n$$c_{\\mathrm{м}}M\\left (t_2-t_3\\right )=Lm_0+cm_0\\left (t_3-t_1\\right )$$\n$$m_0=\\frac{c_{\\mathrm{м}}M\\left (t_2-t_3\\right )}{L+c\\left (t_3-t_1\\right )}=\\frac{380\\cdot 0,18\\cdot \\left (500-100\\right )}{2,3\\cdot 10^6+4200\\cdot \\left (100-40\\right )}\\approx 0,0107~\\mathrm{кг}$$\nКоличество теплоты, необходимое для охлаждения цилиндра до \\(t_{\\mathrm{к}}\\):\n$$Q_{\\mathrm{охл.}~t_{\\mathrm{к}}}=c_{\\mathrm{м}}M\\left (t_3-t_{\\mathrm{к}}\\right )$$\nКоличество теплоты, необходимое нагрева воды до \\(t_{\\mathrm{к}}\\):\n$$Q_{\\mathrm{нагр.}~t_{\\mathrm{к}}}=c\\left (m_{\\mathrm{в}}-m_0\\right )\\left (t_{\\mathrm{к}}-t_1\\right )$$\nТепловой баланс:\n$$Q_{\\mathrm{охл.}~t_{\\mathrm{к}}}=Q_{\\mathrm{нагр.}~t_{\\mathrm{к}}}$$\n$$c_{\\mathrm{м}}M\\left (t_3-t_{\\mathrm{к}}\\right )=c\\left (m_{\\mathrm{в}}-m_0\\right )\\left (t_{\\mathrm{к}}-t_1\\right )$$\n$$c_{\\mathrm{м}}Mt_3-c_{\\mathrm{м}}Mt_{\\mathrm{к}}=c\\left (m_{\\mathrm{в}}-m_0\\right )t_{\\mathrm{к}}-c\\left (m_{\\mathrm{в}}-m_0\\right )t_1$$\n$$c_{\\mathrm{м}}Mt_3+c\\left (m_{\\mathrm{в}}-m_0\\right )t_1=t_{\\mathrm{к}}\\left (c\\left (m_{\\mathrm{в}}-m_0\\right )+c_{\\mathrm{м}}M\\right )$$\nКонечная температура системы:\n$$t_{\\mathrm{к}}=\\frac{c_{\\mathrm{м}}Mt_3+c\\left (m_{\\mathrm{в}}-m_0\\right )t_1}{c\\left (m_{\\mathrm{в}}-m_0\\right )+c_{\\mathrm{м}}M}=\\frac{380\\cdot 0,18\\cdot 100+4200\\cdot \\left (0,4-0,0107\\right )\\cdot 40}{4200\\cdot \\left (0,4-0,0107\\right )+380\\cdot 0,18}\\approx 42,4~^\\circ \\mathrm{С}$$\nОтвет: \\(42,4~^\\circ \\mathrm{С}\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2628,
+    "title": "Тепловая физика"
+  },
+  "id": 9446,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "233710\nВ сосуде, имеющем тепловую изоляцию, находится \\(m=400~\\mathrm{г}\\) воды при температуре \\(t_1=40~^\\circ \\mathrm{С}\\). В него опускают медный цилиндр массой \\(M=180~\\mathrm{г}\\), температура которого \\(t_2=500~^\\circ \\mathrm{С}\\). Определите температуру системы \\(t_3\\) после достижения теплового равновесия. Вода при контакте с горячим металлом быстро испаряется, а образовавшиеся пары сразу улетучиваются. Другими потерями теплоты можно пренебречь.",
+      "error_conditions": null,
+      "id": 114600,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/4sXuOgPs5GM"
+}

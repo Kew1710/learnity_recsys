@@ -1,0 +1,42 @@
+{
+  "comment": "написана - краткое причастие, Н\nвнутренних - прилагательное, суффикс -енн-, НН\nхудожественную - прилагательное, суффикс -енн-, НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12915,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите цифру(-ы), на месте которых пишется Н.\nПовесть А. Платонова «Ювенильное море» была написа(1)а в условиях, когда под влиянием глубоких внутре(2)их переживаний писатель в значительной мере изменил свою художестве(3)ую систему.",
+      "error_conditions": [],
+      "id": 174099,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

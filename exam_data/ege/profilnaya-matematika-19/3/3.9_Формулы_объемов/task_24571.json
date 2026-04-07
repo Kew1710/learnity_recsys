@@ -1,0 +1,45 @@
+{
+  "comment": "Объём цилиндра можно найти по формуле:\n$$V=\\pi\\cdot R^2\\cdot h=\\pi\\cdot (\\frac{D}{2})^2\\cdot h$$\nТак как объём остается неизменным, \\(V_1=V_2\\)\n$$\\pi\\cdot (\\frac{D_1}{2})^2\\cdot h_1=\\pi\\cdot (\\frac{D_2}{2})^2\\cdot h_2\\\\ \\pi\\cdot (\\frac{D}{2})^2\\cdot 16=\\pi\\cdot (\\frac{2D}{2})^2\\cdot h_2\\\\ h_2=\\frac{4\\cdot D^2\\cdot 16}{4\\cdot 4\\cdot D^2}=4$$\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 24571,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В цилиндрическом сосуде уровень жидкости достигает 16 см. На какой высоте будет находиться уровень жидкости, если ее перелить во второй сосуд, диаметр которого в 2 раза больше первого? Ответ выразите в см.",
+      "error_conditions": [],
+      "id": 244247,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 42,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

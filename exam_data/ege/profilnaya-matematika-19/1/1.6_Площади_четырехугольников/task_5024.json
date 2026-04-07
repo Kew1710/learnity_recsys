@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть сторона параллелограмма \\(= a\\), а высота \\(= h\\)\n\nПлощадь параллелограмма \\(ABCD = a\\cdot h \\)\n\nПлощадь трапеции \\(ABFD\\) тогда \\(= \\dfrac{a+\\frac{1}{2}a}{2}\\cdot h = \\dfrac{3}{4}ah = \\dfrac{3}{4} \\cdot 92 = 69\\)\n\nОтвет: 69",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2377,
+    "title": "1.6 Площади четырехугольников"
+  },
+  "id": 5024,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "69",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь параллелограмма \\(ABCD\\) равна \\(92\\). Точка \\(F\\) − середина стороны \\(CD\\). Найдите площадь трапеции \\(ABFD\\).",
+      "error_conditions": [],
+      "id": 70258,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=2037"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=2037"
+}

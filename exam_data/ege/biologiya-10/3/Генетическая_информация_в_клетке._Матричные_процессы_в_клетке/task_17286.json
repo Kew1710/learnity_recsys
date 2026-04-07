@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 30\nЦ = Г, значит, Ц + Г = 40%. Тогда на А и Т приходится 100 – 40 = 60%, а так как А = Т по принципу комлементарности, то А = 30%.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2511,
+    "title": "Генетическая информация в клетке. Матричные процессы в клетке"
+  },
+  "id": 17286,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В ДНК на долю нуклеотидов с цитозином приходится 20%. Определите содержание нуклеотидов с аденином, входящих в состав молекулы. В ответе запишите только соответствующее число.",
+      "error_conditions": [],
+      "id": 237168,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

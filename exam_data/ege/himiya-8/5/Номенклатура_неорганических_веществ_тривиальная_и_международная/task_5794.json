@@ -1,0 +1,42 @@
+{
+  "comment": "Гидроксид хрома(III) – Cr(OH)₃, сульфат бария – BaSO₄, уксусная кислота – CH₃COOH, ортофосфорная кислота – H₃PO₄\n\nА) Кислотный оксид – оксид неметалла (кроме несолеобразующих CO, N₂O, NO) или металла со степенью окисления +5 и выше. Подходит N₂O₅\nБ) Амфотерный оксид – оксид металла со степенью окисления +3 или +4 (а также ZnO, BeO, PbO, SnO). Подходит Al₂O₃\nВ) Одноосновная кислота – кислота, которая содержит один атом водорода (одну OH-группу). Подходит уксусная кислота (CH₃COOH)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2797,
+    "title": "Номенклатура неорганических веществ (тривиальная и международная)"
+  },
+  "id": 5794,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "185",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Среди предложенных формул/названий веществ, расположенных в пронумерованных ячейках, выберите формулы/названия: А) кислотного оксида; Б) амфотерного оксида; В) одноосновной кислоты.\n1\nN₂O₅\n\n2\nNaHCO₃\n\n3\nгидроксид хрома(III)\n\n4\nсульфат бария\n\n5\nуксусная кислота\n\n6\nLi₂SO₃\n\n7\nNO\n\n8\nAl₂O₃\n\n9\nортофосфорная\nкислота",
+      "error_conditions": [],
+      "id": 72265,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=9201"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=9201"
+}

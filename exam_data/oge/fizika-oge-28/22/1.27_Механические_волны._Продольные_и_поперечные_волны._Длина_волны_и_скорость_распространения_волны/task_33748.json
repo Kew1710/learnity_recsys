@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ: нет, нельзя.\nОбоснование: звуковые волны могут передаваться только в среде (газах, жидкостях, твердых телах) и не передаются через вакуум. Пространство между Землей и Солнцем заполнено вакуумом.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3235,
+    "title": "1.27 Механические волны. Продольные и поперечные волны. Длина волны и скорость распространения волны:"
+  },
+  "id": 33748,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Можно ли на Земле услышать грохот мощных процессов, происходящих на Солнце? Ответ поясните.",
+      "error_conditions": null,
+      "id": 253387,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

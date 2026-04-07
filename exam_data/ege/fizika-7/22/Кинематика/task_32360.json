@@ -1,0 +1,37 @@
+{
+  "comment": "Путь, пройденный поездом при торможении:\n$$S=\\frac{v_0+v}{2}t;~v=0$$\nСкорость поезда в начале торможения:\n$$v_0=\\frac{2S}{t}=\\frac{2\\cdot 1000}{200}=10~м/с$$\nОтвет: 10 м/с",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2622,
+    "title": "Кинематика"
+  },
+  "id": 32360,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Последний километр пути перед остановкой поезд преодолел за \\(200\\) с. Определите скорость поезда в начале торможения. Ускорение поезда считать постоянным.",
+      "error_conditions": null,
+      "id": 251999,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/PEHWbqzOXA0?t=3040"
+}

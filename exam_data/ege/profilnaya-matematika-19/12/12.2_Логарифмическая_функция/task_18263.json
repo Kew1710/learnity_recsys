@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=\\frac{1}{(x+5)^5}\\cdot (x+5)^4\\cdot 5-5=\\frac{5}{x+5}-5$$\nНайдем нули числителя и знаменателя и отметим эти точки на прямой:\n$$\\frac{5}{x+5}-5=0\\\\ \\frac{5}{x+5}=5\\\\ 5x+25=5\\\\ 5x=-20\\\\ x=-4$$\nНа отрезке \\([-4,5;0]\\) имеем точку максимума \\(-4\\), поэтому наибольшее значение функции находится в этой точке.\n$$f(-4)=\\ln (-4+5)-5-(-4)=0+20=20$$\nОтвет: 20",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2445,
+    "title": "12.2 Логарифмическая функция"
+  },
+  "id": 18263,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y=\\ln (x+5)^5-5x\\) на отрезке \\([-4,5;0]\\).",
+      "error_conditions": [],
+      "id": 238105,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/uxUZa4d2BSc?t=4814"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/uxUZa4d2BSc?t=4814"
+}

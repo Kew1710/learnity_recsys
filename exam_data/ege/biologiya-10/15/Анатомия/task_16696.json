@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Функции печени: барьерная функция, обезвреживая токсины; депо крови; секретирует желчь.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16696,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "136",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nКакие функции выполняет печень человека?\n- барьерную функцию, обезвреживая токсины\n- секретирует пищеварительные ферменты\n- является депо крови\n- секретирует соляную кислоту\n- осуществляет гуморальную регуляцию в организме\n- секретирует желчь",
+      "error_conditions": [],
+      "id": 236603,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

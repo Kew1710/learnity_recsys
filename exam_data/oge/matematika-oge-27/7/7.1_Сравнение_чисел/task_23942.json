@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРазделим 3 на 7\n\\(\\cfrac{3}{7} \\approx 0,43\\)\n\\( \\Rightarrow\\) \\(\\cfrac{3}{7}\\) принадлежит промежутку \\( [0,4; 0,5]\\)\nОтвет: 4",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23942,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какому из данных промежутков принадлежит …",
+      "error_conditions": [],
+      "id": 243661,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

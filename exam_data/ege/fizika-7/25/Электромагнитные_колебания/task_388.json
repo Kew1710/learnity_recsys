@@ -1,0 +1,37 @@
+{
+  "comment": "До размыкания ключа:\nПо закону Ома для полной цепи:\n$$I=\\frac{\\varepsilon}{R+r}$$\nНапряжение на лампе равно напряжению на конденсаторе и равно:\n$$U=IR=\\frac{\\varepsilon R}{R+r}$$\nЭнергия, которая будет запасена в конденсаторе:\n$$W_C=\\frac{CU^{2}}{2}=\\frac{C}{2}\\left (\\frac{\\varepsilon R}{R+r}\\right )^{2}$$\nЭнергия катушки будет равна:\n$$W_L=\\frac{LI^{2}}{2}=\\frac{L}{2}\\left (\\frac{\\varepsilon}{R+r}\\right )^{2}$$\nПосле размыкания ключа вся энергия выделится в виде тепла на лампе.\n$$Q=W_C+W_L=\\frac{C}{2}\\left (\\frac{\\varepsilon R}{R+r}\\right )^{2}+\\frac{L}{2}\\left (\\frac{\\varepsilon}{R+r}\\right )^{2}=\\frac{\\varepsilon^{2}(L+CR^{2})}{2(R+r)^{2}}=\\frac{12^{2}\\cdot (36\\cdot 10^{-3}+2\\cdot 10^{-3}\\cdot 5^{2})}{2(5+1)^{2}}=0,172~Дж$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2636,
+    "title": "Электромагнитные колебания"
+  },
+  "id": 388,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание 17724\nВ электрической цепи, показанной на рисунке, ЭДС и внутреннее сопротивление источника тока соответственно равны \\(12\\) В и \\(1\\) Ом, емкость конденсатора \\(2\\) мФ, индуктивность катушки \\(36\\) мГн и сопротивление лампы \\(5\\) Ом. В начальный момент времени ключ \\(К\\) замкнут. Какая энергия выделится в лампе после размыкания ключа? Сопротивлением катушки и проводов пренебречь.",
+      "error_conditions": null,
+      "id": 51625,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/98us0WuJpF4?start=1488"
+}

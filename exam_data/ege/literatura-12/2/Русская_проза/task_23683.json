@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1253,
+    "title": "Русская проза"
+  },
+  "id": 23683,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 12,
+    "task_count": 0,
+    "title": "Литература"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "241",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между тремя персонажами «Отцов и детей» и их дальнейшей судьбой. К каждой позиции первого столбца подберите соответствующую позицию из второго столбца.\n\nПЕРСОНАЖИ\nА)   Николай Петрович\nБ)  Павел Петрович\nВ)  Базаров\nДАЛЬНЕЙШАЯ СУДЬБА\n1)   умрет, заразившись тифом\n2)  женится на Фенечке\n3)  продолжит псевдонигилистическую деятельность\n4)  уедет жить за границу\nЗапишите в ответ цифры, расположив их в порядке, соответствующем буквам:\n\nA\nБ\nВ",
+      "error_conditions": [],
+      "id": 243412,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

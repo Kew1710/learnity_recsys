@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nMN||AC\nMN=22\nAC=55\nNC=36\nНайти: BN-?\nРешение:\nРассмотрим \\( \\triangle ABC\\) и \\( \\triangle MBN \\)\n1) \\( MN||AC \\Rightarrow \\angle BAC= \\angle BMN \\) - соответственные при MN||AC и секущей АВ\n\\( \\angle B \\) общий\n\\( \\Rightarrow \\triangle MBN \\sim \\triangle ABC\\) - по 2-ум углам\nПусть \\(BN=x\\), тогда \\(BC=BN+NC=x+36\\)\n\\( \\cfrac{BN}{BC}=\\cfrac{MN}{AC} \\)\n\\( \\cfrac{x}{x+36}=\\cfrac{22}{55} \\) - сократим правую часть на 11\n\\( 5x=2x + 72 \\)\n\\( x= 24 \\)\nОтвет: BN =24",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2011,
+    "title": "23.2 Подобные треугольники"
+  },
+  "id": 14305,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Прямая, параллельная стороне AC треугольника ABC, пересекает стороны AB и BC в точках M и N соответственно. Найдите BN, если MN = 22, AС = 55, NС = 36.",
+      "error_conditions": null,
+      "id": 201845,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

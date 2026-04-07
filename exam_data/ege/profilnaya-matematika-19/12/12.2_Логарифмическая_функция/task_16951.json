@@ -1,0 +1,45 @@
+{
+  "comment": "Ограничение: \\(x>2\\)\nПреобразуем выражение:\n$$y=9x-9ln(x-2)-8$$\nНайдем производную:\n$$y'=9-\\frac{9}{x-2}=\\frac{9x-18-9}{x-2}=\\frac{9x-9}{x-2}$$\nНайдем нули функции и отметим эти точки на прямой:\nИмеем точку минимума \\(3\\).\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2445,
+    "title": "12.2 Логарифмическая функция"
+  },
+  "id": 16951,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y=9x-\\ln(x-2)^9-8\\).",
+      "error_conditions": [],
+      "id": 236852,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/CkkG5Lc4uvY?t=4968"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/CkkG5Lc4uvY?t=4968"
+}

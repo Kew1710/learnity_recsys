@@ -1,0 +1,42 @@
+{
+  "comment": "Бутин-2 - непредельный углеводород из класса алкинов\nАлкины вступают в реакции присоединения по кратной связи - реакции гидрирования, галогенирования, гидрогалогенирования и гидратации\nВерные варианты ответа: хлор, бром и водород",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2817,
+    "title": "Характерные химические свойства алкинов"
+  },
+  "id": 35320,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "145",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, которые реагируют с бутином-2.\n1) хлор\n2) сульфат меди(II)\n3) хлорид натрия\n4) бром\n5) водород",
+      "error_conditions": [],
+      "id": 254959,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/IdmfJgDoyjA?t=3046s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/IdmfJgDoyjA?t=3046s"
+}

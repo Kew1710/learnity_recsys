@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nТангенс - отношение противолежащего катета к прилежащему\n\\(tg{B} = \\cfrac{AC}{BC} = \\cfrac{3}{15} = 0,2 \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1977,
+    "title": "15.6 Синус, косинус, тангенс острого угла"
+  },
+  "id": 20595,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике ABC угол C равен 90°, BC=15, AC=3 . Найдите \\(tg{B}\\) .",
+      "error_conditions": [],
+      "id": 240382,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

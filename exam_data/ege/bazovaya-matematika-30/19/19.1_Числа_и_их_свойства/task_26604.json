@@ -1,0 +1,54 @@
+{
+  "comment": "Число \\(B\\) четное, значит оканчивается либо на 0, либо на 6.\nБудем составлять число \\(B\\), начиная с самого большого, и делить на два.\n- \\(7610 : 2 = 3805\\) - подходит.\n\nДругие подходящие числа: 3580, 3508, 3085.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2130,
+    "title": "19.1 Числа и их свойства"
+  },
+  "id": 26604,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3805",
+          "points": 1
+        },
+        {
+          "answer": "3580",
+          "points": 1
+        },
+        {
+          "answer": "3508",
+          "points": 1
+        },
+        {
+          "answer": "3085",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Четырёхзначное число \\(A\\) состоит из цифр 0, 3, 5, 8, а четырёхзначное число \\(B\\) — из цифр 0, 1, 6, 7. Известно, что \\(B=2A\\). Найдите число \\(A\\). В ответе укажите какое-нибудь одно такое число.",
+      "error_conditions": [],
+      "id": 246243,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

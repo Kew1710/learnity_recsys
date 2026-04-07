@@ -1,0 +1,45 @@
+{
+  "comment": "Чтобы найти время передачи файла, разделим размер файла 2500 Кбайт = 2500*2^13 бит на скорость передачи.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1491,
+    "title": "№7 Передача информации по каналам связи"
+  },
+  "id": 3547,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID задания: 71BB84\nСкорость передачи данных через ADSL-соединение равна 1024000 бит/c. Через данное соединение передают файл размером 2500 килобайт. Определите время передачи файла в секундах.",
+      "error_conditions": [],
+      "id": 65216,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 26,
+    "title": "Кодирование информации"
+  },
+  "video_link": null
+}

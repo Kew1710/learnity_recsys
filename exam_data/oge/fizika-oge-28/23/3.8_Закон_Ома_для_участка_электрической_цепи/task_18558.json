@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nНайдем напряжение по закону Ома: $$U=IR$$\nОпределим сопротивление через геометрические параметры: $$R=\\frac{\\rho l}{S}$$\nПодставим сопротивление в закон Ома: $$U=I\\frac{\\rho l}{S}$$\nПодставим числовые значения: $$U=2\\cdot \\frac{0,21\\cdot 2}{0,3}=2,8~В$$\n\nОтвет: 2,8 В",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 18558,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какое напряжение нужно приложить к свинцовой проволоке длиной \\(2\\) м, чтобы сила тока в проволоке равнялась \\(2\\) А? Площадь поперечного сечения проволоки \\(0,3\\) мм\\(^2\\).",
+      "error_conditions": null,
+      "id": 238400,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/knFVso2BZ_U"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$tg\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}$$\nНайдем синус угла:\n$$1=\\cos^2\\alpha+\\sin^2\\alpha\\\\ sin^2\\alpha=1-\\frac{25\\cdot 26}{26^2}=1-\\frac{25}{26}=\\frac{1}{26}\\\\ \\sin\\alpha=\\pm\\sqrt{\\frac{1}{26}}$$\nТак как \\(\\alpha \\in (0; \\frac{\\pi}{2})\\) \\(\\sin\\alpha=\\frac{1}{\\sqrt{26}}\\)\n$$tg\\alpha=\\frac{26\\cdot 1}{5\\sqrt{26}\\cdot\\sqrt{26}}=\\frac{1}{5}=0,2$$\nОтвет: 0,2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2408,
+    "title": "7.4 Тригонометрические тождества"
+  },
+  "id": 9297,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите \\(tg\\alpha\\), если \\(\\cos\\alpha=\\frac{5\\sqrt{26}}{26}\\) и \\(\\alpha \\in (0; \\frac{\\pi}{2})\\).",
+      "error_conditions": [],
+      "id": 113200,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=2370"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=2370"
+}

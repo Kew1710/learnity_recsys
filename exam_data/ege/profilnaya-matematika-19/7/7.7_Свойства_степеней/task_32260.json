@@ -1,0 +1,45 @@
+{
+  "comment": "\\(\\frac{3^{9,2}}{9^{2,6}}\\), воспользуемся свойствами: \\(\\frac{a^n}{a^m}=a^{n-m}\\) и \\((a^n)^m=a^{n\\cdot m}\\)\n$$\\frac{3^{9,2}}{(3^2)^{2,6}}=\\frac{3^{9,2}}{3^{5,2}}=3^4=81$$\nОтвет: 81",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 32260,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "81",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{3^{9,2}}{9^{2,6}}\\).",
+      "error_conditions": [],
+      "id": 251899,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=0JstI23ui_xRpma-&t=507"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=0JstI23ui_xRpma-&t=507"
+}

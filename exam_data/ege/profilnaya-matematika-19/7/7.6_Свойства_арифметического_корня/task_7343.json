@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{36^\\frac{1}{3}\\cdot 36^\\frac{1}{5}}{36^\\frac{1}{30}}=\\frac{36^\\frac{8}{15}}{36^\\frac{1}{30}}=36^\\frac{1}{2}=\\sqrt{36}=6$$\nОтвет: 6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2410,
+    "title": "7.6 Свойства арифметического корня"
+  },
+  "id": 7343,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{\\sqrt[3]{36}\\cdot \\sqrt[5]{36}}{\\sqrt[30]{36}}\\).",
+      "error_conditions": [],
+      "id": 83979,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6102"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6102"
+}

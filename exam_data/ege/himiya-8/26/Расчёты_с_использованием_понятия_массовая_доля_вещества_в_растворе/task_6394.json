@@ -1,0 +1,42 @@
+{
+  "comment": "ω = m(соли)/m(р-ра)\nω = (m₁(соли) + m₂(соли))/(m₁(р-ра) + m₂(р-ра))\nm₁(соли) = ω₁ • m₁(р-ра) = 0,25 • 180 = 45 г\nm₂(соли) = ω₂ • m₂(р-ра) = 0,02 • 250 = 5 г\nω = (45 + 5)/(180 + 250) = 50/430 = 0,116\nω = 11,6%",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 6394,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Смешали два раствора: один массой 180 г с массовой долей соли 25%, другой - массой 250 г с массовой долей этой же соли 2%. Какова массовая доля соли в образовавшемся растворе? (Запишите число с точностью до десятых.)",
+      "error_conditions": [],
+      "id": 73480,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YS9IXhYT-bI?start=1884"
+    },
+    "Valid": true
+  },
+  "time_seconds": 900,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YS9IXhYT-bI?start=1884"
+}

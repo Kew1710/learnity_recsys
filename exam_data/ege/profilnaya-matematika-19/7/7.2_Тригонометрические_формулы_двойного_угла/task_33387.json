@@ -1,0 +1,45 @@
+{
+  "comment": "С помощью тригонометрической окружности найдем значения косинусов:\n$$\\cos\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}$$\n$$\\cos\\frac{7\\pi}{3}=\\cos\\frac{\\pi}{3}=\\frac{1}{2}$$\nПодставим полученные значения в исходное уравнение:\n$$4\\sqrt{2}\\cdot\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2}=2$$\nОтвет: 2",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 33387,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(4\\sqrt{2}\\cos \\frac{\\pi}{4}\\cos\\frac{7\\pi}{3}\\).",
+      "error_conditions": [],
+      "id": 253026,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=91DvL4t8By4qbgzV&t=799"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=91DvL4t8By4qbgzV&t=799"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Это смешанное уравнение. Оно является логарифмическим и показательным одновременно.\n\nПриведем обе части уравнения к общему основанию, к \\(3\\).\n$$3^{\\log_{27}(2x-9)}=3^1$$\nОснования равны, значит можем приравнять показатели степеней:\n$$\\log_{27}(2x-9)=1$$\nВоспользуемся определением логарифма:\n$$27^1=2x-9\\\\ 27=2x-9\\\\ 2x=36\\\\ x=18$$\nОтвет: 18",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2404,
+    "title": "6.6 Смешанные"
+  },
+  "id": 9135,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "18",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(3^{\\log_{27}(2x-9)}=3\\).",
+      "error_conditions": [],
+      "id": 112870,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=3289"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=3289"
+}

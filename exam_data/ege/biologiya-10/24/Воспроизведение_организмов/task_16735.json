@@ -1,0 +1,37 @@
+{
+  "comment": "1 - взрослый червь; 3 - бесхвостая личинка с ресничками (мирацидий); 5 - хвостатая личинка (церкарий); 2) у печеночного сосальщика есть пищеварительная система, у цепней ее нет; 3) сосальщик не имеет членистого строения, цепни имеют такое строение",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2514,
+    "title": "Воспроизведение организмов"
+  },
+  "id": 16735,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Назовите стадии развития печеночного сосальщика, обозначенные цифрами 1, 3, 5. Назовите не менее двух отличий строения печеночного сосальщика от строения цепней.",
+      "error_conditions": null,
+      "id": 236642,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/RBymA3onGQU?feature=share&t=443"
+}

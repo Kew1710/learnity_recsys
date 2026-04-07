@@ -82,10 +82,15 @@ def smooth_update(
         consecutive_correct: количество правильных ответов подряд ДО этой попытки
         irt_difficulty: сложность задания по IRT [0, 1] (опционально)
     """
-    # Streak-бонус применяется только если недавняя точность высокая (>= 0.6).
-    # Без этой проверки угаданные ответы (p_guess) разгоняют mastery у слабых учеников.
-    streak_active = consecutive_correct > 0 and recent_accuracy >= 0.6
-    effective_lr = min(0.22, lr * (1.0 + 0.08 * consecutive_correct)) if streak_active and irt_difficulty >= mastery - 0.1 else lr
+    # Streak-бонус применяется только если недавняя точность высокая (>= 0.6)
+    # и текущая попытка не является явной ошибкой.
+    # Иначе серия "случайных" попаданий может переоценить mastery.
+    streak_active = consecutive_correct > 0 and recent_accuracy >= 0.6 and score >= 0.5
+    effective_lr = (
+        min(0.40, lr * (1.0 + 0.15 * consecutive_correct))
+        if streak_active
+        else lr
+    )
 
     # Surprise-бонус: усиливаем lr если студент решил сложнее чем предсказывала модель.
     if irt_difficulty is not None:
@@ -93,7 +98,7 @@ def smooth_update(
         theta = math.log(m / (1.0 - m))
         expected = 1.0 / (1.0 + math.exp(-(theta - irt_difficulty)))
         surprise = score - expected
-        effective_lr = min(0.22, effective_lr * (1.0 + SURPRISE_K * max(0.0, surprise)))
+        effective_lr = min(0.40, effective_lr * (1.0 + SURPRISE_K * max(0.0, surprise)))
 
     new_p = p_mastery + effective_lr * (score - p_mastery)
     new_p = new_p + transit * (1.0 - new_p)

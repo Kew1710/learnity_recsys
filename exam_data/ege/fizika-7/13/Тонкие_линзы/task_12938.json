@@ -1,0 +1,42 @@
+{
+  "comment": "Формула тонкой линзы:\n$$\\frac{1}{F}=\\frac{1}{d}+\\frac{1}{f}\\Rightarrow f=\\frac{1}{-\\frac{1}{d}+\\frac{1}{F}}=\\frac{1}{\\frac{1}{d}-D}=\\frac{1}{-\\frac{1}{0,1}+12}=0,5~м=50~см$$\nОтвет: 50 см",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3335,
+    "title": "Тонкие линзы"
+  },
+  "id": 12938,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "50",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23792\nВ опыте используется тонкая собирающая линза, оптическая сила которой \\(D=12\\) дптр. На каком расстоянии от линзы необходимо расположить экран, чтобы увидеть четкое изображение предмета, находящегося на расстоянии \\(10\\) см от линзы? Ответ дайте в см.",
+      "error_conditions": [],
+      "id": 174208,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/b4RKkyw31Jg"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/b4RKkyw31Jg"
+}

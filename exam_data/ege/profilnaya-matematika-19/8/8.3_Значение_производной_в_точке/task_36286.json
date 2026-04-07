@@ -1,0 +1,49 @@
+{
+  "comment": "Обозначим уравнение касательной как \\(g(x) = kx + b\\)\nПроизводные в точках касания равны, поэтому: $$ g'(x) = k = g'(x_0) $$ То есть производная равна коэффициенту наклона прямой. Мы также знаем, что \\( \\DeclareMathOperator{\\tg}{tg} k = \\tg\\alpha\\), где \\(\\alpha \\ -\\) угол между прямой и положительным направлением оси \\(Ox\\).\nТогда достроим треугольник и получим:\n$$ \\DeclareMathOperator{\\tg}{tg} \\tg\\alpha = - \\frac{7}{5} = -1, \\! 4 $$ Тангенс отрицательный, так как прямая убывает\n\nОтвет: -1,4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2414,
+    "title": "8.3 Значение производной в точке"
+  },
+  "id": 36286,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-1,4",
+          "points": 1
+        },
+        {
+          "answer": "-1.4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены график функции \\(y = f(x)\\) и касательная к нему в точке с абсциссой \\(x_0\\). Найдите значение производной функции \\(f(x)\\) в точке \\(x_0\\).",
+      "error_conditions": [],
+      "id": 255936,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/tXc3x4aDLhc?t=2194s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/live/tXc3x4aDLhc?t=2194s"
+}

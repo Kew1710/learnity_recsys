@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1763,
+    "title": "2.5 Мораль. Гуманизм. Патриотизм, гражданственность"
+  },
+  "id": 12363,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "патриотизм",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Заполните пропуск в таблице.\nОбщественная ценность\nХарактеристика\nГражданственность\nСтепень осознания себя гражданином своей страны и соответствующее этому поведение…\nЛюбовь и преданность Отечеству, готовность подчинить свои частные интересы интересам страны",
+      "error_conditions": [],
+      "id": 163519,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/1mJZI63CuCA?start=1833"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/1mJZI63CuCA?start=1833"
+}

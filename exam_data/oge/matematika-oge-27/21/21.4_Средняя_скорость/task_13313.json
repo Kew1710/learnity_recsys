@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nV(ср)=\\( \\cfrac{S}{t} \\)\nV(ср)=\\( \\cfrac{S+S}{\\cfrac{S}{69}+\\cfrac{S}{111}}=\\cfrac{2S}{\\cfrac{111S+69S}{69 \\cdot 111}}=\\cfrac{2S}{\\cfrac{180S}{69 \\cdot 111}}=2S \\cfrac{69 \\cdot 111}{180S}=\\cfrac{23 \\cdot 37}{10}=\\cfrac{851}{10}=85,1 \\)\nОтвет: 85,1 км/ч",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1939,
+    "title": "21.4 Средняя скорость"
+  },
+  "id": 13313,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Первую половину трассы автомобиль проехал со скоростью 69 км/ч, а вторую – со скоростью 111 км/ч. Найдите среднюю скорость автомобиля на протяжении всего пути.",
+      "error_conditions": null,
+      "id": 178149,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

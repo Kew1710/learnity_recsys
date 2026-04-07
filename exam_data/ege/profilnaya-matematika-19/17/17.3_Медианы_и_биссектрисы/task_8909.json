@@ -1,0 +1,40 @@
+{
+  "comment": "а) По свойству биссектрисы:\n$$\\frac{AB}{BC}=\\frac{AF}{FC}$$\n\\(AB=BD\\), значит, треугольник \\(ABD\\) равнобедренный, \\(BE-\\) биссектриса равнобедренного треугольника. То есть \\(BE-\\) высота и медиана треугольника \\(ABD\\).\n\nРассмотрим треугольники \\(AEF\\) и \\(AKC\\): \\(\\angle A-\\) общий, \\(\\angle E=\\angle K={90}^{\\circ}\\).\nТреугольники подобны по двум углам:\n$$\\frac{AE}{AK}=\\frac{AF}{AC}\\Rightarrow\\frac{AE}{EK}=\\frac{AF}{FC}\\\\ \\frac{AB}{BC}=\\frac{AE}{EK}$$\nЧто требовалось доказать.\n\nб) \\(S_{ABE}=S_{BDE}\\), так как треугольник \\(ABD\\) равнобедренный, а \\(BE-\\) медиана, проведенная к основанию.\n$$\\frac{BD}{DC}=\\frac{5}{2}\\Rightarrow\\frac{BD}{BC}=\\frac{5}{2+5}=\\frac{5}{7}$$\nПроведем из точек \\(E\\) и \\(F\\) на сторону \\(AC\\) высоты \\(EH=h_E\\) и \\(FT=h_F\\) соответственно.\n\nРассмотрим треугольники \\(BED\\) и \\(CKD\\):\n\\(\\angle E=\\angle K=90\\), \\(\\angle BDE=\\angle CKD\\), как вертикальные.\nТреугольники подобны по двум углам\n$$\\frac{BD}{DC}=\\frac{BE}{KC}=\\frac{5}{2}$$\nТак как треугольники \\(AEF\\) и \\(AKC\\) подобны (из пункта а):\n$$\\frac{KC}{EF}=\\frac{AC}{AF}$$\nПусть \\(AB=BD=5y\\). Тогда \\(BC=7y\\).\nПо свойству биссектрисы:\n$$\\frac{AB}{BC}=\\frac{AF}{FC}\\\\ \\frac{AF}{FC}=\\frac{5y}{7y}=\\frac{5}{7}\\\\ \\frac{AF}{FC}=\\frac{5}{7}\\Rightarrow\\frac{AF}{AC}=\\frac{5}{7+5}=\\frac{5}{12}\\\\ \\frac{KC}{EF}=\\frac{AC}{AF}=\\frac{12}{5}\\\\ KC=\\frac{12}{5}\\cdot EF$$\n\\(\\frac{BE}{KC}, KC=\\frac{12}{5}\\cdot EF,\\) значит \\(BE=\\frac{5}{2}\\cdot \\frac{12}{5}\\cdot EF=6EF\\)\n\\(BE=6EF\\), значит \\(\\frac{BE}{BF}=\\frac{6}{7}\\), \\(\\frac{h_E}{h_F}=\\frac{6}{7}\\)\n$$\\frac{S_{BDE}}{S_{BCF}}=\\frac{\\frac{1}{2}\\cdot h_E \\cdot BD}{\\frac{1}{2}\\cdot h_F \\cdot BC}=\\frac{6}{7}\\cdot \\frac{5}{7}=\\frac{30}{49}$$\nТогда:\n$$\\frac{S_{BDE}}{S_{CDEF}}=\\frac{30}{49-30}=\\frac{30}{19}\\\\ \\frac{S_{ABE}}{S_{CDEF}}=\\frac{S_{BDE}}{S_{CDEF}}=\\frac{30}{19}$$\n\nОтвет: \\(\\frac{30}{19}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2483,
+    "title": "17.3 Медианы и биссектрисы"
+  },
+  "id": 8909,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) на стороне \\(BC\\) отметили точку \\(D\\) так, что \\(AB = BD\\).\nБиссектриса \\(BF\\) пересекает \\(AD\\) в точке \\(E\\). Из точки \\(C\\) на прямую \\(AD\\) опущен перпендикуляр \\(CK\\).\na) Докажите, что \\(AB:BC=AE:EK\\).\nб) Найдите отношение площади \\(ABE\\) к площади \\(CDEF\\), если \\(BD:DC=5:2\\).",
+      "error_conditions": null,
+      "id": 112307,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$V_1=\\pi\\cdot R^2\\cdot h=\\pi\\cdot (\\frac{D}{2})^2\\cdot h\\\\ V_2=\\pi\\cdot (\\frac{1,5D}{2})^2\\cdot\\frac{h}{2}\\\\ \\frac{V_2}{V_1}=\\frac{2,25D^2\\cdot h\\cdot 4}{4\\cdot 2\\cdot D^2\\cdot h}=1,125$$\nОтвет: 1,125",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 24572,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,125",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Одна цилиндрическая кружка вдвое выше второй, зато вторая в полтора раза шире. Найдите отношение объема второй кружки к объему первой.",
+      "error_conditions": [],
+      "id": 244248,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 42,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=tXc3x4aDLhc&t=1131s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=tXc3x4aDLhc&t=1131s"
+}

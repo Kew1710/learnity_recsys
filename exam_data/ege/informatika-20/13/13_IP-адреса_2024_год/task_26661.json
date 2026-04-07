@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2877,
+    "title": "№13 IP-адреса (2024 год)"
+  },
+  "id": 26661,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Два узла, находящиеся в разных подсетях, имеют IP-адреса 118.187.59.255 и 118.187.65.115. В масках обеих подсетей одинаковое количество единиц. Укажите наименьшее возможное количество нулей в масках этих подсетей. Учтите, что два адреса в любой подсети зарезервированы: адрес всей подсети и широковещательный адрес.",
+      "error_conditions": [],
+      "id": 246300,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 45,
+    "title": "IP-адреса"
+  },
+  "video_link": null
+}

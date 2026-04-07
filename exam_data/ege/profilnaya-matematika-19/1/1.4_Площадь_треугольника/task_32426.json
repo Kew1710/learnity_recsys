@@ -1,0 +1,45 @@
+{
+  "comment": "Мы можем задать площадь фигуры через разные основания и высоты:\n$$S=\\frac{1}{2}\\cdot 15\\cdot h=\\frac{1}{2}\\cdot 18\\cdot 10\\\\ 15\\cdot h=18\\cdot 10\\Rightarrow h=6\\cdot 2=12$$\nОтвет: 12",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2375,
+    "title": "1.4 Площадь треугольника"
+  },
+  "id": 32426,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Две стороны треугольника равны \\(15\\) и \\(18\\). Высота, опущенная на большую из этих сторон, равна \\(10\\). Найдите длину высоты, опущенной на меньшую из этих сторон треугольника.",
+      "error_conditions": [],
+      "id": 252065,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=DRAjVK1F28PNQ4PG&t=3539"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=DRAjVK1F28PNQ4PG&t=3539"
+}

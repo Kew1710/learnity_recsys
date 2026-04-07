@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=12\\cdot \\frac{1}{x+2} -12=\\frac{-x-1}{x+2} \\Rightarrow \\frac{-x-1}{x+2} =0\\Rightarrow x_{1} =-2,x_{2} =-1$$\nРассмотрим промежутки \\(( -\\infty ;-2) ,\\ ( -2;-1] ,\\ ( -1;+\\infty )\\):\nНа \\(( -\\infty ;-2)\\) производная функции отрицательна, значит, функция убывает.\nНа \\(( -2;-1]\\) производная функции положительна, значит, функция возрастает.\nНа \\(( -1;+\\infty )\\) производная функции отрицательна, значит, функция убывает.\n\nПолучаем \\(x_{2} =-1\\) - точка максимума, она принадлежит промежутку \\([ -1,5;0]\\), тогда найдем \\(f( -1)\\):\n$$y=12\\cdot \\ln( -1+2) +12+7=19$$\nОтвет: 19",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2445,
+    "title": "12.2 Логарифмическая функция"
+  },
+  "id": 7577,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y=12\\cdot \\ln(x+2)-12х+7\\) на отрезке \\([-1,5;0]\\).",
+      "error_conditions": [],
+      "id": 98720,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=539"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=539"
+}

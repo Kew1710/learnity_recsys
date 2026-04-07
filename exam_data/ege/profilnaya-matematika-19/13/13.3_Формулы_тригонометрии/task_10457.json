@@ -1,0 +1,40 @@
+{
+  "comment": "а) По формуле двойного угла: \\(\\sin 2x=2\\sin x\\cos x\\)\n$$4\\sin x\\cos^2x-4\\sqrt{3}\\sin x\\cos x+3\\sin x=0\\\\ \\sin x(4\\cos^2x-4\\sqrt{3}\\cos x+3)=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} \\sin x=0\\\\ \\left( 2\\cos x-\\sqrt{3}\\right)^{2} =0 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\sin x=0\\\\ \\cos x=\\frac{\\sqrt{3}}{2} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} x=\\pi k\\\\ x=\\pm \\frac{\\pi }{6} +2\\pi k \\end{array} \\right. ,k\\in Z$$\nб) Отберем корни на промежутке \\([-\\frac{7\\pi}{2};-2\\pi]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$-2\\pi-\\frac{\\pi}{6}=-\\frac{13\\pi}{6}\\\\ -2\\pi\\\\ -2\\pi-\\pi=-3\\pi$$\nОтвет: {\\(\\pi k;\\pm\\frac{\\pi}{6}+2\\pi k:k\\in Z\\)}, б) \\(-\\frac{13\\pi}{6};-3\\pi;-2\\pi\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 10457,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(4\\sin x\\cos^2x-2\\sqrt{3}\\sin 2x+3\\sin x=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([-\\frac{7\\pi}{2};-2\\pi]\\).",
+      "error_conditions": null,
+      "id": 142326,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=\\frac{2x\\cdot x-x^{2} -36}{x^{2}} =\\frac{x^{2} -36}{x^{2}} =0$$\nНайдем нули числителя и знаменателя и отметим эти точки на прямой:\nНа \\([1;6]\\) производная функции отрицательна, значит, функция убывает.\nНа \\((6;17]\\) производная функции положительна, значит, функция возрастает.\n\nПолучаем \\(х=6\\) - точка минимума. Найдем \\(f(6)\\):\n$$y=\\frac{6^{2} +36}{6} =12$$\nОтвет: 12",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2446,
+    "title": "12.3 Дробно-рациональная функция"
+  },
+  "id": 7582,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y=\\frac{x^2+36}{x}\\) на отрезке \\([1;17]\\).",
+      "error_conditions": [],
+      "id": 98725,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=1683"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=1683"
+}

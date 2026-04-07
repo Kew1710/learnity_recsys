@@ -1,0 +1,45 @@
+{
+  "comment": "На корни нечетной степени ограничений никогда никаких нет. Поэтому просто возводим обе части в \\(3\\) степень:\n$$x+3=5^3\\\\ x+3=125\\\\ x=122$$\nОтвет: 122",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2401,
+    "title": "6.3 Иррациональные"
+  },
+  "id": 9117,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "122",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\sqrt[3]{x+3}=5\\).",
+      "error_conditions": [],
+      "id": 112852,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1745"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1745"
+}

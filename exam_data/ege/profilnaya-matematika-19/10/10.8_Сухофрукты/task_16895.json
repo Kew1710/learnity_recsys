@@ -1,0 +1,45 @@
+{
+  "comment": "Изюм содержит \\(81\\%\\) сухого вещества.\n\\(78\\cdot 0,81\\) – сухого вещества в изюме, ровно столько же его и в винограде, потому что доля сухого вещества при сушке не меняется.\nЭтот \\(81\\%\\) массы изюма является \\(18\\%\\) массы винограда. Получим:\n$$\\frac{78\\cdot 0,81\\cdot 100}{18}=351$$\nОтвет: 351",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2435,
+    "title": "10.8 Сухофрукты"
+  },
+  "id": 16895,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "351",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Изюм получается в процессе сушки винограда. Сколько килограмм винограда потребуется для получения \\(78\\) килограмм изюма, если виноград содержит \\(82\\%\\) воды, а изюм содержит \\(19\\%\\) воды.",
+      "error_conditions": [],
+      "id": 236798,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/EhoR_a4s9ys?t=5587"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://youtu.be/EhoR_a4s9ys?t=5587"
+}

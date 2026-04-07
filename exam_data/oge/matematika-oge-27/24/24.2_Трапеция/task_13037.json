@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nРешение:\nДано:\nABCD - трапеция\nCO - биссектриса \\( \\angle C \\)\nOB - биссектриса \\( \\angle B \\)\n\\(CO \\cap OB= O \\)\n\\( O \\in AD \\)\nДоказательство:\nТочка О лежит на биссектрисе угла ABC, следовательно, она равноудалена от прямых AB и BC. Точка О лежит на биссектрисе угла , следовательно, она равноудалена от прямых BC и CD. Таким образом, точка О равноудалена от прямых AB, BC и CD, ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1944,
+    "title": "24.2 Трапеция"
+  },
+  "id": 13037,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Биссектрисы углов B и C трапеции ABCD пересекаются в точке O, лежащей на стороне AD. Докажите, что точка O равноудалена от прямых AB, BC и CD.",
+      "error_conditions": null,
+      "id": 175091,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

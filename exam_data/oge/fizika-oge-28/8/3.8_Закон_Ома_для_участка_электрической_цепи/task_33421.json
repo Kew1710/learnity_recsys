@@ -1,0 +1,42 @@
+{
+  "comment": "Определим сопротивление: $$R=\\frac{U_1}{I_1}=\\frac{110}{4}=27,5~Ом$$\nТак как сопротивление остается постоянным, то сила тока будет равна: $$I_2=\\frac{U_2}{R}=\\frac{220}{27,5}=8~А$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 33421,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "При напряжении 110 В на зажимах металлического проводника сила тока в нём равна 4 А. Чему будет равна сила тока при увеличении напряжения на проводнике до 220 В?\nОтвет: __________ А",
+      "error_conditions": [],
+      "id": 253060,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

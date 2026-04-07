@@ -1,0 +1,45 @@
+{
+  "comment": "Искомый многогранник является треугольной пирамидой, объем которой находится по формуле:\n$$ V = {1 \\over 3} S_{осн} h $$\nОснование совпадает с основанием призмы, а высота равна боковому ребру, тогда:\n$$ V = {1 \\over 3} \\cdot 5 \\cdot 6 = 10 $$\nОтвет: 10",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 7178,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите объем многогранника, вершинами которого являются точки \\(A,B,C,A_{1}\\) правильной треугольной призмы \\(ABCA_{1} B_{1} C_{1}\\), площадь основания которой равна \\(5\\), а боковое ребро равно \\(6\\).",
+      "error_conditions": [],
+      "id": 83018,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=4229"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=4229"
+}

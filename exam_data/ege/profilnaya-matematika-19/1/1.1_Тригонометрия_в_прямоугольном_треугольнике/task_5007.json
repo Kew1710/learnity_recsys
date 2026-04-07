@@ -1,0 +1,45 @@
+{
+  "comment": "$$tgA=\\frac{CB}{AC}=\\frac{12}{5}\\\\ CB=12\\\\ AB=\\sqrt{AC^2+CB^2}\\ (по\\ теореме\\ Пифагора)\\\\ \\ AB=\\sqrt{25+144}=13$$\nОтвет: 13",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2372,
+    "title": "1.1 Тригонометрия в прямоугольном треугольнике"
+  },
+  "id": 5007,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(C\\) равен \\(90^{\\circ }, AC=5, tg A=\\frac{12}{5}\\). Найдите \\(AB\\).",
+      "error_conditions": [],
+      "id": 70241,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=1466"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=1466"
+}

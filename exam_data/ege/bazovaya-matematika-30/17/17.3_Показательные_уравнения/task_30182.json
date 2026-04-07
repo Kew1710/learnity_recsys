@@ -1,0 +1,42 @@
+{
+  "comment": "$$\\left(\\frac{1}{5}\\right)^{x+1}=\\frac{1}{25}$$\n$$\\left(\\frac{1}{5}\\right)^{x+1}=\\left(\\frac{1}{5}\\right)^2$$\n$$x+1=2 \\Rightarrow x=1$$\nОтвет: 1.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2124,
+    "title": "17.3 Показательные уравнения"
+  },
+  "id": 30182,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения\n$$\\left(\\frac{1}{5}\\right)^{x+1}=\\frac{1}{25}$$",
+      "error_conditions": [],
+      "id": 249821,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( -13 \\cdot (-9,3) - 7,8=120,9-7,8=113,1\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1933,
+    "title": "6.2 Действия с десятичными дробями"
+  },
+  "id": 17972,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "113,1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( -13 \\cdot (-9,3) - 7,8\\) .",
+      "error_conditions": [],
+      "id": 237822,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

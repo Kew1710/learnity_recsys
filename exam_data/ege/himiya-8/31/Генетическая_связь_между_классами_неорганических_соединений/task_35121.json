@@ -1,0 +1,37 @@
+{
+  "comment": "1) K₂CO₃ + 2HBr = 2KBr + CO₂ + H₂O\n2) 2KBr + 2H₂O = Br₂ + H₂ + 2KOH (электролиз)\n3) H₂ + CuO = Cu + H₂O\n4) Cu + 4HNO₃ = Cu(NO₃)₂ + 2NO₂ + 2H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 35121,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Карбонат калия нейтрализовали бромоводородной кислотой. Через полученный раствор пропустили электрический ток. Образовавшийся на катоде газ пропустили над нагретым оксидом меди(II). Полученное простое вещество растворили в концентрированном растворе азотной кислоты. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 254760,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/nCaPB0j3TRI?t=6405s"
+}

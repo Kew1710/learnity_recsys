@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{\\log_220}{\\log_212}+\\log_{12}0,05=\\log_{12}20+\\log_{12}0,05=\\log_{12}(20\\cdot 0,05)=\\log_{12}1=0$$\nОтвет: 0",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 34419,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{\\log_220}{\\log_212}+\\log_{12}0,05\\).",
+      "error_conditions": [],
+      "id": 254058,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=A103jaWqp5dJO2o2&t=3159"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=A103jaWqp5dJO2o2&t=3159"
+}

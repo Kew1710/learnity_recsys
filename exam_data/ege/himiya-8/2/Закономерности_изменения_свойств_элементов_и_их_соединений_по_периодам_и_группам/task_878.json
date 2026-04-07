@@ -1,0 +1,42 @@
+{
+  "comment": "Элементы одного периода – B, F, N (2 период)\nЭлектроотрицательность элементов уменьшается при движении по периоду справа налево. Верный порядок: F, N, B",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2785,
+    "title": "Закономерности изменения свойств элементов и их соединений по периодам и группам"
+  },
+  "id": 878,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "351",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из указанных в ряду химических элементов выберите три элемента, которые в Периодической системе химических элементов Д. И. Менделеева находятся в одном периоде.\nРасположите выбранные элементы в порядке уменьшения электроотрицательности.\n1) B\n2) Al\n3) F\n4) Fe\n5) N",
+      "error_conditions": [],
+      "id": 52438,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/VXjq663s4AM?start=1385"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/VXjq663s4AM?start=1385"
+}

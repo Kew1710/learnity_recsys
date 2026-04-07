@@ -1,0 +1,45 @@
+{
+  "comment": "$$y=( x+5)^{2} \\cdotp e^{2-x} =\\left( x^{2} +10x+25\\right) e^{2-x}$$\nНайдем производную функции:\n$$y'=( 2x+10) e^{2-x} -e^{2-x}\\left( x^{2} +10x+25\\right) =e^{2-x}\\left( -x^{2} -8x-15\\right)\\\\ e^{2-x}\\left( -x^{2} -8x-15\\right) =0\\Rightarrow e^{2-x} \\neq 0 \\ \\forall x,-x^{2} -8x-15=0\\Rightarrow x_{1} =-5,x_{2} =-3$$\nРассмотрим промежутки \\(( -\\infty ;-5) ,\\ ( -5;-3) ,\\ ( -3;+\\ \\infty )\\):\nНа \\(( -\\infty ;-5)\\) производная функции отрицательна, значит, функция убывает.\nНа \\(( -5;-3)\\) производная функции положительна, значит, функция возрастает.\nНа \\(( -3;+\\ \\infty )\\) производная функции отрицательна, значит, функция убывает.\n\nПолучаем \\(x_{2} =-3\\) - точка максимума.\n\nОтвет: -3.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2448,
+    "title": "12.5 Функций с экспонентой"
+  },
+  "id": 7595,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку максимума функции \\(y=(x+5)^2\\cdot e^{2-x}\\).",
+      "error_conditions": [],
+      "id": 98738,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=3813"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/iJvga6YLx_0?start=3813"
+}

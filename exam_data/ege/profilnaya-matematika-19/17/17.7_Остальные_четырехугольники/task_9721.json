@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nПо условию \\(BM=MD\\).\n\nПусть \\(\\angle ABM=\\alpha\\), тогда \\(\\angle MAH=\\alpha\\) (т. к. \\(AH\\) - высота из прямого угла).\n\n\\(\\angle BCA=\\angle CAD=\\alpha\\) (накрест лежащие)\n\\(\\Delta BOC\\) - равнобедренный (т.к. \\(O\\) - точка пересечения диагоналей прямоугольника) \\(\\Rightarrow \\angle OBC=\\angle OCB=\\alpha\\)\n\\(\\angle CBD=\\angle BDA=\\alpha\\) (накрест лежащие)\n\\(\\Delta BMD\\) - равнобедренный (по условию \\(BM=MD\\)) \\(\\Rightarrow \\angle MBD=\\angle MDB=\\alpha\\)\n\nВ итоге:\n$$\\angle ABM=\\angle MBD=\\angle CBD\\\\ ч.т.д.$$\nб)\n\\(OK\\) - расстояние от \\(O\\) до \\(CM\\)\n\nИз пункта а:\n$$3\\alpha =90\\Rightarrow\\alpha={30}^{\\circ}$$\nПроведем перпендикуляр от \\(A\\) до прямой \\(MC\\), получим точку \\(N\\)\n\nРассмотрим \\(\\Delta ANC\\):\nТ. к. \\(OK\\) и \\(AN\\) перпендикулярны к \\(NC\\), то \\(OK\\) параллельна \\(AN\\).\nТ. к. \\(O\\) – середина \\(AC\\) и \\(OK\\) параллельна \\(AN\\), то \\(K\\) - середина \\(NC\\).\nЗначит \\(OK\\) - средняя линия \\(\\Delta ANC \\Rightarrow AN=2OK\\).\n$$S_{AMC}=\\frac{1}{2}AM\\cdot AC\\cdot\\sin\\alpha =\\frac{1}{2}AN\\cdot MC\\\\ AN=\\frac{AM\\cdot AC\\cdot\\sin\\alpha}{MC}$$\nИз \\(\\Delta ABC\\):\n$$tg\\alpha=\\frac{AB}{BC}\\Rightarrow AB=6\\sqrt{21}\\cdot\\frac{\\sqrt{3}}{3}=6\\sqrt{7}$$\nИз \\(\\Delta ABC\\):\n$$AC=\\sqrt{(6\\sqrt{7})^2+(6\\sqrt{21})^2}=24\\sqrt{7}$$\nИз \\(\\Delta ABM\\):\n$$tg\\alpha=\\frac{AM}{AB}\\Rightarrow AM=\\frac{\\sqrt{3}}{3}\\cdot 6\\sqrt{7}=2\\sqrt{21}\\\\ MD=AD-AM=6\\sqrt{21}-2\\sqrt{21}=4\\sqrt{21}$$\nИз \\(\\Delta CMD\\):\n$$MC=\\sqrt{(4\\sqrt{21})^2+(6\\sqrt{7})^2}=\\sqrt{16\\cdot 21+36\\cdot 7}=14\\sqrt{3}\\\\ AN=\\frac{2\\sqrt{21}\\cdot 12\\sqrt{7}\\cdot\\frac{1}{2}}{14\\sqrt{3}}=6$$\nТогда:\n$$OK=\\frac{AN}{2}=3$$\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2487,
+    "title": "17.7 Остальные четырехугольники"
+  },
+  "id": 9721,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Прямая, проходящая через вершину \\(B\\) прямоугольника \\(ABCD\\), перпендикулярна диагонали \\(AC\\) и пересекает сторону \\(AD\\) в точке \\(M\\), равноудаленной от вершин \\(B\\) и \\(D\\).\nа)  Докажите, что \\(BM\\) и \\(BD\\) делят угол \\(B\\) на три равных угла.\nб)  Найдите расстояние от точки пересечения диагоналей прямоугольника \\(ABCD\\) до прямой \\(CM\\), если \\(BC=6\\sqrt{21}\\).",
+      "error_conditions": null,
+      "id": 117438,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

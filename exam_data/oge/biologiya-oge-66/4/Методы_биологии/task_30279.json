@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2912,
+    "title": "Методы биологии"
+  },
+  "id": 30279,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Изучите график зависимости роста растения от продолжительности жизни (по оси x отложен размер организма (м), а по оси y – время (годы)).\nКакие два из приведённых описаний характеризуют данную зависимость?\nРост растения\n\n- максимальный на 3-й год наблюдений\n- увеличивается на всём протяжении исследования\n- снижается после 3-го года измерений\n- практически не изменяется на протяжении исследования\n- увеличился на 2 м за 2-й год наблюдений",
+      "error_conditions": [],
+      "id": 249918,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

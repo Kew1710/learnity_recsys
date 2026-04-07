@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПереведем радиус в метры: \\(R=50~см=\\frac{50}{100}~м=0,5~м\\); и частоту в Гц: \\(\\nu=60~об/мин=\\frac{60}{60}~об/с=1~об/с=1~Гц\\)\nНайдем период вращения колеса: $$T=\\frac{1}{\\nu} \\\\ T=\\frac{1}{1}=1~с$$\nЛинейную скорость найдем по формуле: $$v=\\frac{2\\pi R}{T}$$\nПодставим числовые значения: $$v=\\frac{2\\cdot 3,14 \\cdot 0,5}{1}=3,14~м/с$$",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3214,
+    "title": "1.6 Равномерное движение по окружности"
+  },
+  "id": 16194,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3,14",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Колесо радиусом \\(50\\) см вращается с частотой \\(60\\) об/мин. Какова линейная скорость вращения точек колеса, наиболее удалённых от оси вращения? Ответ округлите до сотых.",
+      "error_conditions": [],
+      "id": 236101,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/O8G_OYr3_C8"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/O8G_OYr3_C8"
+}

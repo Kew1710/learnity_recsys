@@ -1,0 +1,37 @@
+{
+  "comment": "Дано:\nABCD - ромб\n\\( OH \\perp AB \\)\nOH=16\nAC=64\nНайти:\n\\( \\angle A, \\angle B, \\angle C, \\angle D \\)\nРешение:\n1) \\( AO=OC=\\cfrac{AC}{2}=32\\) - св-во ромба\n\\( OH=\\cfrac{1}{2}AO \\)\n2) \\( \\triangle AHO\\):\n\\( \\angle HAO=30^o \\) - св-во обратное свойству угла 30 градусов\n3) \\(\\angle OAD =\\angle HAO =30^o\\)\n\\( \\Rightarrow \\angle BAD = 60^o = \\angle BCD \\)\n4) \\( \\angle BAD =\\angle ABC =180^o \\) - односторонние при AD//BC и сек. АВ\n\\( \\Rightarrow \\angle ABC =180- \\angle BAD= 180-60=120= \\angle ADC \\) - св-во ромба\nОтвет: \\( \\angle BAD =\\angle BCD=60^o \\)\n\\( \\angle ABC =\\angle ADC =120^o \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2015,
+    "title": "23.6 Ромб"
+  },
+  "id": 17112,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Расстояние от точки пересечения диагоналей ромба до одной из его сторон равно 16, а одна из диагоналей ромба равна 64. Найдите углы ромба.",
+      "error_conditions": null,
+      "id": 237008,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

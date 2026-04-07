@@ -1,0 +1,45 @@
+{
+  "comment": "\\(S\\)\\(V\\)\\(t\\)\\(A\\rightarrow B\\)\\(132\\)\\(x\\)\\(\\frac{132}{x}\\)\\(B\\rightarrow A\\)\\(132\\)\\(x+1\\)\\(\\frac{132}{x+1}\\)Получаем уравнение:\n$$\\frac{132}{x}-\\frac{132}{x+1}=1$$\nС помощью подбора получаем, \\(х=11\\).\n\nОтвет: 11",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2429,
+    "title": "10.2 Движение по суше"
+  },
+  "id": 9630,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Велосипедист выехал с постоянной скоростью из города А в город В, расстояние между которыми равно 132 км. На следующий день он отправился обратно со скоростью на 1 км/ч больше прежней. По дороге он сделал остановку на 1 час. В результате он затратил на обратный путь столько же времени, сколько на путь из А в В. Найдите скорость велосипедиста на пути из А в В. Ответ дайте в км/ч.",
+      "error_conditions": [],
+      "id": 116527,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=3871"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=3871"
+}

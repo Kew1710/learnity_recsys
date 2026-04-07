@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2877,
+    "title": "№13 IP-адреса (2024 год)"
+  },
+  "id": 26660,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "248",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Для узла с IP-адресом 245.166.144.200 адрес сети равен 240.0.0.0. Чему равно максимально возможное значение первого (самого левого) байта маски? Ответ запишите в виде десятичного числа.",
+      "error_conditions": [],
+      "id": 246299,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 45,
+    "title": "IP-адреса"
+  },
+  "video_link": null
+}

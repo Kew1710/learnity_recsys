@@ -1,0 +1,37 @@
+{
+  "comment": "Дано:\nMN||AC\nMN=16\nAC=20\nNC=15\nНайти: BN-?\nРешение:\nРассмотрим \\(\\triangle ABC\\) и \\(\\triangle MBN\\)\n1) \\(MN||AC \\Rightarrow \\angle BAC= \\angle BMN \\) - соответственные при MN||AC и секущей АВ\n\\(\\angle B\\) общий\n\\(\\Rightarrow \\triangle MBN \\sim \\triangle ABC\\) - по 2-ум углам\nПусть BN=x, тогда \\(BC=BN+NC=x+15\\)\n\\(\\cfrac{BN}{BC}=\\cfrac{MN}{AC}\\)\n\\(\\cfrac{x}{x+15}=\\cfrac{16}{20}\\) - сократим правую часть на 4\n\\(5x=4(x+15)\\)\n\\(x=60\\)\nОтвет: \\(BN =60\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2011,
+    "title": "23.2 Подобные треугольники"
+  },
+  "id": 14303,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Прямая, параллельная стороне AC треугольника ABC, пересекает стороны AB и BC в точках M и N соответственно. Найдите BN, если MN = 16, AС = 20, NС = 15.",
+      "error_conditions": null,
+      "id": 201843,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

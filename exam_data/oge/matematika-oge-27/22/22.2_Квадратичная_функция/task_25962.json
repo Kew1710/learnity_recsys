@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\( y = \\cfrac{6x -7}{6x^2 -7x}\\)\nОДЗ: \\(6x^2-7x \\neq 0\\)\n\\( x(6x-7) \\neq 0\\)\n\\( x \\neq 0\\) или \\(x \\neq \\cfrac{7}{6}\\)\n\\(y=\\cfrac{6x-7}{x(6x-7)} \\)\n\\( y=\\cfrac{1}{x} \\) - гипербола\nПостроим график функции:\nx\\(\\cfrac{7}{6}\\)-11y\\( \\cfrac{6}{7}\\)-11\n\\( y=kx\\) имеет с графиком ровно одну общую точку при прохождении через \\( \\left(\\cfrac{7}{6};\\cfrac{6}{7} \\right) \\)\n\\(y=kx\\)\n\\( \\cfrac{6}{7}=k \\cdot \\cfrac{7}{6} \\)\n\\( k=\\cfrac{6}{7} \\cdot \\cfrac{6}{7}=\\cfrac{36}{49}\\)\nОтвет: \\(k=\\cfrac{36}{49}\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2007,
+    "title": "22.2 Квадратичная функция"
+  },
+  "id": 25962,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Постройте график функции \\( y = \\cfrac{6x -7}{6x^2 -7x}\\) и определите, при каких значениях \\(k\\) прямая \\(y = kx\\) имеет с графиком ровно одну общую точку.",
+      "error_conditions": null,
+      "id": 245601,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

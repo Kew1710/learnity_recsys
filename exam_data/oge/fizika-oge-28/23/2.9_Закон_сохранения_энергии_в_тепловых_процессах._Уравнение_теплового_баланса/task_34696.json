@@ -1,0 +1,37 @@
+{
+  "comment": "Количество теплоты, отданное медной деталью, равно количеству теплоты, полученному водой\nЗапишем уравнение теплового баланса:$$Q_{пол}=Q_{отд}\\\\c_{в}m_{в}\\Delta t_{в}=c_{м}m_{м}\\Delta t_{м}$$ Подставим числовые значения и найдём массу воды:$$4200\\cdot m_в\\cdot 1=400\\cdot\n0,3\\cdot 7\\\\m_в=0,2~кг$$ Ответ: $0,2~кг$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3248,
+    "title": "2.9 Закон сохранения энергии в тепловых процессах. Уравнение теплового баланса"
+  },
+  "id": 34696,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какова масса воды, если известно, что при охлаждении на $7$ °С помещённой в неё медной детали массой $300$ г вода нагрелась на $1$ °С? Тепловыми потерями в окружающую среду можно пренебречь.",
+      "error_conditions": null,
+      "id": 254335,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

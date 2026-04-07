@@ -1,0 +1,45 @@
+{
+  "comment": "Площадь фигуры на промежутке \\([-3;-1]\\) под графиком \\(F(x)\\) равна разности \\(F(-1)-F(-3)\\).\n$$F(-1)=-\\frac{1}{2}(-1)^3-3(-1)^2-\\frac{9}{2}(-1)+3=5\\\\ F(-3)=-\\frac{1}{2}(-3)^3-3(-3)^2-\\frac{9}{2}(-3)+3=3\\\\ F(-1)-F(-3)=5-3=2$$\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2419,
+    "title": "8.8 Вычисление площади под графиком"
+  },
+  "id": 7502,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график некоторой функции \\(y=f(x)\\). Функция \\(F(x)=-\\frac{1}{2}x^3-3x^2-\\frac{9}{2}x+3~-\\) одна из первообразных функции \\(f(x)\\). Найдите площадь закрашенной фигуры.",
+      "error_conditions": [],
+      "id": 98507,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=fLZLjLm169HRNics&t=9135"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=fLZLjLm169HRNics&t=9135"
+}

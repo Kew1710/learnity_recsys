@@ -1,0 +1,37 @@
+{
+  "comment": "Общее сопротивление цепи:\n$$R_{общ}=\\frac{R_лR}{R+R_л}=\\frac{15\\cdot 10}{15+10}=6~Ом$$\nПо закону Ома для полной цепи:\n$$I=\\frac{\\varepsilon}{R_{общ}+r}$$\nТ.к. соединение параллельное, то напряжение на конденсаторе равно напряжению на лампе и резисторе:\n$$U=IR_{общ}=U_C=\\frac{\\varepsilon R_{общ}}{R_{общ}+r}$$\n\\(A=Q+\\Delta W\\); \\(A=0\\), т.к. источник отключен \\(\\Rightarrow 0=Q+\\Delta W\\).\nВо время разрядки конденсатора напряжение на \\(R\\) и \\(R_л\\) будет одинаковым.\n$$P=\\frac{U^2}{R}\\Rightarrow\\frac{P_р}{P_л}=\\frac{\\frac{U^2}{R}}{\\frac{U^2}{R_л}}=\\frac{R_л}{R},$$\nгде \\(P_р\\), \\(P_л\\) - тепловая мощность на резисторе и лампе соответственно.\n\nДля маленьких \\(\\Delta t\\):\n$$\\frac{Q_{iр}}{Q_{iл}}=\\frac{P_{iр}\\Delta t}{P_{iл}\\Delta t}=\\frac{R_л}{R}$$\nЗначит:\n$$\\frac{Q_р}{Q_л}=\\frac{R_л}{R}=\\frac{15}{10}\\Rightarrow Q_л=\\frac{2}{3}Q_р$$\nИзменение энергии конденсатора:\n$$\\Delta W=0-W\\Rightarrow Q=W$$ $$Q=Q_л+Q_р$$ Тогда:\n$$\\frac{CU^2}{2}=Q_р+\\frac{2}{3}Q_р=\\frac{5}{3}Q_р\\Rightarrow Q_р=\\frac{3}{10}CU^2=\\frac{3C}{10}\\left (\\frac{\\varepsilon R_{общ}}{R_{общ}+r}\\right )^2=\\frac{3\\cdot 100\\cdot 10^{-6}}{10}\\cdot \\left (\\frac{60\\cdot 6}{6+4}\\right )^2=38,88~мДж$$\nОтвет: 38,88 мДж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 10140,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23616\nПринципиальная схема цепи, состоящей из батареи с ЭДС \\(\\varepsilon=60\\) В и внутренним сопротивлением \\(r=4\\) Ом, лампы сопротивлением \\(R_л=15\\) Ом, резистора сопротивлением \\(R=10\\) Ом, а также конденсатора емкостью \\(C=100\\) мкФ, представлена на рисунке. В начале опыта ключ \\(К\\) находится в замкнутом положении, спустя длительный промежуток времени его размыкают. Определите, какое количество теплоты выделится после этого на резисторе.",
+      "error_conditions": null,
+      "id": 122363,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/pWHtM1aVBP0"
+}

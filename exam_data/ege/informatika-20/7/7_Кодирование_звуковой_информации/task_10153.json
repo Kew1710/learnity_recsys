@@ -1,0 +1,45 @@
+{
+  "comment": "Видеоразбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1490,
+    "title": "№7 Кодирование звуковой информации"
+  },
+  "id": 10153,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Музыкальный фрагмент был записан в формате квадро (четырёхканальная запись), оцифрован и сохранён в виде файла\nбез использования сжатия данных. Размер полученного файла без учёта размера заголовка файла - 280 Мбайт. Затем тот же музыкальный фрагмент был записан повторно в формате моно и оцифрован с разрешением в 1,5 раза выше и частотой дискретизации в 3 раза меньше, чем в первый раз. Сжатие данных не производилось. Укажите размер в Мбайт файла, полученного при повторной записи. В ответе запишите только целое число, единицу измерения писать не нужно. Искомый объём не учитывает размера заголовка файла.",
+      "error_conditions": [],
+      "id": 122432,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/https://m.youtube.com/watch?v=hbB9Y_QNl20?start=5022"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 26,
+    "title": "Кодирование информации"
+  },
+  "video_link": "https://www.youtube.com/embed/https://m.youtube.com/watch?v=hbB9Y_QNl20?start=5022"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nЧерез 6 минут температура будет равна \\(a_{7}\\)\n\\(a_{7}= a_1 +d(7-1) = -6 + 6 \\cdot (-8) = -6 -48 = -54\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1970,
+    "title": "14.1 Арифметическая прогрессия"
+  },
+  "id": 20018,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-54",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "При проведении опыта вещество равномерно охлаждали в течение 10 минут. При этом каждую минуту температура вещества уменьшалась на 8° C. Найдите температуру вещества (в градусах Цельсия) через 6 минут после начала проведения опыта, если его начальная температура составляла − 6° C.",
+      "error_conditions": [],
+      "id": 239856,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

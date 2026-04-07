@@ -1,0 +1,42 @@
+{
+  "comment": "Приспособления растений, обитающих в пустыне, к обеспечению водой:\n- опушение вокруг устьиц\n\n3. толстый восковой налет\n6. длинные, уходящие вглубь почвы, корни",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 8454,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "136",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны. Какие приспособления к обеспечению водой и ее сохранению имеются у растений, обитающих в пустыне?\n- опушение вокруг устьиц\n\n2. хорошо развитые межклетники\n3. толстый восковой налет\n4. темно-зеленые листья\n5. размножение спорами\n6. длинные, уходящие вглубь почвы, корни",
+      "error_conditions": [],
+      "id": 102751,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/p_q7eD109W8"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/p_q7eD109W8"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем уравнение теплового баланса: $$Q_{отд}=Q_{пол}$$\nИзначально сталь нужно нагреть, а потом полностью расплавить: $$P\\tau=cm\\Delta t+{\\lambda}m \\\\ 100000\\tau=500\\cdot 1000\\cdot 1500+78000\\cdot 1000 \\\\ \\tau=5\\cdot 1500+78\\cdot 10=8280~с$$\n\nОтвет: $8280$ с",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34857,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В электропечи мощностью $100$ кВт нагрели и полностью расплавили слиток стали массой $1$ т. Сколько времени потребовалось для этого, если известно, что до начала плавления сталь необходимо было нагреть на $1500$ °С? Потерями энергии пренебречь.",
+      "error_conditions": null,
+      "id": 254496,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: На рисунке изображена нейрула — одна из стадий эмбриогенеза человека. Раздел биологии, изучающий эмбриогенез — эмбриология.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2507,
+    "title": "Методы, достижения и роль биологии"
+  },
+  "id": 16358,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "эмбриология",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Биология — комплексная наука» и заполните ячейку, вписав соответствующий термин.\nРаздел биологии\nИллюстрация объекта изучения\nЭкология ?",
+      "error_conditions": [],
+      "id": 236265,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

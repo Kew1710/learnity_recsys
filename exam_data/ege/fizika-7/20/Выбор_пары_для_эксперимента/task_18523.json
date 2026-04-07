@@ -1,0 +1,86 @@
+{
+  "comment": "Для изучения зависимости ускорения бруска, скользящего по наклонной шероховатой плоскости, от его массы, все характеристики установки, кроме массы, должны быть одинаковыми. Это могут быть установки 1 и 2 или 4 и 5.\n\nОтвет: 1245",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2647,
+    "title": "Выбор пары для эксперимента"
+  },
+  "id": 18523,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1245",
+          "points": 1
+        },
+        {
+          "answer": "1425",
+          "points": 1
+        },
+        {
+          "answer": "1452",
+          "points": 1
+        },
+        {
+          "answer": "2145",
+          "points": 1
+        },
+        {
+          "answer": "2415",
+          "points": 1
+        },
+        {
+          "answer": "2451",
+          "points": 1
+        },
+        {
+          "answer": "4125",
+          "points": 1
+        },
+        {
+          "answer": "4215",
+          "points": 1
+        },
+        {
+          "answer": "4251",
+          "points": 1
+        },
+        {
+          "answer": "5124",
+          "points": 1
+        },
+        {
+          "answer": "5214",
+          "points": 1
+        },
+        {
+          "answer": "5241",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "239823\nКакие две установки следует использовать для изучения зависимости ускорения бруска, скользящего по наклонной шероховатой плоскости, от его массы?\nВ ответ запишите номера выбранных установок.",
+      "error_conditions": [],
+      "id": 238365,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/zVltHtOEPGM"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/zVltHtOEPGM"
+}

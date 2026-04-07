@@ -1,0 +1,37 @@
+{
+  "comment": "Условие интерференционных максимумов дифракционной решетки:\n$$d\\sin\\varphi=\\lambda k$$\n$$d=\\frac{b}{N}$$\nДля малых углов справедливо:\n$$\\sin\\varphi\\approx tg\\varphi=\\frac{x}{l}$$\nПосле подстановки имеем:\n$$\\frac{b}{N}\\cdot\\frac{x}{l}=\\lambda k\\Rightarrow x=\\frac{\\lambda klN}{b}$$\nРасстояние между красным и фиолетовым участками спектра второго порядка:\n$$x_{кр2}-x_{ф2}=\\frac{\\lambda_{кр}klN}{b}-\\frac{\\lambda_фklN}{b}=\\frac{klN}{b}(\\lambda_{кр}-\\lambda_ф)=\\frac{2\\cdot 1,2\\cdot 40}{10^{-3}}(800-400)\\cdot 10^{-9}=38,4~мм$$\nОтвет: 38,4 мм",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 14166,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23857\nДифракционный спектр, получаемый при освещении дифракционной решетки нормально падающим белым светом, наблюдается на экране, расположенном на расстоянии \\(1,2~м\\) от решетки. Известно, что дифракционная решетка имеет \\(40\\) штрихов на \\(1~мм\\). Найдите расстояние между красным и фиолетовым участками спектра второго порядка, если длины волн красного и фиолетового света соответственно равны \\(800~нм\\) и \\(400~нм\\). Принять, что угол отклонения лучей мал, т.е. \\(\\sin\\varphi\\approx tg\\varphi\\).",
+      "error_conditions": null,
+      "id": 189413,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/58gPvvWnPao"
+}

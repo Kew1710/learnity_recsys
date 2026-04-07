@@ -1,0 +1,40 @@
+{
+  "comment": "Пусть \\(5^{x} =t\\), тогда:\n$$t+\\frac{125}{t-126}\\geq 0\\\\ \\frac{t^2-126t+125}{t-126} \\geq 0\\\\ \\frac{( t-125)( t-1)}{t-126} \\geq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l}\n\\begin{cases}\nt\\geq 1\\\\\nt\\leq 125\n\\end{cases}\\\\\n\\ \\ t >126\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\n\\begin{cases}\n5^{x} \\geq 5^{0}\\\\\n5^{x} \\leq 5^{3}\n\\end{cases}\\\\\n\\ 5^{x} >126\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\n\\ \\ \\ \\begin{cases}\nx\\geq 0\\\\\nx\\leq 3\n\\end{cases}\\\\\nx >\\log_{5} 126\n\\end{array} \\right.$$\nОтвет: \\([0;3]\\cup ( \\log_5⁡126;+\\infty )\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1364,
+    "title": "15.1 Показательные неравенства"
+  },
+  "id": 8217,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(5^x+\\frac{125}{5^x-126}≥0\\).",
+      "error_conditions": null,
+      "id": 101528,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=2745"
+}

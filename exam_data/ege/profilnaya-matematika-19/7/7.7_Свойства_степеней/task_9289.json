@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{(2\\cdot 6)^{3,2}\\cdot 6^3}{12^{3,2}}=6^3=216$$\nОтвет: 216",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 9289,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "216",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{2^{3,2}\\cdot 6^{6,2}}{12^{3,2}}\\).",
+      "error_conditions": [],
+      "id": 113192,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1223"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1223"
+}

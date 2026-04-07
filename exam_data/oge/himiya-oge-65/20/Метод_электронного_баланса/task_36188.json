@@ -1,0 +1,37 @@
+{
+  "comment": "\\(PH_{3}\\) + \\(4Cl_{2}\\) + \\(4H_{2}O\\) → \\(H_{3}PO_{4}\\) + \\(8HCl\\)\n\n\\(P^{-3}\\) - 8ē → \\(P^{+5}\\) | 1\n\\(Cl^{0}\\) + 1ē → \\(Cl^{-1}\\) | 8\n\n\\(PH_{3}\\) (\\(P^{-3}\\)) - восстановитель\n\\(Cl_{2}\\) (\\(Cl^{0}\\)) - окислитель",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2903,
+    "title": "Метод электронного баланса"
+  },
+  "id": 36188,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Используя метод электронного баланса, расставьте коэффициенты в уравнении реакции, схема которой\n\n\\(PH_{3}\\) + \\(Cl_{2}\\) + \\(H_{2}O\\) → \\(H_{3}PO_{4}\\) + \\(HCl\\)\n\nОпределите окислитель и восстановитель.",
+      "error_conditions": null,
+      "id": 255838,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

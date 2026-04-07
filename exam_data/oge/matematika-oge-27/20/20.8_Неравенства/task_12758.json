@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\( \\cfrac{-16}{(x+2)^2-5} \\geqslant 0 \\)\n\\( \\Rightarrow (x+2)^2-5<0\\), так как \\( -16<0 \\) и \\( \\cfrac{-16}{(x+2)^2-5} \\geqslant 0 \\)\n\\( (x+2)^2-5<0 \\)\n\\( (x+2)^2-(\\sqrt{5})^2<0 \\)\n\\( (x+2-\\sqrt{5})(x+2+\\sqrt{5})<0 \\)\n\\( (x+2-\\sqrt{5})(x+2+\\sqrt{5})=0 \\)\n\\( x+2-\\sqrt{5}=0 \\) или \\( x+2+\\sqrt{5}=0 \\)\n\\( x=-2+\\sqrt{5 } \\) или \\( x=-2-\\sqrt{5} \\)\nОтвет: \\( x \\in (-2-\\sqrt{5};-2+\\sqrt{5}) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2055,
+    "title": "20.8 Неравенства"
+  },
+  "id": 12758,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство \\(\\cfrac{-16}{(x+2)^2-5} \\geqslant 0\\) .",
+      "error_conditions": null,
+      "id": 172558,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

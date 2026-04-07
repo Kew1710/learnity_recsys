@@ -1,0 +1,42 @@
+{
+  "comment": "Уравнение реакции:\n$$_{20}^{46}Ca\\rightarrow 2\\cdot _{-1}^0е+2\\cdot _0^0\\nu_A+_Z^AX\\\\ A=46, Z=22\\Rightarrow n=46-22=24$$\nОтвет: 2422",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3337,
+    "title": "Распады и ядерные реакции"
+  },
+  "id": 14355,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2422",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23899\nПримером двойного \\(\\beta\\)-распада служит распад ядра \\(_{20}^{46}Ca\\), в результате которого образуется \\(2\\) электрона, \\(2\\) антинейтрино и ядро другого элемента (продукт распада). Определите число нейтронов и число протонов в ядре этого элемента. В ответ запишите только числа, не разделяя их пробелом или другим знаком.\nЧисло нейтронов\nЧисло протонов",
+      "error_conditions": [],
+      "id": 202919,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/G0t9vEqdB_M"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/G0t9vEqdB_M"
+}

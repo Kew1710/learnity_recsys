@@ -1,0 +1,42 @@
+{
+  "comment": "\\(24 \\cdot 60 = 1440\\) - стоимость 60 тетрадей без скидки\nСтоимость покупки составит \\(100\\% - 10\\% = 90\\%\\) от стоимость без скидки.\n$$\\frac{1440 \\cdot 90\\%}{100\\%} = 1296$$\nОтвет: 1296 рублей.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2114,
+    "title": "15.1 Задачи на проценты"
+  },
+  "id": 27546,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1296",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Тетрадь стоит 24 рубля. Сколько рублей заплатит покупатель за 60 тетрадей, если при покупке более 50 тетрадей магазин делает скидку 10% от стоимости всей покупки?",
+      "error_conditions": [],
+      "id": 247185,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

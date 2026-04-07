@@ -1,0 +1,42 @@
+{
+  "comment": "Заряд на конденсаторе найдем по формуле:\n$$q=C\\varepsilon$$\n\\(\\varepsilon\\) – ЭДС источника.\n$$\\varepsilon=\\frac{A_{ист}}{q}\\Rightarrow A_{ист}=q\\varepsilon=C\\varepsilon\\cdot \\varepsilon=C\\varepsilon^2=10^{-6}\\cdot 4^2=16~мкДж$$\nОтвет: 16 мкДж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 9864,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "235419\nКонденсатор емкостью \\(1\\) мкФ подключили к источнику тока с ЭДС \\(4\\) В. Найдите работу, которую совершил источник при зарядке конденсатора. Ответ дайте в мкДж.",
+      "error_conditions": [],
+      "id": 119897,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/vxbv6aUuqaM"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/vxbv6aUuqaM"
+}

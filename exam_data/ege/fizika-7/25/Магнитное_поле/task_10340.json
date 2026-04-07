@@ -1,0 +1,37 @@
+{
+  "comment": "Электрон двигается по окружности, путь, который он пройдет определяется как:\n$$l_{1^\\circ}=\\frac{2\\pi R}{360}\\\\ l_{\\alpha^\\circ}=\\frac{\\alpha\\pi R}{180}$$\nПо второму Закону Ньютона:\n$$ma_ц=F_л,a_ц=\\frac{v^2}{R},F_л=qvB\\sin\\beta ,\\beta =90^\\circ ,$$\nтак как \\(v\\perp B\\)\n$$m\\frac{v^2}{R}=qvB\\Rightarrow R=\\frac{mv}{qB}\\\\ l_{\\alpha^\\circ}=\\frac{\\alpha\\pi}{180}\\cdot \\frac{mv}{qB}\\Rightarrow \\alpha =\\frac{180l_{\\alpha^\\circ}qB}{\\pi mv}$$\nПодставим значения:\n$$\\alpha =\\frac{180\\cdot 0,01\\cdot 10^{-3}\\cdot 1,6\\cdot 10^{-19}\\cdot 0,01}{3,14\\cdot 9,1\\cdot 10^{-31}\\cdot 1,1\\cdot 10^{-6}}=0,916^\\circ$$\nОтвет: 0,916",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 10340,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23663\nВ область однородного магнитного поля индукцией \\(B=0,01\\) Тл со скоростью \\(v=1100\\) км/с влетает электрон перпендикулярно линиям магнитной индукции. Определите угол, на который повернется вектор его скорости, если к тому моменту он пройдет \\(0,01\\) мм.",
+      "error_conditions": null,
+      "id": 137674,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/T4PjisXuKgI"
+}

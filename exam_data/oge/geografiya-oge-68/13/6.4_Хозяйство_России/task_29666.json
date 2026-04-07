@@ -1,0 +1,42 @@
+{
+  "comment": "Составляем пропорцию:\n4 051 005  — 100%\n2 520 864  — Х.\nИмеем (2 520 864· 100) :  4 051 005  =  62%.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2973,
+    "title": "6.4 Хозяйство России"
+  },
+  "id": 29666,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "62",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите долю городского населения (в %) в общей численности населения Республики Башкортостан, если известно, что общая численность её населения на 1 января 2019 г. составляла 4 051 005 человек, а численность городского населения – 2 520 864 человека. Полученный результат округлите до целого числа.",
+      "error_conditions": [],
+      "id": 249305,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "ρ(воды) = 1 г/мл\nm(воды) = ρ(воды) • V(воды) = 1 • 35 = 35 г\nm₁(соли) = ω₁ • m₁(р-ра) = 0,15 • 100 = 15 г\nω = m(соли)/m(р-ра)\nω = (m₁(соли) + m(соли))/(m₁(р-ра) + m(соли) + m(воды))\nω₂ = (15 + 25)/(100 + 25 + 35) = 40/160 = 0,25\nω₂ = 25%",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 8813,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "К 100 г раствора с массовой долей хлорида натрия 15% добавили 35 мл воды и 25 г этой же соли. Чему равна массовая доля соли в полученном растворе? (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 112015,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

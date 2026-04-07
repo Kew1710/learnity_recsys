@@ -1,0 +1,45 @@
+{
+  "comment": "Функция равна \\(0\\) в точках экстремума графика ее первообразной. Согласно графику, на промежутке \\([-5;5]\\) точками экстремума являются \\(x_1=-4,x_2=-2,x_3=1,x_4=4\\). Таким образом, условию удовлетворяют \\(4\\) точки.\n\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2418,
+    "title": "8.7 График первообразной"
+  },
+  "id": 7493,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график функции \\(y=F(x)\\) одной из первообразных некоторой функции \\(f(x)\\), определенной на интервале \\((-8;7)\\). Пользуясь рисунком, определите количество решений уравнения \\(f(x)=0\\) на отрезке \\([-5;5]\\).",
+      "error_conditions": [],
+      "id": 98498,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/K4PEcMlzxyU?start=2235"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/K4PEcMlzxyU?start=2235"
+}

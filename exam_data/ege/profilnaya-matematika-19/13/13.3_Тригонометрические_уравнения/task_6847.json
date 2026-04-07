@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$\\cos 2x+\\sqrt{2}\\cos (\\frac{\\pi}{2}+x)+1=0 $$\nИспользуем формулу косинуса двойного угла и формулу приведения:\n$$1-2\\sin^2x-\\sqrt{2}\\sin x+1=0\\\\ 2\\sin^2x+\\sqrt{2}\\sin x-2=0\\\\ \\sin x=t,t\\in [-1;1]\\\\ 2t^2+\\sqrt{2}t-2=0\\\\ D=2+4\\cdot 2\\cdot 2=18\\\\ \\sqrt{D}=3\\sqrt{2}$$\n$$\\displaystyle \\left[ \\begin{array}{l l} t_{1} =\\frac{-\\sqrt{2} +3\\sqrt{2}}{4} =\\frac{2\\sqrt{2}}{4} =\\frac{\\sqrt{2}}{2} & \\\\ t_{2} =\\frac{-\\sqrt{2} -3\\sqrt{2}}{4} =-\\sqrt{2} -не~ подходит,~так~ как-\\sqrt{2}< 1 & \\end{array} \\right.$$\n$$\\sin x=\\frac{\\sqrt{2}}{2}\\\\ x=\\frac{\\pi}{4}+2\\pi n,n\\in Z\\\\ x=\\frac{3\\pi}{4}+2\\pi k, k\\in Z$$\n\nб) Чтобы отобрать корни, лежащие на заданном отрезке, воспользуемся тригонометрической окружностью.\nНам подходят корни: $$2\\pi+\\frac{\\pi}{4}=\\frac{9\\pi}{4}\\\\ 3\\pi-\\frac{\\pi}{4}=\\frac{11\\pi}{4}$$\nОтвет: а) \\(\\frac{\\pi }{4} +2\\pi n,n\\in Z,\\frac{3\\pi }{4} +2\\pi k,k\\in Z\\); б) \\(\\frac{9\\pi }{4} ;\\frac{11\\pi }{4}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1348,
+    "title": "13.3 Тригонометрические уравнения"
+  },
+  "id": 6847,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(\\cos 2x+\\sqrt{2}\\cos\\left(\\frac{\\pi }{2} +x\\right) +1=0\\).\nб) Найдите все корни этого уравнения, принадлежащие отрезку \\([2\\pi ;3,5\\pi ]\\).",
+      "error_conditions": null,
+      "id": 76874,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/RutJsnJxy04?start=251"
+}

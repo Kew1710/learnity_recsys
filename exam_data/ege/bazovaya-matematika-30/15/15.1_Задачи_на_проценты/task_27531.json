@@ -1,0 +1,42 @@
+{
+  "comment": "В начале года в компании 800 тыс. абонентов - это 100%.\nК концу года их стало 880 тыс., то есть на 880 - 800 = 80 тыс. абонентов больше.\nПроцент, на который выросло число абонентов:\n$$\\frac{80}{800} \\cdot 100\\% = 10\\%$$\nОтвет: на 10%.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2114,
+    "title": "15.1 Задачи на проценты"
+  },
+  "id": 27531,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В начале года число абонентов телефонной компании «Восток» составляло 800 тыс. человек, а в конце года их стало 880 тыс. человек. На сколько процентов увеличилось за год число абонентов этой компании?",
+      "error_conditions": [],
+      "id": 247170,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

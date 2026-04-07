@@ -1,0 +1,45 @@
+{
+  "comment": "Наименьшее значение функции находится в точках минимума. Точки минимума – это экстремумы. Производная в точках экстремума равна нулю.\n$$y'=3x^2-2x-8\\\\ x_1=2;x_2=-\\frac{4}{3}$$\n$$x=2 - минимум$$\nНайдем наименьшее значение функции:\n$$y(2)=2^3-2^2-16+4=-8$$\nОтвет: -8.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 9247,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y=x^3-x^2-8x+4\\) на отрезке \\([1;7]\\).",
+      "error_conditions": [],
+      "id": 113020,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_QfEbxEjc74?start=474"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/embed/_QfEbxEjc74?start=474"
+}

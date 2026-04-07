@@ -1,0 +1,42 @@
+{
+  "comment": "Сила Кулона в первом случае равна:\n$$F_1=\\frac{k\\cdot q_1\\cdot q_2}{r^2}$$\nЕсли каждый заряд уменьшить в три раза, то сила Кулона станет равной:\n$$F_2=\\frac{k\\cdot \\frac{q_1}{3}\\cdot \\frac{q_2}{3}}{r^2}=\\frac{1}{9} \\frac{k\\cdot q_1\\cdot q_2}{r^2}$$\nВыходит, чтобы сила Кулона не изменилась, необходимо уменьшить знаменатель в 9 раз, то есть уменьшить в три раза расстояние:\n$$\\frac{1}{9} \\frac{k\\cdot q_1\\cdot q_2}{(\\frac{r}{3})^2} = \\frac{k\\cdot q_1\\cdot q_2}{r^2} = F_1$$\n\nОтвет: 3",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2630,
+    "title": "Электрическое поле"
+  },
+  "id": 10110,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23604\nСила, с которой один точечный заряд действует на другой, равна \\(F\\). Каждый заряд уменьшили в \\(3\\) раза. Во сколько раз нужно уменьшить расстояние между зарядами, чтобы сила \\(F\\) осталась той же?",
+      "error_conditions": [],
+      "id": 121942,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/5MB02uPSk0k"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/5MB02uPSk0k"
+}

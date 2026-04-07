@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1760,
+    "title": "2.2 Наука в жизни современного общества"
+  },
+  "id": 12125,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12212",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между признаками и областями (формами) духовной культуры: к каждому элементу первого столбца подберите соответствующий элемент из второго столбца.\n\nПРИЗНАКИ ОБЛАСТИ (ФОРМЫ) ДУХОВНОЙ КУЛЬТУРЫ\nА) создание художественных образовБ) логичность и доказательность выводовВ) критический анализ результатов познанияГ) эмоциональное воздействие на человекаД) объективное отражение действительности\n\n1) искусство2) наука\n\nЗапишите в таблицу выбранные цифры под соответствующими буквами.",
+      "error_conditions": [],
+      "id": 153983,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/swp0whOuZ08?start=13093"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/swp0whOuZ08?start=13093"
+}

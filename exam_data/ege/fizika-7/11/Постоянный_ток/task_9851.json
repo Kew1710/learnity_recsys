@@ -1,0 +1,42 @@
+{
+  "comment": "Сила тока находится по формуле:\n$$I=\\frac{q}{t},$$\nгде \\(q=Ne\\), \\(N\\) - количество электронов.\n$$I=\\frac{Ne}{t}\\Rightarrow N=\\frac{It}{e}=\\frac{10^{-6}\\cdot 0,72\\cdot 10^{-3}}{1,6\\cdot 10^{-19}}=0,45\\cdot 10^{10}$$\nОтвет: 0,45",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 9851,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23546\nПостоянный ток силой 1 мкА течет через проводник, поперечное сечение которого неизменно. Найдите количество электронов, проходящее через сечение этого проводника за 0,72 мс. Ответ дайте в 10\\(^{10}\\).",
+      "error_conditions": [],
+      "id": 119884,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/E_LbaycsSL4"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/E_LbaycsSL4"
+}

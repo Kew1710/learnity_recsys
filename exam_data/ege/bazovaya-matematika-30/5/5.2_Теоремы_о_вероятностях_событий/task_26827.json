@@ -1,0 +1,42 @@
+{
+  "comment": "Вероятность того, что насос подтекает, равна\n$$\\frac{4}{2000}=0,002$$\nТак как события “насос подтекает” и “насос не подтекает” противоположны, то искомая вероятность равна \\(1−0,002=0,998\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2080,
+    "title": "5.2 Теоремы о вероятностях событий"
+  },
+  "id": 26827,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,998",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В среднем из 2000 садовых насосов, поступивших в продажу, 4 насоса подтекают. Найдите вероятность того, что один случайно выбранный для контроля насос не подтекает.",
+      "error_conditions": [],
+      "id": 246466,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

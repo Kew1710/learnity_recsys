@@ -1,0 +1,42 @@
+{
+  "comment": "1) реакции горения не относятся к реакциям замещения\n2) реакция замещения водорода в бензоле на нитрогруппу\n3) реакция соединения\n4) реакция разложения\n5) реакция замещения водорода в метане на бром",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2837,
+    "title": "Классификация химических реакций в неорганической и органической химии"
+  },
+  "id": 1586,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите схемы реакций замещения.\n1) CH₄ + O₂ → CO₂ + H₂O\n2) C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O\n3) C₂H₄ + Br₂ → C₂H₄Br₂\n4) C₂H₆ → C₂H₄ + H₂\n5) CH₄ + Br₂ → CH₃Br + HBr",
+      "error_conditions": [],
+      "id": 53912,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/sAsox5Q0qjE?start=4826"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/sAsox5Q0qjE?start=4826"
+}

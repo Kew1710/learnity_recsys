@@ -1,0 +1,42 @@
+{
+  "comment": "Гидростатическое давление:\n$$P=\\rho gh$$\nСила гидростатического давления:\n$$F=PS=\\rho ghS=\\rho gV_{жидкости}$$\nНаибольший объем жидкости находится в третьем сосуде:\n$$F=1000\\cdot 10\\cdot 0,4^2\\cdot 0,2=320~Н$$\nОтвет: 320 Н",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2619,
+    "title": "Гидростатика"
+  },
+  "id": 8749,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "320",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Три сосуда с различной площадью основания и высотой наполняют водой. Определите, на дно какого сосуда действует большая сила гидростатического давления и запишите в ответ значение этой силы, если известно, что длины оснований сосудов одинаковы и равны \\(0,4\\) м, а ширина различна (см. рисунок). Ответ дайте в Н.",
+      "error_conditions": [],
+      "id": 111681,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/gv8YItO2nZc"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/gv8YItO2nZc"
+}

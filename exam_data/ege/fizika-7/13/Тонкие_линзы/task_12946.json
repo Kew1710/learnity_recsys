@@ -1,0 +1,42 @@
+{
+  "comment": "Достроим ход лучей:\nТаким образом, изображение предмета находится в точке \\(2\\).\n\nОтвет: 2",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3335,
+    "title": "Тонкие линзы"
+  },
+  "id": 12946,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "237910\nС помощью собирающей тонкой линзы с фокусным расстоянием \\(F\\) получают изображение точечного источника света \\(S\\). Определите, какая точка соответствует изображению источника света.",
+      "error_conditions": [],
+      "id": 174216,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/lcp1HDT_P4U"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/lcp1HDT_P4U"
+}

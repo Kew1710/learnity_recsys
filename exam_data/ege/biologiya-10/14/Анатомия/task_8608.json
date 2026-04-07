@@ -1,0 +1,42 @@
+{
+  "comment": "А - подвижное соединение (сустав)\nБ - полуподвижное соединение (между позвонками)\nВ - неподвижное соединение (шов)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 8608,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "212313",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между примерами и типами соединения костей: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\n\nПРИМЕР ТИП А) кости таза\nБ) фаланги пальца\nВ) кости мозгового отдела черепа\nГ) позвонки шейного отдела позвоночника\nД) бедренная кость с костями таза\nЕ) кости рёбер с грудиной\n1) А\n2) В\n3) Б\n\nЗапишите в ответ цифры, расположив их в порядке, соответствующем буквам:\nА Б В Г Д Е",
+      "error_conditions": [],
+      "id": 103670,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+}

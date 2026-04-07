@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 356\nСухая кожа без желез характерна для класса пресмыкающиеся.\nУ человека воронья кость редуцировалась.\nТрехкамерное сердце характерно для земноводных",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10253,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "356",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Человека относят к классу млекопитающих, так как у него\n1) кожа сухая, без желез\n2) наличие вороньих костей\n3) семь позвонков в шейном отделе позвоночника\n4) трехкамерное сердце\n5) наличие диафрагмы\n6) выкармливание детенышей молоком",
+      "error_conditions": [],
+      "id": 122993,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "А) Реакция нейтрализации фосфористой кислоты гидроксидом натрия:\nH₃PO₃ + 2NaOH(изб.) → Na₂HPO₃ + 2H₂O\nБ) Реакция диспропорционирования фосфора в водном растворе щелочи:\n4P + 3NaOH + 3H₂O → 3NaH₂PO₂ + PH₃\nВ) Взаимодействие оксида металла в промежуточной степени окисления с разбавленной азотной кислотой (кислотой-окислителем):\n3FeO + 10HNO₃(разб.) → 3Fe(NO₃)₃ + NO + 5H₂O\nГ) Реакция ионного обмена между нерастворимым гидроксидом и кислотой:\nFe(OH)₃ + 3HNO₃(конц.) → Fe(NO₃)₃ + 3H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 6583,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3154",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВАПРОДУКТЫ РЕАКЦИИА) H₃PO₃ и NaOH (изб.)1) NaH₂PO₂ и PH₃Б) P и NaOH (р-р)2) Na₃PO₄ и H₂OВ) FeO и HNO₃ (разб.)3) Na₂HPO₃ и H₂OГ) Fe(OH)₃ и HNO₃ (конц.)4) Fe(NO₃)₃ и H₂O 5) Fe(NO₃)₃ , NO и H₂O 6) Fe(NO₃)₂ , NO₂ и H₂O",
+      "error_conditions": [],
+      "id": 75082,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/2IPTvGKki7M?start=3294"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/2IPTvGKki7M?start=3294"
+}

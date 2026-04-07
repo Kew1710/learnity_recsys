@@ -1,0 +1,42 @@
+{
+  "comment": "В пропуске 19 меняем слово на concerns (описывает), так как суть предложения - это факт, о чем в общем история о Гарри Поттере. А она описывает приключения Гарри…. (Present Simple)\n\nВ пропуске 20 меняем слово на have gained (Present Perfect), так как слово since нам намекает на эту грамматическую форму, а слово books просит использовать have, а не has.\n\nВ пропуске 21 меняем слово на has been translated (Present Perfect Passive). Это предложение непосредственно связано с предыдущим (там где было since, помните?). Поэтому логично говорить о результате на данный момент, уже на 67 языков перевели сериал. Вот только сериал не сам себя перевел, поэтому пассивная конструкция. А еще слово series имеет одну форму в ед.ч. и в мн.ч. Рекомендую посмотреть урок по Пассивному залогу: https://youtu.be/1sJpveY-iug\n\nВ пропуске 22 меняем слово на had been made (Past Perfect Passive), так как есть маячок (by 2010 - к этому моменту в прошлом было что-то сделано). Ну и книги сами себя не экранизируют, поэтому Passive.\n\nВ пропуске 23 меняем слово на highest, превосходная степень сравнения. На это нам намекает артикль the перед пропуском. ( Артикль не пишите в бланк ответов 1 на ЕГЭ, только слово highest)\n\nВ пропуске 24 меняем слово на seventh (порядковое числительное). Это единственный способ изменения числительных - переход из разряда количественных в порядковые.\n\nВ пропуске 25 меняем слово на might (это единственный способ изменить слово may), а также в самом предложении есть сослагательность ( Автор когда-нибудь еще напишет книгу…might здесь отлично подходит)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 814,
+    "title": "Грамматические навыки"
+  },
+  "id": 970,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19.concerns 20.have gained 21.has been translated 22.had been made 23.highest 24.seventh 25.might",
+          "points": 7
+        }
+      ],
+      "comment": "",
+      "description": "Прочитайте приведённый ниже текст. Преобразуйте, если необходимо, слова, напечатанные заглавными буквами в конце строк, обозначенных номерами 19-25, так, чтобы они грамматически соответствовали содержанию текстов. Заполните пропуски полученными словами. Каждый пропуск соответствует отдельному заданию из группы 19-25.\n\nHarry Potter\n\n'Harry Potter' is a series of seven fantasy novels written by the British author J. K. Rowling. The main storyline (19) _____ (CONCERN) Harry's quest to overcome the evil dark wizard Lord Voldemort.\n\nSince the release of the first novel 'Harry Potter and the Philosopher's Stone; the books (20) _____ (GAIN) immense popularity and commercial success worldwide.\n\nThe series (21) _____ (TRANSLATE) into 67 languages, including Russian.\n\nBy 2010, the first six books (22) _____ (MAKE) into films by Warner Bros.\n\nThe films are popular among people of all ages. It is the (23) _____ (HIGH) grossing film series of all time.\n\nThe (24) _____ (SEVEN) book was split into two films. Part 1 was released on 19 November 2010 and the series finale was on 15 July 2011.\n\nFans packed Trafalgar Square in London for the premiere of Part II, where for the first time J. K. Rowling said that she (25) _____ (MAY) one day pen another book in the best-selling series.",
+      "error_conditions": [],
+      "id": 52530,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 7,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

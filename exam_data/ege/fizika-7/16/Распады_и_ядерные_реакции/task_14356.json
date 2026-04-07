@@ -1,0 +1,42 @@
+{
+  "comment": "Уравнение реакции:\n$$_{~84}^{218}Po=x\\cdot _2^4\\alpha+y\\cdot _{-1}^0\\beta+_{~83}^{214}Bi$$\nРавенство массовых чисел:\n$$218=4x+214\\Rightarrow x=1\\\\ 84=2x-y+83\\Rightarrow y=1$$\nОтвет: 11",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3337,
+    "title": "Распады и ядерные реакции"
+  },
+  "id": 14356,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "238910\nВ результате цепной ядерной реакции атом полония \\(_{~84}^{218}Po\\) претерпевает ряд \\(\\alpha\\)- и \\(\\beta\\)-распадов, в результате которых образуется ядро висмута \\(_{~83}^{214}Bi\\). Какое число \\(\\alpha\\)- и \\(\\beta\\)-распадов испытало ядро полония? В ответ запишите только числа, не разделяя их пробелом или другим знаком.\nЧисло \\(\\alpha\\)-распадов\nЧисло \\(\\beta\\)-распадов",
+      "error_conditions": [],
+      "id": 202920,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/Bjiz4tKdSBE"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/Bjiz4tKdSBE"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "It goes without saying that today nearly everyone in Zetland has changed their eating habits due to the pandemic. These changes have attracted much attention in recent times. As part of my important project that I am currently working on, I have found some useful statistics in the form of a diagram, to help give my opinion on the subject.\n\nThe information in the diagram illustrates the relative popularity of the five different eating habits. While cooking at home(41%) is the most popular, picking up a snack from a vending machine(1%) is the least. Getting meals delivered(40%) ranks just below cooking at home(41%) and roughly a third now either buy organic food(10%) at a farmer's market(8%) or eat fast food.\n\nThe diagram shows a significant difference in the ways in which people’s\neating habits have changed. Cooking at home(41%) is a great deal more popular than the use of vending machines, with 41% of respondents stating that they started cooking more, against only 1% who say they use vending machines more. As noted earlier, preparing food at home barely eclipses getting meals delivered, which 40% of people prefer.\n\nThe statistics point to an underlying problem. As getting meals delivered is very popular, it is clear that saving time has become paramount in post-Covid society, but these meals are unhealthy. However, this problem can be solved if people avoid ready meals and instead cook large dinners which can be eaten over several days.\n\nIn conclusion, I believe having good eating habits plays an important role in our lives because eating healthy food improves one’s health. People should always buy nutritious and wholesome food.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 817,
+    "title": "Развёрнутое письменное высказывание на основе таблицы или графика"
+  },
+  "id": 1612,
+  "is_obsolete": false,
+  "number": 40,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Imagine that you are doing a project on how the pandemic has changed eating habits in Zetland. You have found some data on the subject - the results of the opinion polls (see the diagram below).\nComment on the data in the diagram and give your opinion on the subject of the project.\n\nHow the pandemic has changed eating habits\n\nWrite 200-250 words.\n\nUse the following plan:\n- make an opening statement on the subject of the project;\n- select and report 2-3 facts;\n- make 1-2 comparisons where relevant;\n- outline a problem that can arise with eating habits and suggest a way of solving it;\n- conclude by giving your opinion on the role of eating habits in our lives.",
+      "error_conditions": null,
+      "id": 53947,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 14,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

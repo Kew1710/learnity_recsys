@@ -1,0 +1,42 @@
+{
+  "comment": "Площадь прямоугольника \\(ABCD\\) можно найти по формуле: \\(S = ab = AB \\cdot AD \\Rightarrow 400 = 14 \\cdot AD \\Rightarrow AD = \\frac{400}{14} = \\frac{200}{7}\\).\nВ прямоугольном треугольнике \\(CAD\\):\n$$\\mathrm{tg}\\, CAD = \\frac{CD}{AD} = \\frac{AB}{AD} = \\frac{14}{\\frac{200}{7}} = \\frac{14 \\cdot 7}{200} = 0,49$$\nОтвет: 0,49.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2105,
+    "title": "12.2 Четырёхугольники и их элементы"
+  },
+  "id": 27049,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,56",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь прямоугольника \\(ABCD\\) равна 400, сторона \\(AB = 14\\). Найдите тангенс угла \\(\\mathrm{tg}\\, CAD\\).",
+      "error_conditions": [],
+      "id": 246688,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "По координатной прямой можем примерно оценить значение \\(m \\approx -0,7\\)\nРассмотрим каждое число:\n- \\(\\sqrt{6 - m} \\approx \\sqrt{6 + 0,7} \\approx \\sqrt{6,7} \\approx 2,58\\) - соответствует точке \\(C\\)\n- \\(m^2 \\approx (-0,7)^2 \\approx 0,49\\) - соответствует точке \\(B\\)\n- \\(m - 1 \\approx -0,7 - 1 \\approx -1,7\\) - соответствует точке \\(A\\)\n- \\(-\\frac{3}{m} \\approx -\\frac{3}{-0,7} \\approx 4,28\\) - соответствует точке \\(D\\)\n\nОтвет: 3214",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2128,
+    "title": "18.2 Сравнение чисел"
+  },
+  "id": 26619,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3214",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечено число \\(m\\) и точки \\(A,\\; B,\\; C\\; и \\; D\\).\nКаждой точке соответствует одно из чисел в правом столбце. Установите соответствие между указанными точками и числами.\nТОЧКИЧИСЛА\\(A\\)1) \\(\\sqrt{6 - m}\\)\\(B\\)2) \\(m^2\\)\\(C\\)3) \\(m - 1\\)\\(D\\)4) \\(-\\frac{3}{m}\\)Для каждой точки укажите номер соответствующего числа.",
+      "error_conditions": [],
+      "id": 246258,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

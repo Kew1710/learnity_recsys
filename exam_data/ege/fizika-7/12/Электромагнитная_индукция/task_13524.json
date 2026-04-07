@@ -1,0 +1,42 @@
+{
+  "comment": "ЭДС индукции определим по формуле:\n$$|\\varepsilon_i|=\\frac{|\\Delta \\Phi |}{\\Delta t}\\\\ |\\Delta \\Phi |=\\Phi -0=\\Phi\\Rightarrow \\Phi =\\varepsilon_i\\Delta t=8\\cdot 4=32~мВб$$\nОтвет: 32 мВб",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2634,
+    "title": "Электромагнитная индукция"
+  },
+  "id": 13524,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "32",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Д13\nЗа время \\(\\Delta t=4~с\\) магнитный поток через площадку, ограниченную проволочной рамкой, равномерно уменьшается от некоторого значения \\(\\Phi\\) до нуля. При этом в рамке генерируется ЭДС, равная \\(8~мВ\\). Определите начальный магнитный поток \\(\\Phi\\) через рамку. Ответ дайте в мВб.",
+      "error_conditions": [],
+      "id": 179288,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uVeDsEbm_Cc?start=2952"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uVeDsEbm_Cc?start=2952"
+}

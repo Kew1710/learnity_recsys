@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничение:\n$$\\displaystyle \\begin{cases}\n\\ \\ \\ \\ 3x^{2} +5 >0\\\\\n2x^{2} +7x+5 >0\\\\\nx^{2} -8x+17 >0\\\\\nx^{2} -8x+17\\neq 1\n\\end{cases} \\Rightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\nx< -\\frac{5}{2}\\\\\nx >-1\n\\end{array} \\right.\\\\\n\\ \\ \\ x\\in R\\\\\n\\ \\ \\ x\\neq 4\n\\end{cases}$$\n$$x\\in (-\\infty ;-\\frac{5}{2})\\cup (-1;4)\\cup (4;+\\infty )$$\nДля \\(\\log_{(x^2-8x+17)^2}(3x^2+5)\\) можем вынести степень по свойству логарифма без использования модуля, так как выражение \\(x^2-8x+17\\) всегда больше нуля согласно ограничению\nСледовательно:\n$$\\frac{2}{2}\\log_{x^2-8x+17}(3x^2+5)\\leq \\log_{x^2-8x+17}(2x^2+7x+5)$$\nМетод рационализации:\n$$(x^2-8x+17-1)(3x^2+5-2x^2-7x-5)\\leq 0\\\\ (x-4)^2(x^2-7x)\\leq 0\\\\ (x-4)^2(x-7)\\cdot x\\leq 0$$\nУчитывая ограничения:\nПолучаем:\n$$x\\in [0;4)\\cup (4;7]$$\nОтвет: \\(x\\in [0;4)\\cup (4;7]\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2471,
+    "title": "15.5 Переменное основание"
+  },
+  "id": 18295,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(2\\log_{(x^2-8x+17)^2}(3x^2+5)\\leq \\log_{x^2-8x+17}(2x^2+7x+5)\\).",
+      "error_conditions": null,
+      "id": 238137,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 49,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/watch?v=4qG4CelZUJw#t=346m11s"
+}

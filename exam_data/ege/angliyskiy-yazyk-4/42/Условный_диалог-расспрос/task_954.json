@@ -1,0 +1,37 @@
+{
+  "comment": "What is the minimum age for a participant?\nHow long does the trip last?\nHow many people are in the group?\nWhat types of accommodation for the night do you provide?",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 819,
+    "title": "Условный диалог-расспрос"
+  },
+  "id": 954,
+  "is_obsolete": false,
+  "number": 42,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Study the advertisement.\n\nYou are considering going on a bicycle trip and now you’d like to get more information. In 1.5 minutes you are to ask four direct questions to find out about the following:\n\n1) minimum age;\n2) duration of the trip;\n3) number of people in the group;\n4) accommodation for the night.\n\nYou have 20 seconds to ask each question.",
+      "error_conditions": null,
+      "id": 52514,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

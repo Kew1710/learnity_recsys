@@ -1,0 +1,37 @@
+{
+  "comment": "(NH₄)₂SO₄ + (CH₃COO)₂Ba = BaSO₄ + 2CH₃COONH₄\n2NH₄⁺ + SO₄²⁻ + 2CH₃COO⁻ + Ba²⁺ = BaSO₄ + 2CH₃COO⁻ + 2NH₄⁺\nSO₄²⁻ + Ba²⁺ = BaSO₄",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2801,
+    "title": "Реакции ионного обмена"
+  },
+  "id": 751,
+  "is_obsolete": false,
+  "number": 30,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Для выполнения задания используйте следующий перечень веществ: хлорид лития, сульфат аммония, хлороводород, оксид фосфора(V), оксид марганца(IV), ацетат бария. Допустимо использование водных растворов этих веществ.Из предложенного перечня веществ выберите две соли, между которыми возможна реакция ионного обмена. Запишите молекулярное, полное и сокращенное ионное уравнения реакции с участием выбранных веществ.",
+      "error_conditions": null,
+      "id": 52305,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pWM5ltpZw0w?start=3035"
+}

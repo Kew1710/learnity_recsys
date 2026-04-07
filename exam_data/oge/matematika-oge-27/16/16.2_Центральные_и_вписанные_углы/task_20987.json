@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nТ.к. хорды пересекаются в точке P, по свойству хорд:\n\\( BP \\cdot PD = AP \\cdot PC \\)\nЗначит \\(AP = \\cfrac{BP \\cdot PD}{PC} = \\cfrac{12 \\cdot 25 }{15} = 20\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1980,
+    "title": "16.2 Центральные и вписанные углы"
+  },
+  "id": 20987,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Хорды AC и BD окружности пересекаются в точке P, BP =12, CP=15, DP=25 . Найдите AP.",
+      "error_conditions": [],
+      "id": 240768,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "I = i * T * t * n\nI = 2 * 8 *24 * 10^3 * 180\nt(Итоговое) = I / (V * 60);\nt = 2 * 8 *24 * 10^3 * 180 / (48 * 10 ^ 3 * 60) = 1440 сек = 24 мин",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1490,
+    "title": "№7 Кодирование звуковой информации"
+  },
+  "id": 23531,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: DOSR2307_3\n(ДОСРОК 2023) Аудиофайл, записанный в формате стерео (двухканальная запись), передается со скоростью 48000 бит/с. Файл был записан с такими параметрами: глубина кодирования – 8 бит, частота дискретизации – 24000 Гц, время записи – 180 секунд. Сколько минут будет передаваться файл?",
+      "error_conditions": [],
+      "id": 243256,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 26,
+    "title": "Кодирование информации"
+  },
+  "video_link": null
+}

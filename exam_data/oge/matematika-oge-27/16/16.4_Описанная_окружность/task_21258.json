@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПусть R - радиус описанной окружности, a - сторона треугольника\nДля равностороннего треугольника справедливо \\( a = \\sqrt{3}R\\)\n\\(a = \\sqrt{3} \\cdot 5 \\sqrt{3}\\)\n\\(a = 15\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1982,
+    "title": "16.4 Описанная окружность"
+  },
+  "id": 21258,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Радиус окружности, описанной около равностороннего треугольника, равен \\(5 \\sqrt{3}\\) . Найдите длину стороны этого треугольника.",
+      "error_conditions": [],
+      "id": 241033,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 71,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

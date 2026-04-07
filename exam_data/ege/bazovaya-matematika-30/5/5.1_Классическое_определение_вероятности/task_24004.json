@@ -1,0 +1,42 @@
+{
+  "comment": "\\(15 - 3\\ = 12\\) - количество машин желтого цвета с черными надписями.\nВероятность того, что такая машина приедет на вызов, равна:\n$$\\frac{12}{15} = 0,8$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2079,
+    "title": "5.1 Классическое определение вероятности"
+  },
+  "id": 24004,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В фирме такси в наличии 15 легковых автомобилей: 3 из них чёрного цвета с жёлтыми надписями на боках, остальные — жёлтого цвета с чёрными надписями. Найдите вероятность того, что на случайный вызов приедет машина жёлтого цвета с чёрными надписями.",
+      "error_conditions": [],
+      "id": 243719,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

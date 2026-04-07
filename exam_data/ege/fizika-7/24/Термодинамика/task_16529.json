@@ -1,0 +1,37 @@
+{
+  "comment": "Рассмотрим процесс \\(1\\)-\\(2\\):\n$$V-const\\Rightarrow A=0;~\\Delta U_{12}=U_2-U_1=\\frac{3}{2}\\cdot 2p_0\\cdot V_0-\\frac{3}{2}p_0V_0=\\frac{3}{2}p_0V_0$$\n$$U=\\frac{3}{2}pV;~Q_{12}=A_г+\\Delta U_{12}=\\frac{3}{2}p_0V_0$$\nРассмотрим процесс \\(2\\)-\\(3\\). \\(A_{23}\\) – площадь под графиком \\(p(V)\\):\n$$A_{23}=\\frac{2p_0+3p_0}{2}\\left (4V_0-V_0\\right );~A_{23}=\\frac{15p_0V_0}{2}$$\n$$\\Delta U_{23}=U_3-U_2=\\frac{3}{2}\\cdot 3p_0\\cdot 4V_0-\\frac{3}{2}\\cdot 2p_0V_0=15p_0V_0;$$\n$$Q_{23}=A_{23}+\\Delta U_{23}=\\frac{15p_0V_0}{2}+15p_0V_0=\\frac{45p_0V_0}{2}$$\nРассмотрим процесс \\(3\\)-\\(1\\):\n\\(V\\) – убывает \\(\\Rightarrow A_{31}<0\\); так как \\(p\\) и \\(V\\) убывают, то \\(T\\) тоже бывает \\(\\Rightarrow\\Delta U_{31}<0\\)\n$$Q_{31}=\\Delta U_{31}+A_{31}<0\\\\ Q_н=Q_{12}+Q_{23};~Q_н=\\frac{3}{2}p_0V_0+\\frac{45p_0V_0}{2};~Q_н=24p_0V_0\\Rightarrow p_0V_0=\\frac{Q_н}{24}$$\nдля состояния \\(3\\):\n$$3p_0\\cdot 4V_0=\\nu RT_3\\Rightarrow T_3=\\frac{12p_0V_0}{\\nu R}=\\frac{12\\cdot Q_н}{24\\nu R}=\\frac{Q_н}{2\\nu R}=\\frac{50000}{2\\cdot 8,31\\cdot 3}\\approx 1003~К$$\nОтвет: 1003 К",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 16529,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Над одноатомным идеальным газом в количестве \\(3\\) моль проводится циклический процесс, показанный на рисунке. Количество теплоты, полученное газом от нагревателя в данном цикле, составляет \\(Q_н=50\\) кДж. Определите температуру газа в состоянии \\(3\\).",
+      "error_conditions": null,
+      "id": 236436,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/GXsBAQx8Ix8?t=6137"
+}

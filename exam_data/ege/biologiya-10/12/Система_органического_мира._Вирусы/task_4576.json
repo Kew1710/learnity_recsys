@@ -1,0 +1,42 @@
+{
+  "comment": "Систематические категории растений:\nНадцарство (Эукариоты) => Царство (Растения) => Отдел (Цветковые) => Класс (Двудольные) => Порядок => Семейство (Розоцветные) => Род => Вид => Сорт (сорт апорт).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 4576,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "235641",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите правильную последовательность классификации яблони апорт начиная с самого крупного таксона.\n1) сорт апорт\n2) эукариоты\n3) растения\n4) розоцветные\n5) покрытосеменные (цветковые)\n6) двудольные",
+      "error_conditions": [],
+      "id": 67366,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/gZ01znH8Nf4?start=755"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/gZ01znH8Nf4?start=755"
+}

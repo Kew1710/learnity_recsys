@@ -1,0 +1,45 @@
+{
+  "comment": "Рассмотрим треугольник \\(ABO\\). Так как \\(BO\\) высота, то треугольник \\(ABO\\) прямоугольный. Найдем сторону \\(AO\\). Она является радиусом окружности, лежащей в основании. Мы помним, что диаметр равен двум радиусам. Следовательно, радиус окружности равен:\n$$r=AO=\\frac{AC}{2}$$\n$$r=\\frac{40}{2}=20$$\nТеперь теореме Пифагора найдем третью сторону нашего прямоугольного треугольника \\(ABO\\). У нас известны стороны \\(AO=20\\), \\(AB=25\\). Найдем \\(BO\\):\n$$BO=\\sqrt{AB^2-AO^2}=\\sqrt{25^2-20^2}=15$$\n\\(BO\\) также является высотой конуса, получается ответ будет:\n$$h=BO=15$$\nОтвет: 15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 6929,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Диаметр основания конуса равен \\(40\\), а длина образующей − \\(25\\). Найдите высоту конуса.",
+      "error_conditions": [],
+      "id": 77760,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=3531"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=3531"
+}

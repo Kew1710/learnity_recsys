@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\log_3\\left((2x+1)\\left(\\frac{1}{32x^2}+1\\right)\\right)\\geq\\log_3\\left(\\frac{1}{16x}+1\\right)$$\nТак как логарифм по основанию 3 монотонно возрастает, то равносильно\n$$(2x+1)\\left(\\frac{1}{32x^2}+1\\right)\\geq\\frac{1}{16x}+1$$\nЕсли \\(\\displaystyle \\begin{cases} \\frac{1}{16x} +1 >0\\\\ 2x+1 >0 \\end{cases}\\), то и \\(\\frac{1}{32x^2}+1>0\\)\n$$\\displaystyle \\begin{cases} \\frac{1+16x}{16x} +1 >0\\\\ 2x >-1 \\end{cases}\\\\ \\frac{1+16x}{16x}>0$$\n$$\\displaystyle \\begin{cases} \\left[ \\begin{array}{l l} x< -\\frac{1}{16}\\\\ x >0 \\end{array} \\right.\\\\ x >-\\frac{1}{2} \\end{cases}$$\nПолучается \\(x\\in (-\\frac{1}{2};-\\frac{1}{16})~\\cup ~(0;+\\infty)\\)\n\nВозвращаемся к неравенству:\n$$(2x+1)\\left(\\frac{1}{32x^2}+1\\right)\\geq\\frac{1}{16x}+1\\\\ \\frac{2x}{32x^2}+2x+\\frac{1}{32x^2}+1\\geq\\frac{1}{16x}+1\\\\ \\frac{1}{16x}+2x+\\frac{1}{32x^2}\\geq\\frac{1}{16x}\\\\ 2x+\\frac{1}{32x^2}\\geq 0\\\\ \\frac{64x^3+1}{32x^2}\\geq 0$$\nВ числителе у нас сумма кубов. По формуле \\(a^3+b^3=(a+b)(a^2-ab+b^2)\\) получаем:\n$$\\frac{(4x+1)(16x^2-4x+1)}{32x^2}\\geq 0$$\n\\(16x^2-4x+1>0\\) всегда, следовательно, можно сократить:\n$$\\frac{4x+1}{32x^2}\\geq 0\\\\ \\frac{4(x+\\frac{1}{4})}{32x^2}\\geq 0$$\nУмножим правую и левую часть на \\(\\frac{32}{4}\\)\n$$\\frac{x+\\frac{1}{4}}{x^2}\\geq 0$$\nУчитывая ограничения, получаем ответ\n\nОтвет: \\(x\\in [-\\frac{1}{4};-\\frac{1}{16})~\\cup ~(0;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2469,
+    "title": "15.3 Разность и сумма логарифмов"
+  },
+  "id": 11604,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\log_3(2x+1)+\\log_3\\left(\\frac{1}{32x^2}+1\\right)\\geq\\log_3\\left(\\frac{1}{16x}+1\\right)\\).",
+      "error_conditions": null,
+      "id": 149273,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

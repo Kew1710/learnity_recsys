@@ -1,0 +1,45 @@
+{
+  "comment": "Решение программой:\nPythonPascalfrom itertools import *\n\nk = 0\nfor s in product(\"АКЛМНЯ\", repeat = 4):\nk += 1\nif s[0] == 'К' and s[1] == 'М':\nprint(k)\nexit()\nbegin\nvar count:= 0;\nvar word:= 'АКЛМНЯ';\nforeach var x1 in word do\nforeach var x2 in word do\nforeach var x3 in word do\nforeach var x4 in word do\nbegin\nvar s:= x1 + x2 + x3 + x4;\ncount += 1;\nif s[1] + s[2] = 'КМ' then\nbegin\nprint(count);\nexit();\nend;\nend;\nend.\nВидеоразбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 13669,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "325",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Все четырёхбуквенные слова, в составе которых могут быть только буквы А, К, Л , М, Н , Я, записаны в алфавитном порядке и пронумерованы, начиная с 1.\nНиже приведено начало списка.\n1. АААА\n2. АААК\n3. АААЛ\n4. АААМ\n5. АААН\n6. АААЯ\n…\n\nПод каким номером в списке идёт первое слово, первая буква которой - К, а вторая - М.",
+      "error_conditions": [],
+      "id": 181292,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/fnruNV_QBkQ?start=3124"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": "https://www.youtube.com/embed/fnruNV_QBkQ?start=3124"
+}

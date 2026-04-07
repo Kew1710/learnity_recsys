@@ -1,0 +1,42 @@
+{
+  "comment": "Окислитель – элемент, который в ходе окислительно-восстановительной реакции принимает электроны и понижает свою степень окисления\nА) 2N⁺¹ + 2ē ⟶ N₂⁰ – окислитель N₂O\nБ) H₂⁰ + 2ē ⟶ 2H⁻¹ – окислитель H₂\nВ) 2N⁺¹ + 2ē ⟶ N₂⁰ – окислитель N₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2839,
+    "title": "Реакции окислительно-восстановительные"
+  },
+  "id": 4081,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "242",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между уравнением реакции и формулой вещества, являющегося окислителем в данной реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nУРАВНЕНИЕ РЕАКЦИИ\nФОРМУЛА ОКИСЛИТЕЛЯ\nA) N₂O + H₂ = N₂ + H₂O1) N₂H₄Б) H₂ + 2Li = 2LiH2) N₂OB) N₂H₄ + 2N₂O = 3N₂ + 2H₂O3) Li 4) H₂",
+      "error_conditions": [],
+      "id": 66502,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/PqTe_O2GHvM?start=5436"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/PqTe_O2GHvM?start=5436"
+}

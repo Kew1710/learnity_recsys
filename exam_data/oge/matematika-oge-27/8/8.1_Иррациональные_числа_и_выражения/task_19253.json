@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\sqrt{13 \\cdot 18} \\cdot \\sqrt{26} = \\sqrt{13 \\cdot 18 \\cdot 26} = \\sqrt{ 13 \\cdot 9 \\cdot 2 \\cdot 2 \\cdot 13} = 3 \\cdot 13 \\cdot 2 = 78\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1956,
+    "title": "8.1 Иррациональные числа и выражения"
+  },
+  "id": 19253,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "78",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\sqrt{13 \\cdot 18} \\cdot \\sqrt{26} \\) .",
+      "error_conditions": [],
+      "id": 239091,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

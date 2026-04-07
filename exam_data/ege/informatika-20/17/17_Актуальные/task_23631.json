@@ -1,0 +1,45 @@
+{
+  "comment": "Python:\n\nf = open('2_17.txt')\nm = list(map(int, f.readlines()))\n\nminch = 100000\n\nfor i in range(len(m)):\nif 99<m[i]<1000 and m[i] % 10 == 5:\nminch = min(minch, m[i])\n\nk = 0\nminsum = 200000\nfor i in range(len(m)-1):\nif (99<m[i]<1000 and (m[i+1] < 100 or m[i+1] >= 1000)) or \\\n(99<m[i+1]<1000 and (m[i+1] < 100 or m[i+1] >= 1000)):\nif (m[i] + m[i+1]) % minch == 0:\nk += 1\nminsum = min(minsum, m[i] + m[i+1])\nprint(k, minsum)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1519,
+    "title": "№17 Актуальные"
+  },
+  "id": 23631,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12 375",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: DOSR2317_4\n(ДОСРОК 2023) В файле содержится последовательность натуральных чисел. Элементы последовательности могут принимать целые значения\nот 1 до 100 000 включительно. Определите количество пар последовательности, в которых только один из элементов является трёхзначным числом, а сумма элементов пары кратна минимальному трёхзначному элементу последовательности, оканчивающемуся на 5. В ответе запишите количество найденных пар, затем минимальную из сумм элементов таких пар. В данной задаче под парой подразумевается два идущих подряд элемента последовательности.\nФайл: 2_17.txt",
+      "error_conditions": [],
+      "id": 243356,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 360,
+  "topic": {
+    "id": 36,
+    "title": "Обработка числовой последовательности"
+  },
+  "video_link": null
+}

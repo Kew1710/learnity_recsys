@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Клубень картофеля, луковица тюльпана, кочан капусты — это видоизменения побегов. Корнеплод свёклы, клубеньки на корнях бобовых — это видоизменения корней.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2526,
+    "title": "Многообразие растений"
+  },
+  "id": 16721,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "135",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nВидоизменениями побегов являются\n- клубень картофеля\n- корнеплод свёклы\n- луковица тюльпана\n- клубенёк фасоли\n- кочан капусты\n- микориза осин",
+      "error_conditions": [],
+      "id": 236628,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

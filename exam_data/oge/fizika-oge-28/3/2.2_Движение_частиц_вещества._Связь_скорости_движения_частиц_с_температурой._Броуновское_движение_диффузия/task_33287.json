@@ -1,0 +1,42 @@
+{
+  "comment": "Хаотическое движение частиц это броуновское движение (выбираем 1)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3241,
+    "title": "2.2 Движение частиц вещества. Связь скорости движения частиц с температурой. Броуновское движение, диффузия"
+  },
+  "id": 33287,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Под микроскопом рассматривают каплю молока. Видно, что частицы жира находятся в непрерывном хаотическом движении. Какое явление наблюдается в этом опыте?\n1) броуновское движение\n2) атмосферное давление\n3) теплопроводность\n4) диффузия",
+      "error_conditions": [],
+      "id": 252926,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

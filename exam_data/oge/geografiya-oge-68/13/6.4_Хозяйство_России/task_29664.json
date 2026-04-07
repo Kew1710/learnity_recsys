@@ -1,0 +1,42 @@
+{
+  "comment": "Составляем пропорцию:\n1 944 195  — 100%\n1 415 644  — Х.\nИмеем (1 415 644  · 100) : 1 944 195  =  73%.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2973,
+    "title": "6.4 Хозяйство России"
+  },
+  "id": 29664,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "73",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите долю городского населения (в %) в общей численности населения Омской области, если известно, что общая численность её населения на 1 января 2019 г. составляла 1 944 195 человек, а численность городского населения – 1 415 644 человека. Полученный результат округлите до целого числа.",
+      "error_conditions": [],
+      "id": 249303,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

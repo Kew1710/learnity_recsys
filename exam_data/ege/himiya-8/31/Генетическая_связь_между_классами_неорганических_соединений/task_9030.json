@@ -1,0 +1,37 @@
+{
+  "comment": "1) 2Cu(NO₃)₂ = 2CuO + 4NO₂ + O₂\n2) 4NO₂ + O₂ + 2H₂O = 4HNO₃\n3) Ca₃P₂ + 6H₂O = 3Ca(OH)₂ + 2PH₃\n4) PH₃ + 8HNO₃ = H₃PO₄ + 8NO₂ + 4H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 9030,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Смесь газов, полученную при прокаливании нитрата меди(II), поглотили водой, при этом образовалась кислота. Фосфид кальция обработали водой, при этом выделился газ. Этот газ осторожно пропустили через горячий концентрированный раствор полученной кислоты. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112687,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

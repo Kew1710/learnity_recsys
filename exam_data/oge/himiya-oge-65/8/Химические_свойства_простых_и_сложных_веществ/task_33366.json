@@ -1,0 +1,46 @@
+{
+  "comment": "Оксид натрия (\\(Na_{2}O\\)) - основный оксид, реагирует с кислотными оксидами, кислотами и водой (так как ему соответствует сильное основание)\n\n2) \\(3Na_{2}O + P_{2}O_{5} = 2Na_{3}PO_{4}\\)\n4) \\(Na_{2}O + H_{2}O = 2NaOH\\)\n\nНе взаимодействует с солями (\\(CaCO_{3}\\)) и азотом (\\(N_{2}\\)), с основаниями (\\(Ba(OH)_{2}\\)), так как основное с основным не реагирует",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2889,
+    "title": "Химические свойства простых и сложных веществ"
+  },
+  "id": 33366,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        },
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какие два из перечисленных веществ вступают в реакцию с оксидом натрия?\n\n1) \\(N_{2}\\)\n2) \\(P_{2}O_{5}\\)\n3) \\(Ba(OH)_{2}\\)\n4) \\(H_{2}O\\)\n5) \\(CaCO_{3}\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 253005,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

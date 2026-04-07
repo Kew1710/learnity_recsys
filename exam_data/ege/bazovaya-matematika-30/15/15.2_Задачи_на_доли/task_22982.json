@@ -1,0 +1,42 @@
+{
+  "comment": "Зерновые культуры занимаю 4 части земель, бахчевые - 5 частей. Всего 9 частей.\nТогда бахчевые культуры \\(\\frac{5}{9}\\) всех земель.\n$$63 \\cdot \\frac{5}{9} = 7 \\cdot 5 = 35$$\nОтвет: 35 гектаров.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2115,
+    "title": "15.2 Задачи на доли"
+  },
+  "id": 22982,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь земель фермерского хозяйства, отведённых под посадку сельскохозяйственных культур, составляет 63 гектара и распределена между зерновыми и бахчевыми культурами в отношении 4 : 5 соответственно. Сколько гектаров занимают бахчевые культуры?",
+      "error_conditions": [],
+      "id": 242708,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

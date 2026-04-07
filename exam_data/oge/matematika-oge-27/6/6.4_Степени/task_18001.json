@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 0,4 \\cdot (-10)^3 +7 \\cdot (-10)^2 +64=-0,4 \\cdot 10^3 +700+64=-400+764=364\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1935,
+    "title": "6.4 Степени"
+  },
+  "id": 18001,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "364",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( 0,4 \\cdot (-10)^3 +7 \\cdot (-10)^2 +64\\) .",
+      "error_conditions": [],
+      "id": 237851,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

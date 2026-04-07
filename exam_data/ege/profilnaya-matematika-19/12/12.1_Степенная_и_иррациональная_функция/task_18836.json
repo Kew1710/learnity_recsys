@@ -1,0 +1,45 @@
+{
+  "comment": "Немного преобразуем заданную функцию:\n$$y=(x+7)^2\\cdot (x+1)-6=(x^2+14x+49)\\cdot (x+1)-6$$\nТак как в точке минимума функции производная этой функции равна нулю, найдём сначала производную, воспользовавшись формулой производной произведения:\n$$y'=(2x+14)\\cdot (x+1)+(x+7)^2\\cdot 1$$\nНайдём точки, где \\(y'=0\\):\n$$(2x+14)\\cdot (x+1)+(x+7)^2\\cdot 1=0\\\\ 2(x+7)\\cdot (x+1)+(x+7)^2=0\\\\ (x+7)\\cdot (2x+2+x+7)=0$$\n$$\\displaystyle ( x+7) \\cdotp ( 3x+9) =0\\Leftrightarrow \\left[ \\begin{array}{l l}\nx=-7\\\\\nx=-3\n\\end{array} \\right.$$\nОтметим на числовой прямой знаки и поведение (убывание/возрастание) производной:\nВ точке наименьшего значения функции производная должна менять знак и из убывающей стать возрастающей, значит \\(x_\\min =-3\\).\nОтвет: -3.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 18836,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y=(x+7)^2\\cdot (x+1)-6\\).",
+      "error_conditions": [],
+      "id": 238674,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=9792s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=9792s"
+}

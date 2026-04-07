@@ -1,0 +1,42 @@
+{
+  "comment": "1 E Дополненное предложение означает, что люди могут достичь того же уровня физической подготовки, выполняя упражнения и тренируясь гораздо меньше, чем обычно.\n\n2 В Дополненное предложение означает, что в исследовании участвовали студенты, регулярно выполнявшие упражнения и тренировавшиеся до начала исследования.\n\n3 G Дополненное предложение означает, что одна группа выполняла комплекс из восьми упражнений один раз, в то время как вторая группа выполняла те же упражнения три раза.\n\n4 А Дополненное предложение означает, что более короткие занятия в спортивном зале могут дать такой же результат, как и более длительные.\n\n5 D Дополненное предложение продолжает пояснение сути \"тренировки с перерывами\" (\"interval training\").\n\n6 F Дополненное предложение означает, что он надеется, что больше людей станет тренироваться, когда они поймут, что для повышения уровня физической подготовки им не обязательно проводить на тренировках много времени.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 812,
+    "title": "Понимание структурно-смысловых связей в тексте"
+  },
+  "id": 1606,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1e 2b 3g 4a 5d 6f",
+          "points": 6
+        }
+      ],
+      "comment": "",
+      "description": "Прочитайте текст и заполните пропуски 1-6 частями предложений A-G. Одна из частей в списке A-G - лишняя. Перенесите ответы в таблицу.\n\nA QUICK WORKOUT CAN DO YOU AS MUCH GOOD AS A LONG ONE\n\nFor those who are too busy to spend as long exercising at the gym as they would like - and for those who are a bit lacking in the willpower department - there is good news. Researchers have found that fitness enthusiasts can reduce the time they spend working out by two-thirds 1 _________ .\n\nA study involving male weightlifters has suggested that there is no point in exercising for long periods. Those who exercised less saw a significant decrease in body fat. The study focused on 16 students aged 19 to 23, 2 _________ . They were split into two groups. Both carried out upper-body training three times a week for eight weeks. One group did one series of eight repetitions, 3 _________ . At the end of the study, both groups had improved 'significantly' in terms of muscular strength, said the researchers.\n\nReport author Dr Julien Baker said: 'This study indicates that it is unnecessary 4 _________ and that a shorter work-out may achieve the same results. Many fitness classes are now shorter in duration and promise results in quicker times, and there is much research to suggest that interval training - intense activity 5 _________ - and shorter, high-intensity workouts - performing at 80 percent of your maximum aerobic capacity - can achieve maximum results in shorter periods. This kind of research may see a change in the way we exercise and show that it may be better to do a number of regular express workouts which would fit in with the busy lives that many lead. '\n\nDr Baker said he also hoped the findings would encourage more people 6 _________ . \"The more people we get doing a little exercise which is beneficial, as opposed to fewer people doing a lot of exercise, the better it will be,\" he added.\n\nA. to spend hours at the gym\nB. who already worked out regularly\nC. but this made no difference\nD. followed by a short recovery period\nE. and still achieve the same results\nF. to take up exercise\nG. while the other did three sets of the same exercise",
+      "error_conditions": [],
+      "id": 53941,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 6,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

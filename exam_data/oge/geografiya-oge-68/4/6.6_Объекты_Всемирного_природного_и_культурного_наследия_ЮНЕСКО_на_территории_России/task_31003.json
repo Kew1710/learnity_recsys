@@ -1,0 +1,42 @@
+{
+  "comment": "На территории Астраханского заповедника находится дельта Волги.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2968,
+    "title": "6.6 Объекты Всемирного природного и культурного наследия ЮНЕСКО на территории России"
+  },
+  "id": 31003,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Группа школьников из Мурманска хочет своими глазами увидеть необычную для них природу дельты наиболее протяжённой реки европейской части России. Какой из перечисленных заповедников им нужно для этого посетить?\n- Астраханский\n- Байкало-Ленский\n- Ильменский\n- Жигулевский",
+      "error_conditions": [],
+      "id": 250642,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

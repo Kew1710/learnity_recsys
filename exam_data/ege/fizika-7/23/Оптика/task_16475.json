@@ -1,0 +1,37 @@
+{
+  "comment": "Формула дифракционной решетки:\n$$d\\sin\\varphi =\\lambda k$$\nПри малых углах:\n$$\\sin\\varphi\\approx tg\\varphi=\\frac{x}{F}$$\n$$d\\frac{x}{F}=\\lambda k$$\nОткуда:\n$$x=\\frac{\\lambda kF}{d}$$\nПериод дифракционной решетки:\n$$d=\\frac{l}{N}$$\nТогда:\n$$x=\\frac{\\lambda kFN}{l}$$\nШирина спектра:\n$$x_{\\mathrm{кр}}-x_{\\mathrm{ф}}=\\frac{\\lambda_{\\mathrm{кр}}kFN}{l}-\\frac{\\lambda_{\\mathrm{ф}} kFN}{l}=\\frac{kFN}{l}\\left (\\lambda_{\\mathrm{кр}}-\\lambda_{\\mathrm{ф}}\\right )$$\nЧисло штрихов, приходящееся на \\(1~\\mathrm{см}\\) дифракционной решетки:\n$$N=\\frac{l(x_{\\mathrm{кр}}-x_{\\mathrm{ф}})}{kF\\left (\\lambda_{\\mathrm{кр}}-\\lambda_{\\mathrm{ф}}\\right )}=\\frac{0,01\\cdot 0,08}{2\\cdot 2\\cdot \\left (8\\cdot 10^{-7}-4\\cdot 10^{-7}\\right )}=500$$\nОтвет: 500",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 16475,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "К решетке вплотную поставили линзу, которая собирает лучи в одной точке на экране. Линза расположена между решеткой и экраном. Расстояние от линзы до экрана \\(2~\\mathrm{м}\\). Ширина спектра второго порядка \\(8~\\mathrm{см}\\). Длина волны красного света \\(8\\cdot 10^{-7}~\\mathrm{м}\\) и фиолетового света \\(4\\cdot 10^{-7}~\\mathrm{м}\\). Найдите, сколько штрихов приходится на \\(1~\\mathrm{см}\\) решетки. \\(\\sin\\varphi\\approx \\mathrm{tg}\\, \\varphi\\approx\\varphi\\).",
+      "error_conditions": null,
+      "id": 236382,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/GXsBAQx8Ix8?t=5554"
+}

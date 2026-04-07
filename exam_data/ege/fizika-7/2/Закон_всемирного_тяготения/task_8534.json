@@ -1,0 +1,42 @@
+{
+  "comment": "Расстояние от спутника массой \\(m\\) до центра Земли:\n$$r_1=4R$$\nРасстояние от спутника массой \\(4m\\) до центра Земли:\n$$r_2=5R$$\nСила взаимодействия тел:\n$$F=G\\frac{m_1m_2}{r^2}$$\nТогда отношение сил взаимодействия Земли со вторым и первым спутниками:\n$$\\frac{F_2}{F_1}=\\frac{G\\frac{4mM}{(5R)^2}}{G\\frac{mM}{(4R)^2}}=\\frac{G \\cdot 4 \\cdot m \\cdot M \\cdot 16 \\cdot R^2}{G \\cdot m \\cdot M \\cdot 25 \\cdot R^2}=\\frac{4\\cdot 16}{25}=2,56$$\nОтвет: 2,56",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3207,
+    "title": "Закон всемирного тяготения"
+  },
+  "id": 8534,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2,56",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Два спутника массами \\(m\\) и \\(4m\\) соответственно движутся вокруг Земли. Первый спутник находится от поверхности Земли на расстоянии, равном трем ее радиусам, второй – четырем радиусам. Определите, во сколько раз сила взаимодействия Земли со вторым спутником больше, чем сила взаимодействия Земли с первым спутником.",
+      "error_conditions": [],
+      "id": 102884,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/G0i96dEtZLM"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/G0i96dEtZLM"
+}

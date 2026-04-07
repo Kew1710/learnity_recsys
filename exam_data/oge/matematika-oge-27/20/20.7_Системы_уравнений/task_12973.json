@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\begin{cases}& 3x^2+2y^2 = 45(1)\\\\ & 9x^2 + 6y^2 = 45x(2)\\end{cases}\\)\nУмножим обе части первого уравнения на \\(-3\\)\n\\(\\begin{cases}& -9x^2-6y^2 = -45 \\cdot 3(1)\\\\ & 9x^2 + 6y^2 = 45x(2)\\end{cases}\\)\nСложим уравнения (1) и (2)\n\\(-45x = -45 \\cdot 3\\)\n\\(x=3\\)\nПодставим \\(x = 3\\) в уравнение (1)\n\\(3 \\cdot 9 + 2 \\cdot y^2 = 45\\)\n\\(y^2 = 9\\)\n\\(( y - 3)( y +3) = 0\\)\n\\(y=3\\) или \\(y = -3\\)\n\\(\\begin{cases}& x =3\\\\ & y = 3\\end{cases}\\)\nили\n\\(\\begin{cases}& x =3\\\\ & y = -3\\end{cases}\\)\nОтвет: \\( (3; 3) \\cup (3; -3) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2054,
+    "title": "20.7 Системы уравнений"
+  },
+  "id": 12973,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите систему уравнений \\(\\begin{cases}& 3x^2+2y^2 = 45\\\\ & 9x^2+6y^2 = 45x\\end{cases}\\) .",
+      "error_conditions": null,
+      "id": 174325,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

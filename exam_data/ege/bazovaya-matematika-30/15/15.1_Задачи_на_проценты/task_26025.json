@@ -1,0 +1,42 @@
+{
+  "comment": "В начале года в школе 600 учащихся - это 100%.\nК концу года их стало 630, то есть на 630 - 600 = 30 учащихся больше.\nПроцент, на который выросло число обучающихся:\n$$\\frac{30}{600} \\cdot 100\\% = 5\\%$$\nОтвет: 5.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2114,
+    "title": "15.1 Задачи на проценты"
+  },
+  "id": 26025,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В начале учебного года в школе было 600 учащихся, а к концу года их стало 630. На сколько процентов увеличилось за учебный год число учащихся?",
+      "error_conditions": [],
+      "id": 245664,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

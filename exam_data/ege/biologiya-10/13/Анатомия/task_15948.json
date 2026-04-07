@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: венозная кровь течет по легочному стволу, который обозначен цифрой 1. По нему венозная кровь из правого желудочка поступает в малый круг кровообращения, где и насыщается кислородом",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 15948,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой цифрой на рисунке обозначена артерия, по которой течет венозная кровь?",
+      "error_conditions": [],
+      "id": 235855,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

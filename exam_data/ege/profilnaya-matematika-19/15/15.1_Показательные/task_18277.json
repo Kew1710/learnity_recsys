@@ -1,0 +1,40 @@
+{
+  "comment": "Пусть \\(k=9^x-2\\cdot 3^x\\), тогда:\n$$k^2-62k-63\\geq 0\\\\ (k-63)(k+1)\\geq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l}\nk\\leq -1\\\\\nk\\geq 63\n\\end{array} \\right.$$\nСделаем обратную замену:\n$$\\displaystyle \\left[ \\begin{array}{l l}\n9^{x} -2\\cdotp 3^{x} \\leq -1\\\\\n\\ 9^{x} -2\\cdotp 3^{x} \\geq 63\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\n\\ 3^{2x} -2\\cdotp 3^{x} +1\\leq 0\\\\\n3^{2x} -2\\cdotp 3^{x} -63\\geq 0\n\\end{array} \\right.$$\nСделаем замену:\n$$t=3^x$$\n$$\\displaystyle \\left[ \\begin{array}{l l}\n\\ t^{2} -2t+1\\leq 0\\\\\nt^{2} -2t-63\\geq 0\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\n\\ \\ \\ \\ ( t-1)^{2} \\leq 0\\\\\n( t-9)( t+7) \\geq 0\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\n\\ t=1\\\\\nt\\leq -7\\\\\n\\ t\\geq 9\n\\end{array} \\right.$$\nСделаем обратную замену:\n$$\\displaystyle \\left[ \\begin{array}{l l}\n\\ \\ 3^{x} =1\\\\\n3^{x} \\leq -7\\\\\n\\ \\ 3^{x} \\geq 9\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\nx=0\\\\\n\\ \\ \\ \\emptyset \\\\\nx\\geq 2\n\\end{array} \\right.$$\nЗначит:\n\\(x\\in\\){\\(0\\)}\\(\\cup [2;+\\infty )\\).\nОтвет: {\\(0\\)}\\(\\cup [2;+\\infty )\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 18277,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\((9^x-2\\cdot 3^x)^2-62(9^x-2\\cdot 3^x)-63\\geq 0\\).",
+      "error_conditions": null,
+      "id": 238119,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 49,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/watch?v=4qG4CelZUJw#t=91m00s"
+}

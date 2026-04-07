@@ -1,0 +1,45 @@
+{
+  "comment": "График функции представляет собой параболу с \\(a=1\\). Перепишем функцию в виде\n$$f(x)=a(x-x_0)^2+f(x_0)$$\nгде \\((x_0,f(x_0))\\) — координаты вершины параболы.\nВершина параболы находится в точке \\((-4; -3)\\), \\(a = 1\\), значит\n$$f(x)=(x+4)^2-3$$\nТогда:\n$$f(-12)=(-12+4)^2-3=64-3=61$$\nОтвет: 61.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2438,
+    "title": "11.2 Квадратичная функция"
+  },
+  "id": 18850,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "61",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график функции вида \\(f(x)=ax^2+bx+c\\), где числа \\(a,b\\) и \\(c\\) - целые. Найдите значение \\(f(-12)\\).",
+      "error_conditions": [],
+      "id": 238688,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=10623s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=10623s"
+}

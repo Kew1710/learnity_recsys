@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2941,
+    "title": "Дыхательная система"
+  },
+  "id": 27814,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "624351",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность прохождения воздуха по дыхательной системе человека при вдохе. Запишите цифры в правильной последовательности в таблицу.\n\n1) альвеола\n2) гортань\n3) бронх\n4) трахея\n5) бронхиола\n6) носовая полость",
+      "error_conditions": [],
+      "id": 247453,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

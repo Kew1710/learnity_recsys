@@ -1,0 +1,42 @@
+{
+  "comment": "длинные - прилагательное, стык основы на –н- (длин) и суффикса –н-, НН\nсделанные - причастие, сов. вид + приставка + зависимые слова, НН\nобыкновенной - прилагательное, суффикс -енн-, НН\nприкреплены - краткое причастие, Н",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12836,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\nНа ногах у водолаза дли(1)ые ласты, сдела(2)ые из обыкнове(3)ой резины, а к спине прикрепле(4)ы баллоны с воздухом.",
+      "error_conditions": [],
+      "id": 174019,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

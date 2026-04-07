@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\n\\( \\cfrac{IP}{PJ}=\\cfrac{m}{n} \\)\nДоказать:\n\\( \\cfrac{d_1}{d_2}=\\cfrac{m}{n} \\)\nДоказательство:\n1. Проведем IM - радиус; JN - радиус\n\\( \\Rightarrow IM \\perp MN\\) - св-во касательной\n\\( \\Rightarrow JN \\perp MN\\) - св-во касательной\n\\( \\angle IPM = \\angle NPJ\\) - вертикальные\n\\( \\triangle POK \\sim \\triangle OEQ \\)\n\\( \\cfrac{PK}{EQ}=\\cfrac{PO}{OQ}=\\cfrac{a}{b} \\)\n\\( \\Rightarrow \\cfrac{R_1}{R_2}=\\cfrac{a}{b}\\)\n\\( \\cfrac{d_1}{d_2}=\\cfrac{2R_1}{2R_2}=\\cfrac{2m}{2n}=\\cfrac{m}{n}\\), ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1946,
+    "title": "24.4 Окружность"
+  },
+  "id": 13067,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружности с центрами в точках I и J не имеют общих точек, и ни одна из них не лежит внутри другой. Внутренняя общая касательная к этим окружностям делит отрезок, соединяющий их центры, в отношении m:n. Докажите, что диаметры этих окружностей относятся как m:n.",
+      "error_conditions": null,
+      "id": 175642,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

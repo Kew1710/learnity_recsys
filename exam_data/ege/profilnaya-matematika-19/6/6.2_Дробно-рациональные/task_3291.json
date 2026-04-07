@@ -1,0 +1,45 @@
+{
+  "comment": "Числители равных дробей равны, значит, их знаменатели тоже.\n$$3x+7=2x-14\\\\ x=-21$$\nОтвет: -21",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2400,
+    "title": "6.2 Дробно-рациональные"
+  },
+  "id": 3291,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-21",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\frac{1}{3x+7}=\\frac{1}{2x-14}\\).",
+      "error_conditions": [],
+      "id": 64960,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3348"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/XgO1AwpGwNM?start=3348"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(\\angle MQC=\\angle MBC\\) (вписанные углы, опирающиеся на одну дугу)\n\\(AMPC\\) - вписанный четырехугольник \\(\\Rightarrow\\angle MPC={180}^{\\circ}-\\angle CAM\\)\n$$\\angle MPQ={180}^{\\circ}-\\angle MPC={180}^{\\circ}-({180}^{\\circ}-\\angle CAM)=\\angle CAM$$\nИз \\(\\Delta ABC\\):\n$$\\angle CAM+\\angle MBC={180}^{\\circ}-\\angle ACB={90}^{\\circ}$$\nРассмотрим \\(\\Delta MPQ\\):\n$$\\angle PMQ={180}^{\\circ}-\\angle MPQ-\\angle MQC={180}^{\\circ}-\\angle CAM-\\angle MBC={180}^{\\circ}-{90}^{\\circ}={90}^{\\circ}\\Rightarrow PM\\bot QM$$\nб)\n\\(\\angle AMC={90}^{\\circ}\\) (вписанный и опирается на диаметр \\(AC\\))\n\\(CM\\) - высота из прямого угла, значит:\n$$CM^2=AM\\cdot MB=1\\cdot 3=3\\\\ CM=\\sqrt{3}$$\nТак как \\(Q\\) - середина дуги \\(MB\\), то стороны \\(MQ=QB\\) (равные хорды стягивают равные дуги)\nИз \\(\\Delta AMC\\) по т. Пифагора:\n$$AC=\\sqrt{1+3}=2$$\nИз \\(\\Delta BMC\\) по т. Пифагора:\n$$BC=\\sqrt{3+3}=2\\sqrt{3}$$\nПусть \\(\\angle CAM=\\alpha\\), тогда из \\(\\Delta AMC\\):\n$$\\sin\\alpha=\\frac{\\sqrt{3}}{2}\\Rightarrow\\alpha=60$$\nТогда \\(\\angle MPQ=\\alpha={60}^{\\circ}\\), и \\(\\angle PQM={90}^{\\circ}-\\alpha={30}^{\\circ}\\)\n\\(\\angle MCB=\\angle CAM=\\alpha={60}^{\\circ}\\) (т.к. \\(CM\\) - высота)\n\\(\\cup MB=2\\angle MCB={120}^{\\circ}\\) (вписанный угол половине дуги)\nЗначит \\(\\cup MQ=\\frac{\\cup MB}{2}={60}^{\\circ}\\Rightarrow\\angle MCQ={30}^{\\circ}\\) (вписанный угол равен половине дуги)\nПо теореме синусов в \\(\\Delta MQC\\):\n$$\\frac{MQ}{\\sin MCQ}=\\frac{MC}{\\sin MQC}\\Rightarrow\\frac{MQ}{\\sin{{30}^{\\circ}}}=\\frac{\\sqrt{3}}{\\sin{{30}^{\\circ}}}\\Rightarrow MQ=\\sqrt{3}$$\nИз \\(\\Delta MPQ\\):\n$$\\cos MQP=\\frac{MQ}{PQ}\\Rightarrow PQ=\\frac{MQ}{\\cos{{30}^{\\circ}}}=\\frac{\\sqrt{3}}{\\frac{\\sqrt{3}}{2}}=2$$\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2489,
+    "title": "17.9 Система окружностей"
+  },
+  "id": 9716,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "На катетах \\(AC\\) и \\(BC\\) прямоугольного треугольника \\(ABC\\) как на диаметрах построены окружности, второй раз пересекающиеся в точке \\(M\\). Точка \\(Q\\) лежит на меньшей дуге \\(MB\\) окружности с диаметром \\(BC\\). Прямая \\(CQ\\) второй раз пересекает окружность с диаметром \\(AC\\) в точке \\(P\\).\nа)  Докажите, что прямые \\(PM\\) и \\(QM\\) перпендикулярны.\nб)  Найдите \\(PQ\\), если \\(AM=1\\), \\(BM=3\\), а \\(Q\\)  — середина дуги \\(MB\\).",
+      "error_conditions": null,
+      "id": 117433,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

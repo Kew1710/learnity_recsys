@@ -1,0 +1,45 @@
+{
+  "comment": "График прямой: коэффициент \\(k\\) равен тангенсу угла наклона графика функции. Найдем \\(k\\) из прямоугольного треугольника, который образуется с помощью графика: \\(k=\\frac{4}{1} =4\\) \\(b\\) можно найти как пересечение графика функции с осью \\(Oy\\Rightarrow b =0\\).\n\nГрафик параболы: коэффициент \\(c\\) можно найти, как пересечение графика функции \\(c\\) осью \\(Oy\\Rightarrow C = 0\\).\n\nВозьмем точки с координатами \\((1;0)\\) \\((2;2)\\) и подставим в уравнение параболы.\n$$ \\begin{cases}\na+b=0\\\\\n4a+2b=2\n\\end{cases} \\Rightarrow \\begin{cases}\n2a+2b=0\\\\\n4a+2b=2\n\\end{cases} \\Rightarrow 2a=2\\Rightarrow a=1$$\nНайдем \\(b:b=-1\\)\n$$f( x) =x^{2} -x\\ и\\ g( x) =4x$$\nЧтобы найти абсциссы точек пересечения, нужно приравнять значения функций.\n$$x^{2} -x=4x\\Rightarrow x( x-5) =0\\\\ x=0~( точка~ A)\\\\ x=5~ ( точка~ B)$$\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2443,
+    "title": "11.7 Поиск точки пересечения графиков"
+  },
+  "id": 3884,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график функции вида \\(f(x) = ax^2+bx+c\\) и \\(g(x) = kx\\), пересекающиеся в точках \\(A\\) и \\(B\\). Найдите абсциссу точки \\(B\\).",
+      "error_conditions": [],
+      "id": 66198,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Z4B04Ngk3nE?start=2310"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://www.youtube.com/embed/Z4B04Ngk3nE?start=2310"
+}

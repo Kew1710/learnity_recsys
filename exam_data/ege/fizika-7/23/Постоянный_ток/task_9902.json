@@ -1,0 +1,37 @@
+{
+  "comment": "В первом случае общее сопротивление цепи равно:\n$$\\frac{1}{R_{общ1}}=\\frac{1}{R}+\\frac{1}{R}+\\frac{1}{R}\\Rightarrow R_{общ1}=\\frac{R}{3}$$\nВо втором случае общее сопротивление цепи равно:\n$$R_{общ2}=R+R+R=3R$$\nПо закону Ома для полной цепи:\n$$\\downarrow I=\\frac{\\varepsilon}{R_{общ}\\uparrow +r}\\Rightarrow I_2=\\frac{I_1}{4}\\Rightarrow 4I_2=I_1$$\nСилы токов соответственно равны:\n$$I_1=\\frac{\\varepsilon}{\\frac{R}{3}+r}\\\\ I_2=\\frac{\\varepsilon}{3R+r}$$\nОбъединив формулы, получим:\n$$\\frac{4\\varepsilon}{3R+r}=\\frac{\\varepsilon}{\\frac{R}{3}+r}\\Rightarrow\\frac{4}{3R+r}=\\frac{3}{R+3r}\\Rightarrow r=\\frac{5}{9}R=5~Ом$$\nОтвет: 5 Ом",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 9902,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23566\nК источнику постоянного напряжения подключают три одинаковых резистора сопротивлением \\(9\\) Ом: первый раз параллельно, а второй – последовательно. Вследствие этого показания идеального амперметра (см. рисунок) отличаются в \\(4\\) раза. Найдите внутреннее сопротивление источника напряжения.",
+      "error_conditions": null,
+      "id": 120038,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/UqUaGhbFLh0"
+}

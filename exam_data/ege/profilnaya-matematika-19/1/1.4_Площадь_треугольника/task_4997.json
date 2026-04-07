@@ -1,0 +1,45 @@
+{
+  "comment": "\\(\\triangle{ADF}\\sim \\triangle{ACB}\\) по двум углам \\((\\angle{A}\\) - общий, \\(\\angle{AFD} = \\angle{ABC}\\) как соответственные\\()\\) $$k=\\frac{1}{2}\\\\ \\frac{S_{ADF}}{S_{ACB}}=k^2=\\frac{1}{4}\\\\ S_{ACB}=4\\cdot S_{ADF}=160$$\nОтвет: 160",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2375,
+    "title": "1.4 Площадь треугольника"
+  },
+  "id": 4997,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "160",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC~DF\\) − средняя линия. Площадь треугольника \\(ADF\\) равна \\(40\\). Найдите площадь треугольника \\(ABC\\).",
+      "error_conditions": [],
+      "id": 70231,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=1234"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=1234"
+}

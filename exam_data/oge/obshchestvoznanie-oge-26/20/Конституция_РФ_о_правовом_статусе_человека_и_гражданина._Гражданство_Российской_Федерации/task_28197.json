@@ -1,0 +1,46 @@
+{
+  "comment": "Пояснение: представлено определение термина “обязанность” (то, как должен вести себя гражданин в обществе)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3065,
+    "title": "Конституция РФ о правовом статусе человека и гражданина. Гражданство Российской Федерации"
+  },
+  "id": 28197,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "обязанность",
+          "points": 1
+        },
+        {
+          "answer": "обязанность",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Заполните пропуск в таблице.\n\nЭлемент статуса гражданинаХарактеристикаПраво (свобода)Возможность человека свободно действовать в соответствии со своими интересами, претендовать на достойные условия жизни…Установленная государством мера необходимого (должного) поведения гражданина в обществе",
+      "error_conditions": [],
+      "id": 247836,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=yrjX_kWB4Fqu9GZJ&t=2318"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/BJewlCdej3Y?si=yrjX_kWB4Fqu9GZJ&t=2318"
+}

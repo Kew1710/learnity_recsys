@@ -1,0 +1,42 @@
+{
+  "comment": "Сила гидростатического давления:\n$$F=pS$$\nГидростатическое давление:\n$$p=\\rho_кgh\\\\ F=\\rho_кghS=800\\cdot 10\\cdot 3,5\\cdot 12=336~кН$$\nОтвет: 336 кН",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2619,
+    "title": "Гидростатика"
+  },
+  "id": 8740,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "336",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Цилиндрический вертикальный резервуар высотой \\(4\\) м заполняют керосином так, что уровень жидкости на \\(0,5\\) м ниже края резервуара. Чему равна сила давления жидкости на дно резервуара, если известно, что площадь его дна равна \\(12~м^2\\)? Ответ дайте в кН.",
+      "error_conditions": [],
+      "id": 111672,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/xlij4SJqKnI"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/xlij4SJqKnI"
+}

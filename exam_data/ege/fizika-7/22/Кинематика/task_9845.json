@@ -1,0 +1,37 @@
+{
+  "comment": "Так как траектория движения тела симметрична:\n$$t_{подъема}=t_{падения}$$\n$$t_A=2t_B$$\nТак как движение по оси х равномерное:\n$$l=v_{0x}\\cdot 2t_B\\Rightarrow t_B=\\frac{l}{2v_{0x}}=\\frac{30}{2\\cdot 6}=2,5~с$$\n\nОтвет: 2,5 с",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2622,
+    "title": "Кинематика"
+  },
+  "id": 9845,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "235315\nНебольшое тело бросают с горизонтальной поверхности Земли под углом к горизонту, при этом оно приземляется на расстоянии \\(30\\) м от точки броска. Спустя какое время после броска тело поднялось на максимальную высоту, если в данной точке траектории его скорость равна \\(6\\) м/с?",
+      "error_conditions": null,
+      "id": 119864,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/1UMQ0i5yY9g"
+}

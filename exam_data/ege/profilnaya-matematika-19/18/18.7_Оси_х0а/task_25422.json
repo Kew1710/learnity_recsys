@@ -1,0 +1,40 @@
+{
+  "comment": "Преобразуем исходное уравнение:\n$$\\frac{(3x-a)(3x+a)}{(x+4)^2-a^2}=0\\\\ \\frac{(3x-a)(3x+a)}{(x+4-a)(x+4+a)}=0$$\nПроизведение равно нулю, если хотя бы один из множителей равен нулю. При этом остальные множители не должны терять смысл. Таким образом, уравнение преобразуется в:\n$$\\displaystyle \\begin{cases} \\left[ \\begin{array}{l l} 3x-a=0\\\\ 3x+a=0 \\end{array} \\right.\\\\ x+4-a\\neq 0\\\\ x+4+ a\\neq 0 \\end{cases} \\Leftrightarrow \\begin{cases} \\left[ \\begin{array}{l l} x=\\frac{a}{3}\\\\ x=-\\frac{a}{3} \\end{array} \\right.\\\\ x\\neq a-4\\\\ x\\neq -a-4 \\end{cases}$$\nЕсли корни уравнения совпадут, то решение будет только одно, то есть:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\begin{cases} \\left[ \\begin{array}{l l} x=\\frac{a}{3}\\\\ x=-\\frac{a}{3} \\end{array} \\right.\\\\ \\frac{a}{3} \\neq -\\frac{a}{3}\\\\ x\\neq a-4\\\\ x\\neq -a-4 \\end{cases} \\Rightarrow \\begin{cases} \\frac{a}{3} \\neq -\\frac{a}{3}\\\\ \\frac{a}{3} \\neq a-4\\\\ \\frac{a}{3} \\neq -a-4\\\\ -\\frac{a}{3} \\neq a-4\\\\ -\\frac{a}{3} \\neq -a-4 \\end{cases} \\Leftrightarrow \\begin{cases} a\\neq 0\\\\ a\\neq 6\\\\ a\\neq -3\\\\ a\\neq 3\\\\ a\\neq -6 \\end{cases} \\Rightarrow \\\\ \\Rightarrow a\\in ( -\\infty ;-6) \\cup ( -6;-3) \\cup ( -3;0) \\cup ( 0;3) \\cup ( 3;6) \\cup ( 6;\\infty ) \\end{array}$$\nОтвет: \\(a\\in ( -\\infty ;-6) \\cup ( -6;-3) \\cup ( -3;0) \\cup ( 0;3) \\cup ( 3;6) \\cup ( 6;\\infty )\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2496,
+    "title": "18.7 Оси х0а"
+  },
+  "id": 25422,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения \\(a\\), при каждом из которых уравнение\n$$\\frac{9x^2-a^2}{x^2+8x+16-a^2}=0$$\nимеет ровно два различных корня.",
+      "error_conditions": null,
+      "id": 245079,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/watch?v=0Pee6IId2cE&t=5438s"
+}

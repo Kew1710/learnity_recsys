@@ -1,0 +1,42 @@
+{
+  "comment": "Восстановить железо из его оксида можно с помощью классического восстановителя - угарного газа:\nFe₂O₃ + 3CO = 2Fe + 3CO₂\nВ одну стадию хлорид железа(II) можно получить вытеснив менее активный металл - медь из её соли:\nFe + CuCl₂ = FeCl₂ + Cu",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 9330,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) Cl₂\n2) CuCl₂\n3) CO₂\n4) CO\n5) AlCl₃",
+      "error_conditions": [],
+      "id": 113321,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

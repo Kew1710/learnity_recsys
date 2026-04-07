@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем реакцию: $$^{214}_{83}Bi{\\rightarrow} _{Z}^{A}X+^{0}_{-1}\\beta$$\nЗапишем закон сохранения массы: $$214=A+0 \\\\ A=214$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3285,
+    "title": "4.1 Радиоактивность. Альфа-, бета-, гамма-излучения. Реакции альфа- и бета-распада"
+  },
+  "id": 34536,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "214",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Радиоактивный изотоп висмута $^{214}_{83}Bi$ испытывает $\\beta^{-}$ распад. Чему равно массовое число ядра, полученного в результате этого распада?\n\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254175,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Систематические категории растений:\nЦарство (Растения) => Отдел (Цветковые) => Класс (Однодольные) => Порядок => Семейство (Злаковые) => Род (Мятлик) => Вид (Мятлик луговой).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 7801,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "534621",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность систематических групп растений, начиная с самого высокого ранга. Запишите в таблицу соответствующую последовательность цифр.\n1) Мятлик луговой\n2) Мятлик\n3) Покрытосеменные\n4) Однодольные\n5) Растения\n6) Злаковые",
+      "error_conditions": [],
+      "id": 100255,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/QxlYAivoMeo?start=1787"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/QxlYAivoMeo?start=1787"
+}

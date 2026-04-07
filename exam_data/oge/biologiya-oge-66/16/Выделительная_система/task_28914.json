@@ -1,0 +1,42 @@
+{
+  "comment": "3 – корковый слой почки\n5 – мозговой слой почки\n6 – мочеточник",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2942,
+    "title": "Выделительная система"
+  },
+  "id": 28914,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "124",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верно обозначенные подписи к рисунку, на котором изображена почка человека. Запишите в таблицу цифры, под которыми они указаны.\n\n1) артерия\n2) вена\n3) надпочечник\n4) пирамида\n5) мочевой пузырь\n6) почечная лоханка",
+      "error_conditions": [],
+      "id": 248553,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

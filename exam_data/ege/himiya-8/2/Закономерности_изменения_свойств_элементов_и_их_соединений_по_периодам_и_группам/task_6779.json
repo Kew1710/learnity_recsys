@@ -1,0 +1,42 @@
+{
+  "comment": "Элементы одного периода – As, Co, Se (4 период)\nЭлектроотрицательность элементов увеличивается при движении по периоду слева направо. Верный порядок: Co, As, Se",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2785,
+    "title": "Закономерности изменения свойств элементов и их соединений по периодам и группам"
+  },
+  "id": 6779,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "415",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из указанных в ряду химических элементов выберите три элемента, которые в Периодической системе химических элементов Д. И. Менделеева находятся в одном периоде.\nРасположите выбранные элементы в порядке увеличения электроотрицательности.\n1) As\n2) Al\n3) B\n4) Co\n5) Se",
+      "error_conditions": [],
+      "id": 75389,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/btQhQV5hYQA?start=798"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/btQhQV5hYQA?start=798"
+}

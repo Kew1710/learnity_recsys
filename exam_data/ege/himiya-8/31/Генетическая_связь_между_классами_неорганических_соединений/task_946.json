@@ -1,0 +1,37 @@
+{
+  "comment": "1) KOH + HClO₄ = KClO₄ + H₂O\n2) 3KClO₄ + 4Cr₂O₃ + 16KOH = 8K₂CrO₄ + 3KCl + 8H₂O\n3) 2K₂CrO₄ + H₂SO₄ = K₂Cr₂O₇ + K₂SO₄ + H₂O\n4) 4K₂Cr₂O₇ + 3PH₃ + 16H₂SO₄ = 4Cr₂(SO₄)₃ + 3H₃PO₄ + 4K₂SO₄ + 16H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 946,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Гидроксид калия прореагировал с хлорной кислотой. Одно из полученных веществ сплавили с оксидом хрома(III) и гидроксидом калия. Полученное соединение хрома поместили в разбавленный раствор серной кислоты. В образовавшийся раствор внесли еще серную кислоту и пропустили фосфин. Напишите уравнения четырех описанных реакций.",
+      "error_conditions": null,
+      "id": 52506,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/VXjq663s4AM?start=6517"
+}

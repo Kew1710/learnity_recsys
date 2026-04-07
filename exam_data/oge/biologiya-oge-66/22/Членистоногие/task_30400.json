@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ:\n1) комнатная муха;\n2) переносит возбудителей опасных заболеваний ИЛИ откладывает яйца в мясные продукты, где развиваются её личинки.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2930,
+    "title": "Членистоногие"
+  },
+  "id": 30400,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Рассмотрите рисунок с изображением насекомого. Укажите видовое (или родовое) название данного представителя класса Насекомые. Назовите одно из значений данного животного в жизни человека.",
+      "error_conditions": null,
+      "id": 250039,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

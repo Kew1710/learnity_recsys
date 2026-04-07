@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2542,
+    "title": "Общественный прогресс"
+  },
+  "id": 24218,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "16",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ниже приведён перечень признаков. Все они, за исключением двух, характеризуют динамичный характер общества.\n\n1) связь с природой; 2) изменение общественных отношений; 3) социальная мобильность; 4) отмена устаревших норм; 5) совершенствование социальной организации; 6) наличие социальных институтов.\n\nНайдите два признака, «выпадающих» из общего ряда, и запишите в таблицу цифры, под которыми они указаны.",
+      "error_conditions": [],
+      "id": 243933,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 7200,
+  "topic": null,
+  "video_link": null
+}

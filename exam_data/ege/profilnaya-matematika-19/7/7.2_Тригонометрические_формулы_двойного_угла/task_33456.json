@@ -1,0 +1,45 @@
+{
+  "comment": "Преобразуем выражение:\n$$\\sqrt{3}\\left(2\\cos^2\\frac{5\\pi}{12}-1\\right)$$\nПолученное в скобках выражение – косинус двойного угла, перейдем к нему:\n$$\\sqrt{3}\\cos\\left(2\\cdot\\frac{5\\pi}{12}\\right)=\\sqrt{3}\\cos\\left(\\frac{5\\pi}{6}\\right)=\\sqrt{3}\\cdot\\left(-\\frac{\\sqrt{3}}{2}\\right)=-1,5$$\nОтвет: -1,5",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 33456,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-1,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\sqrt{12}\\cos^2\\frac{5\\pi}{12}-\\sqrt{3}\\).",
+      "error_conditions": [],
+      "id": 253095,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=Qm_01jycQi1AKIrI&t=3192"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=Qm_01jycQi1AKIrI&t=3192"
+}

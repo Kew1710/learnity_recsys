@@ -1,0 +1,40 @@
+{
+  "comment": "Заметим, что в знаменателе стоит сумма квадратов плюс положительное число, а значит, на знаменатель можно умножить.\n$$5-a-(a^2-2a+1)\\sin x<\\cos^2x+a^2+2\\\\ \\sin^2x+2-a-(a^2-2a+1)\\sin x-a^2<0$$\nНа отрезке \\(\\left[0;\\frac{2\\pi}{3}\\right]\\) синус принимает значения от \\(0\\) до \\(1\\), при чем относительно синуса полученная в левой части неравенства функция – парабола, направленная ветвями вверх. Чтобы парабола была ниже нуля на отрезке от \\(0\\) до \\(1\\), она должна принимать отрицательные значения на границах этого отрезка:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} 2-a-\\left( a^{2} -2a+1\\right) \\cdot 0-a^{2} < 0\\\\ 1+2-a-\\left( a^{2} -2a+1\\right) \\cdot 1-a^{2} < 0 \\end{cases}\\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\begin{cases} -( a-1)( a+2) < 0\\\\ -2a^{2} +a+2< 0 \\end{cases}\\\\ \\ \\ \\begin{cases} ( a-1)( a+2) >0\\\\ \\left( a-\\frac{1-\\sqrt{17}}{4}\\right)\\left( a-\\frac{1+\\sqrt{17}}{4}\\right) >0 \\end{cases} \\end{array}$$\nПолучаем ответ: \\((-\\infty;-2)\\cup\\left(\\frac{1+\\sqrt{17}}{4};+\\infty\\right)\\).\n\nОтвет: \\((-\\infty;-2)\\cup\\left(\\frac{1+\\sqrt{17}}{4};+\\infty\\right)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2498,
+    "title": "18.9 Неравенства с параметром"
+  },
+  "id": 31448,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения параметра \\(a\\), при которых множество решений неравенства\n$$\\frac{5-a-(a^2-2a+1)\\sin x}{\\cos^2x+a^2+2}<1$$\nсодержит отрезок \\(\\left[0;\\frac{2\\pi}{3}\\right]\\).",
+      "error_conditions": null,
+      "id": 251087,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/VDEuB7NUXfk?si=YFrXvF_UmPfhTf8i&t=3160"
+}

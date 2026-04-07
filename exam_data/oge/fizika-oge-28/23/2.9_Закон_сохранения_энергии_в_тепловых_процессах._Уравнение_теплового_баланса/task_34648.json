@@ -1,0 +1,37 @@
+{
+  "comment": "Составим уравнение теплового баланса: $$Q_о=Q_п \\\\ m_гc(t_г-t_к)=m_хc(t_к-t_х) \\\\ 4\\cdot (70-40)=m_х(40-30) \\\\ 4\\cdot 30=m_х\\cdot 10 \\\\ m_х=12~кг$$\n\nОтвет: 12 кг",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3248,
+    "title": "2.9 Закон сохранения энергии в тепловых процессах. Уравнение теплового баланса"
+  },
+  "id": 34648,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "$4$ кг воды, взятой при температуре $70$°С, смешали с водой, температура которой $30$°С. Определите массу более холодной воды, если известно, что установившаяся в смеси температура равна $40$° С. Теплообменом с сосудом пренебречь.",
+      "error_conditions": null,
+      "id": 254287,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

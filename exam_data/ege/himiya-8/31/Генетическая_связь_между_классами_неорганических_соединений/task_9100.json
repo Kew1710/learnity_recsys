@@ -1,0 +1,37 @@
+{
+  "comment": "1) 3Ca(NO₃)₂ + 2Na₃PO₄ = Ca₃(PO₄)₂ + 6NaNO₃\n2) Ca₃(PO₄)₂ + 3SiO₂ + 5C = 2P + 3CaSiO₃ + 5CO\n3) P + 5HNO₃ = H₃PO₄ + 5NO₂ + H₂O\n4) 4NO₂ + 2Ba(OH)₂ = Ba(NO₃)₂ + Ba(NO₂)₂ + 2H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 9100,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "К раствору нитрата кальция добавили раствор фосфата натрия. Выпавший осадок отделили, высушили и затем прокалили в присутствии углерода и оксида кремния. Полученное при этом простое вещество растворили в концентрированном растворе азотной кислоты, при этом выделился бурый газ. Полученный газ поглотили холодным раствором гидроксида бария. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112835,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

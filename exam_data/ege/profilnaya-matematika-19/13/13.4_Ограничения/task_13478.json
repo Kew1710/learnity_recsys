@@ -1,0 +1,40 @@
+{
+  "comment": "\\(tgx\\ne 0\\Rightarrow x\\ne\\pi k,k\\in Z\\)\n\\(tgx\\) существует при \\(x\\ne\\frac{\\pi}{2}+\\pi k,k\\in Z\\)\n$$2\\sin^2x-3\\sin x+1=0\\\\ \\displaystyle \\left[ \\begin{array}{l l}\n\\sin x=1\\\\\n\\sin x=\\frac{1}{2}\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\nx=\\frac{\\pi }{2} +2\\pi k,k\\in Z-не\\ подходит\\ по\\ ограничению\\\\\nx=\\frac{\\pi }{6} +2\\pi k,k\\in Z\\\\\nx=\\frac{5\\pi }{6} +2\\pi k,k\\in Z\n\\end{array} \\right.$$\nб) Отберем корни на промежутке \\(\\left[-\\pi;\\frac{\\pi}{2}\\right]\\) с помощью тригонометрической окружности.\n$$x=\\frac{\\pi}{6}$$\nОтвет: а) \\(\\frac{\\pi }{6} +2\\pi k,k\\in Z\\); \\(\\frac{5\\pi }{6} +2\\pi k,k\\in Z\\); б) \\(\\frac{\\pi}{6}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2453,
+    "title": "13.4 Ограничения"
+  },
+  "id": 13478,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\frac{2\\sin^2x-3\\sin x+1}{tgx}=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[-\\pi;\\frac{\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 179157,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

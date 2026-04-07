@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1780,
+    "title": "4.1 Социальная структура общества"
+  },
+  "id": 14599,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Верны ли следующие суждения об этносах?\n\nА. Племена, народности, нации – это виды этносов.\nБ. Членов любой этнической общности объединяет единство языка, верований и общее гражданство.\n\n1) верно только А\n\n2) верно только Б\n\n3) верны оба суждения\n\n4) оба суждения неверны",
+      "error_conditions": [],
+      "id": 209278,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 73,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/pmPVUQFQs_U?start=1927"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pmPVUQFQs_U?start=1927"
+}

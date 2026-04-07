@@ -1,0 +1,46 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2685,
+    "title": "Лирика первой половины XIX в."
+  },
+  "id": 25684,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 12,
+    "task_count": 0,
+    "title": "Литература"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "перекрестная",
+          "points": 1
+        },
+        {
+          "answer": "перекрестный",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой вид рифмовки (ААВВ) использует поэт в стихотворении?\n\nЛюбить иных — тяжелый крест,\nА ты прекрасна без извилин,\nИ прелести твоей секрет\nРазгадке жизни равносилен.\n\nВесною слышен шорох снов\nИ шелест новостей и истин.\nТы из семьи таких основ.\nТвой смысл, как воздух, бескорыстен.\n\nЛегко проснуться и прозреть,\nСловесный сор из сердца вытрясть\nИ жить, не засоряясь впредь,\nВсе это — не большая хитрость.\n(Б. Л. Пастернак, 1931)",
+      "error_conditions": [],
+      "id": 245341,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

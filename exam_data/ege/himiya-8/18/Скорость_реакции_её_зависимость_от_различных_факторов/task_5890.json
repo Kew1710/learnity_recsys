@@ -1,0 +1,42 @@
+{
+  "comment": "Fe + 2HCl = FeCl₂ + H₂\n\nК увеличению скорости реакции железа с соляной кислотой приводят повышение температуры и измельчение железа (увеличение площади поверхности соприкосновения реагентов)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 5890,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все внешние воздействия, которые приводят к увеличению скорости реакции железа с соляной кислотой.\n1) повышение давления в системе\n2) повышение температуры\n3) уменьшение концентрации кислоты\n4) понижение температуры\n5) измельчение железа",
+      "error_conditions": [],
+      "id": 72361,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=12891"
+    },
+    "Valid": true
+  },
+  "time_seconds": 360,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=12891"
+}

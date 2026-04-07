@@ -1,0 +1,42 @@
+{
+  "comment": "Цена 1 кг слив в сентябре - 35 руб., что составляет 100%.\nТак как сливы подорожали на 20%, то их стоимость в октябре стала 120% от стоимость в сентябре.\n$$\\frac{35}{100\\%} \\cdot 120\\% = 42$$\nОтвет: 42 рубля.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2114,
+    "title": "15.1 Задачи на проценты"
+  },
+  "id": 27527,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В сентябре 1 кг слив стоил 35 рублей. В октябре сливы подорожали на 20%. Сколько рублей стоил 1 кг слив после подорожания в октябре?",
+      "error_conditions": [],
+      "id": 247166,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

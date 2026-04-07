@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(x\\) км/ч – скорость велосипедиста. Составим таблицу:\n\n\\(s\\)\n\\(v\\)\n\\(T\\)\nвел\n\\(40\\)\n\\(x\\)\n\\(\\frac{40}{x}\\)\nав\n\\(40\\)\n\\(x+40\\)\n\\(\\frac{40}{x+40}\\)\nТогда,\n$$\\frac{40}{x}-\\frac{40}{x+40}=\\frac{4}{3}\\\\ \\frac{120}{x}-\\frac{120}{x+40}=4\\\\ \\frac{120(x+40)-120x-4x(x+40)}{x(x+40)}=0\\\\ 4800-4x^2-160x=0\\\\ -x^2-40x+1200=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} x=20\\\\ x=-60\\ -\\ не\\ подходит,\\ т.к.\\ x >0 \\end{array} \\right.$$\nОтвет: 20",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2429,
+    "title": "10.2 Движение по суше"
+  },
+  "id": 16796,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из пункта А в пункт В, расстояние между которыми \\(40\\) км, одновременно выехали автомобилист и велосипедист. Известно, что в час автомобилист проезжает на \\(40\\) км больше, чем велосипедист. Определите скорость велосипедиста, если известно, что он прибыл в пункт В на \\(1\\) час \\(20\\) минут позже автомобилиста. Ответ дайте в км/ч.",
+      "error_conditions": [],
+      "id": 236701,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=7070"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=7070"
+}

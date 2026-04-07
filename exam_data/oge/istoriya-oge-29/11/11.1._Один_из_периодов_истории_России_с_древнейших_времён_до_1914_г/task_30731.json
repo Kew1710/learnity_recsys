@@ -1,0 +1,42 @@
+{
+  "comment": "На монете указан 1764 год, а в 1760-ых годах, а если быть точнее в 1762 г. с приходом к власти Петра III Россия вышла из Семилетней войны",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3101,
+    "title": "11.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 30731,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Что из перечисленного относится к тому же десятилетию, когда была выпущена данная монета?\n\n1) дарование жалованной грамоты городам\n2) вхождение в состав Российской империи Крыма\n3) выход России из Семилетней войны\n4) Первый раздел Речи Посполитой",
+      "error_conditions": [],
+      "id": 250370,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

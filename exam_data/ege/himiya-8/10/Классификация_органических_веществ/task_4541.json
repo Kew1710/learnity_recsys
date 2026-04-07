@@ -1,0 +1,42 @@
+{
+  "comment": "А) C₆H₁₂O₆ – глюкоза (моносахарид из класса гексоз) - углевод\nБ) C₆H₅C₂H₅ – этилбензол (гомолог бензола) - ароматический углеводород\nВ) C₆H₅COOH – бензойная кислота - карбоновая кислота",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2805,
+    "title": "Классификация органических веществ"
+  },
+  "id": 4541,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "431",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между формулой вещества и классом/группой органических соединений, к которому(-ой) оно принадлежит: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nФОРМУЛА ВЕЩЕСТВА\nКЛАСС/ГРУППА\nОРГАНИЧЕСКИХ СОЕДИНЕНИЙ\nА) C₆H₁₂O₆1) карбоновые кислотыБ) C₆H₅C₂H₅2) сложные эфирыВ) C₆H₅COOH3) углеводороды 4) углеводы",
+      "error_conditions": [],
+      "id": 67331,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=1453"
+    },
+    "Valid": true
+  },
+  "time_seconds": 360,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=1453"
+}

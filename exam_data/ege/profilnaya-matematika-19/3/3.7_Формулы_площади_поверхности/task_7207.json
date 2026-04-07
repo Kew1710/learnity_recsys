@@ -1,0 +1,45 @@
+{
+  "comment": "$$S_{б.п.конуса}=\\pi rl,по~теореме~Пифагора~l=\\sqrt{r^2+r^2}=r\\sqrt{2}\\\\ S_{б.п.конуса}=\\sqrt{2}\\pi r^2=3\\sqrt{2},\\pi r^2=3\\\\ S_{б.п.цилиндра}=2\\pi r\\cdot r=2\\pi r^2=6$$\nОтвет: 6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2390,
+    "title": "3.7 Формулы площади поверхности"
+  },
+  "id": 7207,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Цилиндр и конус имеют общие основания и высоту. Высота цилиндра равна радиусу основания. Площадь боковой поверхности конуса равна \\(3\\sqrt{2}\\). Найдите площадь боковой поверхности цилиндра.",
+      "error_conditions": [],
+      "id": 83318,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

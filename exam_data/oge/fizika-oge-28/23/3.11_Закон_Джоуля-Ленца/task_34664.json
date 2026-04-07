@@ -1,0 +1,37 @@
+{
+  "comment": "Количество теплоты,выделяемое за некоторое время,можно найти по формуле Джоуля-Ленца:$$Q=I^2Rt$$ Сила тока равна: $$I=\\frac{q}{t}=\\frac{15}{5}=3~A$$ Подставим все числа в формулу теплоты: $$Q=3^2\\cdot 3\\cdot 5=125~Дж$$ Ответ: $125~Дж$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3267,
+    "title": "3.11 Закон Джоуля-Ленца"
+  },
+  "id": 34664,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В таблице приведена зависимость заряда q, протёкшего через резистор сопротивлением $3$ Ом, от времени t. Какое количество теплоты выделится в резисторе за первые $5$ секунд, если сила протекающего тока постоянна?\nt, с\n0\n1\n2\n3\n4\n5\nq, Кл\n0\n3\n6\n9\n12\n15",
+      "error_conditions": null,
+      "id": 254303,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

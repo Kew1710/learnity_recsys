@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1509,
+    "title": "№14 Другие системы счислений"
+  },
+  "id": 30578,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20286",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "",
+      "error_conditions": [],
+      "id": 250217,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/skXTB_9AOcw?si=Omy4zdULGQYTDqLV&t=5071"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 33,
+    "title": "Системы счисления"
+  },
+  "video_link": "https://www.youtube.com/live/skXTB_9AOcw?si=Omy4zdULGQYTDqLV&t=5071"
+}

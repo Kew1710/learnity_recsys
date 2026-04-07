@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: При созревании эритроциты человека (как и всех млекопитающих) теряют ядро, а вместе с ним и все хромосомы.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2511,
+    "title": "Генетическая информация в клетке. Матричные процессы в клетке"
+  },
+  "id": 16439,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Меланоцит человека содержит 46 хромосом. Сколько хромосом имеет эритроцит человека? В ответ запишите только число хромосом.",
+      "error_conditions": [],
+      "id": 236346,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 43,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

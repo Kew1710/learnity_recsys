@@ -1,0 +1,42 @@
+{
+  "comment": "Эти координаты указывают на расположение города на карте: 34 градуса к северу от экватора и 69 градусов к востоку от начального меридиана. Так, на карте мира или атласе можно определить, что именно в этой точке располагается Кабул.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2969,
+    "title": "2.1 Планы местности. Географические карты. Географическая широта и географическая долгота."
+  },
+  "id": 31051,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "кабул",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите, какой город – столица государства, имеет географические координаты 34° с.ш. 69° в.д.",
+      "error_conditions": [],
+      "id": 250690,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

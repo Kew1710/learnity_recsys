@@ -1,0 +1,37 @@
+{
+  "comment": "Дано:\nABCD - ромб\n\\( AH \\perp DC \\)\nDH=20\nCH=5\nAH-?\nРешение:\n1) \\( CD=DH+HC=5+20=25=AD\\)\n2) \\( \\triangle ADH\\) - прямоугольный\n\\( AD^2=DH^2+AH^2\\) - по теореме Пифагора\n\\( AH^2 = AD^2-DH^2\\)\n\\( AH^2=\\sqrt{AD^2-DH^2}=\\sqrt{(25-20)(25+20)}=15\\)\nОтвет: 15",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2015,
+    "title": "23.6 Ромб"
+  },
+  "id": 17115,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Высота AH ромба ABCD делит сторону CD на отрезки DH = 20 и CH = 5. Найдите высоту ромба.",
+      "error_conditions": null,
+      "id": 237011,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

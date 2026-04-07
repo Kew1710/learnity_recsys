@@ -1,0 +1,42 @@
+{
+  "comment": "А) Каталитическое окисление кумола кислородом воздуха, продукты – фенол и ацетон\nБ) Дегидрогалогенирование 1-хлорпропана спиртовым раствором щелочи\nВ) Каталитическое окисление бутана кислородом воздуха до уксусной кислоты\nГ) Жёсткое окисление изопрена (CH₂=C(CH₃)–CH=CH₂) по двум двойным связям",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2831,
+    "title": "Характерные химические свойства углеводородов"
+  },
+  "id": 6502,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2146",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между схемой реакции и веществом Х, принимающим в ней участие: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nСХЕМА РЕАКЦИИ\nВЕЩЕСТВО Х\nА) X + O₂ → CH₃C(O)CH₃ (кат. H₂SO₄)1) 1-хлорпропанБ) X + NaOH(спирт) → CH₃CH=CH₂2) кумолВ) X + O₂ → CH₃COOH (кат.)3) 1,2-дихлорпропанГ) X + KMnO₄(H⁺) → CH₃C(O)COOH4) бутан 5) дивинил 6) изопрен",
+      "error_conditions": [],
+      "id": 73588,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Z9Ra2MdipEM?start=3206"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Z9Ra2MdipEM?start=3206"
+}

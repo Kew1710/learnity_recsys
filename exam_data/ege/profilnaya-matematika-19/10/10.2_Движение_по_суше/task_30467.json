@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть \\(V\\) – скорость велосипедиста, пришедшего к финишу первым. Составим таблицу:\n\nРасстояние\nСкорость\nВремя\n1\n$$190$$\n$$V$$\n$$\\frac{190}{V}$$\n2\n$$190$$\n$$V-9$$\n$$\\frac{190}{V-9}$$\nПо условию первый велосипедист прибыл к финишу на \\(9\\) часов раньше второго, значит:\n$$\\frac{190}{V-9}-\\frac{190}{V}=9\\\\ 190\\cdot V-190\\cdot (V-9)=9V\\cdot (V-9)\\\\ 190V-190V+1710=9V^2-81V\\\\ 9V^2-81V-1710=0\\\\ V^2-9V-190=0\\\\ (V-19)(V+10)=0\\\\ \\displaystyle \\left[ \\begin{array}{l l} V=19\\\\ V=-10 \\end{array} \\right.$$\nПо смыслу: \\(V>0\\Rightarrow V=19\\).\n\nОтвет: 19",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2429,
+    "title": "10.2 Движение по суше"
+  },
+  "id": 30467,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Два велосипедиста одновременно отправились в \\(190\\) - километровый пробег. Первый ехал со скоростью, на \\(9\\) км/ч больше, чем скорость второго, и прибыл к финишу на \\(9\\) часов раньше второго. Найти скорость велосипедиста, пришедшего к финишу первым.",
+      "error_conditions": [],
+      "id": 250106,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=oi_xL1cawKE&t=1471s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/watch?v=oi_xL1cawKE&t=1471s"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "\\(5 \\cdot 5 = 25\\) - количество квартир в каждом подъезде.\n$$51 : 25 = 2,04$$\nЗначит, Дина живет в 3 подъезде.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2065,
+    "title": "1.2 Округление с избытком"
+  },
+  "id": 28117,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В доме, в котором живёт Дина, 5 этажей и несколько подъездов. На каждом этаже находится по 5 квартир. Дина живёт в квартире № 51. В каком подъезде живёт Дина?",
+      "error_conditions": [],
+      "id": 247756,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

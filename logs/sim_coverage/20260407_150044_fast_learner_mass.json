@@ -1,0 +1,103 @@
+{
+  "ts": "2026-04-07T15:00:44.651174+00:00",
+  "profile": "fast_learner",
+  "grade": 8,
+  "variant": "mass",
+  "student_id": "2d10200f-b50f-4c72-9e35-366576bb5803",
+  "tasks_done": 200,
+  "accuracy": 0.755,
+  "plan_focus_rate": 0.155,
+  "plan_mastered_true": 0,
+  "plan_mastered_visible": 2,
+  "coverage_pct": 0.0,
+  "steps_completed": 2,
+  "plan_kcs": [
+    "kc_sqrt_simplify",
+    "kc_sqrt_function",
+    "kc_quadratic_function",
+    "kc_quadratic_eq",
+    "kc_quadratic_factoring",
+    "kc_biquadratic_eq",
+    "kc_linear_inequality",
+    "kc_absolute_value_eq",
+    "kc_area_parallelogram",
+    "kc_pythagorean_know"
+  ],
+  "plan_kc_vis_at_creation": {
+    "kc_sqrt_simplify": 0.3,
+    "kc_sqrt_function": 0.3,
+    "kc_quadratic_function": 0.3,
+    "kc_quadratic_eq": 0.3,
+    "kc_quadratic_factoring": 0.3,
+    "kc_biquadratic_eq": 0.3,
+    "kc_linear_inequality": 0.3,
+    "kc_absolute_value_eq": 0.3,
+    "kc_area_parallelogram": 0.3,
+    "kc_pythagorean_know": 0.3
+  },
+  "plan_kc_final": {
+    "kc_sqrt_simplify": {
+      "true": 0.716,
+      "vis": 0.827,
+      "tasks": 15
+    },
+    "kc_sqrt_function": {
+      "true": 0.702,
+      "vis": 0.817,
+      "tasks": 16
+    },
+    "kc_quadratic_function": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_quadratic_eq": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_quadratic_factoring": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_biquadratic_eq": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_linear_inequality": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_absolute_value_eq": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_area_parallelogram": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    },
+    "kc_pythagorean_know": {
+      "true": 0.05,
+      "vis": 0.3,
+      "tasks": 0
+    }
+  },
+  "all_kc_tasks": {
+    "kc_sqrt_compute": 45,
+    "kc_divisibility": 43,
+    "kc_fractions_operations": 30,
+    "kc_sqrt_function": 16,
+    "kc_coordinate_plane": 16,
+    "kc_sqrt_simplify": 15,
+    "kc_sqrt_concept": 12,
+    "kc_negative_numbers": 11,
+    "kc_ratios_proportions": 4,
+    "kc_circle_length_area": 4,
+    "kc_rational_arithmetic": 4
+  }
+}

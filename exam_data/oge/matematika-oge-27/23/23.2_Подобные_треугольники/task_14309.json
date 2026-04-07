@@ -1,0 +1,37 @@
+{
+  "comment": "Дано:\n\\( AB||CD \\)\nAC пересекает BD в точке М\nАВ=13\nCD=65\nАС=42\nМС-?\nРешение:\n1) Рассмотрим \\( \\triangle ABM\\) и \\(\\triangle DMC \\)\n\\( \\angle MDC =\\angle MBA\\) - накрест лежащие при AB||CD и секущей BD\n\\( \\angle AMB = \\angle DMC\\) - вертикальные\nТогда \\( \\triangle AMB \\sim \\triangle DMC\\) - по 2-ум углам\nПусть МС=х, тогда АМ=АС-МС=42-х\n\\( \\cfrac{AB}{DC}=\\cfrac{AM}{MC} \\)\n\\( \\cfrac{13}{65}=\\cfrac{42-x}{x}\\) - сократим на 5\n\\( x=5(42-x) \\)\n\\( x=210-5x \\)\n\\( 6x=210 \\)\n\\( x=35\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2011,
+    "title": "23.2 Подобные треугольники"
+  },
+  "id": 14309,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Отрезки AB и DC лежат на параллельных прямых, а отрезки AC и BD пересекаются в точке M. Найдите MC, если AB = 13, СD = 65, AС = 42.",
+      "error_conditions": null,
+      "id": 202438,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

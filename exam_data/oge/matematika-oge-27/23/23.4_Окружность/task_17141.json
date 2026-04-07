@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nd=3,6\nАВ=8\nЕС=d=3,6\nНайти:\nАС-?\nРешение:\n1) Проведем ОВ - радиус\n\\( OB \\perp AB \\) - свойство касательной\nТ.к. \\( d=3,6 , EO=OC=OB=R=3,6:2=1,8 \\)\n2) \\( \\triangle ABO \\) - прямоугольный\nПо теореме Пифагора:\n\\( AO=\\sqrt{AB^2+OB^2}=\\sqrt{8^2+1,8^2}=8,2 \\)\n3) \\( AC=AO+OC=8,2+1,8=10 \\)\nОтвет: 10",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2013,
+    "title": "23.4 Окружность"
+  },
+  "id": 17141,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружность с центром на стороне AC треугольника ABC проходит через вершину C и касается прямой AB в точке B. Найдите AC, если диаметр окружности равен 3,6, а AB = 8.",
+      "error_conditions": null,
+      "id": 237031,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=18\\cdot 2x-3x^2=36x-3x^2=3x(12-x)$$\nНайдем нули функции и отметим эти точки на прямой:\nНа отрезке \\([−7;10]\\) имеем точку минимума \\(0\\), поэтому наименьшее значение функции находится в этой точке.\n$$f(0)=18\\cdot 0^2-0^3+19=19$$\nОтвет: 19",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 16932,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y=18x^2-x^3+19\\) на промежутке \\([-7; 10]\\).",
+      "error_conditions": [],
+      "id": 236834,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/CkkG5Lc4uvY?t=882"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/CkkG5Lc4uvY?t=882"
+}

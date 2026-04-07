@@ -1,0 +1,42 @@
+{
+  "comment": "ρ(воды) = 1 г/мл\nm(воды) = ρ(воды) • V(воды) = 1 • 49 = 49 г\nm₁(соли) = ω₁ • m₁(р-ра) = 0,3 • 130 = 39 г\nω = m(соли)/m(р-ра)\nω = (m₁(соли) + m(соли))/(m₁(р-ра) + m(соли) + m(воды))\nω₂ = (39 + 21)/(130 + 21 + 49) = 60/200 = 0,3\nω₂ = 30%",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 1561,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "К 130 г раствора нитрата натрия с массовой долей соли 30% добавили 49 мл воды и 21 г этой же соли. Определите массовую долю соли в полученном растворе. (Запишите число с точностью до десятых.)",
+      "error_conditions": [],
+      "id": 53877,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/pA4_RK5ADqk?start=4971"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pA4_RK5ADqk?start=4971"
+}

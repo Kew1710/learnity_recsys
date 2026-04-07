@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРазделим 230 на 19\n\\(\\cfrac{230}{19} \\approx 12,11\\)\n\\(\\Rightarrow \\) число \\(\\cfrac{230}{19}\\) заключено между числами 12 и 13\nОтвет: 2",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23935,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Между какими целыми числами заключено число \\(\\cfrac{230}{19}\\)?",
+      "error_conditions": [],
+      "id": 243654,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Температура кипения воды равна $100$ °С. Значит нагреть воду нужно на $80$ °С. То есть $\\Delta t=80$°С . Учитывая, что удельная теплоёмкость воды $c=4200 \\frac{Дж}{кг\\text{ }\\cdot °С}$,\nполучаем количество теплоты:$\\text{ }Q=cm\\Delta t=4200\\cdot 0,2\\cdot 80=67200\\text{ }Дж$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3247,
+    "title": "2.8 Нагревание и охлаждение тел. Количество теплоты. Удельная теплоёмкость"
+  },
+  "id": 34294,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "67200",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какое количество теплоты необходимо затратить, чтобы нагреть до температуры кипения $0,2$ кг воды, взятой при температуре $20$ °С?\n\nОтвет: _________________Дж",
+      "error_conditions": [],
+      "id": 253933,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

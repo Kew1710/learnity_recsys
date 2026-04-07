@@ -1,0 +1,37 @@
+{
+  "comment": "Исходя из условия:\n$$v_2=\\frac{v_1}{3}$$\nУскорение материальной точки определяется по формуле:\n$$a= \\frac{v_2-v_1}{t}$$\nТогда:\n$$a=\\frac{\\frac{v_1}{3}-v_1}{t}=\\frac{-2\\cdot v_1}{3t}$$\nТак как в условии задачи дан модуль ускорения, уберем минус в полученной формуле и выразим из нее начальную скорость:\n$$v_1= \\frac{3at}{2}\\\\ v_1= \\frac{3\\cdot 5\\cdot 2}{2}= 15~м/с$$\nВоспользуемся формулой пути при равнозамедленном движении:\n$$S=v_1t- \\frac{a\\cdot t^2}{2}\\\\ S=15\\cdot 2- \\frac{5\\cdot 2^2}{2} = 20~м$$\nОтвет: 20 м",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2622,
+    "title": "Кинематика"
+  },
+  "id": 7980,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание A32BC5\nКакой путь пройдет тело за \\(2\\) с, двигаясь по прямой в одном направлении, если его скорость за это время уменьшается в \\(3\\) раза? Модуль ускорения тела равен \\(5~м/с^2\\).",
+      "error_conditions": null,
+      "id": 100829,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Ca-M0-15sKg?start=800"
+}

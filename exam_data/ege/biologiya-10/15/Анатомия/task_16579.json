@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Для слюны человека характерны функции:\n1)  разрушение клеточной стенки бактерий\n3)  гидролиз амилозы\n5)  гидролиз мальтозы",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 16579,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "135",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nКакие функции характерны для слюны человека?\n- разрушение клеточной стенки бактерий\n- створаживание молока\n- гидролиз амилозы\n- гидролиз белков\n- гидролиз мальтозы\n- увлажнение носовой полости",
+      "error_conditions": [],
+      "id": 236486,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 47,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(x^2-7x-18=0\\)\n\\(D=b^2-4ac=49-4 \\cdot 1 \\cdot (-18)=121\\)\n\\(x_1=\\cfrac{7+11}{2}=9\\)\n\\(x_2=\\cfrac{7-11}{2}=-2\\)\nОтвет: \\(9\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2057,
+    "title": "9.4 Полные квадратные уравнения"
+  },
+  "id": 18345,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(x^2-18=7x\\). Если уравнение имеет более одного корня, в ответ запишите больший из корней.",
+      "error_conditions": [],
+      "id": 238187,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

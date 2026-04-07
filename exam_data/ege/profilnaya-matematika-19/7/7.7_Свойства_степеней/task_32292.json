@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{14^{6,4}\\cdot 7^{-5,4}}{2^{4,4}}=\\frac{2^{6,4}\\cdot 7^{6,4}\\cdot 7^{-5,4}}{2^{4,4}}=2^{6,4-4,4}\\cdot 7^{6,4-5,4}=2^2\\cdot 7^1=4\\cdot 7=28$$\nОтвет: 28",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 32292,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "28",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{14^{6,4}\\cdot 7^{-5,4}}{2^{4,4}}\\).",
+      "error_conditions": [],
+      "id": 251931,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=X5bfkzyOxyUqm3va&t=740"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=X5bfkzyOxyUqm3va&t=740"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "На рисунке изображен макроспорогенез. Клетка спорогенной ткани делится мейозом с образованием 4 клеток. 3 из них умирают, а в одной происходит митоз ядер трижды (6-8). Далее два ядра сливаются с образованием центральной клетки, а остальные ядра формируют яйцеклетку, синергиды и антиподы.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2514,
+    "title": "Воспроизведение организмов"
+  },
+  "id": 8310,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2111",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между типами деления и процессами, обозначенными выше цифрами 5-8, к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\nПроцессы Типы деления А. 5\nБ. 6\nВ. 7\nГ. 8\n\n1) митоз\n2) мейоз",
+      "error_conditions": [],
+      "id": 101995,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/twxurTPqyXc"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/twxurTPqyXc"
+}

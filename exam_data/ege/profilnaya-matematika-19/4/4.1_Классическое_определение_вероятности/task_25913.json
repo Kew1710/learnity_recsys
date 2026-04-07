@@ -1,0 +1,45 @@
+{
+  "comment": "Всего на конференции выступали \\(7+8+5=20\\) спикеров (общее количество исходов), из них только \\(7\\) из Польши (благоприятное количество исходов). Тогда вероятность того, что в первый день выступал спикер из Польши, равна:\n$$P=\\frac{7}{20}=\\frac{7\\cdot 5}{20\\cdot 5}=0,35$$\nОтвет: 0,35",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 25913,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,35",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На конференции выступали спикеры из разных стран. Причём из Польши было приглашено \\(7\\) человек, из Китая — \\(8\\), из России — \\(5\\). Найдите вероятность того, что в первый день выступал спикер из Польши.",
+      "error_conditions": [],
+      "id": 245552,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=RQqXFKqrj0c&t=379s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/watch?v=RQqXFKqrj0c&t=379s"
+}

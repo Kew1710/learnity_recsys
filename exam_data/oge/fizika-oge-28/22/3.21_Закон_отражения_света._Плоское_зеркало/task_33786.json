@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ:\n- Да, другой человек видит мнимое изображение глаз.\n- Согласно принципу обратимости лучей – траектория луча не зависит от того, в прямом или в обратном направлении распространяется луч. Он пойдет в точности по тому же пути, что и в прямом направлении.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3277,
+    "title": "3.21 Закон отражения света. Плоское зеркало"
+  },
+  "id": 33786,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В плоском зеркале вы видите мнимое изображение другого человека, смотрящего на вас. Видит ли он в зеркале изображение ваших глаз? Ответ поясните.",
+      "error_conditions": null,
+      "id": 253425,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/uJbBn1PT0Ns?si=9K0Pda-psz8i8z6k&t=670"
+}

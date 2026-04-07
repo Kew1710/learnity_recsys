@@ -1,0 +1,42 @@
+{
+  "comment": "Энергия деформированной пружины в первом случае находится по формуле:\n$$E_{пр1}=\\frac{kx^2}{2}$$\nПо условию пружину растянули еще на \\(4\\) см, то есть она растянута на длину \\(2x\\). Получаем:\n$$E_{пр2}=\\frac{k(2x)^2}{2}=4\\frac{kx^2}{2}\\\\ E_{пр2}=4E_{пр1}=4\\cdot 8=32~Дж$$\nОтвет: 32 Дж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2617,
+    "title": "Энергия и закон сохранения энергии"
+  },
+  "id": 8621,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "32",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Потенциальная энергия упругой деформации стальной пружины, растянутой на \\(4\\) см, равна \\(8\\) Дж. Пружину растянули еще на \\(4\\) см. Чему в таком случае станет равна потенциальная энергия упругой деформации пружины? Ответ дайте в Дж.",
+      "error_conditions": [],
+      "id": 103738,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/ErHZhv9EjgA"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/ErHZhv9EjgA"
+}

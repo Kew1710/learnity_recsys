@@ -1,0 +1,42 @@
+{
+  "comment": "N₂ + 3H₂ = 2NH₃\n\nК уменьшению скорости реакции азота с водородом приведут понижение давления (реакция с участием газовых реагентов), понижение температуры и уменьшение концентрации N₂ (реагент)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 1994,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все внешние воздействия, которые приводят к уменьшению скорости реакции азота с водородом.\n1) понижение давления\n2) понижение температуры\n3) уменьшение концентрации N₂\n4) уменьшение концентрации NH₃\n5) добавление катализатора",
+      "error_conditions": [],
+      "id": 56425,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=2368"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=2368"
+}

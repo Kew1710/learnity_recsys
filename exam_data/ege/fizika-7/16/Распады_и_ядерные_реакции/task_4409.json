@@ -1,0 +1,42 @@
+{
+  "comment": "Количество нераспавшихся ядер равно:\n$$N=N_0\\cdot 2^{\\frac{-t}{T}},$$\nа количество вещества равно: где \\(-N_0\\) начальное число ядер атомов, период полураспада \\(T=71\\) секунда, время распада \\(t=142\\) секунды.\n\n$$N=N_0\\cdot 2^{\\frac{-142}{71}}=\\frac{N_0}{4}$$\nНераспавшейся осталась четвертая часть от изначального количества или \\(25\\) процентов.\n\nОтвет: 25%",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3337,
+    "title": "Распады и ядерные реакции"
+  },
+  "id": 4409,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "47239E\nПериод полураспада изотопа кислорода \\(_{~~8}^{14}O\\) составляет \\(71\\) с. Какая доля от исходного большого количества этих ядер остается нераспавшейся через интервал времени, равный \\(142\\) c? Ответ дайте в процентах.",
+      "error_conditions": [],
+      "id": 66991,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/oCtAppcUrok?start=4330"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/oCtAppcUrok?start=4330"
+}

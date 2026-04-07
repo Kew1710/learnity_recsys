@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{7\\cos (90^{\\circ}-10^{\\circ})}{\\sin 10^{\\circ}}-3\\\\ \\frac{7\\sin10^{\\circ}}{\\sin 10^{\\circ}}-3=4$$\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 7331,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{7\\cos 80^{\\circ}}{\\sin 10^{\\circ}}-3\\).",
+      "error_conditions": [],
+      "id": 83967,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5422"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5422"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Кораллы, ламинария и сельдь проживают в морях, поэтому входят в пищевую цепь морей.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 5446,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "235",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nКаких из приведённых ниже организмов могут быть звеньями пищевой цепи озера?\n1) красный коралл\n2) щука\n3) жук-плавунец\n4) ламинария\n5) камыш\n6) сельдь",
+      "error_conditions": [],
+      "id": 71793,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YwnOUckAF4g?start=1118"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YwnOUckAF4g?start=1118"
+}

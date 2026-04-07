@@ -1,0 +1,46 @@
+{
+  "comment": "Хлор (\\(Cl_{2}\\)) - галоген, реагирует с металлами и неметаллами, с галогенидами, активно вступает в реакции с основаниями\n\n1) \\(Cl_{2} + Cu = CuCl_{2}\\)\n2) \\(Cl_{2} + 2FeCl_{2} = 2FeCl_{3}\\)\n\n\\(Cl_{2}\\) не реагирует с кислотными оксидами (\\(SiO_{2}\\)) и кислотами (\\(H_{2}SO_{4}\\)), так как соответствует сильной кислоте, и не вступает в реакцию с основными оксидами (\\(Na_{2}O\\))",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2889,
+    "title": "Химические свойства простых и сложных веществ"
+  },
+  "id": 33242,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        },
+        {
+          "answer": "21",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какие два из перечисленных веществ вступают в реакцию с хлором?\n\n1) \\(Cu\\)\n2) \\(FeCl_{2}\\)\n3) \\(SiO_{2}\\)\n4) \\(H_{2}SO_{4}\\)\n5) \\(Na_{2}O\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 252881,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

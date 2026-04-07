@@ -1,0 +1,42 @@
+{
+  "comment": "В состоянии sp²-гибридизации находятся атомы углерода при двойной связи:\n1) бутен-2 - алкен, имеется одна двойная связь\n2) этилен - алкен, имеется одна двойная связь\n3) пропан - алкан, все связи одинарные (только sp³)\n4) бутин-1 - алкин, имеется одна тройная связь (sp и sp³)\n5) циклобутан - циклоалкан, все связи одинарные (только sp³)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2810,
+    "title": "Гибридизация атомных орбиталей углерода"
+  },
+  "id": 276,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня веществ выберите два соединения, в молекулах которых присутствуют атомы углерода в sp²-гибридизации.\n1) бутен-2\n2) этилен\n3) пропан\n4) бутин-1\n5) циклобутан",
+      "error_conditions": [],
+      "id": 51477,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/rlCQ2E9Wasw?start=2230"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/rlCQ2E9Wasw?start=2230"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{AC}{AB} = \\sin{B}\\)\n\\(\\cfrac{7}{12} = \\cfrac{AC}{48}\\)\nОтсюда \\(AC = 7 \\cdot 48 : 12 = 28\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1977,
+    "title": "15.6 Синус, косинус, тангенс острого угла"
+  },
+  "id": 20601,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "28",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике ABC угол C равен 90°, \\(\\sin{B} = \\cfrac{7}{12}\\) , AB=48 . Найдите AC.",
+      "error_conditions": [],
+      "id": 240388,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

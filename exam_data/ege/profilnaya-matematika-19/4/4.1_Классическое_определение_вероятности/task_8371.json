@@ -1,0 +1,45 @@
+{
+  "comment": "\\(11\\) билетов из \\(20\\) нам подходит, поэтому вероятность равна\n$$\\frac{11}{20} =\\frac{55}{100} =0,55$$\nОтвет: 0,55",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 8371,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,55",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В сборнике билетов по математике всего \\(20\\) билетов, в \\(11\\) из них встречается вопрос по теме \"Логарифмы\". Найдите вероятность того, что в случайно выбранном на экзамене билете школьнику достанется вопрос по теме \"Логарифмы\".",
+      "error_conditions": [],
+      "id": 102464,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=812"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=812"
+}

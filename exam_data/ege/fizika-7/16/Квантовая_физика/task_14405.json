@@ -1,0 +1,42 @@
+{
+  "comment": "Т.к. длина волны максимальная, то энергия фотона минимальная \\(\\Rightarrow E_к=0\\)\nУравнение Эйнштейна для фотоэффекта:\n$$\\frac{hc}{\\lambda}=A_в\\Rightarrow\\lambda =\\frac{hc}{A_в}=\\frac{6,6\\cdot 10^{-34}\\cdot 3\\cdot 10^8}{7,92\\cdot 10^{-19}}=250\\cdot 10^{-9}~м=250~нм$$\nОтвет: 250 нм",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2641,
+    "title": "Квантовая физика"
+  },
+  "id": 14405,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "250",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23933\nВ ходе опыта серебряный фотокатод, работа выхода электронов для которого равна \\(7,92\\cdot 10^{-19}\\) Дж, освещается светом. Чему равна максимальная длина волны света, при освещении фотокатода которым будет наблюдаться явление фотоэффекта в данном опыте? Ответ дайте в нм.",
+      "error_conditions": [],
+      "id": 205864,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 42,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/qt4Rnx7y5LU"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/qt4Rnx7y5LU"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Найдем ускорение из формулы скорости:\n$$\nv=a t_1+v_0 \\Rightarrow a=\\frac{v}{t_1}=\\frac{5}{1}=5~м / \\mathrm{c}^2\n$$\nЗапишем второй закон Ньютона в проекциях на ось \\(Oy\\) для каждого груза:\n$$Oy:~T-Mg=-Ma$$\n$$Oy:~T-mg = ma \\Rightarrow T = mg + ma$$\n$$mg + ma - Mg = - Ma $$\n$$ m(g + a) = M(g -a) \\Rightarrow M = \\frac{m(g+a)}{g-a}=\\frac{1(10+5)}{10-5}=3 ~кг $$\nНайдем силу натяжения:\n$$\nT=m g+m a=1 \\cdot 10+1 \\cdot 5=15~Н\n$$\nОтвет: $15~Н$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 10474,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Два бруска подвешены на невесомой нерастяжимой нити, перекинутой через идеальный блок (см. рисунок). Грузы удерживали в состоянии покоя, а затем отпустили, после чего они начали равноускоренное движение. Через \\(1\\) секунду после начала движения скорость правого бруска массой \\(1~кг\\) была равна \\(5~м/с\\) и направлена вертикально вверх. Найдите силу натяжения нити. Трением пренебречь.",
+      "error_conditions": null,
+      "id": 142449,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/_2am7wRaCSk"
+}

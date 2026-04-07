@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПусть a - сторона квадрата, P - периметр квадрата\n\\(P = 4a\\)\n\\(24 = 4a\\)\nОтсюда \\(a = 6\\)\nНайдем площадь квадрата по формуле \\( S = a^2\\)\n\\(S = 6^2 = 36\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1988,
+    "title": "17.5 Площадь четырехугольников"
+  },
+  "id": 21527,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Периметр квадрата равен 24. Найдите площадь квадрата.",
+      "error_conditions": [],
+      "id": 241294,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

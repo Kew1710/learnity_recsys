@@ -1,0 +1,42 @@
+{
+  "comment": "3. Джо говорит, что к его школе были прикреплены\" (\"attached\") теннисные корты, бейсбольные поля и поля для американского футбола. Он жил всего в двух кварталах (недалеко) от школы, так что эти спортивные сооружения находились близко к его дому.\n\n4. Джо говорит, что когда он подрос, у него появилась возможность играть в профессиональный бейсбол\" (\"had a chance to play professional baseball') ((кто-то предложил саму такую возможность), но он \"отказался\" (\"turned it down\") (отверг предложение), потому что предпочитал играть в футбол.\n\n5. Джо говорит, что его родители \"многим жертвовали ради него\" ('sacrificed so much for me') (не делали или не имели того, что хотели, чтобы он мог делать и иметь все, что хотел), чтобы помочь ему в его занятиях спортом. Например, они подвозили его к местам соревнования, в которых он принимал участие.\n\n6. Джо говорит, что он интересовался только спортом и только им хотел заниматься всю жизнь. Он говорит, что у него были \"способности к спорту\" (\"athletic ability\"), но окружающие говорили, что он \"слишком маленького роста, слишком тощий, слишком медлительный\" (\"too small, too skinny, too slow\") и \"недостаточно жесткий\" (\"not tough enough\"), чтобы добиться успеха в профессиональном спорте.\n\n7. Джо говорит, что в университете его основными предметами были социология и бизнес, но он никогда не думал о том, как можно найти \"какую-нибудь прилично оплачиваемую работу\" (\"any kind of gainful employment\"), изучая эти предметы. Он не задумывался над тем, как его занятия могли потом помочь ему зарабатывать себе на жизнь, и не видел связи между своим образованием и своим будущим, потому что в будущем он хотел заниматься только спортом.\n\n8. Джо говорит, что когда он получил травму, оборвавшую его карьеру, он понял, что даже такие успешные спортсмены, как он, быстро \"забываются\" ('become an afterthought' - в данном контексте то, о чем люди не вспоминают, как о чем-то важном). Даже если ты \"великий\" ('great\") или очень \"талантливый\" (\"talented\") спортсмен, другой такой же талантливый спортсмен ждет, чтобы занять твое место. Таким образом, Джо говорит, что когда он закончил играть, люди быстро забыли его, сосредоточив свое внимание на новых игроках.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 810,
+    "title": "Полное понимание устной речи: интервью"
+  },
+  "id": 1622,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "a8-2 a9-3 a10-1 a11-2 a12-1 a13-3 a14-2",
+          "points": 7
+        }
+      ],
+      "comment": "",
+      "description": "https://disk.yandex.ru/d/Zihi2IEC96uzXw\n\nВы услышите интервью с известным американским спортсменом. В заданиях A8-A14 обведите цифру 1, 2 или 3, соответствующую выбранному вами варианту ответа. Вы услышите запись дважды.\n\nA8. Joe says that when he was a child,\n1) his father encouraged him to play sports.\n2) there was a range of sports facilities near his home.\n3) he was better at sports than other local children.\n\nA9. Joe says that when he was growing up,\n1) he was equally good at athletics, baseball and football.\n2) he was better at baseball than football.\n3) he could have chosen to play baseball as a career.\n\nA10. What does Joe say about his parents?\n1) They did a lot of things to help him in his sporting activities.\n2) At first they didn't want him to become a professional sportsman.\n3) He inherited some of his sporting skills from his father.\n\nA11. Joe says that some people told him that\n1) he should ignore criticism from other people.\n2) he would not be a successful professional sportsman.\n3) being a sportsman was the best thing he could do with his life.\n\nA12. Joe says that when he was at university,\n1) he saw no connection between his studies and his future.\n2) he felt that his studies interfered with his sporting activities.\n3) he found the subjects that he studied boring.\n\nA13. Joe says that when his career ended,\n1) he still believed he could come back one day.\n2) he had been expecting to retire soon.\n3) he was quickly forgotten.\n\nA14. Joe says that he was able to work in broadcasting because of\n1) his willingness to learn new skills.\n2) his tendency to give honest opinions.\n3) his status as a former great sportsman.",
+      "error_conditions": [],
+      "id": 53957,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 7,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

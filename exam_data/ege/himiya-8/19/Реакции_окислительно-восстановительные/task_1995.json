@@ -1,0 +1,42 @@
+{
+  "comment": "Восстановитель – элемент, который в ходе окислительно-восстановительной реакции отдаёт электроны и повышает свою степень окисления\nА) Cl₂⁰ - 2ē ⟶ 2Cl⁺¹ – восстановитель Cl₂\nБ) I₂⁰ - 10ē ⟶ 2I⁺⁵ – восстановитель I₂\nВ) I₂⁰ - 6ē ⟶ 2I⁺³ – восстановитель I₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2839,
+    "title": "Реакции окислительно-восстановительные"
+  },
+  "id": 1995,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "244",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между схемой реакции и формулой вещества, являющегося восстановителем в данной реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nСХЕМА РЕАКЦИИ\nФОРМУЛА ВОССТАНОВИТЕЛЯ\nA) Cl₂ + KOH ⟶ KCl + KClO₃ + H₂O1) KOHБ) H₂O₂ + I₂ ⟶ HIO₃ + H₂O2) Cl₂B) Cl₂ + I₂ ⟶ I₂Cl₆3) H₂O₂ 4) I₂",
+      "error_conditions": [],
+      "id": 56426,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=2426"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=2426"
+}

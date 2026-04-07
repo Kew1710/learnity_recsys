@@ -1,0 +1,42 @@
+{
+  "comment": "1) Высказывание А Kate started to learn English a year ago - это Not stated, так как на основе сказанного в диалоге мы не можем дать ни положительного, ни отрицательного ответа. Информации просто нет на этот счет, только про французский.\n\n2) Высказывание В Christian is a successful businessman - это False, так как из диалога понятно, что он лишь планирует стать бизнесменом, а сейчас просто учит английский, чтобы достичь своей цели. (Желаем ему успехов, конечно. Пусть станет богатым, как Абрамович!)\n\n3) Высказывание С Christian usually watches English and American films - это True, так как из диалога понятно, что он регулярно смотрит фильмы и ТВ программы без субтитров прямо на английском. (Крутой парень.)\n\n4) Высказывание D Kate can sing lots of English songs - это False, так как из диалога понятно, что она слушает много английских песен, а спеть может только парочку из них, а не много (lots of).\n\n5) Высказывание Е Kate has already been to English-speaking countries - это False, так как из диалога понятно, что Кейт любит путешествовать и уже была за границей, а вот в англоговорящих (English-speaking) странах, увы, не была.\n\n6) Высказывание F Christian uses the Internet for practicing his English - это Not stated, так как из диалога понятно, что Кейт использует интернет для практики, а вот Кристиан - только домашку делает. А про интернет ничего не сказал. Вот и мы ничего сказать не можем - Not stated.\n\n7) Высказывание G Christian spends half an hour every day on doing his homework - это False, так как из диалога становится понятно, что Кристиан более трудолюбивый человек, чем мы могли бы подумать. Каждый день он по целому часу тратит на домашку. Вот так-то.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 810,
+    "title": "Полное понимание устной речи: интервью"
+  },
+  "id": 1669,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "a3 b2 c1 d2 e2 f3 g2",
+          "points": 7
+        }
+      ],
+      "comment": "",
+      "description": "Вы услышите диалог. Определите, какие из приведённых утверждений A-G соответствуют содержанию текста (1 - True), какие не соответствуют (2 - False) и о чём в тексте не сказано, то есть на основании текста нельзя дать ни положительного, ни отрицательного ответа (3 - Not stated). Занесите номер выбранного вами варианта ответа в таблицу. Вы услышите запись дважды.\n\nA - Kate started to learn English a year ago.\nB - Christian is a successful businessman.\nC - Christian usually watches English and American films.\nD - Kate can sing lots of English songs.\nE - Kate has already been to English-speaking countries.\nF - Christian uses the Internet for practising his English.\nG - Christian spends half an hour every day on doing his homework.",
+      "error_conditions": [],
+      "id": 54551,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 7,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

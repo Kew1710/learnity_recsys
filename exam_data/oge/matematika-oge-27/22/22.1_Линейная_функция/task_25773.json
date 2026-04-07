@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПостроим три линейные функции на одной координатной плоскости и отметим их решение на указанных промежутках.\n- \\( y = 2x-2 , x < 3\\) - прямая\n\nx30y4-2\n2. \\( y =-3x+13, 3 \\leqslant x \\leqslant 4\\) - прямая\nx34y413. \\( y =1,5x-7, x > 4\\) - прямая\nx46y-12Теперь ответим на вопрос задачи. При \\(m \\in (-1;1) \\) и при \\( m = 4\\) прямая \\(y = m\\) имеет с графиком ровно 2 общие точки.\nОтвет: \\(m \\in (-1;1) \\cup \\{4\\} \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2006,
+    "title": "22.1 Линейная функция"
+  },
+  "id": 25773,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Постройте график функции y =\\(\\begin{cases}2x-2, \\rm{если } \\: x < 3\\\\ -3x+13, если \\: 3 \\leqslant x \\leqslant 4,\\\\ 1,5x-7, \\rm{если} \\: x > 4 \\end{cases} \\).\nОпределите, при каких значениях \\(m\\) прямая \\(y=m\\) имеет с графиком ровно две общие точки.",
+      "error_conditions": null,
+      "id": 245430,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

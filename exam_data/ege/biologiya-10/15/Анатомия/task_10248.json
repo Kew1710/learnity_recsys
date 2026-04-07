@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 245\nНаличие подшерстка, хвостовой отдел и подвижная ушная раковина в норме не характерны для человека, но могут появляться в виде атавизмов.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10248,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "245",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Укажите три признака млекопитающих, которые не характерны для человека?\n\n1) наличие диафрагмы\n2) наличие подшерстка\n3) наличие семи шейных позвонков\n4) хвостовой отдел тела\n5) подвижная ушная раковина\n6) альвеолярное легкое",
+      "error_conditions": [],
+      "id": 122988,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

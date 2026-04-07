@@ -1,0 +1,42 @@
+{
+  "comment": "На графиках \\(S(t)\\) скорость равна тангенсу угла наклона прямой:\n$$v= \\frac{ 50}{10} =5~м/с$$\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2609,
+    "title": "Графики в кинематике"
+  },
+  "id": 8121,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "BD0436\nНа рисунке представлен график зависимости пути \\(S\\) велосипедиста от времени \\(t\\). Определите скорость его движения в интервале времени от \\(0\\) до \\(10\\) с. Ответ дайте в м/с.",
+      "error_conditions": [],
+      "id": 101143,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

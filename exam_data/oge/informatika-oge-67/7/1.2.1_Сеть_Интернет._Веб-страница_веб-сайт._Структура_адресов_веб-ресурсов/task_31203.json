@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3119,
+    "title": "1.2.1 Сеть Интернет. Веб-страница, веб-сайт. Структура адресов веб-ресурсов."
+  },
+  "id": 31203,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "674573728",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Файл pig.pdf был выложен в Интернете по адресу http://mypigs.ru/pig.pdf. Потом его переместили в каталог work на сайте presentation.edu, доступ к которому осуществляется по протоколу ftp. Имя файла не изменилось.\nФрагменты нового и старого адресов файла закодированы цифрами от 1 до 9. Запишите последовательность этих цифр, кодирующую адрес файла в сети Интернет после перемещения.\n1)  http:/\n2)  pig\n3)  work\n4)  presentation\n5)  .edu\n6)  ftp:/\n7)  /\n8).pdf\n9)  mypigs",
+      "error_conditions": [],
+      "id": 250842,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

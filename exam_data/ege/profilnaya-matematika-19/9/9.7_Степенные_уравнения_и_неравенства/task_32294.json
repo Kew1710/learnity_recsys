@@ -1,0 +1,45 @@
+{
+  "comment": "В условии задачи дано: \\(m_0=20\\), \\(T=10\\), \\(m=5\\). Подставим эти данные в формулу и найдем время.\n$$5=20\\cdot 2^{-\\frac{\\tau}{10}}\\Leftrightarrow 2^{\\frac{\\tau}{10}}=4\\Leftrightarrow 2^{\\frac{\\tau}{10}}=2^2\\Leftrightarrow \\frac{\\tau}{10}=2\\Leftrightarrow \\tau=20$$\nОтвет: 20",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2427,
+    "title": "9.7 Степенные уравнения и неравенства"
+  },
+  "id": 32294,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В ходе распада радиоактивного изотопа его масса \\(m\\) (в мг) уменьшается по закону \\(m=m_{0}\\cdot 2^{-\\frac{\\tau}{T}}\\), где \\(m_{0}\\) - начальная масса изотопа (в мг),\\(\\tau\\) - время (в минутах), прошедшее от начала момента, \\(T\\) - период полураспада (в минутах). В начальный момент времени масса изотопа равна \\(20\\) мг. Период его полураспада составляет \\(10\\) минут. Найдите, через сколько минут масса изотопа будет равна \\(5\\) мг.",
+      "error_conditions": [],
+      "id": 251933,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=UTTBsFxzC4wr06bp&t=800"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=UTTBsFxzC4wr06bp&t=800"
+}

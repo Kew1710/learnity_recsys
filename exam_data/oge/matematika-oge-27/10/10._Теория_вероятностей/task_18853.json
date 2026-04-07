@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(P=1-0,2=0,8\\) - вероятность того, что выбранная ручка пишет хорошо",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2043,
+    "title": "10. Теория вероятностей"
+  },
+  "id": 18853,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Вероятность того, что новая шариковая ручка пишет плохо (или не пишет), равна 0,2. Покупатель в магазине выбирает одну такую ручку. Найдите вероятность того, что эта ручка пишет хорошо.",
+      "error_conditions": [],
+      "id": 238691,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

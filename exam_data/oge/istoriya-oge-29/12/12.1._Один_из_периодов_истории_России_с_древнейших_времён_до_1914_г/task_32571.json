@@ -1,0 +1,42 @@
+{
+  "comment": "Указанные сражения были ключевыми в ходе Семилетней войны (1756-1763 гг.): сражение при Гросс-Егерсдорфе – 1757 г.; сражение при Цорндорфе – 1758 г.; сражение при Кунерсдорфе – 1759 г.; взятие Берлина – 1760 г.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3102,
+    "title": "12.1. Один из периодов истории России с древнейших времён до 1914 г."
+  },
+  "id": 32571,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "семилетняя",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Заполните пропуск в схеме.",
+      "error_conditions": [],
+      "id": 252210,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

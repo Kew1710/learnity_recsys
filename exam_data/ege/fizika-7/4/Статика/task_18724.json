@@ -1,0 +1,42 @@
+{
+  "comment": "По рисунку определяем:\n$$\\sin\\beta=\\frac{d}{l/2}\\Rightarrow d=\\frac{l}{2}\\sin\\beta, \\beta=90-\\alpha=90-60=30^\\circ$$\nМомент равен:\n$$M=mgd=mg\\frac{l}{2}\\sin\\beta=3\\cdot 10\\cdot\\frac{1}{2}\\cdot \\sin 30^\\circ=7,5~Н\\cdot м$$\nОтвет: 7,5 \\(Н\\cdot м\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2618,
+    "title": "Статика"
+  },
+  "id": 18724,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23И21\nНа вертикальную стенку опирается однородный стержень \\(AB\\), масса которого \\(3\\) кг, а длина – \\(100\\) см. Определите момент силы тяжести, действующей на стержень, относительно оси, перпендикулярной плоскости чертежа и проходящей через точку \\(A\\), если угол между стержнем и горизонтальной стенкой \\(\\alpha=60^\\circ\\). Ответ дайте в Н \\(\\cdot\\) м.",
+      "error_conditions": [],
+      "id": 238565,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/lF1HErCLfr4?t=781"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/lF1HErCLfr4?t=781"
+}

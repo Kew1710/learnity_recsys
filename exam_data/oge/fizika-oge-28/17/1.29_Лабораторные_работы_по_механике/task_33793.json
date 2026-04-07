@@ -1,0 +1,37 @@
+{
+  "comment": "добавить",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3237,
+    "title": "1.29 Лабораторные работы по механике"
+  },
+  "id": 33793,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Необходимо провести исследование зависимости силы упругости, возникающей в пружине, от степени деформации пружины. В исследовании используется пружина и набор грузов.\n1) Какое ещё оборудование понадобится для проведения этого исследования?\n2) Запишите алгоритм действий по исследованию зависимости силы упругости, возникающей в пружине, от степени деформации пружины.",
+      "error_conditions": null,
+      "id": 253432,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

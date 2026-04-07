@@ -1,0 +1,42 @@
+{
+  "comment": "4 - приносящая артерия\n5 - дистальный извитой каналец\n6 - собирательная трубочка",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2942,
+    "title": "Выделительная система"
+  },
+  "id": 30373,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верно обозначенные подписи к рисунку, на котором изображён нефрон человека. Запишите в таблицу цифры, под которыми они указаны.\n1) капиллярный клубочек\n2) капсула нефрона\n3) выносящая артериола\n4) извитой каналец\n5) собирательная трубочка\n6) приносящая артериола",
+      "error_conditions": [],
+      "id": 250012,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

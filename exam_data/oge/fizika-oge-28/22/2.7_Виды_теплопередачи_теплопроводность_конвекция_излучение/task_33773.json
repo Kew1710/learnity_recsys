@@ -1,0 +1,37 @@
+{
+  "comment": "Шерсть обладает плохой теплопроводностью, потому в первом случае быстрее будет протекать теплообмен между льдом и окружающим воздухом. Потому первый брусок льда растает быстрее.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3246,
+    "title": "2.7 Виды теплопередачи: теплопроводность, конвекция, излучение"
+  },
+  "id": 33773,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Два одинаковых бруска льда внесли с мороза в тёплое помещение. Первый брусок завернули в шерстяной шарф, а второй оставили открытым. Какой из брусков будет нагреваться быстрее? Ответ поясните.",
+      "error_conditions": null,
+      "id": 253412,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

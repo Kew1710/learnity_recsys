@@ -1,0 +1,42 @@
+{
+  "comment": "Диэтиламин - вторичный амин, проявляет основные свойства: реагирует с водой, кислотами и галогеналканами\n\nВерные варианты ответа: уксусная кислота, бромоводород",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2825,
+    "title": "Характерные химические свойства аминов"
+  },
+  "id": 35204,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, которые реагируют с диэтиламином.\n1) водород\n2) гидроксид натрия\n3) аммиак\n4) уксусная кислота\n5) бромоводород",
+      "error_conditions": [],
+      "id": 254843,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/O-lOInk7drY?t=3907s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/O-lOInk7drY?t=3907s"
+}

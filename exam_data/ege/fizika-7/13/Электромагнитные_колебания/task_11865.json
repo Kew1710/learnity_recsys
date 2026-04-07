@@ -1,0 +1,42 @@
+{
+  "comment": "Частота обратна периоду:\n$$в~3\\uparrow\\nu =\\frac{1}{T}=\\frac{1}{2\\pi\\sqrt{LC\\downarrow в~9}}$$\nОтвет: 3",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2636,
+    "title": "Электромагнитные колебания"
+  },
+  "id": 11865,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "237417\nНа рисунке представлена принципиальная схема колебательного контура. В начальном состоянии ключ К находится в положении \\(1\\), затем его переводят в положение \\(2\\). Определите, во сколько раз при этом увеличивается частота собственных электромагнитных колебаний в контуре.",
+      "error_conditions": [],
+      "id": 151773,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/7bdNlPFG_Nk"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/7bdNlPFG_Nk"
+}

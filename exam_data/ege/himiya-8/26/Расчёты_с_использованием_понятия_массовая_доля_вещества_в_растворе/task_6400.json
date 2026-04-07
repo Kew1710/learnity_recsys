@@ -1,0 +1,42 @@
+{
+  "comment": "m(в-ва) = ω₁ • m₁(р-ра) = 0,025 • 320 = 8 г\nω = m(в-ва)/m(р-ра)\nω₂ = m(в-ва)/(m₁(р-ра) + m(воды))\nω₂ = 8/(320 + 20) = 8/340 = 0,0235\nω₂ = 2,35%",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 6400,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2,35",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Чему равна массовая доля азотной кислоты в растворе, полученном после добавления 20 г воды к 320 г раствора с массовой долей 2,5%? (Запишите число с точностью до сотых.)",
+      "error_conditions": [],
+      "id": 73486,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YS9IXhYT-bI?start=2829"
+    },
+    "Valid": true
+  },
+  "time_seconds": 900,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YS9IXhYT-bI?start=2829"
+}

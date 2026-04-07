@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(P=\\cfrac{12}{15}=\\cfrac{4}{5}=0,8\\) - вероятность того, что доставшийся пазл будет с машиной",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2043,
+    "title": "10. Теория вероятностей"
+  },
+  "id": 18788,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Родительский комитет закупил 15 пазлов для подарков детям в связи с окончанием учебного года, из них 12 с машинами и 3 с видами городов. Подарки распределяются случайным образом между 15 детьми, среди которых есть Миша. Найдите вероятность того, что Мише достанется пазл с машиной.",
+      "error_conditions": [],
+      "id": 238626,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

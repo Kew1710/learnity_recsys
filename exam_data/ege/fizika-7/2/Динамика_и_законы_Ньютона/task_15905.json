@@ -1,0 +1,42 @@
+{
+  "comment": "По правилу сложения векторов, модуль равнодействующей сил \\(\\vec{F_1}\\) и \\(\\vec{F_2}\\) равен \\(3\\) Н.\n\nОтвет: 3 Н",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2612,
+    "title": "Динамика и законы Ньютона"
+  },
+  "id": 15905,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке представлены два вектора сил, приложенных к одной точке и лежащих в одной плоскости. Чему равен модуль равнодействующей векторов \\(\\vec{F_1}\\) и \\(\\vec{F_2}\\)? Ответ дайте в Н.",
+      "error_conditions": [],
+      "id": 235812,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/NxDULvZhO20?t=448"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/NxDULvZhO20?t=448"
+}

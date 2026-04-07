@@ -1,0 +1,37 @@
+{
+  "comment": "Дано:\nABCD - ромб\n\\( AH \\perp DC \\)\nDH=12\nCH=3\nAH-?\nРешение:\n1) \\( CD=DH+HC=12+3=15=AD\\)\n2) \\( \\triangle ADH\\) - прямоугольный\n\\( AD^2=DH^2+AH^2\\) - по теореме Пифагора\n\\( AH^2 = AD^2-DH^2\\)\n\\( AH^2=\\sqrt{AD^2-DH^2}=\\sqrt{(15-12)(15+12)}=81\\)\nОтвет: 81",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2015,
+    "title": "23.6 Ромб"
+  },
+  "id": 17119,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Высота AH ромба ABCD делит сторону CD на отрезки DH = 12 и CH = 3. Найдите высоту ромба.",
+      "error_conditions": null,
+      "id": 237014,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

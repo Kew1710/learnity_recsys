@@ -1,0 +1,45 @@
+{
+  "comment": "def tr0(n):\nk0 = 0\nwhile n > 0:\nif n % 3 == 0:\nk0 += 1\nn = n // 3\nreturn k0\n\nfor x in range(2000):\nn = 3**100 - x\nif tr0(n) == 2:\nprint(x)\nbreak",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1509,
+    "title": "№14 Другие системы счислений"
+  },
+  "id": 32739,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(ОСН_1_2024) Значение арифметического выражения \\(3^{100} - х\\), где х – целое положительное число, не превышающее 2000, записали в троичной системе счисления. Определите наименьшее значение х, при котором в троичной записи числа, являющегося значением данного арифметического выражения, содержится ровно два нуля.\nВ ответе запишите число в десятичной системе счисления.",
+      "error_conditions": [],
+      "id": 252378,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 33,
+    "title": "Системы счисления"
+  },
+  "video_link": null
+}

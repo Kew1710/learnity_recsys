@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2912,
+    "title": "Методы биологии"
+  },
+  "id": 27751,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "15",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Изучите график возрастного изменения массы головного мозга у человека (по оси х отложен возраст (годы), а по оси у — масса головного мозга (г)).\nКакие два из приведённых ниже описаний характеризуют данную зависимость?\n\nМасса головного мозга\n1) стабильно растёт с 12 до 18 лет\n2) снижается в интервале от 36 до 72 лет\n3) растёт с постоянной скоростью до 20 лет\n4) практически не изменяется всю жизнь\n5) растёт до 23 лет, затем стабильна до 60 лет",
+      "error_conditions": [],
+      "id": 247390,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

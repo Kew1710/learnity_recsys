@@ -1,0 +1,42 @@
+{
+  "comment": "А) Нерастворимое основание - гидроксид металла в степени окисления +1 или +2, за исключением Zn(OH)₂, Be(OH)₂, Sn(OH)₂, Pb(OH)₂. Подходит Mn(OH)₂\nБ) Кислая соль должна содержать водород в кислотном остатке. Подходит гидрофосфат кальция (CaHPO₄)\nВ) Одноосновная кислота должна содержать одну OH-группу. Подходит бутановая кислота (CH₃-CH₂-CH₂-COOH)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2797,
+    "title": "Номенклатура неорганических веществ (тривиальная и международная)"
+  },
+  "id": 1504,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "713",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Среди предложенных формул/названий веществ, расположенных в пронумерованных ячейках, выберите формулы/названия: А) нерастворимого основания; Б) кислой соли; В) одноосновной кислоты.\n1\nCaHPO₄\n\n2\nгидроксид железа(III)\n\n3\nбутановая кислота\n\n4\nсернистая кислота\n\n5\n(CuOH)₂CO₃\n\n6\nCaO\n\n7\nMn(OH)₂\n\n8\nNH₄Cl\n\n9\nZn(OH)₂",
+      "error_conditions": [],
+      "id": 53820,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ao4Qr_V3DCc?start=2239"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Ao4Qr_V3DCc?start=2239"
+}

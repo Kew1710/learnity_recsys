@@ -1,0 +1,42 @@
+{
+  "comment": "Свободное падение - движение с постоянным ускорением, которое называется ускорение свободного падения g=10 м/с\\(^2\\).\nСкорость тела меняется согласно уравнению:\n$$g=\\frac{V-V_{0}}{t}$$\n$$V=gt+V_{0}$$\n$$V=10\\cdot{2}+0$$\n$$V=20 м/c$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3213,
+    "title": "1.5 Свободное падение"
+  },
+  "id": 33319,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Время свободного падения камня из состояния покоя на поверхность Земли равно 2 с. Какую скорость имел камень в момент падения? Сопротивлением движению пренебречь.\nОтвет: ___________________________ м/с",
+      "error_conditions": [],
+      "id": 252958,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

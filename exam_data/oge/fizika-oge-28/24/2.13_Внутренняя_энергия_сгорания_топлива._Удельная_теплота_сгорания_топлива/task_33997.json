@@ -1,0 +1,37 @@
+{
+  "comment": "Мы хотим чтобы автомобиль ехал, а он может это делать, совершая работу против силы трения\nКПД равно: $$\\eta=\\frac{A_{п}}{A_{зат}}=\\frac{A_{тр}}{Q}=\\frac{F_{тр}\\cdot S}{qm_б}=\\frac{{\\mu}mgS}{qm_б}$$\nРаспишем массу бензина: $$m_б={\\rho_б}V_б \\\\ m_б=710\\cdot 0,015=10,65~кг$$\nПодставим все числа в КПД: $$0,2=\\frac{0,03\\cdot 2,3\\cdot 10^3\\cdot 10\\cdot 142000}{q\\cdot 10,65} \\\\ 0,2\\cdot q\\cdot 10,56=0,03\\cdot 2,3\\cdot 10^3\\cdot 10\\cdot 142000 \\\\ q=\\frac{0,03\\cdot 2,3\\cdot 10^3\\cdot 10\\cdot 142000}{0,2\\cdot 10,56} \\approx 4,6\\cdot 10^7~\\frac{Дж}{кг}$$\n\nОтвет: $4,6\\cdot 10^7~\\frac{Дж}{кг}$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3252,
+    "title": "2.13 Внутренняя энергия сгорания топлива. Удельная теплота сгорания топлива"
+  },
+  "id": 33997,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Автомобиль массой 2,3 т равномерно движется по горизонтальной дороге. Определите удельную теплоту сгорания бензина, если для прохождения 142 км пути двигатель автомобиля при средней силе сопротивления движению, равной 0,03 веса автомобиля, израсходовал 15 л топлива. КПД двигателя равен 20%",
+      "error_conditions": null,
+      "id": 253636,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

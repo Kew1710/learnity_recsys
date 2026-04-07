@@ -1,0 +1,45 @@
+{
+  "comment": "Билетов, не содержащих вопрос по теме “Логарифмы”, всего \\(48-12=36\\) штук. Тогда искомая вероятность равна:\n$$\\frac{36}{48}=\\frac{3}{4}=0,75$$\nОтвет: 0,75",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 32289,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В сборнике билетов по математике всего \\(48\\) билетов, в \\(12\\) из них встречается вопрос по теме “Логарифмы”. Найдите вероятность того, что в случайно выбранном на экзамене билете школьнику не достанется вопрос по теме “Логарифмы”.",
+      "error_conditions": [],
+      "id": 251928,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=HDsTaii33dtp6B5D&t=580"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=HDsTaii33dtp6B5D&t=580"
+}

@@ -1,0 +1,46 @@
+{
+  "comment": "Митохондрия является органоидом - постоянным компонентном клетки, который участвует в её метаболизме, поэтому уровнем организации будет органоидный/клеточный/органоидо-клеточный",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2508,
+    "title": "Уровни организации и признаки живых систем"
+  },
+  "id": 8161,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "клеточный",
+          "points": 1
+        },
+        {
+          "answer": "органоидный",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Уровни организации живой природы» и заполните ячейку, вписав соответствующий термин.\n\nУровень\nПример\n?\nМитохондрияОрганно-тканевойСердце человека",
+      "error_conditions": [],
+      "id": 101450,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/dqse4bDp4eE?start=381"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/dqse4bDp4eE?start=381"
+}

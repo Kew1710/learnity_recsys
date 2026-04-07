@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(t_C=-23\\) по условию\n\\(t_F=1,8 \\cdot (-23) +32 =-41,1+32=-9,4\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2060,
+    "title": "12.2 Физика"
+  },
+  "id": 18939,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-9,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Чтобы перевести значение температуры по шкале Цельсия в шкалу Фаренгейта, пользуются формулой \\(t_F=1,8t_C+32\\) , где \\( t_C\\) – градусы Цельсия, \\(t_F\\) – градусы Фаренгейта. Скольким градусам по шкале Фаренгейта соответствует \\(− 23\\) градусов по шкале Цельсия?",
+      "error_conditions": [],
+      "id": 238777,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

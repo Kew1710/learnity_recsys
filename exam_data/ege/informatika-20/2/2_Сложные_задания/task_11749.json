@@ -1,0 +1,45 @@
+{
+  "comment": "PascalPythonvar x,y,z,w:boolean;\nFunction F(n:boolean):integer;\nbegin\nIf n = True then\nF:=1\nelse F:=0;\nend;\nbegin\nprintln('x y z w');\nFor x:=false to true do\nFor y:=false to true do\nFor z:=false to true do\nFor w:=false to true do\nif (((x ≤ (not (y ≤ z))) or w) == False then\nprintln(F(x),F(y),F(z),F(w));\nend.\n\nprint('x y z w')\nfor x in range(2):\nfor y in range(2):\nfor z in range(2):\nfor w in range(2):\nif ((x <= (not (y <= z))) or w) == False:\nprint(x,y,z,w)\n\nСопоставив две таблицы получим:\nСтолбик с тремя единицами - это x, с тремя нулями - это w\nС двумя единицами - это z, с одной - это y\nПеременная 1Переменная 2Переменная 3Переменная 4ФункцияyzxwF001001110001100",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2692,
+    "title": "№2 Сложные задания"
+  },
+  "id": 11749,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "yzxw",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Миша заполнял таблицу истинности логической функции \\((x \\to \\neg (y \\to z)) \\vee w\\) , но успел заполнить лишь фрагмент из трех различных ее строк? даже не указав? какому столбцу таблицы соответствует каждая из ремённых w, x, y, z.\n\nОпределите, какому столбцу таблицы соответствует каждая из переменных w, х, у, z.\nВ ответе напишите буквы w, х, у, z в том порядке, в котором идут соответствующие им столбцы (сначала буква\nсоответствующая первому столбцу; затем буква, соответствующая второму столбцу, и т.д.). Буквы в ответе\nподряд, никаких разделителей между буквами ставить не нужно.\nПример. Функция F задана выражением \\(х \\vee у\\), зависящим от двух переменных, а фрагмент таблицы имеет следующий вид.\n\nВ этом случае первому столбцу соответствует переменная у, а второму столбцу - переменная х. В ответе следует написать: ух.",
+      "error_conditions": [],
+      "id": 150598,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 21,
+    "title": "Таблицы истинности"
+  },
+  "video_link": null
+}

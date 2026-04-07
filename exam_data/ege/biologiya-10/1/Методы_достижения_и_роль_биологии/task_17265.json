@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: цитология\nЦитология - раздел биологии, изучающий особенности клеток (их строение, жизнедеятельность и т.д.).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2507,
+    "title": "Методы, достижения и роль биологии"
+  },
+  "id": 17265,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "цитология",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Биология как наука» и заполните ячейку, вписав соответствующий термин.\nРазделы биологии\nОбласти исследования\nЭтология Закономерности поведения животных в естественных условиях?\nСтроение клеток организмов разных царств",
+      "error_conditions": [],
+      "id": 237147,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

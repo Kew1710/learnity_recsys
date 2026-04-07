@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - параллелограмм\nAK - биссектриса\nBK=7\nCK=12\nНайти:\n\\(P_{ABCD}-?\\)\nРешение:\n1) \\( \\angle KAD = \\angle AKB\\) - накрест лежащие\nт.к. \\( \\angle BAK = \\angle KAD\\) ( AK - биссектриса) \\( \\Rightarrow \\angle BAK =\\angle BKA\\)\n\\( \\Rightarrow \\triangle ABK \\) равнобедренный (св-во равнобедренного треугольника)\n\\( \\Rightarrow AB=BK=7\\)\n2) \\( BC=BK+KC=7+12=19 \\)\n3) \\( P_{ABCD}= (AB+BC) \\cdot 2 =(7+19) \\cdot 2= 52 \\)\nОтвет: 52",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2014,
+    "title": "23.5 Параллелограмм"
+  },
+  "id": 17103,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Биссектриса угла A параллелограмма ABCD пересекает сторону BC в точке K. Найдите периметр параллелограмма, если BK = 7, CK = 12.",
+      "error_conditions": null,
+      "id": 237001,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

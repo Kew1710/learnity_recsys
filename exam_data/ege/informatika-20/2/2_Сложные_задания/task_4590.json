@@ -1,0 +1,45 @@
+{
+  "comment": "PascalPythonvar x,y,z,w:boolean;\nFunction F(n:boolean):integer;\nbegin\nIf n = True then\nF:=1\nelse F:=0;\nend;\nbegin\nprintln('x y z w');\nFor x:=false to true do\nFor y:=false to true do\nFor z:=false to true do\nFor w:=false to true do\nif ((( x <= y) == (z <= w)) or (x and w)) == False then\nprintln(F(x),F(y),F(z),F(w));\nend.\n\nprint('x y z w')\nfor x in range(2):\nfor y in range(2):\nfor z in range(2):\nfor w in range(2):\nif ((( x <= y) == (z <= w)) or (x and w)) == False:\nprint(x,y,z,w)\n\nСтолбик с тремя нулями - это переменная w\nСтолбик с тремя единицами - это переменная z\nСтолбик с двумя единицами - это y, а с одной - x\n\nzyxwF100001100011100",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2692,
+    "title": "№2 Сложные задания"
+  },
+  "id": 4590,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "zyxw",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Текст задания: Логическая функция F задаётся выражением \\(((x \\to y)\\sim (z \\to w)) \\vee (x \\wedge w)\\).\nДан частично заполненный фрагмент, содержащий неповторяющиеся строки таблицы истинности функции F.\nОпределите какому столбцу таблицы истинности соответствует каждая из переменных x, y, z, w.\n\\(((x \\to y)\\sim (z \\to w)) \\vee (x \\wedge w)\\)1 011 0111 0В ответе напишите буквы w, x, y, z в том порядке, в котором идут соответствующие им столбцы (сначала буква, соответствующая первому столбцу; затем буква, соответствующая второму столбцу, и т.д.). Буквы в ответе пишите подряд, никаких разделителей между буквами ставить не нужно.",
+      "error_conditions": [],
+      "id": 67380,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=4QWDPvIU29w&t=885s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 21,
+    "title": "Таблицы истинности"
+  },
+  "video_link": "https://www.youtube.com/watch?v=4QWDPvIU29w&t=885s"
+}

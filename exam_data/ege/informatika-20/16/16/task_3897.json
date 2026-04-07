@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1518,
+    "title": "№16"
+  },
+  "id": 3897,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "22",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: 7627\nАлгоритм вычисления значения функции F(n), где n – натуральное число, задан следующими соотношениями:\n\nF(n) = 2 при n ≤ 2;\n\nF(n) = F(n − 1) + 2 × F(n − 2) при n > 2.\n\nЧему равно значение функции F(5)? В ответе запишите только натуральное число.",
+      "error_conditions": [],
+      "id": 66211,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/wTnDYk7lEDU?start=16955"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 35,
+    "title": "Рекурсия"
+  },
+  "video_link": "https://www.youtube.com/embed/wTnDYk7lEDU?start=16955"
+}

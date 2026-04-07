@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1756,
+    "title": "1.7 Человек и его ближайшее окружение. Межличностные отношения. Общение"
+  },
+  "id": 11707,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой пример иллюстрирует формальные межличностные отношения?\n1) Директор школы встретился со своими бывшими учениками.\n2) Директор школы вызвал родителей ученика для разговора о его поведении.\n3) Директор школы дал соседям дубликат ключей от своей квартиры.\n4) Директор школы согласился играть роль в школьном спектакле.",
+      "error_conditions": [],
+      "id": 149888,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/l4Cx49fMs-s?start=6231"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/l4Cx49fMs-s?start=6231"
+}

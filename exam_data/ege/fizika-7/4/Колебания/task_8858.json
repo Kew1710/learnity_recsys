@@ -1,0 +1,42 @@
+{
+  "comment": "В точке 1 кинетическая энергия шарика максимальна, а потенциальная энергия равна \\(0\\) (так как тело находится в нижней точке).\n$$E_{мех}=E_{к_1}+E_{п_1}$$\nТак как \\(E_{п_1}=0\\), то получим:\n$$E_{мех}=E_{к_1}=20~Дж$$\nОтвет: 20 Дж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2620,
+    "title": "Колебания"
+  },
+  "id": 8858,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Математический маятник совершает свободные колебания. Известно, что кинетическая энергия шарика в точке \\(1\\) траектории равна \\(20\\) Дж. Чему равна полная механическая энергия маятника? Ответ выразите в Дж.",
+      "error_conditions": [],
+      "id": 112078,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 48,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/_qYzPdiULNs"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/_qYzPdiULNs"
+}

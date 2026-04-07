@@ -1,0 +1,40 @@
+{
+  "comment": "1 способ:\nРаскроем модуль:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\left[ \\begin{array}{l l} \\begin{cases} 3-5x\\geq 0\\\\ 25x^{2} -3( 3-5x) < 30x-9 \\end{cases}\\\\ \\begin{cases} 3-5x< 0\\\\ 25x^{2} +3( 3-5x) < 30x-9 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} 5x\\leq 3\\\\ 25x^{2} -9+15x-30x+9< 0 \\end{cases}\\\\ \\begin{cases} 5x >3\\\\ 25x^{2} +9-15x-30x+9< 0 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\leq \\frac{3}{5}\\\\ 25x^{2} -15x< 0 \\end{cases}\\\\ \\begin{cases} x >\\frac{3}{5}\\\\ 25x^{2} -45x+18< 0 \\end{cases} \\end{array} \\right. \\Rightarrow \\\\ \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\leq \\frac{3}{5}\\\\ x( 5x-3) < 0 \\end{cases}\\\\ \\begin{cases} x >\\frac{3}{5}\\\\ ( 5x-3)( 5x-6) < 0 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\leq \\frac{3}{5}\\\\ x\\left( x-\\frac{3}{5}\\right) < 0 \\end{cases}\\\\ \\begin{cases} x >\\frac{3}{5}\\\\ \\left( x-\\frac{3}{5}\\right)\\left( x-\\frac{6}{5}\\right) < 0 \\end{cases} \\end{array} \\right. \\end{array}$$\n1 система:\n2 система:\n$$\\displaystyle \\left[ \\begin{array}{l l} \\begin{cases} x >0\\\\ x< \\frac{3}{5} \\end{cases}\\\\ \\begin{cases} x >\\frac{3}{5}\\\\ x< \\frac{6}{5} \\end{cases} \\end{array} \\right.$$\n2 способ:\n$$25x^2-3|3-5x|<30x-9\\\\ 25x^2-30x+9-3|3-5x|<0\\\\ (5x-3)^2-3|3-5x|<0$$\nТак как: \\(|3-5x|^2=(5x-3)^2\\), то пусть \\(|3-5x|=t\\)\n$$t^2-3t<0\\\\ t(t-3)<0$$\n$$0<t<3\\\\ \\displaystyle \\begin{cases} |3-5x| >0\\\\ |3-5x|< 3 \\end{cases} \\Rightarrow \\begin{cases} 3-5x\\neq 0\\\\ -3< 3-5x< 3 \\end{cases} \\Rightarrow \\begin{cases} x\\neq \\frac{3}{5}\\\\ -6< -5x< 0 \\end{cases} \\Rightarrow \\begin{cases} x\\neq \\frac{3}{5}\\\\ \\frac{6}{5} >x >0 \\end{cases}$$\n$$x\\in \\left(0;\\frac{3}{5}\\right)\\cup \\left(\\frac{3}{5};\\frac{6}{5}\\right)$$\nОтвет: \\(\\left(0;\\frac{3}{5}\\right)\\cup \\left(\\frac{3}{5};\\frac{6}{5}\\right)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2473,
+    "title": "15.7 Сложные неравенства"
+  },
+  "id": 12132,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение: \\(25x^2-3|3-5x|<30x-9\\).",
+      "error_conditions": null,
+      "id": 154093,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/6N3xrdlnT0o?si=ZMIQeBRwx7sv0nnR&t=145"
+}

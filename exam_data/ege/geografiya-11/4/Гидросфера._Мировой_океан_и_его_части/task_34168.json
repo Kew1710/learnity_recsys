@@ -1,0 +1,42 @@
+{
+  "comment": "Озера представлены на физической карте Африки.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3299,
+    "title": "Гидросфера. Мировой океан и его части."
+  },
+  "id": 34168,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 11,
+    "task_count": 0,
+    "title": "География"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "312",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расположите озёра с севера на юг в том порядке, в котором они расположены на карте мира, начиная с самого южного.\n1) Виктория\n2) Чад\n3) Ньяса",
+      "error_conditions": [],
+      "id": 253807,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

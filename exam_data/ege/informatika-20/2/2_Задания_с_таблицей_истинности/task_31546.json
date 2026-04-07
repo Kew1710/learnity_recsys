@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2691,
+    "title": "№2 Задания с таблицей истинности"
+  },
+  "id": 31546,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "ywzx",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Миша заполнял таблицу истинности логической функции F\n¬ (y → ¬ (z → w)) ∧ (¬z → (¬w ≡ x))\nно успел заполнить лишь фрагмент из трёх различных её строк, даже не указав, какому столбцу таблицы соответствует каждая из переменных w,x,y,z.\n\n????F1 110 001 00 1\nВ ответе напишите буквы w, х, у, z в том порядке, в котором идут соответствующие им столбцы (сначала буква, соответствующая первому столбцу; затем буква, соответствующая второму столбцу, и т.д.). Буквы в ответе пишите подряд, никаких разделителей между буквами ставить не нужно.",
+      "error_conditions": [],
+      "id": 251185,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/EXgfdPiYjkQ?feature=share&t=4237"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 21,
+    "title": "Таблицы истинности"
+  },
+  "video_link": "https://www.youtube.com/live/EXgfdPiYjkQ?feature=share&t=4237"
+}

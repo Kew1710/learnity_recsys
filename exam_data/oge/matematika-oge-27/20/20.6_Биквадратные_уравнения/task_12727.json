@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\((x+2)^4-4(x+2)^2-5=0\\)\nПусть \\((x+2)^2=t\\), тогда \\((x+2)^4=t^2\\). \\(t \\geqslant 0\\)\n\\(t^2-4t-5=0\\)\n\\(D=b^2-4ac=16+20=36\\)\n\\(t_1=\\cfrac{4+6}{2}\\)\n\\(t_1=5\\)\n\\(t_2=\\cfrac{4-6}{2}\\)\n\\(t_2=-1\\) - не удовлетворяет \\(t \\geqslant 0\\)\n\\((x+2)^2=5\\)\n\\(x=-\\sqrt{5}-2\\)\n\\(x=\\sqrt{5}-2\\)\nОтвет: \\(-\\sqrt{5}-2; \\sqrt{5}-2\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2053,
+    "title": "20.6 Биквадратные уравнения"
+  },
+  "id": 12727,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\((x+2)^4-4(x+2)^2-5=0\\) .",
+      "error_conditions": null,
+      "id": 172527,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

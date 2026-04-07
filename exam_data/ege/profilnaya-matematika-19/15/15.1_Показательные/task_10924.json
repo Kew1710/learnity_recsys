@@ -1,0 +1,40 @@
+{
+  "comment": "Замена: \\(3^x=t,t>0\\)\n$$1+\\frac{14}{t-9}+\\frac{48}{t^2-2\\cdot 9\\cdot t+81}\\geq 0\\\\ 1+\\frac{14}{t-9}+\\frac{48}{(t-9)^2}\\geq 0\\\\ \\frac{t^2-18 t+81+14t-126+48}{(t-9)^2}\\geq 0\\\\ \\frac{t^2-4t+3}{(t-9)^2}\\geq 0\\\\ \\frac{(t-1)(t-3)}{(t-9)^2}\\geq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l}\nt >9\\\\\n\\begin{cases}\nt\\geq 3\\\\\nt< 9\n\\end{cases}\\\\\n\\begin{cases}\nt >0\\\\\nt\\leq 1\n\\end{cases}\n\\end{array} \\right.$$\nОбратная замена:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\left[ \\begin{array}{l l}\n3^{x} >9\\\\\n\\begin{cases}\n3^{x} \\geq 3\\\\\n3^{x} < 9\n\\end{cases}\\\\\n\\begin{cases}\n3^{x} >0\\\\\n3^{x} \\leq 1\n\\end{cases}\n\\end{array} \\right.\\\\\n\\left[ \\begin{array}{l l}\n3^{x} >3^{2}\\\\\n\\begin{cases}\n3^{x} \\geq 3^{1}\\\\\n3^{x} < 3^{2}\n\\end{cases}\\\\\n\\begin{cases}\n3^{x} >0\\\\\n3^{x} \\leq 3^{0}\n\\end{cases}\n\\end{array} \\right.\\\\\n\\left[ \\begin{array}{l l}\nx >2\\\\\n\\begin{cases}\nx\\geq 1\\\\\nx< 2\n\\end{cases}\\\\\nx\\leq 0\n\\end{array} \\right.\n\\end{array}$$\nОтвет: \\(x\\in (-\\infty;0]~\\cup [1;2)~\\cup (2;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 10924,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(1+\\frac{14}{3^x-9}+\\frac{48}{9^x-2\\cdot 3^{x+2}+81}\\geq 0\\).",
+      "error_conditions": null,
+      "id": 147692,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

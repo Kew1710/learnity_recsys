@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем координаты векторов \\(2\\vec{a}\\) и \\(3\\vec{b}\\).\n$$2\\vec{a}=(2\\cdot 4;-2\\cdot 2)=(8;-4)\\\\ 3\\vec{b}=(-4\\cdot 3;-3\\cdot 3)=(-12;-9)$$\nТогда координаты вектора \\(2\\vec{a}-3\\vec{b}\\) равны:\n$$2\\vec{a}-3\\vec{b}=(8-(-12);-4-(-9))=(8+12;-4+9)\\\\ 2\\vec{a}-3\\vec{b}=(20;5)$$\nТребуется найти сумму координат, она равна:\n$$20+5=25$$\nОтвет: 25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2382,
+    "title": "2.1 Сумма и разность векторов, умножение вектора на число"
+  },
+  "id": 24679,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны векторы \\(\\vec{a}(4;-2)\\) и \\(\\vec{b}(-4;-3)\\). Найдите сумму координат \\(x\\) и \\(y\\) вектора \\(2\\vec{a}-3\\vec{b}\\).",
+      "error_conditions": [],
+      "id": 244345,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/VDEuB7NUXfk?si=cqcmvEckH_TDeiJ4&t=385"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/live/VDEuB7NUXfk?si=cqcmvEckH_TDeiJ4&t=385"
+}

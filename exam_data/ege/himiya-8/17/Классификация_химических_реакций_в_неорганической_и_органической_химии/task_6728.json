@@ -1,0 +1,42 @@
+{
+  "comment": "Катализатор – вещество, ускоряющее химические реакции, но не расходующееся в процессе реакции\n\n1) гидролиз карбида кальция в воде не требует катализатора\n2) синтез аммиака из простых веществ - каталитический процесс\n3) гидролиз метилацетата в воде - каталитический процесс\n4) хлорирование этана - реакция протекает на свету, катализаторы не требуются\n5) гидрирование бензола - каталитический процесс",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2837,
+    "title": "Классификация химических реакций в неорганической и органической химии"
+  },
+  "id": 6728,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "235",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все схемы реакций, для осуществления которых требуется катализатор.\n1) CaC₂ + H₂O → Ca(OH)₂ + C₂H₂\n2) N₂ + H₂ → NH₃\n3) CH₃COOCH₃ + H₂O → CH₃COOH + CH₃OH\n4) C₂H₆ + Cl₂ → HCl + C₂H₅Cl\n5) C₆H₆ + H₂ → C₆H₁₂",
+      "error_conditions": [],
+      "id": 75262,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Rxe4DgAn4zg?start=3737"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Rxe4DgAn4zg?start=3737"
+}

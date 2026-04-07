@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(2a - 7b + 5 = 9(7a - 2b + 5)\\)\n\\(2a - 7b + 5 = 63a - 18b + 45\\)\n\\(63a - 18b + 45 - 2a + 7b - 5 = 0\\)\n\\(61a - 11b + 40 = 0\\)\n\\(61a - 11b = -40\\)\n\\(61a - 11b + 50 = -40 +50 = 10\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1923,
+    "title": "20.1 Выражения"
+  },
+  "id": 12541,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите значение выражения \\(61a-11b+50\\), если \\(\\cfrac{2a-7b+5}{7a-2b+5}=9\\) .",
+      "error_conditions": null,
+      "id": 166338,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

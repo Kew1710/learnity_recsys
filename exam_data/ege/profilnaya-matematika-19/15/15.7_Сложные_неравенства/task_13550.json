@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничения:\n$$7-2^x>0\\\\ 7>2^x\\\\ x<\\log_27$$\nПерейдем к неравенству:\n\nСравним основание с \\(1\\): $$ \\sqrt{3} + \\sqrt{19} > 6 \\\\ \\left(\\sqrt{3} + \\sqrt{19}\\right)^2 > 36 \\\\ 3 + 2\\sqrt{57} + 19 > 36 \\\\ 2\\sqrt{57} > 14 \\\\ \\sqrt{57} > 7 \\ \\text{– верно} \\\\ \\Rightarrow \\frac{\\sqrt{3}+\\sqrt{19}}{6} > \\frac{6}{6} \\geqslant 1 $$\nТогда:\n$$5\\geq 7-2^x\\\\ 2^x\\geq 2\\\\ x\\geq 1$$\nС учетом ограничений:\n\nОтвет: \\(x\\in [1;\\log_27)\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2473,
+    "title": "15.7 Сложные неравенства"
+  },
+  "id": 13550,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\log_{\\frac{\\sqrt{3}+\\sqrt{19}}{6}}5\\geq\\log_{\\frac{\\sqrt{3}+\\sqrt{19}}{6}}(7-2^x)\\).",
+      "error_conditions": null,
+      "id": 179314,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

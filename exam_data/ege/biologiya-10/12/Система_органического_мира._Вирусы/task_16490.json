@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Царство: животные\nТип: хордовые\nКласс: земноводные\nОтряд: бесхвостые\nСемейство: настоящие лягушки\nВид: лягушка прудовая",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 16490,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "362541",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность систематических групп животных, начиная с самого высокого ранга. Запишите в таблицу соответствующую последовательность цифр.\n- Лягушка прудовая\n- Земноводные\n- Животные\n- Настоящие лягушки\n- Бесхвостые\n- Хордовые",
+      "error_conditions": [],
+      "id": 236397,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

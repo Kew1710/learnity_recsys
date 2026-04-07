@@ -1,0 +1,58 @@
+{
+  "comment": "Приложим линейку к заданным точкам, получим 6,8 см. Согласно масштабу, в 1 см 100 м. Умножим 6,8 на 100, получим 680 метров.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2969,
+    "title": "2.1 Планы местности. Географические карты. Географическая широта и географическая долгота."
+  },
+  "id": 29488,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "660",
+          "points": 1
+        },
+        {
+          "answer": "670",
+          "points": 1
+        },
+        {
+          "answer": "680",
+          "points": 1
+        },
+        {
+          "answer": "690",
+          "points": 1
+        },
+        {
+          "answer": "700",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите по карте расстояние на местности по прямой от пункта государственной геодезической сети до точки А. Измерение проводите между центрами условных знаков. Полученный результат округлите до десятков метров. Ответ запишите в виде числа.",
+      "error_conditions": [],
+      "id": 249127,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

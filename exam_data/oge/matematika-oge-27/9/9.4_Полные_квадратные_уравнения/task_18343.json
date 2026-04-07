@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(8x^2-12x+4=0\\)\nПоделим обе части уравнения на 4\n\\(2x^2-3x+1=0\\)\n\\(D=b^2-4ac=9-4 \\cdot 2 \\cdot 1=1\\)\n\\(x_1=\\cfrac{3+1}{4}=1\\)\n\\(x_2=\\cfrac{3-1}{4}=0,5\\)\nОтвет: \\(0,5\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2057,
+    "title": "9.4 Полные квадратные уравнения"
+  },
+  "id": 18343,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(8x^2-12x+4=0\\). Если уравнение имеет более одного корня, в ответ запишите меньший из корней.",
+      "error_conditions": [],
+      "id": 238185,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

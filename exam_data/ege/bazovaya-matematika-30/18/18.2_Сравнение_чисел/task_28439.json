@@ -1,0 +1,42 @@
+{
+  "comment": "По координатной прямой можем примерно оценить значение \\(m \\approx 0,9\\)\nРассмотрим каждое число:\n- \\(4 - m \\approx 4 - 0,9 \\approx 3,1 \\) - соответствует точке \\(D\\)\n- \\(m^2 \\approx 0,9^2 \\approx 0,81\\) - соответствует точке \\(B\\)\n- \\(\\sqrt{m + 1} \\approx \\sqrt{0,9 + 1} \\approx \\sqrt{1,9} approx 1,38\\) - соответствует точке \\(C\\)\n- \\(-\\frac{2}{m} \\approx -\\frac{2}{0,9} \\approx -2,22\\) - соответствует точке \\(A\\)\n\nОтвет: 4231",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2128,
+    "title": "18.2 Сравнение чисел"
+  },
+  "id": 28439,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4231",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечено число \\(m\\) и точки \\(A,\\; B,\\; C\\; и \\; D\\).\nКаждой точке соответствует одно из чисел в правом столбце. Установите соответствие между указанными точками и числами.\nТОЧКИЧИСЛА\\(A\\)1) \\(4 - m\\)\\(B\\)2) \\(m^2\\)\\(C\\)3) \\(\\sqrt{m + 1}\\)\\(D\\)4) \\(-\\frac{2}{m}\\)Для каждой точки укажите номер соответствующего числа.",
+      "error_conditions": [],
+      "id": 248078,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

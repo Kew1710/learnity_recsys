@@ -1,0 +1,37 @@
+{
+  "comment": "По третьему закону Ньютона:\n$$|\\vec{F}|=|\\vec{N}|$$\nСила Архимеда:\n$$F_А=\\rho_жgV_{погр}=\\frac{1}{2}\\rho_жgV$$\nМасса шара:\n$$m=\\rho V\\Rightarrow V=\\frac{m}{\\rho}$$\nПо второму закону Ньютона:\n$$Oy:~N+F_А-mg=0$$\n$$N+\\rho_жg\\frac{V}{2}-\\rho V=0$$\n$$N=Vg\\left (\\rho-\\frac{\\rho_ж}{2}\\right )=\\frac{mg}{\\rho}\\left (\\rho-\\frac{\\rho_ж}{2}\\right )=mg\\left (1-\\frac{\\rho_ж}{2\\rho}\\right )$$\n$$1-\\frac{\\rho_ж}{2\\rho}=\\frac{N}{mg}$$\n$$\\frac{\\rho_ж}{2\\rho}=1-\\frac{N}{mg}$$\nПлотность шара:\n$$\\rho=\\frac{\\rho_ж}{2\\left (1-\\frac{N}{mg}\\right )}=\\frac{1000}{2\\left (1-\\frac{6}{1,6\\cdot 10}\\right)}=800~кг\\cdot м^3$$\nОтвет: 800 \\(кг\\cdot м^3\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2619,
+    "title": "Гидростатика"
+  },
+  "id": 32391,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Деревянный шар поместили в сосуд, заполненный водой. Шар касается дна, а уровень воды находится на середине шара. Сила, с которой шар действует на дно сосуда, \\(F=6\\) Н. Определите плотность шара, если его масса равна \\(1,6\\) кг.",
+      "error_conditions": null,
+      "id": 252030,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/fvQ1eKtlzLw?t=4658"
+}

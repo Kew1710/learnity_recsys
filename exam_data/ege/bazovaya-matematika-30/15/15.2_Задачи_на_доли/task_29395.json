@@ -1,0 +1,42 @@
+{
+  "comment": "Зерновые культуры занимаю 3 части земель, бахчевые - 4 частей. Всего 7 частей.\nТогда зерновые культуры \\(\\frac{3}{7}\\) всех земель.\n$$42 \\cdot \\frac{3}{7} = 6 \\cdot 3 = 18$$\nОтвет: 18 гектаров.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2115,
+    "title": "15.2 Задачи на доли"
+  },
+  "id": 29395,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "18",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь земель фермерского хозяйства, отведённых под посадку сельскохозяйственных культур, составляет 42 гектара и распределена между зерновыми и техническими культурами в отношении 3 : 4 соответственно. Сколько гектаров занимают зерновые культуры?",
+      "error_conditions": [],
+      "id": 249034,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

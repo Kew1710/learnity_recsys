@@ -1,0 +1,40 @@
+{
+  "comment": "a) \\(BN\\) - проекция \\({B}_{1}N\\) на \\((ABCD)\\)\n\nРассмотрим \\(\\triangle{MBC}\\) и \\(\\triangle{NAB}\\): \\( MB = NA = \\frac{1}{2}a\\) (где \\(a\\) - длина ребра куба), \\(AB = BC\\) и \\(\\angle{NAB} = \\angle{MBC} = {90}^{\\circ} \\Rightarrow\\) треугольники равны по двум катетам\n\n\\(\\Rightarrow\\) пусть \\(\\alpha = \\angle{MCB} = \\angle{NBA} \\Rightarrow\\) в \\(\\triangle{MCB} \\ \\angle{CMB} = {90}^{\\circ} - \\alpha\\)\n\nТогда в \\(\\triangle{BMW}\\) (где \\(W = NB \\cap MC\\)): \\(\\angle{BWM} = {180}^{\\circ} - ({90}^{\\circ} - \\alpha) - \\alpha = {90}^{\\circ}\\)\n$$\\Rightarrow \\left\\{ \\begin{array}{l} {B}_{1}N \\text{ - наклонная} \\\\ {B}_{1}B \\text{ - перпендикуляр}\\\\ BN \\text{ - проекция} \\\\ BN \\perp CM \\end{array} \\right. \\Rightarrow \\text{по ТТП } CM \\perp {B}_{1}N \\Rightarrow \\text{Ч.Т.Д.}$$\nб) Пусть плоскость \\(\\alpha \\) пересекает ребро \\(CD\\) в точке \\(K\\). Прямые \\(NK\\) и \\(CM\\), лежащие в плоскости \\(ABCD\\), параллельны, поскольку прямая \\(NK\\) лежит в плоскости, параллельной прямой \\(CM\\). Следовательно, \\(\\angle DKN=\\angle DCM=\\angle BMC\\) (последние два угла равны как накрест лежащие), а значит, прямоугольные треугольники \\(DKN\\) и \\(BMC\\) подобны по острому углу. Отсюда получим: $$DK=BM\\cdot \\frac{DN}{BC} =\\frac{AB}{2} \\cdot \\frac{AD}{2BC} =\\frac{CD}{4}$$\nИз прямоугольного треугольника \\(B_{1} BN\\) по т. Пифагора: \\({B_{1}N}^{2} =B_{1} B^{2} +BN^{2}\\), где \\(BN^{2} =AB^{2} +AN^{2}\\) из прямоугольного треугольника \\(NAB\\) по т. Пифагора.\n$$B_{1} N^{2} =B_{1} B^{2} +AB^{2} +AN^{2}$$ Пусть ребро куба равно \\(a\\), тогда выражение примет вид: $$ 36^{2} =a^{2} +a^{2} +\\left(\\frac{a }{2}\\right)^{2} =\\frac{9a^{2}}{4}\\\\ a =4;\\\\ B_{1} B=a =4;\\\\ DN=\\frac{a}{2} =2;\\\\ CK=CD-DK=CD-\\frac{CD}{4} =a-\\frac{a}{4} =4-1=3;\\\\ KN=\\frac{a\\sqrt{5}}{4} =\\sqrt{5}~( по~ теореме~Пифагора~из~ прямоугольного~ треугольника~ NKD)$$ Рассмотрим пирамиду \\(CNKB_{1}\\), где высота \\(h\\) из вершины \\(C\\) - искомое расстояние:\n$$V_{CNKB_{1}} =\\frac{1}{3} \\cdot S_{NKB_{1}} \\cdot h$$ С другой стороны, это пирамида \\(B_{1} NKC\\), объем которой равен:\n$$ V_{B_{1} \\ NKC} =\\frac{1}{3} \\cdot S_{NKC} \\cdot B_{1} B$$ Так как это аналогичные пирамиды, приравняем их объемы: $$\\frac{1}{3} \\cdot S_{NKB_{1}} \\cdot h=\\frac{1}{3} \\cdot S_{NKC} \\cdot B_{1} B\\\\ h=\\frac{S_{NKC} \\cdot B_{1} B}{S_{NKB_{1}}} =\\frac{\\frac{1}{2} \\cdot DN\\cdot CK\\cdot B_{1} B}{\\frac{1}{2} \\cdot NB_{1} \\cdot KN} = \\frac{2\\cdot 3\\cdot 4}{6\\cdot \\sqrt{5}} =\\frac{4\\sqrt{5}}{5}$$ Ответ: \\(\\frac{4\\sqrt{5}}{5}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2464,
+    "title": "14.5 Расстояние между точкой, прямой, плоскостью"
+  },
+  "id": 8216,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В кубе \\(𝐴𝐵𝐶𝐷𝐴_{1} 𝐵_{1} 𝐶_{1} 𝐷_{1}\\) точки \\(𝑀\\) и \\(𝑁\\) являются серединами рёбер \\(𝐴𝐵\\) и \\(𝐴𝐷\\) соответственно.\nа) Докажите, что прямые \\(𝐵_{1} 𝑁\\) и \\(𝐶𝑀\\) перпендикулярны.\nб) Плоскость \\(\\alpha \\) проходит через точки \\(𝑁\\) и \\(𝐵_{1}\\) параллельно прямой \\(𝐶𝑀\\). Найдите расстояние от точки \\(𝐶\\) до плоскости \\(\\alpha \\), если \\(𝐵_{1} 𝑁=6\\).",
+      "error_conditions": null,
+      "id": 101527,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=5750"
+}

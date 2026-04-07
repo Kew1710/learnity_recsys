@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: Физиология\nПояснение: Физиология – наука о функционировании организма и отдельных его частей. Это наука не о том, как устроен тот или иной орган, а о том, как этот орган работает.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2507,
+    "title": "Методы, достижения и роль биологии"
+  },
+  "id": 16167,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "физиология",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Биология — комплексная наука» и заполните ячейку, вписав соответствующий термин.\nРаздел\nПример\nБиохимияГликолиз?\nГазообмен в легких",
+      "error_conditions": [],
+      "id": 236074,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

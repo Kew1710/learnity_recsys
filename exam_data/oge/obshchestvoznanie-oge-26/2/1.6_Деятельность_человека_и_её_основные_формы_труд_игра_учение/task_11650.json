@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1755,
+    "title": "1.6 Деятельность человека и её основные формы (труд, игра, учение)"
+  },
+  "id": 11650,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В школе проводилась экономическая игра. Учащиеся воспроизводили процесс создания фирмы: разработали и представили бизнес-планы, организовали их презентацию, провели голосование. Назовите субъект данной деятельности.\n1) подготовленный бизнес-план\n2) презентация\n3) проведение голосования\n4) учащиеся – участники игры",
+      "error_conditions": [],
+      "id": 149802,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/l4Cx49fMs-s?start=2766"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/l4Cx49fMs-s?start=2766"
+}

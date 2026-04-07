@@ -1,0 +1,46 @@
+{
+  "comment": "1) Верно.\n$$R\\uparrow=\\frac{\\rho l\\uparrow }{S}$$\n2) Верно. Линии магнитной индукции магнита выходят из севера \\((N)\\).\n3) Неверно. \\(I\\downarrow=\\frac{\\varepsilon}{\\uparrow R+r}\\) - сила тока уменьшается.\n4) Неверно. \\(\\downarrow F_A=\\downarrow IBl\\) - сила Ампера уменьшается.\n5) Неверно. \\(F_A+2T-mg=0\\Rightarrow 2T\\uparrow=mg-F_A\\downarrow\\) - сила натяжения увеличивается.\n\nОтвет: 12",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 18947,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 2
+        },
+        {
+          "answer": "21",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "23И77\nК источнику постоянного напряжения последовательно подключены реостат и алюминиевый стержень АБ, подвешенный на тонких медных проволочках. Справа вблизи стержня расположен постоянный магнит так, как показано на рисунке. Ползунок реостата медленно перемещают вправо.\nИз приведенного ниже списка выберите все правильные утверждения.\n1) Сопротивление реостата увеличивается.\n2) Линии индукции поля постоянного магнита вблизи стержня АБ направлены влево.\n3) Сила тока, протекающая через стержень АБ, увеличивается.\n4) Сила Ампера, действующая на стержень АБ со стороны поля постоянного магнита, не изменяется.\n5) Сила натяжения медных проволочек уменьшается.",
+      "error_conditions": [],
+      "id": 238785,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/iTPHAcSRC3A?feature=share&t=4616"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/iTPHAcSRC3A?feature=share&t=4616"
+}

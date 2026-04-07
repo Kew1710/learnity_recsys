@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение:\nА) в почве мало перегноя - Пустыня\nБ) могут быть оазисы - Пустыня\nВ) растет юкка, верблюжья колючка - Пустыня\nГ) обитают зебры - Саванна\nД) преобладают злаки и кустарники - - Саванна\nЕ) скудная растительность - Пустыня",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 16222,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "111221",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между характеристиками и биомами:\nХАРАКТЕРИСТИКА\nА) в почве мало перегноя\nБ) могут быть оазисы\nВ) растет юкка, верблюжья колючка\nГ) обитают зебры\nД) преобладают злаки и кустарники\nЕ) скудная растительность\nБИОМ\n\n- Пустыня\n- Саванна",
+      "error_conditions": [],
+      "id": 236129,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

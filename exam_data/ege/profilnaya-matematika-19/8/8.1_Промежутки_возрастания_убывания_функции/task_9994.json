@@ -1,0 +1,45 @@
+{
+  "comment": "Функция убывает только тогда, когда производная отрицательна. Производная отрицательна в точках \\(x_1\\), \\(x_2\\), \\(x_3\\), \\(x_4\\), \\(x_6\\), \\(x_7\\), \\(x_8\\), \\(x_9\\), \\(x_{10}\\). Их количество равно 9.\n\nОтвет: 9",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2412,
+    "title": "8.1 Промежутки возрастания/убывания функции"
+  },
+  "id": 9994,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график \\(y=f'(x)\\) — производной функции \\(f(x)\\).На оси абсцисс отмечено одиннадцать точек: \\(x_1\\), \\(x_2\\), \\(x_3\\), \\(x_4\\), \\(x_5\\), \\(x_6\\), \\(x_7\\), \\(x_8\\), \\(x_9\\), \\(x_{10}\\), \\(x_{11}\\). Сколько из этих точек принадлежит промежуткам убывания функции \\(f(x)\\)?",
+      "error_conditions": [],
+      "id": 120876,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/hM8siPFYMl0?start=2820"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/hM8siPFYMl0?start=2820"
+}

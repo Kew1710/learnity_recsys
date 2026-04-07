@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть З стоит на первом месте. Тогда на каждое из оставшихся 3 мест можно поставить одну из 5 оставшихся букв. То есть 1 * 5 * 5 * 5 = 125 вариантов. З можно по очереди поставить на все 4 места, в каждом случае получая 125 вариантов. Итого 4 * 125 = 500\npythonpython (2 вариант)pascalword = 'ЗИКЛМН'\nk = 0\nfor x1 in word:\nfor x2 in word:\nfor x3 in word:\nfor x4 in word:\ns = x1 + x2 + x3 + x4\nif s.count('З') == 1:\nk += 1\nprint(k)\nimport itertools\nk = 0\nfor s in list(itertools.product('ЗИКЛМН', repeat=4)):\nif s.count(\"З\") == 1:\nk += 1\nprint(k)\nprogram Hello;\nvar str, s: string;\nvar k : integer;\nbegin\nk := 0;\nstr := 'ЗИКЛМН';\nforeach var x1 in str do\nforeach var x2 in str do\nforeach var x3 in str do\nforeach var x4 in str do\nbegin\ns := x1 + x2 + x3 + x4;\nif s.CountOf('З') = 1 then\nk += 1;\nend;\nprint(k);\nend.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2711,
+    "title": "№8 Комбинаторика"
+  },
+  "id": 1715,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "500",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID задания: 3E0545\nВася составляет 4-буквенные слова, в которых встречаются только буквы З, И, К, Л, М, Н, причём буква З появляется ровно 1 раз. Каждая из других допустимых букв может встречаться в слове любое количество раз или не встречаться совсем. Словом считается любая допустимая последовательность букв, не обязательно осмысленная. Сколько существует таких слов, которые может написать Вася?",
+      "error_conditions": [],
+      "id": 54837,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

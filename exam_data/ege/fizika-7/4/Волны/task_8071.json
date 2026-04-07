@@ -1,0 +1,42 @@
+{
+  "comment": "Наблюдатель увидит удар копра практически мгновенно, примем это время равным \\(0\\) с, а вот звуку понадобится время, чтобы пройти путь до наблюдателя. Найдем время, необходимое звуку:\n$$t=\\frac{S}{v}=\\frac{510}{340}=1,5~c$$\nОтвет: 1,5 c",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2621,
+    "title": "Волны"
+  },
+  "id": 8071,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "AEAD5B\nНа расстоянии \\(510\\) м от наблюдателя рабочие вбивают сваи с помощью копра. Какое время пройдёт от момента, когда наблюдатель увидит удар копра, до момента, когда он услышит звук удара? Скорость звука в воздухе равна \\(340\\) м/с. Ответ дайте в с.",
+      "error_conditions": [],
+      "id": 100980,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8ofMiV6ABlA?start=644"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/8ofMiV6ABlA?start=644"
+}

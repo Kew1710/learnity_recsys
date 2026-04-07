@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2696,
+    "title": "№4 Условие Фано"
+  },
+  "id": 27316,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Демо 2024) По каналу связи передаются сообщения, содержащие только восемь букв: А, Б, В, Г, Д, Е, Ж и З. Для передачи используется двоичный код, удовлетворяющий условию Фано.\nКодовые слова для некоторых букв известны:\nA000Б001В0101Г0100Д011Е101\nКакое наименьшее количество двоичных знаков потребуется для кодирования двух оставшихся букв?\nВ ответе запишите суммарную длину кодовых слов для букв: Ж, З.\n\nПримечание. Условие Фано означает, что никакое кодовое слово не является началом другого кодового слова. Это обеспечивает возможность однозначной расшифровки закодированных сообщений.",
+      "error_conditions": [],
+      "id": 246955,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=3wLxCxZura9WEp6Z&t=1786"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": {
+    "id": 23,
+    "title": "Условие Фано"
+  },
+  "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=3wLxCxZura9WEp6Z&t=1786"
+}

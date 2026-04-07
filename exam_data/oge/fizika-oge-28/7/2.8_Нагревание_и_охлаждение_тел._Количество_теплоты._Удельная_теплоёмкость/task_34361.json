@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nТемпература кипения воды равна \\(100^{\\circ}\\)С\nНа нагревание воды с \\(20^{\\circ}\\)С до \\(100^{\\circ}\\)С, т.е. на \\(80^{\\circ}\\)С требуется энергия, которую можно расписать по формуле: $$Q=cm\\Delta t$$\nПодставим числовые значения и найдем массу воды: $$67200=4200\\cdot m\\cdot 80 \\\\ m=0,2~кг$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3247,
+    "title": "2.8 Нагревание и охлаждение тел. Количество теплоты. Удельная теплоёмкость"
+  },
+  "id": 34361,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Чему равна масса воды, если при её нагревании от $20$ °С до температуры кипения затрачено количество теплоты, равное $67 200$ Дж?\n\nОтвет: ______________кг",
+      "error_conditions": [],
+      "id": 254000,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

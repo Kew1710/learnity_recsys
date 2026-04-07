@@ -1,0 +1,42 @@
+{
+  "comment": "m(воды) = x г\nm(соли) = ω₁ • m₁(р-ра) = 0,1 • 450 = 45 г\nω = m(соли)/m(р-ра)\nω₂ = m(соли)/(m₁(р-ра) + m(воды))\n0,04 = 45/(450 + x)\n45 = 18 + 0,04x\n0,04x = 27\nx = 675\nm(воды) = 675 г",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 26731,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "675",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Вычислите массу воды, которую необходимо прибавить к 450 г 10%-го раствора хлорида бария, чтобы получить 4%-й раствор. (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 246370,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

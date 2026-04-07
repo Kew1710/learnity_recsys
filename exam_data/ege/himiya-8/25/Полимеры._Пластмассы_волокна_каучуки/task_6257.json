@@ -1,0 +1,42 @@
+{
+  "comment": "А) поливинилхлорид – продукт полимеризации хлорэтена, мономерное звено –CH₂–CHCl–\nБ) полиэтилентерефталат – продукт полимеризации этилена и терефталевой кислоты, мономерное звено –CH₂CH₂O–CO–C₆H₄–COO–\nВ) бутадиеновый каучук – продукт полимеризации бутадиена-1,3, мономерное звено –CH₂–CH=CH–CH₂–",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2853,
+    "title": "Полимеры. Пластмассы, волокна, каучуки"
+  },
+  "id": 6257,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "134",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между названием полимера и формулой его мономерного звена: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nНАЗВАНИЕ ПОЛИМЕРА\nФОРМУЛА МОНОМЕРНОГО ЗВЕНА\nА) поливинилхлорид1) –CH₂–CHCl–Б) полиэтилентерефталат2) –CHCl–CHCl–В) бутадиеновый каучук3) –CH₂CH₂O–CO–C₆H₄–COO– 4) –CH₂–CH=CH–CH₂–",
+      "error_conditions": [],
+      "id": 72872,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=6636"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=6636"
+}

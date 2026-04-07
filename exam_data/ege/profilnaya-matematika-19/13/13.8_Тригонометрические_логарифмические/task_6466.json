@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$2\\log^2_{0,5}(2\\sin x)+7\\log_{0,5}(2\\sin x)+3=0\\\\ \\log_{0,5}(2\\sin x)=t\\\\ 2t^2+7t+3=0\\\\ t=-\\frac{1}{2}~или~t=-3\\\\ \\log_2(2\\sin x)=-\\frac{1}{2}~или~\\log_2(2\\sin x)=-3\\\\ \\sin x=4~или~\\sin x=\\frac{\\sqrt{2}}{2}\\\\ x=\\frac{\\pi}{4}+2\\pi k,x=\\frac{3\\pi}{4}+2\\pi k,k\\in Z$$\nб) Чтобы отобрать корни, лежащие на заданном отрезке, воспользуемся тригонометрической\nокружностью:\nПолучим корень \\(-\\frac{5\\pi}{4}\\).\n\nОтвет: а) \\(x=\\frac{\\pi}{4}+2\\pi k,x=\\frac{3\\pi}{4}+2\\pi k,k\\in Z\\); б) \\(-\\frac{5\\pi}{4}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2457,
+    "title": "13.8 Тригонометрические + логарифмические"
+  },
+  "id": 6466,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(2\\log_{0,5}^{2}( 2\\sin x) +7\\log_{0,5}( 2\\sin x) +3=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([ -\\frac{3\\pi }{2} ;0]\\).",
+      "error_conditions": null,
+      "id": 73552,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/z5Q4s6lNFdQ?start=3069"
+}

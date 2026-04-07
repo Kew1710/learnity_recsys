@@ -1,0 +1,42 @@
+{
+  "comment": "Пусть b - цена бутылки, l - цена за литр кваса. Тогда цена бутылки кваса объёмом 1 литр равна \\(b + l = 44\\) рубля, 2 литра - \\(b + 2l = 76\\) рублей.\nРешим систему:\n$$\\begin{cases} b + l = 44 \\\\ b + 2l = 76 \\end{cases} \\Rightarrow \\begin{cases} b + l = 44 \\\\ 44 + l = 76 \\end{cases} \\Rightarrow \\begin{cases} l = 32 \\\\ b = 12\\end{cases}$$\nТогда бутылка кваса объёмом 1,5 литра будет стоить \\(12 + 32 \\cdot 1,5 = 60\\) рубля.\nОтвет: 60.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2136,
+    "title": "21.1 Задачи на смекалку"
+  },
+  "id": 26636,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "60",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В магазине квас на разлив можно купить в бутылках, причём стоимость кваса в бутылке складывается из стоимости самой бутылки и кваса, налитого в неё. Цена бутылки не зависит от её объёма. Бутылка кваса объёмом 1 литр стоит 44 рубля, объёмом 2 литра — 76 рублей. Сколько рублей будет стоить бутылка кваса объёмом 1,5 литра?",
+      "error_conditions": [],
+      "id": 246275,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

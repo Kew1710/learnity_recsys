@@ -1,0 +1,42 @@
+{
+  "comment": "убеждены - краткое причастие, Н\nпредназначено - краткое причастие, Н\nглубинного - прилагательное, стык основы на –н- (глубин) и суффикса –н-, НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12888,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите цифру(-ы), на месте которых пишется НН.\nПредставители позднего классицизма были убежде(1)ы, что искусство предназначе(2)о для глуби(3)ого постижения человека и мироздания.",
+      "error_conditions": [],
+      "id": 174072,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

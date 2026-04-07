@@ -1,0 +1,37 @@
+{
+  "comment": "До размыкания ключа:\nСила тока в цепи:\n$$I=\\frac{\\varepsilon}{R+r}=\\frac{\\varepsilon}{R+0,2R}=\\frac{\\varepsilon}{1,2R}$$\nНапряжения на резисторе и конденсаторе:\n$$U_R=U_c=IR=\\frac{\\varepsilon}{1,2R}\\cdot R=\\frac{\\varepsilon}{1,2}$$\nЭнергия заряженного конденсатора: \\(W_c=\\frac{q_0U}{2}\\)\nПри разрядке конденсатора вся энергия выделяется в виде тепла на резисторе: \\(W_c=Q\\)\nТогда\n$$\\frac{q_0}{2}\\cdot\\frac{\\varepsilon}{1,2}=Q$$\nОткуда заряд на конденсаторе\n$$q_0=\\frac{2,4Q}{\\varepsilon}=\\frac{2,4\\cdot 10\\cdot 10^{-6}}{12}=2~мкКл$$\nОтвет: 2 мкКл",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 16535,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "На рисунке представлена схема электрической цепи. Перед ее исследованием ключ \\(К\\) длительное время находится в замкнутом положении. Батарея обладает ЭДС \\(\\varepsilon=12\\) В, а отношение сопротивления лампы к внутреннему сопротивлению батареи соответствует величине \\(k=\\frac{r}{R}=0,2\\). Определите заряд на конденсаторе до размыкания ключа, если на резисторе в ходе полной разрядки конденсатора после размыкания ключа выделяется \\(Q=10\\) мкДж.",
+      "error_conditions": null,
+      "id": 236442,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/NxDULvZhO20?t=7968"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "При горизонтальном залегании пород самые древние породы залегают внизу, самые молодые  — вверху.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2955,
+    "title": "4.1 Литосфера"
+  },
+  "id": 29415,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "312",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Во время экскурсии учащиеся сделали схематическую зарисовку залегания горных пород на обрыве в карьере.\nРасположите показанные на рисунке слои горных пород в порядке увеличения их возраста (от самого молодого до самого древнего). Запишите в таблицу получившуюся последовательность цифр.\n- песчаник\n- глина\n- крупный песок",
+      "error_conditions": [],
+      "id": 249054,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

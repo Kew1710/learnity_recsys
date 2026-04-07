@@ -1,0 +1,45 @@
+{
+  "comment": "Если \\(51\\) учащегося разбивают на \\(3\\) группы, то в каждой будет \\(\\frac{51}{3}=17\\) человек. Пусть Михаил находится в какой–то конкретной группе. Вместе с ним в группе может оказаться \\(17–1=16\\) человека из \\(51–1=50\\) оставшихся учащихся. Вероятность, что Сергей окажется в той же группе \\(P=\\frac{16}{50}=0,32\\).\n\nОтвет: 0,32",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 16837,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,32",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В параллели \\(51\\) учащийся, среди них два друга — Михаил и Сергей. Учащихся случайным образом разбивают на \\(3\\) равные группы. Найдите вероятность того, что Михаил и Сергей окажутся в одной группе.",
+      "error_conditions": [],
+      "id": 236742,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=9315s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/watch?v=jBxtSqJSpME&t=9315s"
+}

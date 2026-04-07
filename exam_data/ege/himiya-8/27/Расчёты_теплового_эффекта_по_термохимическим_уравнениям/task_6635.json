@@ -1,0 +1,42 @@
+{
+  "comment": "m(H₂O) - ?\nПо уравнению: 2 моль – 316 кДж\nПо условию: x моль – 94,8 кДж\nх = (94,8 • 2)/316 = 0,6\nn(H₂O) = 0,6 моль\nm(H₂O) = n • M = 0,6 • 18 = 10,8 г",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2856,
+    "title": "Расчёты теплового эффекта (по термохимическим уравнениям)"
+  },
+  "id": 6635,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10,8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Разложение нитрита аммония протекает в соответствии с термохимическим уравнением реакции\nNH₄NO₂(тв.) = N₂(г) + 2H₂O(г) + 316 кДж\nКакая масса воды образовалась, если в результате разложения выделилось 94,8 кДж теплоты? (Запишите число с точностью до десятых.)",
+      "error_conditions": [],
+      "id": 75169,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/2IPTvGKki7M?start=6822"
+    },
+    "Valid": true
+  },
+  "time_seconds": 900,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/2IPTvGKki7M?start=6822"
+}

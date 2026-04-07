@@ -1,0 +1,45 @@
+{
+  "comment": "Вспомним, как выглядит уравнение множества параллельных прямых: \\(y = -2x+b\\) . Возьмём производную от этого уравнения: \\(y' = -2\\).\n\nТак как мы знаем, что имеем дело с графиком производной, то нам нужно просто подсчитать количество точек, в которых значение производной равно \\(-2\\).\nВсего таких точек 7\n\nОтвет: 7",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2416,
+    "title": "8.5 Геометрический смысл производной"
+  },
+  "id": 35844,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график \\(y = f'(x) \\ - \\) производной функции \\(f(x)\\), определенной на интервале \\(\\left(-8;6\\right)\\). Найдите количество точек, в которых касательная к графику функции \\(f(x)\\) параллельна прямой \\(y = -2x - 14\\) или совпадает с ней.",
+      "error_conditions": [],
+      "id": 255483,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=ZX-BDx87kCQHdPY6&t=5052"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=ZX-BDx87kCQHdPY6&t=5052"
+}

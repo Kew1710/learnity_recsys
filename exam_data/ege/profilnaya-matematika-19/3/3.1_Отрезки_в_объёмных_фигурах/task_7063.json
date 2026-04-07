@@ -1,0 +1,45 @@
+{
+  "comment": "Так как пирамида правильная, то\n$$SC=SB;\\\\ BD=AC,\\\\ OC=\\frac{AC}{2} =\\frac{42}{2} =21$$\nПо теореме Пифагора:\n$$SC=\\sqrt{SO^{2} +OC^{2}} =\\sqrt{28^{2} +21^{2}} =\\sqrt{784+441} =35$$\nОтвет: 35",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 7063,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В правильной четырёхугольной пирамиде \\(SABCD\\) с вершиной \\(S\\), точка \\(O\\) - центр основания, \\(SO=28,\\) \\(BD=42\\). Найдите длину отрезка \\(SC\\).",
+      "error_conditions": [],
+      "id": 80993,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

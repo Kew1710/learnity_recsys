@@ -1,0 +1,42 @@
+{
+  "comment": "Чтобы определить это на карте, нужно искать пересечение 39-й параллели северной широты с 77-м меридианом западной долготы, которое и укажет на местоположение Вашингтона.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2969,
+    "title": "2.1 Планы местности. Географические карты. Географическая широта и географическая долгота."
+  },
+  "id": 31052,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "вашингтон",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите, какой город – столица государства, имеет географические координаты 39° с.ш. 77° з.д.",
+      "error_conditions": [],
+      "id": 250691,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

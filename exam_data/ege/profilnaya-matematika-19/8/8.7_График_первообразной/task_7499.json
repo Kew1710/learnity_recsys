@@ -1,0 +1,45 @@
+{
+  "comment": "Функция положительна в точках, где график первообразной возрастает. По графику находим такие точки: \\(x_1,x_4,x_5,x_6,x_9,x_{10}\\). Таким образом, условию удовлетворяют \\(6\\) точек.\n\nОтвет: 6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2418,
+    "title": "8.7 График первообразной"
+  },
+  "id": 7499,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график \\(y=F(x)\\) одной из первообразных некоторой функции \\(f(x)\\) и отмечены десять точек на оси абсцисс: \\(x_1,x_2,x_3,x_4,x_5,x_6,x_7,x_8,x_9,x_{10}\\). В скольких из этих точек функция \\(f(x)\\) положительна?",
+      "error_conditions": [],
+      "id": 98504,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/K4PEcMlzxyU?start=3059"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/K4PEcMlzxyU?start=3059"
+}

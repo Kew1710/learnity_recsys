@@ -1,0 +1,45 @@
+{
+  "comment": "Это дробно - рациональное уравнение. Решим его приемом “перекрестное умножение”:\n$$1\\cdot (6x+12)=1\\cdot (4x+9)$$\nРаскроем скобки:\n$$6x+12=4x+9\\\\ 2x=-3\\\\ x=\\frac{-3}{2}=-1,5$$\nОтвет: -1,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2400,
+    "title": "6.2 Дробно-рациональные"
+  },
+  "id": 9112,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-1,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\frac{1}{4x+9}=\\frac{1}{6x+12}\\).",
+      "error_conditions": [],
+      "id": 112847,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1268"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1268"
+}

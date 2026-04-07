@@ -1,0 +1,37 @@
+{
+  "comment": "Полная работа идет на изменение потенциальной энергии:\n$$A_{полн}=mgh~(1)$$\n\\(A_{полн}\\) - работа за \\(80\\) циклов, \\(A\\) - работа за \\(1\\) цикл\nКПД цикла:\n$$\\eta =\\frac{A}{Q_н}\\Rightarrow A=\\eta Q_н$$\nС другой стороны КПД:\n$$\\eta =1-\\frac{T_x}{T_н}\\\\ A_{полн}=NA$$\nВыразим \\(h\\) из (1):\n$$h=\\frac{A_{полн}}{mg}=\\frac{NA}{mg}=\\frac{N}{mg}\\cdot \\eta Q_н=\\frac{N}{mg}\\cdot (1-\\frac{T_x}{T_н})\\cdot Q_н=\\frac{80}{20\\cdot 10}(1-\\frac{297}{540})\\cdot 40=7,2~м$$\nОтвет: 7,2 м",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9501,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23417\nИсточником энергии грузоподъемника служит идеальный тепловой двигатель. На какую высоту поднимется груз массой \\(m=20\\) кг за \\(80\\) циклов работы данного двигателя, если температура его холодильника \\(T_х=297\\) К, температура нагревателя \\(T_н=540\\) К, а количество теплоты передаваемое рабочему телу за один цикл \\(Q_н=40\\) Дж?",
+      "error_conditions": null,
+      "id": 115004,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/SPqAkT7_wgY"
+}

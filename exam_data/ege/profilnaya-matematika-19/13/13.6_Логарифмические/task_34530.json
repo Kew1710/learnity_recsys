@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\log_3\\log_4x=1\\\\ \\log_4x=3\\\\ x=4^3=64$$\nОтвет: \\(x=64\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2455,
+    "title": "13.6 Логарифмические"
+  },
+  "id": 34530,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\(\\log_2\\log_3\\log_4x=0\\).",
+      "error_conditions": null,
+      "id": 254169,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=vh66CxxL8setzJ81&t=5583"
+}

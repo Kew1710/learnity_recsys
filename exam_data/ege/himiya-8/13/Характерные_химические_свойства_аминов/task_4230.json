@@ -1,0 +1,42 @@
+{
+  "comment": "Метиламин – первичный амин, проявляет основные свойства: реагирует с водой, кислотами, галогеналканами и с азотистой кислотой, кроме того горит в кислороде\n\nВерные варианты ответа: кислород, бромоводород",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2825,
+    "title": "Характерные химические свойства аминов"
+  },
+  "id": 4230,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, с каждым из которым взаимодействует метиламин.\n1) метан\n2) кислород\n3) гидроксид бария (р-р)\n4) гексан\n5) бромоводород (р-р)",
+      "error_conditions": [],
+      "id": 66651,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=11498"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/44JX2b-0fU4?start=11498"
+}

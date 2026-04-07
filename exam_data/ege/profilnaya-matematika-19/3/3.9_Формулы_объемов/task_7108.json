@@ -1,0 +1,45 @@
+{
+  "comment": "Так как \\(AO\\) - высота конуса, треугольник \\(ABO\\) - прямоугольный с гипотенузой \\( AB \\), которая и является образующей конуса.\nЗначит для этого треугольника выполняется теорема Пифагора:\n$$ AB^2 = OB^2 + OA^2 $$\nТочки \\(A, B\\) лежат на сфере, значит:\n$$ OA = OB = R $$\nПодставим в теорему Пифагора и получим:\n$$ AB^2 = 2R^2 \\Rightarrow AB = \\sqrt{2} R $$\n$$ AB = \\sqrt{2} \\cdot 26\\sqrt{2} = 52 $$\nОтвет: 52",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 7108,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "52",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Конус вписан в шар так, что высота конуса равна радиусу шара. Радиус шара равен \\(26\\sqrt{2}\\). Найдите образующую конуса.",
+      "error_conditions": [],
+      "id": 82901,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Железо реагирует с бромом с образованием бромида железа(III):\n2Fe + 3Br₂ = 2FeBr₃\nНерастворимый сульфид железа(II) образуется в реакции с раствором восстановителя - сульфида натрия:\n2FeBr₃ + 3Na₂S = 2FeS + S + 6NaBr",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 9673,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) S\n2) Ag₂S\n3) FeBr₃\n4) Na₂S\n5) FeBr₂",
+      "error_conditions": [],
+      "id": 117219,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/6_OGyY73YVs?si=Uh0g7fFp6Gtywdpv&t=2926"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/6_OGyY73YVs?si=Uh0g7fFp6Gtywdpv&t=2926"
+}

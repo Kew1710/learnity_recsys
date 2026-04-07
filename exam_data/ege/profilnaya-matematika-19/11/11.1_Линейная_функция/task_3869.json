@@ -1,0 +1,45 @@
+{
+  "comment": "Угловой коэффициент прямой \\(k\\) есть тангенс угла наклона \\(\\alpha\\) между данной прямой и положительным направлением оси \\(Ox\\). Вычислим его из прямоугольного треугольника:\n$$k=tg\\alpha=\\frac{2}{1} = 2\\\\ (положительное~значение, так~как~функция-возрастающая)$$\nГеометрический смысл коэффициента \\(b\\) - длина отрезка, который отсекает прямая по оси \\(OY\\), считая от начала координат. По рисунку видно, что прямая пересекает \\(OY\\) в точке \\((0;1)\\). Таким образом \\(b=1\\).\n\nВ итоге уравнение прямой имеет вид:\n$$f(x)=2x+1$$\nНайдем \\(f(4)\\):\n$$f(4)=2\\cdot 4 +1=9$$\nОтвет: 9",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2437,
+    "title": "11.1 Линейная функция"
+  },
+  "id": 3869,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график функции вида \\(f(x) = kx+b\\). Найдите \\(f (4)\\).",
+      "error_conditions": [],
+      "id": 66182,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Z4B04Ngk3nE?start=506"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://www.youtube.com/embed/Z4B04Ngk3nE?start=506"
+}

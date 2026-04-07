@@ -1,0 +1,45 @@
+{
+  "comment": "Представим угол \\(-750\\) как \\(-720-30\\) или \\(-2\\pi-\\frac{\\pi}{6}\\). Тогда по формуле приведения:\n$$\\cos\\left(-2\\pi-\\frac{\\pi}{6}\\right)=\\cos \\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2}$$\nПолучаем:\n$$-4\\sqrt{3}\\cdot\\frac{\\sqrt{3}}{2}=-6$$\nОтвет: -6",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 33392,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(-4\\sqrt{3}\\cos (-750^\\circ)\\).",
+      "error_conditions": [],
+      "id": 253031,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=kTMKi59KFEk_vg5K&t=1095"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=kTMKi59KFEk_vg5K&t=1095"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1767,
+    "title": "3.3 Экономические системы и собственность"
+  },
+  "id": 13203,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1423",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В приведенном списке указаны черты сходства рыночной экономики c плановой, а также черты различия рыночной экономики от плановой.\n\nВыберите и запишите в первую колонку таблицы порядковые номера черт сходства, а во вторую колонку – порядковые номера черт различия.\n\n1) необходимость решать проблему ограниченности ресурсов\n2) обеспечение свободной конкуренции товаропроизводителей\n3) установление цен на товары посредством колебаний спроса и предложения\n4) специализация отраслей хозяйства и предприятий",
+      "error_conditions": [],
+      "id": 177799,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7599"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7599"
+}

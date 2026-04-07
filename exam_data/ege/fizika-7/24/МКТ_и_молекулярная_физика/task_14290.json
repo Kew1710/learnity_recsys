@@ -1,0 +1,37 @@
+{
+  "comment": "По закону Дальтона:\n$$p=p_1+p_2,$$\nгде \\(p_1\\), \\(p_2\\) – парциальные давления аргона и неона соответственно.\nУравнение Клапейрона-Менделеева для аргона и неона соответственно:\n$$p_1V=\\frac{m_1}{M_1}RT\\Rightarrow p_1=\\frac{m_1RT}{VM_1}$$\n$$p_2V=\\frac{m_2}{M_2}RT\\Rightarrow p_2=\\frac{m_2RT}{VM_2}$$\n$$p=\\frac{m_1RT}{VM_1}+\\frac{m_2RT}{VM_2}=\\frac{RT}{V}\\left (\\frac{m_1}{M_1}+\\frac{m_2}{M_2}\\right )$$\nМасса смеси:\n$$m_{см}=m_1+m_2\\Rightarrow m_2=m_{см}-m_1$$\n$$p=\\frac{RT}{V}\\left (\\frac{m_1}{M_1}+\\frac{m_{см}-m_1}{M_2}\\right )$$\n$$\\frac{pV}{RT}=\\frac{m_1}{M_1}-\\frac{m_1}{M_2}+\\frac{m_{см}}{M_2}$$\n$$\\frac{pV}{RT}-\\frac{m_{см}}{M_2}=m_1\\left (\\frac{1}{M_1}-\\frac{1}{M_2}\\right )$$\n$$m_1=\\frac{\\frac{pV}{RT}-\\frac{m_{см}}{M_2}}{\\frac{1}{M_1}-\\frac{1}{M_2}}=\\frac{\\frac{220\\cdot 10^3\\cdot 5\\cdot 10^{-3}}{8,31\\cdot 353}-\\frac{0,01}{20\\cdot 10^{-3}}}{\\frac{1}{40\\cdot 10^{-3}}-\\frac{1}{20\\cdot 10^{-3}}}=0,005~кг=5~г$$\n$$m_2=m_{см}-m_1=10-5=5~г\\Rightarrow \\frac{m_1}{m_2}=\\frac{5}{5}=1$$\nОтвет: 1",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2653,
+    "title": "МКТ и молекулярная физика"
+  },
+  "id": 14290,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23877\nКамера объемом \\(5\\) л заполнена смесью аргона и неона массой \\(10\\) г. Температура и давление, поддерживаемые в камере, равны соответственно \\(80~^\\circ С\\) и \\(220\\) кПа. Чему равно отношение массы неона к массе аргона?",
+      "error_conditions": null,
+      "id": 201788,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/eJWwoAwfjsI"
+}

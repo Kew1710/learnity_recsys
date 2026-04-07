@@ -1,0 +1,42 @@
+{
+  "comment": "Переведем площадь в единицы СИ:\n$$S=500~см^2=500 \\cdot 10^{-4}~м^2$$\nДавление найдем по формуле \\(p=\\frac{F}{S}\\), где \\(F\\) - сила тяжести, \\(F=mg\\):\n$$p=\\frac{mg}{S}=\\frac{3\\cdot 10}{500\\cdot 10^{-4}}=600~Па$$\nОтвет: 600",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2618,
+    "title": "Статика"
+  },
+  "id": 12250,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "600",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23764\nНа горизонтальной кладке стены, покрытой раствором, лежит блок газобетона массой \\(3\\) кг. Найдите давление блока на стену, если площадь грани, на которой он лежит, равна \\(500\\) см\\(^2\\). Ответ дайте в Па.",
+      "error_conditions": [],
+      "id": 159493,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/gikmSNEdPNg"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/gikmSNEdPNg"
+}

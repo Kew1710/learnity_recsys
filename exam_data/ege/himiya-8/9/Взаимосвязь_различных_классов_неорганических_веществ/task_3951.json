@@ -1,0 +1,42 @@
+{
+  "comment": "В одну стадию можно получить хлорид меди(II) по реакции с соляной кислотой:\nCuO + 2HCl = CuCl₂ + H₂O\nРеакция ионного обмена с щелочью приведёт к выпадению осадка гидроксида меди(II):\nCuCl₂ + 2KOH = Cu(OH)₂↓ + 2KCl",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 3951,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) хлорид меди(I)\n2) оксид меди(I)\n3) хлорид меди(II)\n4) гидроксид меди(II)\n5) гидроксид меди(I)",
+      "error_conditions": [],
+      "id": 66372,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=16047"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=16047"
+}

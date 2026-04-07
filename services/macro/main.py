@@ -25,10 +25,12 @@ from .plan_lifecycle import (
     check_test_phase,
 )
 from .kafka_consumer import run_consumer
+from . import kafka_producer as macro_kafka
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    await macro_kafka.start()
     task = asyncio.create_task(run_consumer())
     yield
     task.cancel()
@@ -36,6 +38,7 @@ async def lifespan(app: FastAPI):
         await task
     except asyncio.CancelledError:
         pass
+    await macro_kafka.stop()
 
 
 app = FastAPI(title="Macro Planner Service", lifespan=lifespan)

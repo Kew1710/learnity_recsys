@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(d=\\cfrac{a_8-a_5}{8-5}=\\cfrac{36-27}{8-5}=3\\)\n\\(a_1 = a_5 - d(n-1) = 27 - 3 \\cdot 4= 27-12=15\\)\nКоличество мест в последнем ряду амфитеатра:\n\\(a_{14} = a_1 +d(n-1) = 15 + 3(14-1) = 15 + 3 \\cdot 13 = 15 + 39 = 54\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1970,
+    "title": "14.1 Арифметическая прогрессия"
+  },
+  "id": 20021,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "54",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В амфитеатре 14 рядов, причём в каждом следующем ряду на одно и то же число мест больше, чем в предыдущем. В пятом ряду 27 мест, а в восьмом ряду 36 мест. Сколько мест в последнем ряду амфитеатра?",
+      "error_conditions": [],
+      "id": 239859,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

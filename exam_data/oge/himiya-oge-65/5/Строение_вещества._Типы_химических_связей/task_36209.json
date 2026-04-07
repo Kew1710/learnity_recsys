@@ -1,0 +1,46 @@
+{
+  "comment": "1) \\(MgCl_{2}\\) - ионная связь (между ионом магния \\(Mg^{2+}\\) и хлорид-ионом \\(Cl^{-}\\))\n2) \\(Li_{2}S\\) - ионная связь (между ионом лития \\(Li^{+}\\) и сульфид-ионом \\(S^{2-}\\))\n3) \\(Zn\\) - металлическая связь (Цинк- металл)\n4) \\(Ca\\) - металлическая связь (Кальций- металл)\n5) \\(K_{2}O\\) - ионная связь (между атомами калия и кислорода)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2885,
+    "title": "Строение вещества. Типы химических связей"
+  },
+  "id": 36209,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        },
+        {
+          "answer": "43",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества с металлической связью.\n\n1) \\(MgCl_{2}\\)\n2) \\(Li_{2}S\\)\n3) \\(Zn\\)\n4) \\(Ca\\)\n5) \\(K_{2}O\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 255859,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

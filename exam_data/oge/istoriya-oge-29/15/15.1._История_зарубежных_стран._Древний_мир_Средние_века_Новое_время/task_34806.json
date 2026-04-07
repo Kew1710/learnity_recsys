@@ -1,0 +1,42 @@
+{
+  "comment": "А. Валленштейн — полководец, принимавший участие в Тридцатилетней войне на стороне Священной Римской империи.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3105,
+    "title": "15.1. История зарубежных стран. Древний мир, Средние века, Новое время"
+  },
+  "id": 34806,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 29,
+    "task_count": 0,
+    "title": "Истoрия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "1) Пунические войны\n2) восстание Уота Тайлера\n3) Тридцатилетняя война\n4) деятельность Парижской коммуны\n\nУчастником какого из перечисленных событий, процессов был А. Валленштейн? Укажите порядковый номер этого события или процесса.",
+      "error_conditions": [],
+      "id": 254445,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

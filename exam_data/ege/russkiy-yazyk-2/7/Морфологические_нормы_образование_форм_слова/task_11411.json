@@ -1,0 +1,42 @@
+{
+  "comment": "корректная форма повелительного наклонения от глагола «лечь» — «ляг(-те)»",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 910,
+    "title": "Морфологические нормы (образование форм слова)"
+  },
+  "id": 11411,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "лягте",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В одном из выделенных ниже слов допущена ошибка в образовании формы слова. Исправьте ошибку и запишите слово правильно.\n\nЛЯЖЬТЕ на спину\nв ПОЛУТОРА метрах\nпара САПОГ\nШЕСТЬЮСТАМИ учебниками\nотряд ПАРТИЗАН",
+      "error_conditions": [],
+      "id": 148906,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

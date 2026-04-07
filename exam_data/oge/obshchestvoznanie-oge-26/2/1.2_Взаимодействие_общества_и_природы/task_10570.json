@@ -1,0 +1,42 @@
+{
+  "comment": "undefined",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1751,
+    "title": "1.2 Взаимодействие общества и природы"
+  },
+  "id": 10570,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "К глобальным демографическим проблемам относится\n\n1) истощение сырьевых ресурсов\n2) опасность применения оружия массового поражения\n3) рост потребления энергии в ведущих странах мира\n4) перенаселённость ряда развивающихся стран",
+      "error_conditions": [],
+      "id": 145450,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=3123"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=3123"
+}

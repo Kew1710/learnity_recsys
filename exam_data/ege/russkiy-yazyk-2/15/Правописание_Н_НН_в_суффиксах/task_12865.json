@@ -1,0 +1,42 @@
+{
+  "comment": "заплаканная - причастие, сов. вид + приставка, НН\nприглашённого - причастие, сов. вид + приставка, НН\nпосеребрённом - причастие, сов. вид + приставка, НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12865,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\nОсновное действие картины разворачивается на втором плане: в светлой комнате заплака(1)ая дама с ребёнком на руках с мольбой смотрит на приглашё(2)ого доктора в посеребрё(3)ом пенсне.",
+      "error_conditions": [],
+      "id": 174049,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

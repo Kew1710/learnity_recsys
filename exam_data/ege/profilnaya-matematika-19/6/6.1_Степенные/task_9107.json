@@ -1,0 +1,45 @@
+{
+  "comment": "Вспомним, что \\(-125\\) - степень какого-то числа. Это число \\(-5\\).\n$$-125=(-5)^3\\\\ (x+4)^3=(-5)^3$$\nУберем степени. Мы можем это сделать, потому что степень нечетная.\n$$x+4=-5\\\\ x=-9$$\nОтвет: -9",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2399,
+    "title": "6.1 Степенные"
+  },
+  "id": 9107,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\((x+4)^3=-125\\).",
+      "error_conditions": [],
+      "id": 112842,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=749"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=749"
+}

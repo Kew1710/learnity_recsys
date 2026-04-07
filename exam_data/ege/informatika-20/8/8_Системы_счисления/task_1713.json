@@ -1,0 +1,45 @@
+{
+  "comment": "Перед нами четверичная СС, где А = 0, В = 1, Е = 2, Н = 3. Номер слова ННЕЕ в четверичной сс 3322, что равно 250 в десятичной сс.\nТак как в пятеричной сс нумерация шла с 0, а в десятичной нужно с 1, номер слова 250 + 1 = 251.\n\npythonpython (2 вариант)pascalword = 'АВЕН'\nk = 0\nfor x1 in word:\nfor x2 in word:\nfor x3 in word:\nfor x4 in word:\nk += 1\ns = x1 + x2 + x3 + x4\nif s == 'ННЕЕ':\nprint(k)\nexit()\nimport itertools\nk = 0\nfor s in list(itertools.product('АВЕН', repeat=4)):\nk += 1\nif ''.join(s) == 'ННЕЕ':\nprint(k)\nbreak\nprogram Hello;\nvar str, s: string;\nvar k : integer;\nbegin\nk := 0;\nstr := 'АВЕН';\nforeach var x1 in str do\nforeach var x2 in str do\nforeach var x3 in str do\nforeach var x4 in str do\nbegin\nk += 1;\ns := x1 + x2 + x3 + x4;\nif s = 'ННЕЕ' then\nbegin\nprint(k);\nexit;\nend;\nend;\nend.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 1713,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "251",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID задания: E1F668\nВсе 4-буквенные слова, составленные из букв А, В, Е, Н, записаны в алфавитном порядке и пронумерованы.\nВот начало списка:\n1. АААА\n2. АААВ\n3. АААЕ\n4. АААН\n5. ААВА\n……\n\nПод каким номером стоит слово ННЕЕ?",
+      "error_conditions": [],
+      "id": 54835,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

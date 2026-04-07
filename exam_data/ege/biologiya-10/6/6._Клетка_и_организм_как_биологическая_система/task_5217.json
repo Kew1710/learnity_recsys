@@ -1,0 +1,42 @@
+{
+  "comment": "1 - эндоплазматический ретикулум\n2 - хлоропласт\n3 - плазмолемма\n4 - митохондрия\n5 - клеточная стенка\n6 - вакуоль",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1453,
+    "title": "6. Клетка и организм как биологическая система."
+  },
+  "id": 5217,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "211122",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между органеллами, обозначенными цифрами на рисунке выше и их особенностями: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца\nОСОБЕННОСТИОРГАНЕЛЛАА) Имеют кристы\nБ) Внутри находится строма\nВ) Осуществляют синтез органических веществ\nГ) Внутри находятся граны\nД) расщепляют органические вещества с выделением энергии\nЕ) Внутреннее пространство называется матрикс\n\n1) 2\n2) 4\n\nАБВГДЕ",
+      "error_conditions": [],
+      "id": 70605,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/FDv1hdEYPUI?start=244"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/FDv1hdEYPUI?start=244"
+}

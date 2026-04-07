@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( \\cfrac{a^{19} \\cdot a^{-11}}{a^{5}} = a^{19-11-5} = a^3 \\)\nПодставим \\(a=5\\)\n\\(5^3 = 125\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1957,
+    "title": "8.2 Рациональные алгебраические выражения"
+  },
+  "id": 19359,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "125",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( \\cfrac{a^{19} \\cdot a^{-11}}{a^{5}} \\) при \\(a=5\\).",
+      "error_conditions": [],
+      "id": 239197,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

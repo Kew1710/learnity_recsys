@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n$$\\rho=\\frac{m}{V}$$\nДля перевода в СИ используем соотношение:\n$$1м^{3}=1000 л$$\n\n$$\\rho=\\frac{8}{0,01}$$\n$$\\rho= 800 \\frac{кг}{м^{3}}$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3215,
+    "title": "1.7 Масса. Плотность вещества. Формула для вычисления плотности."
+  },
+  "id": 33446,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "800",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите плотность жидкого вещества, целиком заполняющего ведро ёмкостью 10 л, если масса вещества равна 8 кг.\nОтвет: _____________________ кг/м\\(^3\\)",
+      "error_conditions": [],
+      "id": 253085,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

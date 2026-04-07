@@ -1,0 +1,37 @@
+{
+  "comment": "Общее количество теплоты будет складывать из теплоты отвердевания свинца и его остывания: $$Q=Q_1+Q_2 \\\\ Q_1={\\lambda}m \\\\ Q_2=cm\\Delta t \\\\ Q={\\lambda}m+cm\\Delta t$$\nПодставим числа и найдем ответ: $$Q=2,5\\cdot 10^4\\cdot 0,8+130\\cdot 0,8\\cdot (327-27)=51200~Дж$$\n\nОтвет: 51200 Дж",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3251,
+    "title": "2.12 Плавление и кристаллизация. Изменение внутренней энергии при плавлении и кристаллизации. Удельная теплота плавления."
+  },
+  "id": 33977,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Определите количество теплоты, которое выделится при кристаллизации и последующем остывании до 27 °С расплавленного свинца массой 800 г, находящегося при температуре плавления.",
+      "error_conditions": null,
+      "id": 253616,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "def de7(n):\na = []\nfor d in range(2, int(n**0.5) + 1):\nif n % d == 0:\nif d % 10 == 7 and d != 7:\na.append(d)\nif (n // d) % 10 == 7 and (n // d) != 7:\na.append(n // d)\nreturn a\n\nk = 0\nfor i in range(600000 + 1, 10**10):\nd7 = de7(i)\nif len(d7) > 0:\nprint(i, min(d7))\nk += 1\nif k == 5:\nbreak",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1547,
+    "title": "№25 Нахождение делителей"
+  },
+  "id": 32752,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "600001 437 600002 47 600003 1227 600005 217 600012 16667",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(ОСН_1_2024) Напишите программу, которая перебирает целые числа, большие 600 000 в порядке возрастания и ищет среди них такие, у которых есть натуральный делитель, оканчивающиеся на цифру 7 и неравный ни самому числу, ни числу 7. В ответе запишите в первой строке таблицы первые пять найденных чисел в порядке возрастания, а во втором столбце - наименьший делитель для каждого из них, оканчивается цифрой 7, неравный ни самому числу, ни числу 7.\n\nФормат ответа: число делитель число делитель…",
+      "error_conditions": [],
+      "id": 252391,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 42,
+    "title": "Маски и делители"
+  },
+  "video_link": null
+}

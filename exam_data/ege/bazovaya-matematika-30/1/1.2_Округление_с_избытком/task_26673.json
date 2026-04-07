@@ -1,0 +1,42 @@
+{
+  "comment": "$$63 / 6 = 10,5$$\nЗначит, нужно больше 10 пачек клея. Тогда, наименьшее число пачек будет 11.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2065,
+    "title": "1.2 Округление с избытком"
+  },
+  "id": 26673,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Для ремонта требуется 63 рулона обоев. Какое наименьшее число пачек обойного клея нужно приобрести для такого ремонта, если 1 пачка клея рассчитана на 6 рулонов?",
+      "error_conditions": [],
+      "id": 246312,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

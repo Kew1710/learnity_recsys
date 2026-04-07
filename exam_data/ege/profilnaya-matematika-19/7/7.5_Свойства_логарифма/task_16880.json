@@ -1,0 +1,45 @@
+{
+  "comment": "По свойству логарифма:\n$$\\log_5312,5-\\log_52,5\\Rightarrow\\log_5\\frac{312,5}{2,5}\\Rightarrow\\log_5125\\Rightarrow 3$$\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 16880,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\log_5312,5-\\log_52,5\\).",
+      "error_conditions": [],
+      "id": 236784,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/EhoR_a4s9ys?t=828"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://youtu.be/EhoR_a4s9ys?t=828"
+}

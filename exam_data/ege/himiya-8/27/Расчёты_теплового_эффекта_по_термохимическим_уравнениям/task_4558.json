@@ -1,0 +1,42 @@
+{
+  "comment": "Q = x кДж\nn(Fe) = m/M = 25/56 = 0,45 моль\nПо уравнению: 2 моль – 27 кДж\nПо условию: 0,45 моль – x кДж\nх = (27 • 0,45)/2 = 6\nQ = 6 кДж",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2856,
+    "title": "Расчёты теплового эффекта (по термохимическим уравнениям)"
+  },
+  "id": 4558,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Дано термохимическое уравнение реакции\nFe₂O₃(тв.) + 3CO₂(г) = 2Fe(тв.) + 3CO₂(г) + 27 кДж\nОпределите количество теплоты (кДж), которое выделится при получении 25 г железа согласно уравнению. (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 67348,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=2701"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/K-RBt9ICOrE?start=2701"
+}

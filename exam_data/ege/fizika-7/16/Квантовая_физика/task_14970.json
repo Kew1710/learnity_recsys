@@ -1,0 +1,42 @@
+{
+  "comment": "Энергия фотона:\n$$E=pc=h\\nu-const$$\nСледовательно, импульс не меняется.\n\nОтвет: 1",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2641,
+    "title": "Квантовая физика"
+  },
+  "id": 14970,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23956\nИз воды с показателем преломления \\(1,33\\) в стекло с показателем преломления \\(1,6\\) переходит синий свет с длиной волны \\(450\\) нм. Найдите отношение импульса фотона в стекле к его импульсу в воде.",
+      "error_conditions": [],
+      "id": 215920,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/ZPIJbxc31XE"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/ZPIJbxc31XE"
+}

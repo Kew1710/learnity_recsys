@@ -1,0 +1,42 @@
+{
+  "comment": "2C₂H₅OH + 2Na = 2C₂H₅ONa + H₂\nn(Na) = m/M = 18,4/23 = 0,8 моль\nn(C₂H₅ONa) = n(Na) = 0,8 моль\nm(теор. C₂H₅ONa) = n • M = 0,8 • 68 = 54,4 г\nm(прак. C₂H₅ONa) = η • m(теор. C₂H₅ONa) = 0,9 • 54,4 = 49 г",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2858,
+    "title": "Расчёты доли выхода продукта реакции от теоретически возможного"
+  },
+  "id": 2017,
+  "is_obsolete": false,
+  "number": 28,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "49",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "При взаимодействии избытка этилового спирта с 18,4 г натрия с выходом 90% был получен этилат натрия. Определите массу полученного продукта. (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 56448,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=3007"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YYfdnTwRKvQ?start=3007"
+}

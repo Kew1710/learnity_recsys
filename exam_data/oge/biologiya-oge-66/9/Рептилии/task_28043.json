@@ -1,0 +1,42 @@
+{
+  "comment": "Описание характерно для пресмыкающихся, ищем их из перечня - черепаха, гадюка, ящерица\n\nДельфин - млекопитающие, карась - лучеперая рыба, лягушка - земноводное.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2933,
+    "title": "Рептилии"
+  },
+  "id": 28043,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "456",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Какие из перечисленных животных имеют трёхкамерное сердце, сухую кожу без желёз, покрытую роговыми чешуями? Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\n\n1) дельфин\n2) карась\n3) лягушка\n4) черепаха\n5) гадюка\n6) ящерица",
+      "error_conditions": [],
+      "id": 247682,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

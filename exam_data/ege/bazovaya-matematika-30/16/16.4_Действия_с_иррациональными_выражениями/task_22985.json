@@ -1,0 +1,42 @@
+{
+  "comment": "Воспользуемся формулой сокращенного умножения \\((a-b)(a+b)=a^2+b^2\\) (её можно найти в справочных материалах)\n$$(\\sqrt{11} - \\sqrt{3})(\\sqrt{11} + \\sqrt{3}) = (\\sqrt{11})^2 - (\\sqrt{3})^2 = 11 - 3 = 8$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2120,
+    "title": "16.4 Действия с иррациональными выражениями"
+  },
+  "id": 22985,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения\n$$(\\sqrt{11} - \\sqrt{3})(\\sqrt{11} + \\sqrt{3})$$",
+      "error_conditions": [],
+      "id": 242711,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

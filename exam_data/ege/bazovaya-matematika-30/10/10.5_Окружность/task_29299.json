@@ -1,0 +1,42 @@
+{
+  "comment": "36 спиц делят колесо на 36 секторов. Значит величина угла каждого сектора будет \\(360 / 36 = 10\\) градусов.\nОтвет: 10°.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2096,
+    "title": "10.5 Окружность"
+  },
+  "id": 29299,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Колесо имеет 36 спиц. Углы между соседними спицами равны. Найдите величину угла (в градусах), который образуют две соседние спицы.",
+      "error_conditions": [],
+      "id": 248938,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

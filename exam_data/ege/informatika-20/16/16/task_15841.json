@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1518,
+    "title": "№16"
+  },
+  "id": 15841,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4033",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Алгоритм вычисления значения функции F(n), где n – натуральное число, задан следующими соотношениями:\n\nF(n) = n при n >= 2023;\n\nF(n) = n + 2 + F(n + 2), если n < 2023.\n\nЧему равно значение выражения F(2015) – F(2020)?",
+      "error_conditions": [],
+      "id": 235620,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 35,
+    "title": "Рекурсия"
+  },
+  "video_link": null
+}

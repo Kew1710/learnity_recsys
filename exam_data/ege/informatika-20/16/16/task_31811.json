@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1518,
+    "title": "№16"
+  },
+  "id": 31811,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4092529",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Алгоритм вычисления значения функции F(n), где n – натуральное число, задан следующими соотношениями:\nF(n) = 1 при n = 1;\nF(n) = n × F(n − 1), если n > 1.\nЧему равно значение выражения (F(2024) − F(2023)) / F(2022)?",
+      "error_conditions": [],
+      "id": 251450,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 35,
+    "title": "Рекурсия"
+  },
+  "video_link": null
+}

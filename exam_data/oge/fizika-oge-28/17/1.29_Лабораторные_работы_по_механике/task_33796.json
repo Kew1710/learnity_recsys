@@ -1,0 +1,37 @@
+{
+  "comment": "добавить",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3237,
+    "title": "1.29 Лабораторные работы по механике"
+  },
+  "id": 33796,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Необходимо провести исследование зависимости силы тока в резисторе от напряжения на его концах. В исследовании используется резистор, источник постоянного тока, реостат, ключ, соединительные провода.\n1) Какое еще оборудование понадобится для проведения этого исследования?\n2) Запишите алгоритм действий по исследованию зависимости силы тока в резисторе от напряжения на его концах.",
+      "error_conditions": null,
+      "id": 253435,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

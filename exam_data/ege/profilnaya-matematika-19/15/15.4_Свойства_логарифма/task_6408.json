@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничения:\n$$\n\\left\\{\n\\begin{array}{l}\nx - 1 > 0 \\\\\n{x}^{2} - 2x + 1 > 0\n\\end{array}\n\\right.\n\\Rightarrow\n\\left\\{\n\\begin{array}{l}\nx - 1 > 0 \\\\\n(x-1)^{2} > 0\n\\end{array}\n\\right.\n\\Rightarrow\nx > 1\n$$\nТеперь решим неравенство:\n$$\\frac{x^2}{3}\\log_7(x-1)\\geq \\log_7(x-1)^2\\\\ \\log_7(x-1)^\\frac{x^2}{3}\\geq \\log_7(x-1)^2\\\\ Так~как~7>1\\\\ (x-1)^\\frac{x^2}{3}\\geq (x-1)^2$$\n$$\\displaystyle \\left[ \\begin{array}{l l} \\begin{cases} x-1 >1\\\\ \\ \\frac{x^{2}}{3} \\geq 2 \\end{cases}\\\\ \\begin{cases} x-1< 1\\\\ \\ \\ \\frac{x^{2}}{3} \\leq 2 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} x\\geq 2\\\\ x^{2} \\geq 6 \\end{cases}\\\\ \\begin{cases} x\\leq 2\\\\ x^{2} \\leq 6 \\end{cases} \\end{array} \\right.$$\n$$x\\in [-\\sqrt{6};2]\\cup [\\sqrt{6};+\\infty)\\\\ Так~как~x>1\\\\ x\\in (1;2]\\cup [\\sqrt{6};+\\infty)$$\nОтвет: \\(𝑥\\in (1;2] \\cup [\\sqrt{6} ;+\\infty )\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2470,
+    "title": "15.4 Свойства логарифма"
+  },
+  "id": 6408,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(𝑥^{2}\\log_{343}( 𝑥−1) \\geq \\log_{7}( 𝑥^{2} −2𝑥+1)\\).",
+      "error_conditions": null,
+      "id": 73494,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/embed/_W_TDzlNCp4?start=1802"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(CH^2 = AH \\cdot HB\\)\n\\(CH = \\sqrt{AH \\cdot HB}\\)\n\\(CH = \\sqrt{4 \\cdot 16} = 8\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1975,
+    "title": "15.4 Подобные треугольники"
+  },
+  "id": 20179,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На гипотенузу AB прямоугольного треугольника ABC опущена высота CH, AH=4, BH=16. Найдите CH.",
+      "error_conditions": [],
+      "id": 239995,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

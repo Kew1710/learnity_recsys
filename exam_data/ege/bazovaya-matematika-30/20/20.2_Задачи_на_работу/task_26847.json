@@ -1,0 +1,42 @@
+{
+  "comment": "Скорость работы Юли и Ули, когда они работают вместе, равна \\(\\frac{1}{24}\\), а скорость работы только Ули - \\(\\frac{1}{120}\\).\nТак как скорость их совместной работы равна сумме их индивидуальных скоростей, значит, скорость работы Юли равна\n$$\\frac{1}{24} - \\frac{1}{120} = \\frac{5 - 1}{120} = \\frac{4}{120} = \\frac{1}{30}$$\nЗначит, работая одна, Юля прополет грядку за 30 минут\nОтвет: 30.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2133,
+    "title": "20.2 Задачи на работу"
+  },
+  "id": 26847,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Юля и Уля, работая вместе, пропалывают грядку за 24 минуты, а одна Уля за 120 минут. За сколько минут пропалывает грядку одна Юля?",
+      "error_conditions": [],
+      "id": 246486,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

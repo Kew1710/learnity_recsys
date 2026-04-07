@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(d=\\cfrac{a_8-a_4}{8-4}=\\cfrac{35-23}{8-4}=3\\)\n\\(a_1 = a_4 - d(n-1) = 23 - 3 \\cdot 3= 23-9=14\\)\nКоличество мест в последнем ряду амфитеатра:\n\\(a_{16} = a_1 +d(n-1) = 14 + 3(16-1) = 14 + 3 \\cdot 15 = 14 + 45 = 59\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1970,
+    "title": "14.1 Арифметическая прогрессия"
+  },
+  "id": 20023,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "59",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В амфитеатре 16 рядов, причём в каждом следующем ряду на одно и то же число мест больше, чем в предыдущем. В четвёртом ряду 23 места, а в восьмом ряду 35 мест. Сколько мест в последнем ряду амфитеатра?",
+      "error_conditions": [],
+      "id": 239861,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 66,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

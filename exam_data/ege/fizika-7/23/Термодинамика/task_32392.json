@@ -1,0 +1,37 @@
+{
+  "comment": "Уравнение теплового баланса:\n$$Q_{отд}=Q_{получ}$$\n$$Q_{получ}=cm_з\\left (t_3-t_1\\right )$$\n$$Q_{отд}=cm_в\\left (t_2-t_3\\right ),$$\nгде \\(t_1\\) – начальная температура заварки, \\(t_2\\) – начальная температура воды, \\(t_3\\) – конечная температура чая, \\(m_в\\) – масса воды, \\(m_з\\) – масса заварки.\n$$cm_з\\left (t_3-t_1\\right )=cm_в\\left (t_2-t_3\\right )$$\nМасса заварки:\n$$m_з=m_в\\frac{t_2-t_3}{t_3-t_1}=140~г\\cdot\\frac{90-70}{70-20}=56~г$$\nОтвет: 56 г",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 32392,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В стакан налили заварки, имеющей температуру \\(20\\) \\(^\\circ С\\), и \\(140\\) г воды при температуре \\(90\\) \\(^\\circ С\\). Температура получившегося чая оказалась равной \\(70\\) \\(^\\circ С\\). Какова масса заварки? Теплообменом с окружающей средой пренебречь. Теплоемкость заварки принять равной теплоемкости воды.",
+      "error_conditions": null,
+      "id": 252031,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/fvQ1eKtlzLw?t=5138"
+}

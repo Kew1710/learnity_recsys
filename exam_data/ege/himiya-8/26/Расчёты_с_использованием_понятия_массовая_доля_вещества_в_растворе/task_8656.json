@@ -1,0 +1,42 @@
+{
+  "comment": "ρ(воды) = 1 г/мл\nm(воды) = ρ(воды) • V(воды) = 1 • 36 = 36 г\nm₁(соли) = ω₁ • m₁(р-ра) = 0,2 • 130 = 26 г\nω = m(соли)/m(р-ра)\nω = (m₁(соли) + m(соли))/(m₁(р-ра) + m(соли) + m(воды))\nω₂ = (26 + 24)/(130 + 24 + 36) = 50/190 = 0,26\nω₂ = 26%",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2854,
+    "title": "Расчёты с использованием понятия «массовая доля вещества в растворе»"
+  },
+  "id": 8656,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "26",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "К 130 г раствора с массовой долей хлорида натрия 20% добавили 36 мл воды и 24 г этой же соли. Чему равна массовая доля соли в полученном растворе? (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 103774,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

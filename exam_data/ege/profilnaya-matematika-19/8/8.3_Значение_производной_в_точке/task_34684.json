@@ -1,0 +1,45 @@
+{
+  "comment": "Для этого построим треугольник с координатами вершин: \\(A(-2;-4)\\), \\(B(1,2)\\), \\(C(1;-4)\\).\n\nНайдём \\(tg\\angle BAC=\\frac{6}{3}=2\\), тангенс этого угла равен производной в точке \\(x_0\\), так как гипотенуза \\(AB\\) - является касательной к графику.\n\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2414,
+    "title": "8.3 Значение производной в точке"
+  },
+  "id": 34684,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображён график функции \\(y=f(x)\\) и касательная к нему в точке с абсциссой \\(x_0\\). Найдите значение производной функции \\(f(x)\\) в точке \\(x_0\\).",
+      "error_conditions": [],
+      "id": 254323,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=AjSNWMAJ83sJfxkQ&t=630"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=AjSNWMAJ83sJfxkQ&t=630"
+}

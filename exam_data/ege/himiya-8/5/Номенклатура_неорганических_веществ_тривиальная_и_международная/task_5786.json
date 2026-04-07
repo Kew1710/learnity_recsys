@@ -1,0 +1,42 @@
+{
+  "comment": "А) Нерастворимое основание – гидроксид металла со степенью окисления +1 или +2 (за исключением щелочей и амфотерных гидроксидов Zn(OH)₂, Be(OH)₂, Pb(OH)₂, Sn(OH)₂). Подходит гидроксид магния (Mg(OH)₂)\nБ) Кислотные оксиды – оксиды неметаллов (за исключением несолеобразующих) и металлов в высокой степени окисления. Подходит CrO₃\nВ) Одноосновная кислота – кислота, которая содержит один атом водорода (одну OH-группу. Подходит бромоводородная кислота (HBr)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2797,
+    "title": "Номенклатура неорганических веществ (тривиальная и международная)"
+  },
+  "id": 5786,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "273",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Среди предложенных формул/названий веществ, расположенных в пронумерованных ячейках, выберите формулы/названия: А) нерастворимого основания; Б) кислотного оксида; В) одноосновной кислоты.\n1\nMg(HCO₃)₂\n\n2\nгидроксид магния\n\n3\nбромоводородная\nкислота\n4\nкремниевая\nкислота\n5\nNa₃P\n\n6\nCaO\n\n7\nCrO₃\n\n8\nNH₄Cl\n\n9\nZn(OH)₂",
+      "error_conditions": [],
+      "id": 72257,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=8731"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=8731"
+}

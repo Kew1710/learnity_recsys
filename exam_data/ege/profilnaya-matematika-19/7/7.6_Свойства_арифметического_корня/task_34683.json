@@ -1,0 +1,45 @@
+{
+  "comment": "$$(\\sqrt{8}-\\sqrt{50})\\cdot\\sqrt{2}=\\sqrt{16}-\\sqrt{100}=4-10=-6$$\nОтвет: -6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2410,
+    "title": "7.6 Свойства арифметического корня"
+  },
+  "id": 34683,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\((\\sqrt{8}-\\sqrt{50})\\cdot\\sqrt{2}\\).",
+      "error_conditions": [],
+      "id": 254322,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=YCCXKx2MKF1xOSan&t=579"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/0fZH1p1m3ZI?si=YCCXKx2MKF1xOSan&t=579"
+}

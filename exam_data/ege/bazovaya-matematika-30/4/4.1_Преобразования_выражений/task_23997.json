@@ -1,0 +1,42 @@
+{
+  "comment": "$$g = \\sqrt[3]{abc} = \\sqrt[3]{4 \\cdot 8 \\cdot 16} = \\sqrt[3]{2^2 \\cdot 2^3 \\cdot 2^4} = \\sqrt[3]{2^9} = 2^3 = 8$$\nОтвет: 8.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 23997,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Среднее геометрическое трёх чисел \\(a, \\; b\\) и \\(c\\) вычисляется по формуле \\(g = \\sqrt[3]{abc}\\). Вычислите среднее геометрическое чисел 4, 8, 16.",
+      "error_conditions": [],
+      "id": 243712,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

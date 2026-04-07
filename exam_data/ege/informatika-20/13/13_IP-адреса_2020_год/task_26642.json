@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2876,
+    "title": "№13 IP-адреса (2020 год)"
+  },
+  "id": 26642,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Два узла, находящиеся в одной сети, имеют IP-адреса 115.127.30.120 и 115.127.151.120. Укажите наибольшее возможное значение третьего слева байта маски сети. Ответ запишите в виде десятичного числа.",
+      "error_conditions": [],
+      "id": 246281,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=SM3lSLcmu8Q"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 45,
+    "title": "IP-адреса"
+  },
+  "video_link": "https://www.youtube.com/watch?v=SM3lSLcmu8Q"
+}

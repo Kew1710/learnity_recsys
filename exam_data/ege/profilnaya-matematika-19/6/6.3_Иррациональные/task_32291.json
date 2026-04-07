@@ -1,0 +1,45 @@
+{
+  "comment": "Возведем обе части уравнения в куб:\n$$x+3=27\\Leftrightarrow x=24$$\nОтвет: 24",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2401,
+    "title": "6.3 Иррациональные"
+  },
+  "id": 32291,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\sqrt[3]{x+3}=3\\).",
+      "error_conditions": [],
+      "id": 251930,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=jVbFA13sE8wU_rDK&t=730"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=jVbFA13sE8wU_rDK&t=730"
+}

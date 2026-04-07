@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$\\displaystyle \\sqrt{4\\cos 2x-2\\sin 2x} =2\\cos x\\Leftrightarrow \\begin{cases}\n4\\cos 2x-2\\sin 2x=4\\cos^{2} x\\\\\n2\\cos x\\geq 0\n\\end{cases}\\\\ \\displaystyle \\begin{cases}\n4\\left(\\cos^{2} x-\\sin^{2} x\\right) -4\\sin x\\cos x-4\\cos^{2} x=0\\ ( 1)\\\\\n\\cos x\\geq 0\\ ( 2)\n\\end{cases} $$\nРассмотрим (1):\n$$4\\cos^2x-4\\sin^2x-4\\sin x\\cos x-4\\cos^2x=0\\\\ 4\\sin^2x+4\\sin x\\cos x=0\\\\ \\sin x(\\sin x+\\cos x)=0\\Leftrightarrow \\displaystyle \\left[ \\begin{array}{l l}\n\\sin x=0\\\\\n\\cos x=-\\sin x\n\\end{array} \\right.$$\nРассмотрим \\(\\cos x=-\\sin x\\): разделим уравнение на \\(\\sin x\\), так как \\(\\sin x=0\\) - не является решением этого уравнения \\(\\Leftrightarrow\\sin x\\ne 0\\).\n$$\\frac{\\cos x}{\\sin x}=-1\\Leftrightarrow ctg x=-1$$\nТогда система примет вид:\n$$\\displaystyle \\begin{cases}\n\\left[ \\begin{array}{l l}\n\\sin x=0\\\\\nctg\\ x=-1\n\\end{array} \\right.\\\\\n\\cos x\\geq 0\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\nx=\\pi k\\\\\nx=-\\frac{\\pi }{4} +\\pi k\n\\end{array} \\right.\\\\\n\\cos x\\geq 0\n\\end{cases} ,k\\in Z$$\nУчитывая ограничения:\n$$\\displaystyle \\left[ \\begin{array}{l l}\nx=\\pi k\\\\\nx=-\\frac{\\pi }{4} +2\\pi k\n\\end{array} \\right. ,k\\in Z$$\nб) Отберем корни на промежутке \\(\\left[-\\frac{5\\pi}{2};0\\right]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$-\\frac{5\\pi}{2}+\\frac{\\pi}{2}=-2\\pi\\\\ -\\pi \\\\ 0\\\\ -\\frac{9\\pi}{4}+2\\pi=-\\frac{\\pi}{4}\\\\ -\\frac{5\\pi}{2}+\\frac{\\pi}{4}=-\\frac{9\\pi}{4}$$\nОтвет: а) {\\(2\\pi k;-\\frac{\\pi}{4}+2\\pi k:k\\in Z\\)}, б) \\(-\\frac{9\\pi}{4};-2\\pi; -\\pi; -\\frac{\\pi}{4};0\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2459,
+    "title": "13.10 Сложные уравнения"
+  },
+  "id": 10352,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\sqrt{4\\cos 2x-2\\sin 2x}=2\\cos x\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[-\\frac{5\\pi}{2};0\\right]\\).",
+      "error_conditions": null,
+      "id": 137745,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

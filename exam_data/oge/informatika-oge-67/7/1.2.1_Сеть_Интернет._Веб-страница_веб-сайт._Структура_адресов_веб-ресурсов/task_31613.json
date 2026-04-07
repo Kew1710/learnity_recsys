@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3119,
+    "title": "1.2.1 Сеть Интернет. Веб-страница, веб-сайт. Структура адресов веб-ресурсов."
+  },
+  "id": 31613,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5237164",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Доступ к файлу ru.gif, находящемуся на сервере last.ru, осуществляется по протоколу https. Фрагменты адреса файла закодированы цифрами от 1 до 7. Запишите последовательность этих цифр, кодирующую адрес указанного файла в сети Интернет. 1) /2) ://3) last.4) gif5) https6) ru.7) ru",
+      "error_conditions": [],
+      "id": 251252,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

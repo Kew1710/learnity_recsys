@@ -1,0 +1,42 @@
+{
+  "comment": "Электронная конфигурация атома неона Ne - 1s²2s²2p⁶ (4s-электрона)\n1) F - анион F⁻ 1s²2s²2p⁶\n2) H не способен образовать такой ион\n3) Mg - катион Mg²⁺ 1s²2s²2p⁶\n4) Br не способен образовать такой ион\n5) Cu не способен образовать такой ион",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 917,
+    "title": "Электронная конфигурация атомов и ионов"
+  },
+  "id": 26706,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите элементы, атомы которых образуют ионы, у которых s-электронов столько же, сколько и у атома неона.\n1) F\n2) H\n3) Mg\n4) Br\n5) Cu",
+      "error_conditions": [],
+      "id": 246345,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

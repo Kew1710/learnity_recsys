@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nAB,CD - хорды\nАВ=16\n\\( OH \\perp AB \\)\nOH=15\nOK=8\n\\( OK \\perp CD \\)\nНайти:\nCD - ?\nРешение:\n1) Проведём АО=ОВ=ОС=OD - радиусы\n\\( \\triangle AOB \\) - равнобедренный\n2) \\( \\triangle AOB \\):\nт.к. \\( OH \\perp AB \\), ОН - высота, медиана и биссектриса (свойство равнобедренного треугольника)\nТогда АН=НВ=16:2=8\n\\( \\triangle OHB \\) - прямоугольный\nТогда по теореме Пифагора:\n\\( OH^2+HB^2=OB^2 \\)\n\\( OB=\\sqrt{8^2+15^2}=17 \\)\n3) \\( \\triangle KOD \\) - прямоугольный\nПо теореме Пифагора:\n\\( KD^2=OD^2-OK^2 \\)\n\\( KD=\\sqrt{17^2-64}=15 \\)\n\\( \\triangle COD \\) - равнобедренный\n\\( OK \\perp CD \\), тогда ОК - медиана, высота, биссектриса\n\\( \\Rightarrow CK=KD=15\\)\n\\( СD=15+15=30\\)\nОтвет: 30",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2013,
+    "title": "23.4 Окружность"
+  },
+  "id": 17135,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Отрезки AB и CD являются хордами окружности. Найдите длину хорды CD, если AB = 16, а расстояния от центра окружности до хорд AB и CD равны соответственно 15 и 8.",
+      "error_conditions": null,
+      "id": 237026,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

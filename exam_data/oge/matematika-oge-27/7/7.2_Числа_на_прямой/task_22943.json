@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nВозведем все числа в квадрат\n\\( (\\sqrt{68})^2 = 68\\)\n\\( 7^2 = 49\\)\n\\( 8^2 = 64\\)\n\\( 9^2 = 81\\)\nСравним квадраты чисел. Получим \\(49 < 64 < 68< 81\\)\nТогда для исходных чисел справедливы неравенства \\( 8 < \\sqrt{68} < 9\\)\nРасстояние от \\(\\sqrt{68}\\) до \\(\\sqrt{64}\\) меньше, чем расстояние от \\(\\sqrt{68}\\) до \\(\\sqrt{81}\\)\n\\(\\Rightarrow\\) число \\(\\sqrt{68}\\) расположено ближе к 8, чем к 9\nПоймем, что число \\(\\sqrt{68}\\) соответствует точке C на прямой\nОтвет: 3",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22943,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечены точки A, B, C, D. Одна из них соответствует числу \\(\\sqrt{68}\\). Какая это точка?",
+      "error_conditions": [],
+      "id": 242669,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

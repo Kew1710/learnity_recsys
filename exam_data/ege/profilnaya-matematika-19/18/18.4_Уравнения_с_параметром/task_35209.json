@@ -1,0 +1,40 @@
+{
+  "comment": "Если \\(a^2-4=0\\), то \\(\\displaystyle \\left[ \\begin{array}{l l} a=2\\\\ a=-2 \\end{array} \\right.\\), проверим, что при \\(a=2\\) уравнение приобретает вид: \\(0\\cdot x=2+2\\Rightarrow 0=4\\), неверно, при \\(a=-2\\) уравнение принимает вид: \\(0\\cdot x=-2+2\\), следовательно, верно при любом \\(x\\), тогда при \\(a=-2\\) есть бесконечно много решений.\nРассмотрим случай, когда \\(a^2-4\\ne 0\\), тогда:\n$$x=\\frac{a+2}{a^2-4}=\\frac{a+2}{(a-2)(a+2)}=\\frac{1}{a-2}$$\nОтвет: \\(\\left\\{ \\begin{array}{l l}\nx \\in \\varnothing \\text{ при } a = 2 \\\\\nx \\in R \\text{ при } a = -2 \\\\\nx = \\dfrac{1}{a-2} \\text{ при } a \\neq \\pm 2\n\\end{array} \\right.\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2493,
+    "title": "18.4 Уравнения с параметром"
+  },
+  "id": 35209,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\((a^2-4)x=a+2\\) с параметром \\(a\\).",
+      "error_conditions": null,
+      "id": 254848,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/9L45G5F3TGo?si=WHHIE0WAykGiXfyL&t=1657"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "На рисунке цифрой 2 обозначена печень, 6 - желудок, а 7 - тонкая кишка.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 8773,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123231",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между характеристиками и структурами, обозначенными выше цифрами 2, 6, 7; к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\nХарактеристики Структуры А. Секретирует желчь\nБ. Низкий рН\nВ. Высокий рН\nГ. Содержит пепсин\nД. Эмульгирование жиров\nЕ. Обезвреживает вредные вещества\n- 2\n\n2. 6\n3. 7",
+      "error_conditions": [],
+      "id": 111975,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9M-Zscq6QeY?start=1669"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/9M-Zscq6QeY?start=1669"
+}

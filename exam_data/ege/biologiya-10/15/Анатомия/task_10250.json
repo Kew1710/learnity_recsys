@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 145\nСводчатая стопа и S-образная форма позвоночника (связаны с возникновением прямохождения), как и преобладание мозгового отдела над лицевым, характерны только для скелета человека",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10250,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "145",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "В чем состоит сходство скелета человека и скелетов млекопитающих животных?\n\n1) позвоночник имеет пять отделов\n2) стопа имеет свод\n3) мозговой отдел черепа больше лицевого\n4) имеются парные суставные конечности\n5) в шейном отделе семь позвонков\n6) форма позвоночника S–образная",
+      "error_conditions": [],
+      "id": 122990,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

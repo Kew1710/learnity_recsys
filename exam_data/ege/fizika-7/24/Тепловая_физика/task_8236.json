@@ -1,0 +1,37 @@
+{
+  "comment": "На плавление льда массой \\(m\\) и дальнейший нагрев до \\(20~^\\circ С\\) градусов потрачено количество теплоты:\n$$Q= \\lambda m + cm \\Delta t=m(\\lambda +c \\Delta t)$$\nПри этом теплоты \\(q\\) хватит на часть плавления:\n$$q=km\\lambda,$$\nгде \\(k\\) – искомая доля льда.\nИз условия:\n$$2q=Q\\\\ 2km \\lambda =m(\\lambda +c \\Delta t)\\\\ k=\\frac{\\lambda +c \\Delta t}{2 \\lambda }=\\frac{3,3\\cdot 10^5+4200 \\cdot 20}{2 \\cdot 3,3 \\cdot 10^5}= \\frac{69}{110} \\approx 0,63$$\nОтвет: \\(0,63\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2628,
+    "title": "Тепловая физика"
+  },
+  "id": 8236,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание AA7A1F\nВ сосуде лежит кусок льда. Температура льда \\(t_1 =0~^\\circ С\\). Если сообщить ему количество теплоты \\(Q\\), то весь лед растает и образовавшаяся вода нагреется до температуры \\(t_2 = 20~^\\circ С\\). Какая доля льда растает, если сообщить ему количество теплоты \\(q=\\frac{Q}{2}\\)? Тепловыми потерями на нагрев сосуда пренебречь.",
+      "error_conditions": null,
+      "id": 101547,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

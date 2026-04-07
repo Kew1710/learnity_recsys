@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРазделим 140 на 17\n\\(\\cfrac{140}{17} \\approx 8,24\\)\n\\(\\Rightarrow \\) число \\(\\cfrac{140}{17}\\) заключено между числами 8 и 9\nОтвет: 4",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23936,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Между какими целыми числами заключено число \\(\\cfrac{140}{17}\\)?",
+      "error_conditions": [],
+      "id": 243655,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

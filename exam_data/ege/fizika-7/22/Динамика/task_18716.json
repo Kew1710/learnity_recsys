@@ -1,0 +1,37 @@
+{
+  "comment": "По 2 закону Ньютона в проекции на \\(oy\\) для груза:\n$$Mg-N=0\\Rightarrow N=Mg$$\nПо 2 закону Ньютона в проекции на оси для тела на столе:\n$$oy: T-mg=-ma\\Rightarrow T=m(g-a)\\\\ ox:T-F-F_{тр}=Ma$$\nСила трения:\n$$F_{тр}=\\mu N\\\\ m(g-a)-F-\\mu Mg=Ma\\\\ F=-M(a+\\mu g)+m(g-a)=-0,6(1+0,25\\cdot 10)+0,4(10-1)=1,5~Н$$\nОтвет: 1,5 Н",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 18716,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23И119\nНерастяжимая невесомая нить переброшена через идеальный блок. К одному концу нити прикреплено тело массой \\(M=600\\) г, находящееся на шероховатом горизонтальном столе, к другому – подвешено тело массой \\(m=400\\) г. Определите модуль силы \\(F\\), действующей на первый груз, если второй груз движется из состояния покоя с ускорением \\(1\\) м/с\\(^2\\), направленным вниз, а коэффициент трения скольжения первого груза о поверхность стола равен \\(0,25\\).",
+      "error_conditions": null,
+      "id": 238557,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/15eG_v6uVE4?feature=share&t=6300"
+}

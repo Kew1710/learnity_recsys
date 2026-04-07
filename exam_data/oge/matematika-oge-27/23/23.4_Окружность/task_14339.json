@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nAP=36\nAB=1,8BC\nPK-?\nРешение:\n1) Пусть ВС=х, тогда АВ=1,8х\n2) Пусть \\( \\angle PKA= \\alpha\\), тогда \\(\\angle PKB=180-\\alpha\\) - смежный\nРКВС - вписанный четырехугольник, поэтому \\( \\angle PCB+ \\angle PKB=180\\) - признак вписанного четырехугольника\n\\( \\Rightarrow \\angle C= 180-\\angle PKB =180-(180-\\alpha)=180-180+\\alpha =\\alpha\\)\n\\( \\angle A\\) общий для треугольников РКА и АВС\n\\( \\Rightarrow \\triangle APK \\sim \\triangle ABC\\) по 2-ум углам\n\\( \\cfrac{AP}{AB}=\\cfrac{PK}{BC}\\)\n\\( \\cfrac{36}{1,8x}=\\cfrac{PK}{x} \\)\n\\( PK=\\cfrac{36}{1,8}=\\cfrac{360}{18}=20\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2013,
+    "title": "23.4 Окружность"
+  },
+  "id": 14339,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружность пересекает стороны AB и AC треугольника ABC в точках K и P соответственно и проходит через вершины B и C. Найдите длину отрезка KP, если AP = 36, а сторона BC в 1,8 раза меньше стороны AB.",
+      "error_conditions": null,
+      "id": 202468,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

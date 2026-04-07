@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\angle B=90-\\angle A\\\\ \\sin B=\\sin (90-\\angle A)=\\cos A\\\\ \\sin^2 A+\\cos^2 A=1\\\\ 0,64+\\cos^2A=0,36\\\\ \\cos A=\\pm 0,36\\\\ А-острый,тогда~\\cos A>0,\\cos A=0,6$$\nОтвет: 0,6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2372,
+    "title": "1.1 Тригонометрия в прямоугольном треугольнике"
+  },
+  "id": 4044,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC\\) угол \\(C\\) равен \\(90^{\\circ}, \\sin A=0,8\\). Найдите \\(\\sin B\\).",
+      "error_conditions": [],
+      "id": 66465,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=2306"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=2306"
+}

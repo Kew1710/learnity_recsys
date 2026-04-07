@@ -1,0 +1,37 @@
+{
+  "comment": "Согласно условию:\nМагнитный поток определяется по формуле:\n$$Ф=BS\\cos\\alpha,~B\\cos\\alpha=B_y\\Rightarrow Ф=B_yS\\Rightarrow Ф~меняется~равномерно$$\nЭДС индукции определим по формуле:\n$$|\\varepsilon_i|=\\frac{|\\Delta Ф|}{\\Delta t}=\\frac{|B_{y2}S-B_{y1}S|}{t1}$$\nТакже ЭДС индукции можно определить по формуле:\n$$\\varepsilon_i=IR,где ~I=\\frac{\\Delta q}{\\Delta t}=\\frac{\\Delta q}{t_1}$$\nОбъединим формулы:\n$$\\frac{\\Delta qR}{t_1}=\\frac{|B_{y2}-B_{y1}|}{t_1}S\\Rightarrow\\frac{\\Delta qR}{S}=|B_{y2}-B_{y1}|$$\n1) если \\(B_{y2}>B_{y1}\\):\n$$B_{y1}=B_{y2}-\\frac{\\Delta qR}{S}=3,8-\\frac{90\\cdot 10^{-3}\\cdot 2}{0,2}=2,9~Тл$$\n2) если \\(B_{y2}<B_{y1}\\):\n$$B_{y1}=\\frac{\\Delta qR}{S}+B_{y2}=\\frac{90\\cdot 10^{-3}\\cdot 2}{0,2}+3,8=4,7~Тл$$\nОтвет: если \\(B_{y2}>B_{y1},~B_{y1}=2,9\\) Тл\nесли \\(B_{y2}<B_{y1},~B_{y1}=4,7\\) Тл",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2634,
+    "title": "Электромагнитная индукция"
+  },
+  "id": 10549,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23722\nВ горизонтальную плоскость поместили рамку площадью \\(S=0,2\\) м\\(^2\\), изготовленную из проводящего материала и имеющую сопротивление \\(R=2\\) Ом. После включения внешнего магнитного поля за время наблюдения проекция индукции поля на вертикальную ось \\(Oy\\) равномерно изменяется от \\(B_{y1}\\) до \\(B_{y2}\\), а по рамке протекает заряд \\(\\Delta q=90\\) мКл. Определите начальную проекцию вектора магнитной индукции \\(B_{y1}\\), если конечная \\(B_{y2}=3,8\\) Тл.",
+      "error_conditions": null,
+      "id": 145379,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/FXsYxQhn27M"
+}

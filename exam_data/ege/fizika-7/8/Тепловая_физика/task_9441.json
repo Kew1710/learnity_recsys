@@ -1,0 +1,42 @@
+{
+  "comment": "Тепло, которое нужно слитку, чтобы достигнуть температуры плавления:\n$$Q_1=cm\\Delta t=cm(t_2-t_1)=130\\cdot m\\cdot (327,5-127,5)\\Rightarrow \\frac{Q_1}{m}=26000~Дж/кг$$\nТепловая мощность:\n$$P=\\frac{Q}{\\tau}=\\frac{26000m}{\\tau_1}=\\frac{26000}{78}m=333,3m~Вт$$\nТеплота, необходимая для плавления:\n$$P\\cdot \\tau_2=Q_{пл}=\\lambda m\\Rightarrow \\tau_2=\\frac{\\lambda m}{P}=\\frac{2,5\\cdot 10^4m}{333,3m}=75~с$$\nОбщее время:\n$$\\tau_{общ}=\\tau_1+\\tau_2=78+75=153~с$$\nОтвет: 153 с",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2628,
+    "title": "Тепловая физика"
+  },
+  "id": 9441,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "153",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23375\nСвинцовый слиток нагревается в печи с постоянной тепловой мощностью. Известно, что в начальном состоянии температура слитка равна \\(127,5~^\\circ С\\), а спустя \\(t_1=78\\) с его температура достигает температуры плавления \\(327,5~^\\circ С\\). Определите, спустя какое время после начала наблюдения слиток полностью расплавится. Ответ дайте в с.",
+      "error_conditions": [],
+      "id": 114595,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/imxYQM_f8pU"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/imxYQM_f8pU"
+}

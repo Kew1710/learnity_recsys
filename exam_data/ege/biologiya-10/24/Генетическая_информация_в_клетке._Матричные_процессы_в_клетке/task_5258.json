@@ -1,0 +1,37 @@
+{
+  "comment": "Элементы ответа:\n1) удвоение (репликация) ДНК;\n2) так оно происходит у эукариот;\n3) потому что имеется несколько точек начала репликации",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2511,
+    "title": "Генетическая информация в клетке. Матричные процессы в клетке"
+  },
+  "id": 5258,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какой процесс, происходящий с генетической информацией клетки, изображён на схеме? У клеток какого надцарства он происходит именно так? Объясните свой ответ.",
+      "error_conditions": null,
+      "id": 70646,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/-TFiwzO2nuY?start=396"
+}

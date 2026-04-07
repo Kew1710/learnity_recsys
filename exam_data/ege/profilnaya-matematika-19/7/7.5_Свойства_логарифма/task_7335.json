@@ -1,0 +1,45 @@
+{
+  "comment": "Воспользуемся свойством:\n$$\\frac{\\log_ab}{\\log_ac}=\\log_cb$$\nПолучим:\n$$\\frac{\\log_24}{\\log_214}+\\log_{14}3,5=\\log_{14}4+\\log_{14}3,5=\\log_{14}4 \\cdot 3,5=\\log_{14}14=1$$\nОтвет: 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 7335,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{\\log_24}{\\log_214}+\\log_{14}3,5\\).",
+      "error_conditions": [],
+      "id": 83971,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5637"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5637"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "Замена: \\(5^x=t\\)\n$$t-\\frac{600}{t-1}\\geq 0\\\\ \\frac{t^2-t-600}{t-1}\\geq 0\\\\ \\frac{(t-25)(t+24)}{t-1}\\geq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l} t\\geq -24\\\\ \\begin{cases} t< 1\\\\ t\\geq 25 \\end{cases} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} 5^{x} \\geq -24\\\\ 5^{x} < 5^{0} \\end{cases}\\\\ 5^{x} \\geq 5^{2} \\end{array} \\right.$$\nТ. к. \\(5^x>0\\), то:\n$$\\displaystyle \\left[ \\begin{array}{l l} x< 0\\\\ x\\geq 2 \\end{array} \\right.$$\nОтвет: \\(x\\in (-\\infty;0)\\cup [2;+\\infty)\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 17220,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(5^x-\\frac{600}{5^x-1}\\geq 0\\).",
+      "error_conditions": null,
+      "id": 237105,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/ZjiTg9aJD40?feature=share&t=7829"
+}

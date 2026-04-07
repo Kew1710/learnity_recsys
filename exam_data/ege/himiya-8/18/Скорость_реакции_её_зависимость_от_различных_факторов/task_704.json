@@ -1,0 +1,42 @@
+{
+  "comment": "От площади поверхности соприкосновения реагентов скорость реакции не зависит в том случае, когда в реакцию не вступают твердые вещества\n\nРеакциями, скорость которых не зависит от этого фактора, являются реакции 3 и 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 704,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все пары веществ, скорость реакции между которыми не зависит от величины площади поверхности соприкосновения реагентов.\n1) сера и железо\n2) кремний и кислород\n3) водород и кислород\n4) цинк и соляная кислота\n5) этилен и хлороводород",
+      "error_conditions": [],
+      "id": 52249,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/pWM5ltpZw0w?start=1945"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pWM5ltpZw0w?start=1945"
+}

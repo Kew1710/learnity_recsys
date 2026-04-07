@@ -1,0 +1,40 @@
+{
+  "comment": "Заметим, что в уравнении \\(x^2+y^2=a\\) левая часть всегда не отрицательна, значит, \\(a\\geq 0\\).\nИз уравнения \\(4x+3y=24\\) выразим: \\(x=\\frac{24-3y}{4}=6-\\frac{3}{4}y\\)\nПодставим в \\(x^2+y^2=a\\):\n$$\\left(6-\\frac{3}{4}y\\right)^2+y^2=a\\Rightarrow 36-9y+\\frac{9}{16}y^2+y^2=a\\Rightarrow \\frac{25}{16}y^2-9y+36-a=0$$\nЧтобы было единственное решение, необходимо, чтобы \\(D=0\\):\n$$D=81-4\\cdot\\frac{25}{16}\\cdot (36-a)=81-225+\\frac{25a}{4}=\\frac{25a}{4}-144=0\\Rightarrow \\\\ a=\\frac{576}{25}=23,04$$\nОтвет: 23,04",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2491,
+    "title": "18.2 Система с окружностями и полуокружностями"
+  },
+  "id": 35309,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "При каких значениях параметра \\(a\\) система \\(\\displaystyle \\begin{cases} x^{2} +y^{2} =a\\\\ 4x+3y=24 \\end{cases}\\) имеет единственное решение?",
+      "error_conditions": null,
+      "id": 254948,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/9L45G5F3TGo?si=u1BZ7_VY803h7vtc&t=7845"
+}

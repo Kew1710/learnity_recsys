@@ -1,0 +1,42 @@
+{
+  "comment": "На рисунке обозначены: 5 - почечная лоханка, 8 - мочеточник, 1 - корковый слой, 2 - мозговой слой.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 8593,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "241322",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между характеристиками и структурами, обозначенными выше цифрами 1, 2, 5, 8; к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\nХарактеристики Структура А. Расположены капсулы нефрона\nБ. Расположена петля Генле\nВ. Впадают собирательные трубочки\nГ. Моча поступает в мочевой пузырь\nД. Расположен проксимальный извитой каналец\nЕ. Расположен дистальный извитой каналец\n- 5\n\n2. 8\n3. 1\n4. 2",
+      "error_conditions": [],
+      "id": 103655,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/9aCkZTRg1xY"
+}

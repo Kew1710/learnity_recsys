@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПусть х км/ч - скорость 1-го автомобиля\nТогда х-20 км/ч - скорость 2-го автомобиля\n\\(t=\\cfrac{S}{v}\\)\nСоставим уравнение:\n\\(\\cfrac{240}{x-20}-\\cfrac{240}{x}=1\\)\nУмножим на \\(x(x-20) \\neq 0\\)\n\\( 240x-240(x-20)-1x(x-20)=0\\)\n\\(x^2-20x-4800=0\\)\n\\(D=400+19200=19600\\)\n\\(x_1=-60\\) - не удовлетворяет условию задачи\n\\(x_2=80\\)\nОтвет: 80 км/ч",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1936,
+    "title": "21.1 Движение по прямой"
+  },
+  "id": 13283,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Два автомобиля одновременно отправляются в 240-километровый пробег. Первый едет со скоростью, на 20 км/ч большей, чем второй, и прибывает к финишу на 1 час раньше второго. Найдите скорость первого автомобиля.",
+      "error_conditions": null,
+      "id": 178119,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

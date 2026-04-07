@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{2^{4,2}\\cdot 6^{7,2}}{12^{6,2}}\\\\ \\frac{2^{4,2}\\cdot 6^{7,2}}{2^{6,2}\\cdot 6^{6,2}}=\\frac{6}{2^2}=1,5$$\nОтвет: 1,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 9820,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{2^{4,2}\\cdot 6^{7,2}}{12^{6,2}}\\).",
+      "error_conditions": [],
+      "id": 119724,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=7088"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=7088"
+}

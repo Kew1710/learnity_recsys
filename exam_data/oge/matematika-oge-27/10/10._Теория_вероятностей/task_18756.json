@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(P=\\cfrac{3}{14+8+3}=\\cfrac{3}{25}=0,12\\) - вероятность того, что выбранный пирожок окажется с капустой",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2043,
+    "title": "10. Теория вероятностей"
+  },
+  "id": 18756,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На тарелке лежат одинаковые на вид пирожки: 14 с рисом, 8 с мясом и 3 с капустой. Петя наугад берёт один пирожок. Найдите вероятность того, что пирожок окажется с капустой.",
+      "error_conditions": [],
+      "id": 238595,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

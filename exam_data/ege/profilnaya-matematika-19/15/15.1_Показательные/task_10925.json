@@ -1,0 +1,40 @@
+{
+  "comment": "Замена: \\(8^x=t,t>0\\)\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\frac{2\\cdotp \\frac{1}{8} \\cdotp t}{2\\cdotp \\frac{1}{8} \\cdotp t-1} -\\frac{3}{t-1} -\\frac{8}{t^{2} -5t+4} \\geq 0\\\\\n\\frac{\\frac{1}{4} \\cdotp t}{\\frac{1}{4} \\cdotp t-1} -\\frac{3}{t-1} -\\frac{8}{t^{2} -5t+4} \\geq 0\n\\end{array}$$\nУпростим:\n$$\\displaystyle \\frac{\\frac{1}{4} \\cdotp t}{\\frac{1}{4} \\cdotp t-1} =\\frac{\\frac{t}{4}}{\\frac{t}{4} -1} =\\frac{\\frac{t}{4}}{\\frac{t-4}{4}} =\\frac{t}{4} \\cdotp \\frac{4}{t-4} =\\frac{t}{t-4}$$\nВозвращаемся к неравенству:\n$$\\frac{t}{t-4} -\\frac{3}{t-1} -\\frac{8}{( t-1)( t-4)} \\geq 0\\\\ \\frac{t^{2} -t-3t+12-8}{( t-1)( t-4)} \\geq 0\\\\ \\frac{t^{2} -4t+4}{( t-1)( t-4)} \\geq 0\\\\ \\frac{( t-2)^{2}}{( t-1)( t-4)} \\geq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l}\nt >4\\\\\nt=2\\\\\n\\begin{cases}\nt >0\\\\\nt< 1\n\\end{cases}\n\\end{array} \\right.$$\nОбратная замена:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}}\n\\left[ \\begin{array}{l l}\n8^{x} >4\\\\\n8^{x} =2\\\\\n\\begin{cases}\n8^{x} >0\\\\\n8^{x} < 1\n\\end{cases}\n\\end{array} \\right.\\\\\n\\left[ \\begin{array}{l l}\n2^{3x} >2^{2}\\\\\n2^{3x} >2^1\\\\\n\\begin{cases}\n2^{3x} >0\\\\\n2^{3x} < 2^{0}\n\\end{cases}\n\\end{array} \\right.\\\\\n\\left[ \\begin{array}{l l}\n3x >2\\\\\n3x=1\\\\\n3x< 0\n\\end{array} \\right.\\\\\n\\left[ \\begin{array}{l l}\nx >\\frac{2}{3}\\\\\nx=\\frac{1}{3}\\\\\nx< 0\n\\end{array} \\right.\n\\end{array}$$\nОтвет: \\(x\\in (-\\infty ;0)~\\cup\\) {\\(\\frac{1}{3})\\cup (\\frac{2}{3};+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 10925,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{2\\cdot 8^{x-1}}{2\\cdot 8^{x-1}-1}\\geq\\frac{3}{8^x-1}+\\frac{8}{64^x-5\\cdot 8^x+4}\\).",
+      "error_conditions": null,
+      "id": 147693,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nНайдем внешний угол AOB, он равен: \\(360 - 120 = 240^o\\)\nСледовательно, меньшая дуга равна \\(\\cfrac{1}{2}\\) большей дуги\nТак, длина большей дуги равна \\(67 \\cdot 2 = 134\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2241,
+    "title": "16.6 Длина окружности и площадь круга"
+  },
+  "id": 21378,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "134",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На окружности с центром O отмечены точки A и B так, что \\( \\angle AOB=120^o\\) . Длина меньшей дуги AB равна 67. Найдите длину большей дуги.",
+      "error_conditions": [],
+      "id": 241153,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

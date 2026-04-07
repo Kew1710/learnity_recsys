@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2546,
+    "title": "Наука"
+  },
+  "id": 24278,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 21,
+    "task_count": 0,
+    "title": "Обществознание"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ниже приведён перечень терминов. Все они, за исключением двух, относятся к теоретическому уровню научного познания.\n1) объяснение полученных данных; 2) запись показаний приборов; 3) выдвижение гипотез; 4) проведение эксперимента; 5) построение системы аргументов; 6) разработка концепции.\nНайдите два термина, «выпадающих» из общего ряда, и запишите в таблицу цифры, под которыми они указаны.",
+      "error_conditions": [],
+      "id": 243993,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 7200,
+  "topic": null,
+  "video_link": null
+}

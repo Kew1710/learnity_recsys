@@ -1,0 +1,37 @@
+{
+  "comment": "- Вода не будет выливаться.\n\n2. При свободном падении ведро и вода в нем движутся с одинаковым ускорением, а значит, вода не будет выливаться из ведра, так как при одинаковом времени движении, они будут двигаться с одинаковой скоростью.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3213,
+    "title": "1.5 Свободное падение"
+  },
+  "id": 33702,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Ведро с водой свободно падает дном вниз. В боковых стенках и дне ведра имеются отверстия. Будет ли выливаться вода через эти отверстия при падении ведра? Сопротивлением воздуха пренебречь. Ответ поясните.",
+      "error_conditions": null,
+      "id": 253341,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

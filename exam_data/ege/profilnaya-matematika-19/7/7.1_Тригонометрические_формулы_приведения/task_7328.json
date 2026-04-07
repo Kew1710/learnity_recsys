@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{20}{\\cos^2(33^{\\circ})+3+\\cos^2(90^{\\circ}+33^{\\circ})}=\\frac{20}{\\cos^2(33^{\\circ})+3+\\sin^2(33^{\\circ})}=\\frac{20}{4}=5$$\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 7328,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{20}{\\cos^2(33^{\\circ})+3+\\cos^2(123^{\\circ})}\\).",
+      "error_conditions": [],
+      "id": 83964,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5033"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5033"
+}

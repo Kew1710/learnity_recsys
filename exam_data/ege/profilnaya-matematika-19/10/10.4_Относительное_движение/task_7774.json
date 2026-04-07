@@ -1,0 +1,45 @@
+{
+  "comment": "Скорость отдаления будет равняться \\(30\\) км/ч, так как \\(15\\) минут - это четверть часа, то в таком случае получаем, что они отдалятся на расстояние:\n$$S=\\frac{1}{4}\\cdot 30=7,5~км.$$\nОтвет: 7,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2431,
+    "title": "10.4 Относительное движение"
+  },
+  "id": 7774,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Автомобиль, движущийся с постоянной скоростью \\(70\\) км/ч по прямому шоссе, обгоняет другой автомобиль, движущийся в ту же сторону с постоянной скоростью \\(40\\) км/ч. Каким будет расстояние (в километрах) между этими автомобилями через \\(15\\) минут после обгона?",
+      "error_conditions": [],
+      "id": 100181,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/VDEuB7NUXfk?si=ZegPxi2bSMvgf4Cg&t=855"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/live/VDEuB7NUXfk?si=ZegPxi2bSMvgf4Cg&t=855"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Да, белая бумага отражает лучи всех цветов, через синее стекло она будет казаться синей. Зеленые чернила отражают лучи только зеленого света, а все остальные поглащают. В синем стекле зеленый текст будет казаться темного цвета.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3279,
+    "title": "3.23 Дисперсия света"
+  },
+  "id": 33785,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "На белой бумаге зелёными чернилами написан текст. Удастся ли ученику прочесть текст через синее стекло? Ответ поясните.",
+      "error_conditions": null,
+      "id": 253424,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

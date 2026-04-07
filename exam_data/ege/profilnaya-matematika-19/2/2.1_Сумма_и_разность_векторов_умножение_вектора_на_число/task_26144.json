@@ -1,0 +1,45 @@
+{
+  "comment": "Для того, чтобы найти координаты вектора \\(0,5\\vec{b}-\\vec{a}\\), сначала найдем координаты векторов \\(\\vec{a}\\) и \\(\\vec{b}\\). Используем для этого рисунок:\nТогда:\n$$\\vec{a}(-6;4)\\\\ \\vec{b}(-3;8)$$\nВектор \\(0,5\\vec{b}\\) будет иметь координаты \\((0,5\\cdot (-3);0,5\\cdot 8)\\), то есть \\(0,5\\vec{b}(-1,5;4)\\). Тогда координаты вектора \\(\\vec{c}=0,5\\vec{b}-\\vec{a}\\):\n$$\\vec{c}((-1,5)-(-6);4-4)\\\\ \\vec{c}(4,5;0)\\Rightarrow x_c+y_c=4,5$$\nОтвет: 4,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2382,
+    "title": "2.1 Сумма и разность векторов, умножение вектора на число"
+  },
+  "id": 26144,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной плоскости изображены векторы \\(\\vec{a}\\) и \\(\\vec{b}\\). Найдите координаты вектора \\(\\vec{c}\\), если \\(\\vec{c}=0,5\\vec{b}-\\vec{a}\\). В ответ запишите сумму координат вектора \\(\\vec{c}\\).",
+      "error_conditions": [],
+      "id": 245783,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=4668s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/watch?v=VKcA9lYnxIo&t=4668s"
+}

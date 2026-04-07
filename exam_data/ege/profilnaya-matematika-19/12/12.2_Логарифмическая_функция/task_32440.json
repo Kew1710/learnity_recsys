@@ -1,0 +1,45 @@
+{
+  "comment": "Возьмём производную:\n$$y'=4x-23+\\frac{33}{x}\\Rightarrow 4x-23+\\frac{33}{x}=0\\Rightarrow 4x^2-23x+33=0\\Rightarrow \\displaystyle \\left[ \\begin{array}{l l} x=3\\\\ x=\\frac{11}{4} \\end{array} \\right.$$\nПроанализируем экстремумы:\nЗаметим, что \\(x=3\\) – точка минимума.\n\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2445,
+    "title": "12.2 Логарифмическая функция"
+  },
+  "id": 32440,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y=2x^2-23x+33\\cdot \\ln x-17\\).",
+      "error_conditions": [],
+      "id": 252079,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=ErkMyg63kDil42Tf&t=7119"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=ErkMyg63kDil42Tf&t=7119"
+}

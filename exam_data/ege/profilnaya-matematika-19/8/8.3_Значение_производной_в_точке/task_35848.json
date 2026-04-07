@@ -1,0 +1,49 @@
+{
+  "comment": "Чтобы найти производную функции в точке \\(x_0\\), нужно знать значение производной касательной, проведённой к графику функции в этой точке.\nВспомним как выглядит уравнение прямой: \\(y=kx+b\\), возьмём производную: \\(y'=k\\), так как мы знаем, что коэффициент наклона \\( \\DeclareMathOperator{\\tg}{tg} = \\tg{\\alpha}\\), то найдем значение тангенса.\nДля этого построим прямоугольный треугольник, проходящий через начало координат и заданную точку. Помним, что если прямая убывает, то тангенс отрицательный: $$ \\DeclareMathOperator{\\tg}{tg} \\tg{\\alpha} = -\\frac{1}{5} = -0,2 $$\nОтвет: -0,2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2414,
+    "title": "8.3 Значение производной в точке"
+  },
+  "id": 35848,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-0,2",
+          "points": 1
+        },
+        {
+          "answer": "-0.2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график функции \\(y = f(x)\\). Прямая, проходящая через начало координат, касается графика этой функции в точке с абсциссой \\(5\\). Найдите значение производной функции в точке \\(x_0 = 5\\).",
+      "error_conditions": [],
+      "id": 255487,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=dLKyWwdPIS9PHM44&t=5583"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=dLKyWwdPIS9PHM44&t=5583"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Стекла окон хорошо пропускают солнечный свет и почти не отражают его. Из-за этого человеку в глаза от стен попадает больше света и стены кажутся светлее стекол. Более тёмными кажутся стекла окон",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3276,
+    "title": "3.20 Лучевая модель света. Прямолинейное распространение света"
+  },
+  "id": 33775,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Стёкла окон дома или его стены в лучах солнечного света кажутся более тёмными? Ответ поясните.",
+      "error_conditions": null,
+      "id": 253414,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

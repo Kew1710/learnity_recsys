@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 2x -8 \\leqslant 4x +6\\)\n\\(2x -4x \\leqslant 6 + 8\\)\n\\( -2x \\leqslant 14\\)\n\\( x \\geqslant -7\\)\n\\(x \\in [-7; + \\infty) \\)\nОтвет:1",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1967,
+    "title": "13.1 Линейные неравенства"
+  },
+  "id": 24836,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите решение неравенства \\( 2x -8 \\leqslant 4x +6\\)\n- \\( [-7; + \\infty) \\)\n- \\( (-\\infty; -7]\\)\n- \\( [1; +\\infty) \\)\n- \\( (-\\infty; 1] \\)",
+      "error_conditions": [],
+      "id": 244492,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

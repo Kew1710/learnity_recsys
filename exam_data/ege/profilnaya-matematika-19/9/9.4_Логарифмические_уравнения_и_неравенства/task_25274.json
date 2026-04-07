@@ -1,0 +1,45 @@
+{
+  "comment": "$$27840=11,6\\cdot 4\\cdot 300\\cdot\\log_2\\frac{14}{V_2}\\\\ \\log_2\\frac{14}{V_2}=\\frac{27840}{11,6\\cdot 4\\cdot300}=\\frac{928}{11,6\\cdot 4\\cdot 10}=\\frac{232}{116}=2\\\\ \\frac{14}{V_2}=2^2\\\\ V_2=\\frac{14}{4}=3,5$$\nОтвет: 3,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2424,
+    "title": "9.4 Логарифмические уравнения и неравенства"
+  },
+  "id": 25274,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Водолазный колокол, содержащий в начальный момент времени \\(\\nu =4\\) моль воздуха объёмом \\(V_1=14\\) л, медленно опускают на дно водоёма. При этом происходит изотермическое сжатие воздуха до конечного объёма \\(V_2\\). Работа, совершаемая водой при сжатии воздуха, определяется выражением \\(A=\\alpha\\nu T\\log_2\\frac{V_1}{V_2}\\) (Дж), где \\(\\alpha =11,6\\), а \\(T=300\\) К – температура воздуха. Найдите, какой объем \\(V_2\\) (в литрах) станет занимать воздух, если при сжатии воздуха была совершена работа в \\(27840\\) Дж.",
+      "error_conditions": [],
+      "id": 244931,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=BJLZKvia4_s&t=1303s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/watch?v=BJLZKvia4_s&t=1303s"
+}

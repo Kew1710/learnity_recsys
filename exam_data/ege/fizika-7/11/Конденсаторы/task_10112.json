@@ -1,0 +1,42 @@
+{
+  "comment": "Энергия конденсатора в первом случае определяется по формуле:\n$$W_1=\\frac{CU_1^2}{2}$$\nЭнергия конденсатора во втором случае определяется по формуле:\n$$W_2=\\frac{CU_2^2}{2}$$\nПо условию \\(U_1=3U_2\\):\n$$\\frac{W_1}{W_2}=\\frac{U^2_1}{U^2_2}=\\frac{9U^2_2}{U^2_2}=9$$\nЭнергия уменьшиться в 9 раз.\n\nОтвет: 9",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 10112,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23606\nНапряжение на обкладках конденсатора уменьшили в \\(3\\) раза, во сколько раз уменьшится энергия его электрического поля?",
+      "error_conditions": [],
+      "id": 121944,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/QxLgNco7IhE"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/QxLgNco7IhE"
+}

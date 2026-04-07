@@ -1,0 +1,37 @@
+{
+  "comment": "Найдем плечо силы тяжести доски относительно края стола:\n$$d_1=\\frac{l}{2}-\\frac{l}{5}=\\frac{3l}{10}$$\nРассмотрим вращение относительно края стола, по правилу рычага $F_1 \\cdot l_1=F_2 \\cdot l_2$ где $F_1=m_1g$, $F_2=Mg$:\n$$m_1g\\frac{l}{5}=Mg\\frac{3l}{10}\\Rightarrow Mgl=\\frac{10}{3\\cdot 5}m_1gl$$\nНайдем плечо силы тяжести доски относительно края стола:\n$$d_2=\\frac{l}{2}-\\frac{l}{4}=\\frac{l}{4}$$\nРассмотрим вращение относительно края стола, по правилу рычага $F_1 \\cdot l_1=F_2 \\cdot l_2$ где $F_1=m_2g$, $F_2=Mg$:\n$$m_2g\\frac{l}{4}=Mg\\frac{l}{4}\\Rightarrow m_2g\\frac{l}{4}=\\frac{\\frac{10}{3\\cdot 5}m_1gl}{4}\\Rightarrow m_2=\\frac{10}{3\\cdot 5}\\cdot 150=0,1~кг=100~г$$\nОтвет: 100 г",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2618,
+    "title": "Статика"
+  },
+  "id": 12285,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "237611\nЗа край горизонтальной поверхности на одну пятую часть выдвинута деревянная доска длиной \\(l=1\\) м. Она остается в состоянии покоя, если на ее правом конце лежит груз массой не более \\(150\\) г (см. рисунок). Далее доску выдвинули за край поверхности на \\(\\frac{1}{4}\\) часть ее длины. Найдите максимальную массу груза, который можно положить на правый конец доски в этом случае, чтобы она не перевернулась.",
+      "error_conditions": null,
+      "id": 159528,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/h91aAMUpWEc"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Расстояние от изображения до зеркала должно быть равно расстоянию от предмета до зеркала, то есть между предметом будет суммарно расстояние: $$6+6=12~см$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3277,
+    "title": "3.21 Закон отражения света. Плоское зеркало"
+  },
+  "id": 34394,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расстояние между плоским зеркалом и изображением предмета равно $6$ см. Каково расстояние между предметом и его изображением?\n\nОтвет: _________________см",
+      "error_conditions": [],
+      "id": 254033,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

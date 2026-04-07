@@ -1,0 +1,42 @@
+{
+  "comment": "Составляем пропорцию:\n5644  — 100%\n259  — Х.\nИмеем (259 · 100) : 5644=  5%.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2973,
+    "title": "6.4 Хозяйство России"
+  },
+  "id": 29665,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Используя данные таблицы «Грузооборот по видам транспорта в РФ\nв 2018 г.», определите долю автомобильного транспорта в общем объёме грузооборота (в %). Полученный результат округлите до целого числа.\nТранспорт – всего\n5644\nв том числе по видам:\n\nжелезнодорожный\n2598\nавтомобильный\n259\nтрубопроводный\n2668\nморской\n45\nвнутренний водный\n66\nвоздушный\n8",
+      "error_conditions": [],
+      "id": 249304,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

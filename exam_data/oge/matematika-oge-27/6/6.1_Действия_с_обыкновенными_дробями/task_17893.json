@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\left( 1\\cfrac{3}{4} +2\\cfrac{4}{5} \\right) \\cdot 30= \\left( 3 +\\cfrac{31}{20} \\right) \\cdot 30=\\cfrac{91}{20} \\cdot 30=\\cfrac{91 \\cdot 30}{20}=136,5\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1932,
+    "title": "6.1 Действия с обыкновенными дробями"
+  },
+  "id": 17893,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "136,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( \\left( 1 \\cfrac{3}{4} +2 \\cfrac{4}{5} \\right) \\cdot 30 \\) .",
+      "error_conditions": [],
+      "id": 237745,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

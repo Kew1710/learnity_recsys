@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{35\\cos 11^{\\circ}}{\\sin 79^{\\circ}}+7=\\frac{35\\cos (90-79)^{\\circ}}{\\sin 79^{\\circ}}+7=\\frac{35\\sin 79^{\\circ}}{\\sin 79^{\\circ}}+7=35+7=42$$\nОтвет: 42",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 7444,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "42",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{35\\cos 11^{\\circ}}{\\sin 79^{\\circ}}+7\\).",
+      "error_conditions": [],
+      "id": 98350,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/zpMJx96M6es?start=3082"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/zpMJx96M6es?start=3082"
+}

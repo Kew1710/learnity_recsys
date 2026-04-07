@@ -1,0 +1,42 @@
+{
+  "comment": "A8 2 Ники говорит, что работа на Лондонской валютной бирже была тяжелой (\"hard work\"), но это было \"лучше, чем ходить в школу\" (\"better than being at school').\n\nА9 2 Ники говорит, что остальные сотрудники потеряли всякое терпение ('got very frustrated') с ней, потому что она не понимала слов и выражений, используемых в американских столовых. Они показывали ей свое раздражение по этому поводу, и, по ее словам, ей \"пришлось учиться постоять за себя\" ('had to learn to stand up for' herself). Ей приходилось защищаться, когда они ее критиковали.\n\nA10 3 Она повредила колено в результате несчастного случая и, когда она вернулась к работе официантки, колено \"не выдержало\" (\"gave way\"). В результате, она не могла продолжать работать, и это подтолкнуло ее к выводу о том, что пришло время открыть собственный бизнес.\n\nA11 1 Она рассказывает, что в общей сложности она вернула $40,000 - $20,000, которые ей одолжил отец, и $20,000, внесенные партнером (через три года у нее уже не было партнера). В результате выплаты этих денег, она \"не заработала ничего за первые четыре года\" ('didn't make any money for the first four years'). Это значит, что за первые четыре года кафе не принесло ей прибыли, но спустя четыре года она начала на нем зарабатывать.\n\nA12 2 Она говорит, что одной из проблем было то, что кухонная плита (\"stove'), постоянно выходила из строя ('pack up'), так как кухонные горшки, которые она в нее ставила, были слишком тяжелыми. Они были слишком тяжелыми из-за огромного количества ('huge quantities') еды, которую она в них закладывала, чтобы приготовить блюдо под названием shepherd's pie (картофельная запеканка с мясом) в большом объеме.\n\nА13 3 Она говорит, что эта рецензия стала \"поворотным пунктом\" (\"the turning point\") - она изменила все. Рецензия была \"превосходная\" (\"fantastic\") (в ней говорилось, что ее кафе - чудесное место). То есть кафе приобрело известность благодаря этой рецензии.\n\nA14 3 Она говорит, что с тех пор, как кафе стало пользоваться популярностью, она \"ввела правила\" ('('introduced files') касательно поведения клиентов с официантками (они должны быть с ними \"вежливыми\" ('pleasant')). Правила также касаются минимума, который клиенты должны потратить, и чаевых сотрудникам.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 810,
+    "title": "Полное понимание устной речи: интервью"
+  },
+  "id": 1619,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 4,
+    "task_count": 0,
+    "title": "Английский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "a8 a9 a10 a11 a12 a13 a14",
+          "points": 7
+        }
+      ],
+      "comment": "",
+      "description": "https://disk.yandex.ru/d/jR60uO9V_SK9VA\n\nВы услышите интервью с женщиной - предпринимателем. В заданиях А8 А14 обведите цифру 1, 2 или 3, соответствующую выбранному вами варианту ответа. Вы услышите запись дважды.\n\nA8. Nicky says that when she worked at the London Stock Exchange,\n1) she got on well with other members of staff.\n2) she was glad that she wasn't still at school.\n3) she liked the repetitive nature of the work.\n\nA9. Nicky says that in her first job in New York\nl) she quickly learnt American phrases that had been unfamiliar to her.\n2) she had to deal with criticism from other people.\n3) she disliked the way the place was run.\n\nA10. One reason why she decided to start her own café was that\n1) she met a supplier who suggested that she should do it.\n2) she saw how successful a nearby business was.\n3) she was unable to continue in her previous kind of work.\n\nA11. Nicky says that after four years of running the café,\n1) she began to make a profit from it.\n2) she was forced to borrow more money.\n3) she decided to reach an agreement with her partner.\n\nA12. One problem that Nicky mentions was caused by\n1) faulty equipment.\n2) producing large quantities of food.\n3) having to change her accommodation.\n\nA13. What does Nicky say about the review of her café?\n1) She had been told that it might contain negative comments.\n2) The newspaper was initially not keen to do it.\n3) It led to the café becoming successful.\n\nA14. Nicky says that, since the success of the café,\n1) she has had to raise the minimum charge.\n2) some celebrities have complained about having to queue.\n3) she has made rules about behaviour inside it.",
+      "error_conditions": [],
+      "id": 53954,
+      "is_case_insensitive": false,
+      "is_strict_order": true,
+      "order_id": 1,
+      "points": 7,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

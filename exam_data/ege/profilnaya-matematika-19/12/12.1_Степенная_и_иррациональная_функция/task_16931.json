@@ -1,0 +1,45 @@
+{
+  "comment": "Найдем производную функции:\n$$y'=3\\cdot x^2-18\\cdot x^1+24=3x^2-18x+24$$\nОтметим корни на числовой прямой и расставим знаки производной:\nНа отрезке \\([−1;3]\\) имеем точку максимума \\(2\\), поэтому наибольшее значение функции находится в этой точке.\n$$f(2)=2^3-9\\cdot 2^2+24\\cdot 2-7=13$$\nОтвет: 13",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 16931,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y=x^3-9x^2+24x-7\\) на промежутке \\([-1; 3]\\).",
+      "error_conditions": [],
+      "id": 236833,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/CkkG5Lc4uvY?t=634"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/CkkG5Lc4uvY?t=634"
+}

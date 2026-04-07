@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\( \\cfrac{-15}{(x+1)^2-3} \\geqslant 0 \\)\n\\( \\Rightarrow (x+1)^2-3<0\\), так как \\( -15<0 \\) и \\( \\cfrac{-15}{(x+1)^2-3} \\geqslant 0 \\)\n\\( (x+1)^2-3<0 \\)\n\\( (x+1)^2-(\\sqrt{3})^2<0 \\)\n\\( (x+1-\\sqrt{3})(x+1+\\sqrt{3})<0 \\)\n\\( (x+1-\\sqrt{3})(x+1+\\sqrt{3})=0 \\)\n\\( x+1-\\sqrt{3}=0 \\) или \\( x+1+\\sqrt{3}=0 \\)\n\\( x=-1+\\sqrt{3 } \\) или \\( x=-1-\\sqrt{3} \\)\nОтвет: \\( x \\in (-1-\\sqrt{3};-1+\\sqrt{3}) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2055,
+    "title": "20.8 Неравенства"
+  },
+  "id": 12757,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство \\(\\cfrac{-15}{(x+1)^2-3} \\geqslant 0\\) .",
+      "error_conditions": null,
+      "id": 172557,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

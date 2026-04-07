@@ -1,0 +1,42 @@
+{
+  "comment": "Весь залитый бензин стоил \\(1000 - 104 = 896\\) рублей. Так как один литр стоит 32 рубля, то было залито \\(896 : 32 = 28\\) литров",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2066,
+    "title": "1.3 Разные задачи"
+  },
+  "id": 26676,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "28",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На автозаправке клиент отдал кассиру 1000 рублей и попросил залить бензин до полного бака. Цена бензина 32 рубля за литр. Клиент получил 104 рубля сдачи. Сколько литров бензина было залито в бак?",
+      "error_conditions": [],
+      "id": 246315,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

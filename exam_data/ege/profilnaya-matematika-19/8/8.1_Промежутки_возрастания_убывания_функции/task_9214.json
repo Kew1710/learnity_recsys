@@ -1,0 +1,45 @@
+{
+  "comment": "Производная положительна - функция возрастает, производная отрицательна - функция убывает, производная равна \\(0\\) - экстремум (смена возрастания убыванием и наоборот). Функция убывает в точках \\(-4, -2, 0, 1, 6\\). Итого \\(5\\) точек.\n\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2412,
+    "title": "8.1 Промежутки возрастания/убывания функции"
+  },
+  "id": 9214,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график функции \\(y=f(x)\\), определенной на интервале \\((-7; 7)\\). Определите количество целых точек, в которых производная функции отрицательная.",
+      "error_conditions": [],
+      "id": 112987,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/A7UlKtDHk5w?t=2915"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://youtu.be/A7UlKtDHk5w?t=2915"
+}

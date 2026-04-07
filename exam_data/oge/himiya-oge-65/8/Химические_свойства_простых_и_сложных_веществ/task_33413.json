@@ -1,0 +1,46 @@
+{
+  "comment": "Оксид алюминия (\\(Al_{2}O_{3}\\)) - амфотерный оксид, реагирует с кислотными и основными оксидами, кислотами и щелочами\n\n1) \\(Al_{2}O_{3} + CaCO_{3} = Ca(AlO_{2})_{2} + CO_{2}\\) - оксид алюминия вымещает летучий оксид из его соединения\n2) \\(Al_{2}O_{3} + 3SO_{3} = Al_{2}(SO_{4})_{3}\\)\n3) \\(Al_{2}O_{3} + 6HNO_{3} = 2Al(NO_{3})_{3} + 3H_{2}O\\)\n\nНе взаимодействует с азотом (\\(N_{2}\\)), с водой (\\(H_{2}O\\)), так как это оксид амфотерного металла",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2889,
+    "title": "Химические свойства простых и сложных веществ"
+  },
+  "id": 33413,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        },
+        {
+          "answer": "54",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какие два из перечисленных веществ не реагируют с оксидом алюминия?\n\n1) \\(CaCO_{3}\\)\n2) \\(SO_{3}\\)\n3) \\(HNO_{3}\\)\n4) \\(H_{2}O\\)\n5) \\(N_{2}\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 253052,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Нервная система позвоночных животных:\n2) Трубчатая\n5) Содержит клетки нейроглии\n6) Включает головной и спинной мозг",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2528,
+    "title": "Хордовые животные"
+  },
+  "id": 16858,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "256",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nНервная система позвоночных животных\n- Стволовая\n- Трубчатая\n- Разбросанно–узловая\n- Энтодермального происхождения\n- Содержит клетки нейроглии\n- Включает головной и спинной мозг",
+      "error_conditions": [],
+      "id": 236763,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

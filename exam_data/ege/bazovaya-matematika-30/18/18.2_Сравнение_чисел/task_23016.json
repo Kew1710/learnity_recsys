@@ -1,0 +1,42 @@
+{
+  "comment": "По координатной прямой можем примерно оценить значение \\(m\\): \\(m \\approx 0,4\\).\nРассмотрим каждое число:\nA) \\(m-1 \\approx 0,4 - 1 \\approx -0,6\\) - лежит на отрезке 2\nB) \\(m^2 \\approx 0,4^2 \\approx 0,16\\) - лежит на отрезке 3\nC) \\(4m \\approx 4\\cdot 0,4 \\approx 1,6\\) - лежит на отрезке 4\nD) \\(-\\frac{1}{m} \\approx -\\frac{1}{0,4} \\approx -2,5\\) - лежит на отрезке 1\nОтвет: 2341.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2128,
+    "title": "18.2 Сравнение чисел"
+  },
+  "id": 23016,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2341",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечено число \\(m\\).\nКаждому из четырёх чисел в левом столбце соответствует отрезок, которому оно принадлежит.\nУстановите соответствие между числами и отрезками\nиз правого столбца.\nДля каждой буквы укажите соответствующий номер отрезка.",
+      "error_conditions": [],
+      "id": 242742,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

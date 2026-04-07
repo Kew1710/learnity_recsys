@@ -1,0 +1,45 @@
+{
+  "comment": "Решение программой:\nPythonPascalfrom itertools import *\n\nk = 0\nfor i in permutations(\"РУСЛАН\"):\ns = ''.join(i)\nflag = 0\nfor j in range(len(s)-1):\nif s[j] in 'УА' and s[j+1] in 'УА':\nflag = 1\nif flag == 0:\nk += 1\nprint(k)\nbegin\nvar word:= 'РУСЛАН';\nvar count:= 0;\nforeach var x1 in word do\nforeach var x2 in word do\nforeach var x3 in word do\nforeach var x4 in word do\nforeach var x5 in word do\nforeach var x6 in word do\nbegin\nvar s:= x1 + x2 + x3 + x4 + x5 + x6;\nif (s.CountOf('Р') = 1) and (s.CountOf('У') = 1) and (s.CountOf('С') = 1) and (s.CountOf('Л') = 1) and (s.CountOf('А') = 1) and (s.CountOf('Н') = 1) then\nbegin\nvar flag := 0;\nfor var j:=1 to length(s)-1 do\nif (s[j] in 'УА') and (s[j+1] in 'УА') then\nflag := 1;\nif flag = 0 then\ncount += 1\nend;\nend;\nprint(count);\nend.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2711,
+    "title": "№8 Комбинаторика"
+  },
+  "id": 15833,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "480",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Руслан составляет 6-буквенные коды из букв Р, У, С, Л, А, Н. Каждую букву нужно использовать ровно один раз, при этом нельзя ставить рядом две гласные. Сколько различных кодов может составить Руслан?",
+      "error_conditions": [],
+      "id": 235612,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": null
+}

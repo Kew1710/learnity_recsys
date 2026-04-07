@@ -1,0 +1,42 @@
+{
+  "comment": "Согласно данным таблицы, в 2016 году численность населения Ставропольского края была наибольшей.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2978,
+    "title": "6.3 Население России"
+  },
+  "id": 29575,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2016",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Показатель\n2015 г.\n2016 г.\n2017 г.\n2018 г.\nЧисленность населения (тыс. человек)\n2801,6\n2804,4\n2800,7\n2795,2\nРождаемость (на тыс. человек)\n13,0\n13,0\n11,5\n11,0\nСмертность (на тыс. человек)\n11,6\n11,7\n11,2\n11,5\nВ каком году из указанных в таблице численность населения Ставропольского края была наибольшей? Ответ запишите в виде числа.",
+      "error_conditions": [],
+      "id": 249214,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

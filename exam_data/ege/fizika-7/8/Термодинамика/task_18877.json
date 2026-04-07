@@ -1,0 +1,42 @@
+{
+  "comment": "По графику определяем, что процесс изотермический, т.е. \\(T=const\\), следовательно, внутренняя энергия не меняется.\n\nСогласно первому закону термодинамики:\n$$Q=A+\\Delta U,\\Delta U=0\\Rightarrow Q=A=-10~кДж\\Rightarrow Q_{отд}=10~кДж$$\nОтвет: 10 кДж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 18877,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23И43\nНа рисунке ниже представлена зависимость давления одноатомного идеального газа от его объема. Чему равно количество теплоты, отданное газом при переходе из состояния 1 в состояние 2, если над газом в этом переходе совершили работу равную \\(10\\) кДж, а его количество не менялось? Ответ дайте в кДж.",
+      "error_conditions": [],
+      "id": 238715,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=M4eEhB0kHyY&t=1210s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/watch?v=M4eEhB0kHyY&t=1210s"
+}

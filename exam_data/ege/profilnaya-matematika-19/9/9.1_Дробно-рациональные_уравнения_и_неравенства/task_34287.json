@@ -1,0 +1,45 @@
+{
+  "comment": "По условию сила тока должна составлять не более \\(20\\%\\) от силы тока короткого замыкания, то есть:\n$$I=\\frac{20\\%}{100\\%}I_{кз}=0,2I_{кз}\\\\ \\frac{\\varepsilon}{R+r}=0,2\\cdot\\frac{\\varepsilon}{r}=\\frac{2\\varepsilon}{10r}\\\\ 2(R+r)=10\\\\ 2R+2r=10\\\\ R=\\frac{10-2r}{2}\\\\ R=\\frac{10-2}{2}=4$$\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2421,
+    "title": "9.1 Дробно-рациональные уравнения и неравенства"
+  },
+  "id": 34287,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "По закону Ома для полной цепи сила тока, измеряемая в амперах, равна \\(I=\\frac{\\varepsilon}{R+r}\\), где \\(\\varepsilon\\) – ЭДС источника (в вольтах), \\(r=1\\) Ом – его внутреннее сопротивление, \\(R\\) – сопротивление цепи (в омах). При каком наименьшем сопротивлении цепи сила тока будет составлять не более \\(20\\%\\) от силы тока короткого замыкания \\(I_{кз} =\\frac{\\varepsilon}{r}\\)? Ответ дайте в омах.",
+      "error_conditions": [],
+      "id": 253926,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=IunlrnyrRY8&t=1452s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/watch?v=IunlrnyrRY8&t=1452s"
+}

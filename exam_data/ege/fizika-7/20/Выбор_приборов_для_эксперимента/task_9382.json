@@ -1,0 +1,46 @@
+{
+  "comment": "Для определения жесткости жгута нам нужно знать удлинение жгута - его найдем с помощью линейки. Также нужно знать массу тела - возьмем динамометр.\nОтвет: 25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2648,
+    "title": "Выбор приборов для эксперимента"
+  },
+  "id": 9382,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        },
+        {
+          "answer": "52",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "46D7FD\nНеобходимо собрать экспериментальную установку, с помощью которой можно определить жесткость резинового жгута. Для этого школьник взял штатив с лапкой и резиновый жгут. Какие два предмета из приведенного ниже перечня оборудования необходимо дополнительно использовать для проведения этого эксперимента?\n1) мензурка\n2) линейка\n3) секундомер\n4) стакан с водой\n5) динамометр\nВ ответе запишите номера выбранных предметов.",
+      "error_conditions": [],
+      "id": 113548,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/lC_7a8uPGTk?start=5155"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/lC_7a8uPGTk?start=5155"
+}

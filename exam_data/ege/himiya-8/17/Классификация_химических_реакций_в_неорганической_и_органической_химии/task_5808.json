@@ -1,0 +1,42 @@
+{
+  "comment": "1) CH₄ = C + 2H₂ - ОВР, происходит изменение степеней окисления\n2) 4HNO₃ = 4NO₂ + O₂ + 2H₂O - ОВР, происходит изменение степеней окисления\n3) NH₄Cl = HCl + NH₃ - не происходит изменение степеней окисления элементов\n4) NH₄HCO₃ = NH₃ + CO₂ + H₂O - не происходит изменение степеней окисления элементов\n5) MgCO₃ = MgO + CO₂ - не происходит изменение степеней окисления элементов",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2837,
+    "title": "Классификация химических реакций в неорганической и органической химии"
+  },
+  "id": 5808,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "345",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все вещества, разложение которых не относят к окислительно-восстановительным реакциям.\n1) метан\n2) азотная кислота\n3) хлорид аммония\n4) гидрокарбонат аммония\n5) карбонат магния",
+      "error_conditions": [],
+      "id": 72279,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=11472"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/jKV2onGHLRc?start=11472"
+}

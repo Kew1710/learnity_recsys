@@ -1,0 +1,45 @@
+{
+  "comment": "Так как треугольник равнобедренный, то его углы при основании равны, следовательно, равны и их синусы:\n$$\\sin BAC=\\sin ABC$$\nРассмотрим \\(\\Delta ABH\\):\n$$\\sin ABC=\\sin ABH=\\frac{AH}{AB}=\\frac{9}{10}=0,9$$\nОтвет: 0,9",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2372,
+    "title": "1.1 Тригонометрия в прямоугольном треугольнике"
+  },
+  "id": 4053,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC~AC=BC, AB=10,\\) высота \\(AH\\) равна \\(9\\). Найдите синус угла \\(BAC\\).",
+      "error_conditions": [],
+      "id": 66474,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=3373"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ENy9oLMl_M8?start=3373"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Рассмотрим точку \\(А(0;-3)\\) и подставим ее координаты в уравнение параболы, тогда получим:\n$$-3=a\\cdot 0+b\\cdot 0+c\\Rightarrow c=-3$$\nРассмотрим точки \\(B(2;-1)\\) и \\(C(3;3)\\) и подставим их координаты в уравнение параболы:\n$$\\displaystyle \\begin{cases} a\\cdot ( 2)^{2} +b\\cdot 2-3=-1\\\\ a\\cdot 3^{2} +b\\cdot 3-3=3 \\end{cases} \\Rightarrow \\begin{cases} 4a+2b-3=-1|\\cdot 3\\\\ 9a+3b-3=3|\\cdot 2 \\end{cases} \\Rightarrow \\begin{cases} 12a+6b-9=-3\\\\ 18a+6b-6=6 \\end{cases}$$\nВычтем первое уравнение системы из второго и получим:\n$$6a+3=9\\\\ a=1$$\nТеперь подставим \\(a=1\\) в одно из уравнений системы и получим:\n$$1\\cdot (2)^2+b\\cdot 2-3=-1\\\\ b=-1$$\nВ итоге уравнение графика функции имеет вид:\n$$f(x)=x^2-x-3$$\nНайдем \\(f(-4)\\):\n$$f(-4)=(-4)^2+4-3=17$$\nОтвет: 17",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2438,
+    "title": "11.2 Квадратичная функция"
+  },
+  "id": 8708,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "17",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график функции вида \\(f(x)=ax^2+bx+c\\), где числа \\(a\\), \\(b\\) и \\(c\\) – целые. Найдите значение \\(f(-4)\\).",
+      "error_conditions": [],
+      "id": 110851,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": null
+}

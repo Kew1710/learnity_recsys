@@ -1,0 +1,42 @@
+{
+  "comment": "Q = x кДж\nn(NO) = V/Vₘ = 31,36/22,4 = 1,4 моль\nПо уравнению: 2 моль – 358 кДж\nПо условию: 1,4 моль – x кДж\n2/1,4 = 358/x\nх = (358 • 1,4)/2 = 250,6\nQ = 250,6 кДж",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2856,
+    "title": "Расчёты теплового эффекта (по термохимическим уравнениям)"
+  },
+  "id": 2015,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "250,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Дано термохимическое уравнение реакции\n3Cu(тв.) + 8HNO₃(p-p) = 3Cu(NO₃)₂(p-p) + 2NO(г) + 4H₂O(ж) + 358 кДж\nОпределители количество теплоты (кДж), выделившееся при получении 31,36 л (н.у.) оксида азота(II). (Запишите число с точностью до десятых.)",
+      "error_conditions": [],
+      "id": 56446,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

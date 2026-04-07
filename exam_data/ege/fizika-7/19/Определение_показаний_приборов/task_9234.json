@@ -1,0 +1,42 @@
+{
+  "comment": "$$0,2~А = 10 ~дел\\\\ 1 ~дел = 0,02~ А$$\nПогрешность равна цене деления\nИсходя из рисунка, делаем вывод, что стрелка показывает \\(1 ~А - 2 ~дел \\cdot 0,02 ~А = 0,96~ А\\)\nИтог: 0,96 ± 0,02 А\nОтвет: 0,960,02",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2645,
+    "title": "Определение показаний приборов"
+  },
+  "id": 9234,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,960,02",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "001FCD\nОпределите показания амперметра (см. рисунок), если погрешность прямого измерения силы тока равна цене деления амперметра. Ответ дайте в А. Значение и погрешность запишите слитно без пробела.",
+      "error_conditions": [],
+      "id": 113007,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/lC_7a8uPGTk?start=2279"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/lC_7a8uPGTk?start=2279"
+}

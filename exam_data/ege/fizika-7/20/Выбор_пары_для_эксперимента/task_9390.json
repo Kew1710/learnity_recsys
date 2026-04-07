@@ -1,0 +1,46 @@
+{
+  "comment": "Так как спрашивают зависимость от длины, то ищем варианты, где совпадает все, кроме длины\nОтвет: 25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2647,
+    "title": "Выбор пары для эксперимента"
+  },
+  "id": 9390,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        },
+        {
+          "answer": "52",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "3B1AE4\nДля проведения лабораторной работы по обнаружению зависимости сопротивления проводника от его длины ученику выдали пять проводников, характеристики которых указаны в таблице. Какие два из предложенных ниже проводников необходимо взять ученику, чтобы провести данное исследование?\n№ проводника\nДлина проводника, см\nДиаметр проводника, мм\nМатериал, из которого сделан проводник\n1\n100\n0,5\nалюминий\n2\n100\n1,0\nалюминий\n3\n100\n1,0\nмедь\n4\n200\n0,5\nмедь\n5\n200\n1,0\nалюминий\nВ ответ запишите номера выбранных проводников.",
+      "error_conditions": [],
+      "id": 113556,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/lC_7a8uPGTk?start=5852"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/lC_7a8uPGTk?start=5852"
+}

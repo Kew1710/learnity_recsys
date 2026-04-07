@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: идем от наибольшего к наименьшему: кровеносная система - > сердце -> стенка сердца -> сердечная мышца -> мышечная клетка - > миозин (белок)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 15993,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "153246",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Расположите в правильном порядке соподчинение уровней организации системы человека, начиная с наибольшей:\n- кровеносная система\n- сердечная мышца\n- стенка сердца\n- мышечная клетка\n- сердце\n- миозин",
+      "error_conditions": [],
+      "id": 235900,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "P: AaBb (черный цвет, комолость) х aabb (красный цвет, рога) => F: 1AaBb (черный цвет, комолость), 1aaBb, 1Aabb, 1aabb. Вероятность появления АаВb ¼ или 25%.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 6148,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "У крупного рогатого скота чёрный цвет (А) доминирует над красным (а), комолость (В) — над рогатостью (b). Определите процент рождения чёрных комолых телят при скрещивании дигетерозиготных чёрных комолых коров с красным рогатым быком. В ответе укажите только число.",
+      "error_conditions": [],
+      "id": 72619,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/aDfXdMNLE94?start=81"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/aDfXdMNLE94?start=81"
+}

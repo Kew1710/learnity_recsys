@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\cup AB=360^{\\circ }-\\cup AC-\\cup CB=360^{\\circ }-200^{\\circ }-80^{\\circ }=80^{\\circ }\\\\ \\angle ACB=\\frac{80^{\\circ }}{2}=40^{\\circ }~(как\\ вписанный)$$\nОтвет: 40",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2378,
+    "title": "1.7 Центральные и вписанные углы"
+  },
+  "id": 3431,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "40",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На окружности отмечены точки \\(A,B\\) и \\(C\\). Дуга окружности \\(AC\\), не содержащую точку \\(B\\), составляет \\(200^{\\circ }\\). Дуга окружности \\(BC\\), не содержащую точку \\(A\\), составляет \\(80^{\\circ }\\). Найдите вписанный угол \\(ACB\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 65100,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=1230"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/ecvvrNJZ_JM?start=1230"
+}

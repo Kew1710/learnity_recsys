@@ -1,0 +1,45 @@
+{
+  "comment": "Вероятность того, что выпадет четная равна \\(0,5\\).\nВероятность того, что выпадет два четных числа равна\n$$0,5\\cdot 0,5=0,25$$\nОтвет: 0,25",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2398,
+    "title": "5.4 Произведение событий"
+  },
+  "id": 8114,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Игральную кость кинули два раза. С какой вероятностью выпадут \\(2\\) четных числа? Результат округлите до сотых.",
+      "error_conditions": [],
+      "id": 101095,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/ZciGikqa_yY?si=w2PjRWQmmqrkk5tP&t=265"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 5,
+    "title": "Сложная вероятность"
+  },
+  "video_link": "https://www.youtube.com/live/ZciGikqa_yY?si=w2PjRWQmmqrkk5tP&t=265"
+}

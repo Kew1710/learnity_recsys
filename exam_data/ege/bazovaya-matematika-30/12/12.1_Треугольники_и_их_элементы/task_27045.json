@@ -1,0 +1,42 @@
+{
+  "comment": "Так как треугольник \\(ABC\\) равнобедренный, значит медиана \\(BK\\) также является высотой.\nПо теореме Пифагора: \\(KC = \\sqrt{BC^2 - BK^2} = \\sqrt{26^2 - 10^2} = \\sqrt{676 - 100} = \\sqrt{576} = 24\\)\nТак как \\(BK\\) медиана, то \\(AC = AK + KC = 2 KC = 2 \\cdot 24 = 48\\).\n\\(MN\\) соединяет середины боковых сторон, то есть средняя линия. Значит, \\(MN = \\frac{1}{2} AC = \\frac{1}{2} \\cdot 48 = 24\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2104,
+    "title": "12.1 Треугольники и их элементы"
+  },
+  "id": 27045,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В равнобедренном треугольнике \\(ABC\\) медиана \\(BK = 10\\), боковая сторона \\(BC = 26\\). Найдите длину отрезка \\(MN\\), если известно, что он соединяет середины боковых сторон.",
+      "error_conditions": [],
+      "id": 246684,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

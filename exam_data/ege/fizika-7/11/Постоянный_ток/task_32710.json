@@ -1,0 +1,42 @@
+{
+  "comment": "На графике зависимости силы тока от времени заряд, прошедший по проводнику, равен площади фигуры под этим графиком:\n$$q_1=\\frac{6+2}{2}\\cdot 4=8\\cdot 2=16~Кл$$\n$$q_2=\\frac{2+6}{2}\\cdot 7=28~Кл$$\nОбщий заряд, прошедший по проводнику в заданном интервале времени:\n$$q=q_1+q_2=16+28=44~Кл$$\nОтвет: 44",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 32710,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "44",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке показана зависимость силы тока \\(I\\) в проводнике от времени \\(t\\). Определите заряд, прошедший по проводнику в интервале времени от \\(2\\) до \\(13\\) с. Ответ дайте в Кл.",
+      "error_conditions": [],
+      "id": 252349,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/R6U_uM8955U?t=2738"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/R6U_uM8955U?t=2738"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Последовательность процессов, происходящих при вдохе:\n2) повышение концентрации в крови\n3) возбуждение дыхательного центра\n1) передача нервного импульса к мышцам\n5) сокращение диафрагмы\n4) увеличение объёма грудной клетки",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 1307,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23154",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность процессов, происходящих при вдохе. Запишите в таблицу соответствующую последовательность цифр.\n1) передача нервного импульса к мышцам\n2) повышение концентрации в крови\n3) возбуждение дыхательного центра\n4) увеличение объёма грудной клетки\n5) сокращение диафрагмы",
+      "error_conditions": [],
+      "id": 53596,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/gVetAQiEvT0?start=855"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/gVetAQiEvT0?start=855"
+}

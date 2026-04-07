@@ -1,0 +1,42 @@
+{
+  "comment": "Реки представлены на физической карте мира.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3299,
+    "title": "Гидросфера. Мировой океан и его части."
+  },
+  "id": 34166,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 11,
+    "task_count": 0,
+    "title": "География"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "231",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расположите реки с севера на юг в том порядке, в котором они расположены на карте мира, начиная с реки, бассейн которой расположен наиболее близко к экватору.\n1) Колыма\n2) Ганг\n3) Амударья",
+      "error_conditions": [],
+      "id": 253805,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

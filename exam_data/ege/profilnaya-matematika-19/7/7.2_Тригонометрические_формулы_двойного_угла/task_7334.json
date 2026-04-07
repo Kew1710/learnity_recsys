@@ -1,0 +1,45 @@
+{
+  "comment": "Свернем в числителе по формуле синуса двойного угла\n$$\\frac{8\\cdot 2\\sin 98^{\\circ}\\cdot \\cos 98^{\\circ}}{\\sin 196^{\\circ}}=\\frac{8\\cdot \\sin 196^{\\circ}}{\\sin 196^{\\circ}}=8$$\nОтвет: 8",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 7334,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{16\\sin 98^{\\circ}\\cdot \\cos 98^{\\circ}}{\\sin 196^{\\circ}}\\).",
+      "error_conditions": [],
+      "id": 83970,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5582"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=5582"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Подставим все известные значения в формулу:\n$$A=\\alpha\\nu T\\log_2\\frac{p_2}{p_1}:\\\\ 15960=13,3\\cdot 2\\cdot 300\\log_2\\frac{p_2}{1,75}\\\\ 2=\\log_2\\frac{p_2}{1,75}\\\\ \\frac{p_2}{1,75}=2^2\\\\ p_2=7$$\nОтвет: 7",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2424,
+    "title": "9.4 Логарифмические уравнения и неравенства"
+  },
+  "id": 7556,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Водолазный колокол, содержащий \\(\\nu =2\\) моля воздуха при давлении \\(p_{1} =1,75\\) атмосферы, медленно опускают на дно водоема. При этом происходит изотермическое сжатие воздуха до конечного давления \\(p_{2}\\). Работа, совершаемая водой при сжатии воздуха, определяется выражением \\(A=a\\nu T\\log_{2}\\frac{p_{2}}{p_{1}}\\), где \\(\\alpha =13,3\\frac{Дж}{моль\\cdot К}\\) - постоянная, \\(T=300\\) К - температура воздуха. Найдите какое давление \\(p_{2}\\) (в атм) будет иметь воздух в колоколе, если при сжатии воздуха была совершена работа в \\(15960\\) Дж.",
+      "error_conditions": [],
+      "id": 98641,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/eFyi-zozQOQ?start=69"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 9,
+    "title": "Задачи с формулами"
+  },
+  "video_link": "https://www.youtube.com/embed/eFyi-zozQOQ?start=69"
+}

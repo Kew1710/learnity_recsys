@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2916,
+    "title": "Размножение и развитие организмов"
+  },
+  "id": 30284,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "52341",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность стадий развития в цикле папоротника, начиная с попадания споры в почву. В ответе запишите соответствующую последовательность цифр.\n\n- развитие спор в спорангиях\n- развитие мужских и женских гамет, оплодотворение\n- образование зиготы и развитие зародыша\n- формирование растения (бесполого поколения)\n- прорастание споры в маленькую зелёную пластинку – заросток",
+      "error_conditions": [],
+      "id": 249923,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

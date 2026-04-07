@@ -1,0 +1,45 @@
+{
+  "comment": "$$tg\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}$$\nНайдем синус угла:\n$$1=\\cos^2\\alpha+\\sin^2\\alpha\\\\ sin^2\\alpha=1-\\frac{25\\cdot 29}{29^2}=1-\\frac{25}{29}=\\frac{4}{29}\\\\ \\sin\\alpha=\\pm\\sqrt{\\frac{4}{29}}$$\nТак как \\(\\alpha \\in (\\frac{3\\pi}{2}; 2\\pi)\\) \\(\\sin\\alpha=-\\frac{2}{\\sqrt{29}}\\)\n$$tg\\alpha=-\\frac{29\\cdot 2}{5\\sqrt{29}\\cdot\\sqrt{29}}=-\\frac{2}{5}=-0,4$$\nОтвет: -0,4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2408,
+    "title": "7.4 Тригонометрические тождества"
+  },
+  "id": 9293,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-0,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите \\(tg\\alpha\\), если \\(\\cos\\alpha=\\frac{5\\sqrt{29}}{29}\\) и \\(\\alpha \\in (\\frac{3\\pi}{2}; 2\\pi)\\).",
+      "error_conditions": [],
+      "id": 113196,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1740"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1740"
+}

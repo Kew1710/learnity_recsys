@@ -1,0 +1,42 @@
+{
+  "comment": "Q = x кДж\nn(C₂H₂) = V/Vₘ = 5,6/22,4 = 0,25 моль\nПо уравнению: 2 моль – 2600 кДж\nПо условию: 0,25 моль – x кДж\nх = (2600 • 0,25)/2 = 325\nQ = 325 кДж",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2856,
+    "title": "Расчёты теплового эффекта (по термохимическим уравнениям)"
+  },
+  "id": 6259,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "325",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Термохимическое уравнение сгорания ацетилена имеет вид\n2C₂H₂(г) + 5O₂(г) = 4CO₂(г) + 2H₂O(ж) + 2600 кДж\nСколько теплоты (в кДж) выделится при сжигании 5,6 л (н.у.) ацетилена? (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 72874,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=6823"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/zq-QddaoiU8?start=6823"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "В точке минимума функции ее производная равняется нулю. Производная данной функции равна \\(y'=3x^2-300=0\\Leftrightarrow x^2=100\\Leftrightarrow x=\\pm 10\\) – точки экстремума.\nГрафик производной представляет собой параболу с ветвями вверх, соответственно на интервале между корнями \\((-10;10)\\) производная имеет отрицательный знак, и функция убывает, на остальной оси производная положительна, и функция возрастает. Левее точки минимума функция должна убывать, а правее возрастать – поэтому точкой минимума функции является точка \\(x=10\\).\nОтвет: 10",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2444,
+    "title": "12.1 Степенная и иррациональная функция"
+  },
+  "id": 32295,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите точку минимума функции \\(y=x^3-300x+14\\).",
+      "error_conditions": [],
+      "id": 251934,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=-X69IpjUkgrRmQEH&t=1225"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=-X69IpjUkgrRmQEH&t=1225"
+}

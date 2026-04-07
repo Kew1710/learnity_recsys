@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 2x-3(x-7) \\leqslant 3 \\)\n\\( -x + 21 \\leqslant 3\\)\n\\( -x \\leqslant -18\\)\n\\( x \\geqslant 18 \\)\n\\(x \\in [18;+ \\infty) \\)\nОтвет: 3",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1967,
+    "title": "13.1 Линейные неравенства"
+  },
+  "id": 24844,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите решение неравенства \\( 2x-3(x-7) \\leqslant 3 \\)\n- \\( (-\\infty; -24] \\)\n- \\( (-\\infty; 18] \\)\n- \\( [18;+ \\infty) \\)\n- \\( [-24; + \\infty) \\)",
+      "error_conditions": [],
+      "id": 244500,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

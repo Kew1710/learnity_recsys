@@ -1,0 +1,42 @@
+{
+  "comment": "Всего за 4 дня конференции израсходуется \\(4 \\cdot 80 = 320\\) пакетиков чая. Узнаем необходимое количество пачек: \\(320 : 100 = 3,2\\).\nЗначит, нужно больше 3 пачек. Тогда наименьшим количеством будет 4.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2065,
+    "title": "1.2 Округление с избытком"
+  },
+  "id": 26674,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В среднем за день во время конференции расходуется 80 пакетиков чая. Конференция длится 4 дня. В пачке чая 100 пакетиков. Какого наименьшего количества пачек чая хватит на все дни конференции?",
+      "error_conditions": [],
+      "id": 246313,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Замена: \\(e^x=t\\)\n$$t^2-8t+9=0$$\nт.к. эта функция представляет собой параболу ветвями вверх, то наименьшее значение функции будет достигаться в вершине параболы:\n$$t=-\\frac{b}{2a}=\\frac{8}{2}=4 \\\\ \\Rightarrow t = {e}^{x} = 4 \\Rightarrow x = \\ln{4} \\in [0;2]$$\nНайдем наименьшее значение функции в точке \\(4\\):\n$$f(4)=4^2-8\\cdot 4+9=-7$$\nОтвет: -7.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2448,
+    "title": "12.5 Функций с экспонентой"
+  },
+  "id": 16939,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наименьшее значение функции \\(y=e^{2x}-8e^x+9\\) на отрезке \\([0; 2]\\).",
+      "error_conditions": [],
+      "id": 236841,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/CkkG5Lc4uvY?t=2540"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://youtu.be/CkkG5Lc4uvY?t=2540"
+}

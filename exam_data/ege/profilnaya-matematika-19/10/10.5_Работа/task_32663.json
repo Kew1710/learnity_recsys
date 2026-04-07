@@ -1,0 +1,45 @@
+{
+  "comment": "Обозначим всю работу за \\(1\\). Вспомним, что Работа \\(=\\) время \\(\\cdot \\) скорость.\nСоставим табличку:\nМастера\nРабота\nВремя\nСкорость\n$$1$$\n$$1$$\n$$36$$\n$$\\frac{1}{36}$$\n$$2$$\n$$1$$\n$$18$$\n$$\\frac{1}{18}$$\n$$1+2$$$$1$$$$?$$$$\\frac{1}{36}+\\frac{1}{18}$$Так как работая вместе они складывают свои усилия, то и скорости их работы складываются, найдём общую скорость:\n$$\\frac{1}{36}+\\frac{1}{18}=\\frac{1+2}{36}=\\frac{1}{12}$$\nВ таком случае: время \\(=\\) работа/скорость, значит:\n$$1:\\frac{1}{12}=1\\cdot 12=12~часов$$\nОтвет: 12",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2432,
+    "title": "10.5 Работа"
+  },
+  "id": 32663,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Один мастер выполняет работу за \\(36\\) часов, а второй – за \\(18\\). За сколько часов они выполнят работу, работая вместе?",
+      "error_conditions": [],
+      "id": 252302,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/I7JRhoI6vUk?si=tzMoKlaiqMDp6LgR&t=961"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/live/I7JRhoI6vUk?si=tzMoKlaiqMDp6LgR&t=961"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2876,
+    "title": "№13 IP-адреса (2020 год)"
+  },
+  "id": 26640,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "внеа",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В терминологии сетей TCP/IP маской сети называют двоичное число, которое показывает, какая часть IP-адреса узла сети относится к адресу сети, а какая – к адресу узла в этой сети. Адрес сети получается в результате применения поразрядной конъюнкции к заданному адресу узла и его маске. По заданным IP-адресу узла сети и маске определите адрес сети:\nIP-адрес: 145.92.137.88 Маска: 255.255.240.0\nПри записи ответа выберите из приведенных в таблице чисел 4 фрагмента четыре элемента IP-адреса и запишите в нужном порядке соответствующие им буквы без точек.\nA\nB\nC\nD\nE\nF\nG\nH\n0\n145\n255\n137\n128\n240\n88\n92",
+      "error_conditions": [],
+      "id": 246279,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=SM3lSLcmu8Q"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 45,
+    "title": "IP-адреса"
+  },
+  "video_link": "https://www.youtube.com/watch?v=SM3lSLcmu8Q"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "1) До замыкания конденсатор не заряжен $\\Rightarrow U_V=0$\n2) После замыкания ключа К конденсатор начнет заряжаться и пойдет ток через резистор $\\Rightarrow$ показания вольтметра начнут увеличиваться до тех пор, пока не произойдет полная зарядка конденсатора.\n3) После зарядки конденсатора ток через него течь не будет и будет течь через резистор $R \\text{ c } I=\\frac{\\varepsilon}{R+r}=$ const $\\Rightarrow$ будет показывать напряжение на резисторе $U_V$ $=\\frac{\\varepsilon R}{R+r}=U_c$ которое совпадает с напряжением на конденсаторе. $\\Rightarrow \\frac{q}{c}=$ $\\frac{\\varepsilon R}{R+r} \\Rightarrow q=\\frac{C \\varepsilon R}{R+r}-$ заряд на конденсаторе.\n\nОтвет: \\(q=\\frac{C \\varepsilon R}{R+r}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2649,
+    "title": "Электричество"
+  },
+  "id": 5068,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание C51486\nОпираясь на законы физики, найдите показание идеального вольтметра в схеме, представленной на рисунке, до замыкания ключа \\(K\\) и опишите изменения его показаний после замыкания ключа \\(K\\). Первоначально конденсатор не заряжен.",
+      "error_conditions": null,
+      "id": 70327,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/t3npNfyI2Z8?start=1321"
+}

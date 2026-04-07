@@ -1,0 +1,42 @@
+{
+  "comment": "$$V =\\frac{1}{3}S_{осн} \\cdot h, \\;h = AD$$\nВ основании правильной призмы лежит прямоугольный треугольник, значит\n$$S_{осн} = \\frac{1}{2} \\cdot AB \\cdot AC = \\frac{1}{2} \\cdot 3 \\cdot 18 = 27$$\n$$V = \\frac{1}{3} \\cdot S_{осн} \\cdot h = \\frac{1}{3} \\cdot 27 \\cdot 7 = 9 \\cdot 7 = 63$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2249,
+    "title": "13.2 Пирамида"
+  },
+  "id": 27191,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "63",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольной пирамиде \\(ABCD\\) рёбра \\(AB,\\; AC\\) и \\(AD\\) взаимно перпендикулярны. Найдите объём этой пирамиды, если \\(AB = 3,\\; AC = 18\\) и \\(AD = 7\\).",
+      "error_conditions": [],
+      "id": 246830,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

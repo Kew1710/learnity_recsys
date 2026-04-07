@@ -1,0 +1,37 @@
+{
+  "comment": "Пояснения:\nH — нормальная свертываемость крови\nh — гемофилия\nK — здоров\nk — синдром Кабуки\n\n1) первый вариант\n\n♀ ХHK Хhk×♂ ХHK Y здорова здоровG:\nнекроссоверные:\nХHK\nХhk\nкроссоверные:\nХHk\nХhK\nG:\nХHK\nY\nF1:\n♀ ♂ ХHK YХHK\n\nХHK ХHK\n♀\nздорова\nХHK Y\n♂\nздоров\nХhk\n\nХHK Хhk\n♀\nздорова\nХhk Y\n♂\nгемофилия\nсиндром Кабуки\nХHk\n\nХHK ХHk\n♀\nздорова\nХHk Y\n♂\nсиндром Кабуки\nХhKХHK ХhK\n♀\nздорова\nХhK Y\n♂\nгемофилия\n2) второй вариант\n♀ ХHk ХhK×♂ ХHK Y здорова здоровG:\nнекроссоверные:\nХHk\nХhK\nкроссоверные:\nХHK\nХhk\nG:\nХHK\nY\nF1:\n♀ ♂ ХHK YХHK\n\nХHK ХHK\n♀\nздорова\nХHK Y\n♂\nздоров\nХhk\n\nХHK Хhk\n♀\nздорова\nХhk Y\n♂\nгемофилия\nсиндром Кабуки\nХHk\n\nХHK ХHk\n♀\nздорова\nХHk Y\n♂\nсиндром Кабуки\nХhKХHK ХhK\n♀\nздорова\nХhK Y\n♂\nгемофилия\n3)\n♀ ХhK Хhk×♂ ХHK Y здорова здоровG:\nХhk\nХhK\nG:\nХHK\nY\nF1:\nХHK Хhk — ♀, здорова\nХHK ХhK — ♀, здорова\nХhk Y — ♂, гемофилия, синдром Кабуки\nХhK Y — ♂, гемофилия",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2517,
+    "title": "Закономерности наследственности. Законы Менделя и Моргана"
+  },
+  "id": 16769,
+  "is_obsolete": false,
+  "number": 28,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "У человека между аллелями генов гемофилии типа В и синдрома Кабуки происходит кроссинговер. Дигетерозиготная по генам гемофилии и синдрома Кабуки женщина вышла замуж за мужчину, не имеющего таких заболеваний; в семье родился здоровый сын. Этот сын женился на женщине, страдающей гемофилией, носительнице гена синдрома Кабуки. Составьте схемы решения задачи. Укажите возможные генотипы, фенотипы родителей и генотипы, фенотипы, пол возможного потомства в двух браках.",
+      "error_conditions": null,
+      "id": 236675,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/ail8p-HSMBw?feature=share&t=854"
+}

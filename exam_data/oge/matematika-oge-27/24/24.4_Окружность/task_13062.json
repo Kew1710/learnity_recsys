@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nP,Q - центры окружностей\nP и Q по одну сторону от KL\nДоказать:\n\\( PQ \\perp KL \\)\n1. Проведем PK, PL - радиусы окр.\n\\( \\Rightarrow PK=PL \\)\n2. Проведем QK=QL - радиусы\nт. Р равноудалена от концов отрезка KL\nт. Q равноудалена от концов отрезка KL\n\\( \\Rightarrow PQ\\) - серединный перпендикуляр к KL\n\\( \\Rightarrow PQ \\perp KL\\) , ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1946,
+    "title": "24.4 Окружность"
+  },
+  "id": 13062,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружности с центрами в точках P и Q пересекаются в точках K и L, причём точки P и Q лежат по одну сторону от прямой KL. Докажите, что прямые PQ и KL перпендикулярны.",
+      "error_conditions": null,
+      "id": 175637,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 31,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Согласно первому закону термодинамики:\n$$Q=\\Delta U+A$$ $$A=Q-\\Delta U=400-200=200~Дж$$\nОтвет: 200 Дж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9461,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "200",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "233813\nВнутренняя энергия идеального газа увеличилась на \\(200\\) Дж, при этом газ получил количество теплоты \\(400\\) Дж. Найдите работу, совершаемую газом. Ответ дайте в Дж.",
+      "error_conditions": [],
+      "id": 114623,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/bzlr3KWXnXA"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/bzlr3KWXnXA"
+}

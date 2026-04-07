@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПусть х д/ч делает 2 рабочий\nТогда х+13 д/ч делает 1 рабочий\n\\( \\cfrac{208}{x}-\\cfrac{208}{x+13}=8 \\)\nУмножим на \\( x(x+13) \\neq 0 \\)\n\\( -8x^2-8 \\cdot 13x -208 \\cdot 13=0 \\)\nПоделим на -8\n\\( x^2+13x-26 \\cdot 13=0 \\)\n\\( D=169+4 \\cdot 13 \\cdot 26=1521 \\)\n\\( x_1=-26\\) - не удовлетворяет условию задачи\n\\( x_2=13 \\)\nОтвет: 13д/ч",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1940,
+    "title": "21.5 Совместная работа"
+  },
+  "id": 13360,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Первый рабочий за час делает на 13 деталей больше, чем второй, и выполняет заказ, состоящий из 208 деталей, на 8 часов быстрее, чем второй рабочий, выполняющий такой же заказ. Сколько деталей в час делает второй рабочий?",
+      "error_conditions": null,
+      "id": 178235,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

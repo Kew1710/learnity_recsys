@@ -1,0 +1,58 @@
+{
+  "comment": "Для выполнения задания приложим линейку к заданным точкам, получим 5,9 см. Согласно масштабу, в 1 см 100 м. Ответ 590 м.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2969,
+    "title": "2.1 Планы местности. Географические карты. Географическая широта и географическая долгота."
+  },
+  "id": 31102,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "610",
+          "points": 1
+        },
+        {
+          "answer": "600",
+          "points": 1
+        },
+        {
+          "answer": "590",
+          "points": 1
+        },
+        {
+          "answer": "580",
+          "points": 1
+        },
+        {
+          "answer": "570",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите по карте расстояние на местности по прямой от точки B до пункта государственной геодезической сети. Измерение проводите между центрами условных знаков. Полученный результат округлите до десятков метров. Ответ запишите в виде числа.",
+      "error_conditions": [],
+      "id": 250741,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

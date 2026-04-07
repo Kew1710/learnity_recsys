@@ -1,0 +1,45 @@
+{
+  "comment": "Если представить многогранник полным, то из общего объема вычтем вырезанный:\n$$V_{мног.}=V_{цел}-V_{выр.ч.}$$\n$$V_{цел}=4\\cdot2\\cdot4=32$$\n$$V_{выр.ч.}=1\\cdot2\\cdot4=8$$\n$$V_{мног.}=32-8=24$$\nОтвет: 24",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2389,
+    "title": "3.6 Объем составного многогранника"
+  },
+  "id": 6961,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите объём многогранника, изображенного на рисунке (все двугранные углы прямые).",
+      "error_conditions": [],
+      "id": 78000,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=1384"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=1384"
+}

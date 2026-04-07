@@ -1,0 +1,42 @@
+{
+  "comment": "правильно пишется «в шкафу» с окончанием -у как форма предложного падежа существительного с предлогом «в»",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 910,
+    "title": "Морфологические нормы (образование форм слова)"
+  },
+  "id": 11387,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "шкафу",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В одном из выделенных ниже слов допущена ошибка в образовании формы слова. Исправьте ошибку и запишите слово правильно.\n\nнет ТУФЕЛЬ\nсмотрится намного КРАСИВЕЕ\nПРОМОК до нитки\nв ШКАФЕ\nкилограмм ЯБЛОК",
+      "error_conditions": [],
+      "id": 148882,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

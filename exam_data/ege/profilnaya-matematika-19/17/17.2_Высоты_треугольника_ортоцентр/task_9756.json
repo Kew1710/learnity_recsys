@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n\\(AO = R\\)\n$$AO =R=\\frac{BC}{2\\sin \\angle BAC}=\\frac{BC}{2\\frac{\\sqrt{3}}{2}}=\\frac{BC}{\\sqrt{3}}$$\n\\(H\\) – ортоцентр\n\nПусть \\(\\angle HAM = \\alpha \\);\nТогда в \\(\\Delta HAM\\):\n$$\\cos\\alpha=\\frac{AM}{AH}\\Rightarrow AH=\\frac{AM}{\\cos\\alpha}\\\\ \\alpha={90}^{\\circ}-\\angle CBA \\Rightarrow AH = \\frac{AM}{\\sin\\beta} \\ \\ (\\beta = {90}^{\\circ} - \\alpha)$$\nТогда в \\(\\Delta ACM\\)\n$$\\frac{AM}{AC}=\\cos \\angle MAC\\\\ AM=AC\\cdot\\cos \\angle MAC\\\\ AH=\\frac{AC\\cdot\\cos \\angle MAC}{\\sin \\angle B}$$\nПо теореме синусов:\n$$\\frac{AC}{\\sin \\angle B}=\\frac{CB}{\\sin \\angle A}\\\\ AH=\\frac{CB\\cdot\\cos \\angle A}{\\sin \\angle A}=CB\\cdot \\mathrm{ctg} \\angle A\\\\ AH=CB\\cdot \\mathrm{ctg} \\angle A=CB\\cdot \\mathrm{ctg} \\, {60}^{\\circ}=\\frac{CB\\cdot\\sqrt{3}}{3}=CB\\sqrt{3}=AO=AH\\\\ Ч. т. д.$$\nб) \\(AL\\) – высота, \\(\\angle CAL = 15^\\circ\\)\n\\(\\angle BOA = 150^\\circ\\)\nПроведем радиус \\(OB\\): \\(\\Delta AOB\\) – равнобедренный:\n$$\\angle OAB=\\angle OBA=\\frac{180-\\angle BOA}{2}=15^\\circ\\\\ \\angle OAH={60}^{\\circ}-{15}^{\\circ}-{15}^{\\circ}=30^\\circ\\\\ S=\\frac{1}{2}AH\\cdot AO\\cdot\\sin\\alpha=\\frac{1}{2}R^2\\cdot\\sin\\alpha=18\\cdot\\sin\\alpha=18\\cdot\\sin {30}^{\\circ}=18\\cdot\\frac{1}{2}=9$$\nОтвет: 9.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2482,
+    "title": "17.2 Высоты треугольника, ортоцентр"
+  },
+  "id": 9756,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В остроугольном треугольнике \\(ABC\\), \\(\\angle A=60^\\circ\\). Высоты \\(BN\\) и \\(CM\\) треугольника \\(ABC\\) пересекаются в точке \\(H\\). Точка \\(O\\) — центр окружности, описанной около \\(\\Delta ABC\\).\nа)  Докажите, что \\(AH=AO\\).\nб)  Найдите площадь треугольника \\(AHO\\), если \\(BC=6\\sqrt{3}\\), \\(\\angle ABC=45^\\circ\\).",
+      "error_conditions": null,
+      "id": 117514,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/iJWOfgo-S_E?start=3607"
+}

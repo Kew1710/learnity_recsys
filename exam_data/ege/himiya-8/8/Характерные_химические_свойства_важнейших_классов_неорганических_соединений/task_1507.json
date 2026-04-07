@@ -1,0 +1,42 @@
+{
+  "comment": "A) Вытеснение слабой нерастворимой кислоты более сильным кислотным оксидом:\nK₂SiO₃ + H₂O + CO₂ → H₂SiO₃ + K₂CO₃\nБ) Вытеснение слабой нерастворимой кислоты более сильной кислотой из состава соли:\nK₂SiO₃ + HCl → H₂SiO₃ + 2KCl\nB) Совместный гидролиз соли алюминия в присутствии карбонат-ионов:\nAlCl₃ + K₂CO₃ + H₂O → 2Al(OH)₃ + 3CO₂ + 6KCl\nГ) Реакция ионного обмена между солью амфотерного металла и щелочью:\nAlCl₃ + KOH → Al(OH)₃ + KCl",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 1507,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3421",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТЫ РЕАКЦИИ\nA) K₂SiO₃ + H₂O + CO₂1) Al(OH)₃ и KClБ) K₂SiO₃ + HCl2) Al(OH)₃, CO₂ и KClB) AlCl₃ + K₂CO₃ + H₂O 3) H₂SiO₃ и K₂CO₃Г) AlCl₃ + KOH4) H₂SiO₃ и KCl 5) H₂SiO₃ и KOH 6) KCl, Al₂O₃, CO₂ и H₂O",
+      "error_conditions": [],
+      "id": 53823,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ao4Qr_V3DCc?start=3528"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Ao4Qr_V3DCc?start=3528"
+}

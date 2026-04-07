@@ -1,0 +1,42 @@
+{
+  "comment": "Частота - величина обратная периоду.\n$$\\nu=\\frac{1}{Т}$$\nПо графику период составляет 4с\n$$\\nu=\\frac{1}{4}$$\n$$\\nu=0,25 Гц$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3232,
+    "title": "1.24 Механические колебания. Амплитуда, период и частота колебаний. Формула, связывающая частоту и период колебаний:"
+  },
+  "id": 35273,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке представлен график колебаний математического маятника. Какова частота колебаний маятника?\nОтвет: _____________ Гц",
+      "error_conditions": [],
+      "id": 254912,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

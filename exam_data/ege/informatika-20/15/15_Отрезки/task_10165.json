@@ -1,0 +1,45 @@
+{
+  "comment": "Видеоразбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2730,
+    "title": "№15 Отрезки"
+  },
+  "id": 10165,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "11",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На числовой прямой даны два отрезка: B = [46; 74] и C = [56; 85]. Укажите наименьшую возможную длину такого отрезка A, что формула\n\\((\\neg (x \\in B)) \\to (((x \\in C) \\wedge \\neg (x \\in A)) \\to (x \\in B))\\)\nистинна при любом значении переменной x, т.е. принимает значение 1 при любом значении переменной x.",
+      "error_conditions": [],
+      "id": 122444,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/hbB9Y_QNl20?start=7710"
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": "https://www.youtube.com/embed/hbB9Y_QNl20?start=7710"
+}

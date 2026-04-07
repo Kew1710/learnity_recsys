@@ -1,0 +1,45 @@
+{
+  "comment": "Для \\(f(x)\\) используем точку \\((1;5)\\Rightarrow 5=a\\sqrt{1}\\Rightarrow a=5\\).\nДля \\(g(x)\\) используем точку \\((1;1)\\Rightarrow 1=k\\cdot 1\\Rightarrow k=1\\).\nНайдём точку пересечения функций \\(5\\sqrt{x}=x\\Rightarrow x^2-25x=0\\Rightarrow \\displaystyle \\left[ \\begin{array}{l l} x=0\\\\ x=25 \\end{array} \\right.\\), так как \\(x=0\\) – абцисса точи \\(A\\), то абцисса точки \\(B\\): \\(x=25\\).\n\nОтвет: 25",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2443,
+    "title": "11.7 Поиск точки пересечения графиков"
+  },
+  "id": 32439,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены графики функций видов \\(f(x)=a\\sqrt{x}\\) и \\(g(x)=kx\\), пересекающиеся в точках \\(A\\) и \\(B\\). Найдите абсциссу точки \\(B\\).",
+      "error_conditions": [],
+      "id": 252078,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=ID-pMzCmK9JJpEsv&t=7062"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://www.youtube.com/live/Ge2-qsxmseM?si=ID-pMzCmK9JJpEsv&t=7062"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Сила взаимодействия зарядов в обоих случаях:\n$$F_1=\\frac{kq_1q_2}{r^2}$$\n$$F_2=\\frac{k\\cdot 3q_1\\cdot 3q_2}{\\frac{r^2}{4}}=3\\cdot 3\\cdot 4 F_1=36F_1$$\nОтвет: 36",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2630,
+    "title": "Электрическое поле"
+  },
+  "id": 30236,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расстояние между двумя точечными электрическими зарядами уменьшили в \\(2\\) раза, а каждый из зарядов увеличили в \\(3\\) раза. Во сколько раз увеличился модуль сил электростатического взаимодействия между ними?",
+      "error_conditions": [],
+      "id": 249875,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/HewA56AMpZQ?t=2345"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/HewA56AMpZQ?t=2345"
+}

@@ -1,0 +1,46 @@
+{
+  "comment": "Для изучения зависимости сопротивления металлического проводника от его длины, все характеристики кроме длины должны быть одинаковыми. Таковыми являются 1 и 3 образцы.\n\nОтвет: 13",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2647,
+    "title": "Выбор пары для эксперимента"
+  },
+  "id": 18524,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        },
+        {
+          "answer": "31",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "239824\nКакие два проводника из представленных на рисунке необходимо использовать для изучения зависимости сопротивления металлического проводника от его длины?\nВ ответ запишите номера выбранных проводников.",
+      "error_conditions": [],
+      "id": 238366,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/DsIvByZgiFs"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/DsIvByZgiFs"
+}

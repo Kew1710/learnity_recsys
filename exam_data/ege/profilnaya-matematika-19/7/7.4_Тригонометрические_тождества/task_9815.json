@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\sin\\alpha^2+\\cos\\alpha^2=1\\\\ \\cos\\alpha=\\pm\\sqrt{1-\\sin\\alpha^2}=\\pm\\sqrt{1-(\\frac{3\\sqrt{11}}{10})^2}=\\pm\\sqrt{1-\\frac{99}{100}}=\\pm\\sqrt{\\frac{1}{100}}=\\pm\\frac{1}{10}$$\nТ. к. \\(\\alpha\\in(\\frac{\\pi}{2};\\pi)\\), то:\n$$\\cos\\alpha=-\\frac{1}{10}=-0,1$$\nОтвет: -0,1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2408,
+    "title": "7.4 Тригонометрические тождества"
+  },
+  "id": 9815,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-0,1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите \\(\\cos\\alpha\\), если \\(\\sin\\alpha=\\frac{3\\sqrt{11}}{10}\\), \\(\\alpha\\in(\\frac{\\pi}{2};\\pi)\\).",
+      "error_conditions": [],
+      "id": 119719,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=6206"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=6206"
+}

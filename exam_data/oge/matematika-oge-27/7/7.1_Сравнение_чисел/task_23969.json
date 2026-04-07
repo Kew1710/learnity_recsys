@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nВозведем в квадрат все числа\n\\( (\\sqrt{73})^2 = 73\\)\n\\(1) 8^2 = 64\\)\n\\(9^2 = 81\\)\n\\(2) 72^2 = 5184\\)\n\\(74^2 = 5476\\)\n\\(3) 24^2 = 576\\)\n\\(26^2 = 676\\)\n\\(4) 4^2 = 16\\)\n\\(5^2 = 25\\)\nПоймем, что число \\( \\sqrt{73}\\) заключено между числами 8 и 9\nОтвет: 1",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23969,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Между какими целыми числами заключено число…",
+      "error_conditions": [],
+      "id": 243684,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

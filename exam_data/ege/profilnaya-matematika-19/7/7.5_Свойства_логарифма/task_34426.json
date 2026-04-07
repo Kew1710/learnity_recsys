@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{\\log_296}{3+\\log_212}=\\frac{\\log_296}{\\log_28+\\log_212}=\\frac{\\log_296}{\\log_212\\cdot 8}=\\frac{\\log_296}{\\log_296}=1$$\nОтвет: 1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 34426,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\frac{\\log_296}{3+\\log_212}\\).",
+      "error_conditions": [],
+      "id": 254065,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=XfN_7GKBNkaQApfz&t=3940"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=XfN_7GKBNkaQApfz&t=3940"
+}

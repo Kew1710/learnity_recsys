@@ -1,0 +1,37 @@
+{
+  "comment": "Элементы ответа:\n1) на рисунке изображена клетка бактерий, потому что она не содержит ядра (ДНК лежит в цитоплазме) и мембранных\nорганоидов:\n2) вопросительным знаком обозначена плазмида (дополнительная кольцевая ДНК);\n3) плазмида (дополнительная кольцевая ДНК) несёт дополнительные гены, повышающие приспособленность клетки к различным условиям",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2523,
+    "title": "Царство Бактерии"
+  },
+  "id": 5188,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Клетка организма какого царства изображена на рисунке? Обоснуйте свой ответ. Какая структура обозначена на рисунке вопросительным знаком? Какую функцию она выполняет?",
+      "error_conditions": null,
+      "id": 70576,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YE9q1rH-Pn4?start=390"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Обозначим тетраэдр KLMP. Плоскость ABC разбивает его на два многогранника: KLMABC и ABCP.\n\nГраней больше у первого - KLMABC. У этого многогранника 6 вершин.\nОтвет: 6.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2099,
+    "title": "11.2 Пирамида"
+  },
+  "id": 25121,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Плоскость, проходящая через точки \\(A\\), \\(B\\) и \\(C\\) (см. рис.), разбивает тетраэдр на два многогранника. Сколько вершин у получившегося многогранника с большим числом граней?",
+      "error_conditions": [],
+      "id": 244778,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

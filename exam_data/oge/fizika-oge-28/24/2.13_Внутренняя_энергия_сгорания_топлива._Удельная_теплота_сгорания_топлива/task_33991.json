@@ -1,0 +1,37 @@
+{
+  "comment": "КПД равен: $$\\eta=\\frac{A_п}{A_{зат}}$$\nВ данном случае затраченная работа - произведение полезной мощности на время: $$A_п=Pt$$\nЗатраченная - работа по сгоранию бензина: $$A_{зат}=qm$$\nПодставим: $$\\eta=\\frac{Pt}{qm} \\\\ {\\eta}qm=Pt \\\\ t=\\frac{{\\eta}qm}{P} \\\\ S=\\frac{0,36\\cdot 4,6\\cdot 10^7\\cdot 30}{46\\cdot 10^3}=10800~c=3~ч$$\nПуть равен: $$S=vt \\\\ S=100\\cdot 3=300~км$$\n\nОтвет: 300 км",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3252,
+    "title": "2.13 Внутренняя энергия сгорания топлива. Удельная теплота сгорания топлива"
+  },
+  "id": 33991,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какой путь прошел автомобиль, если при средней скорости 100 км/ч его двигатель израсходовал 30 кг бензина? Механическая мощность двигателя автомобиля равна 46 кВт, КПД двигателя равен 36%.",
+      "error_conditions": null,
+      "id": 253630,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

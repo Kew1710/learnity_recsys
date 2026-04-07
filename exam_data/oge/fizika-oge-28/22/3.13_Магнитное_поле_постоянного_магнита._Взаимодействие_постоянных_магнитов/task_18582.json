@@ -1,0 +1,37 @@
+{
+  "comment": "Ответ: да, правильно\nПояснение: у Земли южный магнитный полюс расположен там же, где и Северный географический. А северный полюс магнитной стрелки притягивается к южному магнитному полюсу Земли и, соответсвенно, к Северному географическому полюсу",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3269,
+    "title": "3.13 Магнитное поле постоянного магнита. Взаимодействие постоянных магнитов"
+  },
+  "id": 18582,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Правильно ли с точки зрения физики утверждение о том, что северный полюс магнитной стрелки притягивается к Северному географическому полюсу Земли? Ответ поясните.",
+      "error_conditions": null,
+      "id": 238424,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/3WEVucfefh0"
+}

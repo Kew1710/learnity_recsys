@@ -1,0 +1,58 @@
+{
+  "comment": "Для решения задания нужно приложить линейку к заданным точкам, получим 2,9 см. Согласно масштабу, в 1 см 100 м. Ответ: 290 м.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2969,
+    "title": "2.1 Планы местности. Географические карты. Географическая широта и географическая долгота."
+  },
+  "id": 31134,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "270",
+          "points": 1
+        },
+        {
+          "answer": "280",
+          "points": 1
+        },
+        {
+          "answer": "290",
+          "points": 1
+        },
+        {
+          "answer": "300",
+          "points": 1
+        },
+        {
+          "answer": "310",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите по карте расстояние на местности по прямой от родника до башни. Измерение проводите между центрами условных знаков. Полученный результат округлите до десятков метров. Ответ запишите в виде числа.",
+      "error_conditions": [],
+      "id": 250773,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 9,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

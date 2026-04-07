@@ -1,0 +1,42 @@
+{
+  "comment": "Наименьшая температура была во 2 месяце.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2074,
+    "title": "3.1 Определение величины по графику"
+  },
+  "id": 23863,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке жирными точками показана среднемесячная температура воздуха в Сочи за каждый месяц 1920 года. По горизонтали указаны номера месяцев, по вертикали — температура в градусах Цельсия. Для наглядности жирные точки соединены линией.\nОпределите по рисунку, в каком месяце среднемесячная температура в Сочи была наименьшей за данный период. В ответе укажите номер этого месяца.",
+      "error_conditions": [],
+      "id": 243582,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

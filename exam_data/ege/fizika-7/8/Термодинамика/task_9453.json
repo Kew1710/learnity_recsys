@@ -1,0 +1,42 @@
+{
+  "comment": "Сделаем рисунок и обозначим силы, действующие на поршень:\nТак как сосуд по поршнем:\n$$p=p_{атм}+\\frac{mg}{S}\\Rightarrow p~-~const$$\nРаботу газа найдем по формуле:\n$$A=p\\Delta V=pS\\Delta h=0,14\\cdot 10^6\\cdot 0,2\\cdot 0,3=8400~Дж$$\nОтвет: 8400 Дж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9453,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8400",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23385\nИдеальный газ поместили в вертикальный цилиндр, прикрытый сверху массивным горизонтальным поршнем площадью \\(0,2\\) м\\(^2\\). Атмосферное давление вне сосуда равно \\(0,1\\) МПа, а в сосуде под поршнем - \\(0,14\\) МПа. Далее газ медленно нагревают, в результате чего поршень поднимается на \\(30\\) см выше своего начального положения. Найдите работу, которую совершает газ. Ответ дайте в Дж.",
+      "error_conditions": [],
+      "id": 114607,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/9g26x_IgdnU"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/9g26x_IgdnU"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Межклассовые изомеры - вещества, относящиеся к разным классам органических веществ и имеющие одинаковые молекулярные формулы\n1) пропаналь - альдегид, молекулярная формула - C₃H₆O\n2) пропановая кислота - карбоновая кислота, молекулярная формула - C₃H₆O₂\n3) уксусная кислота - карбоновая кислота, молекулярная формула - C₂H₄O₂\n4) нитроэтан - нитроалкан, молекулярная формула - C₂H₅NO₂\n5) глицин - аминокислота, молекулярная формула - C₂H₅NO₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2808,
+    "title": "Изомерия (структурная и пространственная)"
+  },
+  "id": 35069,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, которые являются межклассовыми изомерами.\n1) пропаналь\n2) пропановая кислота\n3) уксусная кислота\n4) нитроэтан\n5) глицин",
+      "error_conditions": [],
+      "id": 254708,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nCaPB0j3TRI?t=3841s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/nCaPB0j3TRI?t=3841s"
+}

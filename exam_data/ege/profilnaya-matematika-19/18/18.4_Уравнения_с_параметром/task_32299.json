@@ -1,0 +1,40 @@
+{
+  "comment": "Произведение равно нулю, когда один из множителей равен нулю, а второй при этом существует.\nРассмотрим случай, когда нулю равен первый множитель:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} \\sqrt{7x-4} =0\\\\ x^{2} -8x+17-a^{2} >0 \\end{cases}\\\\ \\begin{cases} x=\\frac{4}{7}\\\\ x^{2} -8x+17-a^{2} >0 \\end{cases}\\\\ \\begin{cases} x=\\frac{4}{7}\\\\ \\frac{625}{49} >a^{2} \\end{cases}\\\\ \\begin{cases} x=\\frac{4}{7}\\\\ -\\frac{25}{7} < a< \\frac{25}{7} \\end{cases} \\end{array}$$\nКогда равен нулю второй множитель:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} x\\geq \\frac{4}{7}\\\\ \\ln\\left( x^{2} -8x+17-a^{2}\\right) =0 \\end{cases}\\\\ \\begin{cases} x\\geq \\frac{4}{7}\\\\ x^{2} -8x+17-a^{2} =1 \\end{cases}\\\\ \\begin{cases} x\\geq \\frac{4}{7}\\\\ ( x-4)^{2} -a^{2} =0 \\end{cases}\\\\ \\begin{cases} x\\geq \\frac{4}{7}\\\\ ( x-4-a)( x-4+a) =0 \\end{cases} \\end{array}$$\nПолучаем корни \\(x=4-a\\) или \\(x=4+a\\). Первый существует при \\(4-a\\geq \\frac{4}{7}\\Leftrightarrow a\\leq \\frac{24}{7}\\) и принадлежит отрезку \\([0; 4]\\) при \\(0\\leq 4-a\\leq 4\\Leftrightarrow 0\\leq a\\leq 4\\), а второй при \\(4+a\\geq \\frac{4}{7}\\Leftrightarrow a\\geq -\\frac{24}{7}\\) и лежит на нужном интервале при \\(0\\leq 4+a\\leq 4\\Leftrightarrow -4\\leq a\\leq 0\\). То есть первый корень подходит нам при \\(0\\leq a\\leq \\frac{24}{7}\\), а второй – при \\(-\\frac{24}{7}\\leq a\\leq 0\\).\nПроверим совпадение корней:\n$$4-a=4+a\\Leftrightarrow a=0\\\\ 4-a=\\frac{4}{7}\\Leftrightarrow a=\\frac{24}{7}\\\\ 4+a=\\frac{4}{7}\\Leftrightarrow a=-\\frac{24}{7}$$\nИтого нам подходят промежутки \\(\\left(-\\frac{25}{7};-\\frac{24}{7}\\right]\\) и \\(\\left[\\frac{24}{7};\\frac{25}{7}\\right)\\).\nОтвет: \\(\\left(-\\frac{25}{7};-\\frac{24}{7}\\right]\\cup \\left[\\frac{24}{7};\\frac{25}{7}\\right)\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2493,
+    "title": "18.4 Уравнения с параметром"
+  },
+  "id": 32299,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения \\(a\\), при каждом из которых уравнение\n$$\\sqrt{7x-4}\\cdot \\ln \\left(x^2-8x+17-a^2\\right)=0$$\nимеет на отрезке \\(\\left[0;4\\right]\\) ровно один корень.",
+      "error_conditions": null,
+      "id": 251938,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/live/lcZ9pNvZ8kE?si=PuKgrcaO34oLXKBB&t=4410"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Проведём \\(DH\\) – высоту трапеции, следовательно, \\(\\angle DHA=90^\\circ\\). Тогда \\(\\Delta AHD\\) – прямоугольный, а\n$$tg\\angle DAH=\\frac{DH}{AH}\\Rightarrow AH=\\frac{DH}{tg\\angle DAH}=\\frac{27}{0,9}=30$$\nПроведём \\(CH_1\\) – ещё одну высоту трапеции, следовательно, \\(\\angle CBH_1=90^\\circ\\). Тогда \\(\\Delta CH_1B\\) – прямоугольный, а\n$$tg\\angle CBH_1=\\frac{CH_1}{BH_1}\\Rightarrow BH_1=\\frac{CH_1}{tg\\angle CBH_1}=\\frac{27}{0,9}=30$$\n\\(ABCD\\) – трапеция, значит, \\(AD||BC\\). \\(DH\\), \\(CH_1\\) – высоты трапеции (\\(\\angle DHA=90^\\circ\\) и \\(\\angle CBH_1=90^\\circ\\)), значит, \\(DHH_1C\\) – прямоугольник. Тогда \\(DC=HH_1\\) и:\n$$AB=AH+HH_1+H_1B=30+23+30=83$$\nОтвет: 83",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2376,
+    "title": "1.5 Углы и отрезки в четырехугольниках"
+  },
+  "id": 35129,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "83",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Меньшее основание равнобедренной трапеции равно \\(23\\). Высота трапеции равна \\(27\\). Тангенс острого угла равен \\(0,9\\). Найдите бóльшее основание.",
+      "error_conditions": [],
+      "id": 254768,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=qLtea66lhyw&t=1363s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=qLtea66lhyw&t=1363s"
+}

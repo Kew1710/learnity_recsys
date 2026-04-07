@@ -1,0 +1,45 @@
+{
+  "comment": "Всего клеточек \\(6\\cdot 6=36\\). То есть всего \\(36\\) вариантов.\n\nИмеем \\(6\\) вариантов, где в сумме будет \\(7\\) очков.\n\nДля того, чтобы найти вероятность события, нужно количество подходящих исходов поделить на количество всевозможных исходов. Поэтому:\n$$Р=\\frac{6}{36}=\\frac{1}{6}=0,17$$\nОтвет: 0,17",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2393,
+    "title": "4.1 Классическое определение вероятности"
+  },
+  "id": 9154,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,17",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В случайном эксперименте бросают \\(2\\) игральные кости (кубика). Найдите вероятность того, что в сумме выпадет \\(7\\) очков. Результат округлите до сотых.",
+      "error_conditions": [],
+      "id": 112889,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/9Iz9K5Oanq0?start=2576"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 4,
+    "title": "Простая вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/9Iz9K5Oanq0?start=2576"
+}

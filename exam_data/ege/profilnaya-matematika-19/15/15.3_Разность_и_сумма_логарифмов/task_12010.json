@@ -1,0 +1,40 @@
+{
+  "comment": "$$\\displaystyle \\log_{3}\\left(\\left(\\frac{1}{x} -1\\right)\\left(\\frac{1}{x} +1\\right)\\right) \\leq \\log_{3}( 8x-1)$$\nТак как логарифм по основанию 3 монотонно возрастает, то равносильно:\n$$\\left(\\frac{1}{x}-1\\right)\\left(\\frac{1}{x}+1\\right)\\leq 8x-1$$\nЕсли \\(\\displaystyle \\begin{cases} \\frac{1}{x} -1 >0\\\\ \\frac{1}{x} +1 >0 \\end{cases}\\), то и \\(8x-1>0\\)\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} \\frac{1-x}{x} >0\\\\ \\frac{1+x}{x} >0 \\end{cases}\\\\ \\begin{cases} x\\in ( 0;1)\\\\ x\\in ( -\\infty ;-1) \\cup ( 0;+\\infty ) \\end{cases} \\end{array}$$\nПолучается: \\(x\\in (0;1)\\)\n\nПереходим к неравенству:\n$$\\left(\\frac{1}{x} -1\\right)\\left(\\frac{1}{x} +1\\right) \\leq 8x-1\\\\ \\frac{1}{x^2}+\\frac{1}{x}-\\frac{1}{x}-1\\leq 8x-1\\\\ \\frac{1}{x^2}\\leq 8x$$\nТак как \\(x^2>0\\)\n$$1\\leq 8x^3\\\\ x^3\\geq\\frac{1}{8}\\\\ x\\geq\\frac{1}{2}$$\nПолучаем ответ\n\nОтвет: \\(x\\in [\\frac{1}{2};1)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2469,
+    "title": "15.3 Разность и сумма логарифмов"
+  },
+  "id": 12010,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\log_3\\left(\\frac{1}{x}-1\\right)+\\log_3\\left(\\frac{1}{x}+1\\right)\\leq\\log_3\\left(8x-1\\right)\\).",
+      "error_conditions": null,
+      "id": 152071,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

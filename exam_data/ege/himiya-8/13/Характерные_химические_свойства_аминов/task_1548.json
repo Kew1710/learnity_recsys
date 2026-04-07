@@ -1,0 +1,42 @@
+{
+  "comment": "Метиламин – первичный амин, проявляет основные свойства: реагирует с водой, кислотами, галогеналканами и с азотистой кислотой\n\nВерные варианты ответа: соляная кислота, хлорметан",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2825,
+    "title": "Характерные химические свойства аминов"
+  },
+  "id": 1548,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "45",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два вещества, с которыми реагирует метиламин.\n1) оксид цинка\n2) карбонат натрия\n3) гидроксид натрия\n4) соляная кислота\n5) хлорметан",
+      "error_conditions": [],
+      "id": 53864,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/pA4_RK5ADqk?start=3339"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/pA4_RK5ADqk?start=3339"
+}

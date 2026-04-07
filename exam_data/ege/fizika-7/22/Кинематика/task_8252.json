@@ -1,0 +1,37 @@
+{
+  "comment": "Частота обращения материальной точки:\n$$\\nu=\\frac{240~об}{мин}=\\frac{240~об}{60~с}=4~об/с=4~Гц$$\nНайдем линейную скорость точки по формуле:\n$$v=\\omega R,$$\nгде \\(\\omega=\\frac{2\\pi}{T}\\), \\(R=\\frac{d}{2}=50\\) м\n\nЗная, что\n$$\\nu=\\frac{1}{T},$$ получаем:\n$$v=2\\pi\\nu R=2\\cdot 3,14\\cdot 4\\cdot 50=1256~м/с$$\nОтвет: 1256 м/c",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2622,
+    "title": "Кинематика"
+  },
+  "id": 8252,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Материальная точка вращается по окружности, диаметр которой равен \\(100\\) м. Известно, что частота ее обращения \\(n=240\\) об/мин. Найдите линейную скорость данной точки.",
+      "error_conditions": null,
+      "id": 101706,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 900,
+  "topic": null,
+  "video_link": "https://youtu.be/GthGhcnTz6I"
+}

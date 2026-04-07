@@ -1,0 +1,42 @@
+{
+  "comment": "$$\\frac{7}{2} \\cdot \\frac{5}{4} - \\frac{3}{8} = \\frac{35}{8} - \\frac{3}{8} = \\frac{32}{8} = 4$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2110,
+    "title": "14.1 Действия с обыкновенными дробями"
+  },
+  "id": 25977,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения\n$$\\frac{7}{2} \\cdot \\frac{5}{4} - \\frac{3}{8}$$",
+      "error_conditions": [],
+      "id": 245616,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

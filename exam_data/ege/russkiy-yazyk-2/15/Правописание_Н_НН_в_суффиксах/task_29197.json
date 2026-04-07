@@ -1,0 +1,42 @@
+{
+  "comment": "ошеломлённый - причастие, сов. вид + приставка + зависимые слова, НН\nуслышанным - причастие, сов. вид + приставка, НН\nвосстановленная - причастие, сов. вид + зависимое слово, НН\nнарушена - краткое причастие, Н",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 29197,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "123",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\nОшеломлё(1)ый услыша(2)ым от адъютанта, радист бросился к аппаратам, но недавно восстановле(3)ая связь уже снова была наруше(4)а.",
+      "error_conditions": [],
+      "id": 248836,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

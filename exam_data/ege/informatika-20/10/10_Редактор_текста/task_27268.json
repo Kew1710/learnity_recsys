@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2717,
+    "title": "№10 Редактор текста"
+  },
+  "id": 27268,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "56",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Текст романа Александра Грина «Бегущая по волнам» представлен в виде файлов различных форматов. Откройте один из файлов и определите, сколько раз встречаются в тексте слова с сочетанием букв «тон», например «Тонна», «камертон», «тональность». Отдельные слова «тон» и «Тон» учитывать не следует. В ответе запишите только число.",
+      "error_conditions": [],
+      "id": 246907,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 29,
+    "title": "Редактор текста"
+  },
+  "video_link": null
+}

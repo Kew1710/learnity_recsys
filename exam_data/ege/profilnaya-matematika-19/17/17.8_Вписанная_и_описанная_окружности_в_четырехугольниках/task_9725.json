@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nПусть \\(\\angle CAD=\\alpha =\\angle BCD\\) (опираются на равные дуги, т.к. \\(BC=CD\\) и равные хорды стягивают равные дуги).\n\n\\(\\angle DBC=\\angle CAD=\\alpha\\) и \\(\\angle BAC=\\angle BDC=\\alpha\\) (вписанные углы, опирающиеся на одну дугу)\n\\(\\angle BCA=\\angle BDA=\\beta\\) (вписанные углы, опирающиеся на одну дугу)\n\n\\(\\Delta ABC\\) подобен \\(\\Delta APD\\) (по двум углам)\n$$\\frac{AB}{AP}=\\frac{BC}{PD}\\Rightarrow\\frac{AB}{BC}=\\frac{AP}{PD}\\\\ ч.т.д.$$\nб)\nТочка \\(O\\) находится на \\(AP\\), т. к. \\(AP\\) - биссектриса угла \\(ABD\\) (из пункта а \\(\\angle BAC=\\angle CAD=\\alpha\\)).\n\n\\(\\angle BAD=\\angle BDC={90}^{\\circ}\\) (опираются на диаметр \\(BD\\)) \\(\\Rightarrow \\angle\\alpha={45}^{\\circ}\\) (\\(LP\\) - биссектриса).\n\nИз прямоугольного и равнобедренного \\(\\Delta BDC\\):\n$$BD=BC\\sqrt{2}=6\\sqrt{2}\\sqrt{2}=12$$\nИз \\(\\Delta ABD\\): \\(AB=6\\) (по условию) \\(AB=6=\\frac{BD}{2}\\Rightarrow AB\\) - катет, лежащий напротив угла в \\({30}^{\\circ}\\Rightarrow \\angle BDA={30}^{\\circ}=\\beta\\)\n\n\\(DO\\) - биссектриса (т. к. \\(O\\) - центр вписанной окружности) \\(\\Rightarrow \\angle ODP=\\frac{\\beta}{2}=15\\Rightarrow \\angle ODC={45}^{\\circ}+{15}^{\\circ}={60}^{\\circ}\\)\n$$\\angle OCD=\\angle BCD-\\angle BCA={90}^{\\circ}-\\beta={90}^{\\circ}-{30}^{\\circ}={60}^{\\circ}$$\nЗначит \\(\\Delta OCD\\) - равносторонний (все углы по 60 градусов).\n\nТогда:\n$$S=\\frac{\\alpha^2\\sqrt{3}}{4}=\\frac{(6\\sqrt{2}^2)\\cdot\\sqrt{3}}{4}=18\\sqrt{3}$$\nОтвет: \\(18\\sqrt{3}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2488,
+    "title": "17.8 Вписанная и описанная окружности в четырехугольниках"
+  },
+  "id": 9725,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Диагонали \\(AC\\) и \\(BD\\) четырёхугольника \\(ABCD\\), вписанного в окружность, пересекается в точке \\(P\\), причём \\(BC = CD\\).\nа)  Докажите, что \\(AB:BC=AP:PD\\).\nб)  Найдите площадь треугольника \\(COD\\), где \\(O\\) - центр окружности, вписанной в треугольник \\(ABD\\), если дополнительно известно, что \\(BD\\) - диаметр описанной около четырёхугольника \\(ABCD\\) окружности, \\(AB = 6\\), а \\(BC=6\\sqrt{2}\\).",
+      "error_conditions": null,
+      "id": 117455,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": null
+}

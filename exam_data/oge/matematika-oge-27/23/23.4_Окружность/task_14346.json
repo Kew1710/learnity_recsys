@@ -1,0 +1,37 @@
+{
+  "comment": "Дано:\nAK=16\nAC=1,6BC\nPK-?\nРешение:\n1) Пусть ВС=х, тогда АС=1,6х\n2) Пусть \\( \\angle KPA= \\alpha\\) , тогда \\(\\angle KPC=180-\\alpha\\) - смежный\nРКВС - вписанный четырехугольник, поэтому \\( \\angle CBK+ \\angle KPC=180\\) - признак вписанного четырехугольника\n\\( \\Rightarrow \\angle B= 180-\\angle PKB =180-(180-\\alpha)=180-180+\\alpha =\\alpha \\)\n\\( \\angle A\\) общий для треугольников РКА и АВС\n\\( \\Rightarrow \\triangle APK \\sim \\triangle ABC\\) по 2-ум углам\n\\( \\cfrac{KA}{AC}=\\cfrac{PK}{BC}\\)\n\\( \\cfrac{16}{1,6x}=\\cfrac{PK}{x} \\)\n\\(PK=10\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2013,
+    "title": "23.4 Окружность"
+  },
+  "id": 14346,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружность пересекает стороны AB и AC треугольника ABC в точках K и P соответственно и проходит через вершины B и C. Найдите длину отрезка KP, если AK = 16, а сторона AC в 1,6 раза больше стороны BC.",
+      "error_conditions": null,
+      "id": 202475,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "\\(4\\sqrt{2}-8\\sqrt{2}\\sin^2\\dfrac{7\\pi}{8} = 4\\sqrt{2}(1-2\\sin^2\\dfrac{7\\pi}{8})\\)\n\nЗаметим формулу косинуса двойного угла, тогда: $$4\\sqrt{2}\\cos\\frac{7\\pi}{4}=4\\sqrt{2}\\cos\\frac{\\pi}{4}=4\\sqrt{2}\\cdot\\frac{\\sqrt{2}}{2}=4$$\nОтвет: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 32328,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение уравнения \\(4\\sqrt{2}-8\\sqrt{2}\\sin^2\\frac{7\\pi}{8}\\).",
+      "error_conditions": [],
+      "id": 251967,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/BQihIosNJaM?si=--BWI_eL4QsvLHe3&t=360"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/BQihIosNJaM?si=--BWI_eL4QsvLHe3&t=360"
+}

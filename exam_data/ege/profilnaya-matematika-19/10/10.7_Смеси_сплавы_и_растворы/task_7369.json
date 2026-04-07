@@ -1,0 +1,45 @@
+{
+  "comment": "Пусть масса первого сплава \\(m_{1}\\) кг, а масса второго - \\(m_{2}\\) кг. Тогда массовое содержание никеля в первом и втором сплавах \\(0,1m_{1}\\) и \\(0,35m_{2}\\) соответственно. Из этих двух сплавов получили третий сплав массой \\(150\\) кг, содержащий \\(25%\\) никеля. Получаем систему уравнений:\n$$\\begin{cases} m_{1} +m_{2} =150\\\\ 0,1m_{1} +0,35m_{2} =0,25\\cdot 150 \\end{cases} \\Leftrightarrow \\begin{cases} m_{2} =150-m_{1}\\\\ 0,1m_{1} +0,35( 150-m_{1}) =37,5 \\end{cases} \\Leftrightarrow \\\\ \\Leftrightarrow \\begin{cases} m_{2} =150-m_{1}\\\\ 0,25m_{1} =15 \\end{cases} \\Leftrightarrow \\begin{cases} m_{1} =60\\\\ m_{2} =90 \\end{cases}$$\nМасса первого сплава была меньше массы второго на:\n$$90-60=30~кг.$$\nОтвет: 30",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2434,
+    "title": "10.7 Смеси, сплавы и растворы"
+  },
+  "id": 7369,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "30",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Имеется два сплава. Первый содержит \\(10\\)% никеля, второй - \\(35\\)% никеля. Из этих двух сплавов получили третий сплав массой \\(150\\) кг, содержащий \\(25\\)% никеля. На сколько килограммов масса первого сплава была меньше массы второго?",
+      "error_conditions": [],
+      "id": 84005,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ln7hYbdko8w?start=1023"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/Ln7hYbdko8w?start=1023"
+}

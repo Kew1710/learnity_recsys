@@ -1,0 +1,45 @@
+{
+  "comment": "Искомая фигура – половинка данного параллелепипеда, так как верхняя грань равна нижней, передняя равна задней, \\(A_1D\\) делит \\(ADD_1A_1\\) пополам, соответственно \\(B_1C\\) делит пополам \\(BCC_1B_1\\).\nПолучаем:\n$$V_{ABCDA_1B_1}=\\frac{V_{ABCDA_1B_1C_1D_1}}{2}=\\frac{6\\cdot 5\\cdot 4}{2}=60$$\nОтвет: 60.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 18916,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "60",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В прямоугольном параллелепипеде \\(ABCDA_1B_1C_1D_1\\) известно, что \\(AB=6\\), \\(BC=5\\), \\(AA_1=4\\). Найдите объём многогранника, вершинами которого являются точки \\(A,B,C,D,A_1,B_1\\).",
+      "error_conditions": [],
+      "id": 238754,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/_crN6qXTZ5o?t=345"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://youtu.be/_crN6qXTZ5o?t=345"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "$$|\\vec{E}_2|=|\\vec{E}_1|=E=\\frac{kq_0}{R^2}~(1)$$\n$$\\cos\\alpha =\\frac{\\frac{E}{2}}{E_0}\\Rightarrow E=2E_0\\cos\\alpha~(2)\\\\ \\cos\\alpha =\\frac{\\frac{r}{2}}{R}~(3)$$\nОбъединим (1)-(3):\n$$E=2\\cdot \\frac{kq_0}{R^2}\\cdot \\frac{r}{2R}=\\frac{kq_0}{r}{R^3}\\cdot 2\\cdot \\frac{9\\cdot 10^9\\cdot 2\\cdot 10^{-6}\\cdot 0,1}{0,16^3}=439453,125~В/м\\approx 439~кВ/м$$\nОтвет: 439 кВ/м",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2630,
+    "title": "Электрическое поле"
+  },
+  "id": 9684,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "234910\nНа расстоянии \\(10\\) см друг от друга находятся две разноименно заряженные частицы, модули их зарядов одинаковы и равны \\(2\\) мкКл. В некоторой точке пространства, удаленной от каждого заряда на \\(16\\) см, напряженность электрического поля равна \\(E\\). Чему равно значение \\(E\\)?",
+      "error_conditions": null,
+      "id": 117253,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

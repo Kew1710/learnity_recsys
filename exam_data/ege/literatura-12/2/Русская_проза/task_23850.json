@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1253,
+    "title": "Русская проза"
+  },
+  "id": 23850,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 12,
+    "task_count": 0,
+    "title": "Литература"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "342",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между тремя основными персонажами и их отцами.\n\nПЕРСОНАЖИ\nA)  Ипполит\nБ)  Наташа\nB)  князь Андрей\nИХ ОТЦЫ\n1)  Граф Кирилл Владимирович Безухов\n2)  Князь Николай Андреевич Болконский\n3)  Князь Василий Сергеевич Курагин\n4)  Граф Илья Андреевич Ростов\nЗапишите в ответ цифры, расположив их в порядке, соответствующем буквам:\n\nA\nБ\nВ",
+      "error_conditions": [],
+      "id": 243569,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

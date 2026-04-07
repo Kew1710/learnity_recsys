@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\sin 150^{\\circ} =\\frac{1}{2}\\\\ \\cos 120^{\\circ}=-\\frac{1}{2}\\\\ 12\\cdot \\frac{1}{2}\\cdot -\\frac{1}{2}=-3$$\nОтвет: -3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2407,
+    "title": "7.3 Вычисление значений тригонометрических функций"
+  },
+  "id": 7280,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(12\\sin 150^{\\circ}\\cdot \\cos 120^{\\circ}\\).",
+      "error_conditions": [],
+      "id": 83796,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=3930"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=3930"
+}

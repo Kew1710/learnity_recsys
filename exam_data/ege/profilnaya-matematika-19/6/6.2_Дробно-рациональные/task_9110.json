@@ -1,0 +1,45 @@
+{
+  "comment": "Это дробно - рациональное уравнение. \\(5\\) можно представить как \\(\\frac{5}{1}\\):\n$$\\frac{1}{3x-4}=\\frac{5}{1}$$\nРешим уравнение приемом “перекрестное умножение”:\n$$1\\cdot 1=5\\cdot (3x-4)$$\nРаскроем скобки:\n$$1=15x-20\\\\ 21=15x\\\\ x=\\frac{21}{15}=\\frac{7}{5}=\\frac{14}{10}=1,4$$\nОтвет: 1,4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2400,
+    "title": "6.2 Дробно-рациональные"
+  },
+  "id": 9110,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(\\frac{1}{3x-4}=5\\).",
+      "error_conditions": [],
+      "id": 112845,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1033"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1033"
+}

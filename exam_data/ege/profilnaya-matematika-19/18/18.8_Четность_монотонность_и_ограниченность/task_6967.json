@@ -1,0 +1,40 @@
+{
+  "comment": "Сделаем замену: \\(\\sqrt{4x-x^{2}} =t\\). Если замена подразумевает ограничения переменной, то изучаем эти ограничения и используем в решении. Ограничения: \\(t\\geq 0,t\\leq 2\\), так как под корнем у нас находится парабола, ветви которой смотрят вниз, \\(2\\) это наибольшее значение функции.\n$$t^{4} -32t=a^{2} -14a\\\\ f( t) =t^{4} -32t\\\\ t\\in [ 0;2]\\\\ f'( t) =4t^{3} -32\\\\ f'( t) \\leq 0 \\ \\forall{t} \\in [0;2]\\\\ \\Rightarrow f( t) ~монотонно~ убывает~ на~ промежутке~ [0;2]\\\\ \\Rightarrow f(t) \\in [f(2); f(0)] \\Rightarrow f(t) \\in [-48;0]\\\\\\\\ \\Rightarrow 0\\geq a^{2} -14a\\geq -48$$\n$$\\displaystyle \\begin{cases}\na^{2} -14a\\geq -48\\\\\na^{2} -14a\\leq 0\n\\end{cases} \\Rightarrow \\begin{cases}\na^{2} -14a+48\\geq 0\\\\\na( a-14) \\leq 0\n\\end{cases} \\Rightarrow \\begin{cases}\na\\in ( -\\infty ;6] \\cup [ 8;+\\infty )\\\\\na\\in [ 0;14]\n\\end{cases}$$\nПостроим числовую прямую:\nОтвет: \\([ 0;6] \\cup [ 8;14]\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2497,
+    "title": "18.8 Четность, монотонность и ограниченность"
+  },
+  "id": 6967,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения параметра \\(a\\), при каждом из которых уравнение\n$$(4x-x^2)^2-32\\sqrt{4x-x^2}=a^2-14a$$\nимеет хотя бы одно решение.",
+      "error_conditions": null,
+      "id": 78088,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/embed/GAblSfX_cN0?start=497"
+}

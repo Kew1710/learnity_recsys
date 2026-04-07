@@ -1,0 +1,42 @@
+{
+  "comment": "Изучать динамику изменения численности популяции по годам можно при помощи такого метода, как статистический.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2507,
+    "title": "Методы, достижения и роль биологии"
+  },
+  "id": 16981,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "статистический",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Методы биологических исследований» и заполните ячейку, вписав соответствующий термин.\nЧастнонаучный метод\nПрименение метода\nБиохимическийОпределение содержания глюкозы в крови?\nИзучение динамики изменения численности популяции по годам",
+      "error_conditions": [],
+      "id": 236881,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

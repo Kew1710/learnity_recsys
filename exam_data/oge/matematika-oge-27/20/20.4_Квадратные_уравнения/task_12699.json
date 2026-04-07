@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nТ.к. \\((x^2-9)^2 \\geq 0\\) и \\((x^2-2x-15)^2 \\geq 0, \\Rightarrow (x^2-9)^2+(x^2-2x-15)^2\\geq 0\\) только когда\n\\(\\begin{cases}x^2-9=0 (1) \\\\x^2-2x-15=0 (2)\\end{cases}\\)\n\\((1) x^2-9=0\\)\n\\((x-3)(x+3)=0\\)\n\\((2) x^2-2x-15=0\\)\n\\(D=4+60=64\\)\n\\(x_1=\\cfrac{2-8}{2}\\)\n\\(x_1=-3\\)\n\\(x_2=\\cfrac{2+8}{2}\\)\n\\(x_2=5\\)\n\\(\\begin{cases}(x-3)(x+3)=0 \\\\x=-3; x=5\\end{cases}\\)\n\\(\\begin{cases}x=3; x=-3 \\\\x=5; x=-3\\end{cases}\\)\n\\(\\Rightarrow x=-3\\\\\\)\nОтвет:\\(-3\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2051,
+    "title": "20.4 Квадратные уравнения"
+  },
+  "id": 12699,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\((x^2-9)^2+(x^2-2x-15)^2=0\\) .",
+      "error_conditions": null,
+      "id": 172499,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

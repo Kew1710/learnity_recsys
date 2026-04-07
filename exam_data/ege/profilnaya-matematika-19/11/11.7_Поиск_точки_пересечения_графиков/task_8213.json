@@ -1,0 +1,45 @@
+{
+  "comment": "График функции \\(f( x) =4x^{2} -25x+41\\) должен пересекать ось ординат в точке \\((0; 41)\\). Значит, график \\(y=f(x)\\) изображен справа, а график \\(y=g( x)\\) - слева. Графически определяем коэффициенты графика \\(y=g( x)\\):\n$$c=-1,\\\\ a=1,\\\\ x_{в} =-\\frac{b}{2a} \\ \\Rightarrow \\ -1=-\\ \\frac{b}{2} \\ \\Rightarrow \\ b=2$$\nТаким образом:\n$$g( x) =x^{2} +2x-1$$\nНайдем точки пересечения \\(f( x) = g( x)\\):\n$$4x^{2} -25x+41=x^{2} +2x-1\\\\ 3x^{2} -27x+42=0\\\\ x^{2} -9x+14=0\\\\ \\left[ \\begin{array}{l l} x=2\\\\ x=7 \\end{array} \\right.$$\nПо графику очевидно, что \\(x=2\\) соответствует точке \\(A\\), следовательно точке \\(B\\) соответствует значение \\(x=7\\).\n\nОтвет: 7",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2443,
+    "title": "11.7 Поиск точки пересечения графиков"
+  },
+  "id": 8213,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены графики функций \\(\\ f( x) =4x^{2} -25x+41\\) и \\(g( x) =ax^{2} +bx+c\\), которые пересекаются в точках \\(A\\) и \\(B\\). Найдите абсциссу точки \\(B\\).",
+      "error_conditions": [],
+      "id": 101524,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=1599"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://www.youtube.com/embed/rmHMxoNjlec?start=1599"
+}

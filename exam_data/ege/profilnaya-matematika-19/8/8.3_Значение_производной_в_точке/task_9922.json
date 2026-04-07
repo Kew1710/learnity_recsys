@@ -1,0 +1,45 @@
+{
+  "comment": "Значение производной в точке равно тангенсу угла наклона касательной к этой точке относительно положительного направления оси \\(x\\).\nДостроим до треугольника: противолежащий катет равен \\(10\\), а прилежащий \\(5\\). Значит,\n$$f'(x)=tg(\\alpha )=\\frac{10}{5}=2$$\n\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2414,
+    "title": "8.3 Значение производной в точке"
+  },
+  "id": 9922,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены графики функции \\(y=f(x)\\) и касательная к нему в точке с абсциссой \\(x_0\\). Найдите значение производной функции \\(f(x)\\) в точке \\(x_0\\).",
+      "error_conditions": [],
+      "id": 120077,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=7138"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=7138"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nДоказать, что \\(MN||BO\\)\n\n\\(\\angle ANM=\\frac{\\smile{MN}}{2}\\) (угол между касательной и хордой)\n\\(\\smile{NC} = {180}^{\\circ} - \\smile{MN}\\)\n\nПроведём \\(ON\\)\n\\(\\Delta ONB=\\Delta OCB\\) по двум катетам (\\(ON=OC\\) как радиусы, \\(BN=BC\\) как отрезки касательных) \\(\\Rightarrow BO\\) – биссектриса \\(\\angle NOC\\) \\(\\Rightarrow T\\) – середина дуги \\(NC\\)\n$$\\smile{NT}= \\; \\smile{CT}=\\frac{\\smile{NC}}{2}= {90}^{\\circ}-\\frac{\\smile{MN}}{2}$$\n$$\\angle NOT=\\angle COB= {90}^{\\circ}-\\frac{\\smile{MN}}{2}\\\\ \\angle NBO=\\frac{\\smile{MN}}{2}\\\\ \\Rightarrow \\frac{\\smile{MN}}{2}=\\angle NBO=\\angle ANM ~(углы~соответственные~при~MN~и~OB)\\\\ \\Rightarrow MN||OB\\\\ Ч.т.д.$$\nб) \\(CN=4\\), \\(\\frac{AM}{MC}=\\frac{1}{3}\\)\n\nПусть \\(AM=2х\\), \\(MC=6х\\)\n\\(MO=OC=3x\\) (радиусы)\n\\(S_{BOMN}-?\\)\n\\(S_{BOMN}=S_{BOA}-S_{NMA}\\)\n\n\\(\\Delta BOA\\sim\\Delta NMA\\) по двум углам (\\(\\angle A\\) общий, \\(\\angle MNA=\\angle OBA\\))\n$$K=\\frac{OA}{MA}=\\frac{3x+2x}{2x}=\\frac{5}{2}$$\n\\(S_{NMA}=\\frac{4}{25}S_{BOA}\\) (площади относятся как квадрат коэффициента подобия)\n$$S_{BOMN}=S_{BOA}-\\frac{4}{25}S_{BOA}=\\frac{21}{25}S_{BOA}$$\nВ \\(\\Delta AON\\) по теореме Пифагора:\n$$AN^2=AO^2-ON^2\\\\ AN^2=25x^2-9x^2\\\\ AN=4x$$\nПусть \\(NB=CB=y\\) как отрезки касательных\nПо теореме Пифагора в \\(\\Delta ABC\\):\n$$y^2+64x^2=(4x+y)^2\\\\ 48x^2=8xy\\\\ 6x=y\\\\ NB=CB=6x\\\\ S(BOA)=S(ONA)+S(ONB)=\\frac{1}{2}\\cdot 3x\\cdot 4x+\\frac{1}{2}\\cdot 3x\\cdot 6x=15x^2$$\nИз \\(\\Delta COB\\) по теореме Пифагора:\n$$OB=\\sqrt{CB^2+OC^2}=3\\sqrt{5}x\\\\ MN=\\frac{2}{5}OB=\\frac{6\\sqrt{5}\\cdot x}{5}$$\nПо теореме Пифагора для \\(\\Delta MNC\\):\n$$\\frac{36\\cdot 5}{25}x^2+16=36x^2\\\\ 16=36x^2-\\frac{36x^2}{5}\\\\ 4=x^2-\\frac{9x^2}{5}\\\\ \\frac{36x^2}{5}=4\\\\ x^2=\\frac{5}{9}\\\\ x=\\frac{\\sqrt{5}}{3}\\\\ S_{BOA}=15\\cdot x^2=\\frac{75}{9}\\\\ S_{BOMN}=\\frac{21}{25}S_{BOA}=\\frac{21}{25}\\cdot\\frac{75}{9}=7$$\nОтвет: 7",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2485,
+    "title": "17.5 Вписанная и описанная окружности в треугольниках"
+  },
+  "id": 9733,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дан прямоугольный треугольник \\(ABC\\) с прямым углом \\(C\\). На катете \\(AC\\) взята точка \\(M\\). Окружность с центром \\(O\\) и диаметром \\(CM\\) касается гипотенузы в точке \\(N\\).\nа) Докажите, что прямые \\(MN\\) и \\(BO\\) параллельны.\nб) Найдите площадь четырехугольника \\(BOMN\\), если \\(CN=4\\) и \\(AM:MC=1:3\\).",
+      "error_conditions": null,
+      "id": 117470,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/B5hiaZ4zu_o?start=10147"
+}

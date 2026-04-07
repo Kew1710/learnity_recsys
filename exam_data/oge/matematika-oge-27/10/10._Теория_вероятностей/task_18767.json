@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(P=\\cfrac{2}{10}=0,2\\) - вероятность того, что доставшийся пазл будет с машиной",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2043,
+    "title": "10. Теория вероятностей"
+  },
+  "id": 18767,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Родительский комитет закупил 10 пазлов для подарков детям в связи с окончанием учебного года, из них 2 с машинами и 8 с видами городов. Подарки распределяются случайным образом между 10 детьми, среди которых есть Андрюша. Найдите вероятность того, что Андрюше достанется пазл с машиной.",
+      "error_conditions": [],
+      "id": 238606,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

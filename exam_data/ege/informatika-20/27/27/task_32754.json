@@ -1,0 +1,45 @@
+{
+  "comment": "Решение для файла А:\nf = open('27_A_2024.txt')\nn = int(f.readline())\na = [int(x) for x in f]\nmaxs = -10**100\nfor i in range(len(a)):\nfor j in range(i+1,len(a)):\nfor k in range(j+1,len(a)):\nif a[i] > a[j] and a[k] > a[j]:\nmaxs = max(maxs, a[i]-a[j] + a[k] - a[j])\nprint(maxs)\n\nРешение для файла В:\nf = open('27_B_2024.txt')\nn = int(f.readline())\ns = [int(x) for x in f]\n\nmaxl = [-1000] * len(s) # список максимальных слева\nmaxr = [-1000] * len(s) # список максимальных справа\n# проходим 2 раза (лева на право, и право на лево)\nfor i in range(1, len(s)):\nmaxl[i] = max(maxl[i-1], s[i-1])\nfor i in range(len(s)-1, 0, -1):\nmaxr[i-1] = max(maxr[i], s[i])\nmaxs = -100000\n# теперь просто считаем максимальную разницу\nfor i in range(1, len(s) - 1):\nif s[i]< maxl[i] and s[i]< maxr[i]:\nmaxs=max(maxs,(maxr[i] - s[i]) + (maxl[i] - s[i]))\nprint(maxs)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1551,
+    "title": "№27"
+  },
+  "id": 32754,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "19950 1976",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "ЗАДАНИЕ, не входящее в ЕГЭ 2025 года\n(ОСН_1_2024) Пусть S последовательность из N целых чисел, пронумерованных подряд начиная с 1. Обозначим Si, Sj, Sk три элемента последовательности (i<j<k).\nОпределите в последовательности S три таких числа Si, Sj, Sk. что Si > Sj, Sk > Sj и (Si - Sj) + (Sk - Sj) максимально.\nВ ответе укажите найденное максимальное значение выражения (Si - Sj) + (Sk - Sj). Гарантируется, что в последовательности есть три числа Si, Sj, Sk, удовлетворяющие условию задачи.\nВходные данные\nДано два входных файла (файл А и файл В), каждый из которых в первой строке содержит число N(5 <= N <= 10 000 000) - количество целых чисел. Каждая из следующих N строк содержит одно целое число, значение которого по модулю не превышает 1000.\nВ ответе укажите для числа через пробел: сначала значение искомой величины\nдля файла А, затем - для файла В.",
+      "error_conditions": [],
+      "id": 252393,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 44,
+    "title": "Эффективные алгоритмы"
+  },
+  "video_link": null
+}

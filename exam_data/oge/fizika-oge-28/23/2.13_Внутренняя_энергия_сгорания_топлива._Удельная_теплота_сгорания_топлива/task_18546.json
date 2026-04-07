@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nКПД считается по формуле: $$\\eta=\\frac{A_п}{A_{зат}}$$\nВ данном случае полезная работа равна количеству выделившейся теплоты, а затраченная работа искомой работе \\(A\\): $$\\eta=\\frac{A}{Q}$$\nПодставим числовые значения и найдем работу машины: $$0,25=\\frac{A}{4~МДж} \\\\ A=1~МДж$$\n\nОтвет: 1 МДж (или 1000000 Дж)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3252,
+    "title": "2.13 Внутренняя энергия сгорания топлива. Удельная теплота сгорания топлива"
+  },
+  "id": 18546,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "КПД тепловой машины равен \\(25\\%\\). Какую работу совершила машина, если при сгорании топлива выделилось количество теплоты, равное \\(4\\) МДж?",
+      "error_conditions": null,
+      "id": 238388,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/tP_AT-ip4rg"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Введём обозначения и рассмотри треугольники ABC и DEC. Так как угол \\(С\\) у них общий, а углы \\(B\\) и \\(E\\) равны \\(90\\unicode{xB0}\\), значит треугольники подобны по двум углам.\nТогда верно следующее соотношение:\n$$\\frac{AB}{DE} = \\frac{BC}{EC},$$ где \\(BC = BE + EC = 4 + 1 = 5\\).\nОтсюда\n$$\\frac{AB}{1,8} = \\frac{5}{1} \\Rightarrow AB = \\frac{5 \\cdot 1,8}{1} = 9$$\nОтвет: 9 м.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2095,
+    "title": "10.3 Треугольник"
+  },
+  "id": 24937,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Человек, рост которого равен 1,8 м, стоит на расстоянии 4 м от уличного фонаря. При этом длина тени человека равна 1 м. Определите высоту фонаря (в метрах).",
+      "error_conditions": [],
+      "id": 244594,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Сейчас плата за телефон составляет 300 рублей - это 100%. В следующем году плата станет 100% + 6% = 106%.\n$$\\frac{300 \\cdot 106\\%}{100\\%} = 318 \\; рублей$$\nОтвет: 318 рублей.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2114,
+    "title": "15.1 Задачи на проценты"
+  },
+  "id": 29382,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "318",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ежемесячная плата за телефон составляет 300 рублей. В следующем году она увеличится на 6%. Сколько рублей будет составлять ежемесячная плата за телефон в следующем году?",
+      "error_conditions": [],
+      "id": 249021,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "ВИЧ передается при незащищенном половом акте, через нестерилизованные медицинские и другие инструменты, грудное молоко от матери к ребенку, через кровь.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2917,
+    "title": "Бактерии и вирусы"
+  },
+  "id": 28499,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Верны ли следующие утверждения о вирусах?\nА. Вирусы - неклеточные формы жизни.\nБ. ВИЧ передается от человека к человеку бытовым и воздушно-капельным путём.\n1) верно только А\n2) верно только Б\n3) верны оба суждения\n4) оба суждения неверны",
+      "error_conditions": [],
+      "id": 248138,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

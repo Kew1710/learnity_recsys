@@ -1,0 +1,42 @@
+{
+  "comment": "Очевидно, что модуль ускорения - максимальный в промежутке от \\(0,5\\) до \\(1\\) с, т.к. тангенс угла наклона на этом промежутке - наибольший.\n$$a_x=\\frac{v_{кон}-v_{нач}}{\\Delta t}=\\frac{-30-(-6)}{1-0,5}=\\frac{-30+6}{0,5}= -48 ~м/с^2$$\nТак как просили определить максимальный модуль, то:\n$$|a_x|=48 ~м/c^2$$\nОтвет: 48 м/с\\(^2\\)",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2609,
+    "title": "Графики в кинематике"
+  },
+  "id": 8283,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "48",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "230313\nДвижение материальной точки по оси \\(Ox\\) описывает приведенный на рисунке график. Определите максимальное по модулю значение проекции ускорения точки. Ответ дайте в \\(м/с^2\\).",
+      "error_conditions": [],
+      "id": 101958,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/iXCDdt0kMXw"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://youtu.be/iXCDdt0kMXw"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а) По формуле косинуса двойного угла: \\(\\cos 2x=1-2\\sin^2 x\\)\n$$16\\sin^4x+8(1-2\\sin^2x)-7=0\\\\ 16\\sin^4x-16\\sin^2x+1=0$$\nЗамена \\(\\sin^2x=t\\)\n$$\\displaystyle 16t^{2} +16t+1=0\\Leftrightarrow \\left[ \\begin{array}{l l}\nt=\\frac{2+\\sqrt{3}}{4}\\\\\nt=\\frac{2-\\sqrt{3}}{4}\n\\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l}\n\\sin^{2} x=\\frac{2+\\sqrt{3}}{4}\\\\\n\\sin^{2} x=\\frac{2-\\sqrt{3}}{4}\n\\end{array} \\right.$$\nПо формуле понижения степени: \\(\\sin^2x=\\frac{1-\\cos 2x}{2}\\)\n$$\\displaystyle \\left[ \\begin{array}{l l}\n\\frac{1-\\cos 2x}{2} =\\frac{2+\\sqrt{3}}{4}\\\\\n\\frac{1-\\cos 2x}{2} =\\frac{2-\\sqrt{3}}{4}\n\\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l}\n\\cos 2x=-\\frac{\\sqrt{3}}{2}\\\\\n\\cos 2x=\\frac{\\sqrt{3}}{2}\n\\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l}\n2x=\\pm \\frac{5\\pi }{6} +2\\pi k\\\\\n2x=\\pm \\frac{\\pi }{6} +2\\pi k\n\\end{array} \\right. ,k\\in Z\\\\ \\displaystyle \\left[ \\begin{array}{l l}\nx=\\pm \\frac{5\\pi }{12} +\\pi k\\\\\nx=\\pm \\frac{\\pi }{12} +\\pi k\n\\end{array} \\right. ,k\\in Z$$\nОтберем корни на промежутке \\([0,5\\pi;2\\pi]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$\\frac{\\pi}{2}+\\frac{\\pi}{12}=\\frac{7\\pi}{12}\\\\ \\pi-\\frac{\\pi}{12}=\\frac{11\\pi}{12}\\\\ \\pi+\\frac{\\pi}{12}=\\frac{13\\pi}{12}\\\\ \\frac{3\\pi}{2}-\\frac{\\pi}{12}=\\frac{17\\pi}{12}\\\\ \\frac{3\\pi}{2}+\\frac{\\pi}{12}=\\frac{19\\pi}{12}\\\\ 2\\pi-\\frac{\\pi}{12}=\\frac{23\\pi}{12}$$\nОтвет: а) {\\(\\pm\\frac{5\\pi}{12}+\\pi k;\\pm\\frac{\\pi}{12}+\\pi k:k\\in Z\\)}, б) \\(\\frac{7\\pi}{12}; \\frac{11\\pi}{12};\\frac{13\\pi}{12};\\frac{17\\pi}{12};\\frac{19\\pi}{12};\\frac{23\\pi}{12}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 10364,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(16\\sin^4x+8\\cos 2x-7=0\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\([0,5\\pi;2\\pi]\\).",
+      "error_conditions": null,
+      "id": 137757,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 56,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/XWpUtQMg60w?si=_Uq-n4p5VAx9iTJ7&t=3325"
+}

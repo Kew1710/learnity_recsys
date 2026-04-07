@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\frac{10^{\\frac{1}{40}}\\cdot 10\\cdot 10^{\\frac{1}{24}}}{10^{\\frac{1}{15}}}=\\frac{10^{\\frac{3}{120}}\\cdot 10\\cdot 10^{\\frac{5}{120}}}{10^{\\frac{1}{15}}}=\\frac{10^{\\frac{128}{120}}}{10^{\\frac{1}{15}}}=10^{\\frac{128}{120}-\\frac{1}{15}}=10^{\\frac{16}{15}-\\frac{1}{15}}=10$$\nОтвет: 10",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2411,
+    "title": "7.7 Свойства степеней"
+  },
+  "id": 9290,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение \\(\\frac{\\sqrt[40]{10}\\cdot 10\\cdot\\sqrt[24]{10}}{\\sqrt[15]{10}}\\).",
+      "error_conditions": [],
+      "id": 113193,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1259"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/JljAoFwnsGM?start=1259"
+}

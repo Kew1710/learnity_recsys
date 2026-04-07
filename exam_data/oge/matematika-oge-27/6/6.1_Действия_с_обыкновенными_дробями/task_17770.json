@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{3}{5} : \\cfrac{4}{35}=\\cfrac{3 \\cdot 35}{5 \\cdot 4}=\\cfrac{21}{4}=5,25\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1932,
+    "title": "6.1 Действия с обыкновенными дробями"
+  },
+  "id": 17770,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\cfrac{3}{5} : \\cfrac{4}{35}\\) .",
+      "error_conditions": [],
+      "id": 237650,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

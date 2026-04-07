@@ -1,0 +1,42 @@
+{
+  "comment": "По закону Ома для участка цепи:\n$$I=\\frac{U}{R}\\Rightarrow R=\\frac{U}{I}=\\frac{16}{4\\cdot 10^{-3}}=4000~Ом=4~кОм$$\n\nОтвет: 4 кОм",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 10121,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "236015\nГрафическая зависимость силы тока, проходящего через медный проводник, от подаваемого на него напряжения представлена на рисунке. Определите сопротивление проводника. Ответ дайте в кОм.",
+      "error_conditions": [],
+      "id": 122286,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/6D45Zvr1t5k"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/6D45Zvr1t5k"
+}

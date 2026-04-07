@@ -1,0 +1,37 @@
+{
+  "comment": "Капелька ртути будет двигаться без трения, пока с левой и с правой стороны давление не выровняется до $p_0$ Запишем уравнение Менделеева-Клапейрона для горизонтального положения:\n$$\np_0 V_0=\\nu R T_1\\Rightarrow \\frac{\\nu R}{V_0}=\\frac{p_0}{T_1} \\text { (1) }\n$$\nЗатем температура повышается. Запишем 2 закон Ньютона для вертикального положения:\n$$p_2 S-p_0 S-m g=0, \\text{ где } m=\\rho_{\\text {рт }} S d$$\nЗапишем уравнение Менделеева-Клапейрона для вертикального положения:\n$$\np_2 V_0=\\nu R T_2\\Rightarrow p_2=\\frac{\\nu R T_2}{V_0}\n$$\nТогда:\n$$\n\\frac{\\nu R T_2}{V_0} S-p_0 S-\\rho_{\\text {рт }} S d g=0 \\text { (2) }\n$$\nСократим на \\(S\\) и подставим (1) во (2):\n$$\n\\frac{p_0}{T_1} T_2-p_0=\\rho_{\\text {рт }} d g\\Rightarrow d=\\frac{p_0\\left(T_2-T_1\\right)}{T_1 \\rho_{\\mathrm{рт}} g}=\\frac{p_0\\Delta T}{T_1 \\rho_{\\mathrm{рт}} g}$$\nПеревод в паскали из мм рт. ст.:\n$$\np_0=750 \\cdot 10^{-3} \\cdot g \\cdot \\rho_{\\mathrm{pт}}\n$$\nТогда:\n$$\nd=\\frac{750\\cdot10^{-3}{ } g\\cdot \\rho_{\\mathrm{рт}}\\cdot 60}{T_1 \\rho_{\\mathrm{рт}} g}=\\frac{750\\cdot 10^{-3} \\cdot 60}{300}=0,15~ \\mathrm{м}\n$$\nОтвет: 0,15 м",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2653,
+    "title": "МКТ и молекулярная физика"
+  },
+  "id": 2311,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задача CC125F\nВ горизонтально расположенной трубке с одним закрытым концом с помощью столбика ртути заперт воздух при температуре \\(27~^\\circ С\\). Затем трубку переворачивают вертикально открытым концом вверх и нагревают на \\(60~^\\circ С\\), в результате чего объем запертого воздуха становится таким же, как и был в горизонтальном положении. Найдите \\(d\\) – высоту столбика ртути, если атмосферное давление равно \\(750\\) мм рт. ст.",
+      "error_conditions": null,
+      "id": 58250,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/30XMnLC8BcE?start=6036"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "N₂ + 3H₂ = 2NH₃\n\nВ газовой реакции коэффициенты в уравнении реакции показывают объемные отношения реагирующих газов:\nV(H₂) = x л\nПо уравнению: 3 моль - 2 моль\nПо условию: x л - 100 л\nx = (3 • 100)/2 = 150\nV(H₂) = 150 л",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2856,
+    "title": "Расчёты теплового эффекта (по термохимическим уравнениям)"
+  },
+  "id": 935,
+  "is_obsolete": false,
+  "number": 27,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "150",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой объем водорода теоретически необходим для синтеза 100 л аммиака? Объемы газов измерены в одинаковых условиях. (Запишите число с точностью до десятых.)",
+      "error_conditions": [],
+      "id": 52495,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/VXjq663s4AM?start=5527"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/VXjq663s4AM?start=5527"
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничение: \\(x>0\\)\nЗамена: \\(\\log_4x=t\\)\n$$\\frac{(t+2)^2}{t^2-9}\\geq 0\\\\ \\frac{(t+2)^2}{(t-3)(t+3)}\\geq 0$$\n$$\\displaystyle \\left[ \\begin{array}{l l} t >3\\\\ t=-2\\\\ t< -3 \\end{array} \\right.$$\nОбратная замена:\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\begin{cases} \\left[ \\begin{array}{l l} \\log_{4} x >3\\\\ \\log_{4} x=-2\\\\ \\log_{4} x< -3 \\end{array} \\right.\\\\ x >0 \\end{cases}\\\\ \\begin{cases} \\left[ \\begin{array}{l l} \\log_{4} x >\\log_{4} 64\\\\ \\log_{4} x=\\log_{4}\\frac{1}{16}\\\\ \\log_{4} x< \\log_{4}\\frac{1}{64} \\end{array} \\right.\\\\ x >0 \\end{cases} \\end{array}$$\nТак как логарифм по основанию 4 монотонно возрастает, то равносильно:\n$$\\displaystyle \\begin{cases} \\left[ \\begin{array}{l l} x >64\\\\ x=\\frac{1}{16}\\\\ x< \\frac{1}{64} \\end{array} \\right.\\\\ x >0 \\end{cases}$$\nОтвет: \\(x\\in (0;\\frac{1}{64})~\\cup \\) {\\(\\frac{1}{16}\\)} \\(\\cup~(64;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2468,
+    "title": "15.2 Замена"
+  },
+  "id": 11432,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{(\\log_4x+2)^2}{\\log_4^2x-9}\\geq 0\\).",
+      "error_conditions": null,
+      "id": 148980,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": null
+}

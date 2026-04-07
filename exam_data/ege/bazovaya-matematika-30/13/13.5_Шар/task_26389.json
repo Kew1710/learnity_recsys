@@ -1,0 +1,42 @@
+{
+  "comment": "Возьмем из справочных материалов формулу объема шара \\(V=\\frac{4}{3} \\pi r^{3}\\). Запишем объем для обоих:\n$$V_{б} =\\frac{4}{3} \\cdot \\pi \\cdot 8^{3} = \\frac{4}{3} \\cdot 512\\pi $$\n$$V_{м} =\\frac{4}{3} \\cdot \\pi \\cdot 2^{3} =\\frac{4}{3} \\cdot 8 \\pi $$\nТогда \\(\\frac{V_{б}}{V_{м}} =\\frac{\\frac{4}{3} \\cdot 512\\pi }{\\frac{4}{3} \\cdot 8 \\pi } = 64\\)\nОтвет: в 64 раза.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2252,
+    "title": "13.5 Шар"
+  },
+  "id": 26389,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "64",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны два шара с радиусами 8 и 2. Во сколько раз объём большего шара больше объёма другого?",
+      "error_conditions": [],
+      "id": 246028,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "1) 2KClO₃ = 2KCl + 3O₂↑\n2) 3Fe + 2O₂ = Fe₃O₄\n3) Fe₃O₄ + 8HCl = FeCl₂ + 2FeCl₃ + 4H₂O\n4) 6FeCl₂ + Na₂Cr₂O₇ + 14HCl = 6FeCl₃ + 2CrCl₃ + 2NaCl + 7H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 8794,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Хлорат калия нагрели в присутствии катализатора, при этом выделился бесцветный газ. Сжиганием железа в атмосфере этого газа была получена железная окалина. Её растворили в избытке соляной кислоты. К полученному при этом раствору добавили раствор, содержащий дихромат натрия и соляную кислоту. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 111996,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 45,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

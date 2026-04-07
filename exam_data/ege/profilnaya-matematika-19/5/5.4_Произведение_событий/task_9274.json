@@ -1,0 +1,45 @@
+{
+  "comment": "Будем использовать обозначения: К - козел, НК - не козел.\n\nВероятность того, что НК:\n$$1-К=1-0,9=0,1$$\nИскомая вероятность: К и К и К и НК.\n\nПодставляем вероятности из условия:\n$$0,9\\cdot 0,9\\cdot 0,9\\cdot 0,1=0,0729$$\nОтвет: 0,0729",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2398,
+    "title": "5.4 Произведение событий"
+  },
+  "id": 9274,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,0729",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Девушка ходит на свидание с парнями из Тиндера. Вероятность пойти на свидание с козлом \\(0,9\\). Найдите вероятность того, что девушка трижды сходит на свидание с козлами и \\(1\\) раз не с козлом.",
+      "error_conditions": [],
+      "id": 113168,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Yu92P7ueg44?start=2221"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 5,
+    "title": "Сложная вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/Yu92P7ueg44?start=2221"
+}

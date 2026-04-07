@@ -1,0 +1,45 @@
+{
+  "comment": "Прямоугольный параллелепипед, описанный около сферы, является кубом со стороной:\n$$ a = 2r $$\nОбъем куба считается по формуле:\n$$ V = a^3 = 8r^3 = 8 \\cdot 17^3 = 39304 $$\nОтвет: 39304",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2392,
+    "title": "3.9 Формулы объемов"
+  },
+  "id": 7080,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "39304",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Прямоугольный параллелепипед описан около сферы радиуса \\(17\\). Найдите его объем.",
+      "error_conditions": [],
+      "id": 81346,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/Ib2nkEDNesY?t=5562"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://youtu.be/Ib2nkEDNesY?t=5562"
+}

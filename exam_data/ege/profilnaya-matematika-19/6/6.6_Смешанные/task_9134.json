@@ -1,0 +1,45 @@
+{
+  "comment": "Это смешанное уравнение. Оно является логарифмическим и показательным одновременно.\n\nПриведем обе части уравнения к общему основанию, к \\(2\\):\n$$2^{\\log_4(2x+2)}=2^2$$\nОснования равны, значит, можем приравнять показатели степеней:\n$$\\log_4(2x+2)=2$$\nВоспользуемся определением логарифма:\n$$4^2=2x+2\\\\ 16=2x+2\\\\ 2x=14\\\\ x=7$$\nОтвет: 7",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2404,
+    "title": "6.6 Смешанные"
+  },
+  "id": 9134,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(2^{\\log_4(2x+2)}=4\\).",
+      "error_conditions": [],
+      "id": 112869,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=3238"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=3238"
+}

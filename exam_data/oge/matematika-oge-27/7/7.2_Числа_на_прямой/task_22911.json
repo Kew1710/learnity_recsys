@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nЗаметим, что \\(z < y < x\\). Разность отрицательна только в том случае, когда вычитаемое больше уменьшаемого. Это верно только для разности \\(z - x\\)\nОтвет: 1",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22911,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечены числа x, y и z. Какая из разностей z - x, y - z, x - y отрицательна? В ответе укажите номер правильного варианта.",
+      "error_conditions": [],
+      "id": 242638,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

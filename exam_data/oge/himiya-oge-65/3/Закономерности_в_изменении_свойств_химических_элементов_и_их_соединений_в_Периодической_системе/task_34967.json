@@ -1,0 +1,42 @@
+{
+  "comment": "Неметаллические свойства уменьшаются в периоде справа налево и в группе сверху вниз\nСледовательно соединения углерода будут обладать самыми сильными неметаллические свойствами, магния - самыми слабыми",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2887,
+    "title": "Закономерности в изменении свойств химических элементов и их соединений в Периодической системе"
+  },
+  "id": 34967,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "213",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расположите химические элементы\n1) кремний 2) углерод 3) магний\nв порядке ослабления неметаллических свойств образуемых ими простых веществ.",
+      "error_conditions": [],
+      "id": 254606,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

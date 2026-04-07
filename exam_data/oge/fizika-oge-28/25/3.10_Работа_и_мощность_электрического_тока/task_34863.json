@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем формулу КПД,где полезная работа – это работа по поднятию груза на высоту h :\n$$\\eta=\\frac{A_{п}}{A_{зат}}=\\frac{mgh}{P\\cdot t}$$ Подставим числовые значения и вычислим потребляемую мощность: $$0,6=\\frac{150\\cdot 10 \\cdot 12}{P\\cdot 20}\\\\P=\\frac{150\\cdot 10\\cdot 12}{0,6\\cdot 20}=1500~Вт$$ Ответ: $1500~Вт$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34863,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какова потребляемая мощность электрического подъёмника, если известно, что за $20$ с он равномерно поднимает груз массой $150$ кг на высоту $12$ м? КПД электродвигателя подъёмника равен $60$%.",
+      "error_conditions": null,
+      "id": 254502,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

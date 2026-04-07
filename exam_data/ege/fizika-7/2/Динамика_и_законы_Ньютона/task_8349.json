@@ -1,0 +1,42 @@
+{
+  "comment": "Найдем сумму векторов по правилу параллелограмма. Диагональ этого параллелограмма - вектор \\(F\\) - искомая равнодействующая сила.\nНайдем модуль равнодействующей силы из векторой суммы сил \\(\\vec{F_1}\\) и \\(\\vec{F_2}\\):\nПосчитаем значение модуля равнодействующей силы:\n$$F=3\\cdot 2 ~кН=6 ~кН $$\nОтвет: 6 кН.",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2612,
+    "title": "Динамика и законы Ньютона"
+  },
+  "id": 8349,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "230703\nНа бусинку действуют две силы \\(\\vec{F_1}\\) и \\(\\vec{F_2}\\), изображенные на рисунке. Определите модуль равнодействующей силы, действующей на бусинку. Ответ дайте в кН.",
+      "error_conditions": [],
+      "id": 102124,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/IBQHmXIykzY"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://youtu.be/IBQHmXIykzY"
+}

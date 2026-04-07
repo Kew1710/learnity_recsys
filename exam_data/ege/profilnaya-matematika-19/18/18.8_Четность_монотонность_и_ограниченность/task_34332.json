@@ -1,0 +1,40 @@
+{
+  "comment": "Преобразуем исходное уравнение:\n$$\\sqrt[4]{a^4+x^4}-\\cos\\frac{x}{2}-a^2+2a+1=0$$\nРассмотрим функцию \\(f(x)=\\sqrt[4]{a^4+x^4}-\\cos\\frac{x}{2}-a^2+2a+1\\). Так как \\(f(-x)=\\sqrt[4]{a^4+(-x)^4}-\\cos\\left(-\\frac{x}{2}\\right)-a^2+2a+1=\\sqrt[4]{a^4+x^4}-\\cos\\frac{x}{2}-a^2+2a+1=f(x)\\), то есть рассматриваемая функция \\(f(x)\\) – чётная, то любому значению \\(f(x)\\) соответствуют два значения аргумента: \\(\\pm x\\). Тогда исходное уравнение будет иметь единственное решение только при \\(x=0\\):\n$$\\sqrt[4]{a^4+0^4}-\\cos\\frac{0}{2}-a^2+2a+1=|a|-1-a^2+2a+1=|a|-a^2+2a=0\\\\ \\displaystyle \\begin{array}{{>{\\displaystyle}l}} |a|=a^{2} -2a\\Rightarrow \\left[ \\begin{array}{l l} \\begin{cases} a< 0\\\\ -a=a^{2} -2a \\end{cases}\\\\ \\begin{cases} a\\geq 0\\\\ a=a^{2} -2a \\end{cases} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} a< 0\\\\ a^{2} -a=0 \\end{cases}\\\\ \\begin{cases} a\\geq 0\\\\ a^{2} -3a=0 \\end{cases} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} a< 0\\\\ a( a-1) =0 \\end{cases}\\\\ \\begin{cases} a\\geq 0\\\\ a( a-3) =0 \\end{cases} \\end{array} \\right. \\Leftrightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Leftrightarrow \\left[ \\begin{array}{l l} \\begin{cases} a< 0\\\\ \\left[ \\begin{array}{l l} a=0\\\\ a=1 \\end{array} \\right. \\end{cases}\\\\ \\begin{cases} a\\geq 0\\\\ \\left[ \\begin{array}{l l} a=0\\\\ a=3 \\end{array} \\right. \\end{cases} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} a\\in \\emptyset \\\\ a=0\\\\ a=3 \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} a=0\\\\ a=3 \\end{array} \\right. \\end{array}$$\nТаким образом, исходное уравнение имеет ровно одно решение при \\(a\\in \\{0;3\\}\\).\n\nОтвет: \\(a\\in \\{0;3\\}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2497,
+    "title": "18.8 Четность, монотонность и ограниченность"
+  },
+  "id": 34332,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите все значения \\(a\\), при каждом из которых уравнение\n$$\\sqrt[4]{a^4+x^4}=\\cos\\frac{x}{2}+a^2-2a-1$$\nимеет ровно одно решение.",
+      "error_conditions": null,
+      "id": 253971,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 19,
+    "title": "Параметр"
+  },
+  "video_link": "https://www.youtube.com/watch?v=IunlrnyrRY8&t=4736s"
+}

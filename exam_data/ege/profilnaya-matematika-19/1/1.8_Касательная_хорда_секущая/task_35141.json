@@ -1,0 +1,45 @@
+{
+  "comment": "Вписанный угол равен половине градусной меры дуги, на которую он опирается. Значит, \\(\\angle BDA=\\frac{\\cup AB}{2}=\\frac{123^\\circ}{2}=61,5^\\circ\\).\n\\(\\angle ADC=180^\\circ-\\angle BDA=180^\\circ-61,5^\\circ=118,5^\\circ\\) как смежный.\n\nСогласно свойтву углов треугольника в \\(\\Delta CDA\\) \\(\\angle ADC+\\angle DAE+\\angle ACB=180^\\circ\\). Тогда \\(\\angle DAE=180^\\circ-\\angle ADC-\\angle ACB=180^\\circ-118,5^\\circ-28,5^\\circ=33^\\circ\\).\n\nОтвет: 33",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2379,
+    "title": "1.8 Касательная, хорда, секущая"
+  },
+  "id": 35141,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "33",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Угол \\(ACB\\) равен \\(28,5^\\circ\\). Градусная мера дуги \\(AB\\) окружности, не содержащей точек \\(D\\) и \\(E\\), равна \\(123^\\circ\\). Найдите угол \\(DAE\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 254780,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=qLtea66lhyw&t=3577s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/watch?v=qLtea66lhyw&t=3577s"
+}

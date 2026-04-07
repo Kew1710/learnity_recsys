@@ -1,0 +1,37 @@
+{
+  "comment": "Период дифракционной решетки:\n$$d=\\frac{l}{N}$$\nУсловие интерференционных максимумов дифракционной решетки:\n$$d\\sin\\varphi=k\\lambda,$$\nОткуда\n$$\\sin\\varphi=\\frac{k\\lambda}{d}~(1)$$\nЧтобы интерференционный максимум попадал на решетку, должно выполняться условие:\n$$\\varphi\\leq90^{\\circ}\\Rightarrow\\sin\\varphi\\leq1~(2)$$\nПодставим \\(2\\) в \\(1\\):\n$$\\frac{k\\lambda}{d}\\leq1,$$\nОткуда:\n$$k\\leq\\frac{l}{N \\lambda}\\\\ k\\leq\\frac{10^{-3}}{100 \\cdot 650\\cdot 10^{-9}}\\\\ k\\leq15,4$$\nТак как порядок дифракционного максимума – целое число, то максимальный порядок будет равен \\(15\\)\n\nОтвет: 15",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 5584,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Задание 5E047E\nНа дифракционную решетку, имеющую \\(N=100\\) штрихов на \\(x=1~мм\\), перпендикулярно ее поверхности падает луч света, длина волны которого \\(\\lambda=650~нм\\). Каков максимальный порядок дифракционного максимума, доступного для наблюдения?",
+      "error_conditions": null,
+      "id": 71931,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/TNwF4ezvkmE?start=5231"
+}

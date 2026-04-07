@@ -1,0 +1,42 @@
+{
+  "comment": "Всего нужно перевезти \\(165 + 22 = 187\\) пассажиров. Разделим общее число пассажиров на максимальное число пассажиров в одном автобусе \\(187 / 45 = 4,155…\\)\nЗначит, нужно больше 4 автобусов. Тогда наименьшее число будет 5.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2065,
+    "title": "1.2 Округление с избытком"
+  },
+  "id": 28118,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В летнем лагере 165 детей и 22 воспитателя. В одном автобусе можно перевозить не более 45 пассажиров. Какое наименьшее количество таких автобусов понадобится, чтобы за один раз перевезти всех из лагеря в город?",
+      "error_conditions": [],
+      "id": 247757,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

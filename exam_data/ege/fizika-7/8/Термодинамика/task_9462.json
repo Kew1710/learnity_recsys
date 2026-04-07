@@ -1,0 +1,42 @@
+{
+  "comment": "Работа внешних сил равна работе газа по модулю и противоположна по знаку:\n$$A_{в.с.}=200~Дж\\Rightarrow A=-200~Дж$$\nСогласно первому закону термодинамики:\n$$Q=\\Delta U+A=-100-200=-300~Дж$$\nСледовательно, газ отдал 300 Дж.\nОтвет: 300 Дж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9462,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "300",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "233814\nРабота внешних сил, совершенная над газом, равна \\(200\\) Дж. Внутренняя энергия газа при этом уменьшилась на \\(100\\) Дж. Найдите количество теплоты, которую отдал газ. Ответ дайте в Дж.",
+      "error_conditions": [],
+      "id": 114624,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/upviExQ7_bk"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/upviExQ7_bk"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(\\begin{cases}& 4x^2+y = 9(1)\\\\ & 8x^2-y = 3 (2)\\end{cases}\\)\nРешим методом сложения\n\\(12x^2 = 12\\)\n\\(x^2=1\\)\n\\((x-1)(x+1) = 0\\)\n\\(\\Rightarrow x_1 = 1, x_2 = -1\\)\nПодставим в уравнение (1) \\(x = 1\\)\n\\(4 \\cdot 1 + y = 9\\)\n\\(y = 5\\)\nПодставим в уравнение (1) \\(x = -1\\)\n\\(4 \\cdot 1 + y = 9\\)\n\\(y = 5\\)\n\\(\\begin{cases}& x = 1\\\\ & y = 5\\end{cases}\\)\nили\n\\(\\begin{cases}& x = - 1\\\\ & y = 5\\end{cases}\\)\nОтвет: \\( (1; 5) \\cup (-1; 5) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2054,
+    "title": "20.7 Системы уравнений"
+  },
+  "id": 12951,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите систему уравнений \\(\\begin{cases}& 4x^2+y = 9\\\\ & 8x^2-y = 3\\end{cases}\\) .",
+      "error_conditions": null,
+      "id": 174303,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

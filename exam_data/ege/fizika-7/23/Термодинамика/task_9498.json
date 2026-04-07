@@ -1,0 +1,37 @@
+{
+  "comment": "Полезная работа:\n$$A_{полезн}=P\\tau$$\nКПД тепловой машины:\n$$\\eta =\\frac{A_{полезн}}{Q_н}\\Rightarrow Q_н=\\frac{A_{полезн}}{\\eta}=\\frac{P\\tau}{\\eta}=\\frac{54\\cdot 30}{0,36}=4500~Дж$$\nОтвет: 4500 Дж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9498,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23414\nСредняя полезная мощность тепловой машины с КПД \\(\\eta =36\\) % равна \\(P=54\\) Вт. Определите, какое количество теплоты рабочее тело машины получает от нагревателя за \\(30\\) с?",
+      "error_conditions": null,
+      "id": 115001,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/lvWQInMHHm0"
+}

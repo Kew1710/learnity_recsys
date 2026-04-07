@@ -1,0 +1,45 @@
+{
+  "comment": "Возьмем производную: $$ y' = 12\\cos{x} - 6\\sqrt{3} $$\nПриравняем производную к \\(0\\), чтобы найти стационарные точки: $$ 12\\cos{x} - 6\\sqrt{3} = 0 \\Rightarrow \\cos{x} = \\dfrac{\\sqrt{3}}{2} \\Rightarrow x = \\pm \\dfrac{\\pi}{6} + 2\\pi n, n \\in \\mathbb{Z} $$\nПолучим, что \\(x= \\dfrac{\\pi}{6}\\) - точка максимума, она входит в заданный отрезок.\n\nСчитаем наибольшее значение в этой точке: $$ y = 12 \\cdot \\dfrac{1}{2} - \\sqrt{3}\\pi + \\sqrt{3}\\pi + 6 = 12$$\nОтвет: 12",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2447,
+    "title": "12.4 Тригонометрическая функция"
+  },
+  "id": 35866,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите наибольшее значение функции \\(y = 12\\sin{x} - 6\\sqrt{3}x + \\sqrt{3}\\pi + 6\\) на отрезке \\(\\left[0;\\dfrac{\\pi}{2}\\right]\\).",
+      "error_conditions": [],
+      "id": 255505,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=BnwXkF13FhX8fcHe&t=11785"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 12,
+    "title": "Исследование функций"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=BnwXkF13FhX8fcHe&t=11785"
+}

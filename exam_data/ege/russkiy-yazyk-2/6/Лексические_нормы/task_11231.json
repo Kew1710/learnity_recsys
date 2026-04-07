@@ -1,0 +1,46 @@
+{
+  "comment": "придать значение, но уделять внимание",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 911,
+    "title": "Лексические нормы"
+  },
+  "id": 11231,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "внимание",
+          "points": 1
+        },
+        {
+          "answer": "придать",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Отредактируйте предложение: исправьте лексическую ошибку, заменив неверно употреблённое слово. Запишите подобранное слово, соблюдая нормы современного русского литературного языка.\n\nВсем интернет-пользователям особое значение следует уделить вопросам, касающимся компьютерной безопасности.",
+      "error_conditions": [],
+      "id": 148104,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

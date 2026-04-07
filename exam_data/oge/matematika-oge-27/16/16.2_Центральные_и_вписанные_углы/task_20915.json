@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nУгол NBA - вписанный и равен половине дуги, на которую опирается\n\\(\\Rightarrow \\smile NA = 68 \\cdot 2 = 136^o\\)\nAB является диаметром и делит окружность на две равные части\nВеличина дуги AB равна \\(180^o\\)\nОткуда величина дуги NB равна \\(180-136 = 44^o\\)\nУгол NMB равен половине дуги, на которую опирается, то есть \\(\\cfrac{44}{2} = 22^o\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1980,
+    "title": "16.2 Центральные и вписанные углы"
+  },
+  "id": 20915,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "22",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На окружности по разные стороны от диаметра AB взяты точки M и N. Известно, что \\( \\angle NBA=68^o\\) . Найдите угол NMB. Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 240696,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

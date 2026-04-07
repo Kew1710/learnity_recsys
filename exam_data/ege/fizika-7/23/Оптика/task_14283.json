@@ -1,0 +1,37 @@
+{
+  "comment": "По формуле тонкой линзы:\n$$-\\frac{1}{|F|}=\\frac{1}{d}-\\frac{1}{|f|}\\\\ Г=\\frac{|f|}{d}\\Rightarrow d=\\frac{|f|}{Г}\\\\ -\\frac{1}{|F|}=\\frac{Г}{|f|}-\\frac{1}{|f|}=\\frac{Г-1}{|f|}\\Rightarrow |F|=\\frac{|f|}{1-Г}=\\frac{8~см}{1-\\frac{1}{5}}=10~см=0,1~м$$\nОтвет: 10 см",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 14283,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "238619\nВ ходе эксперимента с помощью тонкой рассеивающей линзы получают в \\(5\\) раз уменьшенное изображение предмета, находящееся на расстоянии \\(f=8\\) см от линзы. Чему равен модуль фокусного расстояния линзы?",
+      "error_conditions": null,
+      "id": 195603,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 28,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/V8OUZDxydp8"
+}

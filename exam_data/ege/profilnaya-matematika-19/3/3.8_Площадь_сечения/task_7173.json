@@ -1,0 +1,45 @@
+{
+  "comment": "Наша задача найти площадь прямоугольника \\(BB_{1} D_1D\\). По теореме Пифагора в треугольнике \\(ABD\\) ищем\n$$BD=\\sqrt{AB^{2} +AD^{2}} =\\sqrt{225+64} =17$$\nИтого площадь прямоугольника\n$$BB_{1} \\cdot DD_{1} =17\\cdot 21=357$$\nОтвет: 357",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2391,
+    "title": "3.8 Площадь сечения"
+  },
+  "id": 7173,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "357",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В прямоугольном параллелепипеде \\(ABCDA_{1} B_{1} C_{1} D_{1}\\) известны длины ребер: \\(AB=15, AD=8, AA_{1} =21.\\) Найдите площадь сечения, проходящего через вершины \\(B,B_{1}\\) и \\(D\\).",
+      "error_conditions": [],
+      "id": 83013,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=5261"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/Ib2nkEDNesY?start=5261"
+}

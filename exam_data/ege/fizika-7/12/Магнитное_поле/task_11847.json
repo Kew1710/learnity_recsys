@@ -1,0 +1,42 @@
+{
+  "comment": "Сила Ампера определяется по формуле:\n$$F_A=BIl\\sin\\alpha=2,5\\cdot 1\\cdot 1\\cdot\\sin 30^\\circ=1,25~Н$$\nОтвет: 1, 25 Н",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 11847,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,25",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23744\nМагнитное поле индукцией \\(2,5\\) Тл действует на проводник длиной \\(1\\) м, расположенный под углом \\(30^\\circ\\) к вектору индукции, с некоторой силой \\(F_A\\). Сила тока в проводнике равна \\(1\\) А. Найдите \\(F_A\\). Ответ дайте в Н.",
+      "error_conditions": [],
+      "id": 151368,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/1a9oF40VXOg"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/1a9oF40VXOg"
+}

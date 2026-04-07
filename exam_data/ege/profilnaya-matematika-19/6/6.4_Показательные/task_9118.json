@@ -1,0 +1,45 @@
+{
+  "comment": "Это показательное уравнение. Для решения таких уравнений нужно обе части привести к одному основанию. Основание это то, что стоит внизу. В нашем номере это \\(5\\).\n\nСмотрим на \\(125\\) и понимаем, что \\(125=5^3\\).\n$$5^{9+x}=5^3$$\nОснования одинаковые, значит, показатели тоже равны:\n$$9+x=3\\\\ x=-6$$\nОтвет: -6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2402,
+    "title": "6.4 Показательные"
+  },
+  "id": 9118,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(5^{9+x}=125\\).",
+      "error_conditions": [],
+      "id": 112853,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1785"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/embed/tzq4kLk4Atk?start=1785"
+}

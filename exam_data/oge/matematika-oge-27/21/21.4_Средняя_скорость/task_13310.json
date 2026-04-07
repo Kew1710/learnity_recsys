@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(t_1=\\cfrac{350}{70}=5\\)ч\n\\(t_2=\\cfrac{105}{35}=3\\)ч\n\\(t_3=\\cfrac{160}{80}=2\\)ч\nV(ср)\\(=\\cfrac{350+105+160}{5+3+2}=\\cfrac{615}{10}=61,5\\) км/ч\nОтвет: 61,5 км/ч",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1939,
+    "title": "21.4 Средняя скорость"
+  },
+  "id": 13310,
+  "is_obsolete": false,
+  "number": 21,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Первые 350 км автомобиль ехал со скоростью 70 км/ч, следующие 105 км – со скоростью 35 км/ч, а последние 160 км – со скоростью 80 км/ч. Найдите среднюю скорость автомобиля на протяжении всего пути.",
+      "error_conditions": null,
+      "id": 178146,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 22,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

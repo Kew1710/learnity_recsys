@@ -1,0 +1,42 @@
+{
+  "comment": "Объем погруженной части судна:\n$$V_{погр}=Sh$$\nСила Архимеда:\n$$F_{Арх}=\\rho gV_{погр}=\\rho gSh=1000\\cdot 10\\cdot 8000\\cdot 10=8\\cdot 10^8~н=800~МН$$\nОтвет: 800",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2619,
+    "title": "Гидростатика"
+  },
+  "id": 8928,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "800",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задание 232715\nОсадка (глубина погружения) судна в пресной воде составляет \\(10\\) м, а площадь его дна равна 8000 м\\(^2\\). Определите модуль силы Архимеда, действующей на данное судно. Ответ дайте в МН.",
+      "error_conditions": [],
+      "id": 112472,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/--KNBv8-BqU"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/--KNBv8-BqU"
+}

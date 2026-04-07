@@ -1,0 +1,45 @@
+{
+  "comment": "Решение:\n\ndef F(x,y):\nif x == y:\nreturn 1\nif x > y:\nreturn 0\nreturn F(x+1,y) + F(x+2,y) + F(x+3,y)\n\nprint(F(1,7) * F(7,16))",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1543,
+    "title": "№23 Содержит"
+  },
+  "id": 32778,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3576",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(ОСН_2_2024) Исполнитель преобразует число на экране\nУ исполнителя есть две команды, которые обозначены латинскими буквами:\n- Прибавить 1\n- Прибавить 2\n- Прибавить 3\n\nПрограмма для исполнителя - это последовательность команд.\nСколько существует программ, для которых при исходном числе 1 результатом является число 16, и при этом траектория вычислений содержит число 7?\nТраектория вычислений программы - это последовательность результатов выполнения всех команд программы.",
+      "error_conditions": [],
+      "id": 252417,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 40,
+    "title": "Количество программ"
+  },
+  "video_link": null
+}

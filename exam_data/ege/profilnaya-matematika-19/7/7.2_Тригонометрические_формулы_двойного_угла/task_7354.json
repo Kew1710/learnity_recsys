@@ -1,0 +1,45 @@
+{
+  "comment": "Выполним преобразование, домножив и разделив выражение на 2:\n$$\\sqrt{2}\\sin \\frac{7\\pi}{8}\\cos \\frac{7\\pi}{8}=\\sqrt{2}\\cdot \\frac{2}{2}\\sin\\frac{7\\pi}{8}\\cos\\frac{7\\pi}{8}$$\nПрименим формулу синуса двойного угла:\n$$\\frac{\\sqrt{2}}{2}\\sin\\frac{7\\pi}{4}=\\frac{\\sqrt{2}}{2}\\sin (2\\pi-\\frac{\\pi}{4})=\\frac{\\sqrt{2}}{2}\\cdot (-\\sin (\\frac{\\pi}{4}))=\\frac{\\sqrt{2}}{2}\\cdot (-\\frac{\\sqrt{2}}{2})=-\\frac{1}{2}$$\nОтвет: -0,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 7354,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\sqrt{2}\\sin \\frac{7\\pi}{8}\\cos \\frac{7\\pi}{8}\\).",
+      "error_conditions": [],
+      "id": 83990,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6664"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6664"
+}

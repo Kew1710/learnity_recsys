@@ -1,0 +1,42 @@
+{
+  "comment": "$$300l_0=(30\\pm 3)~мм\\\\ l_0=(0,1\\pm 0,01)~мм$$\nПолучаем, \\(0,10\\pm 0,01\\).\n\nОтвет: 0,100,01",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2646,
+    "title": "Расчетные задачи на погрешности"
+  },
+  "id": 18521,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,100,01",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "239821\nТолщина пачки из \\(300\\) листов бумаги равна \\((30\\pm 3)\\) мм. Определите толщину одного листа бумаги с учетом погрешности. Ответ дайте в мм. Значение и погрешность запишите слитно без пробела.",
+      "error_conditions": [],
+      "id": 238363,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/8CvoSEKjojM"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/8CvoSEKjojM"
+}

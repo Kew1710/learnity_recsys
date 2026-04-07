@@ -1,0 +1,42 @@
+{
+  "comment": "Вспомним, что у логарифмов есть ограничения. Для всех неравенств они одинаковые: \\(x>0\\) (*). Но пригодятся они только для тех неравенств, у которых ответ получился со знаком “\\(<\\)” (противоположным знаку неравенства из (*)).\nРассмотрим каждое неравенство:\nА) \\(\\log_3 x \\ge 1 \\Leftrightarrow x \\ge 3\\). Следовательно, А - 1.\nБ) \\(\\log_3 x \\le -1 \\Leftrightarrow \\left\\{ \\begin{gathered} x \\le \\frac{1}{3}\\\\x >0\\\\\\end{gathered}\\right.\\). Следовательно, Б - 4.\nВ) \\(\\log_3 x \\ge -1 \\Leftrightarrow x \\ge \\frac{1}{3}\\). Следовательно, В - 2.\nГ) \\(\\log_3 x \\le 1 \\Leftrightarrow \\left\\{ \\begin{gathered} x \\le 3\\\\x>0\\\\\\end{gathered}\\right.\\). Следовательно, Г - 3.\nОтвет: 1423.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2127,
+    "title": "18.1 Неравенства"
+  },
+  "id": 28437,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1423",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каждому из четырёх неравенств в левом столбце соответствует одно из решений в правом столбце. Установите соответствие между неравенствами и их решениями.\nНЕРАВЕНСТВА\nРЕШЕНИЯ\nА) \\(\\log_3 x \\ge 1\\)\nБ) \\(\\log_3 x \\le −1\\)\nВ) \\(\\log_3 x \\ge −1\\)\nГ) \\(\\log_3 x \\le 1\\)Для каждого неравенства укажите соответствующий номер решения.",
+      "error_conditions": [],
+      "id": 248076,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

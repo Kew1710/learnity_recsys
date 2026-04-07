@@ -1,0 +1,45 @@
+{
+  "comment": "Решение 1:\nfor a in range(500):\nf = True\nfor x in range(500):\nfor y in range(500):\nif not((x+2*y < a) or (y > x) or (x > 32)):\nf = False\nbreak\nif not f:\nbreak\nif f:\nprint(a)\nbreak\n\nРешение 2:\ndef f(x,y):\nreturn (x+2*y < A) or (y > x) or (x > 32)\nfor A in range(0, 500):\nif all(f(x,y) for x in range(0,500) for y in range(0,500)):\nprint(A)\nbreak",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1516,
+    "title": "№15 Работа с двумя неизвестными"
+  },
+  "id": 23870,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "97",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2315_1\n(ОСН 2023) 0015973097\nДля какого наименьшего целого неотрицательного числа А выражение $$ (x+2y<A)\\vee (y>x)\\vee(x>32)$$\nтождественно истинно ( т.е. принимает значение 1 ) при любых целых неотрицательных x и y?",
+      "error_conditions": [],
+      "id": 243589,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 34,
+    "title": "Алгебра логики"
+  },
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "1 - тазовая кость\n2 - толстая кишка\n5 - тонкая кишка",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2936,
+    "title": "Ткани и системы органов человека"
+  },
+  "id": 30122,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "346",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верно обозначенные подписи к рисунку, на котором изображены органы человека. Запишите в таблицу цифры, под которыми они указаны.\n1) бедренная кость\n2) двенадцатиперстная кишка\n3) печень\n4) желудок\n5) толстый кишечник\n6) тазобедренный сустав",
+      "error_conditions": [],
+      "id": 249761,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 16,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

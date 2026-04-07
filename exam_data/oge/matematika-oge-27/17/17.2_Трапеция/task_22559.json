@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПусть меньшее основание \\(DC\\), большее основание \\(AB\\), средняя линия трапеции \\(EF\\)\nПо формуле средней линии трапеции\n\\(EF = \\cfrac{(AB+CD)}{2} = \\cfrac{4+14}{2} = 9\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1985,
+    "title": "17.2 Трапеция"
+  },
+  "id": 22559,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Основания трапеции равны 4 и 14, а высота равна 7. Найдите среднюю линию этой трапеции.",
+      "error_conditions": [],
+      "id": 242298,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

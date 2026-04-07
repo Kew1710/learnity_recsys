@@ -1,0 +1,42 @@
+{
+  "comment": "CaCO₃ + H₂SO₄ = CaSO₄ + CO₂ + H₂O\n\nК уменьшению скорости реакции между раствором серной кислоты и карбонатом кальция приведут охлаждение реакционной смеси и разбавление кислоты (уменьшение концентрации реагента)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 1517,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "12",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все внешние воздействия, которые приводят к уменьшению скорости реакции между раствором серной кислоты и карбонатом кальция.\n1) охлаждение реакционной смеси\n2) разбавление кислоты\n3) измельчение карбоната кальция\n4) повышение давления\n5) понижение давления",
+      "error_conditions": [],
+      "id": 53833,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Ao4Qr_V3DCc?start=4670"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Ao4Qr_V3DCc?start=4670"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Производная отрицательна в точках убывания функции. Такими точками являются: \\(x_3,x_4,x_7\\). Таким образом, три точки удовлетворяют решению.\n\nОтвет: 3",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2416,
+    "title": "8.5 Геометрический смысл производной"
+  },
+  "id": 7438,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график функции \\(y=f(x)\\). На оси абсцисс отмечены семь точек: \\(x_1,x_2,x_3,x_4,x_5,x_6,x_7\\). В скольких из этих точек производная функции \\(f(x)\\) отрицательна?",
+      "error_conditions": [],
+      "id": 98344,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/H0IUCrZBRME?start=1930"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/H0IUCrZBRME?start=1930"
+}

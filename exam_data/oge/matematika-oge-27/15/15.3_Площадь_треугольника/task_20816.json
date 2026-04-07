@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nНайдем площадь треугольника по формуле \\(S = ab \\cdot \\sin{c} \\cdot \\cfrac{1}{2}\\)\n\\(S = \\cfrac{1}{2} \\cdot 15 \\cdot 12 \\cdot \\cfrac{4}{9} = 40 \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1974,
+    "title": "15.3 Площадь треугольника"
+  },
+  "id": 20816,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "40",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике ABC известно, что AB=12, BC=15, \\( \\sin {\\angle{ABC}}= \\cfrac{4}{9} \\) . Найдите площадь треугольника ABC.",
+      "error_conditions": [],
+      "id": 240597,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

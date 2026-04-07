@@ -1,0 +1,37 @@
+{
+  "comment": "КПД равен: $$\\eta=\\frac{A_п}{A_{зат}}$$\nВ данном случае затраченная работа - произведение полезной мощности на время: $$A_п=Pt$$\nЗатраченная - работа по сгоранию керосина: $$A_{зат}=qm$$\nПодставим: $$\\eta=\\frac{Pt}{qm} \\\\ {\\eta}qm=Pt \\\\ t=\\frac{{\\eta}qm}{P} \\\\ t=\\frac{0,25\\cdot 4,6\\cdot 10^7\\cdot 1440}{2300\\cdot 10^3}=7200~с=2~ч$$\nПуть равен: $$S=vt=250\\cdot 2=500~км$$\n\nОтвет: 500 км",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3252,
+    "title": "2.13 Внутренняя энергия сгорания топлива. Удельная теплота сгорания топлива"
+  },
+  "id": 33999,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Какое расстояние пролетел самолёт, если за время полёта при средней скорости 250 км/ч его двигатели израсходовали 1440 кг керосина? Полезная мощность двигателей самолёта равна 2300 кВт, КПД двигателей равен 25%.",
+      "error_conditions": null,
+      "id": 253638,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 24,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,40 @@
+{
+  "comment": "а) По формуле косинуса двойного угла: \\(\\cos 2x=1-2\\sin^2x\\)\n$$\\sin^3x+1-2\\sin^2x+\\sin x=1\\\\ \\sin^3x-2\\sin^2x+\\sin x=0\\\\ \\sin x(\\sin^2x-2\\sin x+1)=0\\Leftrightarrow \\displaystyle \\left[ \\begin{array}{l l} \\sin x=0\\\\ (\\sin x-1)^{2} =0 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l l} \\sin x=0\\\\ \\sin x=1 \\end{array} \\right.\\\\ \\displaystyle \\left[ \\begin{array}{l l} x=\\pi k\\\\ x=\\frac{\\pi }{2} +2\\pi k \\end{array} \\right. ,k\\in Z$$\nб) Отберем корни на промежутке \\(\\left[\\frac{3\\pi}{2};3\\pi\\right]\\) с помощью тригонометрической окружности\nНам подходят корни: \\(2\\pi;\\frac{5\\pi}{2};3\\pi\\)\n\nОтвет: а) {\\(\\pi k;\\frac{\\pi}{2}+2\\pi k:k\\in Z\\)}, б) \\(2\\pi;\\frac{5\\pi}{2};3\\pi\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2452,
+    "title": "13.3 Формулы тригонометрии"
+  },
+  "id": 10302,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение: \\(\\sin^3x+\\cos 2x+\\sin x=1\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[\\frac{3\\pi}{2};3\\pi\\right]\\).",
+      "error_conditions": null,
+      "id": 135440,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

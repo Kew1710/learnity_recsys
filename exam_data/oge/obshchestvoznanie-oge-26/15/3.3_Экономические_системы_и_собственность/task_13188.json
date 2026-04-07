@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1767,
+    "title": "3.3 Экономические системы и собственность"
+  },
+  "id": 13188,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "32113",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между признаками и типами экономических систем: к каждому элементу первого столбца подберите соответствующий элемент из второго столбца.\n\nПРИЗНАКИ\nА) свобода предпринимательской деятельности\nБ) централизованное планирование производства товаров и услуг\nВ) решение основных вопросов экономики\nс опорой на опыт предков\nГ) фактическое отсутствие товарно-денежных отношений\nД) установление цены в зависимости от соотношения спроса и предложения товаров\n\nТИПЫ ЭКОНОМИЧЕСКИХ СИСТЕМ\n1) традиционная\n2) командная (плановая)\n3) рыночная",
+      "error_conditions": [],
+      "id": 177784,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7230"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7230"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Из формулы для силы тока заряд, прошедший через проводник, можно найти как площадь фигуры под графиком \\(I(t)\\)\n$$I=\\frac{q}{t}\\\\ q=It$$\nТогда:\n$$q=S_1+S_2+S_3+S_4=4\\cdot 30+\\frac{30\\cdot 1}{2}+2\\cdot 30+\\frac{2\\cdot 10}{2}=205~Кл$$\nОтвет: 205 Кл",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 9176,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "205",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задание ЕГЭ 2022\nНа графике показана зависимость силы тока в проводнике от времени. Определите заряд, прошедший через поперечное сечение проводника за \\(t = 60\\) с. Ответ дайте в Кл.",
+      "error_conditions": [],
+      "id": 112916,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8_9gA3sIEWo?start=20220"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/8_9gA3sIEWo?start=20220"
+}

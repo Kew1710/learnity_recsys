@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничение: \\(x>0\\)\n$$\\frac{\\log_232+\\log_2x-1}{(\\log_2x)^2-5\\log_2x}+1\\geq 0\\\\ \\frac{\\log_2x+4}{(\\log_2x)^2-5\\log_2x}+1\\geq 0$$\nЗамена: \\(\\log_2x=t\\)\n$$\\frac{t+4}{t^2-5t}+1\\geq 0\\\\ \\frac{t+4+t^2-5t}{t^2-5t}\\geq 0\\\\ \\frac{t^2-4t+4}{t^2-5t}\\geq 0\\\\ \\frac{(t-2)^2}{t(t-5)}\\geq 0$$\nПрименим метод интервалов:\n$$\\displaystyle \\left[ \\begin{array}{l l}\nt< 0\\\\\nt=2\\\\\nt >5\n\\end{array} \\right.$$\nВернемся к замене:\n$$\\displaystyle \\left[ \\begin{array}{l l}\n\\log_{2} x< 0\\\\\n\\log_{2} x=2\\\\\n\\log_{2} x >5\n\\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l}\nx< 1\\\\\nx=4\\\\\nx >32\n\\end{array} \\right.$$\nУчитывая ограничения:\nОтвет: \\(x\\in (0;1)\\cup \\) {\\(4\\)} \\(\\cup (32;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2470,
+    "title": "15.4 Свойства логарифма"
+  },
+  "id": 13552,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(\\frac{\\log_2(32x)-1}{\\log^2_2x-\\log_2x^5}\\geq -1\\).",
+      "error_conditions": null,
+      "id": 179416,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://youtu.be/ZjiTg9aJD40?t=607"
+}

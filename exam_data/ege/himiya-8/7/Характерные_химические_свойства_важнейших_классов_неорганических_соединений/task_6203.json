@@ -1,0 +1,42 @@
+{
+  "comment": "А) C (графит) - неметалл - реагирует с металлами, другими неметаллами и с кислотами-окислителями, не реагирует с щелочами\nРеагенты: O₂, Ca, H₂SO₄\n\nБ) NO₂ - кислотный оксид - реагирует с водой, амфотерными и основными оксидами и гидроксидами, может вступать в ОВР\nРеагенты: H₂O, NaOH, CO\n\nВ) Cu(OH)₂ - нерастворимое основание - реагирует с кислотами, не реагирует с основаниями, щелочами, металлами, основными оксидами, солями\nРеагенты: NH₃, HCl, HNO₃\n\nГ) Na₃PO₄ - растворимая соль - вступает в реакции ионного обмена\nРеагенты: CaCl₂, AgNO₃, HCl",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 6203,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3125",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между формулой вещества и реагентами, с которыми это вещество может взаимодействовать: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nФОРМУЛА ВЕЩЕСТВА\nРЕАГЕНТЫ\nА) C (графит) 1) H₂O, NaOH, COБ) NO₂2) NH₃, HCl, HNO₃В) Cu(OH)₂3) O₂, Ca, H₂SO₄Г) Na₃PO₄4) SO₂, Ag, KCl 5) CaCl₂, AgNO₃, HCl",
+      "error_conditions": [],
+      "id": 72818,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_dOjw-qTCBw?start=2573"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/_dOjw-qTCBw?start=2573"
+}

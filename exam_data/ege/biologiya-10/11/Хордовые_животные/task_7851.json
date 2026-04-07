@@ -1,0 +1,42 @@
+{
+  "comment": "3) у лягушек есть личиночная стадия (головастик), которая развивается в воде.\n4) у лягушек кожное и легочное дыхание.\n6) у лягушек трехкамерное сердце и 2 круга кровообращения.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2528,
+    "title": "Хордовые животные"
+  },
+  "id": 7851,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "125",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите цифры, под которыми они указаны. Какие особенности строения характерны для лягушек?\n1) развитие происходит в воде, яйцеклетка без защитных оболочек\n2) дыхание кожно-лёгочное\n3) развитие происходит только на суше\n4) дыхание кожное\n5) сердце трёхкамерное, два круга кровообращения\n6) сердце четырёхкамерное, два круга кровообращения",
+      "error_conditions": [],
+      "id": 100351,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/ZgH0fDZZI_k?start=586"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/ZgH0fDZZI_k?start=586"
+}

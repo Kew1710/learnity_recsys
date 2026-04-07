@@ -1,0 +1,42 @@
+{
+  "comment": "Запишем правило моментов относительно оси, проходящей перпендикулярно плоскости рисунка через точку \\(O\\):\n$$F_1d_1=F_2d_2$$\n$$F_1=F_2\\frac{d_2}{d_1}=9\\cdot \\frac{15~см}{10~см}=13,5~Н$$\nОтвет: 13,5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2618,
+    "title": "Статика"
+  },
+  "id": 32341,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На невесомый рычаг, находящийся в равновесии, действуют две силы. Плечо силы \\(\\vec{F}_1\\) равно \\(10\\) см, силы \\(\\vec{F}_2\\) – \\(15\\) см. Определите модуль силы \\(\\vec{F}_1\\), если модуль силы \\(\\vec{F}_2\\) равен \\(9\\) Н. Ответ дайте в Н.",
+      "error_conditions": [],
+      "id": 251980,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/PEHWbqzOXA0?t=441"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/PEHWbqzOXA0?t=441"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1253,
+    "title": "Русская проза"
+  },
+  "id": 24668,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 12,
+    "task_count": 0,
+    "title": "Литература"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "231",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между персонажами «Войны и мира» и событиями в их жизни.\nК каждой позиции первого столбца подберите соответствующую позицию из второго столбца.\nПЕРСОНАЖИ\nА)  Безухов\nБ)  Николай Ростов\nВ)  Долохов\nСОБЫТИЯ\n1)  возглавит небольшой партизанский отряд\n2)  попадёт в плен к французам\n3)  женится на Марье Болконской\n4)  погибнет во время атаки",
+      "error_conditions": [],
+      "id": 244334,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2717,
+    "title": "№10 Редактор текста"
+  },
+  "id": 28665,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "115",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Пробник_2 ФИПИ 2024) С помощью текстового редактора определите, сколько раз встречается сочетание букв «уж» или «Уж» только в составе других слов, но не как отдельное слово, в тексте рассказа А.И. Куприна «Гранатовый браслет». В ответе укажите только число.",
+      "error_conditions": [],
+      "id": 248304,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 180,
+  "topic": {
+    "id": 29,
+    "title": "Редактор текста"
+  },
+  "video_link": null
+}

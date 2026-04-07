@@ -1,0 +1,42 @@
+{
+  "comment": "Уравнение координаты при равноускоренном движении:\n$$x=x_0+v_{0x}t+\\frac{a_xt^2}{2},$$\nпри этом по условию \\(v_{0x}=0\\) м/с и \\(x_0=20\\) м из графика.\n\nПо графику при \\(t = 1\\) с координата \\(x=15\\) м.\n\nЗапишем уравнение координаты для момента времени \\(t = 1\\) с.\n$$15 = 20+0\\cdot 1+\\frac{a_x \\cdot 1^2}{2},$$\nоткуда: \\(a_x= -10\\) м/с\\(^2\\)\n\nСкорость в момент времени \\(t=1\\) с можем найти по формуле:\n$$v_x=v_{0x}+a_xt=0-10\\cdot 1= -10~м/с$$\nОтвет: -10 м/с",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2609,
+    "title": "Графики в кинематике"
+  },
+  "id": 8278,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "230307\nБусинка движется по рейке из состояния покоя. График зависимости ее координаты \\(x\\) от времени \\(t\\) представлен на рисунке. Чему равна проекция скорости бусинки \\(v_x\\) в момент времени \\(1\\) с? Ответ дайте в м/с.",
+      "error_conditions": [],
+      "id": 101953,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/ey2nEIxyjvQ"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://youtu.be/ey2nEIxyjvQ"
+}

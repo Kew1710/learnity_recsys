@@ -1,0 +1,42 @@
+{
+  "comment": "Период колебаний груза:\n\\(в~3\\uparrow T=2\\pi\\sqrt{\\frac{m}{k\\downarrow в~9}}\\) – жесткость пружины должна уменьшиться в 9 раз.\n\\(k_2=\\frac{k_1}{9}=\\frac{360}{9}=40~Н/м\\)\nОтвет: 40",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2620,
+    "title": "Колебания"
+  },
+  "id": 32303,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "40",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Груз, подвешенный на пружине жесткостью \\(k=360\\) Н/м, совершает свободные гармонические колебания. Какой должна быть жесткость пружины, чтобы период колебаний этого груза увеличился в \\(3\\) раза? Ответ дайте в Н/м.",
+      "error_conditions": [],
+      "id": 251942,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/2ERRs0I_VN0?t=639"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/2ERRs0I_VN0?t=639"
+}

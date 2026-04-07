@@ -1,0 +1,45 @@
+{
+  "comment": "$$ \\frac{1}{64} = \\frac{1}{4^3} = 4^{-3} \\Rightarrow \\\\ 4^{x-7} = 4^{-3} \\\\ x-7 = -3 \\\\ x = 4 $$ Ответ: 4",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2399,
+    "title": "6.1 Степенные"
+  },
+  "id": 36278,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(4^{x-7} = \\dfrac{1}{64}\\).",
+      "error_conditions": [],
+      "id": 255928,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/tXc3x4aDLhc?t=1742s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 6,
+    "title": "Простейшие уравнения"
+  },
+  "video_link": "https://www.youtube.com/live/tXc3x4aDLhc?t=1742s"
+}

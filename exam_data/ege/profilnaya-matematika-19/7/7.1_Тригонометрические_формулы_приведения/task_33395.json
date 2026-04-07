@@ -1,0 +1,45 @@
+{
+  "comment": "Представим угол \\(-135\\) как \\(-180+45\\) или \\(-\\pi+\\frac{\\pi}{4}\\). Тогда по формуле приведения:\n$$\\sin\\left(-\\pi+\\frac{\\pi}{4}\\right)=-\\sin\\frac{\\pi}{4}=-\\frac{\\sqrt{2}}{2}$$\nПолучаем:\n$$-18\\sqrt{2}\\cdot\\left(-\\frac{\\sqrt{2}}{2}\\right)=18$$\nОтвет: 18",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2405,
+    "title": "7.1 Тригонометрические формулы приведения"
+  },
+  "id": 33395,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "18",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(-18\\sqrt{2}\\sin(-135^\\circ)\\).",
+      "error_conditions": [],
+      "id": 253034,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=kbegKXOsR7pFzG7L&t=1240"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/1-0fI0ah5U8?si=kbegKXOsR7pFzG7L&t=1240"
+}

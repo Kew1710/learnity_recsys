@@ -1,0 +1,42 @@
+{
+  "comment": "В реакции присоединения с галогенами способны вступать ненасыщенные углеводороды (циклоалканы, алкены, алкадиены, алкины)\nВерные варианты ответа: этилен (алкен), циклопропан (циклоалкан)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2815,
+    "title": "Характерные химические свойства алкенов"
+  },
+  "id": 1581,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все вещества, которые вступают в реакцию присоединения с бромом.\n1) этан\n2) этилен\n3) этанол\n4) циклопропан\n5) пентан",
+      "error_conditions": [],
+      "id": 53907,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/sAsox5Q0qjE?start=3450"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/sAsox5Q0qjE?start=3450"
+}

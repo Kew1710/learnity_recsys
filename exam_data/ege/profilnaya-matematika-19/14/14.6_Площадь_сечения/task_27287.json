@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nа) \\(CD=4\\), \\(CM:MD=5:3\\), значит, \\(MD=\\frac{3}{8}CD=1,5\\).\nТак как плоскость сечения перпендикулярна \\(CD\\), то \\(CD\\) перпендикулярна каждой прямой в этой плоскости, значит, \\(CD\\) перпендикулярна \\(LM\\).\nВ треугольнике \\(LMD\\) угол \\(LDM\\) равен \\(60^\\circ\\), а угол \\(MLD\\) равен \\(90^\\circ-60^\\circ=30^\\circ\\).\nЗначит, по свойству катета напротив угла в \\(30\\) градусов:\n$$LD=2MD=3\\\\ AL=4-3=1$$\n\\(AD\\) - проекция \\(CD\\) на плоскость \\(ABD\\), \\(LK\\bot CD\\) и \\(\\alpha\\bot CD\\), значит, по ТТП \\(LK\\bot AD\\).\nВ треугольнике \\(KAL\\) угол \\(KAL\\) равен \\(60^\\circ\\), а угол \\(AKL\\) равен \\(90^\\circ-60^\\circ=30^\\circ\\).\nЗначит, по свойству катета напротив угла в \\(30\\) градусов:\n$$AK=2AL=2=\\frac{1}{2}AB$$\nб)\nПо теореме Менелая для \\(CBD\\) и секущей \\(MN\\):\n$$\\frac{CN}{NB}\\cdot\\frac{BE}{ED}\\cdot\\frac{DM}{MC}=1\\\\ \\frac{CN}{NB}\\cdot\\frac{2}{6}\\cdot\\frac{3}{5}=1\\\\ \\frac{CN}{NB}=\\frac{5}{1}$$\nПо теореме Менелая для \\(EDM\\) и секущей \\(BN\\):\n$$\\frac{MN}{NE}\\cdot\\frac{BE}{BD}\\cdot\\frac{DC}{MC}=1\\\\ \\frac{1}{2}\\cdot\\frac{8}{5}\\cdot\\frac{MN}{NE}=1\\\\ \\frac{MN}{NE}=\\frac{5}{4}$$\nПо теореме Пифагора:\n$$MN^2=LE^2-LM^2=36-\\frac{9}{4}=\\frac{135}{4}\\\\ MN=\\frac{\\sqrt{135}}{2}$$\nПусть \\(h\\) – высота треугольника \\(LME\\) из вершины \\(M\\)\n$$S_{KNE}=\\frac{1}{2}NH\\cdot KE=\\frac{1}{2}\\cdot\\frac{4}{9}\\cdot h\\cdot\\frac{2}{3}LE=\\frac{8}{27}S_{LME}\\\\ S_{LMNK}=S_{LME}-S_{KNE}=\\frac{19}{27}S_{LME}\\\\ S_{LME}=\\frac{1}{2}LM\\cdot LE=\\frac{1}{2}\\cdot\\frac{3\\sqrt{3}}{2}\\cdot 3\\sqrt{3}=\\frac{27}{4}\\\\ S_{LMNK}=\\frac{19}{27}\\cdot\\frac{27}{4}=\\frac{19}{4}$$\nОтвет: \\(\\frac{19}{4}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2465,
+    "title": "14.6 Площадь сечения"
+  },
+  "id": 27287,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Грани \\(ABD\\) и \\(ACD\\) тетраэдра \\(ABCD\\) являются правильными треугольниками со стороной \\(4\\) и перпендикулярны друг другу. Плоскость \\(\\alpha\\) перпендикулярна ребру \\(CD\\) и пересекает рёбра \\(AB\\) и \\(CD\\) в точках \\(K\\) и \\(M\\) соответственно, причём \\(CM:MD=5:3\\).\nа) Докажите, что \\(K\\) — середина ребра \\(AB\\).\nб) Найдите площадь сечения тетраэдра плоскостью \\(\\alpha\\).",
+      "error_conditions": null,
+      "id": 246926,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 14,
+    "title": "Стереометрия"
+  },
+  "video_link": "https://youtu.be/fQ1MVFsFzMI?t=10079"
+}

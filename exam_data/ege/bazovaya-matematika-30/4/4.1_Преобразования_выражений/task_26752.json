@@ -1,0 +1,42 @@
+{
+  "comment": "$$a = 10,\\; b = 9, \\; c = 17,\\; R = \\frac{85}{8}$$\n$$S = \\frac{10 \\cdot 9 \\cdot 17}{4 \\cdot \\frac {85}{8}} = \\frac{10 \\cdot 9 \\cdot 17 \\cdot 8}{4 \\cdot 85} = 36$$\nОтвет: 36.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2077,
+    "title": "4.1 Преобразования выражений"
+  },
+  "id": 26752,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Площадь треугольника можно вычислить по формуле \\(S = \\frac{abc}{4R}\\), где \\(a, \\; b\\) и \\(c\\) - стороны треугольника, а \\(R\\) - радиус окружности, описанной около этого треугольника.\nПользуясь этой формулой, найдите площадь \\(S\\), если \\(a = 10,\\; b = 9, \\; c = 17\\) и \\(R = \\frac{85}{8}\\).",
+      "error_conditions": [],
+      "id": 246391,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

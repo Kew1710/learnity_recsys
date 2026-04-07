@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nСнизу указано зарядовое число, равное количеству протонов, т.е. ядро этого атома содержит \\(6\\) протонов",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3287,
+    "title": "4.3 Состав атомного ядра. Изотопы"
+  },
+  "id": 34539,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Сколько протонов содержит ядро изотопа углерода $^{15}_{6}C$?\n\nОтвет: ____________.",
+      "error_conditions": [],
+      "id": 254178,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

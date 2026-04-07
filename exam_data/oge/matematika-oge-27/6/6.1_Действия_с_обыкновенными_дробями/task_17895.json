@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 1\\cfrac{8}{17} : \\left( \\cfrac{12}{17} +2\\cfrac{7}{11} \\right)= \\cfrac{25}{17}: \\left( \\cfrac{12}{17} +\\cfrac{29}{11} \\right) =\\cfrac{25}{17} : \\cfrac{625}{187}=\\cfrac{11}{25}=0,44\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1932,
+    "title": "6.1 Действия с обыкновенными дробями"
+  },
+  "id": 17895,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,44",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( 1 \\cfrac{8}{17} : \\left( \\cfrac{12}{17} + 2 \\cfrac{7}{11} \\right) \\) .",
+      "error_conditions": [],
+      "id": 237747,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

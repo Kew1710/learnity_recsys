@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\cfrac{\\sqrt{16 a^9} \\cdot \\sqrt{4 b^3}}{\\sqrt{a^5 b^3}} = \\sqrt{\\cfrac{16 \\cdot a^9 \\cdot 4 \\cdot b^3}{a^5 \\cdot b^3}} = 4 \\cdot 2 \\cdot \\sqrt{a^{9-5}} \\cdot \\sqrt{b^{3-3}} = 8 a^2\\)\nПодставим \\(a=9\\)\n\\(8 \\cdot 9^2 = 8 \\cdot 81 = 648\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1956,
+    "title": "8.1 Иррациональные числа и выражения"
+  },
+  "id": 19145,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "648",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(\\cfrac{\\sqrt{16 a^9} \\cdot \\sqrt{4 b^3}}{\\sqrt{a^5 b^3}}\\) при \\(a=9, b=11\\) .",
+      "error_conditions": [],
+      "id": 238983,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 33,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

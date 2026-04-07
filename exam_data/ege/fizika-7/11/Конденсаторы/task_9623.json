@@ -1,0 +1,42 @@
+{
+  "comment": "Емкость конденсатора:\n$$C=\\frac{q}{U}~(1)$$\nНапряжение между обкладками:\n$$U=Ed~(2)$$\nПодставим (2) в (1):\n$$C=\\frac{q}{Ed}\\Rightarrow q=CEd=50\\cdot 10^{-6}\\cdot 240\\cdot 4\\cdot 10^{-3}=48\\cdot 10^{-6}=48~мкКл$$\nОтвет: 48 мкКл",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 9623,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "48",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23477\nЗазор между обкладками плоского воздушного конденсатора емкостью \\(C=50\\) мкФ составляет \\(d=4\\) мм. Модуль напряженности электрического поля, создаваемого между обкладками конденсатора, равен \\(E=240\\) В/м. Найдите заряд данного конденсатора. Ответ дайте в мкКл.",
+      "error_conditions": [],
+      "id": 116516,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/2uJyQFFeaP0"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/2uJyQFFeaP0"
+}

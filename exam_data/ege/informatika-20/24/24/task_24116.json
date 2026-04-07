@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 24116,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "174",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID: OS2224_1\n(Основная волна 2022)\nТекстовый файл состоит из символов A, B, C, D, U. Определите максимальное количество идущих подряд пар символов вида согласная + гласная в прилагаемом файле.\nДля выполнения этого задания следуетнаписать программу. Ниже приведён файл, которыйнеобходимо обработать с помощью данногоалгоритма.\nСсылка на файл для задания жми",
+      "error_conditions": [],
+      "id": 243831,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 12,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": null
+}

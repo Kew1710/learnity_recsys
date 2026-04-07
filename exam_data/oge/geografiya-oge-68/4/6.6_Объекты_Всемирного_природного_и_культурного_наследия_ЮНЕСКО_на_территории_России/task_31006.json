@@ -1,0 +1,42 @@
+{
+  "comment": "Усть-Ленский заповедник находится на севере Якутии в условиях арктического климата.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2968,
+    "title": "6.6 Объекты Всемирного природного и культурного наследия ЮНЕСКО на территории России"
+  },
+  "id": 31006,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Группа студентов географического факультета занимается исследованием экосистем речных дельт в условиях арктического климата. В какой из перечисленных заповедников следует отправиться студентам?\n- Путоранский\n- Магаданский\n- Усть-Ленский\n- Астраханский",
+      "error_conditions": [],
+      "id": 250645,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

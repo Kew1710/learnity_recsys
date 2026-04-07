@@ -1,0 +1,42 @@
+{
+  "comment": "А) Взаимодействие оксида металла в промежуточной степени окисления с концентрированной серной кислотой (кислотой-окислителем):\n2FeO + 4H₂SO₄(конц.) → Fe₂(SO₄)₃ + SO₂ + 4H₂O\nБ) Взаимодействие высшего оксида железа с кислотой:\nFe₂O₃ + 3H₂SO₄(конц.) → Fe₂(SO₄)₃ + 3H₂O\nВ) Окисление сульфида железа(II) концентрированной серной кислотой (кислотой-окислителем):\n2FeS + 14H₂SO₄(конц.) → Fe₂(SO₄)₃ + 15SO₂ + 14H₂O\nГ) Окисление смешанновалентного (железо (II) и (III)) оксида с концентрированной серной кислотой (кислотой-окислителем):\n2Fe₃O₄ + 10H₂SO₄(конц.) → 3Fe₂(SO₄)₃ + SO₂ + 10H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2803,
+    "title": "Характерные химические свойства важнейших классов неорганических соединений"
+  },
+  "id": 6703,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6466",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между исходными веществами, вступающими в реакцию, и продуктами этой реакции: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nИСХОДНЫЕ ВЕЩЕСТВА\nПРОДУКТЫ РЕАКЦИИ\nА) FeO + H₂SO₄ (конц.)1) FeSO₄ + SO₂ + H₂OБ) Fe₂O₃ + H₂SO₄ (конц.)2) FeSO₄ + S + H₂OВ) FeS + H₂SO₄ (конц.)3) FeSO₄ + H₂OГ) Fe₃O₄ + H₂SO₄ (конц.)4) Fe₂(SO₄)₃ + H₂O 5) Fe₂(SO₄)₃ + FeSO₄ + H₂O 6) Fe₂(SO₄)₃ + SO₂ + H₂O",
+      "error_conditions": [],
+      "id": 75237,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Rxe4DgAn4zg?start=2337"
+    },
+    "Valid": true
+  },
+  "time_seconds": 420,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Rxe4DgAn4zg?start=2337"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Систематические категории растений:\nЦарство (Растения) => Отдел (Цветковые) => Класс (Двудольные) => Порядок => Семейство (Капустоцветные) => Род (Сурепка) => Вид (Сурепка обыкновенная).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2522,
+    "title": "Система органического мира. Вирусы"
+  },
+  "id": 4657,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "154236",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите последовательность расположения таксономических названий, начиная с самого крупного. Запишите в таблицу соответствующую последовательность цифр.\n1) Растения\n2) Капустоцветные\n3) Сурепка\n4) Двудольные\n5) Цветковые\n6) Сурепка обыкновенная",
+      "error_conditions": [],
+      "id": 67827,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/mtXJDDpMrPk?start=576"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/mtXJDDpMrPk?start=576"
+}

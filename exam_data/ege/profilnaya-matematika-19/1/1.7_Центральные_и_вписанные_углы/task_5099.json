@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\cup AB=2\\cdot \\angle ACB=2\\cdot 32^{\\circ }=64^{\\circ }\\ (как\\ вписанный)\\\\ \\cup DB=180^{\\circ }~(DB-диаметр)\\\\ \\cup AD=\\cup DB-\\cup AB=180^{\\circ }-64^{\\circ }=116^{\\circ }\\\\ \\angle AOD=\\cup AD=116^{\\circ }~(как\\ центральный)$$\nОтвет: 116",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2378,
+    "title": "1.7 Центральные и вписанные углы"
+  },
+  "id": 5099,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "116",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Отрезки \\(AC\\) и \\(BD\\) − диаметры окружности с центром \\(O\\). Угол \\(ACB\\) равен \\(32^{\\circ }\\). Найдите угол \\(AOD\\). Ответ дайте в градусах.",
+      "error_conditions": [],
+      "id": 70487,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=3961"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=3961"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1546,
+    "title": "№24"
+  },
+  "id": 23209,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "41",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2124_1\nТекстовый файл 24 3.txt состоит не более чем из 106 символов P, S, Q и R. Определите максимальную длину цепочки, которая не содержит Q и не граничит с Q.\nДля выполнения этого задания следует написать программу. Ниже приведен файл, который необходимо обработать с помощью данного алгоритма.",
+      "error_conditions": [],
+      "id": 242934,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1080,
+  "topic": {
+    "id": 41,
+    "title": "Обработка символьных строк"
+  },
+  "video_link": null
+}

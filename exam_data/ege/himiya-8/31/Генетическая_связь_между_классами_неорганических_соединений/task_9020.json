@@ -1,0 +1,37 @@
+{
+  "comment": "1) 2KClO₃ = 2KCl + 3O₂\n2) 2KCl + 2H₂O = 2KOH + H₂ + Cl₂\n3) Cl₂ + 2NaI = 2NaCl + I₂\n4) 6KOH + 3I₂ = 5KI + KIO₃ + 3H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 9020,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Хлорат калия нагрели в присутствии катализатора. Полученную соль растворили в воде и подвергли электролизу. На аноде выделился жёлто-зелёный газ, который пропустили через раствор иодида натрия. Образовавшееся в результате этой реакции простое вещество прореагировало при нагревании с раствором гидроксида калия. Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 112677,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 19,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

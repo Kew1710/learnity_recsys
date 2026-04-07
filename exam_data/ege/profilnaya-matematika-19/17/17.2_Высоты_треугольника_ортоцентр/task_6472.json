@@ -1,0 +1,40 @@
+{
+  "comment": "а) Треугольники \\(ABC\\) и \\(NMC\\) равны по двум катетам \\((CM = BC\\) и \\(AC = CN)\\), следовательно:\n$$\\angle MCF=\\angle MNC=\\angle BAC=90^{\\circ } -\\angle HCA$$\nТаким образом, \\(\\angle HCF=90^{\\circ }\\).\n\nб) Катеты \\(AC\\) и \\(CN\\) равны, поэтому угол \\(CAN\\) равен \\(45^{\\circ }\\). Катеты \\(BC\\) и \\(CM\\) также равны, поэтому угол \\(BMC\\) равен \\(45^{\\circ }\\). Углы \\(AML\\) и \\(BMC\\) равны как вертикальные, следовательно:\n$$\\angle MLA=180^{\\circ } -45^{\\circ } -45^{\\circ } =90^{\\circ }$$\nТаким образом:\n$$\\sin{\\angle{CAN}} = \\frac{\\sqrt{2}}{2} = \\frac{ML}{AM} \\Rightarrow ML= \\frac{AM}{\\sqrt{2}} =\\frac{AC-MC}{\\sqrt{2}} =\\frac{3}{\\sqrt{2}} =\\frac{3\\sqrt{2}}{2}$$\nОтвет: б) \\(\\frac{3\\sqrt{2}}{2}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2482,
+    "title": "17.2 Высоты треугольника, ортоцентр"
+  },
+  "id": 6472,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Дан прямоугольный треугольник \\(ABC\\). На катете \\(AC\\) отмечена точка \\(M\\), а на продолжении катета \\(BC\\) за точку \\(C\\) - точка \\(N\\) так, что \\(CM = CB\\) и \\(CA = CN\\).\nа) Пусть \\(CH\\) и \\(CF\\) - высоты треугольников \\(ABC\\) и \\(NMC\\) соответственно. Докажите, что \\(CF\\) и \\(CH\\) перпендикулярны.\nб) Пусть \\(L\\) - это точка пересечения \\(BM\\) и \\(AN\\), \\(BC = 2\\), \\(AC = 5\\). Найдите \\(ML\\).",
+      "error_conditions": null,
+      "id": 73558,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/V4BT7Av4k6I?start=4125"
+}

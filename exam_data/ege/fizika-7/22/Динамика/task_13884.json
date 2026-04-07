@@ -1,0 +1,37 @@
+{
+  "comment": "Так как нить невесома: $\\left|\\overline{T_1}\\right|=\\left|\\overline{T_2}\\right|=T$\nЗапишем II-й закон Ньютона в проекции на ось \\(Oy\\) для бруска массой \\(m\\):\n$$ Oy:~T-mg=-ma \\Rightarrow T=m(g-a) $$\nЗапишем II-й закон Ньютона в проекции на ось \\(Oy\\) для бруска массой \\(M\\):\n$$ Oy:~N-Mg=0 \\Rightarrow N=Mg $$\nЗапишем II-й закон Ньютона в проекции на ось \\(Ox\\):\n$$ Ox:~T-F_{тр}=Ma $$\n\\( F_{тр}= \\mu N\\), где \\(N=Mg \\Rightarrow F_{тр}= \\mu Mg \\)\nОбъединим формулы:\n$$ m(g-a)- \\mu Mg=Ma $$\n$$ mg-ma- \\mu Mg=Ma $$\n$$ g(m- \\mu M)=a(M+m) $$\n$$ a=\\frac{g(m- \\mu M)}{(M+m)} $$\n$$ a=\\frac{10(0,4-0,2 \\cdot 0,6)}{(0,4+0,6)}=2,8~м/с^2 $$\nОтвет: \\(a = 2,8~м/с^2\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 13884,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Нерастяжимая невесомая нить переброшена через идеальный блок. К одному концу нити прикреплено тело массой \\(M=600\\) г, находящееся на шероховатом горизонтальном столе, к другому – подвешено тело массой \\(m=400\\) г, которое движется вниз с ускорением. Чему равно ускорение этого тела, если коэффициент трения между телом и столом равен \\( \\mu =0,2\\)?",
+      "error_conditions": null,
+      "id": 181664,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

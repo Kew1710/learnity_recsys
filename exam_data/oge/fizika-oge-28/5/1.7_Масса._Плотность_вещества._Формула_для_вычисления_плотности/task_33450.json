@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПо условию массы тел равны: $$m_1=m_2=m$$\nВспомним формулу плотности: $$\\rho=\\frac{m}{V}$$\nПлотность первого тела \\(3\\) , а второго - \\(9\\) тогда: $$V_1=\\frac{m}{\\rho_1} \\\\ V_2=\\frac{m}{\\rho_2}$$\nОткуда $$V_1=\\frac{m}{3}$$\n$$V_2=\\frac{m}{9}$$\nПодели объемы друг на друга $$\\frac{V_1}{V_2}=\\frac{9}{3}=3$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3215,
+    "title": "1.7 Масса. Плотность вещества. Формула для вычисления плотности."
+  },
+  "id": 33450,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке приведена столбчатая диаграмма. На ней представлены значения плотностей веществ, из которых сделаны два сплошных тела с одинаковой массой. Определите отношение объёма тела 1 к объёму тела 2.\nОтвет: __________.",
+      "error_conditions": [],
+      "id": 253089,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

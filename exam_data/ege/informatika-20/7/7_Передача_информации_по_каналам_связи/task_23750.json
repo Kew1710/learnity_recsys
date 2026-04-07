@@ -1,0 +1,45 @@
+{
+  "comment": "Решение:\nЧтобы получить секунды необходимо найти общий размер файла и разделить на скорость передачи:\n1024 * 768 * 3 * 8 / 65536 = 288 c",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1491,
+    "title": "№7 Передача информации по каналам связи"
+  },
+  "id": 23750,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "288",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2307_3\n(ОСН 2023) Сколько секунд потребуется обычному модему, передающему сообщения со скоростью 65 536 бит/с, чтобы передать цветное растровое изображение размером 1024 на 768 пикселей, при условии, что цвет каждого пикселя кодируется\n3 байтами?",
+      "error_conditions": [],
+      "id": 243469,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 26,
+    "title": "Кодирование информации"
+  },
+  "video_link": null
+}

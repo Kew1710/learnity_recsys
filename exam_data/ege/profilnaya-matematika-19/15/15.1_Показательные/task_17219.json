@@ -1,0 +1,40 @@
+{
+  "comment": "\\(3^x+\\frac{243}{3^x-36}\\geq 0\\), пусть \\(3^x=t\\)\n$$t+\\frac{243}{t-36}\\geq 0\\Rightarrow \\frac{t^2-36t+243}{t-36}\\geq 0\\Rightarrow \\frac{(t-27)(t-9)}{t-36}\\geq 0$$\n$$\\displaystyle \\begin{array}{{>{\\displaystyle}l}} \\left[ \\begin{array}{l l} 9\\leq t\\leq 27\\\\ t >36 \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} 9\\leq 3^{x} \\leq 27\\\\ 3^{x} >36 \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} 3^{2} \\leq 3^{x} \\leq 3^{3}\\\\ 3^{x} >3^{\\log_{3} 36} \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} 2\\leq x\\leq 3\\\\ x >\\log_{3} 36 \\end{array} \\right. \\Rightarrow \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\Rightarrow x\\in [ 2;3] \\cup (\\log_{3} 36;+\\infty ) \\end{array}$$\nОтвет: \\([2;3]\\cup (\\log_{3} 36;+\\infty )\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2467,
+    "title": "15.1 Показательные"
+  },
+  "id": 17219,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство: \\(3^x+\\frac{243}{3^x-36}\\geq 0\\).",
+      "error_conditions": null,
+      "id": 237104,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/ZjiTg9aJD40?feature=share&t=6822"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "На территории Сибири находится Усть-Ленский заповедник в устье реки Лены.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2968,
+    "title": "6.6 Объекты Всемирного природного и культурного наследия ЮНЕСКО на территории России"
+  },
+  "id": 29241,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Группа студентов из Ростова-на-Дону изучает экосистемы крупных рек. Какой из перечисленных заповедников им необходимо посетить, чтобы исследовать экосистему дельты одной из крупнейших рек Сибири?\n- Усть-Ленский\n- Печеро-Илычский\n- Оренбургский\n- Окский",
+      "error_conditions": [],
+      "id": 248880,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

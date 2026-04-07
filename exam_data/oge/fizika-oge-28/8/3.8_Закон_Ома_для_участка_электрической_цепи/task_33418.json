@@ -1,0 +1,42 @@
+{
+  "comment": "Выберем удобную для нас точку из графика: $$I=4~А; \\ U=2~В$$\nЭлектрическое сопротивление определяется по формуле: $$R=\\frac{U}{I}$$\nПодставим и определим значение: $$R=\\frac{2}{4}=0,5~Ом$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 33418,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке представлены графики зависимости силы тока I в проводнике от напряжения U на его концах для четырёх проводников.\nЧему равно электрическое сопротивление проводника А?\nОтвет: __________ Ом",
+      "error_conditions": [],
+      "id": 253057,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

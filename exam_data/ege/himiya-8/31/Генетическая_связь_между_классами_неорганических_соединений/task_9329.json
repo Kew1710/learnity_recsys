@@ -1,0 +1,37 @@
+{
+  "comment": "1) AlCl₃ + 3K = Al↓ + 3KCl\n2) 2Al + 2KOH + 6H₂O = 2K[Al(OH)₄] + 3H₂↑\n3) K[Al(OH)₄] + CO₂ = KHCO₃ + Al(OH)₃\n4) Fe₂(SO₄)₃ + 6KHCO₃ = 2Fe(OH)₃↓ + 6CO₂↑ + 3K₂SO₄",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2862,
+    "title": "Генетическая связь между классами неорганических соединений"
+  },
+  "id": 9329,
+  "is_obsolete": false,
+  "number": 31,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Хлорид алюминия нагрели с калием. Полученный в результате металл поместили в раствор гидроксида калия. Через получившийся при этом раствор пропустили углекислый газ, в результате наблюдали выпадение белого осадка. К оставшемуся после отделения осадка раствору добавили раствор сульфата железа(III). Напишите уравнения четырёх описанных реакций.",
+      "error_conditions": null,
+      "id": 113320,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 4,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

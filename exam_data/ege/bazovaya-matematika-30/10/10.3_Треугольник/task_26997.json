@@ -1,0 +1,42 @@
+{
+  "comment": "Введем обозначения:\n\\(DE\\) посередине, то есть \\(D\\) - середина \\(AC\\), \\(E\\) - середина \\(CB\\). Следовательно, \\(DE\\) - средняя линия, значит \\(DE = \\frac{1}{2} AB = \\frac{1}{2} \\cdot 3,8 = 1,9\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2095,
+    "title": "10.3 Треугольник"
+  },
+  "id": 26997,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1,9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Столб подпирает детскую горку посередине. Найдите высоту l этого столба, если высота h горки равна 3,8 м. Ответ дайте в метрах.",
+      "error_conditions": [],
+      "id": 246636,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 10,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

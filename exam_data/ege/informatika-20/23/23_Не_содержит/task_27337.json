@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1544,
+    "title": "№23 Не содержит"
+  },
+  "id": 27337,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "37",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "(Демо 2024) Исполнитель преобразует число на экране.\nУ исполнителя есть три команды, которые обозначены латинскими буквами:\nA. Прибавить 1\nB. Умножить на 2\nC. Возвести в квадрат\n\nПрограмма для исполнителя – это последовательность команд.\nСколько существует программ, для которых при исходном числе 2 результатом является число 20, при этом траектория вычислений не содержит числа 11?\nТраектория вычислений программы – это последовательность результатов выполнения всех команд программы. Например, для программы CBA при исходном числе 4 траектория будет состоять из чисел 16, 32, 33.",
+      "error_conditions": [],
+      "id": 246976,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=rzRt_HeGIlfO-CIE&t=9101"
+    },
+    "Valid": true
+  },
+  "time_seconds": 480,
+  "topic": {
+    "id": 40,
+    "title": "Количество программ"
+  },
+  "video_link": "https://www.youtube.com/live/Y-kCCmUigxE?si=rzRt_HeGIlfO-CIE&t=9101"
+}

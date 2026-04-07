@@ -1,0 +1,46 @@
+{
+  "comment": "Реакции разложения - это реакции, при которых из одного сложного образуется несколько простых/сложных веществ\n\n1) Реакция обмена\n2) Реакция замещения\n3) Реакция разложения\n4) Реакция обмена\n5) Реакция разложения",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2892,
+    "title": "Классификация химических реакций"
+  },
+  "id": 34228,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 65,
+    "task_count": 0,
+    "title": "Химия ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "35",
+          "points": 1
+        },
+        {
+          "answer": "53",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите два уравнения, соответствующих реакциям разложения.\n\n1) \\(AgNO_{3} + NaCl = AgCl + NaNO_{3}\\)\n2) \\(2AgNO_{3} + Cu = Cu(NO_{3})_{2} + 2Ag\\)\n3) \\(2AgNO_{3} = 2Ag + 2NO_{2} + O_{2}\\)\n4) \\(Cu(NO_{3})_{2} + 2NaOH = Cu(OH)_{2} + 2NaNO_{3}\\)\n5) \\(Cu(OH)_{2} = CuO + H_{2}O\\)\n\nЗапишите номера выбранных ответов.",
+      "error_conditions": [],
+      "id": 253867,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

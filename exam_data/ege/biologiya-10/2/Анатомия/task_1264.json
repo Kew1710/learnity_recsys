@@ -1,0 +1,42 @@
+{
+  "comment": "С соляной кислотой будут реагировать минеральные вещества кости, которые придают ей прочность => твердость кости будет уменьшаться.\nКоллаген - это органическое вещество, которое не вступает в реакцию с соляной кислотой.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 1264,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "23",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Экспериментатор поместил кость в раствор соляной кислоты на несколько дней. Как изменились твёрдость кости и количество коллагена?\nДля каждой величины определите соответствующий характер её изменения:\n1) увеличилось\n2) уменьшилось\n3) не изменилось\nЗапишите в таблицу выбранные цифры для каждой величины. Цифры в ответе могут повторяться.\nТвёрдостьКоличество коллагена",
+      "error_conditions": [],
+      "id": 53553,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/gVetAQiEvT0?start=24"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/gVetAQiEvT0?start=24"
+}

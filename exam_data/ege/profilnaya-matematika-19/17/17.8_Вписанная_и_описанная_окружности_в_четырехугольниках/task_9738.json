@@ -1,0 +1,40 @@
+{
+  "comment": "а)\nДоказать, что \\(AE=AK\\).\n\n\\(\\angle ABE=\\angle ADK\\) (углы параллелограмма) \\(\\Rightarrow\\) Дуга \\(AE\\)=дуге \\(AK\\) (на них опираются равные вписанные углы) \\(\\Rightarrow AE=AK\\) (равные хорды стягивают равные дуги), ч.т.д.\n\nб) \\(CE=10\\), \\(DK=9\\), \\(\\cos{\\angle{BAD}}=0,2\\)\n\nСвойство секущих:\n$$CB\\cdot CE=CD\\cdot CK\\\\ 10CB=CD\\cdot CK$$\n\\(ABED\\) – вписанная трапеция\n\n\\(AB=ED=CD\\) (стороны равнобедренной трапеции и сторона параллелограмма)\n\nРассмотрим равнобедренный \\(\\triangle{DEC}\\):\n\\(DH\\) – высота, медиана, биссектриса\n$$HC=5\\\\ \\\\cos{\\angle{BAD}}=\\cos{\\angle{BCD}}=\\frac{HC}{CD}\\\\ \\frac{1}{5}=\\frac{5}{CD}\\\\ CD=25\\\\ CK=CD-DK=25-9=16\\\\ 10CB=CD\\cdot CK\\\\ 10CB=25\\cdot 16\\\\ CB=40\\\\ CB=AD=40 \\text{ (стороны параллелограмма)}$$\nОтвет: 40",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2488,
+    "title": "17.8 Вписанная и описанная окружности в четырехугольниках"
+  },
+  "id": 9738,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Окружность проходит через вершины \\(A\\), \\(B\\), \\(D\\) параллелограмма \\(ABCD\\), пересекает сторону \\(BC\\) в точках \\(B\\) и \\(E\\) и пересекает сторону \\(CD\\) в точках \\(K\\) и \\(D\\).\nа) Докажите, что \\(AE=AK\\).\nб) Найдите \\(AD\\), если \\(CE=10\\), \\(DK=9\\), \\(\\cos{\\angle{BAD}}=0,2\\).",
+      "error_conditions": null,
+      "id": 117475,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/B5hiaZ4zu_o?start=16691"
+}

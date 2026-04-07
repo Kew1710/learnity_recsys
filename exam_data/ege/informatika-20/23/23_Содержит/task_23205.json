@@ -1,0 +1,45 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1543,
+    "title": "№23 Содержит"
+  },
+  "id": 23205,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "117",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2123_4\nИсполнитель преобразует число на экране. У исполнителя есть две команды, которым присвоены номера:\n1. Прибавить 1\n2. Умножить на 2\nПервая команда увеличивает число на экране на 1, вторая увеличивает его в 2 раза. Сколько существует программ, для которых при исходном числе 2 результатом является число 45 и при этом траектория вычислений содержит число 15?",
+      "error_conditions": [],
+      "id": 242930,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 27,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 480,
+  "topic": {
+    "id": 40,
+    "title": "Количество программ"
+  },
+  "video_link": null
+}

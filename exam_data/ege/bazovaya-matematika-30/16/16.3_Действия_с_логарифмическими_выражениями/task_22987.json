@@ -1,0 +1,42 @@
+{
+  "comment": "По свойству логарифма (смотри справочные материалы), вынесем показатели степени из-под знака логарифма:\n$$\\log_{\\sqrt{3}} {3^4} = 4\\cdot \\frac{1}{\\frac{1}{2}} \\log_3 3 = 4 \\cdot 2 =8$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2119,
+    "title": "16.3 Действия с логарифмическими выражениями"
+  },
+  "id": 22987,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения\n$$\\log_{\\sqrt{3}} {3^4}$$",
+      "error_conditions": [],
+      "id": 242713,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

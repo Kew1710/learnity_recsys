@@ -1,0 +1,45 @@
+{
+  "comment": "Синий, затем красный:\n$$\\frac{11}{25}\\cdot \\frac{6}{24}=0,11$$\nКрасный, затем синий:\n$$\\frac{6}{25}\\cdot \\frac{11}{24}=0,11$$\nТаким образом, искомая вероятность равна:\n$$0,11+0,11=0,22$$\nОтвет: 0,22",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2396,
+    "title": "5.2 Сумма несовместных событий (сумма произведений)"
+  },
+  "id": 2665,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,22",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В коробке \\(11\\) синих, \\(6\\) красных и \\(8\\) зеленых фломастеров. Случайным образом выбирают два фломастера. Найдите вероятность того, что окажутся выбраны один синий и один красный фломастеры.",
+      "error_conditions": [],
+      "id": 63925,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/UrgDnSfhvk0?start=2103"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 5,
+    "title": "Сложная вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/UrgDnSfhvk0?start=2103"
+}

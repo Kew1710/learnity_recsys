@@ -1,0 +1,42 @@
+{
+  "comment": "Сделаем рисунок:\nЕсли отодвинуть предмет от зеркала на \\(5\\) см, то его изображение также отодвинется на \\(5\\) см. В итоге, расстояние между предметом и его изображением увеличится на \\(10\\) см.\nОтвет: 10",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 3334,
+    "title": "Законы преломления и отражения света"
+  },
+  "id": 32382,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "10",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На некотором расстоянии от плоского зеркала находится предмет. На сколько увеличится расстояние между предметом и его изображением, если предмет отодвинуть от зеркала на \\(5\\) см? Ответ дайте в см.",
+      "error_conditions": [],
+      "id": 252021,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/fvQ1eKtlzLw?t=2790"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/fvQ1eKtlzLw?t=2790"
+}

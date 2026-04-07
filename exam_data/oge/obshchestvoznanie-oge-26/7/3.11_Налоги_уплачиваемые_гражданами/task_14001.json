@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1775,
+    "title": "3.11 Налоги, уплачиваемые гражданами"
+  },
+  "id": 14001,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В стране Z с доходов граждан взимается 20-процентный подоходный налог.\nОбъектом налога является\n1) налогоплательщик\n2) заработная плата\n3) налоговая служба\n4) предприятие",
+      "error_conditions": [],
+      "id": 183758,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 43,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=8235"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/h0d5qjNj1lQ?start=8235"
+}

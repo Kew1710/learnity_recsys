@@ -1,0 +1,45 @@
+{
+  "comment": "Решение программой:\nPythonPascalfrom itertools import *\n\nk = 0\nfor s in product(\"АГИЛМОРТ\", repeat = 4):\nk += 1\nif s[0] + s[1] == 'ГО':\nprint(k)\nexit()\nbegin\nvar count:= 0;\nvar word:= 'АГИЛМОРТ';\nforeach var x1 in word do\nforeach var x2 in word do\nforeach var x3 in word do\nforeach var x4 in word do\nbegin\ncount += 1;\nif x1 + x2 = 'ГО' then\nbegin\nprint(count);\nexit()\nend;\nend;\nend.\nВидеоразбор:",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2712,
+    "title": "№8 Системы счисления"
+  },
+  "id": 4596,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "833",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Все четырёхбуквенные слова, составленные из букв А, Л, Г, О, Р, И, Т, М, записаны в алфавитном порядке и пронумерованы, начиная с 1.\nНачало списка выглядит так:\n1. АААА\n2. АААГ\n3. АААИ\n4. АААЛ\n5. АААМ\n6. АААО\n7. АААР\n8. АААТ\n9. ААГА\n…\n\nПод каким номером в списке идёт первое слово, которое начинается с букв ГО?",
+      "error_conditions": [],
+      "id": 67386,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/4QWDPvIU29w?t=2801"
+    },
+    "Valid": true
+  },
+  "time_seconds": 240,
+  "topic": {
+    "id": 27,
+    "title": "Комбинаторика и системы счислений"
+  },
+  "video_link": "https://youtu.be/4QWDPvIU29w?t=2801"
+}

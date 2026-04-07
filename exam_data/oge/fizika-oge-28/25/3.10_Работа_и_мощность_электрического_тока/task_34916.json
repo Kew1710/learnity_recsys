@@ -1,0 +1,37 @@
+{
+  "comment": "Вычислить, какая часть энергии расходуется на нагревание воды - значит найти КПД нагревателя.\nКПД нагревателя можно выразить формулой:$$\\eta=\\frac{A_п}{A_{зат}}$$ где $$A_п=Q=cm(t_2-t_1)$$ $$A_{зат}=UIt$$Получаем: $$\\eta=\\frac{cm(t_2-t_1)}{UIt}\\\\\\eta=\\frac{4200\\cdot 1\\cdot (100-20)}{220\\cdot 7\\cdot 360}=0,61$$ Ответ: $0,61$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3266,
+    "title": "3.10 Работа и мощность электрического тока"
+  },
+  "id": 34916,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Электрический нагреватель за $6$ мин доводит до кипения $1$ кг воды, начальная температура которой составляла $20$ °С. Сила тока в спирали нагревателя равна $7$ А, напряжение в сети равно $220$ В. Какая часть потребляемой нагревателем энергии расходуется на нагревание воды?",
+      "error_conditions": null,
+      "id": 254555,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

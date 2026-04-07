@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 124\nВ связи с прямохождением у человека освобождаются верхние конечности, стопа приобретает сводчатую форму, таз расширяется и его кости срастаются.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10247,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "124",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "В связи с прямохождением у человека\n\n1) освобождаются верхние конечности\n2) стопа приобретает сводчатую форму\n3) большой палец руки противостоит остальным\n4) таз расширяется, его кости срастаются\n5) мозговой отдел черепа меньше лицевого\n6) уменьшается волосяной покров",
+      "error_conditions": [],
+      "id": 122987,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 46,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "$$26\\sqrt{2}\\cdot \\frac{\\sqrt{2}}{2}\\cdot \\cos (\\pi+\\frac{\\pi}{3})=26\\sqrt{2}\\cdot \\frac{\\sqrt{2}}{2}\\cdot (-\\cos (\\frac{\\pi}{3}))=26\\sqrt{2}\\cdot \\frac{\\sqrt{2}}{2}\\cdot (-\\frac{1}{2})=-13$$\nОтвет: -13",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2407,
+    "title": "7.3 Вычисление значений тригонометрических функций"
+  },
+  "id": 7357,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(26\\sqrt{2}\\cos (\\frac{\\pi}{4})\\cos (\\frac{4\\pi}{3})\\).",
+      "error_conditions": [],
+      "id": 83993,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6895"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/embed/Gse3hRM7NY0?start=6895"
+}

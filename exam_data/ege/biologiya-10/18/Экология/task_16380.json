@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: 1 и 5 — признаки агроценоза, 3 — признак природной экосистемы.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 16380,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "246",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите в таблицу цифры, под которыми они указаны.\nВ чём сходство природной и искусственной экосистем?\n- небольшое число видов\n- наличие цепей питания\n- замкнутый круговорот веществ\n- использование солнечной энергии\n- использование дополнительных источников энергии\n- наличие продуцентов, консументов, редуцентов",
+      "error_conditions": [],
+      "id": 236287,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

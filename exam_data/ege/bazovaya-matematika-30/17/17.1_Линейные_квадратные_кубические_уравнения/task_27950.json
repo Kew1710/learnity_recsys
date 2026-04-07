@@ -1,0 +1,42 @@
+{
+  "comment": "$$x^2 - 4 = 0 \\Rightarrow x^2 = 4 \\Rightarrow x = \\pm 2$$\nБольший корень: \\(x = 2\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2122,
+    "title": "17.1 Линейные, квадратные, кубические уравнения"
+  },
+  "id": 27950,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(x^2 - 4 = 0\\).\nЕсли уравнение имеет более одного корня, в ответе укажите больший из них.",
+      "error_conditions": [],
+      "id": 247589,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

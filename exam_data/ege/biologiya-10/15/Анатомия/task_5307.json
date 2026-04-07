@@ -1,0 +1,42 @@
+{
+  "comment": "В мозжечке лежат центры регуляции мышечного тонуса, позы и равновесия тела, координации движений.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 5307,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "134",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "В мозжечке лежат центры регуляции:\n1) мышечного тонуса\n2) сосудистого тонуса\n3) позы и равновесия тела\n4) координации движений\n5) эмоций\n6) вдоха и выдоха",
+      "error_conditions": [],
+      "id": 70695,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/XTuxeAUahxM?start=700"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/XTuxeAUahxM?start=700"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Так как пирамида правильная:\n$$ SA = SB = 29 $$\n$$ AO = {AC \\over 2} = {40 \\over 2} = 20 $$\nПо теореме Пифагора:\n$$ SO = \\sqrt{SA^2 - AO^2} = \\sqrt{29^2 - 20^2}=21 $$\nОтвет: 21",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2384,
+    "title": "3.1 Отрезки в объёмных фигурах"
+  },
+  "id": 7013,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "21",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В правильной четырехугольной пирамиде \\(𝑆𝐴𝐵𝐶𝐷\\) с вершиной \\(𝑆\\), точка \\(𝑂 −\\) центр основания, \\(𝑆𝐵=29,\\) \\(𝐴𝐶=40\\). Найдите длину отрезка \\(𝑆𝑂\\).",
+      "error_conditions": [],
+      "id": 80943,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": null
+}

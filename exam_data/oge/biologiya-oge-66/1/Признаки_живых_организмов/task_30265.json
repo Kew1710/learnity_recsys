@@ -1,0 +1,46 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2910,
+    "title": "Признаки живых организмов"
+  },
+  "id": 30265,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 66,
+    "task_count": 0,
+    "title": "Биология ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "раздражимость",
+          "points": 1
+        },
+        {
+          "answer": "движение",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В изображённом на рисунке опыте экспериментатор осветил сосуд с водой, в котором находились амёбы, и стал наблюдать за ними с помощью микроскопа. Через некоторое время он увидел, что перемещение простейших стало более упорядоченным.\nКакое ОБЩЕЕ свойство живого иллюстрирует данный опыт?",
+      "error_conditions": [],
+      "id": 249904,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

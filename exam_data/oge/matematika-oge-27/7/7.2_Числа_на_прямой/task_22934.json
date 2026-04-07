@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\( 1) \\cfrac{31}{11} \\approx 2,82\\)\n\\( 2) \\cfrac{37}{11} \\approx 3,36\\)\n\\( 3) \\cfrac{41}{11} \\approx 3,73\\)\n\\( 4) \\cfrac{47}{11} \\approx 4,27\\)\nПо прямой поймем, что отмеченное число \\(\\approx 2,82\\)\nОтвет: 1",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1955,
+    "title": "7.2 Числа на прямой"
+  },
+  "id": 22934,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Одно из чисел отмечено на прямой точкой. Какое это число?",
+      "error_conditions": [],
+      "id": 242660,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

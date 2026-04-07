@@ -1,0 +1,42 @@
+{
+  "comment": "Найдем сопротивление параллельных резисторов:\n$$\\frac{1}{R_п}=\\frac{1}{R}+\\frac{1}{R}\\Rightarrow R_п=\\frac{R}{2}=\\frac{2}{2}=2~Ом\\\\ R_{общ}=r+R_1+R_0=2+2+2=6~Ом$$\nПо закону Ома для полной цепи:\n$$I=\\frac{U}{R_{общ}}=\\frac{12}{6}=2~А$$\nОтвет: 2 А",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 9859,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "235414\nНа рисунке ниже показана схема электрической цепи. Источник тока имеет ЭДС \\(\\varepsilon=12\\) В, его внутреннее сопротивление \\(r=2\\) Ом. Сопротивления резисторов равны \\(R_1=2\\) Ом, \\(R_2=R_3=4\\) Ом. Найдите силу тока через источник. Ответ дайте в А.",
+      "error_conditions": [],
+      "id": 119892,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 53,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/DvCt0Ay5YmQ"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/DvCt0Ay5YmQ"
+}

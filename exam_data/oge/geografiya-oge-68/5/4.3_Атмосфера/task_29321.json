@@ -1,0 +1,42 @@
+{
+  "comment": "Циклон — область пониженного давления в атмосфере с минимумом в центре.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2957,
+    "title": "4.3 Атмосфера"
+  },
+  "id": 29321,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какой из перечисленных населённых пунктов, показанных на карте, находится в зоне действия циклона?\n- Тикси\n- Норильск\n- Петропавловск - Камчатский\n- Анадырь",
+      "error_conditions": [],
+      "id": 248960,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

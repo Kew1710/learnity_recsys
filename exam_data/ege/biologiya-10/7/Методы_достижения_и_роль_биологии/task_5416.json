@@ -1,0 +1,42 @@
+{
+  "comment": "2) скрещивание организмов, 3) выведение гетерозисных сортов - методы селекции.\n5) статистический подсчёт фенотипических классов - относится к методам генетики.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2507,
+    "title": "Методы, достижения и роль биологии"
+  },
+  "id": 5416,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "146",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верных ответа из шести и запишите цифры, под которыми они указаны.\nКакие из перечисленных ниже характеристик можно использовать для описания методов клеточной инженерии?\n1) гибридизация культур клеток\n2) скрещивание организмов\n3) выведение гетерозисных сортов\n4) перенос ядра из одной клетки в другую\n5) статистический подсчёт фенотипических классов\n6) заражение клеток модифицированным вирусом",
+      "error_conditions": [],
+      "id": 71763,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/YwnOUckAF4g?start=356"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/YwnOUckAF4g?start=356"
+}

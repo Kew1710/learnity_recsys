@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПусть \\(\\angle KBC = \\alpha\\)\nТогда \\( \\angle ABC = 180 - \\alpha \\) , так как является смежным\nЧетырехугольник ABCD вписанный по условию, \\( \\Rightarrow \\angle ABC + \\angle ADC = 180\\)\n\\(\\angle ADC = 180 - \\angle ABC = 180 - 180 + \\alpha = \\alpha \\)\nРассмотрим треугольники AKD и CKB\n\\( \\angle K \\) общий\n\\( \\angle ADK = \\angle KBC\\)\n\\( \\Rightarrow \\triangle ADK \\sim \\triangle CKB\\)\n\\( \\cfrac{BK}{DK} = \\cfrac{BC}{AD}\\)\n\\(\\cfrac{20}{15} = \\cfrac{12}{AD}\\)\n\\( \\Rightarrow AD = 9\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1982,
+    "title": "16.4 Описанная окружность"
+  },
+  "id": 21232,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Четырёхугольник ABCD вписан в окружность. Прямые AB и CD пересекаются в точке K, BK=20, DK=15, BC=12 . Найдите AD.",
+      "error_conditions": [],
+      "id": 241007,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

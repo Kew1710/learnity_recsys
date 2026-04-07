@@ -1,0 +1,42 @@
+{
+  "comment": "Ко вторичноротым относят тип Иглокожие и тип Хордовые, все остальные являются первичноротыми.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2527,
+    "title": "Многообразие животных"
+  },
+  "id": 7854,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "245",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Какие из приведённых ниже животных относятся к вторичноротым?\n1) виноградная улитка\n2) морская звезда\n3) аскарида\n4) карась\n5) человек\n6) дрозофила",
+      "error_conditions": [],
+      "id": 100354,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Od91CqZPGYA?start=394"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/Od91CqZPGYA?start=394"
+}

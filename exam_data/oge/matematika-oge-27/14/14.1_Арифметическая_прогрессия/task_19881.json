@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(a_1=20\\)\n\\(d=3\\)\n\\(a_{10} =20 + 3(10-1) = 20 + 3 \\cdot 9 = 20+ 27 = 47\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1970,
+    "title": "14.1 Арифметическая прогрессия"
+  },
+  "id": 19881,
+  "is_obsolete": false,
+  "number": 14,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "47",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В амфитеатре 14 рядов. В первом ряду 20 мест, а в каждом следующем на 3 места больше, чем в предыдущем. Сколько мест в десятом ряду амфитеатра?",
+      "error_conditions": [],
+      "id": 239719,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

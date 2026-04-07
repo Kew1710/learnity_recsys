@@ -1,0 +1,40 @@
+{
+  "comment": "а)\n$$\\left(\\frac{2}{5}\\right)^{\\cos x}+\\left(\\left(\\frac{2}{5}\\right)^{-1}\\right)^{\\cos x}=2\\\\ \\left(\\frac{2}{5}\\right)^{\\cos x}+\\left(\\frac{2}{5}\\right)^{-\\cos x}=2$$\nЗамена \\(\\left(\\frac{2}{5}\\right)^{\\cos x}=t,t>0\\)\n$$t+\\frac{1}{t}=2\\Leftrightarrow\\frac{t^2+1-2t}{t}=0\\Leftrightarrow\\displaystyle \\begin{cases}\nt=1\\\\\nt\\neq 0\n\\end{cases}\\\\ \\left(\\frac{2}{5}\\right)^{\\cos x}=1\\Leftrightarrow\\left(\\frac{2}{5}\\right)^{\\cos x}=\\left(\\frac{2}{5}\\right)^0\\\\ \\cos x=0\\Leftrightarrow x=\\frac{\\pi}{2}+\\pi k,k\\in Z$$\nб) Отберем корни на промежутке \\(\\left[-3\\pi;-\\frac{3\\pi}{2}\\right]\\) с помощью тригонометрической окружности\nНам подходят корни:\n$$-\\frac{3\\pi}{2}\\\\ -\\frac{3\\pi}{2}-\\pi=-\\frac{5\\pi}{2}$$\nОтвет: а) {\\(\\frac{\\pi}{2}+\\pi k:k\\in Z\\)}, б) \\(-\\frac{5\\pi}{2};-\\frac{3\\pi}{2}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2456,
+    "title": "13.7 Тригонометрические + показательные"
+  },
+  "id": 10368,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\left(\\frac{2}{5}\\right)^{\\cos x}+\\left(\\frac{5}{2}\\right)^{\\cos x}=2\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[-3\\pi;-\\frac{3\\pi}{2}\\right]\\).",
+      "error_conditions": null,
+      "id": 137761,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Вероятность купить недоспелый арбуз \\(\\frac{3}{25}\\). Остается \\(24\\) арбуза, среди которых \\(2\\) недоспелых арбуза. Вероятность купить снова недоспелый \\(\\frac{2}{24}\\).\n\nИскомая вероятность:\n$$\\frac{3}{25}\\cdot\\frac{2}{24}=0,01$$\nОтвет: 0,01",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2398,
+    "title": "5.4 Произведение событий"
+  },
+  "id": 9277,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,01",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рынке есть \\(15\\) спелых, \\(3\\) недоспелых и \\(7\\) гнилых арбуза. С какой вероятностью покупатель приобретет \\(2\\) недоспелых арбуза?",
+      "error_conditions": [],
+      "id": 113171,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/Yu92P7ueg44?start=3120"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 5,
+    "title": "Сложная вероятность"
+  },
+  "video_link": "https://www.youtube.com/embed/Yu92P7ueg44?start=3120"
+}

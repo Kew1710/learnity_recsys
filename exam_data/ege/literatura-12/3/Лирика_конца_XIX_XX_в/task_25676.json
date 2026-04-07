@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2687,
+    "title": "Лирика конца XIX — XX в."
+  },
+  "id": 25676,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 12,
+    "task_count": 0,
+    "title": "Литература"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "романповествование",
+          "points": 48
+        }
+      ],
+      "comment": "",
+      "description": "Заполните пропуски в следующем тексте. В ответе запишите два термина в порядке их следования в тексте без пробелов, запятых и других дополнительных символов.\n\nЖанр произведения И. С. Тургенева «Отцы и дети» – ________, так как этот литературный жанр, как правило, прозаический. Он предполагает развернутое _____________ о жизни и развитии личности главного героя (героев) в кризисный, нестандартный период его жизни.",
+      "error_conditions": [],
+      "id": 245333,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 48,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 13800,
+  "topic": null,
+  "video_link": null
+}

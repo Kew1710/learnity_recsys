@@ -1,0 +1,45 @@
+{
+  "comment": "Площадь спереди:\n$$6\\cdot 2 + 2\\cdot 2 = 16$$\nСзади аналогично, поэтому\n$$16\\cdot 2 = 32$$\nПлощадь сбоку справа:\n$$2\\cdot 4 + 2\\cdot 4 = 16$$\nСбоку слева аналогично, поэтому\n$$16\\cdot 2 = 32$$\nПлощадь снизу:\n$$6\\cdot 4 = 24$$\nСверху аналогично, поэтому\n$$24\\cdot 2 = 48$$\nВсё складываем:\n$$32+32+48=112$$\nОтвет: 112",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2388,
+    "title": "3.5 Площадь поверхности составного многогранника"
+  },
+  "id": 6928,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "112",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите площадь поверхности многогранника изображенного на рисунке (все двугранные углы прямые).",
+      "error_conditions": [],
+      "id": 77758,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=1173"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://www.youtube.com/embed/8nO8XjpOeec?start=1173"
+}

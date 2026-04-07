@@ -1,0 +1,37 @@
+{
+  "comment": "По закону Ома для участка цепи:\n$$I=\\frac{U}{R}\\Rightarrow R=\\frac{U}{I}$$\nС помощью графика определяем силу тока при заданном напряжении и подставляем в формулу закона Ома:\n$$R_1=\\frac{U_1}{I_1}=\\frac{6}{1,4}\\approx 4,29~Ом\\\\ R_2=\\frac{U_2}{I_2}=\\frac{12}{2}=6~Ом$$\nЗная, что \\(R_1=cT_1\\), \\(R_2=cT_2\\), где \\(с\\)-некоторая константа, найдем отношение температур:\n$$\\frac{T_2}{T_1}=\\frac{R_2}{R_1}\\Rightarrow T_2=T_1\\frac{R_2}{R_1}$$\nПодставим значения:\n$$T_2=1500\\cdot\\frac{6}{4,29}=2098~К$$\nОтвет: 2098 К",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 10024,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23586\nНа рисунке ниже изображена вольт-амперная характеристика лампы накаливания. При напряжении \\(6\\) В температура нити накала лампы равна \\(1500\\) К. Сопротивление нити прямо пропорционально ее температуре. Найдите температуру нити накала при напряжении на лампе \\(12\\) В.",
+      "error_conditions": null,
+      "id": 121002,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/taE7g90hru8"
+}

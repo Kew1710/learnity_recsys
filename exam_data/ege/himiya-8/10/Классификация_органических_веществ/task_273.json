@@ -1,0 +1,42 @@
+{
+  "comment": "А) Фрагмент -C₆H₄- указывает на то, что это гомолог бензола. Общая формула гомологического ряда аренов - CₙH₂ₙ₋₆\nБ) В молекуле присутствует одна двойная связь - алкен CₙH₂ₙ\nВ) В молекуле присутствует одна тройная связь - алкин CₙH₂ₙ₋₂",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2805,
+    "title": "Классификация органических веществ"
+  },
+  "id": 273,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "312",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между формулой углеводорода и общей формулой его гомологического ряда: к каждой позиции, обозначенной буквой, подберите соответствующую позицию, обозначенную цифрой.\nФОРМУЛА УГЛЕВОДОРОДА\nОБЩАЯ ФОРМУЛА\nA) CH₃-C₆H₄-CH(CH₃)₂1) CₙH₂ₙБ) CH₃-CH=CH-CH₂-CH₃2) CₙH₂ₙ₋₂B) HC≡C-(CH₂)₃-CH₃3) CₙH₂ₙ₋₆ 4) CₙH₂ₙ₊₂",
+      "error_conditions": [],
+      "id": 51474,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/rlCQ2E9Wasw?start=2139"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/rlCQ2E9Wasw?start=2139"
+}

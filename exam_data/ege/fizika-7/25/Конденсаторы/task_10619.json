@@ -1,0 +1,37 @@
+{
+  "comment": "Через длительное время ЭДС самоиндукции будет равно \\(0\\). Сила тока в цепи:\n$$I=\\frac{\\varepsilon}{R+r}$$\nТ.к. соединение параллельное, то:\n$$U_C=U_R=IR=\\frac{\\varepsilon R}{R+r}$$\nЭнергия катушки:\n$$W_L=\\frac{LI^2}{2}$$\nЭнергия конденсатора:\n$$W_C=\\frac{CU_C^2}{2}$$\nПри размыкании ключа вся запасенная катушкой и конденсатором энергия выделится на резисторе в виде тепла:\n$$Q=W_L+W_C=\\frac{LI^2}{2}+\\frac{CU_C^2}{2}=\\frac{L}{2}\\left (\\frac{\\varepsilon}{R+r}\\right )^2+\\frac{C}{2}\\left (\\frac{\\varepsilon R}{R+r}\\right )^2=\\frac{\\varepsilon^2}{2\\left (R+r\\right )^2}\\left (L+CR^2\\right )=\\\\ =\\frac{15^2}{2\\left (6+2\\right )^2}\\left (32\\cdot 10^{-3}+4\\cdot 10^{-3}\\cdot 6^2\\right )=0,31~Дж$$\nОтвет: 0,31 Дж",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 10619,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23735\nЭлектрическая цепь, состоящая из источника тока с ЭДС \\(\\varepsilon=15\\) В и внутренним сопротивлением \\(r=2\\) Ом, конденсатора емкостью \\(С=4\\) мФ, параллельно подключенного к резистору \\(R=6\\) Ом и катушке \\(L=32\\) мГн, и ключа \\(К\\), представлена на рисунке. В исходном положении ключ \\(К\\) замкнут. Чему равна энергия, выделяемая на резисторе после размыкания ключа? Считать сопротивление проводов и катушки пренебрежимо малым.",
+      "error_conditions": null,
+      "id": 145643,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 3,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/WuBKNIyfa5I"
+}

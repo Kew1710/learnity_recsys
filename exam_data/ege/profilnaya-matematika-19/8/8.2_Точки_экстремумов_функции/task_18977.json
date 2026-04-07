@@ -1,0 +1,45 @@
+{
+  "comment": "Экстремум функции находится в точке, в которой производная равна нулю. По графику видно, что значение производной равно нулю при \\(x=2\\).\nОтвет: 2",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2413,
+    "title": "8.2 Точки экстремумов функции"
+  },
+  "id": 18977,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график производной функции \\(f(x)\\), определенный на интервале \\((-6;6)\\). Найдите точку экстремума функции \\(f(x)\\) на интервале \\((-4;5)\\).",
+      "error_conditions": [],
+      "id": 238815,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/_crN6qXTZ5o?t=10411"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://youtu.be/_crN6qXTZ5o?t=10411"
+}

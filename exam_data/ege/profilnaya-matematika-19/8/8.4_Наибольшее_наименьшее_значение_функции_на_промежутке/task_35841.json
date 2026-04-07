@@ -1,0 +1,45 @@
+{
+  "comment": "Обратим внимание на график производной. На заданном интервале производная отрицательна, а это означает, что функция будет убывать. Следовательно, наибольшее значение \\(x\\) соответствует наименьшему значению функции.\n\nТогда в точке \\(5\\) функция принимает наименьшее значение\n\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2415,
+    "title": "8.4 Наибольшее/наименьшее значение функции на промежутке"
+  },
+  "id": 35841,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график \\(y = f'(x) \\ - \\) производной функции \\(f(x)\\), определенной на интервале \\(\\left(-2;11\\right)\\). В какой точке отрезка \\(\\left[-1;5\\right]\\) функция \\(f(x)\\) принимает наименьшее значение?",
+      "error_conditions": [],
+      "id": 255480,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=AvwMSUeYt3RPRYUh&t=3986"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/live/nNHCA7-QEMQ?si=AvwMSUeYt3RPRYUh&t=3986"
+}

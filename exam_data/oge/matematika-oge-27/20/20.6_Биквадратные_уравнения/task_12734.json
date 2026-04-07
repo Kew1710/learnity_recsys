@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\((x-4)^4-4(x-4)^2-21=0\\)\nПусть \\((x-4)^2=t\\), тогда \\((x-4)^4=t^2\\). \\(t \\geqslant 0\\)\n\\(t^2-4t-21=0\\)\n\\(D=b^2-4ac=16+84=100\\)\n\\(t_1=\\cfrac{4+10}{2}\\)\n\\(t_1=7\\)\n\\(t_2=\\cfrac{4-10}{2}\\)\n\\(t_2=-3\\) - не удовлетворяет условию \\(t \\geqslant 0\\)\n\\((x-4)^2=7\\)\n\\(x=\\sqrt{7}+4\\)\n\\(x=-\\sqrt{7}+4\\)\nОтвет: \\(-\\sqrt{7}+4; \\sqrt{7}+4\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2053,
+    "title": "20.6 Биквадратные уравнения"
+  },
+  "id": 12734,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите уравнение \\((x-4)^4-4(x-4)^2-21=0\\) .",
+      "error_conditions": null,
+      "id": 172534,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

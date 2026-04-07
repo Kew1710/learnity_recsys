@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1767,
+    "title": "3.3 Экономические системы и собственность"
+  },
+  "id": 13193,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В стране Z существует товарное производство и денежное обращение. Большинство работников трудятся в сфере услуг и информационном секторе. Какая дополнительная информация позволит сделать вывод о том, что экономика страны Z имеет рыночный характер?\n\n1) молодым работникам предоставляются льготные условия труда на предприятиях\n2) государство осуществляет выпуск денег и контроль над объёмом денежной массы\n3) цены на все товары и услуги устанавливаются государством\n4) в стране свободно действуют предприятия различных форм собственности",
+      "error_conditions": [],
+      "id": 177789,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7329"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7329"
+}

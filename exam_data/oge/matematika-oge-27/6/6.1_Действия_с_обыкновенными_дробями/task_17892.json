@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\n\\(\\left( 1\\cfrac{11}{16} -3\\cfrac{7}{8} \\right) \\cdot 4= \\left( \\cfrac{27}{16} -\\cfrac{31}{8} \\right) \\cdot 4=-\\cfrac{35}{16} \\cdot 4=-\\cfrac{35 \\cdot 4}{16}=-8,75\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1932,
+    "title": "6.1 Действия с обыкновенными дробями"
+  },
+  "id": 17892,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-8,75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\( \\left( 1 \\cfrac{11}{16} -3 \\cfrac{7}{8} \\right) \\cdot 4\\) .",
+      "error_conditions": [],
+      "id": 237744,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "\\(3 \\cdot 17 = 51\\) - количество квартир в каждом подъезде.\n$$56 : 51 = 1,09..$$\nЗначит, Ася живет во 2 подъезде.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2065,
+    "title": "1.2 Округление с избытком"
+  },
+  "id": 30425,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В доме, в котором живёт Ася, 17 этажей и несколько подъездов. На каждом этаже находится по 3 квартир. Ася живёт в квартире № 56. В каком подъезде живёт Ася?",
+      "error_conditions": [],
+      "id": 250064,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "$$l\\cos\\alpha+h=l\\Rightarrow g=l(1-\\cos\\alpha)$$\n$$A_{всех. сил}=\\Delta E_к\\\\ \\Delta E_к=\\frac{mv^2}{2}-0=\\frac{mv^2}{2}\\\\ A_{всех. сил}=A_{нити}+A_{эл}+A_{тяж}$$\n\\(A_{нити}=0\\), т.к. \\(\\vec{T}\\perp \\vec{v}\\) в любой момент времени.\n$$A_{тяж}=-\\Delta E_{пот}=-(mgh-0)=-mgh$$\nТ.к. \\(F_э=Eq-const\\), то электрическое поля также потенциально\n$$A_{эл}=A_{BC}+A_{CD}\\\\ A_{ВС}=F_эh\\cos 90^\\circ=0; A_{CD}=F_эCD\\cos 0^\\circ=Eql\\sin\\alpha$$\nПо закону сохранения энергии:\n$$\\frac{mv^2}{2}=-mgh+Eql\\sin\\alpha\\Rightarrow m=\\frac{Eql\\sin\\alpha}{\\frac{v^2}{2}+gh}=\\frac{Eql\\sin\\alpha}{\\frac{v^2}{2}+gl(1-\\cos\\alpha)}=\\frac{5\\cdot 10^5\\cdot 8\\cdot 10^{-9}\\cdot 0,7\\cdot\\sin 45^\\circ}{\\frac{2,5^2}{2}+10\\cdot 0,7\\cdot (1-\\cos 45^\\circ)}=0,00038~кг$$\nОтвет: 0,00038 кг",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2630,
+    "title": "Электрическое поле"
+  },
+  "id": 18534,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23997\nМежду вертикально расположенными пластинами плоского воздушного конденсатора находится маленький шарик с зарядом \\(q=8~нКл\\), который подвешен на легкой непроводящей нити длиной \\(70~см\\) (см. рисунок). В начальный момент шарик удерживают в положении, при котором нить вертикальна. Далее его отпускают с нулевой начальной скоростью, и в момент, когда нить образует с вертикалью угол \\(\\alpha=45^\\circ\\), скорость шарика становится равной \\(2,5~м/с\\). Определите массу шарика \\(m\\), если модуль напряженности электрического поля, созданного между пластинами конденсатора, равен \\(5\\cdot 10^5~В/м\\). Считать сопротивление воздуха пренебрежимо малым.",
+      "error_conditions": null,
+      "id": 238376,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 44,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/9EHTX-XHOIE"
+}

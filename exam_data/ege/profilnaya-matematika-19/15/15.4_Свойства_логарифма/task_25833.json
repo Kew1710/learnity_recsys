@@ -1,0 +1,40 @@
+{
+  "comment": "Ограничение: \\(x>0\\).\nСделаем разложение в числителе:\n$$\\frac{\\log_416+\\log_4x^4+11}{\\log_4^2x-9}+1\\geq 0\\\\ \\frac{2+4\\log_4x+11}{\\log_4^2x-9}+1\\geq 0$$\nСделаем замену: \\(\\log_4x=t\\)\n$$\\frac{4t+13}{t^2-9}+1\\geq 0\\\\ \\frac{t^2-9+4t+13}{t^2-9}\\geq 0\\\\ \\frac{t^2+4t+4}{t^2-9}\\geq 0\\\\ \\frac{(t+2)^2}{(t-3)(t+3)}\\geq 0$$\nОтметим нули неравенства на прямой:\nПолучаем:\n$$\\displaystyle \\left[ \\begin{array}{l l} t< -3\\\\ t=-2\\\\ t >3 \\end{array} \\right.$$\nСделаем обратную замену:\n$$\\displaystyle \\left[ \\begin{array}{l l} \\log_{4} x< -3\\\\ \\log_{4} x=-2\\\\ \\log_{4} x >3 \\end{array} \\right. \\Rightarrow \\left[ \\begin{array}{l l} x< \\frac{1}{64}\\\\ x=\\frac{1}{16}\\\\ x >64 \\end{array} \\right.$$\nТак как \\(x>0\\), получаем:\n$$x\\in\\left(0;\\frac{1}{64}\\right)\\cup\\{\\frac{1}{16}\\}\\cup (64;+\\infty)$$\nОтвет: \\(x\\in\\left(0;\\frac{1}{64}\\right)\\cup\\{\\frac{1}{16}\\}\\cup (64;+\\infty)\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2470,
+    "title": "15.4 Свойства логарифма"
+  },
+  "id": 25833,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство \\(\\dfrac{\\log_{4}{(16x^4)} + 11}{\\log^{2}_{4}{x}-9} \\ge -1.\\)",
+      "error_conditions": null,
+      "id": 255627,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": {
+    "id": 15,
+    "title": "Неравенства"
+  },
+  "video_link": "https://www.youtube.com/live/mCkdEWvhbf8?si=s721IU_HQN1lodh1&t=1838"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Элементы ответа:\n1) уменьшение размера листовой пластинки;\n2) мясистые стебли и листья, запасающие воду;\n3) толстая кутикула;\n4) обильное опушение листа;\n5) длинные корни, достигающие грунтовых вод;\n6) поверхностная корневая система, эффективно собирающая дождевую воду;\n7) вегетация в короткий благоприятный сезон, перенесение засухи в виде семян, луковиц.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 6075,
+  "is_obsolete": false,
+  "number": 26,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Назовите особенность строения и вегетационного периода, характерные для растений - ксерофитов (обитателей засушливых мест).",
+      "error_conditions": null,
+      "id": 72546,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/X4O2kqXV-Tk?start=640"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Изучением ископаемых переходных форм, отпечатков, окаменелостей занимается палеонтология.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2507,
+    "title": "Методы, достижения и роль биологии"
+  },
+  "id": 5021,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "палеонтология",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Биология — комплексная наука» и заполните ячейку, вписав соответствующий термин.\nРаздел биологии\nОбъект изучения\n?\nИскопаемые переходные формы организмовАнатомияСтроение внутренних органов",
+      "error_conditions": [],
+      "id": 70255,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/vrxhAYdDauo"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/vrxhAYdDauo"
+}

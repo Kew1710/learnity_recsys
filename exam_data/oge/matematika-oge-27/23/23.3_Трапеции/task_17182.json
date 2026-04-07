@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nABCD - вписанная в окружность трапеция\n\\( \\angle A = 52^o\\)\nНайти: \\( \\angle B, \\angle C, \\angle D\\)\nРешение:\nЕсли трапецию можно вписать в окружность, то она равнобедренная\n\\( \\angle A = \\angle D = 52^o\\)\nBC || AD\n\\( \\Rightarrow \\angle B = \\angle C \\)\nТогда \\(\\angle B = \\angle C = 180^o - 52^o = 128^o\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2012,
+    "title": "23.3 Трапеции"
+  },
+  "id": 17182,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Около трапеции, один из углов которой равен 52°, описана окружность. Найдите остальные углы трапеции.",
+      "error_conditions": null,
+      "id": 237070,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

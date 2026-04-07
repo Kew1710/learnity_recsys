@@ -1,0 +1,45 @@
+{
+  "comment": "\\(S\\)\\(V\\)\\(t\\)\\(A\\rightarrow B\\)\\(192\\)\\(x+4\\)\\(\\frac{192}{x+4}\\)\\(B\\rightarrow A\\)\\(192\\)\\(x-4\\)\\(\\frac{192}{x-4}\\)\\(плот\\)\\(92\\)\\(4\\)\\(23\\)Яхта была в пути меньше, чем плот на 3 часа, то есть 23 - 3 = 20 часов. Получаем уравнение:\n$$\\frac{192}{x+4}+\\frac{192}{x-4}=20$$\nС помощью подбора получаем, что \\(x=20\\).\n\nОтвет: \\(х=20\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2428,
+    "title": "10.1 Движение по воде"
+  },
+  "id": 9631,
+  "is_obsolete": false,
+  "number": 10,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Расстояние между пристанями А и В равно 192 км. Из А в В по течению реки отправился плот, а через 3 часа вслед за ним отправилась яхта, которая, прибыв в пункт В, тотчас повернула обратно и возвратилась в А. К этому времени плот проплыл 92 км. Найдите скорость яхты в неподвижной воде, если скорость течения реки равна 4 км/ч. Ответ дайте в км/ч.",
+      "error_conditions": [],
+      "id": 116529,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 36,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=4018"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 10,
+    "title": "Текстовые задачи"
+  },
+  "video_link": "https://www.youtube.com/embed/a45PCpHjmwo?start=4018"
+}

@@ -1,0 +1,45 @@
+{
+  "comment": "Решение:\nЧтобы получить секунды необходимо найти общий размер файла и разделить на скорость передачи:\n1280 * 540 * 4 * 8 / 28800 = 768 c",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1491,
+    "title": "№7 Передача информации по каналам связи"
+  },
+  "id": 23757,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "768",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: REZ2307_5\n(РЕЗЕРВ 2023) Сколько секунд потребуется модему, передающему сообщения со скоростью\n28800 бит/с, чтобы передать цветное растровое изображение размером 1280х540 пикселей, при условии, что цвет каждого пикселя кодируется 4 байтами.",
+      "error_conditions": [],
+      "id": 243476,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": {
+    "id": 26,
+    "title": "Кодирование информации"
+  },
+  "video_link": null
+}

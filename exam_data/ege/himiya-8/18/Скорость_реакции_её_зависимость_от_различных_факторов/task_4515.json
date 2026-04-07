@@ -1,0 +1,42 @@
+{
+  "comment": "H₂(г) + Cl₂(г) = 2HCl\n\nК увеличению скорости реакции хлора с водородом приведут увеличение концентрации Cl₂ и H₂ (увеличение концентрации реагентов)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2838,
+    "title": "Скорость реакции, её зависимость от различных факторов"
+  },
+  "id": 4515,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "34",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Из предложенного перечня выберите все внешние воздействия, которые приводят к увеличению скорости реакции хлора с водородом.\n1) понижение давления\n2) понижение температуры\n3) увеличение концентрации Cl₂\n4) увеличение концентрации H₂\n5) введение в систему хлороводорода",
+      "error_conditions": [],
+      "id": 67305,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/6OPhWX_aI18?start=2244"
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/6OPhWX_aI18?start=2244"
+}

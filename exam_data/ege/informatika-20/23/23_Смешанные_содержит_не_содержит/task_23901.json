@@ -1,0 +1,45 @@
+{
+  "comment": "def f(x,y):\nif x == 17:\nreturn 0\nif x == y:\nreturn 1\nif x > y:\nreturn 0\nreturn f(x+1,y)+f(x+2,y)+f(x*2,y)\nprint(f(3,10)*f(10,25))",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 1545,
+    "title": "№23 Смешанные (содержит & не содержит)"
+  },
+  "id": 23901,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 20,
+    "task_count": 0,
+    "title": "Информатика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "8580",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "ID Задания: OS2323_2\n(ОСН 2023) Исполнитель преобразует число на экране.\nУ исполнителя есть три команды, которые обозначены латинскими буквами:\nА. Прибавить 1\nВ. Прибавить 2\nС. Умножить на 2\nПрограмма для исполнителя — это последовательность команд.\nСколько существует программ, для которых при исходном числе 3 результатом является число 25, при этом траектория вычислений содержит число 10 и не содержит 17?",
+      "error_conditions": [],
+      "id": 243620,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 40,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 480,
+  "topic": {
+    "id": 40,
+    "title": "Количество программ"
+  },
+  "video_link": null
+}

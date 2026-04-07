@@ -1,0 +1,42 @@
+{
+  "comment": "Al₄C₃ + 12HCl = 4AlCl₃ + 3CH₄\nn(Al₄C₃) = m/M = 8,64/144 = 0,06 моль\nn(CH₄) = 3n(Al₄C₃) = 0,06 • 3 = 0,18 моль\nV(CH₄) = n • Vₘ = 0,18 • 22,4 = 4 л",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2857,
+    "title": "Расчёты по уравнению химической реакции"
+  },
+  "id": 8646,
+  "is_obsolete": false,
+  "number": 28,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Карбид алюминия массой 8,64 г растворили в избытке соляной кислоты. Вычислите объём (н.у) газа, выделившегося при этом. (Запишите число с точностью до целых.)",
+      "error_conditions": [],
+      "id": 103764,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

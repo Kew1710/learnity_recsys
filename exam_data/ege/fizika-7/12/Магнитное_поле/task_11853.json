@@ -1,0 +1,42 @@
+{
+  "comment": "Магнитный поток определяется по формуле:\n$$Ф=BS\\cos (90-\\alpha)\\Rightarrow B=\\frac{Ф}{S\\cos (90-\\alpha)}=\\frac{0,2}{2\\cdot\\cos (90-30)}=0,2~Тл$$\nОтвет: 0,2",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 11853,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "237410\nПроводящую рамку площадью \\(2\\) м\\(^2\\) пронизывают линии индукции однородного магнитного поля, образуя с поверхностью рамки угол \\(30^\\circ\\). Созданный магнитный поток равен \\(0,2\\) Вб. Найдите модуль вектора индукции магнитного поля. Ответ дайте в Тл.",
+      "error_conditions": [],
+      "id": 151761,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

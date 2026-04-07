@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\n\\( BC \\cap AD =K \\)\nABCD - четырехугольник\nДоказать:\n\\( \\triangle KAB \\sim \\triangle KCD \\)\nДоказательство:\n1. Пусть \\( \\angle KCD = \\alpha \\)\n\\( \\Rightarrow \\angle BCD=180-\\alpha \\) (смежные)\n\\( \\angle BAD + \\angle BCD=180\\) (признак впис. четырехугольника)\n\\( \\Rightarrow \\angle BAD=180-(180-\\alpha)=\\alpha\\)\n\\( \\angle BAD=\\angle KCD \\)\nРассмотрим \\( \\triangle ABK\\) и \\(\\triangle KCD\\)\n\\( \\angle BAD=\\angle KCD\\)\n\\( \\angle K\\) общий\n\\( \\Rightarrow \\triangle ABK \\sim \\triangle KCD\\) - по 2-ум углам, ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1945,
+    "title": "24.3 Четырехугольники"
+  },
+  "id": 13050,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Известно, что около четырёхугольника ABCD можно описать окружность и что продолжения сторон AD и BC четырёхугольника пересекаются в точке K. Докажите, что треугольники KAB и KCD подобны.",
+      "error_conditions": null,
+      "id": 175190,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

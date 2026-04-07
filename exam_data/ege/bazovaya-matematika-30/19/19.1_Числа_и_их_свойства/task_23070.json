@@ -1,0 +1,42 @@
+{
+  "comment": "Пусть множители \\(a\\) и \\(b\\). Тогда\n$$(a+1)(b+1)=ab+11$$\n$$ab + a + b + 1 = ab + 11 \\Rightarrow a+b=10$$\nСледовательно,\n$$(a+2)(b+2) = ab + 2a + 2b + 4 = ab + 2 (a+b) + 4 = ab + 2\\cdot 10 + 4 = ab + 24$$\nОтвет: 24.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2130,
+    "title": "19.1 Числа и их свойства"
+  },
+  "id": 23070,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "24",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Если бы каждый из двух множителей увеличили на 1, то их произведение увеличилось бы на 11. На сколько увеличится произведение этих множителей, если каждый из них увеличить на 2?",
+      "error_conditions": [],
+      "id": 242796,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

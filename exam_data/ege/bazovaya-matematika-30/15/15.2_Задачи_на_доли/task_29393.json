@@ -1,0 +1,42 @@
+{
+  "comment": "В парке 4 части составляют хвойные деревья, 1 часть - лиственные. Всего 5 частей.\nДоля лиственных деревьев в парке составляет \\(1 : 5 = 0,2\\) или \\(0,2 \\cdot 100\\% = 20\\%\\).\nОтвет: 20.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2115,
+    "title": "15.2 Задачи на доли"
+  },
+  "id": 29393,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "20",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Число хвойных деревьев в парке относится к числу лиственных как 4 : 1. Других деревьев в парке нет. Сколько процентов деревьев в парке составляют лиственные?",
+      "error_conditions": [],
+      "id": 249032,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 15,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

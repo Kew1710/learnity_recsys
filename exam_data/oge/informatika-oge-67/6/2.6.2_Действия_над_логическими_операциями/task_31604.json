@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3145,
+    "title": "2.6.2 Действия над логическими операциями."
+  },
+  "id": 31604,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Ниже приведена программа, записанная на пяти языках программирования.\nАлгоритмический язык\nПаскаль\nалг\nнач\nцел s, t\nввод s\nввод t\nесли s < 4 и не t < 2\nто вывод \"YES\"\nиначе вывод \"NO\"\nвсе\nкон\nvar s, t: integer;\nbegin\nreadln(s);\nreadln(t);\nif (s < 4) and not (t < 2)\nthen writeln(\"YES\")\nelse writeln(\"NO\")\nend.\nБейсик\nPython\nDIM s, t AS INTEGER\nINPUT s\nINPUT t\nIF s < 4 AND NOT t < 2 THEN\nPRINT \"YES\"\nELSE\nPRINT \"NO\"\nENDIF\ns = int(input())\nt = int(input())\nif (s < 4) and not (t < 2):\nprint(\"YES\")\nelse:\nprint(\"NO\")\nC++\n#include <iostream>\nusing namespace std;\n\nint main(){\nint s, t;\ncin >> s;\ncin >> t;\nif ((s < 4) && !(t < 2))\ncout << \"YES\" << endl;\nelse\ncout << \"NO\" << endl;\nreturn 0;\n}\nБыло проведено 9 запусков программы, при которых в качестве значений переменных s и t вводились следующие пары чисел:\n(0, 2); (–1, 0); (2, 3); (4, 2); (3, 1); (–2, 7); (10, –2); (5, 4); (–7, 11).\nСколько было запусков, при которых программа напечатала «YES»?",
+      "error_conditions": [],
+      "id": 251243,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

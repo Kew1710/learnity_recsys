@@ -1,0 +1,37 @@
+{
+  "comment": "Силы реакции опоры в точках \\(B\\) и \\(C\\) направлены перпендикулярно поверхности, по третьем закону Ньютона:\n$$N_{By}=F_{By},~N_{Bx}=F_{Bx}$$\nПо второму закону Ньютона в проекции на оси:\n$$Oy:N_{Cy}+N_{By}-mg=0 \\Rightarrow N_{Cy}=mg-N_{By}\\\\ Ox:N_{Cx}-N_{Bx}=0\\Rightarrow N_{Cx}=N_{Bx}$$\nПо теореме Пифагора:\n$$N^2_C=N^2_{Cx}+N^2_{Cy}\\\\ N^2_C=N^2_{Bx}+(mg-N_{By})^2\\\\ 5^2=3^2+(0,5\\cdot 10-N_{By})^2\\\\ 25-9=(5-N_{By})^2\\\\ 4^2=(5-N_{By})^2\\\\ 4=5-N_{By}\\Rightarrow N_{By}=1~Н=F_{By}$$\nОтвет: 1 Н",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2618,
+    "title": "Статика"
+  },
+  "id": 8736,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Однородный стержень \\(AB\\) массой \\(m=500\\) г покоится, упираясь в стык дна и стенки банки концом \\(B\\) и опираясь на край банки в точке \\(C\\) (см. рисунок). Модуль силы, с которой стержень давит на стенку сосуда в точке \\(C\\), равен \\(5\\) Н. Чему равен модуль вертикальной составляющей силы, с которой стержень давит на сосуд в точке \\(B\\), если модуль горизонтальной составляющей этой силы равен \\(3\\) Н? Трением пренебречь.",
+      "error_conditions": null,
+      "id": 111621,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/ZlYWgnaH1eA"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Рассмотрим процесс \\(1\\) – \\(2\\): \\(V-const\\Rightarrow A_{12}=0\\)\nПервый закон термодинамики:\n$$Q_{12}=\\Delta U_{12}+A_{12}=\\Delta U_{12}$$\nИзменение внутренней энергии:\n$$\\Delta U_{12}=\\frac{3}{2}\\nu R(2T-T)=\\frac{3}{2}\\nu RT$$\n$$Q_{12}=\\frac{3}{2}\\nu RT$$\nРассмотрим процесс \\(2\\) – \\(3\\): \\(p-const\\)\nУравнение Клапейрона-Менделеева для точек \\(2\\) и \\(3\\):\n$$pV_2=\\nu RT_2$$\n$$pV_3=\\nu RT_3$$\nРабота газа:\n$$A_{23}=p\\left (V_3-V_2\\right )=pV_3-pV_2=\\nu RT_3-\\nu RT_2=\\nu R\\left (T_3-T_2\\right )$$\nИзменение внутренней энергии:\n$$\\Delta U_{23}=\\frac{3}{2}\\nu R\\left (T_3-T_2\\right )$$\nПервый закон термодинамики:\n$$Q_{23}=\\Delta U_{23}+A_{23}=\\frac{3}{2}\\nu R\\left (T_3-T_2\\right )+\\nu R\\left (T_3-T_2\\right )=\\frac{5}{2}\\nu R\\left (T_3-T_2\\right )=\\frac{5}{2}\\nu R\\left (3T-2T\\right )=\\frac{5}{2}\\nu RT$$\nИскомое отношение:\n$$\\frac{Q_{23}}{Q_{12}}=\\frac{\\frac{5}{2}\\nu RT}{\\frac{3}{2}\\nu RT}=\\frac{5}{3}\\approx 1,67$$\nОтвет: 1,67",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 9505,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "234111\nОдноатомный идеальный газ в количестве \\(4\\) моль совершает процесс \\(1\\) – \\(2\\) – \\(3\\). На \\(pV\\)-диаграмме, представленной на рисунке, показаны изотермы, проходящие через соответствующие точки процесса. Во сколько раз количество теплоты, полученное газом в процессе \\(2\\) – \\(3\\), больше количества теплоты, полученного им в процессе \\(1\\) – \\(2\\)?",
+      "error_conditions": null,
+      "id": 115008,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/RU6v-tJvD2g"
+}

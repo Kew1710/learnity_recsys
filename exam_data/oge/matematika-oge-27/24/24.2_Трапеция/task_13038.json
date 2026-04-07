@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\nABCD - трапеция\n\\( BD \\cap AC =O \\)\nДоказать:\n\\( S_{AOB}=S_{COD} \\)\nДоказательство:\n1)Проведем \\( BH \\perp AD \\)\n\\( CK \\perp AD \\)\nBH=CK (высоты трапеции ABCD)\n\\( S_{ABD}=\\cfrac{1}{2}BH \\cdot AD \\)\n\\( S_{ACD}= CK \\cdot AD \\)\nЗначит \\( S_{ABD}=S_{ACD} \\)\n2)\\( S_{ABD}=S_{ABO}+S_{AOD} \\)\n\\( S_{ACD}=S_{COD}+S_{AOD} \\)\n\\( S_{ABD}=S_{ACD} \\)\n\\( \\Rightarrow S_{ABO}=S_{COD} \\), ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1944,
+    "title": "24.2 Трапеция"
+  },
+  "id": 13038,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В трапеции ABCD с основаниями AD и BC диагонали пересекаются в точке O. Докажите, что площади треугольников AOB и COD равны.",
+      "error_conditions": null,
+      "id": 175092,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

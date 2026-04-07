@@ -1,0 +1,42 @@
+{
+  "comment": "Потомки при скрещивании AaBb x aabb:\n1AaBb\n1Aabb\n1aaBb\n1aabb.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 4870,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1111",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите соотношение фенотипов потомков в анализирующем скрещивании дигетерозиготной самки мухи дрозофилы при независимом наследовании генов. Ответ запишите в виде последовательности цифр, показывающих соотношение получившихся фенотипов.",
+      "error_conditions": [],
+      "id": 70104,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

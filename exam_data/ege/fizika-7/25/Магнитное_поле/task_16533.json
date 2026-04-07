@@ -1,0 +1,37 @@
+{
+  "comment": "Запишем второй закон Ньютона в проекции на ось \\(x\\):\n$$Ox:~-mg\\sin\\alpha+F_A\\cos\\alpha=ma~(1)$$\nСила Ампера: \\(F_A=IBl\\sin\\beta\\) (2), где \\(\\beta=90^\\circ\\), т.к. \\(\\vec{B}\\bot\\) направлению проводника\nПодставим (2) в (1):\n$$-mg\\sin\\alpha+IBl\\cos\\alpha=ma$$\nОткуда\n$$a=\\frac{IBl}{m}\\cos\\alpha-g\\sin\\alpha=\\frac{4\\cdot 0,2}{0,1}\\cos30^\\circ-10\\sin 30^\\circ\\approx 1,93~м/с^2$$\nОтвет: 1,93 м/с\\(^2\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2633,
+    "title": "Магнитное поле"
+  },
+  "id": 16533,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Горизонтальный проводящий стержень прямоугольного сечения поступательно движется с ускорением вверх по гладкой наклонной плоскости в вертикальном однородном магнитном поле (см. рис.). По стержню протекает ток \\(I=4\\) А. Угол наклона плоскости \\(\\alpha=30^\\circ\\). Отношение массы стержня к его длине \\(\\frac{m}{l}=0,1\\) кг/м. Модуль индукции магнитного поля \\(B=0,2\\) Тл. Чему равно ускорение стержня?",
+      "error_conditions": null,
+      "id": 236440,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 47,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/puL77KZfepE?t=6811"
+}

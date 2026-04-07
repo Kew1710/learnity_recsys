@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nПереведем время работы утюга в секунды: \\(\\tau=5~мин=5\\cdot 60~с=300~с\\)\nЗаряд можно найти как $$q=I\\tau$$\nНайдем силу тока по закону Ома: $$I=\\frac{U}{R} \\\\\\ I=\\frac{220}{27,5}=8~А$$\nПодставим числовые значения в формулу заряда: $$q=8\\cdot 300=2400~Кл$$\n\nОтвет: 2400 Кл",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3264,
+    "title": "3.8 Закон Ома для участка электрической цепи"
+  },
+  "id": 18560,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Утюг работает от сети, напряжение которой \\(220\\) В. Какой заряд проходит через нагревательный элемент утюга за \\(5\\) мин? Сопротивление утюга равно \\(27,5\\) Ом.",
+      "error_conditions": null,
+      "id": 238402,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/daMz1ireaE4"
+}

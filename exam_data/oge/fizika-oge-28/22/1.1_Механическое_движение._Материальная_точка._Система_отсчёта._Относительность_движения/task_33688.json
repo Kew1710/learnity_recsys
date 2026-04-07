@@ -1,0 +1,37 @@
+{
+  "comment": "- Одинаковое.\n\n2. Относительно плота скорость лодки одинакова по течению и против течения и равна собственной скорости лодки.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3208,
+    "title": "1.1 Механическое движение. Материальная точка. Система отсчёта. Относительность движения"
+  },
+  "id": 33688,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "По реке плывёт лодка с гребцом, а рядом с ней – плот. Одинаковое ли время потребуется лодке для того, чтобы перегнать плот на 10 м, и для того, чтобы на столько же отстать от него?",
+      "error_conditions": null,
+      "id": 253327,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 21,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "Общее сопротивление определяется по формуле:\n$$R_{12}=\\frac{R_1R_2}{R_1+R_2}=\\frac{20\\cdot 4}{20+4}=\\frac{10}{3}~Ом$$\nПо закону Ома для полной цепи:\n$$I=\\frac{\\varepsilon}{R_{12}+r}$$\nПо закону Ома для участка цепи:\n$$U_{12}=IR_{12}=\\frac{\\varepsilon R_{12}}{R_{12}+r}\\\\ U_C=U_{12}$$\nЭнергия определяется по формуле:\n$$W=\\frac{CU^2}{2}=\\frac{CU^2_{12}}{2}\\\\ W=\\frac{C}{2}\\left (\\frac{\\varepsilon R_{12}}{R_{12}+r}\\right )^2\\Rightarrow R_{12}+r=\\varepsilon R_{12}\\sqrt{\\frac{C}{2W}}\\Rightarrow r=\\varepsilon R_{12}\\sqrt{\\frac{C}{2W}}-R_{12}$$\nПодставим значения:\n$$r=5\\cdot\\frac{10}{3}\\sqrt{\\frac{10\\cdot 10^{-6}}{2\\cdot 20\\cdot 10^{-6}}}-\\frac{10}{3}=5~Ом$$\nОтвет: 5 Ом",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 18618,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "231022\nК параллельно соединенным резисторам \\(R_1=20\\) Ом и \\(R_2=4\\) Ом и конденсатору емкости \\(C=10\\) мкФ подсоединили источник постоянного тока с внутренним сопротивлением \\(r\\). Найдите \\(r\\), если энергия электрического поля конденсатора \\(W=20\\) мкДж, а ЭДС источника \\(\\varepsilon=5\\) В.",
+      "error_conditions": null,
+      "id": 238460,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/VbKbKBOn1Rg"
+}

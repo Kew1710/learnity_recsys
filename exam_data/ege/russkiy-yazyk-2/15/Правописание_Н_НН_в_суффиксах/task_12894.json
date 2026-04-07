@@ -1,0 +1,42 @@
+{
+  "comment": "приотворённую - причастие, сов. вид + приставка, НН\nнекрашеной - отглагольное прилагательное, от глагола несов. вида и без приставки (красить), Н\nразвешанные - причастие, сов. вид + приставка, НН",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 902,
+    "title": "Правописание Н/НН в суффиксах"
+  },
+  "id": 12894,
+  "is_obsolete": false,
+  "number": 15,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "13",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Укажите все цифры, на месте которых пишется НН.\nВ приотворё(1)ую дверь виднелось всё хозяйство Тараса: ружьё на стене, несколько горшков на печке, сундучок под некраше(2)ой лавкой, развеша(3)ые снасти.",
+      "error_conditions": [],
+      "id": 174078,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

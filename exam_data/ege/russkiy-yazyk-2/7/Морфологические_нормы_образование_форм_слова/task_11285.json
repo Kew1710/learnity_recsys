@@ -1,0 +1,42 @@
+{
+  "comment": "у глагола «заехать» нет формы повелительного наклонения, в качестве повелительного наклонения возможно употребление слова «заезжай»; формы «заехай», «заедь» являются ошибочными",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 910,
+    "title": "Морфологические нормы (образование форм слова)"
+  },
+  "id": 11285,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 2,
+    "task_count": 0,
+    "title": "Русский язык"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "заезжай",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В одном из выделенных ниже слов допущена ошибка в образовании формы слова. Исправьте ошибку и запишите слово правильно.\n\nЗАЕХАЙ завтра\nДЛИННЕЕ перрона\nРАЗОЖЖЁТ огонь\nнет БОТИНОК\nнет ТУФЕЛЬ",
+      "error_conditions": [],
+      "id": 148543,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 2013,
+  "topic": null,
+  "video_link": null
+}

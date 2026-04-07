@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\( (x-7)^2-\\sqrt{11}(x-7)<0 \\)\n\\( (x-7)(x-7-\\sqrt{11})<0 \\)\n\\( (x-7)(x-7-\\sqrt{11})=0 \\)\n\\( x-7=0\\) или \\( x-7- \\sqrt{11}=0 \\)\n\\( x=7 \\) или \\( x=7+ \\sqrt{11} \\)\nОтвет: \\( x \\in (7;7+\\sqrt{11}) \\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2055,
+    "title": "20.8 Неравенства"
+  },
+  "id": 12748,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Решите неравенство \\((x-7)^2<\\sqrt{11}(x-7)\\) .",
+      "error_conditions": null,
+      "id": 172548,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 35,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

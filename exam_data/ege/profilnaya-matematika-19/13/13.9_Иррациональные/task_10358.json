@@ -1,0 +1,40 @@
+{
+  "comment": "а) $$\\sqrt{x^3+4x^2+9}-3=x\\Leftrightarrow\\sqrt{x^3+4x^2+9}=x+3\\\\ \\displaystyle \\begin{cases}\nx^{3} +4x^{2} +9=x^{2} +6x+9\\\\\nx+3\\geq 0\n\\end{cases} \\Leftrightarrow \\begin{cases}\nx^{3} +3x^{2} -6x=0\\\\\nx\\geq -3\n\\end{cases} \\Leftrightarrow \\\\ \\displaystyle \\Leftrightarrow \\begin{cases}\nx\\left( x^{2} +3x-6\\right) =0\\\\\nx\\geq -3\n\\end{cases} \\Leftrightarrow \\begin{cases}\n\\left[ \\begin{array}{l l}\nx=0\\\\\nx=\\frac{-3+\\sqrt{33}}{2}\\\\\nx=\\frac{-3-\\sqrt{33}}{2}\n\\end{array} \\right.\\\\\nx\\geq -3\n\\end{cases}$$\n1) Сравним \\(\\frac{-3-\\sqrt{33}}{2}\\) и \\(-3\\):\nУмножим их на \\(2\\) и прибавим \\(3\\): \\(-\\sqrt{33}\\) и \\(-3\\) или же \\(-\\sqrt{33}\\) и \\(-\\sqrt{9}\\Leftrightarrow\\)\n\\(\\Leftrightarrow -\\sqrt{33}< -\\sqrt{9}\\), значит \\(\\frac{-3-\\sqrt{33}}{2}< -3\\Leftrightarrow \\) этот корень не подходит.\n\n2) Сравним \\(\\frac{-3+\\sqrt{33}}{2}\\) и \\(-3\\):\nУмножим их на \\(2\\) и прибавим \\(3\\): \\(\\sqrt{33}> -3\\Leftrightarrow\\frac{-3+\\sqrt{33}}{2}> -3\\) - подходит.\n\nУчитывая ограничения, в итоге имеем:\n$$\\displaystyle \\left[ \\begin{array}{l l}\nx=\\frac{-3+\\sqrt{33}}{2}\\\\\nx=0\n\\end{array} \\right.$$\nб) Отберем корни, которые принадлежат промежутку \\(\\left[-\\frac{9}{2};\\frac{7}{5}\\right]\\)\n1) Сравним \\(\\dfrac{-3+\\sqrt{33}}{2}\\) и \\(\\dfrac{7}{5}\\):\nУмножим их на \\(10\\) и прибавим \\(15\\): \\(5\\sqrt{33}\\) и \\(29\\), возведем в квадрат:\n\\(825\\) и \\(841\\Leftrightarrow 825<841\\Leftrightarrow\\frac{-3+\\sqrt{33}}{2}<\\frac{7}{5}\\)\n\n2) Сравним \\(\\dfrac{-3+\\sqrt{33}}{2}\\) и \\(-\\dfrac{9}{2}\\):\nУмножим их на \\(2\\) и прибавим \\(3\\):\n\\(\\sqrt{33}\\) и \\(-6\\Leftrightarrow\\sqrt{33}> -6\\Leftrightarrow \\frac{-3+\\sqrt{33}}{2}> -\\frac{9}{2}\\)\n\nЗначит, нам подходят корни: \\(0;\\frac{-3+\\sqrt{33}}{2}\\)\n\nОтвет: а) {\\(0;\\frac{-3+\\sqrt{33}}{2}\\)}, б) \\(0;\\frac{-3+\\sqrt{33}}{2}\\)",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2458,
+    "title": "13.9 Иррациональные"
+  },
+  "id": 10358,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "а) Решите уравнение \\(\\sqrt{x^3+4x^2+9}-3=x\\).\nб) Укажите корни этого уравнения, принадлежащие отрезку \\(\\left[-\\frac{9}{2};\\frac{7}{5}\\right]\\).",
+      "error_conditions": null,
+      "id": 137751,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 26,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 13,
+    "title": "Уравнения"
+  },
+  "video_link": null
+}

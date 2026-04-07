@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПри охлаждении медного тела выделяется энергия, которую можно расписать по формуле: $$Q=cm\\Delta t,$$ где $c=400~\\frac{Дж}{кг\\cdot °С}$\nПодставим числовые значения в формулу и найдем массу медного тела : $$8000=400\\cdot m\\cdot 10 \\\\ m=2~кг$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3247,
+    "title": "2.8 Нагревание и охлаждение тел. Количество теплоты. Удельная теплоёмкость"
+  },
+  "id": 34362,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Медное тело при охлаждении на $10$ °С отдаёт количество теплоты, равное $8000$ Дж. Чему равна масса этого тела?\n\nОтвет: _________________кг",
+      "error_conditions": [],
+      "id": 254001,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

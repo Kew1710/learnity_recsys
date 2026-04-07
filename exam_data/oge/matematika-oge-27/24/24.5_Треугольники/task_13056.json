@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\nДано:\n\\( \\angle ACB >90^o \\)\n\\( AA_1 \\perp BC\\)\n\\( BB_1 \\perp AC \\)\nДоказать:\n\\( \\triangle A_1B_1C_1 \\sim \\triangle ABC \\)\nДоказательство:\nОпишем окружность около \\( \\triangle AA_1B \\)\n\\( \\angle AA_1B =90^o\\) (вписанный)\n\\( \\Rightarrow AB \\) - диаметр\nОпишем окружность около \\( \\triangle AB_1B\\), т.к. \\( \\angle AB_1B=90^o\\) (вписанный)\n\\( \\Rightarrow AB\\) - диаметр\n\\( \\angle B_1A_1B=\\angle B_1AB \\) - опираются на одну дугу \\( BB_1 \\)\n\\( \\angle A_1CB_1=\\angle ACB\\) - вертикальные\nТогда \\( \\triangle A_1B_1C_1 \\sim \\triangle ABC \\) по 2-ум углам, ч.т.д.",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1947,
+    "title": "24.5 Треугольники"
+  },
+  "id": 13056,
+  "is_obsolete": false,
+  "number": 24,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В треугольнике ABC с тупым углом ACB проведены высоты \\(AA_1\\) и \\(BB_1\\). Докажите, что треугольники \\(A_1B_1C\\) и ABC подобны.",
+      "error_conditions": null,
+      "id": 175348,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 39,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

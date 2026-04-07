@@ -1,0 +1,42 @@
+{
+  "comment": "Отношение работ газа в процессах \\(1\\)-\\(2\\) и \\(2\\)-\\(3\\):\n$$\\frac{A_{12}}{A_{23}}=\\frac{3p_0V_0}{4p_0V_0}=0,75$$\nОтвет: 0,75",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2629,
+    "title": "Термодинамика"
+  },
+  "id": 32707,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Давление газа менялось в зависимости от объема так, как показано на рисунке. Найдите отношение работы газа при переходе из состояния \\(1\\) в состояние \\(2\\) к работе газа при переходе из состояния \\(2\\) в состояние \\(3\\).",
+      "error_conditions": [],
+      "id": 252346,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/R6U_uM8955U?t=2216"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/R6U_uM8955U?t=2216"
+}

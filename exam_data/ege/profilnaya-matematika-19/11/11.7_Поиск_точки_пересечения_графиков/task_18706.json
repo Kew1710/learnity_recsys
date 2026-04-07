@@ -1,0 +1,45 @@
+{
+  "comment": "По графику функций определяем следующие коэффициенты:\n\\(k=\\frac{1}{3}\\), так как тангенс наклона прямой равен \\(\\frac{1}{3}\\).\nПодставим точку \\((1;2)\\) в уравнение корня:\n$$2=a\\sqrt{1}\\\\ a=2$$\nПолучаем функции:\n$$f(x)=2\\sqrt{x}\\\\ g(x)=\\frac{1}{3}x$$\nПриравняем их и найдем точки пересечения:\n$$2\\sqrt{x}=\\frac{1}{3}x\\\\ 4x=\\frac{1}{9}x^2$$\n$$\\displaystyle \\left[ \\begin{array}{l l}\n\\ x=0\\\\\nx=36\n\\end{array} \\right.$$\n\\(0\\) – абсцисса точки A, значит, абсцисса точки B равна \\(36\\).\nОтвет: 36",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2443,
+    "title": "11.7 Поиск точки пересечения графиков"
+  },
+  "id": 18706,
+  "is_obsolete": false,
+  "number": 11,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "36",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображены графики функций видов \\(f(x)=a\\sqrt{x}\\) и \\(g(x)=kx\\), пересекающиеся в точках А и В. Найдите абсциссу точки В.",
+      "error_conditions": [],
+      "id": 238547,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/jBxtSqJSpME?t=7184"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 11,
+    "title": "Графики"
+  },
+  "video_link": "https://youtu.be/jBxtSqJSpME?t=7184"
+}

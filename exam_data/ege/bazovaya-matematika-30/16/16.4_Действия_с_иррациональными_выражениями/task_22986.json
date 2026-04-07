@@ -1,0 +1,42 @@
+{
+  "comment": "Так как \\(\\sqrt{24} = \\sqrt{4 \\cdot 6} = 2\\sqrt{6}\\), то\n$$(\\sqrt{24} - \\sqrt{6}) \\cdot \\sqrt{6} = (2\\sqrt{6} - \\sqrt{6}) \\cdot \\sqrt{6} = \\sqrt{6} \\cdot \\sqrt{6} = 6$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2120,
+    "title": "16.4 Действия с иррациональными выражениями"
+  },
+  "id": 22986,
+  "is_obsolete": false,
+  "number": 16,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения\n$$(\\sqrt{24} - \\sqrt{6}) \\cdot \\sqrt{6}$$",
+      "error_conditions": [],
+      "id": 242712,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 14,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

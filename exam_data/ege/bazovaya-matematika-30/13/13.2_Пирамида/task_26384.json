@@ -1,0 +1,42 @@
+{
+  "comment": "Объём пирамиды:\n$$V = \\frac{1}{3} \\cdot S_{осн} \\cdot h$$\nВ основании лежит правильный четырёхугольник - квадрат, значит\n$$S_{осн} = a^2 = 8^2 = 64$$\nПроведём высоту пирамиды (так как пирамида правильная, высота будет проходить через центр основания).\nЗдесь \\(AC\\) - половина диагонали основания, значит, \\(AC = \\frac{1}{2} a \\cdot \\sqrt{2} = \\frac{1}{2} \\cdot 8 \\sqrt{2} = 4\\sqrt{2}\\).\nРассмотрим прямоугольный треугольник \\(ABC\\). По теореме Пифагора:\n$$BC^2 = AB^2 - AC^2 = \\sqrt{41}^2 - (4\\sqrt{2})^2 = 41 - 32 = 9 \\Rightarrow BC = 3$$\nТогда\n$$V = \\frac{1}{3} \\cdot S_{осн} \\cdot h = \\frac{1}{3} \\cdot 64 \\cdot 3 = 64$$",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2249,
+    "title": "13.2 Пирамида"
+  },
+  "id": 26384,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "64",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите объём правильной четырёхугольной пирамиды, сторона основания которой равна \\(8\\), а боковое ребро равно \\(\\sqrt{41}\\).",
+      "error_conditions": [],
+      "id": 246023,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 13,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

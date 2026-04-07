@@ -1,0 +1,42 @@
+{
+  "comment": "По координатной прямой можем примерно оценить значение \\(m \\approx -2,5\\)\nРассмотрим каждое число:\n- \\(\\frac{m}{10} \\approx \\frac{-2,5}{10} \\approx -0,25\\) - соответствует точке \\(B\\)\n- \\(m^2 - 3 \\approx (-2,5)^2 - 3 \\approx 6,25 - 3 \\approx 3,25\\) - соответствует точке \\(D\\)\n- \\(-\\sqrt{-m} \\approx -\\sqrt{-(-2,5)} \\approx -1,58\\) - соответствует точке \\(A\\)\n- \\(-\\frac{1}{m} \\approx -\\frac{1}{-2,5} \\approx 0,4\\) - соответствует точке \\(C\\)\n\nОтвет: 3142",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2128,
+    "title": "18.2 Сравнение чисел"
+  },
+  "id": 28440,
+  "is_obsolete": false,
+  "number": 18,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3142",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На координатной прямой отмечено число \\(m\\) и точки \\(A,\\; B,\\; C\\; и \\; D\\).\nКаждой точке соответствует одно из чисел в правом столбце. Установите соответствие между указанными точками и числами.\nТОЧКИЧИСЛА\\(A\\)1) \\(\\frac{m}{10}\\)\\(B\\)2) \\(m^2 - 3\\)\\(C\\)3) \\(-\\sqrt{-m}\\)\\(D\\)4) \\(-\\frac{1}{m}\\)Для каждой точки укажите номер соответствующего числа.",
+      "error_conditions": [],
+      "id": 248079,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 18,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

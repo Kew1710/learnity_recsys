@@ -1,0 +1,42 @@
+{
+  "comment": "Продуценты: клевер, ель\nКонсументы: дождевой червь, карась, волк, скорпион",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2533,
+    "title": "Экология"
+  },
+  "id": 6412,
+  "is_obsolete": false,
+  "number": 19,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "122122",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Установите соответствие между организмами и их ролью в экосистемах: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.\nОрганизмЭкологическая рольА) клевер\nБ) дождевой червь\nВ) волк\nГ) ель\nД) карась\nЕ) скорпион\n- продуцент\n- консумент",
+      "error_conditions": [],
+      "id": 73498,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/VjDJV7daq4g?start=2602"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/VjDJV7daq4g?start=2602"
+}

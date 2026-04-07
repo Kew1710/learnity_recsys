@@ -1,0 +1,37 @@
+{
+  "comment": "1. Рост кости в толщину происходит за счет клеток надкостницы, которые делятся и дифференцируются в костные клетки.\n2. Рост кости в длину происходит за счет специальной хрящевой пластинки (метафиз). С возрастом кости в длину почти не растут, поэтому метафиз практически не функционирует.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10289,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Как происходит рост костей, если известно, что клетки не кости не способны к делению?",
+      "error_conditions": null,
+      "id": 123029,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

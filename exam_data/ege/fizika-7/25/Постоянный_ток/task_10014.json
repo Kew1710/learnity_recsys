@@ -1,0 +1,37 @@
+{
+  "comment": "По закону Ома для полной цепи:\n$$I=\\frac{\\varepsilon}{R+r}~(1)$$\nТок короткого замыкания:\n$$I_{к.з.}=\\frac{\\varepsilon}{r}=I_{к.з.}r~(2)$$\nПодставим (2) в (1):\n$$I=\\frac{I_{к.з.}r}{R+r}\\\\ IR+Ir=I_{к.з.}r\\Rightarrow IR=r(I_{к.з.}-I)\\Rightarrow r=\\frac{IR}{(I_{к.з.}-I)}=\\frac{4\\cdot 2,8}{24-4}=0,56~Ом\\\\ \\varepsilon=24\\cdot 0,56=13,44~В$$\nОтвет: \\(r=0,56\\) Ом, \\(\\varepsilon=13,44\\) В",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2632,
+    "title": "Постоянный ток"
+  },
+  "id": 10014,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23573\nК батарее подключают резистор, сопротивление которого \\(2,8\\) Ом, при этом по цепи течет ток \\(4\\) А. Чему равны ЭДС и внутреннее сопротивление батареи, если при коротком замыкании сила тока в цепи равна \\(24\\) А?",
+      "error_conditions": null,
+      "id": 120972,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 37,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/Dg40oSaOqIU"
+}

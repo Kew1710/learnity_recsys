@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nПереведем данные в СИ: \\(m=100~г=0,1~кг\\)\nСила упругости пружины равна силе тяжести груза (т.к. груз покоится): $$F_у=mg$$\nРаспишем по формуле силу упругости: $$k\\Delta l=mg$$\nПодставим числовые значения и найдем удлинение пружины: $$40\\cdot \\Delta l=0,1\\cdot 10 \\\\ 40\\Delta l=1 \\\\ \\Delta l=0,025~м=2,5~см$$",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3221,
+    "title": "1.13 Деформация тела. Упругие и неупругие деформации. Закон упругой деформации (закон Гука)"
+  },
+  "id": 33911,
+  "is_obsolete": false,
+  "number": 5,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2,5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Груз массой \\(100\\) г подвесили на упругую пружину жёсткостью \\(40\\) Н/м. Чему при этом равно растяжение пружины?\n\nОтвет: _______см.",
+      "error_conditions": [],
+      "id": 253550,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 5,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

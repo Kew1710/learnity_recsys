@@ -1,0 +1,42 @@
+{
+  "comment": "Ответ: 5\nПояснение: 1 – Почечная артерия\n2 – Почечная вена\n3 – Чашечки\n4 – Мозговое вещество\n5 – Корковое вещество\n6 – Лоханка\n7 – Мочеточник",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2530,
+    "title": "Анатомия"
+  },
+  "id": 10064,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите рисунок «Выделительная система» и выполните задание\nКаким номером на рисунке изображено корковое вещество?",
+      "error_conditions": [],
+      "id": 121870,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

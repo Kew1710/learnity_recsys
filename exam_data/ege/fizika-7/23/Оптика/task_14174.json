@@ -1,0 +1,37 @@
+{
+  "comment": "Условие интерференционных максимумов дифракционной решетки:\n$$d\\sin\\varphi=k\\lambda,$$\nОткуда\n$$\\sin\\varphi=\\frac{k\\lambda}{d}~(1)$$\nЧтобы интерференционный максимум попадал на решетку, должно выполняться условие:\n$$\\varphi<90^{\\circ}\\Rightarrow\\sin\\varphi<1~(2)$$\nПодставим \\(2\\) в \\(1\\):\n$$\\frac{k\\lambda}{d}<1,$$\nПо определению длины волны:\n$$\\lambda=\\frac{c}{\\nu}$$\nПериод дифракционной решетки:\n$$d=\\frac{l}{N}$$\nПосле подстановки имеем:\n$$\\frac{ck}{\\nu d}<1\\Rightarrow k<\\frac{\\nu d}{c}=\\frac{\\nu l}{Nc}=\\frac{8\\cdot 10^{14}\\cdot 10^{-3}}{480\\cdot 3\\cdot 10^8}=5,56\\Rightarrow k_{max}=5$$\nОтвет: 5",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2640,
+    "title": "Оптика"
+  },
+  "id": 14174,
+  "is_obsolete": false,
+  "number": 23,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23858\nЧастота плоского монохроматического света, нормально падающего на поверхность дифракционной решетки, равна \\(8\\cdot 10^{14}\\) Гц. Чему равен наибольший порядок наблюдаемого дифракционного максимума, если на \\(1\\) мм решетки приходится \\(480\\) штрихов?",
+      "error_conditions": null,
+      "id": 189421,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/V_COpXkOwNY"
+}

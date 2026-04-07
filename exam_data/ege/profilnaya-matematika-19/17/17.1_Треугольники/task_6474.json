@@ -1,0 +1,40 @@
+{
+  "comment": "а) Прямоугольные треугольники \\(ABC\\) и \\(NMC\\) равны по двум катетам \\(BC = CM\\) и \\(CN = AC\\). Пусть угол \\(BAC\\) равен \\(\\alpha\\), тогда в прямоугольном треугольнике \\(ACH\\):\n$$\\angle ACH=90^\\circ-\\alpha$$\n\\(\\angle{CAB} = \\angle{CNM}\\) из вышеупомянутого равенства треугольников \\(\\Rightarrow\\) из прямоугольного треугольника \\(FNC\\):\n$$\\angle{FCN} = 90^{\\circ} - \\alpha \\Rightarrow \\angle{FCM} = 90^{\\circ} - (90^{\\circ} - \\alpha) = \\alpha$$\nТогда:\n$$\\angle FCH=\\angle FCM+\\angle ACH=\\alpha+(90^\\circ-\\alpha)=90^\\circ$$\nб) По условию \\(CN=AC\\) и \\(CM=BC\\), тогда \\(\\triangle{ACN}\\) и \\(\\triangle{CMB}\\) - равнобедренные:\n$$\\angle LAM=\\angle NAC=45^\\circ,\\\\ \\angle AML=\\angle CMB=45^\\circ \\text{ (как вертикальные)}$$\nоткуда \\(\\angle ALM=90^\\circ \\), то есть \\(ALM\\) - равнобедренный прямоугольный треугольник. Значит,\n$$LM=\\frac{\\sqrt{2}}{2}AM=2\\sqrt{2}$$\nОтвет: \\(2\\sqrt{2}\\).",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2481,
+    "title": "17.1 Треугольники"
+  },
+  "id": 6474,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "В прямоугольном треугольнике \\(ABC\\) точка \\(M\\) лежит на катете \\(AC\\), а точка \\(N\\) лежит на продолжении катета \\(BC\\) за точку \\(C\\) причем \\(CM=BC\\) и \\(CN=AC\\).\nа) Отрезки \\(CH\\) и \\(CF\\) - высоты треугольников \\(ACB\\) и \\(NCM\\) соответственно. Докажите, что прямые \\(CH\\) и \\(CF\\) перпендикулярны.\nб) Прямые \\(BM\\) и \\(AN\\) пересекаются в точке \\(L\\). Найдите \\(LM\\) если \\(BC=4\\), а \\(AC=8\\).",
+      "error_conditions": null,
+      "id": 73560,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/m2fvQnBFx2o?start=366"
+}

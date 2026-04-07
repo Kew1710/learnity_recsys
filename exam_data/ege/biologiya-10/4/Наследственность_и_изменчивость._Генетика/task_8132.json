@@ -1,0 +1,42 @@
+{
+  "comment": "Если гены полностью сцеплены, то гетерозигота AaBb даст только два типа гамет AB и ab (или Ab и aB, в данном случае это неважно).\nP: AbBb x AaBb\nG: AB, ab x AB, ab\nF: 1AABB, 2AaBb, 1aabb. По фенотипу расщепление 3А_В_: 1aabb.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2516,
+    "title": "Наследственность и изменчивость. Генетика"
+  },
+  "id": 8132,
+  "is_obsolete": false,
+  "number": 4,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "31",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите соотношение фенотипов в потомстве при дигибридном скрещивании двух дигетерозигот при полном сцеплении рецессивных и доминантных генов попарно, если тип наследования полное доминирование. Запишите в виде последовательности цифр в порядке убывания.",
+      "error_conditions": [],
+      "id": 101218,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 8,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/aWPFvJkh7vU?start=1030"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/aWPFvJkh7vU?start=1030"
+}

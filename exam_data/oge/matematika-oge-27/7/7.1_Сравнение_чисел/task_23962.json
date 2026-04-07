@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nРазделим 57 на 9\n\\(\\cfrac{57}{9} \\approx 6,3\\)\nРазделим 62 на 9\n\\(\\cfrac{62}{9} \\approx 6,89\\)\nРазделим 70 на 9\n\\(\\cfrac{70}{9} \\approx 7,78\\)\nРазделим 79 на 9\n\\(\\cfrac{79}{9} \\approx 8,78\\)\nТак, отрезку \\([7; 8]\\) принадлежит число \\(\\cfrac{70}{9}\\)\nОтвет: 3",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1954,
+    "title": "7.1 Сравнение чисел"
+  },
+  "id": 23962,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "3",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Какое из данных чисел принадлежит …",
+      "error_conditions": [],
+      "id": 243677,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

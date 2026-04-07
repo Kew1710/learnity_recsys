@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nУмножаем обе части уравнения на 7\n\\(7x-x=42\\)\n\\(6x=42\\)\n\\(x=7\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1928,
+    "title": "9.1 Линейные уравнения"
+  },
+  "id": 18211,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "7",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите корень уравнения \\(x-\\cfrac{x}{7}=6\\) .",
+      "error_conditions": [],
+      "id": 238054,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 38,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 300,
+  "topic": null,
+  "video_link": null
+}

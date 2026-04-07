@@ -1,0 +1,42 @@
+{
+  "comment": "ЭДС индукции определяется по формуле:\n$$в~4\\uparrow |\\varepsilon_i|=в~4\\uparrow vBl\\cos\\alpha\\Rightarrow\\varepsilon_{i2}=4\\varepsilon_{i1}=4\\cdot 10=40~мВ$$\nОтвет: 40",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2634,
+    "title": "Электромагнитная индукция"
+  },
+  "id": 11855,
+  "is_obsolete": false,
+  "number": 12,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "40",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "237412\nВ качестве эксперимента однородное магнитное поле было создано в некоторой области пространства (см. рисунок). Квадратная металлическая рамка движется через границу этой области с постоянной скоростью \\(\\vec{v}\\), направленной вдоль плоскости рамки и перпендикулярной вектору магнитной индукции \\(\\vec{B}\\). При этом в процессе движения генерируется ЭДС индукции, равная \\(10\\) мВ. Далее скорость рамки увеличивают в 4 раза. Чему станет равна ЭДС индукции? Ответ дайте в мВ.",
+      "error_conditions": [],
+      "id": 151763,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 29,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": null
+}

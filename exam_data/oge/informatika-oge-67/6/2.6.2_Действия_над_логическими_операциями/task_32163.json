@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3145,
+    "title": "2.6.2 Действия над логическими операциями."
+  },
+  "id": 32163,
+  "is_obsolete": false,
+  "number": 6,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 67,
+    "task_count": 0,
+    "title": "Информатика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Алгоритмический языкПаскальалг\nнач\nцел s, t, A\nввод s\nввод t\nввод A\nесли s > 10 или t > А\nто вывод \"YES\"\nиначе вывод \"NO\"\nвсе\nконvar s, t, A: integer;\nbegin\nreadln(s);\nreadln(t);\nreadln(A);\nif (s > 10) or (t > А)\nthen writeln(\"YES\")\nelse writeln(\"NO\")\nend.БейсикPythonDIM s, t, A AS INTEGER\nINPUT s\nINPUT t\nINPUT A\nIF s > 10 OR t > А THEN\nPRINT \"YES\"\nELSE\nPRINT \"NO\"\nENDIFs = int(input())\nt = int(input())\nA = int(input())\nif (s > 10) or (t > А):\nprint(\"YES\")\nelse:\nprint(\"NO\")C++#include <iostream>\nusing namespace std;\n\nint main(){\nint s, t, A;\ncin >> s;\ncin >> t;\ncin >> A;\nif (s > 10 || t > А)\ncout << \"YES\" << endl;\nelse\ncout << \"NO\" << endl;\nreturn 0;\n}Было проведено 9 запусков программы, при которых в качестве значений переменных s и t вводились следующие пары чисел:\n(1, 2); (11, 2); (1, 12); (11, 12); (–11, –12); (–11, 12); (–12, 11); (10, 10); (10, 5).\nУкажите количество целых значений параметра А, при которых для указанных входных данных программа напечатает «NO» три раза.",
+      "error_conditions": [],
+      "id": 251802,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 6,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

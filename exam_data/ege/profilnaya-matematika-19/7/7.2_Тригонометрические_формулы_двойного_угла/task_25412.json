@@ -1,0 +1,45 @@
+{
+  "comment": "Воспользуемся формулой:\n$$\\cos 2\\alpha=2\\cos^2\\alpha -1\\Rightarrow\\frac{\\cos 2\\alpha +1}{2}=\\cos^2\\alpha$$\nПодставим в исходное выражение:\n$$2\\sqrt{2}\\frac{\\cos\\frac{3\\pi}{4}+1}{2}-\\sqrt{2}=2\\sqrt{2}\\frac{\\left(-\\frac{\\sqrt{2}}{2}+1\\right)}{2}-\\sqrt{2}=-1+\\sqrt{2}-\\sqrt{2}=-1$$\nОтвет: -1",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2406,
+    "title": "7.2 Тригонометрические формулы двойного угла"
+  },
+  "id": 25412,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "-1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Найдите значение выражения \\(2\\sqrt{2}\\cos^2\\frac{3\\pi}{8}-\\sqrt{2}\\).",
+      "error_conditions": [],
+      "id": 245069,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/watch?v=280qZwzueqw&t=765s"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/watch?v=280qZwzueqw&t=765s"
+}

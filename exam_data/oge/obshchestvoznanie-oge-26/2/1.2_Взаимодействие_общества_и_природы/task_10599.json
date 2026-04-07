@@ -1,0 +1,42 @@
+{
+  "comment": "",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1751,
+    "title": "1.2 Взаимодействие общества и природы"
+  },
+  "id": 10599,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "К глобальным экологическим проблемам современного мира относится\n\n1) расширение деятельности транснациональных компаний\n2) углубление разрыва в развитии между бедными и богатыми странами\n3) деятельность международных террористических организаций\n4) загрязнение вод Мирового океана отходами вредных производств",
+      "error_conditions": [],
+      "id": 145479,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 11,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=4579"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/WO43NglIP1U?start=4579"
+}

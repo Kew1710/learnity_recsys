@@ -1,0 +1,42 @@
+{
+  "comment": "Возьмем из справочных материалов формулу объема шара \\(V=\\frac{4}{3} \\pi r^{3}\\). Запишем объем для обоих:\n$$V_{б} =\\frac{4}{3} \\cdot \\pi \\cdot 4^{3}$$\n$$V_{м} =\\frac{4}{3} \\cdot \\pi \\cdot 1^{3}$$\nТогда \\(\\frac{V_{б}}{V_{м}} =\\frac{\\frac{4}{3} \\cdot \\pi \\cdot 4^{3}}{\\frac{4}{3} \\pi } =4^{3} =64\\)\nОтвет: в 64раз.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2252,
+    "title": "13.5 Шар"
+  },
+  "id": 23112,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 30,
+    "task_count": 0,
+    "title": "Базовая Математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "64",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны два шара с радиусами 4 и 1. Во сколько раз объём большего шара больше объёма меньшего?",
+      "error_conditions": [],
+      "id": 242838,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 23,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

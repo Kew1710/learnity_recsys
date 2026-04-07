@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\sin A=\\sqrt{1-(\\cos A)^2}=\\frac{1}{5}\\\\ \\sin A=\\frac{CH}{AC}\\\\ \\frac{1}{5}=\\frac{1}{AC}\\Rightarrow AC=5$$\nОтвет: 5",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2372,
+    "title": "1.1 Тригонометрия в прямоугольном треугольнике"
+  },
+  "id": 4957,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "5",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В треугольнике \\(ABC~AC=BC,\\) высота \\(CH\\) равна \\(1,\\cos A=\\frac{2\\sqrt{6}}{5}\\). Найдите \\(AC\\).",
+      "error_conditions": [],
+      "id": 70191,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=856"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 1,
+    "title": "Простейшая планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/3Lrx3ZVzLyc?start=856"
+}

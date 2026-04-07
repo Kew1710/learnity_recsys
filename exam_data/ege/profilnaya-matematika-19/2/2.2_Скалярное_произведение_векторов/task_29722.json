@@ -1,0 +1,45 @@
+{
+  "comment": "Скалярное произведение находится по формуле:\n$$\\vec{a}\\cdot \\vec{b}=x_1\\cdot x_2+y_1\\cdot y_2,$$\nгде \\(x_1\\), \\(y_1\\) - координаты вектора \\(\\vec{a}\\), \\(x_2\\), \\(y_2\\) - координаты вектора \\(\\vec{b}\\)\n$$\\vec{a}\\cdot\\vec{b}=(-13)\\cdot (-6)+4\\cdot 1=78+4=82$$\nОтвет: 82",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2383,
+    "title": "2.2 Скалярное произведение векторов"
+  },
+  "id": 29722,
+  "is_obsolete": false,
+  "number": 2,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "82",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Даны векторы \\(\\vec{a}(-13;4)\\) и \\(\\vec{b}(-6;1)\\). Найдите скалярное произведение \\(\\vec{a}\\cdot \\vec{b}\\).",
+      "error_conditions": [],
+      "id": 249361,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 2,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/qdo4vqN44hI?si=PGIloiWpZS6OdHYZ&t=400"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 2,
+    "title": "Векторы"
+  },
+  "video_link": "https://www.youtube.com/live/qdo4vqN44hI?si=PGIloiWpZS6OdHYZ&t=400"
+}

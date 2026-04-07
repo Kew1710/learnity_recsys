@@ -1,0 +1,45 @@
+{
+  "comment": "$$\\log_{x-2}49=2$$\nОграничения:\n$$\\displaystyle \\begin{cases} x >2\\\\ x-2\\neq 1 \\end{cases} \\Leftrightarrow \\begin{cases} x >2\\\\ x\\neq 3 \\end{cases}\\\\ (x-2)^2=49\\\\ x^2-4x+4-49=0\\\\ x^2-4x-45=0\\\\ (x+5)(x-9)=0\\\\ \\displaystyle \\begin{cases} \\left[ \\begin{array}{l l} x=-5\\\\ x=9 \\end{array} \\right.\\\\ x >2\\\\ x\\neq 3 \\end{cases} \\Leftrightarrow \\ x=9$$\nОтвет: 9",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2409,
+    "title": "7.5 Свойства логарифма"
+  },
+  "id": 34526,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "9",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Решите уравнение \\(\\log_{x-2}49=2\\).",
+      "error_conditions": [],
+      "id": 254165,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=FZ2LudfBQ4diSVL1&t=2300"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 7,
+    "title": "Преобразования"
+  },
+  "video_link": "https://www.youtube.com/live/AU_mXvyvMyk?si=FZ2LudfBQ4diSVL1&t=2300"
+}

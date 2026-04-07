@@ -1,0 +1,37 @@
+{
+  "comment": "Так как после зарядки конденсатора его отключили от источника:\n$$q-const$$\nПо закону сохранения заряда:\n$$q_1=q_2=CU,$$\nгде \\(q_1\\) и \\(q_2\\) – начальный и конечный заряд конденсатора.\nЭлектроемкость конденсатора в обоих случаях:\n$$C=\\frac{\\varepsilon \\varepsilon_0S}{d1}$$\n$$C_2=\\frac{\\varepsilon \\varepsilon_0S}{d_2}=\\frac{\\varepsilon \\varepsilon_0S}{0,6d_1}=\\frac{C}{0,6}$$\nЭнергия электрического поля конденсатора:\n$$W_1=\\frac{CU^2}{2};~W_2=\\frac{q_2^2}{2C_2}=\\frac{\\left (CU\\right )^2}{2\\frac{C}{0,6}}=0,6\\frac{C^2U^2}{2C}=0,6\\frac{CU^2}{2}$$\nИзменение энергии конденсатора:\n$$\\Delta W=W_2-W_1=0,6\\frac{CU^2}{2}-\\frac{CU^2}{2}=-0,4\\frac{CU^2}{2}=-0,4\\cdot \\frac{10\\cdot 10^{-9}\\cdot 10^2}{2}=-2\\cdot 10^{-7}~Дж=-0,2~мкДж$$\nОтвет: энергия электрического поля конденсатора уменьшилась на 0,2 мкДж.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2631,
+    "title": "Конденсаторы"
+  },
+  "id": 32698,
+  "is_obsolete": false,
+  "number": 25,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Плоский воздушный конденсатор емкостью \\(10\\) нФ подключили к источнику постоянного напряжения \\(10\\) В и зарядили, а затем отключили от источника. После этого расстояние между обкладками конденсатора уменьшили на \\(40\\)%. Найдите изменение энергии электрического поля конденсатора.",
+      "error_conditions": null,
+      "id": 252337,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/ssJ47Y2ZrPs?t=5721"
+}

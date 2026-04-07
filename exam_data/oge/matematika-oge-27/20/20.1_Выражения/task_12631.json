@@ -1,0 +1,37 @@
+{
+  "comment": "Решение:\n\\(4a - 9b + 3 = 5(9a - 4b + 3)\\)\n\\(4a - 9b + 3 = 45a - 20b + 15\\)\n\\(45a - 20b + 15 - 4a + 9b - 3 = 0\\)\n\\(41a - 11b + 12 = 0\\)\n\\(41a - 11b = -12\\)\n\\(41a - 11b + 15 = -12 +15 = 3\\)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1923,
+    "title": "20.1 Выражения"
+  },
+  "id": 12631,
+  "is_obsolete": false,
+  "number": 20,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 27,
+    "task_count": 0,
+    "title": "Математика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Найдите значение выражения \\(41a-11b+15\\) , если \\(\\cfrac{4a-9b+3}{9a-4b+3}=5\\) .",
+      "error_conditions": null,
+      "id": 172224,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": null
+}

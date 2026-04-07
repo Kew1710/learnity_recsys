@@ -1,0 +1,42 @@
+{
+  "comment": "Ссылка на разбор:",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 1767,
+    "title": "3.3 Экономические системы и собственность"
+  },
+  "id": 13201,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 26,
+    "task_count": 0,
+    "title": "Обществознаниe ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "2",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В рыночной экономике, в отличие от других экономических систем,\n\n1) вопрос о том, что производить, решается органами государственного управления\n2) каждый собственник факторов производства свободно распоряжается ими\n3) государственный план определяет, сколько производить определённой продукции\n4) спрос регулируется карточками, талонами, списками льготников",
+      "error_conditions": [],
+      "id": 177797,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 30,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7549"
+    },
+    "Valid": true
+  },
+  "time_seconds": 120,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/uscBnS7rGRE?start=7549"
+}

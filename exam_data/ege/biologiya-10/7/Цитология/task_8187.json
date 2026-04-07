@@ -1,0 +1,42 @@
+{
+  "comment": "На рисунке изображена митохондрия.\n2 - внутренняя мембрана.\n3 - рибосомы.\n4 - межмембранное пространство.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2509,
+    "title": "Цитология"
+  },
+  "id": 8187,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "156",
+          "points": 2
+        }
+      ],
+      "comment": "",
+      "description": "Выберите три верно обозначенные подписи к рисунку, на котором изображено строение одного из органоидов клетки. Запишите в таблицу цифры, под которыми они указаны.\n\n- наружная мембрана\n- мембрана тилакоида\n- зёрна крахмала\n- строма\n- матрикс\n- кристы",
+      "error_conditions": [],
+      "id": 101476,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 4,
+      "points": 2,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/59cpPxb27Ww?start=4897"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/59cpPxb27Ww?start=4897"
+}

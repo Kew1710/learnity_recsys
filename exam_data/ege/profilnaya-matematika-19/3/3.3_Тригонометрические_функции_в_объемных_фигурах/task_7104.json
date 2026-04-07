@@ -1,0 +1,45 @@
+{
+  "comment": "Сделаем параллельный перенос:\n$$DC_{1}\\Rightarrow AB_{1}$$\nПо теореме пифагора найдем \\(AB_1\\):\n$$AB_1 = \\sqrt{{BB_1}^2 + {AB}^2} = 10$$\nТогда найдем синус угла \\(B_{1}AB\\):\n$$\\sin{\\angle BAB_1} = \\frac{BB_1}{AB_1} = \\frac{6}{10} = 0,6$$\nОтвет: 0,6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2386,
+    "title": "3.3 Тригонометрические функции в объемных фигурах"
+  },
+  "id": 7104,
+  "is_obsolete": false,
+  "number": 3,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "В прямоугольном параллелепипеде \\(ABCDA_{1} B_{1} C_{1} D_{1}\\) известны длины ребер: \\(AB=8, AD=22, AA_{1} =6.\\) Найдите синус угла между прямыми \\(C_{1} D\\) и \\(AB\\).",
+      "error_conditions": [],
+      "id": 82897,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/Ib2nkEDNesY?t=7039"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 3,
+    "title": "Простейшая стереометрия"
+  },
+  "video_link": "https://youtu.be/Ib2nkEDNesY?t=7039"
+}

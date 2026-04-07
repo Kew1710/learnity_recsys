@@ -1,0 +1,46 @@
+{
+  "comment": "- находим заданный параллель в северном полушарии (отсчет ведем от экватора),\n- находим заданный меридиан в восточном полушарии (отсчет ведем от нулевого меридиана.\n- в точке пересечения находим искомый остров",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 2969,
+    "title": "2.1 Планы местности. Географические карты. Географическая широта и географическая долгота."
+  },
+  "id": 29315,
+  "is_obsolete": false,
+  "number": 7,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 68,
+    "task_count": 0,
+    "title": "География ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "сицилия",
+          "points": 1
+        },
+        {
+          "answer": "остров сицилия",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Определите, на каком острове находится географический объект, имеющий географические координаты 38° с.ш. 14° в.д.",
+      "error_conditions": [],
+      "id": 248954,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 7,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

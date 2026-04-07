@@ -1,0 +1,42 @@
+{
+  "comment": "По закону преломления света:\n$$n_2\\cdot \\sin 90^\\circ=n_1\\cdot \\sin\\beta_0\\Rightarrow\\sin\\beta_0=\\frac{n_2}{n_1}=\\frac{1,35}{1,8}=0,75$$\nОтвет: 0,75",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 3334,
+    "title": "Законы преломления и отражения света"
+  },
+  "id": 12304,
+  "is_obsolete": false,
+  "number": 13,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "0,75",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "23789\nНайдите синус предельного угла полного внутреннего отражения, если свет переходит из вещества с показателем преломления \\(n_1=1,8\\) в вещество с показателем преломления \\(n_2=1,35\\).",
+      "error_conditions": [],
+      "id": 163167,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 34,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/5TTVBxVhTaI"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://youtu.be/5TTVBxVhTaI"
+}

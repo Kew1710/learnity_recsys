@@ -1,0 +1,42 @@
+{
+  "comment": "Пояснение: Номером 1 на рисунке обозначен шляпочный гриб. Шляпочные грибы способны вступать в симбиотические взаимоотношения с высшими растениями.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2524,
+    "title": "Царство Грибы. Лишайники"
+  },
+  "id": 16369,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "1",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Каким номером на рисунке обозначен гриб, который может вступать в симбиотические взаимоотношения с высшими растениями?",
+      "error_conditions": [],
+      "id": 236276,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 25,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": null
+}

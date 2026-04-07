@@ -1,0 +1,40 @@
+{
+  "comment": "а) Обозначим углы треугольника \\(ABC\\):\n$$\\angle A=2a\\angle B=2b\\angle C=2y$$\nЗаметим, что \\(2a+2b+2y=180^{\\circ }\\), \\(\\angle BPA=\\angle ACB=2y\\) как вписанные углы, опирающиеся на одну дугу. Аналогично \\(\\angle CAP=\\angle CBP=b\\).\n\nТогда \\(\\angle AOP=180^{\\circ } -a-b-2y=a+b\\), но \\(a+b=\\angle AOP\\), следовательно, треугольник \\(AOP\\) - равнобедренный, а тогда \\(AP=OP\\).\n\nб) Сумма противоположных углов вписанного четырехугольника равна \\(180^{\\circ }\\), следовательно:\n$$\\angle APC=180^{\\circ } -120^{\\circ } =60^{\\circ }$$\n\\(AP=PC\\) как хорды, стягивающие равные дуги. Следовательно, треугольник \\(APC\\) - равносторонний. Искомое расстояние \\(d\\) равно его высоте:\n$$d=\\frac{\\sqrt{3}AC}{2}$$\nПо теореме синусов:\n$$AC=2R\\sin \\angle ABC=36\\cdot \\frac{\\sqrt{3}}{2} =18\\sqrt{3}$$\nСледовательно:\n$$d=\\frac{\\sqrt{3} \\cdot 18\\sqrt{3}}{2} =27$$\nОтвет: 27",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2485,
+    "title": "17.5 Вписанная и описанная окружности в треугольниках"
+  },
+  "id": 6702,
+  "is_obsolete": false,
+  "number": 17,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "Около \\(\\Delta ABC\\) описана окружность. Прямая \\(BO\\), где \\(O\\) - центр вписанной окружности, вторично пересекает описанную окружность в точке \\(P\\).\nа) Докажите, что \\(OP=AP\\).\nб) Найдите расстояние от точки \\(P\\) до прямой \\(AC\\), если \\(\\angle ABC=120^{\\circ }\\), а радиус описанной окружности равен \\(18\\).",
+      "error_conditions": null,
+      "id": 75236,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 3,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 17,
+    "title": "Планиметрия"
+  },
+  "video_link": "https://www.youtube.com/embed/youtu.be/BJGcKHTM_f8?start=6954"
+}

@@ -1,0 +1,37 @@
+{
+  "comment": "По 2 закону Ньютона в проекции на оси:\n$$ox: ma_ц=T\\sin\\alpha\\\\ oy: T\\cos\\alpha-mg=0\\Rightarrow T=\\frac{mg}{\\cos\\alpha}$$\nЦентростремительное ускорение:\n$$a_ц=\\frac{v^2}{R}$$\nРадиус окружности:\n$$R=l\\sin\\alpha\\\\ \\frac{mv^2}{R}=\\frac{mg\\sin\\alpha}{\\cos\\alpha}\\Rightarrow v=\\sqrt{gRtg\\alpha}=\\sqrt{gl\\sin\\alpha\\cdot tg\\alpha}=\\sqrt{10\\cdot 0,6\\cdot\\sin 30^\\circ\\cdot tg30^\\circ}=1,32~м/с$$\nОтвет: 1,32 м/с",
+  "difficulty": 2,
+  "exam_topic": {
+    "id": 2623,
+    "title": "Динамика"
+  },
+  "id": 18717,
+  "is_obsolete": false,
+  "number": 22,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 7,
+    "task_count": 0,
+    "title": "Физика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": null,
+      "comment": "",
+      "description": "23И121\nМаленькое шарообразное тело, подвешенное на нити длиной \\(l=60\\) см, вращается в горизонтальной плоскости так, как показано на рисунке, при этом нить образует с осью вращения угол \\(\\alpha=30^\\circ\\). Определите скорость, с которой движется тело.",
+      "error_conditions": null,
+      "id": 238558,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 32,
+      "points": 2,
+      "type_id": "full_answer",
+      "video_link": null
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": null,
+  "video_link": "https://www.youtube.com/live/15eG_v6uVE4?feature=share&t=7730"
+}

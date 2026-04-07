@@ -1,0 +1,42 @@
+{
+  "comment": "Плазмолиз - это отделение протопласта от клеточной стенки в гипертоническом растворе. Наблюдать его можно только в растительных клетках с помощью светового микроскопа.",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2507,
+    "title": "Методы, достижения и роль биологии"
+  },
+  "id": 8163,
+  "is_obsolete": false,
+  "number": 1,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 10,
+    "task_count": 0,
+    "title": "Биология"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "световая микроскопия",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Рассмотрите таблицу «Методы биологии» и заполните ячейку, вписав соответствующий термин.\n\nЧастнонаучный метод\nПрименение метода\nПалеонтологическийИзучение окаменелостей древних аммонитов?\nНаблюдение за плазмолизом в клетках кожицы лука",
+      "error_conditions": [],
+      "id": 101452,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 20,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/dqse4bDp4eE?start=482"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1200,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/dqse4bDp4eE?start=482"
+}

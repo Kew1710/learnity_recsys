@@ -1,0 +1,45 @@
+{
+  "comment": "Дан график функции. Производная функции \\(f(x)\\) равна 0 в точках экстремума. Найдем точки экстремума и посчитаем их количество. Этих точек согласно рисунку – 6.\nОтвет: 6",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2415,
+    "title": "8.4 Наибольшее/наименьшее значение функции на промежутке"
+  },
+  "id": 9894,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 19,
+    "task_count": 0,
+    "title": "Профильная математика"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "6",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "На рисунке изображен график функции \\(у=f(x)\\), определенной на интервале \\((-5;9)\\). Найдите количество точек, в которых производная функции \\(f(х)\\) равна 0.",
+      "error_conditions": [],
+      "id": 120030,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 17,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=3039"
+    },
+    "Valid": true
+  },
+  "time_seconds": 1800,
+  "topic": {
+    "id": 8,
+    "title": "Производная и первообразная"
+  },
+  "video_link": "https://www.youtube.com/embed/_Xuyh7CCl3U?start=3039"
+}

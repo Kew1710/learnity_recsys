@@ -1,0 +1,42 @@
+{
+  "comment": "Реакция ионного обмена с раствором щелочи приведёт к выпадению осадка гидроксида железа(II):\nFeCl₂ + 2KOH = Fe(OH)₂ + 2KCl\nПод действием раствора серной кислоты осадок растворяется с образованием соли - сульфата железа(II):\nFe(OH)₂ + H₂SO₄ = FeSO₄ + 2H₂O",
+  "difficulty": 0,
+  "exam_topic": {
+    "id": 2804,
+    "title": "Взаимосвязь различных классов неорганических веществ"
+  },
+  "id": 3956,
+  "is_obsolete": false,
+  "number": 9,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 8,
+    "task_count": 0,
+    "title": "Химия"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "52",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "Задана следующая схема превращений веществ:\nОпределите, какие из указанных веществ являются веществами X и Y.\n1) сульфит железа(II)\n2) сульфат железа(II)\n3) сульфид железа(III)\n4) гидроксид железа(III)\n5) гидроксид железа(II)",
+      "error_conditions": [],
+      "id": 66377,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 1,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=16558"
+    },
+    "Valid": true
+  },
+  "time_seconds": 600,
+  "topic": null,
+  "video_link": "https://www.youtube.com/embed/AgOSm1Tc4Xg?start=16558"
+}

@@ -1,0 +1,42 @@
+{
+  "comment": "Решение:\nЕсли соединить отрицательно заряженную пластину с незаряженным электрометром, то заряд пластины распределится по ней и электрометру, и тогда весь электрометр будет заряжен отрицательно (выбираем 4)",
+  "difficulty": 3,
+  "exam_topic": {
+    "id": 3257,
+    "title": "3.1 Электризация тел. Два вида электрических зарядов"
+  },
+  "id": 17615,
+  "is_obsolete": false,
+  "number": 8,
+  "source": null,
+  "subject": {
+    "color": "#000000",
+    "id": 28,
+    "task_count": 0,
+    "title": "Физика ОГЭ"
+  },
+  "task_question": {
+    "Val": {
+      "answers": [
+        {
+          "answer": "4",
+          "points": 1
+        }
+      ],
+      "comment": "",
+      "description": "1Отрицательно заряженную проводящую пластину соединили проводником с шаром незаряженного электроскопа. В результате листочки электроскопа разошлись на некоторый угол (см. рисунок).\nНа каком рисунке (1-4) правильно изображено распределение заряда в электроскопе?\n1\n2\n3\n4",
+      "error_conditions": [],
+      "id": 237496,
+      "is_case_insensitive": false,
+      "is_strict_order": false,
+      "order_id": 41,
+      "points": 1,
+      "type_id": "writing_words",
+      "video_link": "https://youtu.be/2geb-xLW9wc"
+    },
+    "Valid": true
+  },
+  "time_seconds": 0,
+  "topic": null,
+  "video_link": "https://youtu.be/2geb-xLW9wc"
+}
