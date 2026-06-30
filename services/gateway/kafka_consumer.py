@@ -8,6 +8,7 @@ import httpx
 from aiokafka import AIOKafkaConsumer
 
 from services.clustering.cluster import assign_cluster_for_new_student, save_student_cluster
+from shared.config import gateway as _gw_cfg
 from . import clients, kafka_producer
 
 KAFKA_BOOTSTRAP = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092")
@@ -118,21 +119,13 @@ async def _handle_task_answered(event: dict) -> None:
             cons_errors = mastery_update.get("consecutive_errors", {})
             frustration = 1.0 if cons_errors.get(topic, 0) >= 3 else 0.0
             boredom = 1.0 if score >= 0.5 and before.get(topic, 0.0) > 0.9 else 0.0
-            reward = delta - 0.3 * frustration - 0.1 * boredom
+            reward = delta - _gw_cfg.REWARD_BETA * frustration - _gw_cfg.REWARD_GAMMA * boredom
             try:
                 await clients.update_bandit_reward(http, student_id, task_id, reward)
             except httpx.HTTPStatusError as e:
                 logger.warning("bandit reward failed for student=%s: %s", student_id, e)
 
-        # Проверить пороги плана
-        try:
-            await clients.check_plan_thresholds(
-                http, student_id,
-                updated_mastery=mastery_update.get("updated_mastery", {}),
-                consecutive_errors=mastery_update.get("consecutive_errors", {}),
-            )
-        except httpx.HTTPStatusError as e:
-            logger.warning("plan threshold check failed for student=%s: %s", student_id, e)
+        # Plan thresholds — handled by Macro via MicroSummary/Kafka (see П2.3)
 
     logger.info("TASK_ANSWERED handled: student=%s task=%s score=%.2f", student_id, task_id, score)
 

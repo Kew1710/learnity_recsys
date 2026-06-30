@@ -7,6 +7,7 @@ import httpx
 
 GRAPH_URL = os.getenv("GRAPH_URL", "http://127.0.0.1:8002")
 PROFILE_URL = os.getenv("PROFILE_URL", "http://127.0.0.1:8001")
+TASK_BANK_URL = os.getenv("TASK_BANK_URL", "http://127.0.0.1:8003")
 TIMEOUT = 5.0
 
 
@@ -24,6 +25,23 @@ async def get_student_mastery(client: httpx.AsyncClient, student_id: uuid.UUID) 
     data = resp.json()
     return {
         kc_id: v["probability_effective"]
+        for kc_id, v in data.get("mastery", {}).items()
+    }
+
+
+async def get_student_mastery_detailed(
+    client: httpx.AsyncClient, student_id: uuid.UUID,
+) -> dict[str, dict]:
+    """Возвращает {kc_id: {probability_effective, confidence, attempts_count}} для ученика."""
+    resp = await client.get(f"{PROFILE_URL}/students/{student_id}", timeout=TIMEOUT)
+    resp.raise_for_status()
+    data = resp.json()
+    return {
+        kc_id: {
+            "probability_effective": v["probability_effective"],
+            "confidence": v.get("confidence", 0.0),
+            "attempts_count": v.get("attempts_count", 0),
+        }
         for kc_id, v in data.get("mastery", {}).items()
     }
 
@@ -49,6 +67,12 @@ async def get_all_kc_grades(client: httpx.AsyncClient) -> dict[str, int]:
     resp = await client.get(f"{GRAPH_URL}/kcs", timeout=TIMEOUT)
     resp.raise_for_status()
     return {kc["kc_id"]: kc["grade_introduced"] for kc in resp.json()}
+
+
+async def get_task_count_for_kc(client: httpx.AsyncClient, kc_id: str) -> int:
+    resp = await client.get(f"{TASK_BANK_URL}/tasks/by_kc/count", params={"kc_id": kc_id}, timeout=TIMEOUT)
+    resp.raise_for_status()
+    return resp.json().get("count", 0)
 
 
 async def build_full_graph(

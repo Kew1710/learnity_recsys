@@ -5,13 +5,13 @@
   2. Получить ZPD-кандидатов из Graph
   3. Выбрать KC (subject rotation)
   4. Получить задания для KC из TaskBank (с exclude фильтром)
-  5. Выбрать задание — LinUCB с гибридным контекстом
+  5. Выбрать задание — Thompson Sampling с контекстным вектором
   6. Записать в bandit_log (context_vector, reward=NULL)
   7. Вернуть задание + метаданные рекомендации
 
 После ответа (PATCH /bandit_log/reward):
   8. Обновить reward в bandit_log
-  9. Обновить LinUCB-модель (A, b) в bandit_model
+  9. Обновить Thompson Sampling модель (A, b) в bandit_model
 """
 
 import math
@@ -31,23 +31,29 @@ from pydantic import BaseModel
 
 from shared.db import AsyncSessionLocal
 from . import clients
-from .linucb import LinUCBModel, CONTEXT_DIM, GLOBAL_CLUSTER_ID
-from .selector import ZPDEntry, select_kc_from_zpd, compute_zpd_target_difficulty, compute_p_correct, TARGET_ZPD_ACCURACY
-from .micro_summary import compute_micro_summary, should_publish_summary, is_frustrated
+from shared.config import retrieval as _cfg
+from .thompson import ThompsonModel, GLOBAL_CLUSTER_ID
+from .selector import ZPDEntry, select_kc_from_zpd, compute_zpd_target_difficulty, compute_p_correct, filter_tasks_by_irt
+from .diagnostic_cat import CATState, select_diagnostic_kc, select_diagnostic_task
+from .micro_summary import compute_micro_summary, is_frustrated
 from .kafka_producer import publish_micro_summary
-from services.clustering.cluster import assign_cluster_for_new_student, save_student_cluster
+from services.clustering.cluster import assign_cluster_for_new_student, save_student_cluster, ensure_centroids_loaded
 
-# ---------------------------------------------------------------------------
-# Exploration / Cooldown constants
-# ---------------------------------------------------------------------------
+CONTEXT_DIM = _cfg.CONTEXT_DIM
+CLUSTER_EXPLORE_RATE = _cfg.CLUSTER_EXPLORE_RATE
+CLUSTER_EXPLORE_THRESHOLD = _cfg.CLUSTER_EXPLORE_THRESHOLD
+EPSILON_GREEDY_RATE = _cfg.EPSILON_GREEDY_RATE
+KC_COOLDOWN_WINDOW = _cfg.KC_COOLDOWN_WINDOW
+KC_COOLDOWN_MAX = _cfg.KC_COOLDOWN_MAX
+PHASE1_TASK_THRESHOLD = _cfg.PHASE1_TASK_THRESHOLD
+TARGET_ZPD_ACCURACY = _cfg.TARGET_ZPD_ACCURACY
 
-CLUSTER_EXPLORE_RATE = 0.20       # 20%: выбрать задание с interaction_count < порога
-CLUSTER_EXPLORE_THRESHOLD = 3     # задание «неисследовано» если видели < 3 раз в кластере
-EPSILON_GREEDY_RATE = 0.05        # 5% fallback: полностью случайное задание
-KC_COOLDOWN_WINDOW = 6            # окно последних рекомендаций для проверки cooldown
-KC_COOLDOWN_MAX = 3               # если KC ≥ N раз за окно → пропустить (cooldown)
-
-PHASE1_TASK_THRESHOLD = 15        # до этого порога — grade-based эвристика (фаза исследования)
+MODE_PARAMS = {
+    "build":       {"cluster_explore": 0.20, "epsilon": 0.05, "irt_floor": 0.20, "irt_ceiling": 0.90},
+    "consolidate": {"cluster_explore": 0.10, "epsilon": 0.10, "irt_floor": 0.40, "irt_ceiling": 0.95},
+    "test":        {"cluster_explore": 0.00, "epsilon": 0.00, "irt_floor": 0.15, "irt_ceiling": 0.85},
+    "diagnostic":  {"cluster_explore": 0.00, "epsilon": 0.00, "irt_floor": 0.30, "irt_ceiling": 0.70},
+}
 
 _rng = random.Random()
 
@@ -68,7 +74,7 @@ class RecommendResponse(BaseModel):
     task_id: str
     kc_id: str
     subject: str
-    recommendation_source: str           # "linucb"
+    recommendation_source: str           # "thompson_sampling"
     half_life_days: float                # передаётся в profile при submit
     task: dict                           # полные данные задания
 
@@ -107,18 +113,19 @@ async def _get_experiment_variant(student_id: uuid.UUID) -> str:
 
 async def _get_plan_info(
     student_id: uuid.UUID,
-) -> tuple[dict[str, float], str, str | None, str | None]:
+) -> tuple[dict[str, float], str, str | None, str | None, uuid.UUID | None]:
     """
     Возвращает:
       - {kc_id: priority} для активных шагов плана
       - difficulty_mode активного шага (in_progress) или 'build' если нет
       - next_plan_kc_id — kc_id следующего pending шага (для bridge bonus) или None
       - active_plan_kc_id — kc_id текущего in_progress шага или None (для hard lock)
+      - active_plan_step_id — UUID активного шага или None
     """
     async with AsyncSessionLocal() as db:
         rows = (await db.execute(
             sa.text("""
-                SELECT ps.kc_id, ps.priority, ps.status, ps.difficulty_mode
+                SELECT ps.kc_id, ps.priority, ps.status, ps.difficulty_mode, ps.id
                 FROM plan_steps ps
                 JOIN learning_plans lp ON lp.id = ps.plan_id
                 WHERE lp.student_id = :student_id
@@ -137,19 +144,21 @@ async def _get_plan_info(
     difficulty_mode = "build"
     next_plan_kc_id: str | None = None
     active_plan_kc_id: str | None = None
+    active_plan_step_id: uuid.UUID | None = None
 
     in_progress_seen = False
     for r in rows:
-        kc_id, priority, status, dm = r[0], float(r[1]), r[2], r[3]
+        kc_id, priority, status, dm, step_id = r[0], float(r[1]), r[2], r[3], r[4]
         priorities[kc_id] = priority
         if status == "in_progress" and not in_progress_seen:
             difficulty_mode = dm or "build"
             active_plan_kc_id = kc_id
+            active_plan_step_id = step_id
             in_progress_seen = True
         elif status == "pending" and in_progress_seen and next_plan_kc_id is None:
             next_plan_kc_id = kc_id
 
-    return priorities, difficulty_mode, next_plan_kc_id, active_plan_kc_id
+    return priorities, difficulty_mode, next_plan_kc_id, active_plan_kc_id, active_plan_step_id
 
 
 async def _get_cluster_id(student_id: uuid.UUID) -> int | None:
@@ -222,6 +231,53 @@ def _build_context(
     return x
 
 
+async def _get_cat_state(student_id: uuid.UUID) -> tuple[CATState | None, bool]:
+    """Returns (CATState, completed). None if no CAT session exists yet."""
+    async with AsyncSessionLocal() as db:
+        row = (await db.execute(
+            sa.text(
+                "SELECT kc_theta, kc_n, tasks_used, completed"
+                " FROM diagnostic_cat_state WHERE student_id = :sid"
+            ),
+            {"sid": student_id},
+        )).fetchone()
+    if not row:
+        return None, False
+    if row[3]:
+        return None, True
+    state = CATState(kc_theta=row[0], kc_n=row[1], tasks_used=row[2])
+    return state, False
+
+
+async def _save_cat_state(student_id: uuid.UUID, state: CATState, completed: bool = False) -> None:
+    import json
+    now = datetime.now(timezone.utc)
+    async with AsyncSessionLocal() as db:
+        await db.execute(
+            sa.text("""
+                INSERT INTO diagnostic_cat_state
+                    (student_id, kc_theta, kc_n, tasks_used, completed, created_at, completed_at)
+                VALUES (:sid, :theta, :kc_n, :tasks_used, :completed, :now, :completed_at)
+                ON CONFLICT (student_id) DO UPDATE
+                    SET kc_theta = EXCLUDED.kc_theta,
+                        kc_n = EXCLUDED.kc_n,
+                        tasks_used = EXCLUDED.tasks_used,
+                        completed = EXCLUDED.completed,
+                        completed_at = EXCLUDED.completed_at
+            """),
+            {
+                "sid": student_id,
+                "theta": json.dumps(state.kc_theta),
+                "kc_n": json.dumps(state.kc_n),
+                "tasks_used": state.tasks_used,
+                "completed": completed,
+                "now": now,
+                "completed_at": now if completed else None,
+            },
+        )
+        await db.commit()
+
+
 async def _get_student_task_count(student_id: uuid.UUID) -> int:
     """Количество заданий, на которые студент уже дал ответ."""
     async with AsyncSessionLocal() as db:
@@ -254,10 +310,11 @@ async def _load_student_model(
     student_id: uuid.UUID,
     kc_id: str,
     fallback_cluster_id: int,
-) -> LinUCBModel:
+) -> ThompsonModel:
     """
-    Загружает личную LinUCB-модель студента.
-    При первом обращении инициализируется из кл��стерной модели (transfer learning).
+    Загружает личную Thompson Sampling модель студента.
+    При первом обращении инициализируется из кластерной модели (transfer learning).
+    Storage: A precision matrix + b reward vector.
     """
     row = (await db.execute(
         sa.text(
@@ -267,9 +324,8 @@ async def _load_student_model(
         {"sid": student_id, "kc_id": kc_id},
     )).fetchone()
     if row:
-        return LinUCBModel.from_bytes(kc_id, fallback_cluster_id, bytes(row[0]), bytes(row[1]))
+        return ThompsonModel.from_bytes(kc_id, fallback_cluster_id, bytes(row[0]), bytes(row[1]))
 
-    # Первое обращение — копируем кластерную модель как prior
     cluster_row = (await db.execute(
         sa.text(
             "SELECT a_matrix, b_vector FROM bandit_model"
@@ -278,11 +334,11 @@ async def _load_student_model(
         {"cluster_id": fallback_cluster_id, "kc_id": kc_id},
     )).fetchone()
     if cluster_row:
-        return LinUCBModel.from_bytes(kc_id, fallback_cluster_id, bytes(cluster_row[0]), bytes(cluster_row[1]))
-    return LinUCBModel.init(kc_id, fallback_cluster_id)
+        return ThompsonModel.from_bytes(kc_id, fallback_cluster_id, bytes(cluster_row[0]), bytes(cluster_row[1]))
+    return ThompsonModel.init(kc_id, fallback_cluster_id)
 
 
-async def _save_student_model(db, student_id: uuid.UUID, model: LinUCBModel) -> None:
+async def _save_student_model(db, student_id: uuid.UUID, model: ThompsonModel) -> None:
     a_bytes, b_bytes = model.to_bytes()
     await db.execute(
         sa.text("""
@@ -303,8 +359,8 @@ async def _save_student_model(db, student_id: uuid.UUID, model: LinUCBModel) -> 
     )
 
 
-async def _load_model(db, kc_id: str, cluster_id: int) -> LinUCBModel:
-    """Загружает LinUCB-модель кластера из БД. Создаёт новую если не существует."""
+async def _load_model(db, kc_id: str, cluster_id: int) -> ThompsonModel:
+    """Загружает модель кластера из БД. Создаёт новую если не существует."""
     row = (await db.execute(
         sa.text(
             "SELECT a_matrix, b_vector FROM bandit_model"
@@ -313,11 +369,11 @@ async def _load_model(db, kc_id: str, cluster_id: int) -> LinUCBModel:
         {"cluster_id": cluster_id, "kc_id": kc_id},
     )).fetchone()
     if row:
-        return LinUCBModel.from_bytes(kc_id, cluster_id, bytes(row[0]), bytes(row[1]))
-    return LinUCBModel.init(kc_id, cluster_id)
+        return ThompsonModel.from_bytes(kc_id, cluster_id, bytes(row[0]), bytes(row[1]))
+    return ThompsonModel.init(kc_id, cluster_id)
 
 
-async def _save_model(db, model: LinUCBModel) -> None:
+async def _save_model(db, model: ThompsonModel) -> None:
     a_bytes, b_bytes = model.to_bytes()
     await db.execute(
         sa.text("""
@@ -350,7 +406,7 @@ async def health():
 @app.post("/recommend", response_model=RecommendResponse)
 async def recommend(req: RecommendRequest):
     """
-    Подбирает следующее задание для ученика через LinUCB.
+    Подбирает следующее задание для ученика через Thompson Sampling.
     Проходит по ZPD-кандидатам до первого KC у которого есть задания в TaskBank.
     """
     started = time.perf_counter()
@@ -393,7 +449,7 @@ async def recommend(req: RecommendRequest):
             raise HTTPException(status_code=404, detail="ZPD пуст — нет подходящих тем")
 
         # Приоритеты из учебного плана + difficulty_mode + next_plan_kc + текущий шаг
-        plan_priorities, difficulty_mode, next_plan_kc_id, active_plan_kc_id = await _get_plan_info(req.student_id)
+        plan_priorities, difficulty_mode, next_plan_kc_id, active_plan_kc_id, active_plan_step_id = await _get_plan_info(req.student_id)
 
         candidates = [
             ZPDEntry(
@@ -412,7 +468,9 @@ async def recommend(req: RecommendRequest):
         # Если KC шага не в ZPD (например, count-вариант выбрал KC близкую к порогу),
         # добавляем её синтетически — план важнее ZPD-фильтра.
         # Fallback на ZPD только если для plan KC нет заданий в task_bank.
+        selection_reason = "zpd_rotation"
         if active_plan_kc_id:
+            selection_reason = "plan_lock"
             plan_step_candidates = [c for c in candidates if c.kc_id == active_plan_kc_id]
             if not plan_step_candidates:
                 # KC не в ZPD — добавляем синтетически с текущим mastery
@@ -428,14 +486,22 @@ async def recommend(req: RecommendRequest):
             ordered = plan_step_candidates + [c for c in candidates if c.kc_id != active_plan_kc_id]
         else:
             preferred = select_kc_from_zpd(candidates, req.last_subject)
+            if preferred and req.last_subject and preferred.subject != req.last_subject:
+                selection_reason = "subject_rotation"
             ordered = [preferred] + [c for c in candidates if c.kc_id != preferred.kc_id] if preferred else candidates
 
         # 5. A/B вариант — определяем алгоритм выбора задания
         variant = await _get_experiment_variant(req.student_id)
 
+        # 5a. Diagnostic CAT for cold start
+        cat_state, cat_completed = await _get_cat_state(req.student_id)
+        if cat_state is None and not cat_completed:
+            cat_state = CATState.from_mastery(mastery)
+
         # 5b. Фаза студента и кластер
         task_count = await _get_student_task_count(req.student_id)
-        phase1 = task_count < PHASE1_TASK_THRESHOLD   # True → grade-based эвристика
+        in_cat = cat_state is not None and not cat_state.is_complete and not cat_completed
+        phase1 = not in_cat and task_count < PHASE1_TASK_THRESHOLD
 
         cluster_id = await _get_cluster_id(req.student_id) if variant == "treatment" else None
 
@@ -452,7 +518,8 @@ async def recommend(req: RecommendRequest):
         selected_task = None
         selected_kc: ZPDEntry | None = None
         selected_context: np.ndarray | None = None
-        selected_source: str = "linucb"
+        selected_source: str = "thompson_sampling"
+        plan_fallback_occurred = False
 
         for kc_entry in ordered:
             # ── Cooldown check ──────────────────────────────────────────────
@@ -473,14 +540,53 @@ async def recommend(req: RecommendRequest):
                 continue
 
             if not tasks:
+                if active_plan_kc_id and kc_entry.kc_id == active_plan_kc_id:
+                    plan_fallback_occurred = True
+                    logger.warning(
+                        "plan fallback: no tasks for plan KC=%s student=%s",
+                        active_plan_kc_id, req.student_id,
+                    )
                 continue
 
-            # Пре-реквизиты KC для контекстного вектора LinUCB (x[1..4])
+            # IRT pre-filter: убираем задания по mode-aware boundaries
+            mode_p = MODE_PARAMS.get(difficulty_mode, MODE_PARAMS["build"])
+            tasks = filter_tasks_by_irt(
+                tasks, kc_entry.mastery_effective,
+                floor=mode_p["irt_floor"], ceiling=mode_p["irt_ceiling"],
+            )
+
+            # Пре-реквизиты KC для контекстного вектора (x[1..4])
             try:
                 prereqs = await clients.get_kc_prerequisites(http, kc_entry.kc_id)
                 prereq_masteries = [mastery.get(p["kc_id"], 0.0) for p in prereqs]
             except httpx.HTTPStatusError:
                 prereq_masteries = []
+
+            # 5d. Diagnostic CAT: select maximally informative task
+            if in_cat and cat_state is not None:
+                diag_kc = select_diagnostic_kc(cat_state, [c.kc_id for c in candidates])
+                if diag_kc and diag_kc == kc_entry.kc_id:
+                    theta = cat_state.kc_theta.get(kc_entry.kc_id, 0.0)
+                    chosen = select_diagnostic_task(tasks, theta)
+                    if chosen:
+                        _p = (chosen.get("parts") or [{}])[0]
+                        ctx = _build_context(
+                            mastery_kc=kc_entry.mastery_effective,
+                            grade=grade,
+                            avg_reward=0.0,
+                            count=0,
+                            errors_streak=0,
+                            prereq_masteries=prereq_masteries,
+                            task_type=_p.get("task_type", "procedural"),
+                            n_steps=_p.get("n_steps", 1),
+                        )
+                        selected_task = chosen
+                        selected_kc = kc_entry
+                        selected_context = ctx
+                        selected_source = "diagnostic_cat"
+                        break
+                elif diag_kc != kc_entry.kc_id:
+                    continue
 
             # 6. Фаза 1 (первые PHASE1_TASK_THRESHOLD заданий): grade-based эвристика.
             # Система ещё не знает ученика — используем ZPD без бандита.
@@ -529,7 +635,7 @@ async def recommend(req: RecommendRequest):
                 selected_source = "control_heuristic"
                 break
 
-            # 7. Treatment: cluster stats + LinUCB с exploration
+            # 7. Treatment: cluster stats + Thompson Sampling с exploration
             task_ids = [str(t["task_id"]) for t in tasks]
             if cluster_id is not None:
                 stats = await _get_cluster_task_stats(cluster_id, task_ids)
@@ -537,15 +643,15 @@ async def recommend(req: RecommendRequest):
                 stats = {}
 
             roll = _rng.random()
+            mode_cluster_rate = mode_p["cluster_explore"]
+            mode_epsilon_rate = mode_p["epsilon"]
 
-            # ── Cluster exploration (20%) ────────────────────────────────────
-            # Показываем задание, которое нашим кластером ещё почти не изучено.
-            # Это умный exploration: заполняем белые пятна кооперативно.
+            # ── Cluster exploration ─────────────────────────────────────────
             underexplored = [
                 t for t in tasks
                 if stats.get(str(t["task_id"]), (0.0, 0))[1] < CLUSTER_EXPLORE_THRESHOLD
             ]
-            if underexplored and roll < CLUSTER_EXPLORE_RATE:
+            if underexplored and roll < mode_cluster_rate:
                 chosen = _rng.choice(underexplored)
                 avg_r, cnt = stats.get(str(chosen["task_id"]), (0.0, 0))
                 _p = (chosen.get("parts") or [{}])[0]
@@ -565,10 +671,8 @@ async def recommend(req: RecommendRequest):
                 selected_source = "cluster_exploration"
                 break
 
-            # ── ε-greedy fallback (5%) ───────────────────────────────────────
-            # Полностью случайное задание из пула — если кластер пустой или
-            # как базовый стохастический слой.
-            elif roll < CLUSTER_EXPLORE_RATE + EPSILON_GREEDY_RATE:
+            # ── ε-greedy fallback ────────────────────────────────────────────
+            elif roll < mode_cluster_rate + mode_epsilon_rate:
                 chosen = _rng.choice(tasks)
                 avg_r, cnt = stats.get(str(chosen["task_id"]), (0.0, 0))
                 _p = (chosen.get("parts") or [{}])[0]
@@ -588,7 +692,7 @@ async def recommend(req: RecommendRequest):
                 selected_source = "exploration"
                 break
 
-            # ── LinUCB exploitation (75%) ────────────────────────────────────
+            # ── Thompson Sampling exploitation ───────────────────────────────
             else:
                 effective_cluster = cluster_id if cluster_id is not None else GLOBAL_CLUSTER_ID
                 async with AsyncSessionLocal() as db:
@@ -628,7 +732,7 @@ async def recommend(req: RecommendRequest):
                 selected_task = best_task
                 selected_kc = kc_entry
                 selected_context = best_context
-                selected_source = "linucb"
+                selected_source = "thompson_sampling"
                 break
 
         if selected_task is None or selected_kc is None:
@@ -638,13 +742,53 @@ async def recommend(req: RecommendRequest):
                 detail="Нет доступных заданий — все пройдены или TaskBank пуст",
             )
 
+    # 7a. Save CAT state if in diagnostic phase
+    if in_cat and cat_state is not None:
+        cat_done = cat_state.is_complete
+        await _save_cat_state(req.student_id, cat_state, completed=cat_done)
+        if cat_done:
+            logger.info("Diagnostic CAT completed for student=%s, %d tasks used", req.student_id, cat_state.tasks_used)
+
+    # 7b. Teacher alert при fallback с plan KC
+    if plan_fallback_occurred:
+        async with AsyncSessionLocal() as db:
+            await db.execute(
+                sa.text("""
+                    INSERT INTO teacher_alerts
+                        (id, student_id, plan_id, kc_id, alert_type, mastery_at_alert,
+                         tasks_spent, message, created_at)
+                    VALUES
+                        (:id, :student_id,
+                         (SELECT id FROM learning_plans WHERE student_id = :student_id
+                          ORDER BY created_at DESC LIMIT 1),
+                         :kc_id, 'content_gap_plan', :mastery,
+                         0, :message, :now)
+                """),
+                {
+                    "id": uuid.uuid4(),
+                    "student_id": req.student_id,
+                    "kc_id": active_plan_kc_id,
+                    "mastery": mastery.get(active_plan_kc_id, 0.0),
+                    "message": f"Plan KC '{active_plan_kc_id}' has no available tasks — fallback to ZPD",
+                    "now": datetime.now(timezone.utc),
+                },
+            )
+            await db.commit()
+
     # 8. Записываем в bandit_log + инкрементируем tasks_spent активного шага плана
+    if plan_fallback_occurred:
+        selection_reason = "plan_lock_fallback"
     context_list = selected_context.tolist() if selected_context is not None else [0.0] * CONTEXT_DIM
     async with AsyncSessionLocal() as db:
         await db.execute(
             sa.text(
-                "INSERT INTO bandit_log (id, student_id, task_id, kc_id, context_vector, reward, recommended_at)"
-                " VALUES (:id, :student_id, :task_id, :kc_id, :context_vector, NULL, :recommended_at)"
+                "INSERT INTO bandit_log"
+                " (id, student_id, task_id, kc_id, context_vector, reward, recommended_at,"
+                "  selection_reason, exploration_type, zpd_candidates_count,"
+                "  plan_step_id, difficulty_mode, fallback_occurred)"
+                " VALUES (:id, :student_id, :task_id, :kc_id, :context_vector, NULL, :recommended_at,"
+                "  :selection_reason, :exploration_type, :zpd_candidates_count,"
+                "  :plan_step_id, :difficulty_mode, :fallback_occurred)"
             ),
             {
                 "id": uuid.uuid4(),
@@ -653,6 +797,12 @@ async def recommend(req: RecommendRequest):
                 "kc_id": selected_kc.kc_id,
                 "context_vector": context_list,
                 "recommended_at": datetime.now(timezone.utc),
+                "selection_reason": selection_reason,
+                "exploration_type": selected_source,
+                "zpd_candidates_count": len(candidates),
+                "plan_step_id": active_plan_step_id,
+                "difficulty_mode": difficulty_mode,
+                "fallback_occurred": plan_fallback_occurred,
             },
         )
         # Инкрементируем tasks_spent для активного шага плана
@@ -677,14 +827,16 @@ async def recommend(req: RecommendRequest):
     mastery_current = mastery.get(selected_kc.kc_id, 0.0)
 
     # 9. MicroSummary — плановый триггер (каждые 15 задач) + OnFrustration
-    if tasks_spent_now > 0:
+    # Для студентов без плана используем общий task_count как proxy
+    effective_spent = tasks_spent_now if tasks_spent_now > 0 else task_count + 1
+    if effective_spent > 0:
         summary = await compute_micro_summary(
             req.student_id,
             selected_kc.kc_id,
             mastery_current,
-            tasks_spent_now,
+            effective_spent,
         )
-        if (tasks_spent_now % 15 == 0
+        if (effective_spent % 15 == 0
                 or is_frustrated(summary["frustration_count"], summary["velocity"])):
             await publish_micro_summary(summary)
 
@@ -715,7 +867,7 @@ async def recommend(req: RecommendRequest):
 @app.patch("/bandit_log/reward", status_code=200)
 async def update_bandit_reward(req: UpdateRewardRequest):
     """
-    Заполняет reward в bandit_log и обновляет LinUCB-модель.
+    Заполняет reward в bandit_log и обновляет Thompson Sampling модель.
     Вызывается из gateway после получения ответа ученика.
     SELECT FOR UPDATE на bandit_model предотвращает гонку при конкурентных обновлениях.
     """
@@ -755,7 +907,7 @@ async def update_bandit_reward(req: UpdateRewardRequest):
         context_vector = row[1]   # list[float] из PostgreSQL ARRAY
 
         # Инкрементально обновляем cluster_task_stats (running average)
-        # чтобы x[7]/x[8] в LinUCB не были нулями между запусками кластеризации
+        # чтобы x[7]/x[8] в context vector не были нулями между запусками кластеризации
         await db.execute(
             sa.text("""
                 INSERT INTO cluster_task_stats
@@ -784,7 +936,15 @@ async def update_bandit_reward(req: UpdateRewardRequest):
             },
         )
 
-        # Обновляем LinUCB только для treatment-группы
+        # Update CAT state if in diagnostic phase
+        cat_state, cat_completed = await _get_cat_state(req.student_id)
+        if cat_state is not None and not cat_completed:
+            n = cat_state.kc_n.get(kc_id, 0)
+            cat_state.kc_n[kc_id] = n + 1
+            cat_state.tasks_used += 1
+            await _save_cat_state(req.student_id, cat_state, completed=cat_state.is_complete)
+
+        # Обновляем Thompson Sampling только для treatment-группы
         variant = await _get_experiment_variant(req.student_id)
         if variant == "treatment":
             student_cluster = await _get_cluster_id(req.student_id)

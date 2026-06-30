@@ -27,7 +27,10 @@ async def test_handle_summary_applies_actions_and_creates_replan_alert(monkeypat
 
     monkeypatch.setattr(kc, "check_and_advance", AsyncMock(return_value=False))
     monkeypatch.setattr(kc, "_get_active_plan_step", AsyncMock(return_value=(plan_id, "kc_target", 20)))
-    monkeypatch.setattr(kc, "_find_weakest_prereq", AsyncMock(return_value="kc_prereq"))
+    monkeypatch.setattr(kc, "_find_weakest_prereq", AsyncMock(return_value=("kc_prereq", 0.3)))
+
+    from services.macro.diagnostics import Diagnosis
+    monkeypatch.setattr(kc, "diagnose", lambda **kw: Diagnosis("prereq_gap", 0.85, "test"))
 
     actions = [
         PlanAction("set_difficulty_mode", {"kc_id": "kc_target", "difficulty_mode": "consolidate"}),
@@ -57,6 +60,7 @@ async def test_handle_summary_applies_actions_and_creates_replan_alert(monkeypat
 @pytest.mark.asyncio
 async def test_handle_summary_short_circuits_when_advanced(monkeypatch):
     student_id = uuid.uuid4()
+    plan_id = uuid.uuid4()
     summary = {
         "student_id": str(student_id),
         "kc_id": "kc_target",
@@ -67,12 +71,15 @@ async def test_handle_summary_short_circuits_when_advanced(monkeypatch):
     }
 
     monkeypatch.setattr(kc, "check_and_advance", AsyncMock(return_value=True))
-    get_active_mock = AsyncMock()
-    monkeypatch.setattr(kc, "_get_active_plan_step", get_active_mock)
+    monkeypatch.setattr(kc, "_get_active_plan_step", AsyncMock(return_value=(plan_id, "kc_target", 20)))
+    monkeypatch.setattr(kc, "log_transition", AsyncMock())
+
+    apply_mock = AsyncMock()
+    monkeypatch.setattr(kc, "apply_plan_actions", apply_mock)
 
     await kc._handle_summary(summary)
 
-    get_active_mock.assert_not_awaited()
+    apply_mock.assert_not_awaited()
 
 
 @pytest.mark.asyncio
@@ -115,7 +122,10 @@ async def test_handle_summary_creates_plateau_alert(monkeypatch):
 
     monkeypatch.setattr(kc, "check_and_advance", AsyncMock(return_value=False))
     monkeypatch.setattr(kc, "_get_active_plan_step", AsyncMock(return_value=(plan_id, "kc_target", 100)))
-    monkeypatch.setattr(kc, "_find_weakest_prereq", AsyncMock(return_value=None))
+    monkeypatch.setattr(kc, "_find_weakest_prereq", AsyncMock(return_value=(None, None)))
+
+    from services.macro.diagnostics import Diagnosis
+    monkeypatch.setattr(kc, "diagnose", lambda **kw: Diagnosis("on_track", 0.9, "ok"))
     monkeypatch.setattr(kc, "evaluate_micro_summary", lambda *_args, **_kwargs: [])
 
     plateau_alert_mock = AsyncMock()

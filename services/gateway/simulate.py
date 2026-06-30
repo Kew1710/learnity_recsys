@@ -114,7 +114,7 @@ async def simulate_task_request(req: TaskRequestBody):
     """
     Публикует TASK_REQUESTED в `learnity.task.request` и ждёт TASK_RECOMMENDED.
 
-    Learnity выбирает задание через LinUCB + ZPD и отвечает через Kafka.
+    Learnity выбирает задание через Thompson Sampling + ZPD и отвечает через Kafka.
     """
     request_id = str(uuid.uuid4())
 

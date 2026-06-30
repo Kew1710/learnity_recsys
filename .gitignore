@@ -15,7 +15,7 @@ venv/
 !.env.example
 
 # Logs
-logs/*.log
+logs/
 
 # PIDs
 .pids/
@@ -27,3 +27,22 @@ logs/*.log
 
 # OS
 .DS_Store
+
+# Claude Code / MCP
+.claude/
+.mcp.json
+
+# Pytest
+.pytest_cache/
+
+# Internal working docs (not for public repo)
+docs/handoff.md
+docs/implementation_plan.md
+docs/system_overview.md
+
+# Profile-specific requirements (use root requirements-shared.txt)
+services/profile/requirements.txt
+
+# Dead code (removed from project)
+services/macro/learning_speed.py
+services/macro/tests/test_learning_speed.py

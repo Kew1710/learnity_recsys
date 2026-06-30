@@ -349,10 +349,26 @@ def run_single(
     if rng is None:
         rng = random.Random()
 
-    from tools.sandbox import (
+    from tools.play import (
         GATEWAY_URL, PROFILE_URL, TIMEOUT,
-        api_create_student, api_next_task, api_submit, api_mastery,
+        api_create_student,
+        api_first_task as api_next_task,
+        api_full_mastery as api_mastery,
+        api_submit as _api_submit_raw,
     )
+
+    def api_submit(cl, sid, rec, score):
+        part = rec["task"]["parts"][0]
+        return _api_submit_raw(
+            cl, sid,
+            task_id=str(rec["task"]["task_id"]),
+            part_id=str(part["part_id"]),
+            score=score,
+            primary_kcs=rec.get("primary_kcs", [rec["kc_id"]]),
+            half_life_days=rec.get("half_life_days", 30.0),
+            recommendation_source=rec.get("recommendation_source", "thompson_sampling"),
+            last_subject=rec.get("subject"),
+        )
 
     # 1. Создаём нового студента (gateway автоматически делает cold_start)
     student_data = api_create_student(client, profile.grade)

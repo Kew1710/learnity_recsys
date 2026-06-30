@@ -17,20 +17,35 @@ from __future__ import annotations
 import math
 from datetime import datetime
 
-HALF_LIFE_DAYS = 30.0   # через 30 дней без практики mastery падает вдвое
+from shared.config import bkt as _cfg
 
-PERFORMANCE_DECAY_THRESHOLD = 3    # порог consecutive_errors для активного снижения mastery
-PERFORMANCE_DECAY_FACTOR = 0.75    # множитель при систематических ошибках
-
-# Параметры плавного обновления mastery (smooth_update)
-SMOOTH_LR = 0.15       # шаг обновления: Δ = lr * (score - p)  →  при p=0: +0.15, при p=0.6: +0.06
-SMOOTH_TRANSIT = 0.02  # маленький бонус за сам факт попытки (effort bonus)
-SURPRISE_K = 1.0       # коэффициент усиления lr за неожиданный результат (студент решил сложнее чем ожидалось)
+HALF_LIFE_DAYS = _cfg.HALF_LIFE_DAYS
+CONFIDENCE_ATTEMPTS_SCALE = _cfg.CONFIDENCE_ATTEMPTS_SCALE
+PERFORMANCE_DECAY_THRESHOLD = _cfg.PERFORMANCE_DECAY_THRESHOLD
+PERFORMANCE_DECAY_FACTOR = _cfg.PERFORMANCE_DECAY_FACTOR
+SMOOTH_LR = _cfg.SMOOTH_LR
+SMOOTH_TRANSIT = _cfg.SMOOTH_TRANSIT
+SURPRISE_K = _cfg.SURPRISE_K
 
 
 # ---------------------------------------------------------------------------
 # 1. Decay
 # ---------------------------------------------------------------------------
+
+def compute_confidence(
+    attempts_count: int,
+    recent_accuracy: float,
+    probability_effective: float,
+    last_practiced: datetime,
+    now: datetime | None = None,
+) -> float:
+    if now is None:
+        now = datetime.utcnow()
+    days_since = max(0.0, (now - last_practiced).total_seconds() / 86400)
+    stability = 1.0 - abs(recent_accuracy - probability_effective)
+    recency = 0.5 ** (days_since / HALF_LIFE_DAYS)
+    return min(1.0, (attempts_count / CONFIDENCE_ATTEMPTS_SCALE) * stability * recency)
+
 
 def apply_decay(
     probability: float,

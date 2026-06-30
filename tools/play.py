@@ -12,7 +12,6 @@
 """
 
 import sys
-import os
 import uuid
 from pathlib import Path
 
@@ -26,7 +25,6 @@ from rich.panel import Panel
 from rich.table import Table
 from rich import box
 from rich.text import Text
-from rich.columns import Columns
 
 # ─── Настройки ───────────────────────────────────────────────────────────────
 

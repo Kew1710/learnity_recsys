@@ -12,9 +12,11 @@ KC попадает в ZPD если:
 from __future__ import annotations
 from dataclasses import dataclass
 
-MASTERY_THRESHOLD = 0.7     # порог освоенности пререквизита
-MASTERY_CEILING = 0.95      # KC считается освоенной — убираем из ZPD
-STRONG_PREREQ = 0.5         # рёбра слабее этого значения не блокируют KC
+from shared.config import zpd as _cfg
+
+MASTERY_THRESHOLD = _cfg.MASTERY_THRESHOLD
+MASTERY_CEILING = _cfg.MASTERY_CEILING
+STRONG_PREREQ = _cfg.STRONG_PREREQ
 
 
 @dataclass

@@ -18,8 +18,32 @@ import math
 import random
 from dataclasses import dataclass
 
+from shared.config import retrieval as _cfg
+
 EXPLORATION_RATE = 0.20
-TARGET_ZPD_ACCURACY = 0.65   # целевая вероятность правильного ответа в ZPD
+TARGET_ZPD_ACCURACY = _cfg.TARGET_ZPD_ACCURACY
+
+IRT_FLOOR = 0.20
+IRT_CEILING = 0.90
+
+
+def filter_tasks_by_irt(
+    tasks: list[dict],
+    mastery: float,
+    floor: float = IRT_FLOOR,
+    ceiling: float = IRT_CEILING,
+) -> list[dict]:
+    """Remove tasks where P(correct) is outside [floor, ceiling]."""
+    filtered = []
+    for t in tasks:
+        irt_diff = (t.get("parts") or [{}])[0].get("irt_difficulty")
+        if irt_diff is None:
+            filtered.append(t)
+            continue
+        p = compute_p_correct(mastery, irt_diff)
+        if floor <= p <= ceiling:
+            filtered.append(t)
+    return filtered if filtered else tasks
 
 
 def compute_p_correct(mastery: float, irt_difficulty: float) -> float:

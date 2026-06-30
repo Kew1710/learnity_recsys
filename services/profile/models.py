@@ -38,6 +38,7 @@ class MasteryModel(Base):
     p_guess: Mapped[float] = mapped_column(Float, default=0.2)
     consecutive_errors: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
     consecutive_correct: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    recent_accuracy: Mapped[float] = mapped_column(Float, default=0.0, nullable=False)
 
     student: Mapped["StudentModel"] = relationship("StudentModel", back_populates="mastery")
 

@@ -43,8 +43,6 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Macro Planner Service", lifespan=lifespan)
 
-MACRO_URL = "http://127.0.0.1:8006"
-
 
 # ---------------------------------------------------------------------------
 # Schemas

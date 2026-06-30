@@ -1,4 +1,4 @@
-.PHONY: up down logs migrate migrate-create seed dev stop dev-logs dev-status test lint play stats install restart-retrieval restart-retrieval-baseline ab ab-quick backend-up backend-migrate backend-run backend-down
+.PHONY: up down logs migrate migrate-create seed dev stop dev-logs dev-status test lint play stats install restart-retrieval restart-retrieval-baseline ab ab-quick backend-up backend-migrate backend-run backend-down demo eval
 
 PYTHON  = .venv/bin/python
 PIP     = .venv/bin/pip
@@ -72,7 +72,7 @@ stop:
 	done
 	@echo "✅ Готово"
 
-# A/B: перезапуск retrieval в режиме LinUCB (ENABLE_CONTROL_GROUP=false, по умолчанию)
+# A/B: перезапуск retrieval в режиме Thompson Sampling (ENABLE_CONTROL_GROUP=false, по умолчанию)
 restart-retrieval:
 	@[ -f .pids/retrieval.pid ] && kill $$(cat .pids/retrieval.pid) 2>/dev/null || true
 	@sleep 1
@@ -80,7 +80,7 @@ restart-retrieval:
 	 ENABLE_CONTROL_GROUP=false \
 	 $(UVICORN) services.retrieval.main:app --port 8004 --reload >logs/retrieval.log 2>&1 & echo $$! > .pids/retrieval.pid
 	@sleep 1
-	@echo "✅ Retrieval перезапущен (LinUCB, ENABLE_CONTROL_GROUP=false)"
+	@echo "✅ Retrieval перезапущен (Thompson Sampling, ENABLE_CONTROL_GROUP=false)"
 
 # A/B: перезапуск retrieval в режиме Baseline (ENABLE_CONTROL_GROUP=true)
 restart-retrieval-baseline:
@@ -111,28 +111,12 @@ play:
 stats:
 	$(PYTHON) tools/stats.py
 
-sandbox:
-	$(PYTHON) tools/sandbox.py
-
 # A/B тест: make ab | make ab SEED=7 N=10 TASKS=100 | make ab-quick
 ab:
 	$(PYTHON) tools/run_ab.py --seed $(or $(SEED),42) --n $(or $(N),30) --tasks $(or $(TASKS),250)
 
 ab-quick:
 	$(PYTHON) tools/run_ab.py --seed 42 --n 5 --tasks 50 --warmup-n 5 --warmup-tasks 30
-
-# Только LinUCB:
-#   make linucb
-#   make linucb N=5 TASKS=200 WARMUP=0
-#   make linucb PLAN_MODE=target_mastery PLAN_KC=kc_quadratic_eq
-#   make linucb PLAN_MODE=coverage PLAN_VARIANT=frontier PLAN_BUDGET=200
-linucb:
-	$(PYTHON) tools/run_ab.py --variant linucb --seed $(or $(SEED),42) --n $(or $(N),30) --tasks $(or $(TASKS),250) \
-		$(if $(filter 0,$(WARMUP)),--skip-warmup,) \
-		$(if $(PLAN_MODE),--plan-mode $(PLAN_MODE),) \
-		$(if $(PLAN_KC),--plan-kc $(PLAN_KC),) \
-		$(if $(PLAN_VARIANT),--plan-variant $(PLAN_VARIANT),) \
-		$(if $(PLAN_BUDGET),--plan-budget $(PLAN_BUDGET),)
 
 # ─── Backend (Go) интеграция ──────────────────────────────────────────────────
 
@@ -169,10 +153,18 @@ backend-run:
 backend-down:
 	docker compose -f docker-compose.backend.yml down
 
+# ─── Демо / Eval ─────────────────────────────────────────────────────────────
+
+demo:
+	$(PYTHON) -m streamlit run demo/app.py
+
+eval:
+	$(PYTHON) -m tools.offline_eval
+
 # ─── Тесты / Lint ─────────────────────────────────────────────────────────────
 
 test:
-	$(PYTHON) -m pytest services/ shared/ -v
+	$(PYTHON) -m pytest services/ tools/tests/ -v
 
 lint:
 	$(PYTHON) -m ruff check shared/ services/

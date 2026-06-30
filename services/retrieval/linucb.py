@@ -19,8 +19,10 @@ from dataclasses import dataclass, field
 
 import numpy as np
 
-CONTEXT_DIM = 13  # 9 базовых + 4 фичи задания (is_conceptual, is_word_problem, is_mixed, n_steps)
-ALPHA = 0.5       # exploration не должен перекрывать полезный сигнал после одного reward
+from shared.config import retrieval as _cfg
+
+CONTEXT_DIM = _cfg.CONTEXT_DIM
+ALPHA = _cfg.ALPHA
 
 
 GLOBAL_CLUSTER_ID = -1   # запасная модель для студентов без кластера

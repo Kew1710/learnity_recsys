@@ -2,15 +2,14 @@
 
 from __future__ import annotations
 
-import math
 import uuid
 
 import sqlalchemy as sa
 
 from shared.db import AsyncSessionLocal
+from shared.config import retrieval as _cfg
 
-# Сколько последних записей анализируем для summary
-SUMMARY_WINDOW = 20
+SUMMARY_WINDOW = _cfg.SUMMARY_WINDOW
 
 
 async def compute_micro_summary(

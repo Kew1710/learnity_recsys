@@ -12,6 +12,8 @@ from aiokafka import AIOKafkaConsumer
 
 from shared.db import AsyncSessionLocal
 from . import clients, kafka_producer as macro_kafka
+from .diagnostics import diagnose
+from .transitions import log_transition, _build_state
 from .plan_lifecycle import (
     apply_plan_actions,
     check_and_advance,
@@ -99,36 +101,71 @@ async def _create_replan_alert(
         logger.warning("Failed to publish replan alert for student=%s kc=%s", student_id, kc_id)
 
 
-async def _find_weakest_prereq(student_id: uuid.UUID, kc_id: str) -> str | None:
+async def _find_weakest_prereq(student_id: uuid.UUID, kc_id: str) -> tuple[str | None, float | None]:
     """
     Находит слабейший пре-реквизит KC для данного студента.
 
-    Алгоритм:
-      1. Получаем список пре-реквизитов KC из graph-сервиса
-      2. Фильтруем по силе связи (>= STRONG_PREREQ_MIN_STRENGTH)
-      3. Берём mastery студента для каждого prereq
-      4. Возвращаем kc_id с минимальным mastery, если оно ниже WEAK_PREREQ_THRESHOLD
-
-    Returns None если слабых prereqs нет или запросы не удались.
+    Returns (kc_id, mastery) of the weakest strong prereq, or (None, None).
     """
     async with httpx.AsyncClient(trust_env=False) as http:
         try:
             prereqs = await clients.get_all_prerequisites(http, kc_id)
             mastery = await clients.get_student_mastery(http, student_id)
         except Exception:
-            return None
+            return None, None
 
     strong = [p for p in prereqs if float(p.get("strength", 0)) >= STRONG_PREREQ_MIN_STRENGTH]
     if not strong:
-        return None
+        return None, None
 
     weakest_id = min(strong, key=lambda p: mastery.get(p["kc_id"], 0.0))["kc_id"]
     weakest_mastery = mastery.get(weakest_id, 0.0)
 
     if weakest_mastery < WEAK_PREREQ_THRESHOLD:
-        return weakest_id
+        return weakest_id, weakest_mastery
 
-    return None
+    return None, weakest_mastery
+
+
+async def _check_content_gap(kc_id: str) -> bool:
+    """Returns True if KC has very few or no available tasks (content gap)."""
+    async with httpx.AsyncClient(trust_env=False) as http:
+        try:
+            count = await clients.get_task_count_for_kc(http, kc_id)
+            return count < 3
+        except Exception:
+            return False
+
+
+async def _create_content_gap_alert(
+    student_id: uuid.UUID,
+    plan_id: uuid.UUID,
+    kc_id: str,
+    mastery_current: float,
+    tasks_spent: int,
+) -> None:
+    async with AsyncSessionLocal() as db:
+        await db.execute(
+            sa.text("""
+                INSERT INTO teacher_alerts
+                    (id, student_id, plan_id, kc_id, alert_type,
+                     mastery_at_alert, tasks_spent, message, created_at)
+                VALUES
+                    (:id, :student_id, :plan_id, :kc_id, 'content_gap',
+                     :mastery, :tasks_spent, :message, :now)
+            """),
+            {
+                "id": uuid.uuid4(),
+                "student_id": student_id,
+                "plan_id": plan_id,
+                "kc_id": kc_id,
+                "mastery": mastery_current,
+                "tasks_spent": tasks_spent,
+                "message": f"Frustration on KC '{kc_id}' likely caused by insufficient task variety",
+                "now": datetime.now(timezone.utc),
+            },
+        )
+        await db.commit()
 
 
 async def _handle_summary(summary: dict) -> None:
@@ -150,14 +187,60 @@ async def _handle_summary(summary: dict) -> None:
     velocity = summary.get("velocity", 0.0)
     recent_accuracy = summary.get("avg_score", 1.0)
 
+    state = _build_state(mastery_current, velocity, frustration_count=summary.get("frustration_count", 0),
+                         avg_score=recent_accuracy, tasks_spent=tasks_spent)
+
     # 1. Автопереход шага если mastery достиг порога И recent_accuracy достаточна
+    pre_advance_step = await _get_active_plan_step(student_id)
     advanced = await check_and_advance(student_id, kc_id, mastery_current, recent_accuracy)
     if advanced:
         logger.info(
             "Plan step auto-advanced: student=%s kc=%s mastery=%.3f",
             student_id, kc_id, mastery_current,
         )
+        plan_id = pre_advance_step[0] if pre_advance_step else uuid.UUID(int=0)
+        post_step = await _get_active_plan_step(student_id)
+        await log_transition(
+            student_id=student_id, plan_id=plan_id, kc_id=kc_id,
+            state=state, action="advance", done=(post_step is None),
+            reason=f"mastery={mastery_current:.3f} reached threshold",
+        )
         return
+
+    # Regression detection: if KC belongs to a completed step and frustration is high,
+    # reopen it as in_progress
+    frustration_count = summary.get("frustration_count", 0)
+    if frustration_count >= 3:
+        async with AsyncSessionLocal() as db:
+            regressed = (await db.execute(
+                sa.text("""
+                    UPDATE plan_steps
+                       SET status = 'in_progress', difficulty_mode = 'consolidate'
+                     WHERE status = 'completed'
+                       AND kc_id = :kc_id
+                       AND plan_id = (
+                           SELECT id FROM learning_plans
+                           WHERE student_id = :student_id
+                           ORDER BY created_at DESC LIMIT 1
+                       )
+                    RETURNING id
+                """),
+                {"student_id": student_id, "kc_id": kc_id},
+            )).fetchone()
+            if regressed:
+                await db.commit()
+                logger.info(
+                    "Regression detected: student=%s kc=%s — reopened completed step",
+                    student_id, kc_id,
+                )
+                active_step = await _get_active_plan_step(student_id)
+                plan_id = active_step[0] if active_step else uuid.UUID(int=0)
+                await log_transition(
+                    student_id=student_id, plan_id=plan_id, kc_id=kc_id,
+                    state=state, action="regression_reopen",
+                    reason=f"frustration_count={frustration_count}, reopened completed step",
+                )
+                return
 
     active_step = await _get_active_plan_step(student_id)
     if not active_step:
@@ -172,12 +255,55 @@ async def _handle_summary(summary: dict) -> None:
         )
         return
 
-    weakest_prereq_kc_id = await _find_weakest_prereq(student_id, kc_id)
+    weakest_prereq_kc_id, weakest_prereq_mastery = await _find_weakest_prereq(student_id, kc_id)
+
+    # Diagnostic layer: determine the cause of difficulty
+    task_count = None
+    mastery_confidence = 0.0
+    attempts_count = 0
+    if frustration_count >= 2:
+        async with httpx.AsyncClient(trust_env=False) as http:
+            try:
+                detailed = await clients.get_student_mastery_detailed(http, student_id)
+                kc_detail = detailed.get(kc_id, {})
+                mastery_confidence = kc_detail.get("confidence", 0.0)
+                attempts_count = kc_detail.get("attempts_count", 0)
+            except Exception:
+                pass
+            try:
+                task_count = await clients.get_task_count_for_kc(http, kc_id)
+            except Exception:
+                pass
+
+    diagnosis = diagnose(
+        mastery_current=mastery_current,
+        velocity=velocity,
+        frustration_count=frustration_count,
+        avg_score=recent_accuracy,
+        tasks_spent=tasks_spent,
+        attempts_count=attempts_count,
+        mastery_confidence=mastery_confidence,
+        weakest_prereq_mastery=weakest_prereq_mastery,
+        task_count_for_kc=task_count,
+    )
+    logger.info(
+        "Diagnosis: student=%s kc=%s reason=%s confidence=%.2f detail=%s",
+        student_id, kc_id, diagnosis.reason, diagnosis.confidence, diagnosis.detail,
+    )
+
     actions = evaluate_micro_summary(
         summary,
         weakest_prereq_kc_id=weakest_prereq_kc_id,
         tasks_budget=tasks_budget,
     )
+
+    # Use diagnosis to refine actions
+    if diagnosis.reason == "content_gap":
+        await _create_content_gap_alert(student_id, plan_id, kc_id, mastery_current, tasks_spent)
+        actions = [a for a in actions if a.action_type != "set_difficulty_mode"]
+    elif diagnosis.reason == "uncertain_estimate":
+        actions = [a for a in actions if a.action_type != "replan"]
+
     if actions:
         non_replan_actions = [a for a in actions if a.action_type != "replan"]
         if non_replan_actions:
@@ -188,6 +314,14 @@ async def _handle_summary(summary: dict) -> None:
                 kc_id,
                 [a.action_type for a in non_replan_actions],
             )
+            for a in non_replan_actions:
+                await log_transition(
+                    student_id=student_id, plan_id=plan_id, kc_id=kc_id,
+                    state=state, action=a.action_type, action_payload=a.payload,
+                    reason=a.payload.get("reason"),
+                    diagnosis_reason=diagnosis.reason,
+                    diagnosis_confidence=diagnosis.confidence,
+                )
         for action in actions:
             if action.action_type == "replan":
                 reason = action.payload.get("reason", "replan requested by micro-summary")
@@ -198,6 +332,13 @@ async def _handle_summary(summary: dict) -> None:
                     mastery_current=mastery_current,
                     tasks_spent=tasks_spent,
                     reason=reason,
+                )
+                await log_transition(
+                    student_id=student_id, plan_id=plan_id, kc_id=kc_id,
+                    state=state, action="replan", action_payload=action.payload,
+                    reason=reason,
+                    diagnosis_reason=diagnosis.reason,
+                    diagnosis_confidence=diagnosis.confidence,
                 )
                 logger.info(
                     "Replan requested: student=%s kc=%s reason=%s",

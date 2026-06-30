@@ -12,11 +12,10 @@ from sqlalchemy.orm import selectinload
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from shared.db import get_db
-from shared.schemas import MasteryRecord, BehavioralProfile, Student
 
 import math
 
-from .bkt import update_mastery
+from .bkt import update_mastery, compute_confidence
 from .models import StudentModel, MasteryModel, InteractionModel, LearningPlanModel, PlanStepModel
 from .repository import StudentRepository
 
@@ -78,6 +77,7 @@ class MasteryResponse(BaseModel):
     kc_id: str
     probability: float
     probability_effective: float    # с учётом decay
+    confidence: float
     last_practiced: datetime
     attempts_count: int
 
@@ -94,10 +94,14 @@ def _effective_probability(record: MasteryModel, now: datetime, review_mode: boo
 
 
 def _model_to_mastery_response(record: MasteryModel, now: datetime) -> MasteryResponse:
+    p_eff = _effective_probability(record, now)
     return MasteryResponse(
         kc_id=record.kc_id,
         probability=record.probability,
-        probability_effective=_effective_probability(record, now),
+        probability_effective=p_eff,
+        confidence=compute_confidence(
+            record.attempts_count, record.recent_accuracy, p_eff, record.last_practiced, now,
+        ),
         last_practiced=record.last_practiced,
         attempts_count=record.attempts_count,
     )
@@ -135,16 +139,19 @@ async def get_student(
         raise HTTPException(status_code=404, detail="Student not found")
 
     now = datetime.utcnow()
-    mastery = {
-        r.kc_id: {
+    mastery = {}
+    for r in student.mastery:
+        p_eff = _effective_probability(r, now, student.review_mode)
+        mastery[r.kc_id] = {
             "probability": r.probability,
-            "probability_effective": _effective_probability(r, now, student.review_mode),
+            "probability_effective": p_eff,
             "last_practiced": r.last_practiced.isoformat(),
             "attempts_count": r.attempts_count,
             "consecutive_errors": r.consecutive_errors,
+            "confidence": compute_confidence(
+                r.attempts_count, r.recent_accuracy, p_eff, r.last_practiced, now,
+            ),
         }
-        for r in student.mastery
-    }
     return {
         "student_id": str(student.student_id),
         "grade": student.grade,
@@ -347,6 +354,7 @@ async def submit_interaction(
             p_slip=req.p_slip,
             p_guess=req.p_guess,
             score=req.score,
+            recent_accuracy=recent_accuracy,
         )
         updated[kc_id] = new_prob
         consecutive_errors[kc_id] = record.consecutive_errors
@@ -364,6 +372,20 @@ async def submit_interaction(
         avg_residual = sum(residuals) / len(residuals)
         new_lr = student.estimated_lr + 0.005 * avg_residual
         student.estimated_lr = max(0.04, min(0.40, new_lr))
+
+    # Обновляем behavioral signals (EMA, lr=0.1)
+    _BEHAV_LR = 0.1
+    # guessing_rate: правильный ответ без подсказок при низкой ожидаемой вероятности
+    if req.irt_difficulty is not None and req.primary_kcs:
+        avg_mastery = sum(mastery_before.get(kc, 0.05) for kc in req.primary_kcs) / len(req.primary_kcs)
+        m = max(0.01, min(0.99, avg_mastery))
+        theta = math.log(m / (1.0 - m))
+        p_correct = 1.0 / (1.0 + math.exp(-(theta - req.irt_difficulty)))
+        guess_signal = 1.0 if (req.score >= 0.8 and req.hints_used == 0 and p_correct < 0.3) else 0.0
+        student.guessing_rate += _BEHAV_LR * (guess_signal - student.guessing_rate)
+    # hint_dependence: EMA от использования подсказок
+    hint_signal = 1.0 if req.hints_used > 0 else 0.0
+    student.hint_dependence += _BEHAV_LR * (hint_signal - student.hint_dependence)
 
     await db.commit()
     return {
@@ -561,7 +583,7 @@ async def check_plan_thresholds(
 # A/B experiment endpoints
 # ---------------------------------------------------------------------------
 
-EXPERIMENT_ID = "linucb_v1"
+EXPERIMENT_ID = "thompson_v1"
 
 
 @app.post("/students/{student_id}/experiment", status_code=201)

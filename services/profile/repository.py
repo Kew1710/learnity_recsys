@@ -60,6 +60,7 @@ class StudentRepository:
         p_slip: float,
         p_guess: float,
         score: float = 1.0,
+        recent_accuracy: float = 0.0,
     ) -> MasteryModel:
         record = await self.get_mastery(student_id, kc_id)
         if record is None:
@@ -74,6 +75,7 @@ class StudentRepository:
                 p_guess=p_guess,
                 consecutive_errors=0 if score >= 0.5 else 1,
                 consecutive_correct=1 if score >= 0.5 else 0,
+                recent_accuracy=recent_accuracy,
             )
             self.db.add(record)
         else:
@@ -82,6 +84,7 @@ class StudentRepository:
             record.attempts_count += 1
             record.consecutive_errors = 0 if score >= 0.5 else record.consecutive_errors + 1
             record.consecutive_correct = record.consecutive_correct + 1 if score >= 0.5 else 0
+            record.recent_accuracy = recent_accuracy
         await self.db.flush()
         return record
 

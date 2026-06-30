@@ -27,15 +27,17 @@ from fastapi.responses import Response, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
+from shared.config import gateway as _cfg
 from . import clients, kafka_producer
 from .kafka_consumer import run_consumer
 from .simulate import router as simulate_router
-from services.clustering.cluster import assign_cluster_for_new_student, save_student_cluster
+from services.clustering.cluster import assign_cluster_for_new_student, save_student_cluster, ensure_centroids_loaded
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     await kafka_producer.start()
+    await ensure_centroids_loaded()
     task = asyncio.create_task(run_consumer())
     yield
     task.cancel()
@@ -189,24 +191,14 @@ async def submit_answer(student_id: uuid.UUID, req: SubmitAnswerRequest):
                 and any(before.get(kc, 0.0) > 0.9 for kc in primary_kcs)
             ) else 0.0
 
-            _BETA = 0.3   # вес штрафа за фрустрацию
-            _GAMMA = 0.1  # вес штрафа за скуку
-            reward = delta_mastery - _BETA * frustration - _GAMMA * boredom
+            reward = delta_mastery - _cfg.REWARD_BETA * frustration - _cfg.REWARD_GAMMA * boredom
 
             try:
                 await clients.update_bandit_reward(http, student_id, req.task_id, reward)
             except httpx.HTTPStatusError as e:
                 logger.warning("bandit reward update failed for student=%s task=%s: %s", student_id, req.task_id, e)
 
-        # 3. Проверить пороги учебного плана (не критично)
-        try:
-            await clients.check_plan_thresholds(
-                http, student_id,
-                updated_mastery=mastery_update.get("updated_mastery", {}),
-                consecutive_errors=mastery_update.get("consecutive_errors", {}),
-            )
-        except httpx.HTTPStatusError as e:
-            logger.warning("plan threshold check failed for student=%s: %s", student_id, e)
+        # 3. Plan thresholds — handled by Macro via MicroSummary/Kafka (see П2.3)
 
         # 4. Получить следующее задание
         try:
