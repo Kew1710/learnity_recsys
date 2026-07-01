@@ -430,8 +430,102 @@ with tab_full:
                     f"**Цель:** {KC_NAMES[target_kc]} "
                     f"(mastery {vis_m.get(target_kc, 0):.2f} -> {mastery_threshold})"
                 )
+
+                # -- Граф пререквизитов с выделенным путём --
+                def _collect_subgraph(target: str) -> set[str]:
+                    nodes: set[str] = set()
+                    def _walk(kc: str) -> None:
+                        if kc in nodes:
+                            return
+                        nodes.add(kc)
+                        for p in KC_GRAPH.get(kc, []):
+                            _walk(p)
+                    _walk(target)
+                    return nodes
+
+                subgraph_kcs = _collect_subgraph(target_kc)
+                plan_set = set(plan)
+                plan_edges: set[tuple[str, str]] = set()
+                for i in range(len(plan) - 1):
+                    plan_edges.add((plan[i], plan[i + 1]))
+
+                mastered_color = "#2ecc71"
+                plan_color = "#e74c3c"
+                target_color = "#9b59b6"
+                default_color = "#95a5a6"
+
+                dot_lines = [
+                    "digraph KCGraph {",
+                    '  rankdir=LR;',
+                    '  bgcolor="transparent";',
+                    '  node [shape=box, style="filled,rounded", fontname="Helvetica", fontsize=11];',
+                    '  edge [fontname="Helvetica", fontsize=9];',
+                ]
+
+                for kc in subgraph_kcs:
+                    m_val = vis_m.get(kc, 0)
+                    label = f"{KC_NAMES[kc]}\\nmastery: {m_val:.2f}"
+                    if kc == target_kc:
+                        color = target_color
+                        font_color = "white"
+                        pen = 3
+                    elif kc in plan_set:
+                        color = plan_color
+                        font_color = "white"
+                        pen = 2
+                    elif m_val >= mastery_threshold:
+                        color = mastered_color
+                        font_color = "white"
+                        pen = 1
+                    else:
+                        color = default_color
+                        font_color = "white"
+                        pen = 1
+                    dot_lines.append(
+                        f'  "{kc}" [label="{label}", fillcolor="{color}", '
+                        f'fontcolor="{font_color}", penwidth={pen}];'
+                    )
+
+                for kc in subgraph_kcs:
+                    for prereq in KC_GRAPH.get(kc, []):
+                        if prereq in subgraph_kcs:
+                            if (prereq, kc) in plan_edges or (
+                                prereq in plan_set and kc in plan_set
+                            ):
+                                dot_lines.append(
+                                    f'  "{prereq}" -> "{kc}" '
+                                    f'[color="{plan_color}", penwidth=2.5, '
+                                    f'style=bold];'
+                                )
+                            else:
+                                dot_lines.append(
+                                    f'  "{prereq}" -> "{kc}" '
+                                    f'[color="#7f8c8d"];'
+                                )
+
+                dot_lines.append("}")
+                st.graphviz_chart("\n".join(dot_lines), use_container_width=True)
+
+                col_leg1, col_leg2, col_leg3, col_leg4 = st.columns(4)
+                col_leg1.markdown(
+                    f'<span style="color:{target_color}">&#9632;</span> '
+                    f"Целевая тема", unsafe_allow_html=True,
+                )
+                col_leg2.markdown(
+                    f'<span style="color:{plan_color}">&#9632;</span> '
+                    f"В плане (нужно освоить)", unsafe_allow_html=True,
+                )
+                col_leg3.markdown(
+                    f'<span style="color:{mastered_color}">&#9632;</span> '
+                    f"Освоено (>= {mastery_threshold})", unsafe_allow_html=True,
+                )
+                col_leg4.markdown(
+                    f'<span style="color:{default_color}">&#9632;</span> '
+                    f"Вне плана", unsafe_allow_html=True,
+                )
+
                 path_str = " -> ".join(KC_NAMES[kc] for kc in plan)
-                st.markdown(f"**Путь обучения:** {path_str}")
+                st.markdown(f"**Порядок прохождения:** {path_str}")
 
                 plan_rows = []
                 for i, kc in enumerate(plan):
