@@ -431,7 +431,9 @@ with tab_full:
                     f"(mastery {vis_m.get(target_kc, 0):.2f} -> {mastery_threshold})"
                 )
 
-                # -- Граф пререквизитов с выделенным путём --
+                # -- Интерактивный граф пререквизитов (cytoscape.js) --
+                import json as _json
+
                 def _collect_subgraph(target: str) -> set[str]:
                     nodes: set[str] = set()
                     def _walk(kc: str) -> None:
@@ -445,84 +447,270 @@ with tab_full:
 
                 subgraph_kcs = _collect_subgraph(target_kc)
                 plan_set = set(plan)
-                plan_edges: set[tuple[str, str]] = set()
-                for i in range(len(plan) - 1):
-                    plan_edges.add((plan[i], plan[i + 1]))
 
-                mastered_color = "#2ecc71"
-                plan_color = "#e74c3c"
-                target_color = "#9b59b6"
-                default_color = "#95a5a6"
+                def _mastery_color(m: float) -> str:
+                    r = int(220 - 180 * m)
+                    g = int(60 + 160 * m)
+                    b = int(60 + 40 * m)
+                    return f"rgb({r},{g},{b})"
 
-                dot_lines = [
-                    "digraph KCGraph {",
-                    '  rankdir=LR;',
-                    '  bgcolor="transparent";',
-                    '  node [shape=box, style="filled,rounded", fontname="Helvetica", fontsize=11];',
-                    '  edge [fontname="Helvetica", fontsize=9];',
-                ]
-
+                cy_nodes = []
+                cy_edges = []
                 for kc in subgraph_kcs:
                     m_val = vis_m.get(kc, 0)
-                    label = f"{KC_NAMES[kc]}\\nmastery: {m_val:.2f}"
                     if kc == target_kc:
-                        color = target_color
-                        font_color = "white"
-                        pen = 3
+                        node_type = "target"
                     elif kc in plan_set:
-                        color = plan_color
-                        font_color = "white"
-                        pen = 2
+                        node_type = "plan"
                     elif m_val >= mastery_threshold:
-                        color = mastered_color
-                        font_color = "white"
-                        pen = 1
+                        node_type = "mastered"
                     else:
-                        color = default_color
-                        font_color = "white"
-                        pen = 1
-                    dot_lines.append(
-                        f'  "{kc}" [label="{label}", fillcolor="{color}", '
-                        f'fontcolor="{font_color}", penwidth={pen}];'
-                    )
+                        node_type = "default"
+                    plan_order = plan.index(kc) + 1 if kc in plan_set else 0
+                    cy_nodes.append({
+                        "data": {
+                            "id": kc,
+                            "label": KC_NAMES[kc],
+                            "mastery": round(m_val, 2),
+                            "mastery_pct": f"{m_val:.0%}",
+                            "node_type": node_type,
+                            "bg_color": _mastery_color(m_val),
+                            "plan_order": plan_order,
+                        }
+                    })
 
                 for kc in subgraph_kcs:
                     for prereq in KC_GRAPH.get(kc, []):
                         if prereq in subgraph_kcs:
-                            if (prereq, kc) in plan_edges or (
-                                prereq in plan_set and kc in plan_set
-                            ):
-                                dot_lines.append(
-                                    f'  "{prereq}" -> "{kc}" '
-                                    f'[color="{plan_color}", penwidth=2.5, '
-                                    f'style=bold];'
-                                )
-                            else:
-                                dot_lines.append(
-                                    f'  "{prereq}" -> "{kc}" '
-                                    f'[color="#7f8c8d"];'
-                                )
+                            is_plan = prereq in plan_set and kc in plan_set
+                            cy_edges.append({
+                                "data": {
+                                    "source": prereq,
+                                    "target": kc,
+                                    "edge_type": "plan" if is_plan else "default",
+                                }
+                            })
 
-                dot_lines.append("}")
-                st.graphviz_chart("\n".join(dot_lines), use_container_width=True)
+                cy_elements = _json.dumps(cy_nodes + cy_edges)
+                plan_ids = _json.dumps(plan)
 
-                col_leg1, col_leg2, col_leg3, col_leg4 = st.columns(4)
-                col_leg1.markdown(
-                    f'<span style="color:{target_color}">&#9632;</span> '
-                    f"Целевая тема", unsafe_allow_html=True,
-                )
-                col_leg2.markdown(
-                    f'<span style="color:{plan_color}">&#9632;</span> '
-                    f"В плане (нужно освоить)", unsafe_allow_html=True,
-                )
-                col_leg3.markdown(
-                    f'<span style="color:{mastered_color}">&#9632;</span> '
-                    f"Освоено (>= {mastery_threshold})", unsafe_allow_html=True,
-                )
-                col_leg4.markdown(
-                    f'<span style="color:{default_color}">&#9632;</span> '
-                    f"Вне плана", unsafe_allow_html=True,
-                )
+                cy_html = f"""
+<div id="cy-graph" style="width:100%;height:480px;border-radius:12px;
+     background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);
+     position:relative;overflow:hidden;">
+</div>
+<div id="cy-tooltip" style="position:absolute;display:none;padding:10px 14px;
+     background:rgba(15,15,30,0.95);color:#e2e8f0;border-radius:8px;
+     font-size:13px;pointer-events:none;z-index:100;
+     border:1px solid rgba(124,58,237,0.4);
+     box-shadow:0 4px 20px rgba(0,0,0,0.4);
+     backdrop-filter:blur(8px);"></div>
+<div style="display:flex;gap:20px;margin-top:10px;padding:8px 4px;
+     font-size:13px;color:#a0aec0;flex-wrap:wrap;">
+  <span><span style="display:inline-block;width:14px;height:14px;
+    border-radius:50%;background:linear-gradient(135deg,#9b59b6,#8e44ad);
+    vertical-align:middle;margin-right:5px;
+    box-shadow:0 0 8px rgba(155,89,182,0.5);"></span> Целевая тема</span>
+  <span><span style="display:inline-block;width:14px;height:14px;
+    border-radius:50%;border:2.5px solid #e74c3c;background:transparent;
+    vertical-align:middle;margin-right:5px;"></span> В плане</span>
+  <span><span style="display:inline-block;width:14px;height:14px;
+    border-radius:50%;background:#2ecc71;
+    vertical-align:middle;margin-right:5px;"></span> Освоено</span>
+  <span><span style="display:inline-block;width:14px;height:14px;
+    border-radius:50%;background:#4a5568;
+    vertical-align:middle;margin-right:5px;"></span> Вне плана</span>
+  <span style="margin-left:auto;opacity:0.6;">
+    Цвет заливки = уровень mastery (красный -> зелёный)</span>
+</div>
+
+<script src="https://unpkg.com/cytoscape@3.30.4/dist/cytoscape.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {{
+  var cy = cytoscape({{
+    container: document.getElementById('cy-graph'),
+    elements: {cy_elements},
+    style: [
+      {{
+        selector: 'node',
+        style: {{
+          'label': 'data(label)',
+          'text-valign': 'center',
+          'text-halign': 'center',
+          'font-size': '11px',
+          'font-family': "'Inter','Segoe UI',system-ui,sans-serif",
+          'font-weight': '500',
+          'color': '#fff',
+          'text-wrap': 'wrap',
+          'text-max-width': '90px',
+          'background-color': 'data(bg_color)',
+          'width': '70',
+          'height': '70',
+          'shape': 'round-rectangle',
+          'corner-radius': '12',
+          'border-width': '2',
+          'border-color': '#2d3748',
+          'text-outline-width': '0',
+          'text-background-color': 'rgba(0,0,0,0.5)',
+          'text-background-opacity': 0.6,
+          'text-background-padding': '3px',
+          'text-background-shape': 'roundrectangle',
+          'transition-property': 'border-color border-width shadow-blur shadow-color',
+          'transition-duration': '0.3s',
+        }}
+      }},
+      {{
+        selector: 'node[node_type="target"]',
+        style: {{
+          'border-width': '4',
+          'border-color': '#9b59b6',
+          'width': '85',
+          'height': '85',
+          'font-size': '12px',
+          'font-weight': '700',
+          'shadow-blur': '20',
+          'shadow-color': 'rgba(155,89,182,0.6)',
+          'shadow-opacity': 1,
+        }}
+      }},
+      {{
+        selector: 'node[node_type="plan"]',
+        style: {{
+          'border-width': '3',
+          'border-color': '#e74c3c',
+          'width': '75',
+          'height': '75',
+        }}
+      }},
+      {{
+        selector: 'node[node_type="mastered"]',
+        style: {{
+          'border-width': '2',
+          'border-color': '#2ecc71',
+        }}
+      }},
+      {{
+        selector: 'edge',
+        style: {{
+          'width': 1.5,
+          'line-color': 'rgba(100,116,139,0.4)',
+          'target-arrow-color': 'rgba(100,116,139,0.4)',
+          'target-arrow-shape': 'triangle',
+          'curve-style': 'bezier',
+          'arrow-scale': 0.8,
+        }}
+      }},
+      {{
+        selector: 'edge[edge_type="plan"]',
+        style: {{
+          'width': 3.5,
+          'line-color': '#e74c3c',
+          'target-arrow-color': '#e74c3c',
+          'target-arrow-shape': 'triangle-backcurve',
+          'arrow-scale': 1.2,
+          'line-style': 'solid',
+          'shadow-blur': '6',
+          'shadow-color': 'rgba(231,76,60,0.4)',
+          'shadow-opacity': 1,
+        }}
+      }},
+      {{
+        selector: '.highlighted',
+        style: {{
+          'border-color': '#f39c12',
+          'border-width': '4',
+          'shadow-blur': '25',
+          'shadow-color': 'rgba(243,156,18,0.7)',
+          'shadow-opacity': 1,
+          'z-index': 10,
+        }}
+      }},
+      {{
+        selector: '.highlighted-edge',
+        style: {{
+          'line-color': '#f39c12',
+          'target-arrow-color': '#f39c12',
+          'width': 4.5,
+          'shadow-blur': '10',
+          'shadow-color': 'rgba(243,156,18,0.5)',
+          'shadow-opacity': 1,
+          'z-index': 10,
+        }}
+      }},
+    ],
+    layout: {{
+      name: 'breadthfirst',
+      directed: true,
+      spacingFactor: 1.4,
+      avoidOverlap: true,
+      padding: 40,
+    }},
+    userZoomingEnabled: true,
+    userPanningEnabled: true,
+    boxSelectionEnabled: false,
+    minZoom: 0.5,
+    maxZoom: 2.0,
+  }});
+
+  // Tooltip
+  var tooltip = document.getElementById('cy-tooltip');
+  var graphContainer = document.getElementById('cy-graph');
+
+  cy.on('mouseover', 'node', function(e) {{
+    var node = e.target;
+    var d = node.data();
+    var statusMap = {{
+      target: 'Целевая тема',
+      plan: 'В плане (шаг ' + d.plan_order + ')',
+      mastered: 'Освоено',
+      default: 'Вне плана'
+    }};
+    tooltip.innerHTML =
+      '<div style="font-weight:600;font-size:14px;margin-bottom:4px;">' + d.label + '</div>' +
+      '<div style="margin-bottom:3px;">Mastery: <b style="color:' + d.bg_color + '">' + d.mastery_pct + '</b></div>' +
+      '<div>Статус: ' + (statusMap[d.node_type] || d.node_type) + '</div>';
+    tooltip.style.display = 'block';
+    node.style('cursor', 'pointer');
+  }});
+
+  cy.on('mousemove', 'node', function(e) {{
+    var rect = graphContainer.getBoundingClientRect();
+    var x = e.originalEvent.clientX - rect.left + 15;
+    var y = e.originalEvent.clientY - rect.top - 10;
+    if (x + 200 > rect.width) x = x - 220;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+  }});
+
+  cy.on('mouseout', 'node', function() {{
+    tooltip.style.display = 'none';
+  }});
+
+  // Анимация маршрута
+  var planIds = {plan_ids};
+  var step = 0;
+  function animateStep() {{
+    if (step >= planIds.length) return;
+    var nodeId = planIds[step];
+    var node = cy.getElementById(nodeId);
+    node.addClass('highlighted');
+    if (step > 0) {{
+      var prevId = planIds[step - 1];
+      cy.edges().forEach(function(edge) {{
+        if (edge.data('source') === prevId && edge.data('target') === nodeId) {{
+          edge.addClass('highlighted-edge');
+        }}
+      }});
+    }}
+    step++;
+    if (step < planIds.length) setTimeout(animateStep, 600);
+  }}
+  setTimeout(animateStep, 800);
+}});
+</script>
+"""
+                import streamlit.components.v1 as components
+                components.html(cy_html, height=540)
 
                 path_str = " -> ".join(KC_NAMES[kc] for kc in plan)
                 st.markdown(f"**Порядок прохождения:** {path_str}")
