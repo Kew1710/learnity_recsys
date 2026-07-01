@@ -44,6 +44,10 @@ from services.retrieval.selector import (
     select_task,
 )
 from services.clustering.cluster import _select_n_clusters
+from services.graph.kc_data import (
+    KC_GRAPH, KC_NAMES, KC_INTRO_GRADE, KC_SUBJECTS,
+    ALL_KC_IDS, SUBJECT_RU, EDGES, EDGE_STRENGTHS,
+)
 from shared.config import retrieval as _rcfg, bkt as _bcfg
 
 CONTEXT_DIM = _rcfg.CONTEXT_DIM
@@ -53,59 +57,10 @@ st.title("Learnity RecSys -- адаптивная рекомендательна
 st.caption("Интерактивная in-memory симуляция. Сервисы и БД не требуются.")
 
 # ===================================================================
-# Граф знаний, именование, класс введения
+# Граф знаний (из services/graph/kc_data.py — реальный граф проекта)
 # ===================================================================
 
-KC_GRAPH: dict[str, list[str]] = {
-    "kc_arithmetic": [],
-    "kc_fractions": ["kc_arithmetic"],
-    "kc_decimals": ["kc_arithmetic"],
-    "kc_percentages": ["kc_fractions", "kc_decimals"],
-    "kc_linear_eq": ["kc_arithmetic"],
-    "kc_quadratic_eq": ["kc_linear_eq"],
-    "kc_geometry_basic": [],
-    "kc_area_perimeter": ["kc_geometry_basic"],
-    "kc_angles": ["kc_geometry_basic"],
-    "kc_probability": ["kc_arithmetic"],
-    "kc_statistics": ["kc_probability"],
-}
-
-KC_NAMES: dict[str, str] = {
-    "kc_arithmetic": "Арифметика",
-    "kc_fractions": "Дроби",
-    "kc_decimals": "Десятичные дроби",
-    "kc_percentages": "Проценты",
-    "kc_linear_eq": "Линейные уравнения",
-    "kc_quadratic_eq": "Квадратные уравнения",
-    "kc_geometry_basic": "Основы геометрии",
-    "kc_area_perimeter": "Площадь и периметр",
-    "kc_angles": "Углы",
-    "kc_probability": "Вероятность",
-    "kc_statistics": "Статистика",
-}
-
-KC_SUBJECTS: dict[str, str] = {
-    "kc_arithmetic": "алгебра", "kc_fractions": "алгебра", "kc_decimals": "алгебра",
-    "kc_percentages": "алгебра", "kc_linear_eq": "алгебра", "kc_quadratic_eq": "алгебра",
-    "kc_geometry_basic": "геометрия", "kc_area_perimeter": "геометрия", "kc_angles": "геометрия",
-    "kc_probability": "вероятность", "kc_statistics": "вероятность",
-}
-
-KC_INTRO_GRADE: dict[str, int] = {
-    "kc_arithmetic": 1,
-    "kc_fractions": 3,
-    "kc_decimals": 4,
-    "kc_percentages": 5,
-    "kc_linear_eq": 6,
-    "kc_quadratic_eq": 8,
-    "kc_geometry_basic": 2,
-    "kc_area_perimeter": 4,
-    "kc_angles": 5,
-    "kc_probability": 7,
-    "kc_statistics": 8,
-}
-
-ALL_KCS = sorted(KC_GRAPH.keys())
+ALL_KCS = sorted(ALL_KC_IDS)
 
 STUDENT_TYPES = {
     "Средний": {"growth": 0.07, "p_slip": 0.08, "p_guess": 0.08, "mod": 0.0},
@@ -145,8 +100,12 @@ def init_true_mastery(grade: int, mod: float) -> dict[str, float]:
     return mastery
 
 
+def grade_kcs(grade: int) -> list[str]:
+    return sorted(kc for kc, intro in KC_INTRO_GRADE.items() if intro <= grade)
+
+
 def available_targets(grade: int) -> list[str]:
-    return [kc for kc, intro in KC_INTRO_GRADE.items() if intro <= grade + 1]
+    return sorted(kc for kc, intro in KC_INTRO_GRADE.items() if intro <= grade + 1)
 
 
 def make_task_pool(kc_ids: list[str], n_per_kc: int = 7) -> list[dict]:
@@ -298,22 +257,24 @@ with tab_full:
             p_slip = st_params["p_slip"]
             p_guess = st_params["p_guess"]
             growth = st_params["growth"]
+            sim_kcs = grade_kcs(grade)
 
             # ============================================================
             # ФАЗА 1: Диагностический CAT
             # ============================================================
             st.subheader("Фаза 1: Диагностический тест (CAT)")
             st.markdown(
-                "Система не знает уровень ученика. Она проводит 5-8 коротких заданий, "
+                f"Система не знает уровень ученика ({len(sim_kcs)} тем для {grade} класса). "
+                "Она проводит 5-8 коротких заданий, "
                 "выбирая те, где информация Фишера максимальна (P(correct) ~ 0.5)."
             )
 
-            cat_priors = {kc: 0.50 for kc in ALL_KCS}
+            cat_priors = {kc: 0.50 for kc in sim_kcs}
             cat_state = CATState.from_mastery(cat_priors)
             cat_log: list[dict] = []
 
             while not cat_state.is_complete:
-                kc = select_diagnostic_kc(cat_state, ALL_KCS)
+                kc = select_diagnostic_kc(cat_state, sim_kcs)
                 if kc is None:
                     break
                 kc_tasks = [t for t in TASK_POOL if t["kc_id"] == kc]
@@ -344,7 +305,7 @@ with tab_full:
             # Сравнение: до / после / истинный
             st.markdown("**Результат калибровки:**")
             comp_rows = []
-            for kc in ALL_KCS:
+            for kc in sim_kcs:
                 comp_rows.append({
                     "Тема": KC_NAMES[kc],
                     "Prior": 0.50,
@@ -354,8 +315,8 @@ with tab_full:
                 })
             st.dataframe(pd.DataFrame(comp_rows), use_container_width=True, hide_index=True)
 
-            mae_prior = float(np.mean([abs(0.50 - true_m[kc]) for kc in ALL_KCS]))
-            mae_cat = float(np.mean([abs(vis_m[kc] - true_m[kc]) for kc in ALL_KCS]))
+            mae_prior = float(np.mean([abs(0.50 - true_m[kc]) for kc in sim_kcs]))
+            mae_cat = float(np.mean([abs(vis_m[kc] - true_m[kc]) for kc in sim_kcs]))
             c1, c2, c3 = st.columns(3)
             c1.metric("Заданий в CAT", len(cat_log))
             c2.metric("MAE до CAT", f"{mae_prior:.3f}")
@@ -376,9 +337,9 @@ with tab_full:
             rng_np = np.random.RandomState(42)
             n_peers = 60
             peer_data = np.clip(
-                rng_np.rand(n_peers, len(ALL_KCS)) * 0.8 + 0.1, 0, 1,
+                rng_np.rand(n_peers, len(sim_kcs)) * 0.8 + 0.1, 0, 1,
             ).astype(np.float32)
-            student_vec = np.array([vis_m[kc] for kc in ALL_KCS], dtype=np.float32)
+            student_vec = np.array([vis_m[kc] for kc in sim_kcs], dtype=np.float32)
             full_matrix = np.vstack([peer_data, student_vec.reshape(1, -1)])
             gmm, best_k = _select_n_clusters(full_matrix, max_k=8)
             all_labels = gmm.predict(full_matrix)
@@ -386,7 +347,7 @@ with tab_full:
 
             st.markdown("**Mastery-вектор ученика (после CAT):**")
             vec_df = pd.DataFrame([{
-                KC_NAMES[kc]: round(vis_m[kc], 2) for kc in ALL_KCS
+                KC_NAMES[kc]: round(vis_m[kc], 2) for kc in sim_kcs
             }])
             st.dataframe(vec_df, use_container_width=True, hide_index=True)
 
@@ -452,7 +413,7 @@ with tab_full:
                 cy_nodes = []
                 cy_edges = []
 
-                for kc in ALL_KCS:
+                for kc in sim_kcs:
                     m_val = vis_m.get(kc, 0)
                     in_subgraph = kc in subgraph_kcs
                     if kc == target_kc:
@@ -466,6 +427,8 @@ with tab_full:
                     else:
                         node_type = "outside"
                     plan_order = plan.index(kc) + 1 if kc in plan_set else 0
+                    subj = KC_SUBJECTS.get(kc, "")
+                    subj_ru = SUBJECT_RU.get(subj, subj)
                     cy_nodes.append({
                         "data": {
                             "id": kc,
@@ -475,11 +438,16 @@ with tab_full:
                             "node_type": node_type,
                             "plan_order": plan_order,
                             "in_subgraph": in_subgraph,
+                            "subject": subj_ru,
+                            "grade": KC_INTRO_GRADE.get(kc, 0),
                         }
                     })
 
-                for kc in ALL_KCS:
+                sim_kcs_set = set(sim_kcs)
+                for kc in sim_kcs:
                     for prereq in KC_GRAPH.get(kc, []):
+                        if prereq not in sim_kcs_set:
+                            continue
                         is_plan_edge = prereq in plan_set and kc in plan_set
                         is_subgraph_edge = prereq in subgraph_kcs and kc in subgraph_kcs
                         if is_plan_edge:
@@ -488,11 +456,13 @@ with tab_full:
                             etype = "subgraph"
                         else:
                             etype = "outside"
+                        strength = EDGE_STRENGTHS.get((prereq, kc), 0.5)
                         cy_edges.append({
                             "data": {
                                 "source": prereq,
                                 "target": kc,
                                 "edge_type": etype,
+                                "strength": round(strength, 2),
                             }
                         })
 
@@ -776,6 +746,8 @@ document.addEventListener('DOMContentLoaded', function() {{
     tooltip.innerHTML =
       '<div style="font-weight:600;font-size:14px;margin-bottom:2px;">' +
       d.label + '</div>' +
+      '<div style="font-size:11px;color:#94a3b8;margin-bottom:3px;">' +
+      (d.subject || '') + ' · ' + d.grade + ' класс</div>' +
       '<div style="font-size:12px;margin-bottom:4px;">' +
       (statusMap[d.node_type] || '') + '</div>' +
       '<div style="font-size:12px;">Mastery: <b style="color:' +
@@ -854,8 +826,8 @@ document.addEventListener('DOMContentLoaded', function() {{
                 history: list[dict] = []
                 all_vis_m = dict(vis_m)
                 mastery_snapshots: list[dict] = []
-                consecutive_correct: dict[str, int] = {kc: 0 for kc in ALL_KCS}
-                recent_scores: dict[str, list[float]] = {kc: [] for kc in ALL_KCS}
+                consecutive_correct: dict[str, int] = {kc: 0 for kc in sim_kcs}
+                recent_scores: dict[str, list[float]] = {kc: [] for kc in sim_kcs}
 
                 for step_idx, plan_kc in enumerate(plan):
                     st.markdown(f"---")
@@ -1117,7 +1089,7 @@ with tab_micro:
             irt_mode = st.selectbox("Режим обучения", ["build", "consolidate", "test"], key="irt_mode")
             irt_kc = st.selectbox(
                 "KC для примера",
-                ALL_KCS[:6],
+                ALL_KCS[:8],
                 format_func=lambda x: KC_NAMES[x],
                 key="irt_kc",
             )
@@ -1296,15 +1268,16 @@ with tab_micro:
                     "рядом с текущей оценкой theta."
                 )
             else:
+                cat_kcs = grade_kcs(cat_grade)
                 cat_true_m = init_true_mastery(cat_grade, STUDENT_TYPES[cat_type]["mod"])
                 cat_ps = STUDENT_TYPES[cat_type]["p_slip"]
                 cat_pg = STUDENT_TYPES[cat_type]["p_guess"]
                 cat_rng = random.Random(7)
-                cat_st = CATState.from_mastery({kc: 0.50 for kc in ALL_KCS})
+                cat_st = CATState.from_mastery({kc: 0.50 for kc in cat_kcs})
                 cat_steps_log: list[dict] = []
 
                 while not cat_st.is_complete:
-                    kc = select_diagnostic_kc(cat_st, ALL_KCS)
+                    kc = select_diagnostic_kc(cat_st, cat_kcs)
                     if kc is None:
                         break
                     kc_tasks_cat = [t for t in TASK_POOL if t["kc_id"] == kc]
@@ -1335,18 +1308,18 @@ with tab_micro:
                     use_container_width=True, hide_index=True,
                 )
                 cat_final_m = cat_st.to_mastery()
-                kc_labels = [KC_NAMES[kc] for kc in ALL_KCS]
+                kc_labels = [KC_NAMES[kc] for kc in cat_kcs]
                 fig_cat_comp = go.Figure()
                 fig_cat_comp.add_trace(go.Bar(
-                    x=kc_labels, y=[0.50] * len(ALL_KCS),
+                    x=kc_labels, y=[0.50] * len(cat_kcs),
                     name="Prior (0.50)", marker_color="lightgray",
                 ))
                 fig_cat_comp.add_trace(go.Bar(
-                    x=kc_labels, y=[cat_final_m[kc] for kc in ALL_KCS],
+                    x=kc_labels, y=[cat_final_m[kc] for kc in cat_kcs],
                     name="После CAT", marker_color="#636EFA",
                 ))
                 fig_cat_comp.add_trace(go.Bar(
-                    x=kc_labels, y=[cat_true_m[kc] for kc in ALL_KCS],
+                    x=kc_labels, y=[cat_true_m[kc] for kc in cat_kcs],
                     name="Истинный", marker_color="#00CC96", opacity=0.5,
                 ))
                 fig_cat_comp.update_layout(
