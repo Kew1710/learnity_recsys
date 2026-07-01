@@ -13,10 +13,10 @@
 
 ---
 
-## Демо
-[https://github.com/Kew1710/learnity_recsys/issues/1]
+## DEMO
+<video src="[[https://github.com/Kew1710/learnity_recsys/issues/1#issue-4789813193)](https://github.com/user-attachments/assets/6f01d268-38e1-4681-9c47-596a4f5dcdc7)]" width="100%" controls></video>
 
-> **TODO:** вставь ссылку на видео с демонстрацией app
+> **ONLINE APP:** 
 
  Попробовать демоверсию ОНЛАЙН - [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://learnity-recsys.streamlit.app](https://learnityrecsys-jmlc.streamlit.app/))
 
