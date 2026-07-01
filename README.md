@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/Kew1710/learnity-recsys/actions/workflows/ci.yml/badge.svg)](https://github.com/Kew1710/learnity-recsys/actions)
 ![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue)
-![Tests](https://img.shields.io/badge/tests-256%20passed-brightgreen)
+![Tests](https://img.shields.io/badge/tests-281%20passed-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
@@ -136,9 +136,9 @@ MicroSummary → Diagnostic Layer → Plan Actions
 
 | Метрика | Значение | Описание |
 |---------|----------|----------|
-| Тесты | 256 passed | Unit-тесты на все ML-компоненты |
+| Тесты | 281 passed | Unit + e2e тесты на все компоненты |
 | Сервисы | 7 микросервисов | Полная production-ready архитектура |
-| ML-модели | 5 алгоритмов | BKT, Thompson TS, IRT, GMM+BIC, Diagnostic CAT |
+| ML-модели | 5 алгоритмов | EMA mastery, Thompson TS, IRT, GMM+BIC, Diagnostic CAT |
 | Decision log | 6 полей | Полная трассировка каждого решения |
 | Transitions | JSONB | Offline RL-ready логирование |
 
@@ -156,10 +156,16 @@ python -m tools.offline_eval --kt-only # только Knowledge Tracing
 
 ## Быстрый старт
 
-### Интерактивная демонстрация (без БД)
+### Онлайн-демо
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://learnity-recsys.streamlit.app)
+
+Интерактивная демонстрация работает без установки — все вычисления in-memory.
+
+### Локальный запуск демо (без БД)
 
 ```bash
-pip install streamlit numpy scikit-learn plotly
+pip install -r demo/requirements.txt
 streamlit run demo/app.py
 ```
 
@@ -197,26 +203,27 @@ python -m pytest services/ tools/tests/ -q
 ```
 learnity-recsys/
 ├── services/
-│   ├── profile/          # Mastery tracking (BKT, confidence, behavioral signals)
-│   ├── retrieval/         # Task selection (Thompson Sampling, IRT, CAT)
-│   ├── macro/             # Plan lifecycle (diagnostics, transitions)
+│   ├── profile/          # EMA mastery tracking, confidence, behavioral signals
+│   ├── retrieval/         # Thompson Sampling, IRT pre-filter, Diagnostic CAT
+│   ├── macro/             # Plan lifecycle, MacroStudentProfile, estimators
 │   ├── graph/             # KC graph, ZPD computation
-│   ├── clustering/        # Student clustering (GMM + BIC)
-│   ├── gateway/           # API gateway, Kafka routing
-│   └── task_bank/         # Task storage and retrieval
+│   ├── clustering/        # Student clustering (GMM + BIC, confidence-weighted)
+│   ├── gateway/           # API gateway, Kafka routing, reward computation
+│   ├── task_bank/         # Task storage and retrieval
+│   └── e2e/              # Cross-service integration tests
 ├── shared/
 │   ├── config.py          # Centralized ML config (env var overrides)
 │   ├── db.py              # Database connection
 │   └── schemas.py         # Shared data schemas
-├── migrations/            # Alembic migrations (18 versions)
+├── migrations/            # Alembic migrations (23 versions)
 ├── demo/
-│   └── app.py             # Streamlit interactive demo
+│   └── app.py             # Streamlit interactive demo (5 tabs)
 ├── tools/
 │   ├── offline_eval.py    # Offline evaluation pipeline
-│   ├── simulation.py      # Student simulation
+│   ├── simulation.py      # Student simulation engine
 │   └── ab_eval.py         # A/B test evaluation
 ├── docs/
-│   ├── ml_contract.md     # ML system contract (14 sections)
+│   ├── ml_contract.md     # ML system contract
 │   └── audit_summary.md   # Architecture audit & roadmap
 ├── docker-compose.yml
 ├── Dockerfile
@@ -242,7 +249,8 @@ learnity-recsys/
 - [x] **Пакет 1**: Confidence, behavioral signals, decision log, centralized config
 - [x] **Пакет 2**: IRT pre-filter, learning modes, plan ownership, diagnostics, transitions
 - [x] **Пакет 3**: Thompson Sampling, Diagnostic CAT, GMM+BIC, offline eval
-- [ ] **Пакет 4**: DKT dual-track, offline macro policy, neural bandit evaluation
+- [x] **Audit**: Signal separation, MicroSummary rebuild, IRT fallback, MacroStudentProfile
+- [ ] **Пакет 4**: Learned estimators, offline macro policy, neural bandit evaluation
 
 ---
 

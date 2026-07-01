@@ -36,5 +36,6 @@ jobs:
             services/macro/tests/ \
             services/retrieval/tests/ \
             services/clustering/tests/ \
+            services/e2e/tests/ \
             tools/tests/ \
             -q
