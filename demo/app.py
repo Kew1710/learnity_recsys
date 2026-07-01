@@ -246,6 +246,7 @@ with tab_full:
             key="full_target",
         )
         mastery_threshold = st.slider("Порог mastery", 0.60, 0.95, 0.75, 0.05, key="full_thr")
+        cat_budget = st.slider("Бюджет CAT (заданий)", 8, 40, 20, key="full_cat_budget")
         run_full = st.button("Запустить симуляцию", type="primary", key="full_run")
 
     with col_viz:
@@ -265,16 +266,77 @@ with tab_full:
             st.subheader("Фаза 1: Диагностический тест (CAT)")
             st.markdown(
                 f"Система не знает уровень ученика ({len(sim_kcs)} тем для {grade} класса). "
-                "Она проводит 5-8 коротких заданий, "
-                "выбирая те, где информация Фишера максимальна (P(correct) ~ 0.5)."
+                f"Она проводит до **{cat_budget}** адаптивных заданий, "
+                "выбирая те, где информация Фишера максимальна (P(correct) ~ 0.5). "
+                "После каждого ответа информация распространяется по графу знаний "
+                "на пререквизиты и зависимые темы."
             )
 
             cat_priors = {kc: 0.50 for kc in sim_kcs}
             cat_state = CATState.from_mastery(cat_priors)
             cat_log: list[dict] = []
 
-            while not cat_state.is_complete:
-                kc = select_diagnostic_kc(cat_state, sim_kcs)
+            # Обратный граф: kc -> list of dependents
+            _dependents: dict[str, list[str]] = {kc: [] for kc in sim_kcs}
+            for kc in sim_kcs:
+                for prereq in KC_GRAPH.get(kc, []):
+                    if prereq in _dependents:
+                        _dependents[prereq].append(kc)
+
+            def _propagate_cat(state: CATState, tested_kc: str, score: float) -> None:
+                """Транзитивная пропагация по графу после ответа."""
+                tested_theta = state.kc_theta[tested_kc]
+                if score >= 0.5:
+                    # Ученик справился -> пререквизиты скорее всего освоены.
+                    # BFS назад по графу: theta пререквизита >= theta протестированного * decay
+                    queue = [(p, 0.85) for p in KC_GRAPH.get(tested_kc, []) if p in state.kc_theta]
+                    visited = {tested_kc}
+                    while queue:
+                        kc, decay = queue.pop(0)
+                        if kc in visited:
+                            continue
+                        visited.add(kc)
+                        floor = tested_theta * decay
+                        if state.kc_theta[kc] < floor:
+                            state.kc_theta[kc] = floor
+                        for p in KC_GRAPH.get(kc, []):
+                            if p in state.kc_theta and p not in visited:
+                                queue.append((p, decay * 0.8))
+                else:
+                    # Ученик не справился -> зависимые темы, вероятно, тоже слабы.
+                    queue = [(d, 0.8) for d in _dependents.get(tested_kc, []) if d in state.kc_theta]
+                    visited = {tested_kc}
+                    while queue:
+                        kc, decay = queue.pop(0)
+                        if kc in visited:
+                            continue
+                        visited.add(kc)
+                        ceiling = tested_theta * decay
+                        if state.kc_theta[kc] > ceiling:
+                            state.kc_theta[kc] = ceiling
+                        for d in _dependents.get(kc, []):
+                            if d in state.kc_theta and d not in visited:
+                                queue.append((d, decay * 0.8))
+
+            # Ранжируем KCs: сначала хаб-ноды (макс. связей), потом наименее протестированные
+            _kc_connectivity = {}
+            for kc in sim_kcs:
+                n_conn = len(KC_GRAPH.get(kc, [])) + len(_dependents.get(kc, []))
+                _kc_connectivity[kc] = n_conn
+
+            def _select_cat_kc(state: CATState) -> str | None:
+                candidates = [kc for kc in sim_kcs if kc in state.kc_theta]
+                if not candidates:
+                    return None
+                return min(candidates, key=lambda kc: (
+                    state.kc_n.get(kc, 0),
+                    -_kc_connectivity.get(kc, 0),
+                    abs(state.kc_theta.get(kc, 0.0)),
+                ))
+
+            tasks_done_cat = 0
+            while tasks_done_cat < cat_budget:
+                kc = _select_cat_kc(cat_state)
                 if kc is None:
                     break
                 kc_tasks = [t for t in TASK_POOL if t["kc_id"] == kc]
@@ -284,7 +346,14 @@ with tab_full:
                 irt_diff = task["parts"][0]["irt_difficulty"]
                 score = simulate_answer(true_m[kc], irt_diff, p_slip, p_guess, rng)
                 mastery_before = 1.0 / (1.0 + math.exp(-cat_state.kc_theta[kc]))
-                update_cat_state(cat_state, kc, score, irt_diff)
+                # Усиленный CAT-update: lr=2/(1+n) вместо 1/(1+n) для более агрессивной калибровки
+                n_prev = cat_state.kc_n.get(kc, 0)
+                p_c = 1.0 / (1.0 + math.exp(-(cat_state.kc_theta[kc] - irt_diff)))
+                cat_lr = 2.0 / (1.0 + n_prev)
+                cat_state.kc_theta[kc] += cat_lr * (score - p_c)
+                cat_state.kc_n[kc] = n_prev + 1
+                cat_state.tasks_used += 1
+                _propagate_cat(cat_state, kc, score)
                 mastery_after = 1.0 / (1.0 + math.exp(-cat_state.kc_theta[kc]))
                 cat_log.append({
                     "N": len(cat_log) + 1,
@@ -295,6 +364,7 @@ with tab_full:
                     "Mastery после": f"{mastery_after:.2f}",
                     "Истинный": f"{true_m[kc]:.2f}",
                 })
+                tasks_done_cat += 1
 
             vis_m = cat_state.to_mastery()
 
