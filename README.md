@@ -14,14 +14,11 @@
 ---
 
 ## Демо
-
-<!-- Замени на своё видео: -->
-<!-- YouTube: [![Demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID) -->
-<!-- mp4 (GitHub): перетащи видео в issue → скопируй ссылку сюда -->
+[https://github.com/Kew1710/learnity_recsys/issues/1]
 
 > **TODO:** вставь ссылку на видео с демонстрацией app
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://learnity-recsys.streamlit.app)
+ Попробовать демоверсию ОНЛАЙН - [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://learnity-recsys.streamlit.app](https://learnityrecsys-jmlc.streamlit.app/))
 
 Интерактивное демо работает полностью в браузере — все вычисления in-memory, сервисы и БД не нужны. Четыре вкладки показывают разные уровни системы:
 
@@ -325,6 +322,6 @@ learnity-recsys/
 
 ## Автор
 
-**Александр Григорьев** · [alex.grig04.2@gmail.com](mailto:alex.grig04.2@gmail.com)
+**Григорьев Алексей** · [alekesiproff@gmail.com@](mailto:alekseiproff@gmail.com)
 
 Junior ML Contest 2026, ИТМО · Номинация «AI в образовании»
