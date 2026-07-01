@@ -431,8 +431,9 @@ with tab_full:
                     f"(mastery {vis_m.get(target_kc, 0):.2f} -> {mastery_threshold})"
                 )
 
-                # -- Интерактивный граф пререквизитов (cytoscape.js) --
+                # -- Полный граф знаний с выделенным маршрутом (cytoscape.js) --
                 import json as _json
+                import streamlit.components.v1 as components
 
                 def _collect_subgraph(target: str) -> set[str]:
                     nodes: set[str] = set()
@@ -448,24 +449,22 @@ with tab_full:
                 subgraph_kcs = _collect_subgraph(target_kc)
                 plan_set = set(plan)
 
-                def _mastery_color(m: float) -> str:
-                    r = int(220 - 180 * m)
-                    g = int(60 + 160 * m)
-                    b = int(60 + 40 * m)
-                    return f"rgb({r},{g},{b})"
-
                 cy_nodes = []
                 cy_edges = []
-                for kc in subgraph_kcs:
+
+                for kc in ALL_KCS:
                     m_val = vis_m.get(kc, 0)
+                    in_subgraph = kc in subgraph_kcs
                     if kc == target_kc:
                         node_type = "target"
                     elif kc in plan_set:
                         node_type = "plan"
-                    elif m_val >= mastery_threshold:
+                    elif in_subgraph and m_val >= mastery_threshold:
                         node_type = "mastered"
+                    elif in_subgraph:
+                        node_type = "subgraph"
                     else:
-                        node_type = "default"
+                        node_type = "outside"
                     plan_order = plan.index(kc) + 1 if kc in plan_set else 0
                     cy_nodes.append({
                         "data": {
@@ -474,210 +473,322 @@ with tab_full:
                             "mastery": round(m_val, 2),
                             "mastery_pct": f"{m_val:.0%}",
                             "node_type": node_type,
-                            "bg_color": _mastery_color(m_val),
                             "plan_order": plan_order,
+                            "in_subgraph": in_subgraph,
                         }
                     })
 
-                for kc in subgraph_kcs:
+                for kc in ALL_KCS:
                     for prereq in KC_GRAPH.get(kc, []):
-                        if prereq in subgraph_kcs:
-                            is_plan = prereq in plan_set and kc in plan_set
-                            cy_edges.append({
-                                "data": {
-                                    "source": prereq,
-                                    "target": kc,
-                                    "edge_type": "plan" if is_plan else "default",
-                                }
-                            })
+                        is_plan_edge = prereq in plan_set and kc in plan_set
+                        is_subgraph_edge = prereq in subgraph_kcs and kc in subgraph_kcs
+                        if is_plan_edge:
+                            etype = "plan"
+                        elif is_subgraph_edge:
+                            etype = "subgraph"
+                        else:
+                            etype = "outside"
+                        cy_edges.append({
+                            "data": {
+                                "source": prereq,
+                                "target": kc,
+                                "edge_type": etype,
+                            }
+                        })
 
                 cy_elements = _json.dumps(cy_nodes + cy_edges)
                 plan_ids = _json.dumps(plan)
 
                 cy_html = f"""
-<div id="cy-graph" style="width:100%;height:480px;border-radius:12px;
-     background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);
-     position:relative;overflow:hidden;">
+<div style="position:relative;">
+<div id="cy-graph" style="width:100%;height:520px;border-radius:14px;
+     background:#0e1117;position:relative;overflow:hidden;
+     border:1px solid rgba(255,255,255,0.06);">
 </div>
 <div id="cy-tooltip" style="position:absolute;display:none;padding:10px 14px;
-     background:rgba(15,15,30,0.95);color:#e2e8f0;border-radius:8px;
+     background:rgba(14,17,23,0.96);color:#e2e8f0;border-radius:10px;
      font-size:13px;pointer-events:none;z-index:100;
-     border:1px solid rgba(124,58,237,0.4);
-     box-shadow:0 4px 20px rgba(0,0,0,0.4);
-     backdrop-filter:blur(8px);"></div>
-<div style="display:flex;gap:20px;margin-top:10px;padding:8px 4px;
-     font-size:13px;color:#a0aec0;flex-wrap:wrap;">
-  <span><span style="display:inline-block;width:14px;height:14px;
-    border-radius:50%;background:linear-gradient(135deg,#9b59b6,#8e44ad);
-    vertical-align:middle;margin-right:5px;
-    box-shadow:0 0 8px rgba(155,89,182,0.5);"></span> Целевая тема</span>
-  <span><span style="display:inline-block;width:14px;height:14px;
-    border-radius:50%;border:2.5px solid #e74c3c;background:transparent;
-    vertical-align:middle;margin-right:5px;"></span> В плане</span>
-  <span><span style="display:inline-block;width:14px;height:14px;
-    border-radius:50%;background:#2ecc71;
-    vertical-align:middle;margin-right:5px;"></span> Освоено</span>
-  <span><span style="display:inline-block;width:14px;height:14px;
-    border-radius:50%;background:#4a5568;
-    vertical-align:middle;margin-right:5px;"></span> Вне плана</span>
-  <span style="margin-left:auto;opacity:0.6;">
-    Цвет заливки = уровень mastery (красный -> зелёный)</span>
+     border:1px solid rgba(99,102,241,0.35);
+     box-shadow:0 8px 30px rgba(0,0,0,0.5);
+     backdrop-filter:blur(12px);max-width:220px;"></div>
+</div>
+
+<div style="display:flex;gap:18px;margin-top:8px;padding:6px 2px;
+     font-size:12.5px;color:#94a3b8;flex-wrap:wrap;align-items:center;">
+  <span style="display:flex;align-items:center;gap:5px;">
+    <span style="width:16px;height:16px;border-radius:4px;
+      background:linear-gradient(135deg,#818cf8,#6366f1);
+      box-shadow:0 0 10px rgba(99,102,241,0.5);"></span>
+    Целевая тема</span>
+  <span style="display:flex;align-items:center;gap:5px;">
+    <span style="width:16px;height:16px;border-radius:4px;
+      border:2px solid #f59e0b;background:rgba(245,158,11,0.15);"></span>
+    Маршрут обучения</span>
+  <span style="display:flex;align-items:center;gap:5px;">
+    <span style="width:16px;height:16px;border-radius:4px;
+      background:#10b981;"></span>
+    Освоено</span>
+  <span style="display:flex;align-items:center;gap:5px;">
+    <span style="width:16px;height:16px;border-radius:4px;
+      background:#334155;border:1px solid #475569;"></span>
+    Пререквизит (в подграфе)</span>
+  <span style="display:flex;align-items:center;gap:5px;">
+    <span style="width:16px;height:16px;border-radius:4px;
+      background:#1e293b;border:1px solid #334155;"></span>
+    Вне подграфа</span>
 </div>
 
 <script src="https://unpkg.com/cytoscape@3.30.4/dist/cytoscape.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {{
+
+  function masteryColor(m) {{
+    if (m >= 0.75) return '#10b981';
+    if (m >= 0.50) return '#3b82f6';
+    if (m >= 0.30) return '#f59e0b';
+    return '#ef4444';
+  }}
+
+  var elements = {cy_elements};
+  elements.forEach(function(el) {{
+    if (el.data && el.data.mastery !== undefined) {{
+      el.data._bg = masteryColor(el.data.mastery);
+    }}
+  }});
+
   var cy = cytoscape({{
     container: document.getElementById('cy-graph'),
-    elements: {cy_elements},
+    elements: elements,
     style: [
+      /* --- outside nodes: dim --- */
       {{
-        selector: 'node',
+        selector: 'node[node_type="outside"]',
+        style: {{
+          'label': 'data(label)',
+          'text-valign': 'center',
+          'text-halign': 'center',
+          'font-size': '9px',
+          'font-family': "'Inter',system-ui,sans-serif",
+          'color': '#64748b',
+          'text-wrap': 'wrap',
+          'text-max-width': '80px',
+          'background-color': '#1e293b',
+          'width': 52, 'height': 52,
+          'shape': 'round-rectangle',
+          'border-width': 1,
+          'border-color': '#334155',
+          'opacity': 0.5,
+        }}
+      }},
+      /* --- subgraph nodes (mastered prereqs) --- */
+      {{
+        selector: 'node[node_type="mastered"]',
+        style: {{
+          'label': 'data(label)',
+          'text-valign': 'center',
+          'text-halign': 'center',
+          'font-size': '10.5px',
+          'font-family': "'Inter',system-ui,sans-serif",
+          'font-weight': '500',
+          'color': '#f0fdf4',
+          'text-wrap': 'wrap',
+          'text-max-width': '85px',
+          'background-color': '#10b981',
+          'width': 66, 'height': 66,
+          'shape': 'round-rectangle',
+          'border-width': 2,
+          'border-color': '#34d399',
+          'text-outline-width': 0,
+        }}
+      }},
+      /* --- subgraph nodes (not mastered, not in plan) --- */
+      {{
+        selector: 'node[node_type="subgraph"]',
+        style: {{
+          'label': 'data(label)',
+          'text-valign': 'center',
+          'text-halign': 'center',
+          'font-size': '10.5px',
+          'font-family': "'Inter',system-ui,sans-serif",
+          'font-weight': '500',
+          'color': '#e2e8f0',
+          'text-wrap': 'wrap',
+          'text-max-width': '85px',
+          'background-color': '#334155',
+          'width': 66, 'height': 66,
+          'shape': 'round-rectangle',
+          'border-width': 2,
+          'border-color': '#64748b',
+        }}
+      }},
+      /* --- plan nodes: bright amber --- */
+      {{
+        selector: 'node[node_type="plan"]',
         style: {{
           'label': 'data(label)',
           'text-valign': 'center',
           'text-halign': 'center',
           'font-size': '11px',
-          'font-family': "'Inter','Segoe UI',system-ui,sans-serif",
-          'font-weight': '500',
-          'color': '#fff',
+          'font-family': "'Inter',system-ui,sans-serif",
+          'font-weight': '600',
+          'color': '#fffbeb',
           'text-wrap': 'wrap',
           'text-max-width': '90px',
-          'background-color': 'data(bg_color)',
-          'width': '70',
-          'height': '70',
+          'background-color': 'data(_bg)',
+          'width': 74, 'height': 74,
           'shape': 'round-rectangle',
-          'corner-radius': '12',
-          'border-width': '2',
-          'border-color': '#2d3748',
-          'text-outline-width': '0',
-          'text-background-color': 'rgba(0,0,0,0.5)',
-          'text-background-opacity': 0.6,
-          'text-background-padding': '3px',
-          'text-background-shape': 'roundrectangle',
-          'transition-property': 'border-color border-width shadow-blur shadow-color',
-          'transition-duration': '0.3s',
-        }}
-      }},
-      {{
-        selector: 'node[node_type="target"]',
-        style: {{
-          'border-width': '4',
-          'border-color': '#9b59b6',
-          'width': '85',
-          'height': '85',
-          'font-size': '12px',
-          'font-weight': '700',
-          'shadow-blur': '20',
-          'shadow-color': 'rgba(155,89,182,0.6)',
+          'border-width': 3,
+          'border-color': '#f59e0b',
+          'shadow-blur': 12,
+          'shadow-color': 'rgba(245,158,11,0.35)',
           'shadow-opacity': 1,
         }}
       }},
+      /* --- target node: indigo glow --- */
       {{
-        selector: 'node[node_type="plan"]',
+        selector: 'node[node_type="target"]',
         style: {{
-          'border-width': '3',
-          'border-color': '#e74c3c',
-          'width': '75',
-          'height': '75',
+          'label': 'data(label)',
+          'text-valign': 'center',
+          'text-halign': 'center',
+          'font-size': '12px',
+          'font-family': "'Inter',system-ui,sans-serif",
+          'font-weight': '700',
+          'color': '#eef2ff',
+          'text-wrap': 'wrap',
+          'text-max-width': '95px',
+          'background-color': '#6366f1',
+          'width': 88, 'height': 88,
+          'shape': 'round-rectangle',
+          'border-width': 3,
+          'border-color': '#818cf8',
+          'shadow-blur': 24,
+          'shadow-color': 'rgba(99,102,241,0.55)',
+          'shadow-opacity': 1,
         }}
       }},
+      /* --- outside edges --- */
       {{
-        selector: 'node[node_type="mastered"]',
+        selector: 'edge[edge_type="outside"]',
         style: {{
-          'border-width': '2',
-          'border-color': '#2ecc71',
-        }}
-      }},
-      {{
-        selector: 'edge',
-        style: {{
-          'width': 1.5,
-          'line-color': 'rgba(100,116,139,0.4)',
-          'target-arrow-color': 'rgba(100,116,139,0.4)',
+          'width': 1,
+          'line-color': 'rgba(71,85,105,0.25)',
+          'target-arrow-color': 'rgba(71,85,105,0.25)',
           'target-arrow-shape': 'triangle',
           'curve-style': 'bezier',
-          'arrow-scale': 0.8,
+          'arrow-scale': 0.7,
         }}
       }},
+      /* --- subgraph edges --- */
+      {{
+        selector: 'edge[edge_type="subgraph"]',
+        style: {{
+          'width': 1.8,
+          'line-color': 'rgba(148,163,184,0.35)',
+          'target-arrow-color': 'rgba(148,163,184,0.45)',
+          'target-arrow-shape': 'triangle',
+          'curve-style': 'bezier',
+          'arrow-scale': 0.9,
+        }}
+      }},
+      /* --- plan edges: bright amber path --- */
       {{
         selector: 'edge[edge_type="plan"]',
         style: {{
           'width': 3.5,
-          'line-color': '#e74c3c',
-          'target-arrow-color': '#e74c3c',
-          'target-arrow-shape': 'triangle-backcurve',
-          'arrow-scale': 1.2,
-          'line-style': 'solid',
-          'shadow-blur': '6',
-          'shadow-color': 'rgba(231,76,60,0.4)',
+          'line-color': '#f59e0b',
+          'target-arrow-color': '#f59e0b',
+          'target-arrow-shape': 'triangle',
+          'curve-style': 'bezier',
+          'arrow-scale': 1.3,
+          'shadow-blur': 8,
+          'shadow-color': 'rgba(245,158,11,0.4)',
           'shadow-opacity': 1,
         }}
       }},
+      /* --- animation classes --- */
       {{
-        selector: '.highlighted',
+        selector: '.anim-pulse',
         style: {{
-          'border-color': '#f39c12',
-          'border-width': '4',
-          'shadow-blur': '25',
-          'shadow-color': 'rgba(243,156,18,0.7)',
+          'border-color': '#fbbf24',
+          'border-width': 4,
+          'shadow-blur': 30,
+          'shadow-color': 'rgba(251,191,36,0.7)',
           'shadow-opacity': 1,
-          'z-index': 10,
+          'z-index': 20,
         }}
       }},
       {{
-        selector: '.highlighted-edge',
+        selector: '.anim-edge',
         style: {{
-          'line-color': '#f39c12',
-          'target-arrow-color': '#f39c12',
-          'width': 4.5,
-          'shadow-blur': '10',
-          'shadow-color': 'rgba(243,156,18,0.5)',
+          'line-color': '#fbbf24',
+          'target-arrow-color': '#fbbf24',
+          'width': 5,
+          'shadow-blur': 14,
+          'shadow-color': 'rgba(251,191,36,0.6)',
           'shadow-opacity': 1,
-          'z-index': 10,
+          'z-index': 20,
         }}
       }},
     ],
     layout: {{
       name: 'breadthfirst',
       directed: true,
-      spacingFactor: 1.4,
+      spacingFactor: 1.3,
       avoidOverlap: true,
-      padding: 40,
+      padding: 35,
+      roots: elements
+        .filter(function(e) {{ return e.data && !e.data.source; }})
+        .filter(function(e) {{
+          var id = e.data.id;
+          var isTarget = elements.some(function(edge) {{
+            return edge.data && edge.data.target === id;
+          }});
+          return !isTarget;
+        }})
+        .map(function(e) {{ return e.data.id; }}),
     }},
     userZoomingEnabled: true,
     userPanningEnabled: true,
     boxSelectionEnabled: false,
-    minZoom: 0.5,
-    maxZoom: 2.0,
+    minZoom: 0.4,
+    maxZoom: 2.5,
   }});
 
-  // Tooltip
+  /* ---- Tooltip ---- */
   var tooltip = document.getElementById('cy-tooltip');
-  var graphContainer = document.getElementById('cy-graph');
+  var container = document.getElementById('cy-graph');
 
   cy.on('mouseover', 'node', function(e) {{
-    var node = e.target;
-    var d = node.data();
+    var d = e.target.data();
     var statusMap = {{
-      target: 'Целевая тема',
-      plan: 'В плане (шаг ' + d.plan_order + ')',
-      mastered: 'Освоено',
-      default: 'Вне плана'
+      target: '<span style="color:#818cf8">Целевая тема</span>',
+      plan: '<span style="color:#fbbf24">В плане (шаг ' + d.plan_order + ')</span>',
+      mastered: '<span style="color:#34d399">Освоено</span>',
+      subgraph: 'В подграфе',
+      outside: '<span style="opacity:0.6">Вне подграфа</span>'
     }};
+    var mColor = masteryColor(d.mastery);
+    var bar = '<div style="margin:6px 0 4px;height:6px;border-radius:3px;' +
+      'background:#1e293b;overflow:hidden;">' +
+      '<div style="width:' + (d.mastery * 100) + '%;height:100%;border-radius:3px;' +
+      'background:' + mColor + ';"></div></div>';
     tooltip.innerHTML =
-      '<div style="font-weight:600;font-size:14px;margin-bottom:4px;">' + d.label + '</div>' +
-      '<div style="margin-bottom:3px;">Mastery: <b style="color:' + d.bg_color + '">' + d.mastery_pct + '</b></div>' +
-      '<div>Статус: ' + (statusMap[d.node_type] || d.node_type) + '</div>';
+      '<div style="font-weight:600;font-size:14px;margin-bottom:2px;">' +
+      d.label + '</div>' +
+      '<div style="font-size:12px;margin-bottom:4px;">' +
+      (statusMap[d.node_type] || '') + '</div>' +
+      '<div style="font-size:12px;">Mastery: <b style="color:' +
+      mColor + '">' + d.mastery_pct + '</b></div>' + bar;
     tooltip.style.display = 'block';
-    node.style('cursor', 'pointer');
   }});
 
   cy.on('mousemove', 'node', function(e) {{
-    var rect = graphContainer.getBoundingClientRect();
+    var rect = container.getBoundingClientRect();
     var x = e.originalEvent.clientX - rect.left + 15;
     var y = e.originalEvent.clientY - rect.top - 10;
-    if (x + 200 > rect.width) x = x - 220;
+    if (x + 230 > rect.width) x = x - 245;
+    if (y + 120 > rect.height) y = y - 100;
     tooltip.style.left = x + 'px';
     tooltip.style.top = y + 'px';
   }});
@@ -686,31 +797,28 @@ document.addEventListener('DOMContentLoaded', function() {{
     tooltip.style.display = 'none';
   }});
 
-  // Анимация маршрута
+  /* ---- Animate plan path step by step ---- */
   var planIds = {plan_ids};
-  var step = 0;
-  function animateStep() {{
-    if (step >= planIds.length) return;
-    var nodeId = planIds[step];
-    var node = cy.getElementById(nodeId);
-    node.addClass('highlighted');
-    if (step > 0) {{
-      var prevId = planIds[step - 1];
-      cy.edges().forEach(function(edge) {{
-        if (edge.data('source') === prevId && edge.data('target') === nodeId) {{
-          edge.addClass('highlighted-edge');
-        }}
+  var animStep = 0;
+  function nextStep() {{
+    if (animStep >= planIds.length) return;
+    var nid = planIds[animStep];
+    cy.getElementById(nid).addClass('anim-pulse');
+    if (animStep > 0) {{
+      var prev = planIds[animStep - 1];
+      cy.edges().forEach(function(e) {{
+        if (e.data('source') === prev && e.data('target') === nid)
+          e.addClass('anim-edge');
       }});
     }}
-    step++;
-    if (step < planIds.length) setTimeout(animateStep, 600);
+    animStep++;
+    if (animStep < planIds.length) setTimeout(nextStep, 700);
   }}
-  setTimeout(animateStep, 800);
+  setTimeout(nextStep, 900);
 }});
 </script>
 """
-                import streamlit.components.v1 as components
-                components.html(cy_html, height=540)
+                components.html(cy_html, height=580)
 
                 path_str = " -> ".join(KC_NAMES[kc] for kc in plan)
                 st.markdown(f"**Порядок прохождения:** {path_str}")
