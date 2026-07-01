@@ -32,6 +32,9 @@ logger = logging.getLogger(__name__)
 
 from shared.db import AsyncSessionLocal
 from . import kafka_producer as macro_kafka
+from .outcomes import log_macro_step_outcome
+from .profile_builder import refresh_macro_profile
+from .student_profile import get_macro_student_profile
 
 # Порог: если avg_score ниже этого — переключить на consolidate
 FRUSTRATION_AVG_THRESHOLD = 0.45
@@ -299,6 +302,23 @@ async def advance_step(student_id: uuid.UUID) -> bool:
     Возвращает True если следующий шаг найден, False если план завершён.
     """
     async with AsyncSessionLocal() as db:
+        current_step = (await db.execute(
+            sa.text("""
+                SELECT ps.id, ps.plan_id, ps.kc_id, ps.tasks_budget, ps.tasks_spent, ps.difficulty_mode
+                FROM plan_steps ps
+                JOIN learning_plans lp ON lp.id = ps.plan_id
+                WHERE lp.student_id = :student_id
+                  AND ps.status = 'in_progress'
+                  AND lp.id = (
+                      SELECT id FROM learning_plans
+                      WHERE student_id = :student_id
+                      ORDER BY created_at DESC LIMIT 1
+                  )
+                LIMIT 1
+            """),
+            {"student_id": student_id},
+        )).fetchone()
+
         # Завершаем текущий шаг
         await db.execute(
             sa.text("""
@@ -334,6 +354,29 @@ async def advance_step(student_id: uuid.UUID) -> bool:
         )).fetchone()
 
         await db.commit()
+
+    try:
+        await refresh_macro_profile(student_id)
+    except Exception:
+        logger.exception("Failed to refresh macro profile after advance_step for student=%s", student_id)
+
+    if current_step:
+        try:
+            profile = await get_macro_student_profile(student_id)
+            await log_macro_step_outcome(
+                student_id=student_id,
+                plan_id=current_step[1],
+                plan_step_id=current_step[0],
+                kc_id=current_step[2],
+                outcome_type="completed",
+                tasks_budget=current_step[3],
+                tasks_spent=current_step[4],
+                difficulty_mode=current_step[5],
+                reason="step completed via advance_step",
+                profile=profile,
+            )
+        except Exception:
+            logger.exception("Failed to log completed step outcome for student=%s", student_id)
 
     return next_row is not None
 

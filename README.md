@@ -21,7 +21,7 @@
 
 Learnity RecSys — ML-система, которая в реальном времени подбирает оптимальное задание для каждого ученика, опираясь на:
 
-- **Текущий уровень знаний** (Bayesian Knowledge Tracing)
+- **Текущий уровень знаний** (EMA-based mastery tracking)
 - **Зону ближайшего развития** (ZPD-фильтрация по графу пререквизитов)
 - **Контекстный многорукий бандит** (Thompson Sampling для выбора задания)
 - **Диагностику причин неуспеха** (prereq_gap / content_gap / uncertain_estimate / regression)
@@ -64,7 +64,7 @@ Learnity RecSys — ML-система, которая в реальном вре
 
 | Сервис | Назначение | Ключевые алгоритмы |
 |--------|-----------|-------------------|
-| **Profile** | Состояние ученика, mastery, поведенческие сигналы | BKT smooth_update, confidence, guessing/hint detection |
+| **Profile** | Состояние ученика, mastery, поведенческие сигналы | EMA smooth_update, confidence, guessing/hint detection |
 | **Retrieval** | Выбор следующего задания | Thompson Sampling, IRT pre-filter, Diagnostic CAT |
 | **Macro** | Управление учебным планом | Plan lifecycle, MicroSummary, Diagnostic reason layer |
 | **Graph** | Граф знаний (KC), пререквизиты | ZPD computation, prerequisite traversal |
@@ -76,7 +76,7 @@ Learnity RecSys — ML-система, которая в реальном вре
 
 ## ML Pipeline
 
-### 1. Knowledge Tracing (оценка знаний)
+### 1. Mastery Tracking (оценка знаний)
 
 ```
 Ответ ученика → smooth_update (EMA + streak bonus + surprise bonus)

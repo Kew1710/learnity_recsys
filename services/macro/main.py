@@ -13,9 +13,11 @@ from pydantic import BaseModel
 from shared.db import AsyncSessionLocal
 from . import clients
 from .prereq_extractor import extract_prereq_subgraph
-from .tasks_estimator import estimate as estimate_tasks
 from .policy_mode1 import train_policy, policy_path, save_policy, load_policy, SubgraphQAgent
 from .policy_mode2 import rank_coverage_kcs
+from .estimators import estimate_tasks_to_mastery, estimate_stall_risk
+from .profile_builder import build_initial_macro_profile, refresh_macro_profile
+from .student_profile import get_macro_student_profile, MacroStudentProfile
 from .plan_lifecycle import (
     PlanStep,
     create_plan,
@@ -99,7 +101,11 @@ async def create_new_plan(req: PlanRequest):
 
     async with httpx.AsyncClient(trust_env=False) as http:
         try:
-            mastery = await clients.get_student_mastery(http, req.student_id)
+            detailed_mastery = await clients.get_student_mastery_detailed(http, req.student_id)
+            mastery = {
+                kc_id: details["probability_effective"]
+                for kc_id, details in detailed_mastery.items()
+            }
             student_grade = await clients.get_student_grade(http, req.student_id)
         except httpx.HTTPStatusError as e:
             if e.response.status_code == 404:
@@ -120,8 +126,13 @@ async def create_new_plan(req: PlanRequest):
                 )
 
         if req.mode == "target_mastery":
+            profile = await get_macro_student_profile(req.student_id)
+            if profile is None:
+                profile = await build_initial_macro_profile(req.student_id, req.target_kc_id)
+            elif profile.target_kc_id != req.target_kc_id:
+                profile = await refresh_macro_profile(req.student_id, req.target_kc_id)
             steps = await _build_mode1_plan(
-                http, req, mastery, student_grade
+                http, req, mastery, detailed_mastery, student_grade, profile
             )
         elif req.mode == "coverage":
             steps = await _build_mode2_plan(http, req, mastery)
@@ -238,7 +249,9 @@ async def _build_mode1_plan(
     http: httpx.AsyncClient,
     req: PlanRequest,
     mastery: dict[str, float],
+    detailed_mastery: dict[str, dict],
     student_grade: int,
+    profile: MacroStudentProfile,
 ) -> list[PlanStep]:
     """Строит шаги плана для Режима 1 через SubgraphQAgent."""
     # 1. Получить граф пре-реквизитов
@@ -271,6 +284,14 @@ async def _build_mode1_plan(
         return []
 
     # 2. Загрузить или обучить политику
+    profile_features = {
+        "mean_confidence": profile.mastery_confidence_mean,
+        "weak_prereq_fraction": profile.weak_prereq_fraction,
+        "learning_speed_recent": profile.learning_speed_recent,
+        "stall_risk_baseline": profile.stall_risk_baseline,
+        "pacing_mode": profile.pacing_mode,
+    }
+
     p_path = policy_path(req.cluster_id or 0, req.target_kc_id)
     try:
         agent = load_policy(p_path)
@@ -281,6 +302,7 @@ async def _build_mode1_plan(
             initial_mastery=mastery,
             target_mastery=req.mastery_threshold,
             n_episodes=req.n_train_episodes,
+            profile_features=profile_features,
         )
         try:
             save_policy(agent, p_path)
@@ -293,16 +315,29 @@ async def _build_mode1_plan(
     except Exception:
         kc_grade_map = {}
 
-    return _rollout_plan(agent, subgraph, mastery, req, student_grade, kc_grade_map)
+    return _rollout_plan(
+        agent,
+        subgraph,
+        mastery,
+        detailed_mastery,
+        req,
+        student_grade,
+        kc_grade_map,
+        profile,
+        profile_features,
+    )
 
 
 def _rollout_plan(
     agent: SubgraphQAgent,
     subgraph: dict,
     mastery: dict[str, float],
+    detailed_mastery: dict[str, dict],
     req: PlanRequest,
     student_grade: int,
     kc_grade_map: dict[str, int],
+    profile: MacroStudentProfile,
+    profile_features: dict,
 ) -> list[PlanStep]:
     """
     Генерирует упорядоченный список KC по жадной политике (epsilon=0).
@@ -325,6 +360,8 @@ def _rollout_plan(
     target_needs_work = req.target_kc_id in needs_work
 
     priority = 1.0
+    edge_map = _build_prereq_edge_map(subgraph)
+    depth_map = _build_graph_depth_map(subgraph, req.target_kc_id)
 
     # 1. Развернуть пре-реквизиты через политику
     max_steps = len(prereqs_pool) + 1
@@ -332,21 +369,35 @@ def _rollout_plan(
         remaining = [a for a in prereqs_pool if a not in seen]
         if not remaining:
             break
-        kc_id = agent.select_action(current_mastery, remaining, epsilon=0.0)
+        kc_id = agent.select_action(current_mastery, remaining, epsilon=0.0, profile_features=profile_features)
         seen.add(kc_id)
 
-        tasks_budget = estimate_tasks(
-            m_current=current_mastery.get(kc_id, 0.0),
-            m_target=req.mastery_threshold,
-            cluster_avg=None,
-            n_practiced_in_subject=0,
+        weak_prereq_fraction = _weak_prereq_fraction_for_kc(edge_map, kc_id, mastery)
+        confidence = detailed_mastery.get(kc_id, {}).get("confidence", profile.mastery_confidence_mean)
+        tasks_budget = estimate_tasks_to_mastery(
+            profile=profile,
+            kc_id=kc_id,
+            current_mastery=current_mastery.get(kc_id, 0.0),
+            target_mastery=req.mastery_threshold,
+            weak_prereq_fraction=weak_prereq_fraction,
+            confidence=confidence,
             n_sims=100,
+        )
+        stall_risk = estimate_stall_risk(
+            profile=profile,
+            kc_id=kc_id,
+            weak_prereq_fraction=weak_prereq_fraction,
+            confidence=confidence,
+            graph_depth=depth_map.get(kc_id, 0),
         )
         steps.append(PlanStep(
             kc_id=kc_id,
             difficulty_mode="build",
             tasks_budget=tasks_budget,
-            reason=f"prereq rollout, mastery={current_mastery.get(kc_id, 0.0):.2f}",
+            reason=(
+                f"prereq rollout, mastery={current_mastery.get(kc_id, 0.0):.2f}, "
+                f"stall_risk={stall_risk:.2f}, pacing={profile.pacing_mode}"
+            ),
             priority=round(priority, 2),
         ))
         priority -= 0.05
@@ -355,23 +406,70 @@ def _rollout_plan(
     if target_needs_work:
         kc_id = req.target_kc_id
         m = current_mastery.get(kc_id, 0.0)
-        tasks_budget = estimate_tasks(
-            m_current=m,
-            m_target=req.mastery_threshold,
-            cluster_avg=None,
-            n_practiced_in_subject=0,
+        weak_prereq_fraction = _weak_prereq_fraction_for_kc(edge_map, kc_id, mastery)
+        confidence = detailed_mastery.get(kc_id, {}).get("confidence", profile.mastery_confidence_mean)
+        tasks_budget = estimate_tasks_to_mastery(
+            profile=profile,
+            kc_id=kc_id,
+            current_mastery=m,
+            target_mastery=req.mastery_threshold,
+            weak_prereq_fraction=weak_prereq_fraction,
+            confidence=confidence,
             n_sims=100,
         )
         difficulty_mode = "test" if check_test_phase(m, req.mastery_threshold) else "build"
+        stall_risk = estimate_stall_risk(
+            profile=profile,
+            kc_id=kc_id,
+            weak_prereq_fraction=weak_prereq_fraction,
+            confidence=confidence,
+            graph_depth=depth_map.get(kc_id, 0),
+        )
         steps.append(PlanStep(
             kc_id=kc_id,
             difficulty_mode=difficulty_mode,
             tasks_budget=tasks_budget,
-            reason=f"target kc, mastery={m:.2f}",
+            reason=f"target kc, mastery={m:.2f}, stall_risk={stall_risk:.2f}, pacing={profile.pacing_mode}",
             priority=round(priority, 2),
         ))
 
     return steps
+
+
+def _build_prereq_edge_map(subgraph: dict) -> dict[str, list[str]]:
+    edge_map: dict[str, list[str]] = {}
+    for edge in subgraph["edges"]:
+        edge_map.setdefault(edge["to"], []).append(edge["from"])
+    return edge_map
+
+
+def _weak_prereq_fraction_for_kc(
+    edge_map: dict[str, list[str]],
+    kc_id: str,
+    mastery: dict[str, float],
+    threshold: float = 0.6,
+) -> float:
+    prereqs = edge_map.get(kc_id, [])
+    if not prereqs:
+        return 0.0
+    weak_count = sum(1 for prereq in prereqs if mastery.get(prereq, 0.0) < threshold)
+    return weak_count / len(prereqs)
+
+
+def _build_graph_depth_map(subgraph: dict, target_kc_id: str) -> dict[str, int]:
+    reverse_edges: dict[str, list[str]] = {}
+    for edge in subgraph["edges"]:
+        reverse_edges.setdefault(edge["from"], []).append(edge["to"])
+
+    depth_map = {target_kc_id: 0}
+    queue = [target_kc_id]
+    while queue:
+        node = queue.pop(0)
+        for edge in subgraph["edges"]:
+            if edge["to"] == node and edge["from"] not in depth_map:
+                depth_map[edge["from"]] = depth_map[node] + 1
+                queue.append(edge["from"])
+    return depth_map
 
 
 async def _build_mode2_plan(

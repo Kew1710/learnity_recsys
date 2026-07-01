@@ -44,7 +44,7 @@ class SubmitInteractionRequest(BaseModel):
     primary_kcs: list[str]
     secondary_kcs: list[str] = []
 
-    # BKT-параметры KC (в будущем приходят из graph-сервиса)
+    # Legacy BKT-совместимые параметры KC: online production path сейчас EMA-based
     p_transit: float = 0.1
     p_slip: float = 0.1
     p_guess: float = 0.2
@@ -71,6 +71,10 @@ class ColdStartKC(BaseModel):
 
 class ColdStartRequest(BaseModel):
     kcs: list[ColdStartKC]
+
+
+class DiagnosticMasteryRequest(BaseModel):
+    mastery: dict[str, float]
 
 
 class MasteryResponse(BaseModel):
@@ -243,6 +247,23 @@ async def cold_start_mastery(
     return {"initialized_count": count, "mastery": kc_probabilities}
 
 
+@app.post("/students/{student_id}/mastery/diagnostic", status_code=200)
+async def apply_diagnostic_mastery(
+    student_id: uuid.UUID,
+    req: DiagnosticMasteryRequest,
+    db: AsyncSession = Depends(get_db),
+):
+    repo = StudentRepository(db)
+    student = await repo.get(student_id)
+    if not student:
+        raise HTTPException(status_code=404, detail="Student not found")
+
+    now = datetime.utcnow()
+    count = await repo.bulk_upsert_mastery(student_id, req.mastery, now)
+    await db.commit()
+    return {"updated_count": count, "mastery": req.mastery}
+
+
 @app.get("/students/{student_id}/mastery")
 async def get_all_mastery(
     student_id: uuid.UUID,
@@ -313,14 +334,14 @@ async def submit_interaction(
         prior_consecutive_errors = existing.consecutive_errors if existing else 0
         prior_consecutive_correct = existing.consecutive_correct if existing else 0
 
-        # Точность за последние 5 задач по этой KC (из bandit_log)
+        # Точность за последние 5 задач по этой KC (из raw_score, не bandit reward)
         recent_rows = (await repo.db.execute(text(
-            "SELECT reward FROM bandit_log"
-            " WHERE student_id = :sid AND kc_id = :kc AND reward IS NOT NULL"
+            "SELECT raw_score FROM bandit_log"
+            " WHERE student_id = :sid AND kc_id = :kc AND raw_score IS NOT NULL"
             " ORDER BY recommended_at DESC LIMIT 5"
         ), {"sid": student_id, "kc": kc_id})).fetchall()
         if recent_rows:
-            recent_accuracy = sum(1 for r in recent_rows if r[0] >= 0.5) / len(recent_rows)
+            recent_accuracy = sum(1 for r in recent_rows if float(r[0]) >= 0.5) / len(recent_rows)
         else:
             recent_accuracy = 0.0
 

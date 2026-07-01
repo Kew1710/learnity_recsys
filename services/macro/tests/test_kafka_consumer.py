@@ -41,9 +41,13 @@ async def test_handle_summary_applies_actions_and_creates_replan_alert(monkeypat
     apply_mock = AsyncMock()
     replan_alert_mock = AsyncMock()
     plateau_alert_mock = AsyncMock()
+    refresh_profile_mock = AsyncMock()
+    outcome_mock = AsyncMock()
     monkeypatch.setattr(kc, "apply_plan_actions", apply_mock)
     monkeypatch.setattr(kc, "_create_replan_alert", replan_alert_mock)
     monkeypatch.setattr(kc, "create_plateau_alert", plateau_alert_mock)
+    monkeypatch.setattr(kc, "refresh_macro_profile", refresh_profile_mock)
+    monkeypatch.setattr(kc, "log_macro_step_outcome", outcome_mock)
 
     await kc._handle_summary(summary)
 
@@ -55,6 +59,8 @@ async def test_handle_summary_applies_actions_and_creates_replan_alert(monkeypat
 
     replan_alert_mock.assert_awaited_once()
     plateau_alert_mock.assert_not_awaited()
+    assert refresh_profile_mock.await_count == 2
+    outcome_mock.assert_awaited_once()
 
 
 @pytest.mark.asyncio
@@ -73,13 +79,19 @@ async def test_handle_summary_short_circuits_when_advanced(monkeypatch):
     monkeypatch.setattr(kc, "check_and_advance", AsyncMock(return_value=True))
     monkeypatch.setattr(kc, "_get_active_plan_step", AsyncMock(return_value=(plan_id, "kc_target", 20)))
     monkeypatch.setattr(kc, "log_transition", AsyncMock())
+    outcome_mock = AsyncMock()
 
     apply_mock = AsyncMock()
+    refresh_profile_mock = AsyncMock()
     monkeypatch.setattr(kc, "apply_plan_actions", apply_mock)
+    monkeypatch.setattr(kc, "refresh_macro_profile", refresh_profile_mock)
+    monkeypatch.setattr(kc, "log_macro_step_outcome", outcome_mock)
 
     await kc._handle_summary(summary)
 
     apply_mock.assert_not_awaited()
+    refresh_profile_mock.assert_not_awaited()
+    outcome_mock.assert_awaited_once()
 
 
 @pytest.mark.asyncio
@@ -99,11 +111,17 @@ async def test_handle_summary_ignores_non_active_kc(monkeypatch):
     monkeypatch.setattr(kc, "_get_active_plan_step", AsyncMock(return_value=(plan_id, "kc_target", 15)))
 
     apply_mock = AsyncMock()
+    refresh_profile_mock = AsyncMock()
+    outcome_mock = AsyncMock()
     monkeypatch.setattr(kc, "apply_plan_actions", apply_mock)
+    monkeypatch.setattr(kc, "refresh_macro_profile", refresh_profile_mock)
+    monkeypatch.setattr(kc, "log_macro_step_outcome", outcome_mock)
 
     await kc._handle_summary(summary)
 
     apply_mock.assert_not_awaited()
+    refresh_profile_mock.assert_not_awaited()
+    outcome_mock.assert_not_awaited()
 
 
 @pytest.mark.asyncio
@@ -129,8 +147,14 @@ async def test_handle_summary_creates_plateau_alert(monkeypatch):
     monkeypatch.setattr(kc, "evaluate_micro_summary", lambda *_args, **_kwargs: [])
 
     plateau_alert_mock = AsyncMock()
+    refresh_profile_mock = AsyncMock()
+    outcome_mock = AsyncMock()
     monkeypatch.setattr(kc, "create_plateau_alert", plateau_alert_mock)
+    monkeypatch.setattr(kc, "refresh_macro_profile", refresh_profile_mock)
+    monkeypatch.setattr(kc, "log_macro_step_outcome", outcome_mock)
 
     await kc._handle_summary(summary)
 
     plateau_alert_mock.assert_awaited_once_with(student_id, plan_id, "kc_target", 0.51, 55)
+    refresh_profile_mock.assert_awaited_once_with(student_id, "kc_target")
+    outcome_mock.assert_awaited_once()

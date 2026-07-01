@@ -34,10 +34,15 @@ from . import clients
 from shared.config import retrieval as _cfg
 from .thompson import ThompsonModel, GLOBAL_CLUSTER_ID
 from .selector import ZPDEntry, select_kc_from_zpd, compute_zpd_target_difficulty, compute_p_correct, filter_tasks_by_irt
-from .diagnostic_cat import CATState, select_diagnostic_kc, select_diagnostic_task
+from .diagnostic_cat import CATState, select_diagnostic_kc, select_diagnostic_task, update_cat_state
 from .micro_summary import compute_micro_summary, is_frustrated
 from .kafka_producer import publish_micro_summary
-from services.clustering.cluster import assign_cluster_for_new_student, save_student_cluster, ensure_centroids_loaded
+from services.clustering.cluster import (
+    assign_cluster_for_new_student,
+    save_student_cluster,
+    ensure_centroids_loaded,
+    should_reassign_cluster,
+)
 
 CONTEXT_DIM = _cfg.CONTEXT_DIM
 CLUSTER_EXPLORE_RATE = _cfg.CLUSTER_EXPLORE_RATE
@@ -47,6 +52,8 @@ KC_COOLDOWN_WINDOW = _cfg.KC_COOLDOWN_WINDOW
 KC_COOLDOWN_MAX = _cfg.KC_COOLDOWN_MAX
 PHASE1_TASK_THRESHOLD = _cfg.PHASE1_TASK_THRESHOLD
 TARGET_ZPD_ACCURACY = _cfg.TARGET_ZPD_ACCURACY
+CLUSTER_REASSIGN_INTERVAL = _cfg.CLUSTER_REASSIGN_INTERVAL
+CLUSTER_REASSIGN_MIN_TASKS = _cfg.CLUSTER_REASSIGN_MIN_TASKS
 
 MODE_PARAMS = {
     "build":       {"cluster_explore": 0.20, "epsilon": 0.05, "irt_floor": 0.20, "irt_ceiling": 0.90},
@@ -83,6 +90,11 @@ class UpdateRewardRequest(BaseModel):
     student_id: uuid.UUID
     task_id: uuid.UUID
     reward: float
+    raw_score: float | None = None
+    hints_used: int | None = None
+    time_spent_seconds: int | None = None
+    irt_difficulty: float | None = None
+    mastery_delta: float | None = None
     answered_at: Optional[datetime] = None
 
 
@@ -169,6 +181,36 @@ async def _get_cluster_id(student_id: uuid.UUID) -> int | None:
             {"sid": student_id},
         )).fetchone()
     return int(row[0]) if row else None
+
+
+async def _maybe_refresh_cluster_assignment(
+    student_id: uuid.UUID,
+    mastery: dict[str, float],
+    confidence: dict[str, float],
+    task_count: int,
+    current_cluster_id: int | None,
+) -> int | None:
+    if not should_reassign_cluster(
+        task_count,
+        min_tasks=CLUSTER_REASSIGN_MIN_TASKS,
+        interval=CLUSTER_REASSIGN_INTERVAL,
+    ):
+        return current_cluster_id
+    new_cluster = assign_cluster_for_new_student(mastery, confidence)
+    if new_cluster is None:
+        return current_cluster_id
+    if current_cluster_id != new_cluster:
+        await save_student_cluster(
+            student_id,
+            new_cluster,
+            reason="periodic_refresh",
+            task_count=task_count,
+        )
+        logger.info(
+            "cluster reassigned student=%s old=%s new=%s task_count=%d",
+            student_id, current_cluster_id, new_cluster, task_count,
+        )
+    return new_cluster
 
 
 async def _get_cluster_task_stats(
@@ -426,6 +468,10 @@ async def recommend(req: RecommendRequest):
             kc_id: v["probability_effective"]
             for kc_id, v in mastery_raw.items()
         }
+        mastery_confidence: dict[str, float] = {
+            kc_id: float(v.get("confidence", 0.0))
+            for kc_id, v in mastery_raw.items()
+        }
         consecutive_errors: dict[str, int] = {
             kc_id: v.get("consecutive_errors", 0)
             for kc_id, v in mastery_raw.items()
@@ -507,10 +553,23 @@ async def recommend(req: RecommendRequest):
 
         # Граница фаз 1→2: переназначаем кластер по реальному поведению
         if variant == "treatment" and task_count == PHASE1_TASK_THRESHOLD:
-            new_cluster = assign_cluster_for_new_student(mastery)
+            new_cluster = assign_cluster_for_new_student(mastery, mastery_confidence)
             if new_cluster is not None:
-                await save_student_cluster(req.student_id, new_cluster)
+                await save_student_cluster(
+                    req.student_id,
+                    new_cluster,
+                    reason="phase_boundary",
+                    task_count=task_count,
+                )
                 cluster_id = new_cluster
+        elif variant == "treatment":
+            cluster_id = await _maybe_refresh_cluster_assignment(
+                req.student_id,
+                mastery,
+                mastery_confidence,
+                task_count,
+                cluster_id,
+            )
 
         # 5c. Cooldown: последние KC этого ученика
         recent_kcs = await _get_recent_kcs(req.student_id)
@@ -520,6 +579,7 @@ async def recommend(req: RecommendRequest):
         selected_context: np.ndarray | None = None
         selected_source: str = "thompson_sampling"
         plan_fallback_occurred = False
+        selected_irt_fallback = False
 
         for kc_entry in ordered:
             # ── Cooldown check ──────────────────────────────────────────────
@@ -550,10 +610,15 @@ async def recommend(req: RecommendRequest):
 
             # IRT pre-filter: убираем задания по mode-aware boundaries
             mode_p = MODE_PARAMS.get(difficulty_mode, MODE_PARAMS["build"])
-            tasks = filter_tasks_by_irt(
+            tasks, irt_fallback_used = filter_tasks_by_irt(
                 tasks, kc_entry.mastery_effective,
                 floor=mode_p["irt_floor"], ceiling=mode_p["irt_ceiling"],
             )
+            if irt_fallback_used:
+                logger.info(
+                    "irt fallback used student=%s kc=%s mode=%s candidate_count=%d",
+                    req.student_id, kc_entry.kc_id, difficulty_mode, len(tasks),
+                )
 
             # Пре-реквизиты KC для контекстного вектора (x[1..4])
             try:
@@ -584,6 +649,7 @@ async def recommend(req: RecommendRequest):
                         selected_kc = kc_entry
                         selected_context = ctx
                         selected_source = "diagnostic_cat"
+                        selected_irt_fallback = irt_fallback_used
                         break
                 elif diag_kc != kc_entry.kc_id:
                     continue
@@ -610,6 +676,7 @@ async def recommend(req: RecommendRequest):
                 selected_kc = kc_entry
                 selected_context = ctx
                 selected_source = "phase1_heuristic"
+                selected_irt_fallback = irt_fallback_used
                 break
 
             # 7. Control group: эвристика (ближайшая сложность)
@@ -633,6 +700,7 @@ async def recommend(req: RecommendRequest):
                 selected_kc = kc_entry
                 selected_context = ctx
                 selected_source = "control_heuristic"
+                selected_irt_fallback = irt_fallback_used
                 break
 
             # 7. Treatment: cluster stats + Thompson Sampling с exploration
@@ -669,6 +737,7 @@ async def recommend(req: RecommendRequest):
                 selected_kc = kc_entry
                 selected_context = ctx
                 selected_source = "cluster_exploration"
+                selected_irt_fallback = irt_fallback_used
                 break
 
             # ── ε-greedy fallback ────────────────────────────────────────────
@@ -690,6 +759,7 @@ async def recommend(req: RecommendRequest):
                 selected_kc = kc_entry
                 selected_context = ctx
                 selected_source = "exploration"
+                selected_irt_fallback = irt_fallback_used
                 break
 
             # ── Thompson Sampling exploitation ───────────────────────────────
@@ -733,6 +803,7 @@ async def recommend(req: RecommendRequest):
                 selected_kc = kc_entry
                 selected_context = best_context
                 selected_source = "thompson_sampling"
+                selected_irt_fallback = irt_fallback_used
                 break
 
         if selected_task is None or selected_kc is None:
@@ -785,10 +856,10 @@ async def recommend(req: RecommendRequest):
                 "INSERT INTO bandit_log"
                 " (id, student_id, task_id, kc_id, context_vector, reward, recommended_at,"
                 "  selection_reason, exploration_type, zpd_candidates_count,"
-                "  plan_step_id, difficulty_mode, fallback_occurred)"
+                "  plan_step_id, difficulty_mode, fallback_occurred, irt_fallback_occurred)"
                 " VALUES (:id, :student_id, :task_id, :kc_id, :context_vector, NULL, :recommended_at,"
                 "  :selection_reason, :exploration_type, :zpd_candidates_count,"
-                "  :plan_step_id, :difficulty_mode, :fallback_occurred)"
+                "  :plan_step_id, :difficulty_mode, :fallback_occurred, :irt_fallback_occurred)"
             ),
             {
                 "id": uuid.uuid4(),
@@ -803,6 +874,7 @@ async def recommend(req: RecommendRequest):
                 "plan_step_id": active_plan_step_id,
                 "difficulty_mode": difficulty_mode,
                 "fallback_occurred": plan_fallback_occurred,
+                "irt_fallback_occurred": selected_irt_fallback,
             },
         )
         # Инкрементируем tasks_spent для активного шага плана
@@ -878,7 +950,13 @@ async def update_bandit_reward(req: UpdateRewardRequest):
         row = (await db.execute(
             sa.text("""
                 UPDATE bandit_log
-                   SET reward = :reward, answered_at = :answered_at
+                   SET reward = :reward,
+                       raw_score = COALESCE(:raw_score, raw_score),
+                       hints_used = COALESCE(:hints_used, hints_used),
+                       time_spent_seconds = COALESCE(:time_spent_seconds, time_spent_seconds),
+                       irt_difficulty = COALESCE(:irt_difficulty, irt_difficulty),
+                       mastery_delta = COALESCE(:mastery_delta, mastery_delta),
+                       answered_at = :answered_at
                  WHERE id = (
                      SELECT id FROM bandit_log
                      WHERE student_id = :student_id AND task_id = :task_id
@@ -888,6 +966,11 @@ async def update_bandit_reward(req: UpdateRewardRequest):
             """),
             {
                 "reward": req.reward,
+                "raw_score": req.raw_score,
+                "hints_used": req.hints_used,
+                "time_spent_seconds": req.time_spent_seconds,
+                "irt_difficulty": req.irt_difficulty,
+                "mastery_delta": req.mastery_delta,
                 "answered_at": answered_at,
                 "student_id": req.student_id,
                 "task_id": req.task_id,
@@ -939,10 +1022,23 @@ async def update_bandit_reward(req: UpdateRewardRequest):
         # Update CAT state if in diagnostic phase
         cat_state, cat_completed = await _get_cat_state(req.student_id)
         if cat_state is not None and not cat_completed:
-            n = cat_state.kc_n.get(kc_id, 0)
-            cat_state.kc_n[kc_id] = n + 1
-            cat_state.tasks_used += 1
+            if req.raw_score is not None and req.irt_difficulty is not None:
+                update_cat_state(cat_state, kc_id, score=req.raw_score, irt_difficulty=req.irt_difficulty)
+            else:
+                n = cat_state.kc_n.get(kc_id, 0)
+                cat_state.kc_n[kc_id] = n + 1
+                cat_state.tasks_used += 1
             await _save_cat_state(req.student_id, cat_state, completed=cat_state.is_complete)
+            if cat_state.is_complete:
+                async with httpx.AsyncClient(trust_env=False) as http:
+                    try:
+                        await clients.apply_diagnostic_mastery(
+                            http,
+                            req.student_id,
+                            cat_state.to_mastery(),
+                        )
+                    except httpx.HTTPStatusError as e:
+                        logger.warning("failed to apply CAT mastery for student=%s: %s", req.student_id, e)
 
         # Обновляем Thompson Sampling только для treatment-группы
         variant = await _get_experiment_variant(req.student_id)

@@ -16,7 +16,6 @@ import os
 import pickle
 import random
 from collections import defaultdict
-from dataclasses import dataclass, field
 
 from .bkt_environment import BKTEnvironment
 
@@ -27,6 +26,7 @@ from .bkt_environment import BKTEnvironment
 
 MASTERY_BINS = 5          # дискретизация: 0.0..0.2, 0.2..0.4, ..., 0.8..1.0
 MAX_STEPS_PER_EPISODE = 50  # ограничение длины эпизода
+STATE_VERSION = "v2"
 
 
 def _discretize(mastery: float) -> int:
@@ -34,12 +34,31 @@ def _discretize(mastery: float) -> int:
     return min(MASTERY_BINS - 1, int(mastery * MASTERY_BINS))
 
 
-def _state_key(mastery: dict[str, float], node_order: list[str]) -> tuple:
+def _profile_state_tail(profile_features: dict | None) -> tuple:
+    if not profile_features:
+        return ()
+    pacing_mode = profile_features.get("pacing_mode", "balanced")
+    pacing_bin = {"careful": 0, "balanced": 1, "aggressive": 2}.get(pacing_mode, 1)
+    return (
+        _discretize(float(profile_features.get("mean_confidence", 0.0))),
+        _discretize(float(profile_features.get("weak_prereq_fraction", 0.0))),
+        _discretize(min(1.0, float(profile_features.get("learning_speed_recent", 0.0)) * 10.0)),
+        _discretize(float(profile_features.get("stall_risk_baseline", 0.0))),
+        pacing_bin,
+    )
+
+
+def _state_key(
+    mastery: dict[str, float],
+    node_order: list[str],
+    profile_features: dict | None = None,
+) -> tuple:
     """
     Детерминированный ключ состояния из mastery-профиля.
     node_order фиксирует порядок KC → воспроизводимый tuple.
     """
-    return tuple(_discretize(mastery.get(kc, 0.0)) for kc in node_order)
+    mastery_key = tuple(_discretize(mastery.get(kc, 0.0)) for kc in node_order)
+    return mastery_key + _profile_state_tail(profile_features)
 
 
 # ---------------------------------------------------------------------------
@@ -71,13 +90,14 @@ class SubgraphQAgent:
         state: dict[str, float],
         available_actions: list[str],
         epsilon: float = 0.1,
+        profile_features: dict | None = None,
     ) -> str:
         """ε-greedy выбор KC."""
         if not available_actions:
             raise ValueError("Список доступных KC пуст")
         if self.rng.random() < epsilon:
             return self.rng.choice(available_actions)
-        key = _state_key(state, self.node_order)
+        key = _state_key(state, self.node_order, profile_features)
         q_row = self.q[key]
         return max(available_actions, key=lambda a: q_row[a])
 
@@ -88,10 +108,11 @@ class SubgraphQAgent:
         reward: float,
         next_state: dict[str, float],
         available_next: list[str],
+        profile_features: dict | None = None,
     ) -> None:
         """Bellman update: Q(s,a) ← Q(s,a) + α[r + γ max_a' Q(s',a') - Q(s,a)]"""
-        s_key = _state_key(state, self.node_order)
-        ns_key = _state_key(next_state, self.node_order)
+        s_key = _state_key(state, self.node_order, profile_features)
+        ns_key = _state_key(next_state, self.node_order, profile_features)
 
         q_current = self.q[s_key][action]
 
@@ -119,6 +140,7 @@ def train_policy(
     epsilon_end: float = 0.05,
     bkt_params: dict | None = None,
     rng: random.Random | None = None,
+    profile_features: dict | None = None,
 ) -> SubgraphQAgent:
     """
     Обучает Q-агента на BKTEnvironment.
@@ -153,9 +175,16 @@ def train_policy(
         state = env.reset(initial_mastery)
 
         for _ in range(MAX_STEPS_PER_EPISODE):
-            action = agent.select_action(state.mastery, actions, epsilon)
+            action = agent.select_action(state.mastery, actions, epsilon, profile_features=profile_features)
             next_state, reward, done = env.step(action)
-            agent.update(state.mastery, action, reward, next_state.mastery, actions)
+            agent.update(
+                state.mastery,
+                action,
+                reward,
+                next_state.mastery,
+                actions,
+                profile_features=profile_features,
+            )
             state = next_state
             if done:
                 break
@@ -174,5 +203,5 @@ def load_policy(path: str) -> SubgraphQAgent:
         return pickle.load(f)
 
 
-def policy_path(cluster_id: int, target_kc: str) -> str:
-    return f"models/policy_cluster_{cluster_id}_{target_kc}.pkl"
+def policy_path(cluster_id: int, target_kc: str, state_version: str = STATE_VERSION) -> str:
+    return f"models/policy_{state_version}_cluster_{cluster_id}_{target_kc}.pkl"

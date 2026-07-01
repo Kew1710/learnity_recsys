@@ -1,7 +1,7 @@
-"""Юнит-тесты IRT-функций и ZPD-целевой сложности."""
+"""Юнит-тесты IRT-функций, IRT-фильтра и ZPD-целевой сложности."""
 import math
 import pytest
-from services.retrieval.selector import compute_p_correct, compute_zpd_target_difficulty
+from services.retrieval.selector import compute_p_correct, compute_zpd_target_difficulty, filter_tasks_by_irt
 
 
 def make_task(irt_difficulty: float) -> dict:
@@ -88,3 +88,20 @@ class TestComputeZPDTargetDifficulty:
         assert build != consolidate
         assert build != test
         assert test > build > consolidate
+
+
+class TestFilterTasksByIRT:
+    def test_returns_in_band_tasks_without_fallback(self):
+        tasks = [make_task(-2.0), make_task(0.0), make_task(2.0)]
+        filtered, fallback_used = filter_tasks_by_irt(tasks, mastery=0.5, floor=0.4, ceiling=0.6)
+        assert len(filtered) == 1
+        assert filtered[0]["parts"][0]["irt_difficulty"] == 0.0
+        assert fallback_used is False
+
+    def test_returns_nearest_tasks_on_empty_band(self):
+        tasks = [make_task(1.0), make_task(2.0), make_task(3.0), make_task(4.0)]
+        filtered, fallback_used = filter_tasks_by_irt(tasks, mastery=0.1, floor=0.6, ceiling=0.75)
+        assert fallback_used is True
+        assert 1 <= len(filtered) <= 3
+        # Ближайшая к окну задача должна быть сохранена
+        assert filtered[0]["parts"][0]["irt_difficulty"] == 1.0

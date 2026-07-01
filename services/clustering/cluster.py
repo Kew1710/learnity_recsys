@@ -9,7 +9,8 @@ run_clustering() — запускается раз в час из cron:
   5. Пересчитывает cluster_task_stats из bandit_log
   6. Сохраняет центроиды (GMM means) в PostgreSQL (cluster_centroids)
 
-assign_cluster_for_new_student(mastery) — вызывается при создании ученика:
+assign_cluster_for_new_student(mastery, confidence) — вызывается при создании ученика
+или при периодическом пересмотре кластера:
   Возвращает cluster_id по ближайшему центроиду. None если центроиды ещё не вычислены.
 """
 
@@ -31,6 +32,28 @@ MIN_CLUSTERS = 3
 
 _centroids_cache: np.ndarray | None = None
 _kc_order_cache: list[str] | None = None
+
+
+def _build_distance_weights(
+    kc_order: list[str],
+    confidence: dict[str, float] | None = None,
+) -> np.ndarray:
+    if not confidence:
+        return np.ones(len(kc_order), dtype=np.float32)
+    # Не обнуляем измерения полностью: даже слабая уверенность должна влиять.
+    return np.array(
+        [0.25 + 0.75 * max(0.0, min(1.0, float(confidence.get(str(kc), 0.0)))) for kc in kc_order],
+        dtype=np.float32,
+    )
+
+
+def should_reassign_cluster(
+    task_count: int,
+    *,
+    min_tasks: int,
+    interval: int,
+) -> bool:
+    return task_count >= min_tasks and interval > 0 and task_count % interval == 0
 
 
 async def _save_centroids_to_db(
@@ -178,7 +201,10 @@ async def run_clustering() -> None:
     )
 
 
-def assign_cluster_for_new_student(mastery: dict[str, float]) -> int | None:
+def assign_cluster_for_new_student(
+    mastery: dict[str, float],
+    confidence: dict[str, float] | None = None,
+) -> int | None:
     """
     Находит ближайший кластер для нового ученика по его mastery-вектору.
     Возвращает None если центроиды ещё не вычислены.
@@ -193,7 +219,8 @@ def assign_cluster_for_new_student(mastery: dict[str, float]) -> int | None:
         [mastery.get(str(kc), 0.0) for kc in _kc_order_cache],
         dtype=np.float32,
     )
-    distances = np.linalg.norm(_centroids_cache - vector, axis=1)
+    weights = _build_distance_weights(_kc_order_cache, confidence)
+    distances = np.linalg.norm((_centroids_cache - vector) * weights, axis=1)
     return int(np.argmin(distances))
 
 
@@ -202,9 +229,21 @@ async def ensure_centroids_loaded() -> None:
     await _load_centroids_from_db()
 
 
-async def save_student_cluster(student_id: uuid.UUID, cluster_id: int) -> None:
-    """Записывает cluster_id ученика в БД."""
+async def save_student_cluster(
+    student_id: uuid.UUID,
+    cluster_id: int,
+    *,
+    reason: str = "manual",
+    task_count: int | None = None,
+) -> None:
+    """Записывает cluster_id ученика в БД и логирует историю смены."""
     async with AsyncSessionLocal() as db:
+        existing = (await db.execute(
+            sa.text("SELECT cluster_id FROM student_clusters WHERE student_id = :student_id"),
+            {"student_id": student_id},
+        )).fetchone()
+        previous_cluster_id = int(existing[0]) if existing else None
+
         await db.execute(
             sa.text("""
                 INSERT INTO student_clusters (student_id, cluster_id, assigned_at)
@@ -219,4 +258,22 @@ async def save_student_cluster(student_id: uuid.UUID, cluster_id: int) -> None:
                 "assigned_at": datetime.now(timezone.utc),
             },
         )
+        if previous_cluster_id != cluster_id:
+            await db.execute(
+                sa.text("""
+                    INSERT INTO student_cluster_history
+                        (id, student_id, from_cluster_id, to_cluster_id, reason, task_count, changed_at)
+                    VALUES
+                        (:id, :student_id, :from_cluster_id, :to_cluster_id, :reason, :task_count, :changed_at)
+                """),
+                {
+                    "id": uuid.uuid4(),
+                    "student_id": student_id,
+                    "from_cluster_id": previous_cluster_id,
+                    "to_cluster_id": cluster_id,
+                    "reason": reason,
+                    "task_count": task_count,
+                    "changed_at": datetime.now(timezone.utc),
+                },
+            )
         await db.commit()

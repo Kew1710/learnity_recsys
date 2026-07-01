@@ -13,6 +13,7 @@ from aiokafka import AIOKafkaConsumer
 from shared.db import AsyncSessionLocal
 from . import clients, kafka_producer as macro_kafka
 from .diagnostics import diagnose
+from .outcomes import log_macro_step_outcome
 from .transitions import log_transition, _build_state
 from .plan_lifecycle import (
     apply_plan_actions,
@@ -20,6 +21,7 @@ from .plan_lifecycle import (
     create_plateau_alert,
     evaluate_micro_summary,
 )
+from .profile_builder import refresh_macro_profile
 
 KAFKA_BOOTSTRAP = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092")
 TOPIC_MICRO_SUMMARIES = "micro_summaries"
@@ -199,6 +201,18 @@ async def _handle_summary(summary: dict) -> None:
             student_id, kc_id, mastery_current,
         )
         plan_id = pre_advance_step[0] if pre_advance_step else uuid.UUID(int=0)
+        await log_macro_step_outcome(
+            student_id=student_id,
+            plan_id=plan_id,
+            kc_id=kc_id,
+            outcome_type="advance_signal",
+            tasks_spent=tasks_spent,
+            tasks_budget=pre_advance_step[2] if pre_advance_step else None,
+            mastery_current=mastery_current,
+            recent_accuracy=recent_accuracy,
+            velocity=velocity,
+            reason=f"mastery={mastery_current:.3f} reached threshold",
+        )
         post_step = await _get_active_plan_step(student_id)
         await log_transition(
             student_id=student_id, plan_id=plan_id, kc_id=kc_id,
@@ -238,6 +252,17 @@ async def _handle_summary(summary: dict) -> None:
                 await log_transition(
                     student_id=student_id, plan_id=plan_id, kc_id=kc_id,
                     state=state, action="regression_reopen",
+                    reason=f"frustration_count={frustration_count}, reopened completed step",
+                )
+                await log_macro_step_outcome(
+                    student_id=student_id,
+                    plan_id=plan_id,
+                    kc_id=kc_id,
+                    outcome_type="regression_reopen",
+                    tasks_spent=tasks_spent,
+                    mastery_current=mastery_current,
+                    recent_accuracy=recent_accuracy,
+                    velocity=velocity,
                     reason=f"frustration_count={frustration_count}, reopened completed step",
                 )
                 return
@@ -308,6 +333,14 @@ async def _handle_summary(summary: dict) -> None:
         non_replan_actions = [a for a in actions if a.action_type != "replan"]
         if non_replan_actions:
             await apply_plan_actions(student_id, non_replan_actions)
+            try:
+                await refresh_macro_profile(student_id, kc_id)
+            except Exception:
+                logger.exception(
+                    "Failed to refresh macro profile after lifecycle actions for student=%s kc=%s",
+                    student_id,
+                    kc_id,
+                )
             logger.info(
                 "Applied lifecycle actions: student=%s kc=%s actions=%s",
                 student_id,
@@ -346,12 +379,52 @@ async def _handle_summary(summary: dict) -> None:
                     kc_id,
                     reason,
                 )
+                await log_macro_step_outcome(
+                    student_id=student_id,
+                    plan_id=plan_id,
+                    kc_id=kc_id,
+                    outcome_type="replan_requested",
+                    tasks_spent=tasks_spent,
+                    tasks_budget=tasks_budget,
+                    mastery_current=mastery_current,
+                    recent_accuracy=recent_accuracy,
+                    velocity=velocity,
+                    reason=reason,
+                )
+                try:
+                    await refresh_macro_profile(student_id, kc_id)
+                except Exception:
+                    logger.exception(
+                        "Failed to refresh macro profile after replan request for student=%s kc=%s",
+                        student_id,
+                        kc_id,
+                    )
 
     # 2. Plateau → teacher_alert если velocity≈0 за последние 20 задач
     #    Порог: tasks_spent >= 50 чтобы не спамить в начале шага
     PLATEAU_MIN_TASKS = 50
     if tasks_spent >= PLATEAU_MIN_TASKS and abs(velocity) < 0.01:
         await create_plateau_alert(student_id, plan_id, kc_id, mastery_current, tasks_spent)
+        await log_macro_step_outcome(
+            student_id=student_id,
+            plan_id=plan_id,
+            kc_id=kc_id,
+            outcome_type="plateau",
+            tasks_spent=tasks_spent,
+            tasks_budget=tasks_budget,
+            mastery_current=mastery_current,
+            recent_accuracy=recent_accuracy,
+            velocity=velocity,
+            reason="velocity≈0 for prolonged period",
+        )
+        try:
+            await refresh_macro_profile(student_id, kc_id)
+        except Exception:
+            logger.exception(
+                "Failed to refresh macro profile after plateau alert for student=%s kc=%s",
+                student_id,
+                kc_id,
+            )
         logger.info(
             "Plateau alert created: student=%s kc=%s velocity=%.3f tasks_spent=%d",
             student_id, kc_id, velocity, tasks_spent,

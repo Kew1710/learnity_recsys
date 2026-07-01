@@ -61,7 +61,7 @@ async def _handle_student_registered(event: dict) -> None:
     try:
         cluster_id = assign_cluster_for_new_student(cold_start_mastery)
         if cluster_id is not None:
-            await save_student_cluster(student_id, cluster_id)
+            await save_student_cluster(student_id, cluster_id, reason="cold_start", task_count=0)
     except Exception as e:
         logger.warning("cluster assignment failed for %s: %s", student_id, e)
 

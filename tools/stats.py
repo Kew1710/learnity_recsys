@@ -181,6 +181,71 @@ async def fetch_mastery_progress(session, student_id: str) -> list[dict]:
     return [dict(r._mapping) for r in rows]
 
 
+async def fetch_operational_metrics(session) -> dict:
+    metrics: dict[str, float | int] = {}
+
+    bandit_row = (await session.execute(text("""
+        SELECT
+            COUNT(*) AS total_recommendations,
+            SUM(CASE WHEN fallback_occurred THEN 1 ELSE 0 END) AS plan_fallbacks,
+            SUM(CASE WHEN irt_fallback_occurred THEN 1 ELSE 0 END) AS irt_fallbacks
+        FROM bandit_log
+    """))).one()
+    metrics["total_recommendations"] = int(bandit_row.total_recommendations or 0)
+    metrics["plan_fallbacks"] = int(bandit_row.plan_fallbacks or 0)
+    metrics["irt_fallbacks"] = int(bandit_row.irt_fallbacks or 0)
+
+    alert_row = (await session.execute(text("""
+        SELECT
+            COUNT(*) FILTER (WHERE alert_type = 'content_gap') AS content_gap_alerts,
+            COUNT(*) FILTER (WHERE alert_type = 'plateau') AS plateau_alerts,
+            COUNT(*) FILTER (WHERE alert_type = 'replan_requested') AS replan_alerts
+        FROM teacher_alerts
+    """))).one()
+    metrics["content_gap_alerts"] = int(alert_row.content_gap_alerts or 0)
+    metrics["plateau_alerts"] = int(alert_row.plateau_alerts or 0)
+    metrics["replan_alerts"] = int(alert_row.replan_alerts or 0)
+
+    cat_row = (await session.execute(text("""
+        SELECT
+            COUNT(*) AS total_cat_sessions,
+            SUM(CASE WHEN completed THEN 1 ELSE 0 END) AS completed_cat_sessions,
+            AVG(tasks_used) FILTER (WHERE completed) AS avg_cat_tasks
+        FROM diagnostic_cat_state
+    """))).one()
+    metrics["total_cat_sessions"] = int(cat_row.total_cat_sessions or 0)
+    metrics["completed_cat_sessions"] = int(cat_row.completed_cat_sessions or 0)
+    metrics["avg_cat_tasks"] = float(cat_row.avg_cat_tasks or 0.0)
+
+    cluster_row = (await session.execute(text("""
+        SELECT
+            COUNT(*) AS total_cluster_events,
+            COUNT(*) FILTER (WHERE from_cluster_id IS NOT NULL AND from_cluster_id != to_cluster_id) AS cluster_shifts
+        FROM student_cluster_history
+    """))).one()
+    metrics["total_cluster_events"] = int(cluster_row.total_cluster_events or 0)
+    metrics["cluster_shifts"] = int(cluster_row.cluster_shifts or 0)
+
+    outcome_row = (await session.execute(text("""
+        SELECT
+            COUNT(*) AS total_step_outcomes,
+            COUNT(*) FILTER (WHERE outcome_type = 'completed') AS completed_steps,
+            COUNT(*) FILTER (WHERE outcome_type = 'replan_requested') AS replan_step_events,
+            COUNT(*) FILTER (WHERE outcome_type = 'plateau') AS plateau_step_events,
+            COUNT(*) FILTER (WHERE outcome_type = 'regression_reopen') AS regression_reopens,
+            AVG(tasks_spent) FILTER (WHERE outcome_type = 'completed') AS avg_tasks_to_complete
+        FROM macro_step_outcomes
+    """))).one()
+    metrics["total_step_outcomes"] = int(outcome_row.total_step_outcomes or 0)
+    metrics["completed_steps"] = int(outcome_row.completed_steps or 0)
+    metrics["replan_step_events"] = int(outcome_row.replan_step_events or 0)
+    metrics["plateau_step_events"] = int(outcome_row.plateau_step_events or 0)
+    metrics["regression_reopens"] = int(outcome_row.regression_reopens or 0)
+    metrics["avg_tasks_to_complete"] = float(outcome_row.avg_tasks_to_complete or 0.0)
+
+    return metrics
+
+
 # ─── Отображение ──────────────────────────────────────────────────────────────
 
 def show_students_table(students: list[dict]):
@@ -384,6 +449,44 @@ def show_interactions(interactions: list[dict], student_id: str):
     console.print(table)
 
 
+def show_operational_metrics(metrics: dict):
+    console.print()
+    console.rule("[bold]🩺 Operational Signals[/bold]")
+
+    total_recs = int(metrics.get("total_recommendations", 0))
+    plan_fallbacks = int(metrics.get("plan_fallbacks", 0))
+    irt_fallbacks = int(metrics.get("irt_fallbacks", 0))
+    total_cat = int(metrics.get("total_cat_sessions", 0))
+    completed_cat = int(metrics.get("completed_cat_sessions", 0))
+    cluster_events = int(metrics.get("total_cluster_events", 0))
+    cluster_shifts = int(metrics.get("cluster_shifts", 0))
+
+    table = Table(box=box.SIMPLE_HEAD, show_header=True)
+    table.add_column("Metric", style="bold")
+    table.add_column("Value", justify="right")
+    table.add_column("Rate", justify="right")
+
+    def _pct(num: int, den: int) -> str:
+        return f"{(num / den * 100):.1f}%" if den > 0 else "—"
+
+    table.add_row("Recommendations", str(total_recs), "—")
+    table.add_row("Plan fallback", str(plan_fallbacks), _pct(plan_fallbacks, total_recs))
+    table.add_row("IRT fallback", str(irt_fallbacks), _pct(irt_fallbacks, total_recs))
+    table.add_row("Content gap alerts", str(int(metrics.get("content_gap_alerts", 0))), "—")
+    table.add_row("Plateau alerts", str(int(metrics.get("plateau_alerts", 0))), "—")
+    table.add_row("Replan alerts", str(int(metrics.get("replan_alerts", 0))), "—")
+    table.add_row("CAT completed", str(completed_cat), _pct(completed_cat, total_cat))
+    table.add_row("Avg CAT tasks", f"{float(metrics.get('avg_cat_tasks', 0.0)):.2f}", "—")
+    table.add_row("Cluster shifts", str(cluster_shifts), _pct(cluster_shifts, cluster_events))
+    table.add_row("Macro step outcomes", str(int(metrics.get("total_step_outcomes", 0))), "—")
+    table.add_row("Completed steps", str(int(metrics.get("completed_steps", 0))), "—")
+    table.add_row("Avg tasks to complete", f"{float(metrics.get('avg_tasks_to_complete', 0.0)):.2f}", "—")
+    table.add_row("Replan step events", str(int(metrics.get("replan_step_events", 0))), "—")
+    table.add_row("Plateau step events", str(int(metrics.get("plateau_step_events", 0))), "—")
+    table.add_row("Regression reopens", str(int(metrics.get("regression_reopens", 0))), "—")
+    console.print(table)
+
+
 # ─── Главная точка входа ──────────────────────────────────────────────────────
 
 async def main():
@@ -414,6 +517,8 @@ async def main():
             source_dist = await fetch_source_distribution(session)
             subject_dist = await fetch_subject_distribution(session)
             show_hypotheses(source_dist, subject_dist)
+            op_metrics = await fetch_operational_metrics(session)
+            show_operational_metrics(op_metrics)
 
             # Детальная история для выбранного студента
             if len(students) == 1:

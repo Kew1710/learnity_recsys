@@ -122,11 +122,11 @@ def _mock_plan_check():
 
 @respx.mock
 async def test_submit_answer_happy_path(client):
+    reward_route = respx.patch(f"{RETRIEVAL_BASE}/bandit_log/reward").mock(
+        return_value=httpx.Response(200, json={"updated": True})
+    )
     respx.post(f"{PROFILE_BASE}/students/{STUDENT_ID}/interactions").mock(
         return_value=httpx.Response(201, json=MASTERY_STUB)
-    )
-    respx.patch(f"{RETRIEVAL_BASE}/bandit_log/reward").mock(
-        return_value=httpx.Response(200, json={"updated": True})
     )
     _mock_plan_check()
     respx.post(f"{RETRIEVAL_BASE}/recommend").mock(
@@ -138,6 +138,12 @@ async def test_submit_answer_happy_path(client):
     assert "mastery_update" in body
     assert "next_task" in body
     assert body["next_task"]["task_id"] == "task-001"
+    reward_payload = json.loads(reward_route.calls[0].request.content)
+    assert reward_payload["raw_score"] == 1.0
+    assert reward_payload["hints_used"] == 0
+    assert reward_payload["time_spent_seconds"] == 0
+    assert reward_payload["irt_difficulty"] is None
+    assert reward_payload["mastery_delta"] == pytest.approx(0.12)
 
 
 @respx.mock

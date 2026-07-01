@@ -49,6 +49,21 @@ class TestStateKey:
         k = _state_key({}, ["A"])
         assert k == (0,)
 
+    def test_profile_features_extend_state_key(self):
+        base = _state_key({"A": 0.2}, ["A"])
+        enriched = _state_key(
+            {"A": 0.2},
+            ["A"],
+            {
+                "mean_confidence": 0.7,
+                "weak_prereq_fraction": 0.5,
+                "learning_speed_recent": 0.06,
+                "stall_risk_baseline": 0.4,
+                "pacing_mode": "careful",
+            },
+        )
+        assert len(enriched) > len(base)
+
 
 class TestSubgraphQAgent:
     def _make_agent(self) -> SubgraphQAgent:
@@ -87,6 +102,31 @@ class TestSubgraphQAgent:
         action = agent.select_action(state, ["A", "B", "C"], epsilon=0.0)
         assert action == "C"
 
+    def test_profile_features_change_q_bucket(self):
+        agent = self._make_agent()
+        state = {"A": 0.3, "B": 0.5, "C": 0.0}
+        careful = {
+            "mean_confidence": 0.2,
+            "weak_prereq_fraction": 0.6,
+            "learning_speed_recent": 0.02,
+            "stall_risk_baseline": 0.7,
+            "pacing_mode": "careful",
+        }
+        aggressive = {
+            "mean_confidence": 0.9,
+            "weak_prereq_fraction": 0.1,
+            "learning_speed_recent": 0.08,
+            "stall_risk_baseline": 0.1,
+            "pacing_mode": "aggressive",
+        }
+        agent.update(state, "A", reward=1.0, next_state=state, available_next=["A"], profile_features=careful)
+        agent.update(state, "B", reward=1.0, next_state=state, available_next=["B"], profile_features=aggressive)
+        careful_key = _state_key(state, ["A", "B", "C"], careful)
+        aggressive_key = _state_key(state, ["A", "B", "C"], aggressive)
+        assert careful_key != aggressive_key
+        assert agent.q[careful_key]["A"] > 0
+        assert agent.q[aggressive_key]["B"] > 0
+
 
 class TestTrainPolicy:
     def test_returns_agent(self):
@@ -100,6 +140,10 @@ class TestTrainPolicy:
             rng=rng,
         )
         assert isinstance(agent, SubgraphQAgent)
+
+    def test_policy_path_uses_version_marker(self):
+        from services.macro.policy_mode1 import policy_path
+        assert "policy_v2_cluster_" in policy_path(1, "C")
 
     def test_q_table_populated_after_training(self):
         rng = random.Random(42)

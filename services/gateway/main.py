@@ -133,7 +133,12 @@ async def create_student(req: CreateStudentRequest):
         try:
             cluster_id = assign_cluster_for_new_student(cold_start_mastery)
             if cluster_id is not None:
-                await save_student_cluster(uuid.UUID(student_id), cluster_id)
+                await save_student_cluster(
+                    uuid.UUID(student_id),
+                    cluster_id,
+                    reason="cold_start",
+                    task_count=0,
+                )
         except Exception as e:
             logger.warning("cluster assignment failed for student=%s: %s", student_id, e)
 
@@ -194,7 +199,17 @@ async def submit_answer(student_id: uuid.UUID, req: SubmitAnswerRequest):
             reward = delta_mastery - _cfg.REWARD_BETA * frustration - _cfg.REWARD_GAMMA * boredom
 
             try:
-                await clients.update_bandit_reward(http, student_id, req.task_id, reward)
+                await clients.update_bandit_reward(
+                    http,
+                    student_id,
+                    req.task_id,
+                    reward,
+                    raw_score=req.score,
+                    hints_used=req.hints_used,
+                    time_spent_seconds=req.time_spent_seconds,
+                    irt_difficulty=req.irt_difficulty,
+                    mastery_delta=delta_mastery,
+                )
             except httpx.HTTPStatusError as e:
                 logger.warning("bandit reward update failed for student=%s task=%s: %s", student_id, req.task_id, e)
 

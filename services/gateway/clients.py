@@ -62,10 +62,25 @@ async def update_bandit_reward(
     student_id: uuid.UUID,
     task_id: uuid.UUID,
     reward: float,
+    *,
+    raw_score: float | None = None,
+    hints_used: int | None = None,
+    time_spent_seconds: int | None = None,
+    irt_difficulty: float | None = None,
+    mastery_delta: float | None = None,
 ) -> None:
     resp = await client.patch(
         f"{RETRIEVAL_URL}/bandit_log/reward",
-        json={"student_id": str(student_id), "task_id": str(task_id), "reward": reward},
+        json={
+            "student_id": str(student_id),
+            "task_id": str(task_id),
+            "reward": reward,
+            "raw_score": raw_score,
+            "hints_used": hints_used,
+            "time_spent_seconds": time_spent_seconds,
+            "irt_difficulty": irt_difficulty,
+            "mastery_delta": mastery_delta,
+        },
         timeout=TIMEOUT,
     )
     resp.raise_for_status()

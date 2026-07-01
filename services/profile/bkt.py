@@ -1,16 +1,16 @@
 """
-Bayesian Knowledge Tracing (BKT) — алгоритм обновления знаний.
+EMA-based mastery update for online student modeling.
 
-Четыре параметра на KC:
-  P(L0) — начальная вероятность знания (хранится в mastery.probability)
-  P(T)  — вероятность выучить KC за одну попытку       (p_transit)
-  P(S)  — вероятность ошибиться, зная KC               (p_slip)
-  P(G)  — вероятность угадать, не зная KC              (p_guess)
+В production горячем пути используется smooth EMA-обновление mastery с
+эвристиками streak / surprise / decay.
+
+Классические BKT-функции (posterior / transit) сохраняются ниже и используются
+в offline RL-симуляторе и аналитических инструментах.
 
 Порядок обновления на каждый ответ:
   1. decay(mastery)         — ослабить знание с учётом времени
-  2. bkt_posterior(...)     — байесовское обновление по ответу
-  3. transit(posterior)     — учесть вероятность выучить в ходе попытки
+  2. smooth_update(...)     — EMA-обновление по score
+  3. blend / penalties      — учесть hints, secondary-role, repeated failures
 """
 
 from __future__ import annotations
@@ -121,7 +121,7 @@ def smooth_update(
 
 
 # ---------------------------------------------------------------------------
-# 3. BKT posterior (байесовское обновление) — используется в RL-симуляторе
+# 3. Classical BKT posterior — used in RL simulation / offline tools
 # ---------------------------------------------------------------------------
 
 def _bkt_correct(p_mastery: float, p_slip: float, p_guess: float) -> float:

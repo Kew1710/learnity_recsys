@@ -19,6 +19,20 @@ async def get_student(client: httpx.AsyncClient, student_id: uuid.UUID) -> dict:
     return resp.json()
 
 
+async def apply_diagnostic_mastery(
+    client: httpx.AsyncClient,
+    student_id: uuid.UUID,
+    mastery: dict[str, float],
+) -> dict:
+    resp = await client.post(
+        f"{PROFILE_URL}/students/{student_id}/mastery/diagnostic",
+        json={"mastery": mastery},
+        timeout=TIMEOUT,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
 async def get_seen_tasks(
     client: httpx.AsyncClient,
     student_id: uuid.UUID,

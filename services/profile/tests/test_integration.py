@@ -11,6 +11,7 @@ import pytest
 import pytest_asyncio
 from datetime import datetime, timedelta
 from httpx import AsyncClient, ASGITransport
+from sqlalchemy import text
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 
 from shared.db import Base, get_db
@@ -274,6 +275,48 @@ async def test_attempts_count_increments(client):
 
     resp = await client.get(f"/students/{student_id}/mastery/{kc}")
     assert resp.json()["attempts_count"] == 3
+
+
+@pytest.mark.asyncio
+async def test_recent_accuracy_uses_raw_score_not_reward(client, db_session):
+    student_id = await create_student(client)
+    kc = "kc_accuracy_signal"
+
+    await client.post(
+        f"/students/{student_id}/interactions",
+        json={"task_id": str(uuid.uuid4()), "part_id": "p1", "score": 1.0, "hints_used": 0, "primary_kcs": [kc]},
+    )
+
+    await db_session.execute(
+        text(
+            """
+            INSERT INTO bandit_log
+                (id, student_id, task_id, kc_id, context_vector, reward, raw_score, recommended_at)
+            VALUES
+                (:id, :student_id, :task_id, :kc_id, :context_vector, :reward, :raw_score, :recommended_at)
+            """
+        ),
+        {
+            "id": uuid.uuid4(),
+            "student_id": student_id,
+            "task_id": uuid.uuid4(),
+            "kc_id": kc,
+            "context_vector": [0.0] * 13,
+            "reward": -0.25,
+            "raw_score": 1.0,
+            "recommended_at": datetime.utcnow(),
+        },
+    )
+    await db_session.commit()
+
+    await client.post(
+        f"/students/{student_id}/interactions",
+        json={"task_id": str(uuid.uuid4()), "part_id": "p1", "score": 1.0, "hints_used": 0, "primary_kcs": [kc]},
+    )
+
+    resp = await client.get(f"/students/{student_id}/mastery/{kc}")
+    assert resp.status_code == 200
+    assert resp.json()["confidence"] > 0.0
 
 
 @pytest.mark.asyncio

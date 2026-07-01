@@ -23,6 +23,8 @@ class RetrievalConfig:
     KC_COOLDOWN_WINDOW: int = 6
     KC_COOLDOWN_MAX: int = 3
     PHASE1_TASK_THRESHOLD: int = 15
+    CLUSTER_REASSIGN_INTERVAL: int = 20
+    CLUSTER_REASSIGN_MIN_TASKS: int = 15
     CONTEXT_DIM: int = 13
     ALPHA: float = 0.5          # LinUCB control group (A/B baseline)
     V_SQUARED: float = 0.25     # Thompson Sampling posterior variance scale

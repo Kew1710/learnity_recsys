@@ -143,6 +143,45 @@ class StudentRepository:
         await self.db.flush()
         return len(rows)
 
+    async def bulk_upsert_mastery(
+        self,
+        student_id: uuid.UUID,
+        kc_probabilities: dict[str, float],
+        now: datetime,
+    ) -> int:
+        """Upsert mastery priors from a diagnostic pass."""
+        if not kc_probabilities:
+            return 0
+        rows = [
+            {
+                "student_id": str(student_id),
+                "kc_id": kc_id,
+                "probability": prob,
+                "last_practiced": now,
+                "attempts_count": 0,
+                "p_transit": 0.1,
+                "p_slip": 0.1,
+                "p_guess": 0.2,
+            }
+            for kc_id, prob in kc_probabilities.items()
+        ]
+        await self.db.execute(
+            text("""
+                INSERT INTO mastery
+                    (student_id, kc_id, probability, last_practiced, attempts_count,
+                     p_transit, p_slip, p_guess)
+                VALUES
+                    (:student_id, :kc_id, :probability, :last_practiced, :attempts_count,
+                     :p_transit, :p_slip, :p_guess)
+                ON CONFLICT (student_id, kc_id) DO UPDATE
+                    SET probability = EXCLUDED.probability,
+                        last_practiced = EXCLUDED.last_practiced
+            """),
+            rows,
+        )
+        await self.db.flush()
+        return len(rows)
+
     async def save_interaction(self, interaction: InteractionModel) -> None:
         self.db.add(interaction)
         await self.db.flush()

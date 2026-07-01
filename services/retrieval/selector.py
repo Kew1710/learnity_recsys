@@ -9,8 +9,8 @@ select_kc_from_zpd:
 select_task:
   Из списка заданий для KC выбирает одно.
   Exploitation (80%): задание с difficulty ближайшей к ZPD-целевой сложности.
-  Stretch exploration (20%): задание с difficulty ближайшей к mastery+0.4 —
-    быстрая калибровка BKT для недооценённых учеников.
+    Stretch exploration (20%): задание с difficulty ближайшей к mastery+0.4 —
+      быстрая калибровка mastery для недооценённых учеников.
 """
 
 from __future__ import annotations
@@ -32,9 +32,15 @@ def filter_tasks_by_irt(
     mastery: float,
     floor: float = IRT_FLOOR,
     ceiling: float = IRT_CEILING,
-) -> list[dict]:
-    """Remove tasks where P(correct) is outside [floor, ceiling]."""
+) -> tuple[list[dict], bool]:
+    """
+    Keep tasks with P(correct) inside [floor, ceiling].
+
+    If no tasks fit the target band, return the nearest tasks instead of the
+    whole original pool. The boolean indicates whether fallback was used.
+    """
     filtered = []
+    scored_outside: list[tuple[float, dict]] = []
     for t in tasks:
         irt_diff = (t.get("parts") or [{}])[0].get("irt_difficulty")
         if irt_diff is None:
@@ -43,7 +49,16 @@ def filter_tasks_by_irt(
         p = compute_p_correct(mastery, irt_diff)
         if floor <= p <= ceiling:
             filtered.append(t)
-    return filtered if filtered else tasks
+        else:
+            distance = floor - p if p < floor else p - ceiling
+            scored_outside.append((distance, t))
+    if filtered:
+        return filtered, False
+    if not scored_outside:
+        return tasks, False
+    scored_outside.sort(key=lambda pair: pair[0])
+    fallback_limit = min(3, len(scored_outside))
+    return [task for _, task in scored_outside[:fallback_limit]], True
 
 
 def compute_p_correct(mastery: float, irt_difficulty: float) -> float:
@@ -139,7 +154,7 @@ def select_task(
     target_difficulty: ZPD-целевая сложность (compute_zpd_target_difficulty).
     stretch_difficulty: сложность для stretch exploration (mastery + 0.4).
       Если задан — exploration даёт задачу выше уровня вместо случайной,
-      что ускоряет калибровку BKT для недооценённых учеников.
+      что ускоряет калибровку mastery для недооценённых учеников.
 
     Возвращает (task, recommendation_source).
     recommendation_source: "zpd" | "stretch" | "exploration"
@@ -167,7 +182,7 @@ def select_task(
             )
         return best, "zpd"
     elif stretch_difficulty is not None:
-        # Stretch exploration: задача выше уровня — быстрая калибровка BKT
+        # Stretch exploration: задача выше уровня — быстрая калибровка mastery
         best = min(
             tasks,
             key=lambda t: abs((t["parts"][0].get("irt_difficulty") or 0.5) - stretch_difficulty),
