@@ -13,6 +13,7 @@ from __future__ import annotations
 import math
 import random
 import sys
+import uuid
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -37,6 +38,8 @@ from services.retrieval.diagnostic_cat import (
     update_cat_state,
 )
 from services.macro.diagnostics import diagnose, Diagnosis
+from services.macro.student_profile import MacroStudentProfile
+from services.macro.estimators import estimate_tasks_to_mastery, estimate_stall_risk, estimate_regression_risk
 from services.retrieval.selector import (
     filter_tasks_by_irt,
     compute_p_correct,
@@ -53,8 +56,81 @@ from shared.config import retrieval as _rcfg, bkt as _bcfg
 CONTEXT_DIM = _rcfg.CONTEXT_DIM
 
 st.set_page_config(page_title="Learnity RecSys Demo", page_icon=":books:", layout="wide")
-st.title("Learnity RecSys -- адаптивная рекомендательная система")
-st.caption("Интерактивная in-memory симуляция. Сервисы и БД не требуются.")
+
+# ---------------------------------------------------------------------------
+# Global CSS
+# ---------------------------------------------------------------------------
+st.markdown("""
+<style>
+/* hide default streamlit branding */
+#MainMenu, footer, header {visibility: hidden;}
+
+/* metric cards */
+[data-testid="stMetric"] {
+    background: rgba(34, 197, 94, 0.06);
+    border: 1px solid rgba(34, 197, 94, 0.18);
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+
+/* reduce top padding */
+.block-container {
+    padding-top: 2rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
+# ---------------------------------------------------------------------------
+# Plotly global template
+# ---------------------------------------------------------------------------
+_plotly_template = go.layout.Template(
+    layout=go.Layout(
+        font=dict(family="sans-serif", color="#a1a1aa", size=12),
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(9,9,11,0.8)",
+        colorway=["#22c55e", "#3b82f6", "#ef4444", "#a855f7",
+                   "#f97316", "#06b6d4", "#f43f5e", "#84cc16"],
+        xaxis=dict(gridcolor="rgba(63,63,70,0.5)", zerolinecolor="rgba(63,63,70,0.7)"),
+        yaxis=dict(gridcolor="rgba(63,63,70,0.5)", zerolinecolor="rgba(63,63,70,0.7)"),
+        margin=dict(l=40, r=20, t=40, b=40),
+        hoverlabel=dict(
+            bgcolor="rgba(24,24,27,0.97)",
+            bordercolor="rgba(34,197,94,0.3)",
+            font=dict(size=12, color="#e4e4e7"),
+        ),
+    ),
+)
+
+import plotly.io as pio
+pio.templates["learnity"] = _plotly_template
+pio.templates.default = "plotly_dark+learnity"
+
+# ---------------------------------------------------------------------------
+# Hero section
+# ---------------------------------------------------------------------------
+st.markdown("""
+<div style="
+    background: linear-gradient(135deg, rgba(34,197,94,0.08) 0%, rgba(9,9,11,0.9) 100%);
+    border: 1px solid rgba(34,197,94,0.2);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-bottom: 24px;
+">
+    <h1 style="margin:0 0 6px 0; font-size:2rem; font-weight:700;
+        color: #22c55e;">
+        Learnity RecSys
+    </h1>
+    <p style="margin:0 0 12px 0; font-size:1.05rem; color:#a1a1aa;">
+        Адаптивная рекомендательная система для персонализированного обучения математике
+    </p>
+    <div style="display:flex; gap:24px; flex-wrap:wrap; font-size:13px; color:#71717a;">
+        <span><b style="color:#22c55e;">142</b> Knowledge Components</span>
+        <span><b style="color:#22c55e;">253</b> связи в графе</span>
+        <span><b style="color:#22c55e;">IRT + EMA + Thompson</b> пайплайн</span>
+        <span><b style="color:#22c55e;">5-11</b> класс</span>
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
 # ===================================================================
 # Граф знаний (из services/graph/kc_data.py — реальный граф проекта)
@@ -211,12 +287,11 @@ def score_label(s: float) -> str:
 # Вкладки
 # ===================================================================
 
-tab_full, tab_micro, tab_macro, tab_mastery, tab_cluster = st.tabs([
+tab_full, tab_micro, tab_macro, tab_mastery = st.tabs([
     "Полная симуляция",
     "Micro-уровень",
     "Macro-уровень",
     "Mastery и Confidence",
-    "Кластеризация",
 ])
 
 
@@ -405,41 +480,102 @@ with tab_full:
             )
 
             rng_np = np.random.RandomState(42)
-            n_peers = 60
-            peer_data = np.clip(
-                rng_np.rand(n_peers, len(sim_kcs)) * 0.8 + 0.1, 0, 1,
-            ).astype(np.float32)
+
+            group_centers = [-0.15, -0.05, 0.05, 0.15]
+            peers_per_group = 20
+            peer_rows = []
+            for center in group_centers:
+                for _ in range(peers_per_group):
+                    mod_i = center + rng_np.randn() * 0.04
+                    peer_m = init_true_mastery(grade, mod_i)
+                    base = np.array([peer_m[kc] for kc in sim_kcs], dtype=np.float32)
+                    blend = 0.3 + rng_np.rand() * 0.4
+                    row = base * (1 - blend) + base.mean() * blend
+                    row += rng_np.randn(len(sim_kcs)).astype(np.float32) * 0.08
+                    peer_rows.append(np.clip(row, 0.02, 0.98))
+
+            peer_data = np.array(peer_rows, dtype=np.float32)
             student_vec = np.array([vis_m[kc] for kc in sim_kcs], dtype=np.float32)
             full_matrix = np.vstack([peer_data, student_vec.reshape(1, -1)])
             gmm, best_k = _select_n_clusters(full_matrix, max_k=8)
             all_labels = gmm.predict(full_matrix)
             student_cluster = int(all_labels[-1])
 
-            st.markdown("**Mastery-вектор ученика (после CAT):**")
-            vec_df = pd.DataFrame([{
-                KC_NAMES[kc]: round(vis_m[kc], 2) for kc in sim_kcs
-            }])
-            st.dataframe(vec_df, use_container_width=True, hide_index=True)
-
             pca = PCA(n_components=2)
             coords = pca.fit_transform(full_matrix)
-            labels_str = [f"Кластер {l}" for l in all_labels[:-1]] + ["Наш ученик"]
-            sizes = [6] * n_peers + [16]
-            fig_cl = px.scatter(
-                x=coords[:, 0], y=coords[:, 1],
-                color=labels_str, size=sizes,
-                labels={"x": "PC1", "y": "PC2", "color": ""},
-                color_discrete_sequence=px.colors.qualitative.Set2,
+
+            peer_avg_mastery = [float(peer_data[i].mean()) for i in range(len(peer_data))]
+
+            fig_cl = go.Figure()
+            cluster_ids_sorted = sorted(set(all_labels[:-1]))
+            palette = px.colors.qualitative.Set2
+            for ci in cluster_ids_sorted:
+                mask = [j for j in range(len(peer_data)) if all_labels[j] == ci]
+                avg_m = np.mean([peer_avg_mastery[j] for j in mask])
+                fig_cl.add_trace(go.Scatter(
+                    x=coords[mask, 0], y=coords[mask, 1],
+                    mode="markers",
+                    marker=dict(size=9, color=palette[ci % len(palette)], opacity=0.75),
+                    name=f"Кластер {ci} (avg {avg_m:.2f})",
+                    text=[f"avg mastery: {peer_avg_mastery[j]:.2f}" for j in mask],
+                    hovertemplate="%{text}<extra></extra>",
+                ))
+            fig_cl.add_trace(go.Scatter(
+                x=[coords[-1, 0]], y=[coords[-1, 1]],
+                mode="markers",
+                marker=dict(size=14, color="#ef4444",
+                            line=dict(width=2, color="white")),
+                name="Наш ученик",
+                hovertemplate="Наш ученик<extra></extra>",
+            ))
+            fig_cl.update_layout(
+                height=400, margin=dict(t=10, b=10),
+                xaxis_title="PC1", yaxis_title="PC2",
+                legend=dict(orientation="h", yanchor="bottom", y=1.02),
             )
-            fig_cl.update_layout(height=350, margin=dict(t=10, b=10))
             st.plotly_chart(fig_cl, use_container_width=True)
 
             cluster_size = int((all_labels == student_cluster).sum())
+            cluster_centroid = gmm.means_[student_cluster]
+            cluster_avg_m = float(cluster_centroid.mean())
             st.success(
-                f"Найдено **{best_k}** кластеров. "
-                f"Ученик отнесен к **кластеру {student_cluster}** "
-                f"({cluster_size} уч.). "
-                f"Thompson Sampling получит prior из этого кластера."
+                f"Найдено **{best_k}** кластеров (GMM + BIC). "
+                f"Ученик отнесён к **кластеру {student_cluster}** "
+                f"({cluster_size} уч., средний mastery кластера: {cluster_avg_m:.2f})."
+            )
+
+            st.markdown("**Как кластер влияет на подбор заданий:**")
+            cluster_members = [j for j in range(len(peer_data)) if all_labels[j] == student_cluster]
+            if cluster_members:
+                cluster_matrix = peer_data[cluster_members]
+            else:
+                cluster_matrix = peer_data
+            cluster_mean_per_kc = cluster_matrix.mean(axis=0)
+
+            rng_eff = np.random.RandomState(student_cluster)
+            n_sim_tasks = 12
+            sim_task_kcs = rng_eff.choice(len(sim_kcs), size=n_sim_tasks, replace=False)
+            effect_rows = []
+            for idx in sim_task_kcs:
+                kc = sim_kcs[idx]
+                cluster_avg_kc = float(cluster_mean_per_kc[idx])
+                student_m_kc = vis_m.get(kc, 0.5)
+                sim_reward = max(0.0, min(1.0, cluster_avg_kc * 0.6 + 0.2 + rng_eff.randn() * 0.08))
+                sim_count = int(rng_eff.randint(2, 20))
+                effect_rows.append({
+                    "Тема": KC_NAMES[kc],
+                    "Mastery ученика": round(student_m_kc, 2),
+                    "Avg mastery кластера": round(cluster_avg_kc, 2),
+                    "Avg reward кластера": round(sim_reward, 2),
+                    "Взаимодействий": sim_count,
+                    "Эффект": "cluster explore" if sim_count < 5 else "Thompson prior",
+                })
+            st.dataframe(pd.DataFrame(effect_rows), use_container_width=True, hide_index=True)
+            st.caption(
+                "**cluster explore** — задание мало тестировалось в кластере, система "
+                "приоритизирует его для сбора статистики (20% шанс в режиме build). "
+                "**Thompson prior** — средняя награда кластера используется как "
+                "начальное приближение для бандита (x[7] контекстного вектора)."
             )
 
             st.divider()
@@ -888,7 +1024,16 @@ document.addEventListener('DOMContentLoaded', function() {{
             if plan:
                 st.subheader("Фаза 4: Прохождение плана обучения")
                 st.markdown(
-                    "Для каждой темы Micro-уровень подбирает задания (IRT-фильтр + ZPD). "
+                    "Для каждой темы Micro-уровень подбирает задания в 3 шага:  \n"
+                    "**1. IRT Pre-filter** — отсекает слишком лёгкие/сложные "
+                    "(P(correct) вне [0.20, 0.90]).  \n"
+                    "**2. ZPD Target** — вычисляет целевую сложность "
+                    "(build: mastery+0.10, consolidate: −0.10, test: +0.30).  \n"
+                    "**3. select_task** — 80% exploitation (ближайшая к ZPD), "
+                    "20% stretch exploration (сложнее уровня, для калибровки mastery).  \n"
+                    "В полной системе к этому добавляются: "
+                    "cluster exploration (малотестированные задания кластера) "
+                    "и Thompson Sampling (байесовский выбор с cluster prior).  \n"
                     "Каждые 5 заданий Macro-уровень получает MicroSummary, "
                     "проводит диагностику и принимает решение."
                 )
@@ -954,9 +1099,11 @@ document.addEventListener('DOMContentLoaded', function() {{
                         recent_scores[plan_kc].append(score)
 
                         tasks_done += 1
+                        source_ru = {"zpd": "ZPD", "stretch": "stretch", "exploration": "exploration"}.get(source, source)
                         row = {
                             "N": tasks_done,
                             "Задание": task["task_id"],
+                            "Источник": source_ru,
                             "Сложность": diff_label(irt_diff),
                             "Ответ": score_label(score),
                             "Mastery": f"{all_vis_m[plan_kc]:.3f}",
@@ -1095,12 +1242,38 @@ document.addEventListener('DOMContentLoaded', function() {{
                 st.subheader("Итоги обучения")
 
                 scores_all = [h["score"] for h in history]
-                m1, m2, m3, m4 = st.columns(4)
+                mastered_kcs = [kc for kc in plan if all_vis_m.get(kc, 0) >= mastery_threshold]
+                failed_kcs = [kc for kc in plan if all_vis_m.get(kc, 0) < mastery_threshold]
+
+                m1, m2, m3 = st.columns(3)
                 m1.metric("Всего заданий", len(history))
                 acc = sum(1 for s in scores_all if s >= 0.9) / len(scores_all)
                 m2.metric("Точность", f"{acc:.0%}")
                 m3.metric("Средний балл", f"{sum(scores_all) / len(scores_all):.2f}")
-                m4.metric("Тем пройдено", len(plan))
+
+                m4, m5, m6 = st.columns(3)
+                m4.metric("Всего тем", len(plan))
+                m5.metric("Освоено тем", len(mastered_kcs),
+                          delta=f"{len(mastered_kcs)}/{len(plan)}", delta_color="normal")
+                m6.metric("Проблемные темы", len(failed_kcs),
+                          delta=f"{len(failed_kcs)}" if failed_kcs else "нет",
+                          delta_color="inverse")
+
+                if failed_kcs:
+                    failed_rows = []
+                    for kc in failed_kcs:
+                        kc_hist = [h for h in history if h["kc_id"] == kc]
+                        avg_s = sum(h["score"] for h in kc_hist) / max(1, len(kc_hist))
+                        failed_rows.append({
+                            "Тема": KC_NAMES[kc],
+                            "Финальный mastery": f"{all_vis_m.get(kc, 0):.2f}",
+                            "Порог": mastery_threshold,
+                            "Заданий": len(kc_hist),
+                            "Средний балл": f"{avg_s:.2f}",
+                            "Причина": "бюджет исчерпан" if len(kc_hist) >= 15 else "macro-решение",
+                        })
+                    st.markdown("**Проблемные темы (не достигли порога):**")
+                    st.dataframe(pd.DataFrame(failed_rows), use_container_width=True, hide_index=True)
 
                 st.markdown("**Эволюция mastery по шагам обучения:**")
                 df_snap = pd.DataFrame(mastery_snapshots)
@@ -1135,445 +1308,706 @@ document.addEventListener('DOMContentLoaded', function() {{
 with tab_micro:
     st.header("Micro-уровень: как система подбирает задание")
     st.markdown(
-        "Micro-уровень (Retrieval) отвечает за выбор конкретного задания. "
-        "Три ключевых компонента: IRT-фильтр, Thompson Sampling, диагностический CAT."
+        "Полный пайплайн подбора задания:  \n"
+        "1. **IRT Pre-filter** — отсекает задания, где P(correct) вне [0.20, 0.90]  \n"
+        "2. **ZPD target** — вычисляет целевую сложность по режиму "
+        "(build +0.10, consolidate −0.10, test +0.30)  \n"
+        "3. **select_task** — 80% exploitation (ближайшее к ZPD target), "
+        "20% stretch/exploration  \n"
+        "4. **Thompson Sampling** — байесовский бандит уточняет выбор на основе "
+        "контекстного вектора (13 фич)  \n"
+        "5. **Cluster exploration** — 20% шанс (в build) попробовать задание из "
+        "кластерной статистики  \n\n"
+        "Режим определяется автоматически: **build** → **test** (mastery близко к порогу) "
+        "→ **consolidate** (при низкой точности ответов)."
     )
-
-    micro_section = st.radio(
-        "Компонент",
-        ["IRT Pre-filter", "Thompson Sampling", "Диагностический CAT"],
-        horizontal=True,
-        key="micro_section",
-    )
-
-    if micro_section == "IRT Pre-filter":
-        st.subheader("IRT Pre-filter: фильтрация заданий по сложности")
+    with st.expander("Подробнее о режимах обучения"):
         st.markdown(
-            "Система оставляет задания, где вероятность правильного ответа P(correct) "
-            "попадает в диапазон [0.20, 0.90]. Слишком лёгкие и слишком сложные отсекаются."
+            "Система автоматически переключает режим на основе прогресса ученика.  \n"
+            "Каждый режим меняет **три параметра**: целевую сложность, "
+            "границы IRT-фильтра и уровень exploration.\n\n"
+            "| Режим | Когда включается | ZPD сдвиг | IRT диапазон | Cluster explore | ε (случайность) |\n"
+            "|-------|-----------------|-----------|--------------|----------------|------------------|\n"
+            "| **Build** | По умолчанию — ученик изучает тему | +0.10 (чуть сложнее) | [0.20, 0.90] | 20% | 5% |\n"
+            "| **Consolidate** | Точность < 45% за последние 5 заданий или фрустрация ≥ 2 | −0.10 (чуть легче) | [0.40, 0.95] | 10% | 10% |\n"
+            "| **Test** | Mastery ≥ порог − 0.10 (близко к цели) | +0.30 (заметно сложнее) | [0.15, 0.85] | 0% | 0% |\n\n"
+            "**Build** — основной режим: система даёт задания чуть выше текущего уровня, "
+            "активно исследует через кластерную статистику (20%).  \n"
+            "**Consolidate** — включается при трудностях: система снижает сложность, "
+            "расширяет допустимый диапазон P(correct) вверх до 0.95, "
+            "увеличивает случайный выбор (ε=10%) чтобы найти задания, которые подходят лучше.  \n"
+            "**Test** — финальная проверка: задания значительно сложнее, "
+            "никакого exploration — чистая эксплуатация лучшего задания для проверки знаний."
         )
 
-        col_irt_cfg, col_irt_viz = st.columns([1, 2])
-        with col_irt_cfg:
-            irt_mastery = st.slider("Mastery ученика", 0.05, 0.95, 0.50, 0.05, key="irt_m")
-            irt_mode = st.selectbox("Режим обучения", ["build", "consolidate", "test"], key="irt_mode")
-            irt_kc = st.selectbox(
-                "KC для примера",
-                ALL_KCS[:8],
-                format_func=lambda x: KC_NAMES[x],
-                key="irt_kc",
-            )
+    col_mi_cfg, col_mi_viz = st.columns([1, 3])
 
-        with col_irt_viz:
-            kc_tasks_demo = [t for t in TASK_POOL if t["kc_id"] == irt_kc]
-            filtered_demo, fallback_used = filter_tasks_by_irt(kc_tasks_demo, irt_mastery)
+    with col_mi_cfg:
+        st.subheader("Профиль")
+        mi_grade = st.slider("Класс", 5, 11, 8, key="mi_grade")
+        mi_type = st.selectbox("Тип ученика", list(STUDENT_TYPES.keys()), key="mi_type")
 
-            task_rows = []
-            for t in kc_tasks_demo:
-                d_val = t["parts"][0]["irt_difficulty"]
-                p = compute_p_correct(irt_mastery, d_val)
-                passes = t in filtered_demo
-                task_rows.append({
-                    "Задание": t["task_id"],
-                    "Сложность": diff_label(d_val),
-                    "IRT diff": round(d_val, 2),
-                    "P(correct)": round(p, 3),
-                    "Статус": ("Fallback" if fallback_used else "Принято") if passes else "Отклонено",
-                })
-            st.dataframe(pd.DataFrame(task_rows), use_container_width=True, hide_index=True)
-
-            if fallback_used:
-                st.warning("Ни одно задание не попало в целевой диапазон. Выбраны ближайшие (fallback).")
-
-            theta_irt = math.log(max(0.01, min(0.99, irt_mastery)) / (1 - max(0.01, min(0.99, irt_mastery))))
-            diffs_range = np.linspace(-3.0, 3.0, 200)
-            p_curve = [1.0 / (1.0 + math.exp(-(theta_irt - d))) for d in diffs_range]
-            fig_irt = go.Figure()
-            fig_irt.add_trace(go.Scatter(
-                x=diffs_range, y=p_curve, name="P(correct)",
-                line=dict(color="#636EFA", width=2),
-            ))
-            fig_irt.add_hline(y=0.20, line_dash="dash", line_color="red",
-                              annotation_text="floor (0.20)")
-            fig_irt.add_hline(y=0.90, line_dash="dash", line_color="red",
-                              annotation_text="ceiling (0.90)")
-            for t in kc_tasks_demo:
-                d_val = t["parts"][0]["irt_difficulty"]
-                p = compute_p_correct(irt_mastery, d_val)
-                color = "green" if t in filtered_demo else "red"
-                fig_irt.add_trace(go.Scatter(
-                    x=[d_val], y=[p], mode="markers",
-                    marker=dict(size=10, color=color),
-                    name=t["task_id"], showlegend=False,
-                ))
-            fig_irt.update_layout(
-                xaxis_title="Сложность задания (IRT logit-шкала)",
-                yaxis_title="P(correct)",
-                yaxis_range=[-0.05, 1.05], height=400,
-            )
-            st.plotly_chart(fig_irt, use_container_width=True)
-
-    elif micro_section == "Thompson Sampling":
-        st.subheader("Thompson Sampling: байесовский выбор задания")
-        st.markdown(
-            "Бандит оценивает ожидаемую награду для каждого задания. "
-            "Thompson Sampling сэмплирует из апостериорного распределения -- "
-            "это даёт баланс между использованием лучшего и проверкой неизвестных."
+        mi_kcs = grade_kcs(mi_grade)
+        mi_kc = st.selectbox(
+            "Тема для изучения", mi_kcs,
+            format_func=lambda x: f"{KC_NAMES[x]} ({KC_INTRO_GRADE[x]} кл.)",
+            key="mi_kc",
         )
+        mi_mastery_init = st.slider("Начальный mastery", 0.10, 0.80, 0.35, 0.05, key="mi_m0")
+        mastery_threshold_mi = st.slider("Порог освоения", 0.60, 0.95, 0.80, 0.05, key="mi_thr")
+        mi_n_tasks = st.slider("Число заданий", 5, 30, 15, key="mi_n")
 
-        col_ts_cfg, col_ts_viz = st.columns([1, 3])
-        with col_ts_cfg:
-            n_arms = st.slider("Число заданий (arms)", 3, 8, 5, key="ts_arms")
-            n_rounds = st.slider("Число раундов", 20, 300, 100, key="ts_rounds")
-            run_ts = st.button("Запустить", type="primary", key="ts_run")
+        mi_view = st.radio("Режим просмотра", ["Полный путь", "Пошагово"], key="mi_view")
 
-        with col_ts_viz:
-            if not run_ts:
-                st.info("Нажмите **Запустить** для начала.")
+    def _auto_mode(mastery: float, threshold: float, recent: list[float]) -> str:
+        if mastery >= threshold - 0.10:
+            return "test"
+        ra = sum(recent[-5:]) / max(1, len(recent[-5:])) if recent else 1.0
+        if len(recent) >= 3 and ra < 0.45:
+            return "consolidate"
+        return "build"
+
+    with col_mi_viz:
+        mi_params = STUDENT_TYPES[mi_type]
+        mi_growth = mi_params["growth"]
+        mi_true_m_init = init_true_mastery(mi_grade, mi_params["mod"])[mi_kc]
+
+        if mi_view == "Полный путь":
+            run_mi = st.button("Показать полный путь", type="primary", key="mi_run")
+            if not run_mi:
+                st.info("Нажмите **Показать полный путь** — система подберёт все задания сразу.")
             else:
-                rng_ts = np.random.RandomState(42)
-                arm_features = rng_ts.randn(n_arms, CONTEXT_DIM).astype(np.float64)
-                true_theta = rng_ts.randn(CONTEXT_DIM).astype(np.float64)
-                true_theta /= np.linalg.norm(true_theta)
-                true_probs = 1.0 / (1.0 + np.exp(-(arm_features @ true_theta)))
-                best_arm = int(np.argmax(true_probs))
+                mi_rng = random.Random(42)
+                cur_m = mi_mastery_init
+                cur_true = mi_true_m_init
+                mi_consec = 0
+                mi_recent: list[float] = []
+                mi_log: list[dict] = []
 
-                ts_model = ThompsonModel.init("demo_kc", cluster_id=0)
-                ts_cumrew, rand_cumrew = [], []
-                ts_total, rand_total = 0.0, 0.0
-                ts_sel = np.zeros(n_arms)
+                for step in range(mi_n_tasks):
+                    mode = _auto_mode(cur_m, mastery_threshold_mi, mi_recent)
+                    kc_tasks = [t for t in TASK_POOL if t["kc_id"] == mi_kc]
+                    filtered, fb = filter_tasks_by_irt(kc_tasks, cur_m)
+                    target_d = compute_zpd_target_difficulty(cur_m, mode)
+                    task, source = select_task(filtered, target_d, mastery=cur_m, rng=mi_rng)
+                    irt_diff = task["parts"][0]["irt_difficulty"]
+                    p_pred = compute_p_correct(cur_m, irt_diff)
+                    score = simulate_answer(cur_true, irt_diff, mi_params["p_slip"], mi_params["p_guess"], mi_rng)
 
-                for t in range(n_rounds):
-                    ts_scores = [ts_model.score(arm_features[a]) for a in range(n_arms)]
-                    ts_choice = int(np.argmax(ts_scores))
-                    ts_reward = float(rng_ts.binomial(1, true_probs[ts_choice]))
-                    ts_model.update(arm_features[ts_choice], ts_reward)
-                    ts_total += ts_reward
-                    ts_cumrew.append(ts_total)
-                    ts_sel[ts_choice] += 1
+                    old_m = cur_m
+                    ra = sum(mi_recent[-5:]) / max(1, len(mi_recent[-5:]))
+                    cur_m = smooth_update(cur_m, score, consecutive_correct=mi_consec, recent_accuracy=ra, irt_difficulty=irt_diff)
+                    delta = cur_m - old_m
+                    mi_consec = mi_consec + 1 if score >= 0.9 else 0
+                    mi_recent.append(score)
+                    cur_true = min(1.0, cur_true + mi_growth * score * (1.0 - cur_true))
 
-                    rand_choice = rng_ts.randint(n_arms)
-                    rand_reward = float(rng_ts.binomial(1, true_probs[rand_choice]))
-                    rand_total += rand_reward
-                    rand_cumrew.append(rand_total)
-
-                rounds_x = list(range(1, n_rounds + 1))
-                oracle = [true_probs[best_arm] * t for t in rounds_x]
-
-                fig_ts = go.Figure()
-                fig_ts.add_trace(go.Scatter(
-                    x=rounds_x, y=ts_cumrew, name="Thompson Sampling",
-                    line=dict(color="#636EFA", width=2),
-                ))
-                fig_ts.add_trace(go.Scatter(
-                    x=rounds_x, y=rand_cumrew, name="Случайный выбор",
-                    line=dict(color="#EF553B", width=2),
-                ))
-                fig_ts.add_trace(go.Scatter(
-                    x=rounds_x, y=oracle, name="Oracle (лучший arm)",
-                    line=dict(color="#00CC96", width=1, dash="dot"),
-                ))
-                fig_ts.update_layout(
-                    xaxis_title="Раунд", yaxis_title="Кумулятивная награда",
-                    height=350,
-                )
-                st.plotly_chart(fig_ts, use_container_width=True)
-
-                arm_labels = [f"Задание {i} (p={true_probs[i]:.2f})" for i in range(n_arms)]
-                fig_sel = px.bar(x=arm_labels, y=ts_sel, color=ts_sel,
-                                 color_continuous_scale="Blues")
-                fig_sel.update_layout(
-                    height=280, showlegend=False, coloraxis_showscale=False,
-                    xaxis_title="", yaxis_title="Число выборов",
-                    title="Частота выбора каждого задания",
-                )
-                st.plotly_chart(fig_sel, use_container_width=True)
-
-                mc1, mc2, mc3 = st.columns(3)
-                mc1.metric("Награда TS", f"{ts_cumrew[-1]:.0f}")
-                mc2.metric("Награда Random", f"{rand_cumrew[-1]:.0f}")
-                mc3.metric("Regret TS", f"{oracle[-1] - ts_cumrew[-1]:.0f}")
-
-    else:  # Диагностический CAT
-        st.subheader("Диагностический CAT: калибровка нового ученика")
-        st.markdown(
-            "Для нового ученика система проводит 5-8 адаптивных заданий. "
-            "Каждое задание выбирается так, чтобы максимизировать информацию Фишера: "
-            "I(theta) = P(correct) * (1 - P(correct)), максимум при P = 0.5."
-        )
-
-        col_cat_cfg, col_cat_viz = st.columns([1, 3])
-        with col_cat_cfg:
-            cat_grade = st.slider("Класс", 1, 11, 7, key="cat_grade")
-            cat_type = st.selectbox("Тип ученика", list(STUDENT_TYPES.keys()), key="cat_type")
-            run_cat = st.button("Запустить CAT", type="primary", key="cat_run")
-
-        with col_cat_viz:
-            if not run_cat:
-                theta_demo = st.slider("theta ученика", -3.0, 3.0, 0.0, 0.1, key="cat_theta")
-                diffs_cat = np.linspace(-3, 3, 200)
-                p_vals = 1.0 / (1.0 + np.exp(-(theta_demo - diffs_cat)))
-                fisher_vals = p_vals * (1.0 - p_vals)
-
-                fig_fi = go.Figure()
-                fig_fi.add_trace(go.Scatter(
-                    x=diffs_cat, y=fisher_vals, name="I(theta)",
-                    line=dict(color="#636EFA", width=2),
-                ))
-                fig_fi.add_trace(go.Scatter(
-                    x=diffs_cat, y=p_vals, name="P(correct)",
-                    line=dict(color="#EF553B", width=1, dash="dash"),
-                ))
-                fig_fi.add_vline(x=theta_demo, line_dash="dot", line_color="green",
-                                 annotation_text=f"theta={theta_demo:.1f}")
-                fig_fi.update_layout(
-                    xaxis_title="Сложность задания",
-                    yaxis_title="Значение", height=350,
-                    title="Информация Фишера: максимум при difficulty = theta",
-                )
-                st.plotly_chart(fig_fi, use_container_width=True)
-                st.caption(
-                    "Двигайте ползунок theta, чтобы увидеть, как смещается пик "
-                    "информации Фишера. Система выбирает задание с difficulty "
-                    "рядом с текущей оценкой theta."
-                )
-            else:
-                cat_kcs = grade_kcs(cat_grade)
-                cat_true_m = init_true_mastery(cat_grade, STUDENT_TYPES[cat_type]["mod"])
-                cat_ps = STUDENT_TYPES[cat_type]["p_slip"]
-                cat_pg = STUDENT_TYPES[cat_type]["p_guess"]
-                cat_rng = random.Random(7)
-                cat_st = CATState.from_mastery({kc: 0.50 for kc in cat_kcs})
-                cat_steps_log: list[dict] = []
-
-                while not cat_st.is_complete:
-                    kc = select_diagnostic_kc(cat_st, cat_kcs)
-                    if kc is None:
-                        break
-                    kc_tasks_cat = [t for t in TASK_POOL if t["kc_id"] == kc]
-                    task_cat = select_diagnostic_task(
-                        kc_tasks_cat, cat_st.kc_theta[kc],
-                    )
-                    if task_cat is None:
-                        break
-                    diff_val = task_cat["parts"][0]["irt_difficulty"]
-                    p_before = 1.0 / (1.0 + math.exp(-cat_st.kc_theta[kc]))
-                    sc = simulate_answer(
-                        cat_true_m[kc], diff_val, cat_ps, cat_pg, cat_rng,
-                    )
-                    update_cat_state(cat_st, kc, sc, diff_val)
-                    p_after = 1.0 / (1.0 + math.exp(-cat_st.kc_theta[kc]))
-                    cat_steps_log.append({
-                        "N": len(cat_steps_log) + 1,
-                        "Тема": KC_NAMES[kc],
-                        "Сложность": diff_label(diff_val),
-                        "Ответ": score_label(sc),
-                        "Mastery до": round(p_before, 3),
-                        "Mastery после": round(p_after, 3),
-                        "Истинный": round(cat_true_m[kc], 3),
+                    mode_ru = {"build": "build", "consolidate": "consolid.", "test": "test"}[mode]
+                    mi_log.append({
+                        "N": step + 1,
+                        "Задание": task["task_id"],
+                        "Режим": mode_ru,
+                        "IRT diff": round(irt_diff, 2),
+                        "P(correct)": f"{p_pred:.2f}",
+                        "ZPD target": f"{target_d:.2f}",
+                        "Источник": source,
+                        "Ответ": score_label(score),
+                        "Mastery": f"{cur_m:.3f}",
+                        "Истинный": f"{cur_true:.3f}",
+                        "delta": f"{delta:+.3f}",
                     })
 
-                st.dataframe(
-                    pd.DataFrame(cat_steps_log),
-                    use_container_width=True, hide_index=True,
+                st.dataframe(pd.DataFrame(mi_log), use_container_width=True, hide_index=True)
+
+                mastery_vals = [mi_mastery_init] + [float(r["Mastery"]) for r in mi_log]
+                true_vals = [mi_true_m_init] + [float(r["Истинный"]) for r in mi_log]
+                fig_mi = go.Figure()
+                fig_mi.add_trace(go.Scatter(
+                    x=list(range(len(mastery_vals))), y=mastery_vals,
+                    name="Mastery (оценка системы)", mode="lines+markers",
+                    line=dict(color="#636EFA", width=2),
+                ))
+                fig_mi.add_trace(go.Scatter(
+                    x=list(range(len(true_vals))), y=true_vals,
+                    name="Истинный mastery", mode="lines+markers",
+                    line=dict(color="#00CC96", width=2, dash="dash"),
+                ))
+                fig_mi.add_hline(y=mastery_threshold_mi, line_dash="dot", line_color="#EF553B",
+                                 annotation_text=f"порог ({mastery_threshold_mi:.2f})")
+                fig_mi.update_layout(
+                    xaxis_title="Шаг", yaxis_title="Mastery",
+                    yaxis_range=[0, 1.05], height=320,
                 )
-                cat_final_m = cat_st.to_mastery()
-                kc_labels = [KC_NAMES[kc] for kc in cat_kcs]
-                fig_cat_comp = go.Figure()
-                fig_cat_comp.add_trace(go.Bar(
-                    x=kc_labels, y=[0.50] * len(cat_kcs),
-                    name="Prior (0.50)", marker_color="lightgray",
+                st.plotly_chart(fig_mi, use_container_width=True)
+
+                irt_diffs = [float(r["IRT diff"]) for r in mi_log]
+                sources = [r["Источник"] for r in mi_log]
+                modes = [r["Режим"] for r in mi_log]
+                colors = ["#636EFA" if s == "zpd" else "#EF553B" if s == "stretch" else "#FFA15A" for s in sources]
+                fig_diff = go.Figure()
+                fig_diff.add_trace(go.Bar(
+                    x=list(range(1, len(irt_diffs) + 1)), y=irt_diffs,
+                    marker_color=colors,
+                    text=[f"{s}<br>{m}" for s, m in zip(sources, modes)],
+                    textposition="outside",
                 ))
-                fig_cat_comp.add_trace(go.Bar(
-                    x=kc_labels, y=[cat_final_m[kc] for kc in cat_kcs],
-                    name="После CAT", marker_color="#636EFA",
-                ))
-                fig_cat_comp.add_trace(go.Bar(
-                    x=kc_labels, y=[cat_true_m[kc] for kc in cat_kcs],
-                    name="Истинный", marker_color="#00CC96", opacity=0.5,
-                ))
-                fig_cat_comp.update_layout(
-                    barmode="group", height=400,
-                    yaxis_title="Mastery", yaxis_range=[0, 1.05],
-                    title=f"Калибровка за {len(cat_steps_log)} заданий",
+                fig_diff.update_layout(
+                    xaxis_title="Шаг", yaxis_title="IRT difficulty",
+                    height=300,
+                    title="Сложность заданий (цвет = источник, текст = режим)",
                 )
-                st.plotly_chart(fig_cat_comp, use_container_width=True)
+                st.plotly_chart(fig_diff, use_container_width=True)
+
+        else:
+            ss = st.session_state
+            if "mi_step_state" not in ss or st.button("Сбросить", key="mi_reset"):
+                ss.mi_step_state = {
+                    "mastery": mi_mastery_init,
+                    "true_m": mi_true_m_init,
+                    "consec": 0,
+                    "recent": [],
+                    "log": [],
+                    "rng_state": 42,
+                }
+
+            state = ss.mi_step_state
+            step_n = len(state["log"])
+
+            if step_n > 0:
+                st.dataframe(pd.DataFrame(state["log"]), use_container_width=True, hide_index=True)
+
+                mastery_vals = [mi_mastery_init] + [float(r["Mastery"]) for r in state["log"]]
+                true_vals = [mi_true_m_init] + [float(r["Истинный"]) for r in state["log"]]
+                fig_step = go.Figure()
+                fig_step.add_trace(go.Scatter(
+                    x=list(range(len(mastery_vals))), y=mastery_vals,
+                    name="Mastery (оценка)", mode="lines+markers",
+                    line=dict(color="#636EFA", width=2),
+                ))
+                fig_step.add_trace(go.Scatter(
+                    x=list(range(len(true_vals))), y=true_vals,
+                    name="Истинный", mode="lines+markers",
+                    line=dict(color="#00CC96", width=2, dash="dash"),
+                ))
+                fig_step.add_hline(y=mastery_threshold_mi, line_dash="dot", line_color="#EF553B",
+                                   annotation_text=f"порог ({mastery_threshold_mi:.2f})")
+                fig_step.update_layout(
+                    xaxis_title="Шаг", yaxis_title="Mastery",
+                    yaxis_range=[0, 1.05], height=280,
+                )
+                st.plotly_chart(fig_step, use_container_width=True)
+
+            if step_n >= mi_n_tasks:
+                st.success(f"Все {mi_n_tasks} заданий пройдены. Финальный mastery: **{state['mastery']:.3f}** (истинный: **{state['true_m']:.3f}**)")
+            else:
+                mode = _auto_mode(state["mastery"], mastery_threshold_mi, state["recent"])
+                mi_rng = random.Random(state["rng_state"])
+                kc_tasks = [t for t in TASK_POOL if t["kc_id"] == mi_kc]
+                filtered, fb = filter_tasks_by_irt(kc_tasks, state["mastery"])
+                target_d = compute_zpd_target_difficulty(state["mastery"], mode)
+                task, source = select_task(filtered, target_d, mastery=state["mastery"], rng=mi_rng)
+                irt_diff = task["parts"][0]["irt_difficulty"]
+                p_pred = compute_p_correct(state["mastery"], irt_diff)
+
+                mode_labels = {"build": "Build (обучение)", "consolidate": "Consolidate (закрепление)", "test": "Test (проверка)"}
+                st.markdown(f"**Шаг {step_n + 1}** — режим: **{mode_labels[mode]}**")
+                pc1, pc2, pc3, pc4 = st.columns(4)
+                pc1.metric("Задание", task["task_id"].split("_t")[1])
+                pc2.metric("IRT difficulty", f"{irt_diff:.2f}")
+                pc3.metric("P(correct)", f"{p_pred:.2f}")
+                pc4.metric("Метод", source)
+
+                st.caption(
+                    f"IRT-фильтр: {len(filtered)}/{len(kc_tasks)} заданий прошли"
+                    f"{' (fallback)' if fb else ''}. "
+                    f"ZPD target: {target_d:.2f}. Mastery: {state['mastery']:.3f}. "
+                    f"Истинный: {state['true_m']:.3f}"
+                )
+
+                if st.button("Следующее задание (ответить и перейти)", type="primary", key="mi_next"):
+                    score = simulate_answer(state["true_m"], irt_diff, mi_params["p_slip"], mi_params["p_guess"], mi_rng)
+                    old_m = state["mastery"]
+                    ra = sum(state["recent"][-5:]) / max(1, len(state["recent"][-5:]))
+                    state["mastery"] = smooth_update(old_m, score, consecutive_correct=state["consec"], recent_accuracy=ra, irt_difficulty=irt_diff)
+                    delta = state["mastery"] - old_m
+                    state["consec"] = state["consec"] + 1 if score >= 0.9 else 0
+                    state["recent"].append(score)
+                    state["true_m"] = min(1.0, state["true_m"] + mi_growth * score * (1.0 - state["true_m"]))
+                    state["rng_state"] = mi_rng.randint(0, 2**31)
+                    mode_ru = {"build": "build", "consolidate": "consolid.", "test": "test"}[mode]
+                    state["log"].append({
+                        "N": step_n + 1,
+                        "Задание": task["task_id"],
+                        "Режим": mode_ru,
+                        "IRT diff": round(irt_diff, 2),
+                        "P(correct)": f"{p_pred:.2f}",
+                        "ZPD target": f"{target_d:.2f}",
+                        "Источник": source,
+                        "Ответ": score_label(score),
+                        "Mastery": f"{state['mastery']:.3f}",
+                        "Истинный": f"{state['true_m']:.3f}",
+                        "delta": f"{delta:+.3f}",
+                    })
+                    st.rerun()
 
 
 # ===================================================================
 # TAB 3 -- Macro-уровень
 # ===================================================================
 with tab_macro:
-    st.header("Macro-уровень: управление планом обучения")
+    st.header("Macro-уровень: построение плана обучения")
     st.markdown(
-        "Macro-уровень анализирует прогресс ученика и принимает стратегические решения: "
-        "продвинуть по плану, вставить дополнительную тему или перейти в режим закрепления."
+        "Macro-уровень строит **учебный план** на основе профиля ученика: "
+        "определяет порядок тем, оценивает бюджет заданий и риски для каждого шага. "
+        "Профиль влияет на строгость пререквизитов, бюджет заданий и готовность к тесту."
     )
 
-    macro_section = st.radio(
-        "Компонент",
-        ["Diagnostic Layer", "MicroSummary -> Решение"],
-        horizontal=True,
-        key="macro_section",
-    )
+    col_ma_cfg, col_ma_viz = st.columns([1, 3])
 
-    if macro_section == "Diagnostic Layer":
-        st.subheader("Diagnostic Layer: анализ причин затруднений")
-        st.markdown(
-            "Система определяет **причину** проблемы, а не просто реагирует на симптомы. "
-            "4 типа диагнозов + on_track для нормального прогресса."
-        )
+    with col_ma_cfg:
+        st.subheader("Профиль ученика")
 
-        col_d1, col_d2 = st.columns([1, 1])
-        with col_d1:
-            d_mastery = st.slider("Текущий mastery", 0.0, 1.0, 0.40, 0.05, key="d_m")
-            d_velocity = st.slider("Velocity", -0.10, 0.10, 0.00, 0.01, key="d_v")
-            d_frust = st.slider("Frustration (ошибки подряд)", 0, 5, 2, key="d_f")
-            d_score = st.slider("Средний балл", 0.0, 1.0, 0.40, 0.05, key="d_s")
-        with col_d2:
-            d_tasks = st.slider("Заданий на шаге", 1, 20, 5, key="d_t")
-            d_attempts = st.slider("Всего попыток по KC", 1, 30, 8, key="d_a")
-            d_conf = st.slider("Confidence", 0.0, 1.0, 0.50, 0.05, key="d_c")
-            d_prereq = st.slider("Mastery пререквизита", 0.0, 1.0, 0.60, 0.05, key="d_p")
-            d_tc = st.slider("Заданий в банке", 1, 20, 10, key="d_tc")
-
-        d_result = diagnose(
-            mastery_current=d_mastery, velocity=d_velocity,
-            frustration_count=d_frust, avg_score=d_score,
-            tasks_spent=d_tasks, attempts_count=d_attempts,
-            mastery_confidence=d_conf, weakest_prereq_mastery=d_prereq,
-            task_count_for_kc=d_tc,
-        )
-        label, desc = DIAGNOSIS_RU[d_result.reason]
-        color_map = {
-            "prereq_gap": "red", "content_gap": "orange",
-            "uncertain_estimate": "blue", "regression": "violet",
-            "on_track": "green",
+        ma_presets = {
+            "Средний ученик": dict(
+                uncertainty=0.40, confidence=0.50, weak_prereq=0.25,
+                speed_global=0.06, speed_recent=0.06, recovery=0.55,
+                frustration=0.30, stall_base=0.25, regression_base=0.20,
+                pacing="normal", budget_mult=1.0, prereq_strict=0.70,
+                test_bias=0.0, granularity=1.0,
+            ),
+            "Быстрый ученик": dict(
+                uncertainty=0.20, confidence=0.70, weak_prereq=0.10,
+                speed_global=0.12, speed_recent=0.14, recovery=0.75,
+                frustration=0.15, stall_base=0.10, regression_base=0.10,
+                pacing="fast", budget_mult=0.7, prereq_strict=0.60,
+                test_bias=0.15, granularity=0.8,
+            ),
+            "Медленный ученик": dict(
+                uncertainty=0.60, confidence=0.30, weak_prereq=0.45,
+                speed_global=0.03, speed_recent=0.02, recovery=0.35,
+                frustration=0.55, stall_base=0.50, regression_base=0.40,
+                pacing="slow", budget_mult=1.5, prereq_strict=0.80,
+                test_bias=-0.10, granularity=1.3,
+            ),
+            "Настроить вручную": None,
         }
-        st.markdown(f"### Результат: :{color_map[d_result.reason]}[{label}]")
-        st.markdown(f"**Уверенность:** {d_result.confidence:.0%}")
-        st.markdown(f"**Описание:** {desc}")
-        st.markdown(f"**Детали (из модели):** {d_result.detail}")
+        ma_preset = st.selectbox("Пресет", list(ma_presets.keys()), key="ma_preset")
+        p = ma_presets[ma_preset] or ma_presets["Средний ученик"]
+
+        with st.expander("Параметры профиля", expanded=ma_preset == "Настроить вручную"):
+            ma_uncertainty = st.slider("Неопределённость оценки", 0.0, 1.0, p["uncertainty"], 0.05, key="ma_unc")
+            ma_confidence = st.slider("Средняя confidence", 0.0, 1.0, p["confidence"], 0.05, key="ma_conf")
+            ma_weak_prereq = st.slider("Доля слабых пререквизитов", 0.0, 1.0, p["weak_prereq"], 0.05, key="ma_wp")
+            ma_speed = st.slider("Скорость обучения (global)", 0.01, 0.20, p["speed_global"], 0.01, key="ma_spd")
+            ma_recovery = st.slider("Восстановление после ошибки", 0.0, 1.0, p["recovery"], 0.05, key="ma_rec")
+            ma_frustration = st.slider("Риск фрустрации", 0.0, 1.0, p["frustration"], 0.05, key="ma_frust")
+            ma_stall = st.slider("Базовый риск застревания", 0.0, 1.0, p["stall_base"], 0.05, key="ma_stall")
+            ma_regression = st.slider("Базовый риск регрессии", 0.0, 1.0, p["regression_base"], 0.05, key="ma_regr")
+            ma_budget = st.slider("Множитель бюджета", 0.5, 2.0, p["budget_mult"], 0.1, key="ma_budg")
+            ma_prereq_strict = st.slider("Строгость пререквизитов", 0.50, 0.95, p["prereq_strict"], 0.05, key="ma_ps")
 
         st.divider()
-        st.markdown("#### Примеры всех диагнозов:")
-        examples = [
-            ("on_track", dict(mastery_current=0.5, velocity=0.03, frustration_count=0,
-                              avg_score=0.7, tasks_spent=3, attempts_count=8,
-                              mastery_confidence=0.6, weakest_prereq_mastery=0.8,
-                              task_count_for_kc=10)),
-            ("prereq_gap", dict(mastery_current=0.3, velocity=-0.02, frustration_count=3,
-                                avg_score=0.3, tasks_spent=5, attempts_count=8,
-                                mastery_confidence=0.6, weakest_prereq_mastery=0.35,
-                                task_count_for_kc=10)),
-            ("uncertain_estimate", dict(mastery_current=0.4, velocity=0.0, frustration_count=2,
-                                        avg_score=0.4, tasks_spent=2, attempts_count=3,
-                                        mastery_confidence=0.2, weakest_prereq_mastery=0.7,
-                                        task_count_for_kc=10)),
-            ("regression", dict(mastery_current=0.8, velocity=-0.05, frustration_count=3,
-                                avg_score=0.3, tasks_spent=4, attempts_count=15,
-                                mastery_confidence=0.7, weakest_prereq_mastery=0.8,
-                                task_count_for_kc=10)),
-            ("content_gap", dict(mastery_current=0.4, velocity=-0.01, frustration_count=3,
-                                 avg_score=0.35, tasks_spent=6, attempts_count=10,
-                                 mastery_confidence=0.5, weakest_prereq_mastery=0.7,
-                                 task_count_for_kc=2)),
-        ]
-        for _expected, params in examples:
-            diag = diagnose(**params)
-            lbl, dsc = DIAGNOSIS_RU[diag.reason]
-            clr = color_map[diag.reason]
-            st.markdown(f":{clr}[**{lbl}**] ({diag.confidence:.0%}) -- {dsc}")
+        ma_grade = st.slider("Класс", 5, 11, 8, key="ma_grade")
+        ma_kcs = grade_kcs(ma_grade)
+        ma_target = st.selectbox(
+            "Целевая тема", ma_kcs,
+            format_func=lambda x: f"{KC_NAMES[x]} ({KC_INTRO_GRADE[x]} кл.)",
+            key="ma_target",
+        )
+        ma_threshold = st.slider("Порог освоения", 0.60, 0.95, 0.80, 0.05, key="ma_thr")
 
-    else:  # MicroSummary -> Решение
-        st.subheader("MicroSummary -> Macro-решение")
-        st.markdown(
-            "Micro-уровень собирает статистику по последним заданиям. "
-            "Macro-уровень анализирует её и принимает решение."
+        ma_type = st.selectbox("Тип ученика (mastery)", list(STUDENT_TYPES.keys()), key="ma_st_type")
+
+    with col_ma_viz:
+        import json as _json
+        import streamlit.components.v1 as components
+
+        ma_st_params = STUDENT_TYPES[ma_type]
+        ma_true_m = init_true_mastery(ma_grade, ma_st_params["mod"])
+
+        profile = MacroStudentProfile(
+            student_id=uuid.UUID("00000000-0000-0000-0000-000000000001"),
+            updated_at=datetime.now(),
+            target_kc_id=ma_target,
+            uncertainty_level=ma_uncertainty,
+            mastery_confidence_mean=ma_confidence,
+            weak_prereq_fraction=ma_weak_prereq,
+            target_subgraph_mastery_mean=0.40,
+            learning_speed_global=ma_speed,
+            learning_speed_recent=ma_speed,
+            tasks_to_gain_01_mastery=round(1.0 / max(0.01, ma_speed)),
+            recovery_after_error=ma_recovery,
+            frustration_risk=ma_frustration,
+            stall_risk_baseline=ma_stall,
+            regression_risk_baseline=ma_regression,
+            pacing_mode=p["pacing"],
+            budget_multiplier=ma_budget,
+            prereq_strictness=ma_prereq_strict,
+            test_readiness_bias=p["test_bias"],
+            step_granularity=p["granularity"],
         )
 
-        score_input = st.text_input(
-            "Последовательность ответов (через запятую: 0 / 0.5 / 1)",
-            "1, 1, 0.5, 0, 0, 1, 0, 0, 0, 1",
-            key="ms_input",
-        )
-        ms_mastery = st.slider("Текущий mastery", 0.0, 1.0, 0.45, 0.05, key="ms_m")
-        ms_prereq = st.slider("Mastery пререквизита", 0.0, 1.0, 0.65, 0.05, key="ms_prereq")
+        plan = build_learning_path(ma_target, ma_true_m, ma_threshold)
 
-        try:
-            scores_list = [float(s.strip()) for s in score_input.split(",") if s.strip()]
-        except ValueError:
-            scores_list = []
-            st.error("Некорректный ввод.")
-
-        if scores_list:
-            mock_history = [{
-                "kc_id": "demo_kc", "score": sc,
-                "irt_diff": -0.5 + 0.1 * i, "mastery_delta": 0.02 * (sc - 0.5),
-            } for i, sc in enumerate(scores_list)]
-
-            ms = compute_micro_summary(mock_history, "demo_kc", ms_mastery)
-
-            col_ms1, col_ms2, col_ms3, col_ms4 = st.columns(4)
-            col_ms1.metric("Средний балл", f"{ms['avg_score']:.2f}")
-            col_ms2.metric("Velocity", f"{ms['velocity']:+.4f}")
-            col_ms3.metric("Frustration", ms["frustration_count"])
-            col_ms4.metric("IRT residual", f"{ms['irt_residual']:.3f}")
-
-            conf = compute_confidence(
-                attempts_count=len(scores_list),
-                recent_accuracy=ms["avg_score"],
-                probability_effective=ms_mastery,
-                last_practiced=datetime(2025, 1, 1),
-                now=datetime(2025, 1, 1, 0, 1),
+        if not plan:
+            st.success(
+                f"Ученик уже освоил **{KC_NAMES[ma_target]}** и все пререквизиты "
+                f"(mastery >= {ma_threshold})!"
             )
+        else:
+            def _collect_subgraph_ma(target: str) -> set[str]:
+                nodes: set[str] = set()
+                def _walk(kc: str) -> None:
+                    if kc in nodes:
+                        return
+                    nodes.add(kc)
+                    for pr in KC_GRAPH.get(kc, []):
+                        _walk(pr)
+                _walk(target)
+                return nodes
 
-            d_ms = diagnose(
-                mastery_current=ms_mastery, velocity=ms["velocity"],
-                frustration_count=ms["frustration_count"],
-                avg_score=ms["avg_score"],
-                tasks_spent=len(scores_list), attempts_count=len(scores_list),
-                mastery_confidence=conf, weakest_prereq_mastery=ms_prereq,
-                task_count_for_kc=10,
-            )
-            lbl_ms, desc_ms = DIAGNOSIS_RU[d_ms.reason]
-            clr_ms = {"prereq_gap": "red", "content_gap": "orange",
-                       "uncertain_estimate": "blue", "regression": "violet",
-                       "on_track": "green"}[d_ms.reason]
+            subgraph_kcs = _collect_subgraph_ma(ma_target)
+            plan_set = set(plan)
 
-            st.markdown("---")
-            st.markdown("#### Цепочка принятия решения:")
-            st.info(
-                f"**[MICRO -> MicroSummary]** avg_score={ms['avg_score']:.2f}, "
-                f"velocity={ms['velocity']:+.4f}, frustration={ms['frustration_count']}"
-            )
-            st.markdown(f"**[MACRO -> Диагностика]** :{clr_ms}[{lbl_ms}] ({d_ms.confidence:.0%})")
+            plan_details = []
+            for idx, kc in enumerate(plan):
+                m = ma_true_m.get(kc, 0.0)
+                prereqs = KC_GRAPH.get(kc, [])
+                weak_pf = sum(1 for pr in prereqs if ma_true_m.get(pr, 0) < ma_prereq_strict) / max(1, len(prereqs))
+                tasks_budget = estimate_tasks_to_mastery(
+                    profile=profile, kc_id=kc,
+                    current_mastery=m, target_mastery=ma_threshold,
+                    weak_prereq_fraction=weak_pf,
+                    confidence=ma_confidence,
+                )
+                stall = estimate_stall_risk(
+                    profile=profile, kc_id=kc,
+                    weak_prereq_fraction=weak_pf,
+                    confidence=ma_confidence,
+                    graph_depth=idx,
+                )
+                regr = estimate_regression_risk(
+                    profile=profile, kc_id=kc,
+                    confidence=ma_confidence,
+                )
+                is_target = kc == ma_target
+                mode = "test" if m >= ma_threshold - 0.10 else "build"
 
-            if ms_mastery >= 0.75:
-                st.success("**[MACRO -> Решение]** Mastery достаточен -> ADVANCE")
-            elif d_ms.reason == "prereq_gap":
-                st.warning("**[MACRO -> Решение]** INSERT_PREREQ (вставить пререквизит)")
-            elif ms["frustration_count"] >= 3:
-                st.warning("**[MACRO -> Решение]** CONSOLIDATE (режим закрепления)")
-            elif d_ms.reason == "on_track":
-                st.info("**[MACRO -> Решение]** CONTINUE (продолжить обучение)")
-            else:
-                st.info("**[MACRO -> Решение]** CONTINUE (наблюдать)")
+                reasons = []
+                if is_target:
+                    reasons.append("целевая тема")
+                else:
+                    reasons.append("пререквизит")
+                if m < 0.20:
+                    reasons.append("mastery очень низкий")
+                elif m < ma_threshold:
+                    reasons.append(f"mastery {m:.0%} < порога {ma_threshold:.0%}")
+                if weak_pf > 0.3:
+                    reasons.append(f"слабые пререквизиты ({weak_pf:.0%})")
+                if stall > 0.4:
+                    reasons.append(f"высокий риск застревания")
 
-            fig_scores = go.Figure()
-            fig_scores.add_trace(go.Bar(
-                x=list(range(1, len(scores_list) + 1)), y=scores_list,
-                marker_color=[
-                    "#00CC96" if s >= 0.9 else "#FFA15A" if s >= 0.4 else "#EF553B"
-                    for s in scores_list
-                ],
-            ))
-            fig_scores.update_layout(
-                xaxis_title="Задание", yaxis_title="Балл",
-                yaxis_range=[0, 1.1], height=250,
-                title="Последовательность ответов",
-            )
-            st.plotly_chart(fig_scores, use_container_width=True)
+                plan_details.append({
+                    "Шаг": idx + 1,
+                    "Тема": KC_NAMES[kc],
+                    "Mastery": f"{m:.0%}",
+                    "Режим": mode,
+                    "Бюджет": tasks_budget,
+                    "Stall risk": f"{stall:.0%}",
+                    "Regr. risk": f"{regr:.0%}",
+                    "Почему в плане": "; ".join(reasons),
+                })
+
+            st.subheader(f"План: {len(plan)} шагов к «{KC_NAMES[ma_target]}»")
+            st.dataframe(pd.DataFrame(plan_details), use_container_width=True, hide_index=True)
+
+            total_budget = sum(d["Бюджет"] for d in plan_details)
+            avg_stall = np.mean([float(d["Stall risk"].strip("%")) / 100 for d in plan_details])
+            mc1, mc2, mc3, mc4 = st.columns(4)
+            mc1.metric("Шагов в плане", len(plan))
+            mc2.metric("Всего заданий", total_budget)
+            mc3.metric("Ср. stall risk", f"{avg_stall:.0%}")
+            mc4.metric("Pacing", p["pacing"])
+
+            cy_nodes = []
+            cy_edges = []
+            for kc in ma_kcs:
+                m_val = ma_true_m.get(kc, 0)
+                in_subgraph = kc in subgraph_kcs
+                if kc == ma_target:
+                    node_type = "target"
+                elif kc in plan_set:
+                    node_type = "plan"
+                elif in_subgraph and m_val >= ma_threshold:
+                    node_type = "mastered"
+                elif in_subgraph:
+                    node_type = "subgraph"
+                else:
+                    node_type = "outside"
+                plan_order = plan.index(kc) + 1 if kc in plan_set else 0
+                subj = KC_SUBJECTS.get(kc, "")
+                subj_ru = SUBJECT_RU.get(subj, subj)
+                cy_nodes.append({
+                    "data": {
+                        "id": kc,
+                        "label": KC_NAMES[kc],
+                        "mastery": round(m_val, 2),
+                        "mastery_pct": f"{m_val:.0%}",
+                        "node_type": node_type,
+                        "plan_order": plan_order,
+                        "in_subgraph": in_subgraph,
+                        "subject": subj_ru,
+                        "grade": KC_INTRO_GRADE.get(kc, 0),
+                    }
+                })
+
+            ma_kcs_set = set(ma_kcs)
+            for kc in ma_kcs:
+                for prereq in KC_GRAPH.get(kc, []):
+                    if prereq not in ma_kcs_set:
+                        continue
+                    is_plan_edge = prereq in plan_set and kc in plan_set
+                    is_subgraph_edge = prereq in subgraph_kcs and kc in subgraph_kcs
+                    if is_plan_edge:
+                        etype = "plan"
+                    elif is_subgraph_edge:
+                        etype = "subgraph"
+                    else:
+                        etype = "outside"
+                    strength = EDGE_STRENGTHS.get((prereq, kc), 0.5)
+                    cy_edges.append({
+                        "data": {
+                            "source": prereq,
+                            "target": kc,
+                            "edge_type": etype,
+                            "strength": round(strength, 2),
+                        }
+                    })
+
+            cy_elements = _json.dumps(cy_nodes + cy_edges)
+            plan_ids = _json.dumps(plan)
+
+            cy_html = f"""
+<div style="position:relative;">
+<div id="cy-graph-ma" style="width:100%;height:520px;border-radius:14px;
+     background:#0e1117;position:relative;overflow:hidden;
+     border:1px solid rgba(255,255,255,0.06);">
+</div>
+<div id="cy-tooltip-ma" style="position:absolute;display:none;padding:10px 14px;
+     background:rgba(14,17,23,0.96);color:#e2e8f0;border-radius:10px;
+     font-size:13px;pointer-events:none;z-index:100;
+     border:1px solid rgba(99,102,241,0.35);
+     box-shadow:0 8px 30px rgba(0,0,0,0.5);
+     backdrop-filter:blur(12px);max-width:220px;"></div>
+</div>
+
+<div style="display:flex;gap:18px;margin-top:8px;padding:6px 2px;
+     font-size:12.5px;color:#94a3b8;flex-wrap:wrap;align-items:center;">
+  <span style="display:flex;align-items:center;gap:5px;">
+    <span style="width:16px;height:16px;border-radius:4px;
+      background:linear-gradient(135deg,#818cf8,#6366f1);
+      box-shadow:0 0 10px rgba(99,102,241,0.5);"></span>
+    Целевая тема</span>
+  <span style="display:flex;align-items:center;gap:5px;">
+    <span style="width:16px;height:16px;border-radius:4px;
+      border:2px solid #f59e0b;background:rgba(245,158,11,0.15);"></span>
+    Маршрут обучения</span>
+  <span style="display:flex;align-items:center;gap:5px;">
+    <span style="width:16px;height:16px;border-radius:4px;
+      background:#10b981;"></span>
+    Освоено</span>
+  <span style="display:flex;align-items:center;gap:5px;">
+    <span style="width:16px;height:16px;border-radius:4px;
+      background:#334155;border:1px solid #475569;"></span>
+    Пререквизит (в подграфе)</span>
+</div>
+
+<script src="https://unpkg.com/cytoscape@3.30.4/dist/cytoscape.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {{
+
+  function masteryColor(m) {{
+    if (m >= 0.75) return '#10b981';
+    if (m >= 0.50) return '#3b82f6';
+    if (m >= 0.30) return '#f59e0b';
+    return '#ef4444';
+  }}
+
+  var elements = {cy_elements};
+  elements.forEach(function(e) {{
+    if (e.data && !e.data.source && e.data.mastery !== undefined) {{
+      var m = e.data.mastery;
+      if (e.data.node_type === 'plan') {{
+        e.data._bg = masteryColor(m);
+      }}
+    }}
+  }});
+
+  var cy = cytoscape({{
+    container: document.getElementById('cy-graph-ma'),
+    elements: elements,
+    style: [
+      {{
+        selector: 'node[node_type="outside"]',
+        style: {{
+          'label': 'data(label)',
+          'text-valign': 'center', 'text-halign': 'center',
+          'font-size': '9px', 'color': '#64748b',
+          'text-wrap': 'wrap', 'text-max-width': '75px',
+          'background-color': '#1e293b',
+          'width': 55, 'height': 55, 'shape': 'round-rectangle',
+          'border-width': 1, 'border-color': '#334155', 'opacity': 0.5,
+        }}
+      }},
+      {{
+        selector: 'node[node_type="mastered"]',
+        style: {{
+          'label': 'data(label)',
+          'text-valign': 'center', 'text-halign': 'center',
+          'font-size': '10.5px', 'font-weight': '500', 'color': '#f0fdf4',
+          'text-wrap': 'wrap', 'text-max-width': '85px',
+          'background-color': '#10b981',
+          'width': 66, 'height': 66, 'shape': 'round-rectangle',
+          'border-width': 2, 'border-color': '#34d399',
+        }}
+      }},
+      {{
+        selector: 'node[node_type="subgraph"]',
+        style: {{
+          'label': 'data(label)',
+          'text-valign': 'center', 'text-halign': 'center',
+          'font-size': '10.5px', 'font-weight': '500', 'color': '#e2e8f0',
+          'text-wrap': 'wrap', 'text-max-width': '85px',
+          'background-color': '#334155',
+          'width': 66, 'height': 66, 'shape': 'round-rectangle',
+          'border-width': 2, 'border-color': '#64748b',
+        }}
+      }},
+      {{
+        selector: 'node[node_type="plan"]',
+        style: {{
+          'label': 'data(label)',
+          'text-valign': 'center', 'text-halign': 'center',
+          'font-size': '11px', 'font-weight': '600', 'color': '#fffbeb',
+          'text-wrap': 'wrap', 'text-max-width': '90px',
+          'background-color': 'data(_bg)',
+          'width': 74, 'height': 74, 'shape': 'round-rectangle',
+          'border-width': 3, 'border-color': '#f59e0b',
+          'shadow-blur': 12, 'shadow-color': 'rgba(245,158,11,0.35)', 'shadow-opacity': 1,
+        }}
+      }},
+      {{
+        selector: 'node[node_type="target"]',
+        style: {{
+          'label': 'data(label)',
+          'text-valign': 'center', 'text-halign': 'center',
+          'font-size': '12px', 'font-weight': '700', 'color': '#eef2ff',
+          'text-wrap': 'wrap', 'text-max-width': '95px',
+          'background-color': '#6366f1',
+          'width': 82, 'height': 82, 'shape': 'round-rectangle',
+          'border-width': 3, 'border-color': '#818cf8',
+          'shadow-blur': 25, 'shadow-color': 'rgba(99,102,241,0.5)', 'shadow-opacity': 1,
+        }}
+      }},
+      {{
+        selector: 'edge[edge_type="outside"]',
+        style: {{
+          'width': 1.5, 'line-color': '#334155',
+          'target-arrow-color': '#334155', 'target-arrow-shape': 'triangle',
+          'curve-style': 'bezier', 'arrow-scale': 0.7, 'opacity': 0.4,
+        }}
+      }},
+      {{
+        selector: 'edge[edge_type="subgraph"]',
+        style: {{
+          'width': 2, 'line-color': '#475569',
+          'target-arrow-color': '#475569', 'target-arrow-shape': 'triangle',
+          'curve-style': 'bezier', 'arrow-scale': 0.9,
+        }}
+      }},
+      {{
+        selector: 'edge[edge_type="plan"]',
+        style: {{
+          'width': 3.5, 'line-color': '#f59e0b',
+          'target-arrow-color': '#f59e0b', 'target-arrow-shape': 'triangle',
+          'curve-style': 'bezier', 'arrow-scale': 1.3,
+          'shadow-blur': 8, 'shadow-color': 'rgba(245,158,11,0.4)', 'shadow-opacity': 1,
+        }}
+      }},
+    ],
+    layout: {{
+      name: 'breadthfirst', directed: true,
+      spacingFactor: 1.3, avoidOverlap: true, padding: 35,
+      roots: elements
+        .filter(function(e) {{ return e.data && !e.data.source; }})
+        .filter(function(e) {{
+          var id = e.data.id;
+          return !elements.some(function(edge) {{ return edge.data && edge.data.target === id; }});
+        }})
+        .map(function(e) {{ return e.data.id; }}),
+    }},
+    userZoomingEnabled: true, userPanningEnabled: true,
+    boxSelectionEnabled: false, minZoom: 0.4, maxZoom: 2.5,
+  }});
+
+  var tooltip = document.getElementById('cy-tooltip-ma');
+  var container = document.getElementById('cy-graph-ma');
+
+  cy.on('mouseover', 'node', function(e) {{
+    var d = e.target.data();
+    var statusMap = {{
+      target: '<span style="color:#818cf8">Целевая тема</span>',
+      plan: '<span style="color:#fbbf24">В плане (шаг ' + d.plan_order + ')</span>',
+      mastered: '<span style="color:#34d399">Освоено</span>',
+      subgraph: 'В подграфе',
+      outside: '<span style="opacity:0.6">Вне подграфа</span>'
+    }};
+    var mColor = masteryColor(d.mastery);
+    var bar = '<div style="margin:6px 0 4px;height:6px;border-radius:3px;' +
+      'background:#1e293b;overflow:hidden;">' +
+      '<div style="width:' + (d.mastery * 100) + '%;height:100%;border-radius:3px;' +
+      'background:' + mColor + ';"></div></div>';
+    tooltip.innerHTML =
+      '<div style="font-weight:600;font-size:14px;margin-bottom:2px;">' + d.label + '</div>' +
+      '<div style="font-size:11px;color:#94a3b8;margin-bottom:3px;">' +
+      (d.subject || '') + ' · ' + d.grade + ' класс</div>' +
+      '<div style="font-size:12px;margin-bottom:4px;">' + (statusMap[d.node_type] || '') + '</div>' +
+      '<div style="font-size:12px;">Mastery: <b style="color:' + mColor + '">' + d.mastery_pct + '</b></div>' + bar;
+    tooltip.style.display = 'block';
+  }});
+
+  cy.on('mousemove', 'node', function(e) {{
+    var rect = container.getBoundingClientRect();
+    var x = e.originalEvent.clientX - rect.left + 15;
+    var y = e.originalEvent.clientY - rect.top - 10;
+    if (x + 230 > rect.width) x = x - 245;
+    if (y + 120 > rect.height) y = y - 100;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+  }});
+
+  cy.on('mouseout', 'node', function() {{
+    tooltip.style.display = 'none';
+  }});
+
+}});
+</script>
+"""
+            components.html(cy_html, height=600)
+
+            with st.expander("Как профиль влияет на план"):
+                st.markdown(
+                    f"**budget_multiplier = {ma_budget:.1f}** — "
+                    f"{'увеличенный бюджет (больше заданий на каждый шаг)' if ma_budget > 1.1 else 'стандартный бюджет' if ma_budget > 0.9 else 'сокращённый бюджет (меньше заданий)'}  \n"
+                    f"**prereq_strictness = {ma_prereq_strict:.2f}** — "
+                    f"пререквизит считается слабым при mastery < {ma_prereq_strict:.0%}  \n"
+                    f"**uncertainty = {ma_uncertainty:.2f}** — "
+                    f"{'высокая неопределённость → больше заданий для надёжной оценки' if ma_uncertainty > 0.5 else 'умеренная неопределённость'}  \n"
+                    f"**stall_risk_baseline = {ma_stall:.2f}** — "
+                    f"{'высокий базовый риск застревания → система будет внимательнее к прогрессу' if ma_stall > 0.35 else 'низкий риск застревания'}  \n"
+                    f"**pacing = {p['pacing']}** — "
+                    f"{'медленный темп: больше повторений, выше строгость' if p['pacing'] == 'slow' else 'быстрый темп: меньше заданий, ранний переход к тесту' if p['pacing'] == 'fast' else 'стандартный темп'}"
+                )
 
 
 # ===================================================================
@@ -1688,89 +2122,3 @@ with tab_mastery:
         col_c3.metric("Stability", f"{final_stability:.3f}")
 
 
-# ===================================================================
-# TAB 5 -- Кластеризация
-# ===================================================================
-with tab_cluster:
-    st.header("Кластеризация учеников (GMM + BIC)")
-    st.markdown(
-        "Система группирует учеников по профилю знаний с помощью Gaussian Mixture Model. "
-        "Число кластеров подбирается автоматически через BIC. "
-        "Новый ученик получает Thompson Sampling prior из своего кластера."
-    )
-
-    col_cl_cfg, col_cl_viz = st.columns([1, 3])
-
-    with col_cl_cfg:
-        st.subheader("Параметры")
-        n_students = st.slider("Число учеников", 30, 300, 100, key="cl_n")
-        n_kc_dim = st.slider("Число KC (размерность)", 5, 15, 8, key="cl_dim")
-        true_k = st.slider("Истинное число кластеров", 2, 8, 4, key="cl_k")
-        max_k_search = st.slider("Макс. k для поиска BIC", 3, 15, 10, key="cl_maxk")
-        run_cluster = st.button("Запустить кластеризацию", key="cl_run", type="primary")
-
-    with col_cl_viz:
-        if not run_cluster:
-            st.info("Нажмите **Запустить кластеризацию** для начала.")
-        else:
-            rng_cl = np.random.RandomState(42)
-            centers = rng_cl.rand(true_k, n_kc_dim).astype(np.float32)
-            labels_true = rng_cl.randint(0, true_k, size=n_students)
-            matrix = np.zeros((n_students, n_kc_dim), dtype=np.float32)
-            for i in range(n_students):
-                matrix[i] = centers[labels_true[i]] + rng_cl.randn(n_kc_dim).astype(np.float32) * 0.12
-            matrix = np.clip(matrix, 0, 1)
-
-            best_gmm, best_k_found = _select_n_clusters(matrix, max_k=max_k_search)
-            labels_pred = best_gmm.predict(matrix)
-
-            st.success(f"BIC выбрал k = **{best_k_found}** (истинное k = {true_k})")
-
-            st.subheader("BIC для разных k")
-            ks = list(range(2, max_k_search + 1))
-            bics = []
-            for k in ks:
-                gmm_tmp = GaussianMixture(
-                    n_components=k, covariance_type="diag", n_init=3, random_state=42,
-                )
-                gmm_tmp.fit(matrix)
-                bics.append(gmm_tmp.bic(matrix))
-
-            fig_bic = go.Figure()
-            fig_bic.add_trace(go.Scatter(
-                x=ks, y=bics, mode="lines+markers",
-                line=dict(color="#636EFA", width=2), marker=dict(size=8),
-            ))
-            fig_bic.add_vline(
-                x=best_k_found, line_dash="dash", line_color="red",
-                annotation_text=f"best k={best_k_found}",
-            )
-            fig_bic.update_layout(
-                xaxis_title="k (число кластеров)",
-                yaxis_title="BIC (ниже = лучше)", height=350,
-            )
-            st.plotly_chart(fig_bic, use_container_width=True)
-
-            st.subheader("PCA-проекция (2D)")
-            pca_cl = PCA(n_components=2)
-            coords_cl = pca_cl.fit_transform(matrix)
-            fig_pca = px.scatter(
-                x=coords_cl[:, 0], y=coords_cl[:, 1],
-                color=[f"Кластер {l}" for l in labels_pred],
-                labels={"x": "PC1", "y": "PC2", "color": "Кластер"},
-                color_discrete_sequence=px.colors.qualitative.Set2,
-            )
-            fig_pca.update_layout(height=400)
-            st.plotly_chart(fig_pca, use_container_width=True)
-
-            st.subheader("Размеры кластеров")
-            unique_cl, counts_cl = np.unique(labels_pred, return_counts=True)
-            fig_sizes = px.bar(
-                x=[f"Кластер {u}" for u in unique_cl], y=counts_cl,
-                color=counts_cl, color_continuous_scale="Viridis",
-            )
-            fig_sizes.update_layout(
-                height=280, showlegend=False, coloraxis_showscale=False,
-                xaxis_title="", yaxis_title="Число учеников",
-            )
-            st.plotly_chart(fig_sizes, use_container_width=True)
